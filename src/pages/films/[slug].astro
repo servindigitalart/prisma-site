@@ -1,0 +1,23 @@
+---
+import FilmLayout from "../../layouts/FilmLayout.astro";
+import FilmHero from "../../components/film/FilmHero.astro";
+import { loadAllWorks, loadWorkBySlug } from "../../lib/loaders/loadWork";
+
+export function getStaticPaths() {
+  const works = loadAllWorks();
+  return works.map((work) => ({
+    params: { slug: work.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const work = loadWorkBySlug(slug);
+
+if (!work) {
+  throw new Error("Film not found");
+}
+---
+
+<FilmLayout title={`${work.title} (${work.year})`}>
+  <FilmHero work={work} />
+</FilmLayout>

@@ -1,0 +1,45 @@
+---
+const { work } = Astro.props;
+
+const color = work.color_summary || {};
+const L = color.L_mean ?? 0.7;
+const C = color.chroma_mean ?? 0.04;
+
+// color editorial suave derivado
+const bg = `oklch(${L * 100}% ${C} 30deg)`;
+---
+
+<section class="film-hero" style={`--hero-bg:${bg}`}>
+  <div class="film-hero-inner">
+    <h1>{work.title}</h1>
+    <p class="film-year">{work.year}</p>
+  </div>
+</section>
+
+<style>
+.film-hero {
+  background: linear-gradient(
+    180deg,
+    var(--hero-bg),
+    oklch(98% 0 0)
+  );
+  padding: 6rem 2rem 4rem;
+}
+
+.film-hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 600;
+  margin: 0;
+}
+
+.film-year {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+</style>
