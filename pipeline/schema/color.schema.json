@@ -1,0 +1,12 @@
+{
+  "id": "string",
+  "name": "string",
+  "oklab_range": {
+    "a": ["min", "max"],
+    "b": ["min", "max"],
+    "chroma_min": "number"
+  },
+  "moods": ["string"],
+  "example_works": ["work_id"],
+  "example_people": ["person_id"]
+}

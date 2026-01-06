@@ -1,0 +1,13 @@
+{
+  "id": "string",
+  "name": "string",
+  "birth_year": "number",
+  "nationality": ["string"],
+  "roles": ["director | cinematography | actor | writer"],
+  "works": ["work_id"],
+  "derived_color_profile": {},
+  "ids": {
+    "tmdb": "number",
+    "wikidata": "string"
+  }
+}

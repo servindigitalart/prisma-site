@@ -1,0 +1,27 @@
+{
+  "id": "string",
+  "type": "film | short | music_video",
+  "title": "string",
+  "original_title": "string",
+  "year": "number",
+  "duration_min": "number",
+  "countries": ["string"],
+  "languages": ["string"],
+  "ids": {
+    "tmdb": "number",
+    "imdb": "string",
+    "wikidata": "string"
+  },
+  "genres": ["string"],
+  "studios": ["studio_id"],
+  "people": {
+    "director": ["person_id"],
+    "cinematography": ["person_id"],
+    "writer": ["person_id"],
+    "cast": ["person_id"]
+  },
+  "awards": [],
+  "color_signature": {},
+  "external_ratings": {},
+  "media": {}
+}
