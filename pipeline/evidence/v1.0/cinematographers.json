@@ -1,0 +1,366 @@
+{
+  "$schema": "This is descriptive research evidence, not normative doctrine",
+  "version": "1.0",
+  "last_updated": "2026-02-02",
+  "note": "All content is extracted from research sources. This does not assign colors to films or override editorial decisions.",
+  "cinematographers": [
+    {
+      "id": "vittorio_storaro",
+      "name": "Vittorio Storaro",
+      "credentials": "ASC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Treats color as physiological rather than merely aesthetic force",
+        "Argues that color wavelengths physically alter the viewer's metabolism",
+        "Posits a 'literary' function for cinematography - 'Writing with Light'",
+        "Rejects naturalism in favor of operatic symbolism",
+        "Believes color should classify films by physiological intent (e.g., red as 'blood pressure inducing' or 'symbolic of birth/danger')"
+      ],
+      "frequently_discussed_themes": [
+        "physiological color",
+        "operatic symbolism",
+        "conflict through color temperature opposition",
+        "symbolic primaries",
+        "color as biological trigger"
+      ],
+      "signature_techniques": [
+        "Dimmer Board Narrative - changing lighting state during shot to reflect character's internal change",
+        "Rarely mixes temperatures; opposes them (warm vs. cool)",
+        "Treats primary colors as biological triggers rather than hues",
+        "Uses colored smoke and artificial lighting for symbolic effect"
+      ],
+      "referenced_films": [
+        "Apocalypse Now",
+        "The Last Emperor",
+        "The Conformist"
+      ],
+      "color_approach_summary": "Conflict-based. Clashes warm (orange/red) against cool (blue/cyan) to represent conflict of forces (e.g., Nature vs. Technology). In The Last Emperor, colors mark stages of life (Red = Birth/Blood, Yellow = Identity/Emperor, Green = Knowledge).",
+      "sources": [
+        {
+          "type": "writings",
+          "description": "Storaro's writings on Apocalypse Now and The Last Emperor",
+          "note": "Primary source material discussing color as physiological force"
+        },
+        {
+          "type": "philosophy",
+          "title": "Writing with Light",
+          "description": "Storaro's conceptual framework for cinematography"
+        }
+      ]
+    },
+    {
+      "id": "christopher_doyle",
+      "name": "Christopher Doyle",
+      "credentials": "HKSC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Reactive, improvisational approach - 'Available Energy'",
+        "Allows environment to dictate the palette",
+        "Defends 'ugly' colors as textural authenticity",
+        "Resists lab correction that removes environmental truth",
+        "Color is a reaction to the environment, not an imposition upon it"
+      ],
+      "frequently_discussed_themes": [
+        "atmospheric humidity",
+        "available light",
+        "urban impressionism",
+        "environmental truth",
+        "fluorescent reality"
+      ],
+      "signature_techniques": [
+        "Handheld, wide lenses, reactive lighting",
+        "Allows 'mistakes' of location to become style",
+        "Smearing colors through slow shutter speeds for impressionistic wash",
+        "Uncorrected fluorescent tubes in humid air",
+        "Preservation of 'dirty' greens as authentic environmental color"
+      ],
+      "referenced_films": [
+        "In the Mood for Love",
+        "Days of Being Wild",
+        "Fallen Angels"
+      ],
+      "color_approach_summary": "'Dirty' Green - specific hue of uncorrected fluorescent tubes in humid air. Golden Amber - tungsten streetlights reflected in rain, signals nostalgia and trapped time. Defended green cast in Days of Being Wild as faithful rendering of humidity, mold, and fluorescent reality of 1960s Hong Kong.",
+      "sources": [
+        {
+          "type": "interview",
+          "description": "Doyle's defense of green cast in Days of Being Wild",
+          "note": "Critical text for understanding 'Atmospheric Color'"
+        },
+        {
+          "type": "interview",
+          "description": "Interviews about working with Wong Kar-wai",
+          "note": "Discusses improvisational, reactive approach to color"
+        }
+      ]
+    },
+    {
+      "id": "roger_deakins",
+      "name": "Roger Deakins",
+      "credentials": "ASC, BSC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Doctrine of Invisibility - look must never distract from narrative",
+        "Emphasizes 'justified stylization'",
+        "Counter-argument to modern trend of aggressive digital grading",
+        "Skepticism of HDR (High Dynamic Range)",
+        "Philosophical preference for controlled contrast over 'pop'",
+        "Even extreme stylization must be grounded in diegetic source"
+      ],
+      "frequently_discussed_themes": [
+        "justified stylization",
+        "naturalistic approach",
+        "motivated lighting",
+        "controlled contrast",
+        "invisible technique"
+      ],
+      "signature_techniques": [
+        "Precise, single-source lighting",
+        "Avoids rim lights or backlights unless motivated by window or lamp",
+        "Silhouettes - deep blacks against mono-color backgrounds",
+        "Mild desaturation technique for 'dry heat' look",
+        "Mastery of sodium vapor orange (industrial streetlights)"
+      ],
+      "referenced_films": [
+        "Blade Runner 2049",
+        "No Country for Old Men",
+        "Skyfall",
+        "Jarhead",
+        "Sicario"
+      ],
+      "color_approach_summary": "Extreme orange in Blade Runner 2049 grounded in diegetic source (radiation/sandstorms). Creates monochromatic night environments that feel incredibly stylized yet physically plausible. Sodium vapor aesthetics - industrial streetlights creating single-color environments.",
+      "sources": [
+        {
+          "type": "interview",
+          "description": "Interviews regarding Blade Runner 2049 and No Country for Old Men",
+          "note": "Discusses justified stylization and naturalistic approach"
+        },
+        {
+          "type": "statement",
+          "description": "Skepticism of HDR technology",
+          "note": "Reveals preference for controlled contrast"
+        }
+      ]
+    },
+    {
+      "id": "bradford_young",
+      "name": "Bradford Young",
+      "credentials": "ASC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Politics of Underexposure",
+        "Challenges technical bias of film history calibrated for white skin",
+        "Employs 'subtractive lighting' to preserve absorptive quality and texture of black skin",
+        "Underexposure as political and aesthetic choice",
+        "Lighting technique respects physics of different skin tones"
+      ],
+      "frequently_discussed_themes": [
+        "subtractive naturalism",
+        "low-key warmth",
+        "political lighting",
+        "skin tone rendering",
+        "available darkness"
+      ],
+      "signature_techniques": [
+        "Lives in underexposed range of film curve",
+        "Bouncing light off floor",
+        "Using 'negative fill' (black flags) to remove light",
+        "Creating shape through absence rather than addition",
+        "Allows practical lamps to blow out while keeping subject in deep shadow"
+      ],
+      "referenced_films": [
+        "Arrival",
+        "Solo",
+        "Selma"
+      ],
+      "color_approach_summary": "Images often dark, soft, and warm. Relies heavily on practical lamps and windows. The 'Toe' of the Curve - working in underexposed range to preserve texture and absorptive quality of black skin.",
+      "sources": [
+        {
+          "type": "discourse",
+          "description": "Young's discourse on subtractive lighting and skin tone rendering",
+          "note": "Essential for understanding cultural context of lighting techniques"
+        }
+      ]
+    },
+    {
+      "id": "edward_lachman",
+      "name": "Edward Lachman",
+      "credentials": "ASC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Materiality of Memory",
+        "Prioritizes memory of an era over reality of an era",
+        "Audiences respond to 'texture of the medium' as much as content",
+        "Distinction between 'Period Accurate' and 'Media Accurate'",
+        "Texture + Color = Time"
+      ],
+      "frequently_discussed_themes": [
+        "media-referential color",
+        "film stock emulation",
+        "memory texture",
+        "period authenticity through medium"
+      ],
+      "signature_techniques": [
+        "Choosing specific film stocks to emulate historical color processes",
+        "Super 16mm to emulate Ektachrome slide film",
+        "Replicating 'deficiencies' of historical media for emotional connection",
+        "Using cool greens and muted magentas to evoke 1950s Ektachrome"
+      ],
+      "referenced_films": [
+        "Carol",
+        "Far from Heaven"
+      ],
+      "color_approach_summary": "For Carol, chose Super 16mm to emulate Ektachrome slide film - specifically its tendency to turn greens cool and magentas mute. Argues Ektachrome 'wasn't a full color spectrum.' By replicating deficiencies of 1950s media, created more potent emotional connection than technically perfect digital image.",
+      "sources": [
+        {
+          "type": "interview",
+          "description": "Lachman's work on Carol",
+          "note": "Blueprint for 'Media-Referential' color"
+        }
+      ]
+    },
+    {
+      "id": "darius_khondji",
+      "name": "Darius Khondji",
+      "credentials": "AFC, ASC",
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Darkness as Canvas",
+        "Manipulation of chemical process to alter 'weight' of image",
+        "Lights for shadows, not highlights",
+        "Alchemist of Shadow"
+      ],
+      "frequently_discussed_themes": [
+        "silver retention",
+        "gothic noir",
+        "chemical manipulation",
+        "dense blacks",
+        "metallic desaturation"
+      ],
+      "signature_techniques": [
+        "Bleach Bypass process (ENR) - leaving silver in print",
+        "Underexposure combined with chemical manipulation",
+        "Creates incredibly dense blacks and desaturated, metallic colors",
+        "Rich, oily gold palette in later work"
+      ],
+      "referenced_films": [
+        "Se7en",
+        "Delicatessen",
+        "Midnight in Paris",
+        "The Immigrant"
+      ],
+      "color_approach_summary": "Revolutionized 1990s aesthetic with Bleach Bypass process. By leaving silver in print, blacks become incredibly dense and colors become desaturated and metallic. Later work uses rich, oily gold palette to evoke 'varnished' painting look.",
+      "sources": [
+        {
+          "type": "technical",
+          "description": "Silver Retention (ENR) process documentation",
+          "note": "Discusses chemical manipulation techniques"
+        }
+      ]
+    },
+    {
+      "id": "sean_price_williams",
+      "name": "Sean Price Williams",
+      "credentials": null,
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Aggressive Texture - color should hurt",
+        "Toxic Gonzo Realism",
+        "Embrace grain and 'ugly' artifacts as part of energy"
+      ],
+      "frequently_discussed_themes": [
+        "acid realism",
+        "toxic neon",
+        "grindhouse texture",
+        "mixed temperatures",
+        "film grain energy"
+      ],
+      "signature_techniques": [
+        "Shooting on film (2-perf or 16mm) to capture 'grain' of light",
+        "Pushing stock to limit",
+        "Embracing noise and artifacts",
+        "Mixing orange streetlights, blue moon, and green fluorescents without correction"
+      ],
+      "referenced_films": [
+        "Good Time",
+        "Spring Breakers"
+      ],
+      "color_approach_summary": "Acid Green & Blacklight Purple - colors of modern toxicity. Mixed temperatures in same frame without correction. Colors the human eye perceives as 'chemical' or 'toxic'.",
+      "sources": [
+        {
+          "type": "practice",
+          "description": "Observed techniques in contemporary independent cinema",
+          "note": "Represents modern 'toxic neon' aesthetic"
+        }
+      ]
+    },
+    {
+      "id": "benoit_debie",
+      "name": "Benoît Debie",
+      "credentials": null,
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Aggressive Texture",
+        "Toxic Gonzo Realism",
+        "Color as chemical perception"
+      ],
+      "frequently_discussed_themes": [
+        "toxic neon",
+        "altered consciousness",
+        "aggressive color",
+        "vibrating anxiety"
+      ],
+      "signature_techniques": [
+        "Colors that signal altered state of consciousness",
+        "Acid greens, blacklight purples, sodium vapor oranges",
+        "Distinct from 'romantic' 1980s neon"
+      ],
+      "referenced_films": [
+        "Spring Breakers",
+        "Enter the Void"
+      ],
+      "color_approach_summary": "Uses colors the eye perceives as 'chemical' or 'toxic' - aggressive, vibrating, anxious. Signals altered state of consciousness.",
+      "sources": [
+        {
+          "type": "practice",
+          "description": "Observed techniques in contemporary cinema",
+          "note": "Part of 'Neon-Noir' aesthetic movement"
+        }
+      ]
+    },
+    {
+      "id": "jack_cardiff",
+      "name": "Jack Cardiff",
+      "credentials": null,
+      "role": "cinematographer",
+      "documented_color_philosophy": [
+        "Technicolor mastery",
+        "Operatic Saturation",
+        "Colored light in shadows"
+      ],
+      "frequently_discussed_themes": [
+        "three-strip Technicolor",
+        "dye-transfer aesthetics",
+        "operatic color",
+        "studio era lighting"
+      ],
+      "signature_techniques": [
+        "Three-strip Technicolor process",
+        "Required immense light (arc lamps)",
+        "Filling shadows with colored light rather than leaving black",
+        "Creating distinct, separated, vibrant colors"
+      ],
+      "referenced_films": [
+        "Black Narcissus",
+        "The Red Shoes"
+      ],
+      "color_approach_summary": "Defined mid-century visual imagination through Technicolor. Colors were distinct, separated, and vibrant. Red did not bleed into Blue. Shadows filled with colored light.",
+      "sources": [
+        {
+          "type": "technical_history",
+          "description": "Analysis of three-strip Technicolor process",
+          "note": "Historical context for studio era color"
+        }
+      ]
+    }
+  ]
+}
