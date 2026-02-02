@@ -1,0 +1,349 @@
+{
+  "work_id": "work_blade_runner_1982",
+  "color_assignment": {
+    "primary": {
+      "color_id": "azul_nocturno",
+      "confidence": 0.49999999999999994,
+      "confidence_explanation": "Low confidence (0.50): Editorial review recommended. Factors: Limited evidence available"
+    },
+    "secondary": [
+      {
+        "color_id": "verde_distopico",
+        "confidence": 0.6,
+        "reasoning": "Genre association overlap: ['sci_fi']"
+      },
+      {
+        "color_id": "violeta_cinetico",
+        "confidence": 0.6,
+        "reasoning": "Genre association overlap: ['sci_fi']"
+      }
+    ],
+    "monochromatic": {
+      "is_monochromatic": false,
+      "mode": null
+    }
+  },
+  "reasoning_chain": {
+    "doctrine_application": {
+      "decision_hierarchy_applied": [
+        "Collective cultural memory of the film",
+        "Cinematographer and director intentional palette",
+        "Narrative and symbolic color function",
+        "Historical and genre color associations"
+      ],
+      "cultural_memory_assessment": "Analyzing Blade Runner (1982) for collective cultural memory associations",
+      "genre_context": {
+        "genres": [
+          "sci_fi",
+          "neo_noir"
+        ],
+        "note": "Genre associations are contextual, not deterministic per doctrine"
+      },
+      "available_colors": [
+        {
+          "id": "rojo_pasional",
+          "name": "Rojo Pasional",
+          "moods": [
+            "passion",
+            "violence",
+            "desire",
+            "intensity",
+            "danger"
+          ],
+          "genre_associations": [
+            "thriller",
+            "melodrama",
+            "horror",
+            "romance"
+          ],
+          "cultural_context": "Blood, love, revolution, emotional extremity"
+        },
+        {
+          "id": "naranja_apocaliptico",
+          "name": "Naranja Apocalíptico",
+          "moods": [
+            "chaos",
+            "heat",
+            "collapse",
+            "aggression",
+            "survival"
+          ],
+          "genre_associations": [
+            "action",
+            "war",
+            "dystopian_sci_fi"
+          ],
+          "cultural_context": "Fire, desert warfare, end-of-world imagery"
+        },
+        {
+          "id": "ambar_desertico",
+          "name": "Ámbar Desértico",
+          "moods": [
+            "nostalgia",
+            "decay",
+            "isolation",
+            "warmth",
+            "memory"
+          ],
+          "genre_associations": [
+            "western",
+            "period_drama"
+          ],
+          "cultural_context": "Frontier mythology, faded sunlight, dust"
+        },
+        {
+          "id": "amarillo_ludico",
+          "name": "Amarillo Lúdico",
+          "moods": [
+            "joy",
+            "whimsy",
+            "innocence",
+            "optimism"
+          ],
+          "genre_associations": [
+            "comedy",
+            "coming_of_age"
+          ],
+          "cultural_context": "Playfulness, childhood, imagination"
+        },
+        {
+          "id": "verde_lima",
+          "name": "Verde Lima",
+          "moods": [
+            "vitality",
+            "youth",
+            "nature",
+            "renewal"
+          ],
+          "genre_associations": [
+            "naturalistic_drama",
+            "coming_of_age"
+          ],
+          "cultural_context": "Natural light, growth, countryside"
+        },
+        {
+          "id": "verde_esmeralda",
+          "name": "Verde Esmeralda",
+          "moods": [
+            "elegance",
+            "mystery",
+            "depth",
+            "refinement"
+          ],
+          "genre_associations": [
+            "mystery",
+            "period_drama"
+          ],
+          "cultural_context": "Jewel tones, opulence, hidden worlds"
+        },
+        {
+          "id": "verde_distopico",
+          "name": "Verde Distópico",
+          "moods": [
+            "decay",
+            "surveillance",
+            "toxicity",
+            "oppression"
+          ],
+          "genre_associations": [
+            "dystopia",
+            "sci_fi"
+          ],
+          "cultural_context": "Control systems, night vision, industrial fear"
+        },
+        {
+          "id": "cian_melancolico",
+          "name": "Cian Melancólico",
+          "moods": [
+            "loneliness",
+            "rain",
+            "contemplation"
+          ],
+          "genre_associations": [
+            "drama",
+            "arthouse"
+          ],
+          "cultural_context": "Urban melancholy, emotional distance"
+        },
+        {
+          "id": "azul_nocturno",
+          "name": "Azul Nocturno",
+          "moods": [
+            "night",
+            "mystery",
+            "contemplation"
+          ],
+          "genre_associations": [
+            "neo_noir",
+            "sci_fi"
+          ],
+          "cultural_context": "Neon nights, urban solitude"
+        },
+        {
+          "id": "violeta_cinetico",
+          "name": "Violeta Cinético",
+          "moods": [
+            "energy",
+            "neon",
+            "surreal_motion"
+          ],
+          "genre_associations": [
+            "sci_fi",
+            "action"
+          ],
+          "cultural_context": "Electric color, kinetic intensity"
+        },
+        {
+          "id": "purpura_onirico",
+          "name": "Púrpura Onírico",
+          "moods": [
+            "dreamlike",
+            "romantic",
+            "otherworldly"
+          ],
+          "genre_associations": [
+            "romance",
+            "surrealism"
+          ],
+          "cultural_context": "Memory, longing, dream logic"
+        },
+        {
+          "id": "magenta_pop",
+          "name": "Magenta Pop",
+          "moods": [
+            "rebellion",
+            "excess",
+            "pop_energy"
+          ],
+          "genre_associations": [
+            "music_films",
+            "youth_culture"
+          ],
+          "cultural_context": "Counterculture, maximalism"
+        }
+      ],
+      "monochromatic_detection": {
+        "criteria": [
+          "Film shot in black and white (not colorized)",
+          "Intentional artistic choice (not archival limitation)",
+          "Entire film maintains monochrome palette"
+        ],
+        "assignment_logic": [
+          "If high contrast and dramatic lighting → claroscuro_dramatico",
+          "If soft, naturalistic, intimate → monocromatico_intimo",
+          "Assignment is editorial decision based on cinematographic style"
+        ],
+        "note": "Monochromatic assignment is editorial decision based on cinematographic style"
+      },
+      "constraints": {
+        "ai_must_not_use": [
+          "pixel_dominance",
+          "frame_frequency",
+          "numeric_thresholds"
+        ],
+        "primary_color_basis": "cultural_memory_and_cinematographic_intent",
+        "editorial_override": true
+      }
+    },
+    "evidence_context": {
+      "work": "Blade Runner (1982)",
+      "director": "Ridley Scott",
+      "cinematographer": "Jordan Cronenweth",
+      "genres": [
+        "sci_fi",
+        "neo_noir"
+      ],
+      "film_discourse": {
+        "film": "Blade Runner (1982)",
+        "perspectives": [],
+        "debates": [],
+        "theoretical_readings": [],
+        "sources": [],
+        "note": "No critical discourse found for Blade Runner (1982)"
+      },
+      "cinematographer_context": {
+        "name": "Jordan Cronenweth",
+        "documented_perspectives": [],
+        "critical_assessments": [],
+        "collaborations": [],
+        "sources": [],
+        "note": "No evidence found for cinematographer: Jordan Cronenweth"
+      },
+      "director_context": {},
+      "genre_discourse": {
+        "genres": [
+          "sci_fi",
+          "neo_noir"
+        ],
+        "documented_conventions": [],
+        "debates": [],
+        "canonical_references": [],
+        "theoretical_frameworks": [],
+        "sources": [
+          "Film preservation documentation",
+          "Rural cinematography",
+          "Cross-cultural color symbolism",
+          "Contemporary art cinema",
+          "Memory and color theory",
+          "Technicolor process documentation",
+          "Color psychology documentation",
+          "Black-and-white in color era analysis",
+          "Cross-cultural analysis",
+          "Film technology history",
+          "Artificial vs. natural aesthetics",
+          "Temporal cinema analysis",
+          "Bollywood color theory",
+          "Eastmancolor history",
+          "Monochrome cinema analysis",
+          "Animation color theory",
+          "Tinting and toning documentation",
+          "Giallo genre analysis",
+          "Technical color documentation",
+          "Zhang Yimou analysis",
+          "Italian horror cinema documentation",
+          "Technical color history",
+          "Chinese cinema color theory",
+          "Fifth Generation analysis",
+          "European modernist cinema documentation",
+          "Cultural color symbolism",
+          "Digital color theory",
+          "Class and cinema analysis",
+          "Digital Intermediate history",
+          "Urban cinema analysis",
+          "Contemporary neon noir analysis",
+          "Hollywood Golden Age analysis",
+          "Period film documentation",
+          "Contemporary monochrome cinema",
+          "Genre evolution studies",
+          "Color convention documentation",
+          "Urban cinematography documentation",
+          "Hong Kong cinema analysis",
+          "Production value studies",
+          "Urban cinematography studies",
+          "French New Wave analysis",
+          "Cultural color coding",
+          "Horror color theory",
+          "Genre theory analysis",
+          "Early cinema color history",
+          "Digital age cinema documentation",
+          "Environmental cinema analysis",
+          "Color vs. B&W theory",
+          "Digital color grading documentation",
+          "Environment and color theory"
+        ],
+        "evidence_version": "v2.0",
+        "note": "All content is descriptive evidence. Do NOT assume genre priority by list order. Do NOT map genres to colors."
+      },
+      "note": "Comprehensive evidence query - all content descriptive only"
+    },
+    "evidence_interpretation": "Limited evidence available for this work. Reasoning will rely primarily on doctrine principles and available metadata. All evidence interpretation follows pipeline/evidence/FRAMEWORK.md requirements: evidence provides context, doctrine provides constraints, editorial provides authority.",
+    "conflicts_acknowledged": null,
+    "final_reasoning": "Color reasoning for Blade Runner (1982):\n\nDOCTRINE APPLICATION:\n- Decision hierarchy: Collective cultural memory of the film → Cinematographer and director intentional palette → Narrative and symbolic color function → Historical and genre color associations\n- Primary color basis: cultural_memory_and_cinematographic_intent\n- AI follows doctrine constraints (no pixel analysis, no frame counting, no numeric thresholds)\n\nEVIDENCE CONSULTATION:\n- Limited evidence available for this work. Reasoning will rely primarily on doctrine principles and available metadata. All evidence interpretation follows pipeline/evidence/FRAMEWORK.md requirements: evidence provides context, doctrine provides constraints, editorial provides authority.\n\nREASONING SYNTHESIS:\n- Primary color: azul_nocturno\n- Reasoning: Selected based on cultural memory association per doctrine hierarchy\n- Secondary colors: 2 identified\n- Monochromatic: False\n\nFRAMEWORK COMPLIANCE:\n- Evidence used for context only, not assignment\n- Doctrine principles applied throughout\n- Editorial authority acknowledged\n- Reasoning chain fully traceable"
+  },
+  "metadata": {
+    "model": "doctrine-based-reasoning",
+    "doctrine_version": "1.1",
+    "evidence_version": "v2.0",
+    "processed_at": "2026-02-02T13:24:30.366555"
+  }
+}
