@@ -67,9 +67,26 @@ Prisma has a **layered editorial architecture**:
 - Editorial overrides always win
 - **Not your responsibility** as an AI agent
 
+## Evidence Usage Framework
+
+**MANDATORY:** All AI agents operating within Prisma's color assignment system must comply with the formal Evidence Usage Framework documented in:
+
+**📋 `pipeline/evidence/FRAMEWORK.md`**
+
+This framework defines:
+- The four-layer epistemic model (Doctrine → Editorial → AI Reasoning → Evidence)
+- Mandatory evidence usage rules for AI agents
+- Required reasoning chain structure
+- Prohibited behaviors and failure modes
+- Editorial relationship protocols
+
+**Compliance with this framework is required, not optional.**
+
 ## How to Use This Evidence
 
 ### For AI Color Agents
+
+**MUST** follow `pipeline/evidence/FRAMEWORK.md` requirements.
 
 When generating color reasoning for a film:
 
