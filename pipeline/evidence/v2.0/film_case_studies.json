@@ -1,0 +1,191 @@
+{
+  "$schema": "This is descriptive research evidence, not normative doctrine",
+  "version": "2.0",
+  "last_updated": "2026-02-02",
+  "source_document": "cinema_color_research_corpus_v2.docx",
+  "note": "Film case studies with documented color strategies. NO Prisma color assignments. All descriptions use source terminology and are illustrative only.",
+  "films": [
+    {
+      "title": "The Wizard of Oz",
+      "year": 1939,
+      "director": "Victor Fleming",
+      "cinematographer": "Harold Rosson",
+      "described_color_strategy": "Narrative Bifurcation: Transition from sepia-toned Kansas to Technicolor Oz symbolizes shift from mundane reality to fantasy. Ruby Slippers changed from book's silver to maximize red saturation against Yellow Brick Road.",
+      "narrative_function_of_color": "Color as reality marker - sepia represents mundane real world, Technicolor represents fantasy and possibility. Color transition as narrative device.",
+      "technical_approach": "Three-strip Technicolor process for Oz sequences, sepia toning for Kansas sequences",
+      "cultural_context": "Golden Age Hollywood spectacle, Technicolor as premium experience",
+      "source_citations": ["The Chromatic Turn analysis", "Technicolor process documentation"]
+    },
+    {
+      "title": "Gone with the Wind", 
+      "year": 1939,
+      "director": "Victor Fleming",
+      "cinematographer": "Ernest Haller",
+      "described_color_strategy": "Romantic Grandeur: Uses Technicolor's capacity for deep reds and golds to evoke the opulence of the antebellum South, contrasting with the muted, war-torn palette of the latter half.",
+      "narrative_function_of_color": "Color as temporal and social marker - rich colors for antebellum prosperity, muted palette for war and reconstruction",
+      "technical_approach": "Full Technicolor production with emphasis on costume and set design color coordination",
+      "cultural_context": "Hollywood's romanticized vision of American South, Technicolor as prestige production value",
+      "source_citations": ["Technicolor era analysis", "Hollywood color production documentation"]
+    },
+    {
+      "title": "Singin' in the Rain",
+      "year": 1952,
+      "director": "Stanley Donen, Gene Kelly",
+      "cinematographer": "Harold Rosson",
+      "described_color_strategy": "Satirical Saturation: Uses Technicolor palette to parody and celebrate artificiality of Hollywood itself, particularly in Broadway Melody sequence with surreal, neon-like hues.",
+      "narrative_function_of_color": "Meta-commentary on Hollywood through color - artificial saturation as both celebration and critique of studio system",
+      "technical_approach": "Technicolor with emphasis on theatrical lighting and costume design",
+      "cultural_context": "Hollywood's self-reflexive period, Technicolor as both subject and medium",
+      "source_citations": ["Musical color analysis", "Hollywood meta-cinema documentation"]
+    },
+    {
+      "title": "Vertigo",
+      "year": 1958,
+      "director": "Alfred Hitchcock",
+      "cinematographer": "Robert Burks", 
+      "described_color_strategy": "Psychological Toxicity: Famous for use of 'uncanny green' (via neon signs and clothing) to represent ghostly presence of Madeleine and protagonist's necrophilic obsession.",
+      "narrative_function_of_color": "Green as psychological marker - uncanny, unnatural color representing obsession and death",
+      "technical_approach": "Technicolor with specific attention to green elements in mise-en-scène",
+      "cultural_context": "Hitchcock's psychological thriller period, color as narrative device",
+      "source_citations": ["Hitchcock color analysis", "Psychological thriller color theory"]
+    },
+    {
+      "title": "O Brother, Where Art Thou?",
+      "year": 2000,
+      "director": "Joel Coen, Ethan Coen",
+      "cinematographer": "Roger Deakins",
+      "described_color_strategy": "Historical Digital Manipulation: First complete Digital Intermediate. Sought sepia-toned, dust-bowl aesthetic by digitally desaturating greens and pushing toward dried-out golden hue, contradicting physical reality of lush Mississippi locations.",
+      "narrative_function_of_color": "Digital color as period atmosphere - technology used to create impossible historical look",
+      "technical_approach": "Complete Digital Intermediate process, selective color desaturation and manipulation",
+      "cultural_context": "Digital revolution in cinematography, DI as creative tool",
+      "source_citations": ["Digital Intermediate history", "Coen Brothers technical innovation"]
+    },
+    {
+      "title": "The Aviator",
+      "year": 2004,
+      "director": "Martin Scorsese",
+      "cinematographer": "Robert Richardson",
+      "described_color_strategy": "Historical Film Stock Emulation: Uses DI process to visually replicate history of film color technologies within narrative. Earlier sequences mimic two-strip Technicolor, evolving into three-strip, finally modern aesthetic as Hughes' life progresses.",
+      "narrative_function_of_color": "Medium as biographical marker - film technology evolution parallels character development",
+      "technical_approach": "Digital emulation of historical color processes (2-strip, 3-strip Technicolor)",
+      "cultural_context": "Digital era's relationship with film history, technology as narrative device",
+      "source_citations": ["The Aviator technical analysis", "Film stock emulation documentation"]
+    },
+    {
+      "title": "Amélie",
+      "year": 2001,
+      "director": "Jean-Pierre Jeunet",
+      "cinematographer": "Bruno Delbonnel",
+      "described_color_strategy": "Magic Realism Digital Manipulation: Benchmark for digital color manipulation. Aggressively warm palette dominated by greens, reds, yellows, with blue often removed or strictly controlled. Creates 'storybook' Paris reflecting protagonist's benevolent worldview.",
+      "narrative_function_of_color": "Color as psychological landscape - warm palette reflects character's optimistic perspective",
+      "technical_approach": "Digital color grading with selective color removal and enhancement",
+      "cultural_context": "Digital color grading revolution, French magical realism",
+      "source_citations": ["Amélie color grading analysis", "Digital color manipulation documentation"]
+    },
+    {
+      "title": "Hero",
+      "year": 2002,
+      "director": "Zhang Yimou",
+      "cinematographer": "Christopher Doyle",
+      "described_color_strategy": "Monochromatic Storytelling: Each story segment dominated by single color (red, blue, white, green) representing different emotional and narrative states. Color as structural narrative device.",
+      "narrative_function_of_color": "Color as narrative structure - each hue represents different version of story and emotional truth",
+      "technical_approach": "Systematic production design and costume coordination for monochromatic sequences",
+      "cultural_context": "Fifth Generation Chinese cinema, color as cultural and philosophical language",
+      "source_citations": ["Zhang Yimou color analysis", "Chinese cinema color theory"]
+    },
+    {
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "director": "Wong Kar-wai",
+      "cinematographer": "Christopher Doyle, Mark Lee Ping-bin",
+      "described_color_strategy": "Atmospheric Nostalgia: Warm palette of reds, golds, and amber streetlights contrasted with green corridors creating staleness/decay. Colors function as 'time capsule' mimicking faded photographs and 60s decor chemistry.",
+      "narrative_function_of_color": "Color as temporal and emotional marker - warm tones for repressed passion, cool tones for social constraint",
+      "technical_approach": "Available light cinematography with emphasis on practical sources and atmospheric conditions",
+      "cultural_context": "Hong Kong cinema, urban nostalgia and social constraint themes",
+      "source_citations": ["Wong Kar-wai color analysis", "Hong Kong cinema documentation"]
+    },
+    {
+      "title": "Collateral",
+      "year": 2004,
+      "director": "Michael Mann",
+      "cinematographer": "Dion Beebe, Paul Cameron",
+      "described_color_strategy": "Digital Existentialism: Uses digital video's ability to see in darkness, capturing amber glow of sodium vapor lights and hazy brushstrokes of light pollution. Digital noise replaces film grain as texture.",
+      "narrative_function_of_color": "Digital aesthetic as alienation marker - artificial urban lighting reflects modern disconnection",
+      "technical_approach": "Digital video capture emphasizing low-light capabilities and urban artificial lighting",
+      "cultural_context": "Digital transition era, urban alienation themes",
+      "source_citations": ["Michael Mann digital analysis", "Digital cinematography documentation"]
+    },
+    {
+      "title": "Black Friday",
+      "year": 2004,
+      "director": "Anurag Kashyap",
+      "cinematographer": "Natarajan Subramaniam",
+      "described_color_strategy": "Systematic Color Coding: Deep red for aftermath of violence (social wounds), warm yellow for interrogation (tension/sickness), blue for conspiracy (cold detachment). Breaks from glossy Bollywood tradition.",
+      "narrative_function_of_color": "Color as social and political commentary - systematic coding for narrative and thematic states",
+      "technical_approach": "Guerilla-style cinematography with deliberate color coding for different narrative contexts",
+      "cultural_context": "Modern Indian cinema challenging Bollywood conventions, sociopolitical realism",
+      "source_citations": ["Anurag Kashyap analysis", "Indian cinema color theory"]
+    },
+    {
+      "title": "Spirited Away",
+      "year": 2001,
+      "director": "Hayao Miyazaki",
+      "cinematographer": "N/A (Animation)",
+      "described_color_strategy": "Ecological Color Coding: Red signifies spirit world, danger, and transformation. 'Ghibli greens' represent nature, restoration, and balance. Color transitions mirror emotional narrative shifts.",
+      "narrative_function_of_color": "Color as spiritual and ecological language - systematic coding for environmental and supernatural themes",
+      "technical_approach": "Hand-drawn animation with systematic color palette for thematic purposes",
+      "cultural_context": "Japanese animation tradition, environmental consciousness",
+      "source_citations": ["Studio Ghibli color analysis", "Animation color theory"]
+    },
+    {
+      "title": "La Ciénaga",
+      "year": 2001,
+      "director": "Lucrecia Martel",
+      "cinematographer": "Hugo Colace",
+      "described_color_strategy": "Tropical Noir: Murky, sweaty, dense palette reflecting swampy moral and social stagnation. Emphasizes tactile and olfactory suggestions of color - heat, rot, dampness.",
+      "narrative_function_of_color": "Color as sensory immersion - palette creates haptic experience reflecting social and moral decay",
+      "technical_approach": "Natural lighting emphasizing humid, oppressive atmospheric conditions",
+      "cultural_context": "Argentine cinema, provincial bourgeoisie critique",
+      "source_citations": ["Lucrecia Martel analysis", "Tropical noir documentation"]
+    },
+    {
+      "title": "Devdas",
+      "year": 2002,
+      "director": "Sanjay Leela Bhansali",
+      "cinematographer": "Binod Pradhan",
+      "described_color_strategy": "Operatic Excess: Opulent reds and golds in set design symbolizing crushing weight of tradition and wealth. Lighting shifts to darker tones as protagonist descends into despair. Moonlight symbolizes prohibited love.",
+      "narrative_function_of_color": "Color as emotional and social expression - maximalist saturation for melodramatic intensity",
+      "technical_approach": "Elaborate production design with coordinated color schemes, theatrical lighting",
+      "cultural_context": "Bollywood maximalist tradition, melodramatic expression",
+      "source_citations": ["Sanjay Leela Bhansali analysis", "Bollywood color documentation"]
+    },
+    {
+      "title": "Pierrot le Fou",
+      "year": 1965,
+      "director": "Jean-Luc Godard",
+      "cinematographer": "Raoul Coutard",
+      "described_color_strategy": "Pop-Art Formalism: Uses primary colors as pop-art elements detached from narrative logic to draw attention to film as object. Color as plastic element like paint on canvas.",
+      "narrative_function_of_color": "Color as formal and medium-conscious element - anti-realistic use for aesthetic and political purposes",
+      "technical_approach": "Eastmancolor with emphasis on primary color elements in costume and set design",
+      "cultural_context": "French New Wave, modernist cinema, anti-realistic aesthetics",
+      "source_citations": ["French New Wave analysis", "Godard color theory"]
+    },
+    {
+      "title": "Red Sorghum",
+      "year": 1987,
+      "director": "Zhang Yimou",
+      "cinematographer": "Gu Changwei",
+      "described_color_strategy": "Cultural Color Symbolism: Screen saturated in red to symbolize vitality, violence, and peasantry. Uses vast landscapes of color to explore Chinese history and culture.",
+      "narrative_function_of_color": "Color as cultural and historical language - red representing life force, passion, and social class",
+      "technical_approach": "Landscape-scale color composition with emphasis on natural and costume color coordination",
+      "cultural_context": "Fifth Generation Chinese cinema, cultural exploration through visual language",
+      "source_citations": ["Zhang Yimou analysis", "Chinese cinema color symbolism"]
+    }
+  ],
+  "extraction_notes": {
+    "methodology": "Films selected based on frequent citation in source document for distinctive color strategies",
+    "scope": "Represents multiple eras, movements, and cultural contexts",
+    "color_terminology": "Uses source document terminology without translation to Prisma color categories",
+    "cultural_preservation": "Maintains cultural and historical context of each film's color approach"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "$schema": "This is descriptive research evidence, not normative doctrine",
+  "version": "2.0",
+  "last_updated": "2026-02-02",
+  "source_document": "cinema_color_research_corpus_v2.docx",
+  "note": "Consolidated sources from comprehensive cinema color research corpus with 60+ references.",
+  "sources": [
+    {
+      "id": "global_film_color_reference",
+      "title": "Global Film Color",
+      "type": "book",
+      "relevance": "Emphasizes materiality of film stock and technical realities as fundamental to aesthetic result",
+      "description": "Contemporary scholarship on film color emphasizing technical and material aspects"
+    },
+    {
+      "id": "colour_fantastic_reference", 
+      "title": "The Colour Fantastic",
+      "type": "book",
+      "relevance": "Technical realities of film stock - unstable dyes, vibrancy, pixel depth",
+      "description": "Analysis of color technology and its aesthetic implications"
+    },
+    {
+      "id": "technicolor_process_documentation",
+      "title": "Technicolor Process Technical Documentation",
+      "type": "technical_documentation",
+      "relevance": "Three-strip Technicolor process, beam-splitting cameras, dye-transfer printing",
+      "description": "Technical specifications and historical documentation of Technicolor system"
+    },
+    {
+      "id": "digital_intermediate_history",
+      "title": "Digital Intermediate Process History",
+      "type": "technical_documentation", 
+      "relevance": "First complete DI on O Brother Where Art Thou, revolution in color control",
+      "description": "Documentation of Digital Intermediate development and impact"
+    },
+    {
+      "id": "robert_richardson_asc_interviews",
+      "title": "Robert Richardson ASC Interviews and Documentation",
+      "type": "interview",
+      "author": "Robert Richardson",
+      "relevance": "Historical film stock emulation, colorist as creative collaborator",
+      "description": "Interviews and technical papers on Richardson's approach to color"
+    },
+    {
+      "id": "bradford_young_representation_interviews",
+      "title": "Bradford Young on Lighting Black Skin",
+      "type": "interview",
+      "author": "Bradford Young",
+      "relevance": "Subtractive lighting, challenging industry standards, representation in cinematography",
+      "description": "Interviews and articles on Young's approach to lighting and representation"
+    },
+    {
+      "id": "vittorio_storaro_color_philosophy",
+      "title": "Vittorio Storaro Color Philosophy Documentation",
+      "type": "interview",
+      "author": "Vittorio Storaro",
+      "relevance": "Writing with light, color as psychological language, symbolic color meaning",
+      "description": "Storaro's philosophical approach to color and cinematography"
+    },
+    {
+      "id": "christopher_doyle_neon_world",
+      "title": "Christopher Doyle: Filming in the Neon World",
+      "type": "video",
+      "author": "Christopher Doyle",
+      "url": "https://www.youtube.com/watch?v=97GwbI27w10",
+      "relevance": "Neon city aesthetics, available light, atmospheric color",
+      "description": "Documentation of Doyle's approach to urban and neon cinematography"
+    },
+    {
+      "id": "roger_deakins_philosophy_interviews",
+      "title": "Roger Deakins Philosophy and Technical Interviews",
+      "type": "interview",
+      "author": "Roger Deakins",
+      "relevance": "Justified stylization, digital intermediate mastery, naturalistic approach",
+      "description": "Interviews on Deakins' cinematographic philosophy and techniques"
+    },
+    {
+      "id": "darius_khondji_cinematography_analysis",
+      "title": "Darius Khondji Cinematography Analysis",
+      "type": "technical_analysis",
+      "author": "ASC Documentation",
+      "relevance": "Atmospheric darkness, underexposure aesthetics, chemical processes",
+      "description": "Technical analysis of Khondji's distinctive cinematographic approach"
+    },
+    {
+      "id": "fifth_generation_chinese_cinema_analysis",
+      "title": "Fifth Generation Chinese Cinema Color Analysis",
+      "type": "academic_analysis",
+      "relevance": "Bold color symbolism, cultural exploration through color, Zhang Yimou",
+      "description": "Academic analysis of color use in Fifth Generation Chinese filmmakers"
+    },
+    {
+      "id": "wong_kar_wai_color_studies",
+      "title": "Wong Kar-wai Color and Atmosphere Studies",
+      "type": "academic_analysis",
+      "relevance": "Neon city aesthetic, urban alienation, atmospheric color",
+      "description": "Analysis of Wong Kar-wai's distinctive color approaches"
+    },
+    {
+      "id": "bollywood_color_theory",
+      "title": "Bollywood Color Theory and Practice",
+      "type": "academic_analysis",
+      "relevance": "Maximalist color, emotional intensity, cultural color meanings",
+      "description": "Analysis of color use in Bollywood cinema traditions"
+    },
+    {
+      "id": "anurag_kashyap_color_symbolism",
+      "title": "Anurag Kashyap Color Symbolism Analysis",
+      "type": "academic_analysis",
+      "relevance": "Systematic color coding, guerilla aesthetics, social commentary",
+      "description": "Analysis of Kashyap's systematic approach to color in Indian cinema"
+    },
+    {
+      "id": "french_new_wave_color_analysis",
+      "title": "French New Wave Color Analysis",
+      "type": "academic_analysis",
+      "relevance": "Pop-art color use, anti-realistic aesthetics, Godard",
+      "description": "Analysis of color approaches in French New Wave cinema"
+    },
+    {
+      "id": "giallo_genre_color_documentation",
+      "title": "Italian Giallo Color Documentation",
+      "type": "genre_analysis",
+      "relevance": "Heavily gelled lighting, surreal color schemes, horror aesthetics",
+      "description": "Analysis of color use in Italian Giallo horror films"
+    },
+    {
+      "id": "studio_ghibli_color_analysis",
+      "title": "Studio Ghibli Color Analysis",
+      "type": "animation_analysis",
+      "relevance": "Ecological color coding, systematic color meaning, Miyazaki",
+      "description": "Analysis of color approaches in Studio Ghibli animation"
+    },
+    {
+      "id": "digital_color_grading_documentation",
+      "title": "Digital Color Grading Technology Documentation",
+      "type": "technical_documentation",
+      "relevance": "Post-production color control, creative possibilities, homogenization concerns",
+      "description": "Technical and cultural analysis of digital color grading impact"
+    },
+    {
+      "id": "eastmancolor_history_preservation",
+      "title": "Eastmancolor History and Preservation Crisis",
+      "type": "technical_history",
+      "relevance": "Color democratization, archival problems, magenta shift",
+      "description": "Historical analysis of Eastmancolor impact and preservation challenges"
+    },
+    {
+      "id": "enr_bleach_bypass_documentation",
+      "title": "ENR Bleach Bypass Process Documentation",
+      "type": "technical_documentation",
+      "relevance": "Desaturated aesthetics, enhanced contrast, 1990s influence",
+      "description": "Technical documentation of bleach bypass process and aesthetic impact"
+    },
+    {
+      "id": "early_cinema_color_history",
+      "title": "Early Cinema Color History - Tinting and Toning",
+      "type": "historical_analysis",
+      "relevance": "Foundational color semiotics, pre-realistic color practices",
+      "description": "Historical analysis of early cinema color techniques and meanings"
+    },
+    {
+      "id": "contemporary_neon_noir_analysis",
+      "title": "Contemporary Neon Noir Analysis",
+      "type": "genre_analysis",
+      "relevance": "Toxic neon aesthetics, digital age alienation, LED lighting",
+      "description": "Analysis of contemporary neon noir aesthetic and cultural meaning"
+    },
+    {
+      "id": "hdr_technology_documentation",
+      "title": "HDR Technology Documentation and Criticism",
+      "type": "technical_analysis",
+      "relevance": "Extended dynamic range, contemporary debates, adoption challenges",
+      "description": "Technical documentation and critical analysis of HDR in cinema"
+    },
+    {
+      "id": "led_lighting_cinematography",
+      "title": "LED Lighting in Contemporary Cinematography",
+      "type": "technical_analysis",
+      "relevance": "Color control, energy efficiency, contemporary aesthetics",
+      "description": "Analysis of LED lighting impact on contemporary cinematography"
+    },
+    {
+      "id": "film_stock_comparison_studies",
+      "title": "Film Stock Comparison Studies",
+      "type": "technical_analysis",
+      "relevance": "Kodak vs. Fuji characteristics, aesthetic differences, regional preferences",
+      "description": "Comparative analysis of different film stock aesthetics and characteristics"
+    },
+    {
+      "id": "post_colonial_cinema_color",
+      "title": "Post-Colonial Cinema Color Analysis",
+      "type": "academic_analysis",
+      "relevance": "Decolonial color practices, challenging Western aesthetics",
+      "description": "Analysis of color use in post-colonial cinema contexts"
+    },
+    {
+      "id": "representation_cinematography_studies",
+      "title": "Representation in Cinematography Studies",
+      "type": "academic_analysis",
+      "relevance": "Skin tone politics, technical bias, corrective approaches",
+      "description": "Academic analysis of representation issues in cinematographic practice"
+    },
+    {
+      "id": "cross_cultural_color_studies",
+      "title": "Cross-Cultural Color Studies in Cinema",
+      "type": "academic_analysis",
+      "relevance": "Cultural color meanings, avoiding universal interpretations",
+      "description": "Analysis of color meaning variations across different cultural contexts"
+    },
+    {
+      "id": "gender_cinema_color_analysis",
+      "title": "Gender and Color in Cinema Analysis",
+      "type": "academic_analysis",
+      "relevance": "Gender color associations, challenging traditional binaries",
+      "description": "Analysis of gender representation through color in cinema"
+    },
+    {
+      "id": "film_technology_economics",
+      "title": "Film Technology Economics and Access",
+      "type": "economic_analysis",
+      "relevance": "Color technology democratization, access disparities, independent cinema",
+      "description": "Analysis of economic factors affecting color technology access"
+    },
+    {
+      "id": "monochrome_color_era_analysis",
+      "title": "Monochrome in Color Era Analysis",
+      "type": "aesthetic_analysis",
+      "relevance": "Artistic choice, formal experimentation, historical dialogue",
+      "description": "Analysis of black-and-white choices in color film era"
+    },
+    {
+      "id": "urban_rural_cinematography",
+      "title": "Urban vs. Rural Cinematography Studies",
+      "type": "aesthetic_analysis",
+      "relevance": "Environmental color approaches, artificial vs. natural lighting",
+      "description": "Analysis of color approaches in urban vs. rural cinematic environments"
+    },
+    {
+      "id": "genre_color_conventions",
+      "title": "Genre Color Conventions Analysis",
+      "type": "genre_analysis",
+      "relevance": "Established color associations, convention subversion",
+      "description": "Analysis of color conventions across film genres and their evolution"
+    },
+    {
+      "id": "temporal_cinema_color_analysis",
+      "title": "Temporal Cinema Color Analysis",
+      "type": "narrative_analysis",
+      "relevance": "Color as time marker, memory visualization, narrative structure",
+      "description": "Analysis of color use for temporal and memory representation"
+    },
+    {
+      "id": "class_cinema_color_analysis",
+      "title": "Class and Cinema Color Analysis",
+      "type": "social_analysis",
+      "relevance": "Color as class marker, production value, social hierarchies",
+      "description": "Analysis of color use in representing social class and power dynamics"
+    },
+    {
+      "id": "artificial_natural_color_aesthetics",
+      "title": "Artificial vs. Natural Color Aesthetics",
+      "type": "aesthetic_analysis",
+      "relevance": "Technology impact, spectacle vs. realism, cultural meanings",
+      "description": "Analysis of artificial vs. natural color approaches and cultural implications"
+    },
+    {
+      "id": "color_psychology_cinema",
+      "title": "Color Psychology in Cinema",
+      "type": "psychological_analysis",
+      "relevance": "Emotional color associations, context dependency, cultural variation",
+      "description": "Analysis of psychological aspects of color use in cinema"
+    },
+    {
+      "id": "animation_color_theory",
+      "title": "Animation Color Theory",
+      "type": "technical_analysis",
+      "relevance": "Systematic color coding, narrative function, artistic control",
+      "description": "Analysis of color approaches specific to animated cinema"
+    },
+    {
+      "id": "independent_cinema_color_innovation",
+      "title": "Independent Cinema Color Innovation",
+      "type": "aesthetic_analysis",
+      "relevance": "Budget constraints, creative solutions, alternative aesthetics",
+      "description": "Analysis of color innovation in independent cinema contexts"
+    },
+    {
+      "id": "global_cinema_color_access",
+      "title": "Global Cinema Color Access Analysis",
+      "type": "global_analysis",
+      "relevance": "Technology disparities, cultural approaches, regional differences",
+      "description": "Analysis of global disparities and approaches in cinema color"
+    }
+  ],
+  "source_categories": {
+    "technical_documentation": "Technical specifications, process documentation, equipment analysis",
+    "academic_analysis": "Scholarly analysis of color use, cultural meaning, aesthetic approaches",
+    "interview": "Primary source interviews with cinematographers, directors, and practitioners",
+    "historical_analysis": "Historical development of color technology and aesthetics",
+    "genre_analysis": "Analysis of color use within specific film genres",
+    "cultural_analysis": "Cross-cultural and representation studies of color in cinema",
+    "aesthetic_analysis": "Analysis of aesthetic choices and artistic approaches to color",
+    "economic_analysis": "Economic factors affecting color technology access and use"
+  },
+  "extraction_notes": {
+    "methodology": "Sources consolidated from comprehensive corpus document with 60+ references",
+    "scope": "Represents major academic, technical, and industry sources on cinema color",
+    "limitations": "Source quality and availability varies; some sources may be more accessible than others",
+    "cultural_representation": "Attempts to include diverse cultural perspectives while acknowledging Western academic bias"
+  }
+}

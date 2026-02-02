@@ -1,0 +1,225 @@
+{
+  "$schema": "This is descriptive research evidence, not normative doctrine", 
+  "version": "2.0",
+  "last_updated": "2026-02-02",
+  "source_document": "cinema_color_research_corpus_v2.docx",
+  "note": "Thematic uses of color across cinema with examples and contradictions. All examples are illustrative only and do NOT represent Prisma color assignments.",
+  "color_themes": [
+    {
+      "theme_id": "red_as_passion_and_violence",
+      "description": "Red frequently associated with intense emotions, violence, passion, and life force across multiple cinematic traditions.",
+      "examples": [
+        "Spirited Away - red signifying spirit world, danger, and transformation",
+        "Red Sorghum - red symbolizing vitality, violence, and peasantry", 
+        "Devdas - opulent reds symbolizing crushing weight of tradition",
+        "Black Friday - deep red for aftermath of violence (social wounds)"
+      ],
+      "contradictions": [
+        "Context-dependent meanings vary significantly across cultures",
+        "Can represent both positive (vitality) and negative (violence) concepts",
+        "Western vs. Eastern symbolic associations may differ"
+      ],
+      "cultural_variations": [
+        "Chinese cinema: red as cultural and historical marker",
+        "Bollywood: red as emotional intensity and tradition",
+        "Western cinema: red as danger and passion"
+      ],
+      "sources": ["Zhang Yimou analysis", "Bollywood color theory", "Cross-cultural color symbolism"]
+    },
+    {
+      "theme_id": "blue_as_melancholy_and_alienation",
+      "description": "Blue often used to represent sadness, isolation, alienation, and emotional distance, though context significantly affects meaning.",
+      "examples": [
+        "Black Friday - blue for conspiracy (cold detachment)",
+        "Hero - blue sequences representing different emotional states",
+        "Early cinema tinting - blue for night scenes",
+        "Urban neon aesthetics - blue as modern alienation"
+      ],
+      "contradictions": [
+        "Can also represent freedom and transcendence (Ponyo - deep blues for ocean freedom)",
+        "Technical vs. emotional uses (blue tinting for night vs. blue for sadness)",
+        "Cultural context heavily influences interpretation"
+      ],
+      "cultural_variations": [
+        "Technical tradition: blue for night/cold",
+        "Psychological use: blue for isolation/melancholy", 
+        "Spiritual use: blue for transcendence/infinity"
+      ],
+      "sources": ["Color psychology documentation", "Technical color history", "Cross-cultural analysis"]
+    },
+    {
+      "theme_id": "green_as_nature_versus_corruption",
+      "description": "Green shows strong duality - representing both natural harmony and unnatural corruption/toxicity depending on context and saturation.",
+      "examples": [
+        "Studio Ghibli - 'Ghibli greens' representing nature, restoration, and balance",
+        "Vertigo - 'uncanny green' representing ghostly presence and obsession",
+        "Amélie - greens as part of warm, natural palette",
+        "Contemporary neon noir - acid greens as toxic/unnatural"
+      ],
+      "contradictions": [
+        "Natural vs. artificial green carry opposite meanings",
+        "Saturation and context dramatically affect interpretation",
+        "Cultural associations with nature vs. technology vary"
+      ],
+      "cultural_variations": [
+        "Environmental cinema: green as positive natural force",
+        "Horror/thriller: green as unnatural/toxic",
+        "Urban cinema: green fluorescent as alienating"
+      ],
+      "sources": ["Environmental cinema analysis", "Horror color theory", "Urban cinematography studies"]
+    },
+    {
+      "theme_id": "yellow_as_optimism_versus_sickness",
+      "description": "Yellow demonstrates strong contextual duality - can represent joy and optimism or sickness and decay depending on saturation and cultural context.",
+      "examples": [
+        "Studio Ghibli - warm yellows and pastels for nostalgia and comfort",
+        "Amélie - yellows as part of optimistic, warm palette",
+        "Black Friday - warm yellow for interrogation (tension/sickness)",
+        "Early cinema - yellow tinting for day/interior scenes"
+      ],
+      "contradictions": [
+        "Warm vs. sickly yellow have opposite emotional effects",
+        "Cultural associations vary significantly",
+        "Technical vs. emotional uses create different meanings"
+      ],
+      "cultural_variations": [
+        "Western: yellow as happiness/optimism or caution/sickness",
+        "Asian cinema: yellow as earth/tradition/imperial power",
+        "Technical tradition: yellow for daylight/warmth"
+      ],
+      "sources": ["Animation color theory", "Cultural color symbolism", "Technical color documentation"]
+    },
+    {
+      "theme_id": "monochromatic_storytelling",
+      "description": "Use of single dominant colors or black-and-white for narrative structure and emotional emphasis.",
+      "examples": [
+        "Hero - each story segment dominated by single color representing different emotional states",
+        "Schindler's List - selective color use for narrative emphasis",
+        "Contemporary B&W films - artistic choice in color era",
+        "Giallo films - monochromatic lighting schemes for psychological effect"
+      ],
+      "contradictions": [
+        "Monochrome can represent both realism (documentary) and artifice (artistic choice)",
+        "Historical vs. contemporary monochrome carry different meanings",
+        "Cultural context affects interpretation of color absence"
+      ],
+      "cultural_variations": [
+        "Art cinema: monochrome as formal choice",
+        "Genre cinema: monochrome for psychological effect",
+        "Historical cinema: monochrome as period marker"
+      ],
+      "sources": ["Monochrome cinema analysis", "Color vs. B&W theory", "Contemporary art cinema"]
+    },
+    {
+      "theme_id": "artificial_versus_natural_color",
+      "description": "Distinction between colors that appear natural/organic versus those that are clearly artificial/technological, often carrying different narrative meanings.",
+      "examples": [
+        "Technicolor artificiality vs. Eastmancolor naturalism",
+        "Neon lighting as urban alienation marker",
+        "Digital color grading creating impossible natural looks",
+        "Practical lighting vs. artificial color timing"
+      ],
+      "contradictions": [
+        "Artificial can represent both spectacle/magic and alienation/corruption",
+        "Natural can represent both authenticity and limitation",
+        "Technology changes what appears natural vs. artificial"
+      ],
+      "cultural_variations": [
+        "Hollywood: artificial color as spectacle and production value",
+        "Art cinema: artificial color as formal experimentation",
+        "Contemporary: digital artificial as creative tool or aesthetic problem"
+      ],
+      "sources": ["Film technology history", "Artificial vs. natural aesthetics", "Digital color theory"]
+    },
+    {
+      "theme_id": "color_as_temporal_marker",
+      "description": "Use of color to indicate time periods, memory states, or narrative temporal shifts.",
+      "examples": [
+        "The Wizard of Oz - sepia Kansas vs. Technicolor Oz",
+        "The Aviator - film stock evolution as biographical progression",
+        "Amélie - storybook colors as nostalgic/fantastical time",
+        "O Brother Where Art Thou - digital sepia for historical period"
+      ],
+      "contradictions": [
+        "Same color techniques can represent past or future depending on context",
+        "Memory vs. reality color coding varies by filmmaker",
+        "Historical accuracy vs. emotional accuracy in period color"
+      ],
+      "cultural_variations": [
+        "Western cinema: sepia for historical past",
+        "Art cinema: color shifts for psychological time",
+        "Genre cinema: color coding for narrative structure"
+      ],
+      "sources": ["Temporal cinema analysis", "Memory and color theory", "Period film documentation"]
+    },
+    {
+      "theme_id": "color_as_social_class_marker",
+      "description": "Use of color saturation, palette, and coordination to indicate social class, wealth, and power dynamics.",
+      "examples": [
+        "Devdas - opulent reds and golds symbolizing wealth and tradition",
+        "Parasite - color coding for class levels and social spaces",
+        "Bollywood maximalism vs. art cinema restraint",
+        "Technicolor as premium/prestige vs. Eastmancolor as democratic"
+      ],
+      "contradictions": [
+        "Rich colors can represent both positive luxury and negative excess",
+        "Restrained palettes can indicate both poverty and artistic sophistication",
+        "Cultural context heavily affects class-color associations"
+      ],
+      "cultural_variations": [
+        "Bollywood: saturation as emotional and social intensity",
+        "European art cinema: restraint as sophistication",
+        "Hollywood: production value as class marker"
+      ],
+      "sources": ["Class and cinema analysis", "Cultural color coding", "Production value studies"]
+    },
+    {
+      "theme_id": "urban_versus_rural_color_palettes",
+      "description": "Distinction between color approaches for urban (artificial, neon, mixed lighting) versus rural (natural, earth tones, organic) environments.",
+      "examples": [
+        "Hong Kong neon city aesthetic - mixed artificial urban lighting",
+        "Studio Ghibli rural environments - natural greens and earth tones",
+        "Contemporary neon noir - toxic urban color palettes",
+        "Western films - earth tones and natural lighting"
+      ],
+      "contradictions": [
+        "Urban can represent both excitement and alienation",
+        "Rural can represent both authenticity and limitation",
+        "Technology changes urban/rural color distinctions"
+      ],
+      "cultural_variations": [
+        "Asian cinema: urban neon as modernity marker",
+        "American cinema: rural earth tones as authenticity",
+        "European cinema: urban/rural as class distinction"
+      ],
+      "sources": ["Urban cinema analysis", "Rural cinematography", "Environment and color theory"]
+    },
+    {
+      "theme_id": "genre_color_conventions",
+      "description": "Established color associations with specific film genres, though these conventions are frequently subverted.",
+      "examples": [
+        "Horror - desaturated, green/blue tints for unnatural atmosphere",
+        "Romance - warm, golden tones for intimacy",
+        "Sci-fi - cool blues and artificial lighting for futuristic feel",
+        "Western - earth tones and natural lighting for authenticity"
+      ],
+      "contradictions": [
+        "Genre conventions frequently subverted for artistic effect",
+        "Same colors can serve different genres in different contexts",
+        "Evolution of technology changes genre color possibilities"
+      ],
+      "cultural_variations": [
+        "Hollywood genre conventions vs. international variations",
+        "Art cinema subversion of genre color codes",
+        "Contemporary mixing of genre color languages"
+      ],
+      "sources": ["Genre theory analysis", "Color convention documentation", "Genre evolution studies"]
+    }
+  ],
+  "extraction_notes": {
+    "methodology": "Themes extracted from patterns observed across multiple films and movements in source document",
+    "ambiguity_preservation": "Contradictions and cultural variations maintained rather than resolved",
+    "scope": "Covers major thematic uses documented in academic and critical sources",
+    "cultural_sensitivity": "Attempts to acknowledge cultural variations in color meaning"
+  }
+}

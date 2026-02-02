@@ -1,0 +1,233 @@
+{
+  "$schema": "This is descriptive research evidence, not normative doctrine",
+  "version": "2.0", 
+  "last_updated": "2026-02-02",
+  "source_document": "cinema_color_research_corpus_v2.docx",
+  "note": "Color technologies and their aesthetic effects. All film examples are illustrative only.",
+  "technologies": [
+    {
+      "technology_name": "Three-Strip Technicolor",
+      "period": "1930s-1950s",
+      "technical_description": "Complex beam-splitting camera that recorded separate records for red, green, and blue. Used dye-transfer printing process with silver key image for deep blacks.",
+      "aesthetic_effect": [
+        "Hyper-saturated, distinct aesthetic",
+        "Deep blacks due to silver key image printed alongside dyes",
+        "Vibrant primaries with clear color separation", 
+        "Curated artificiality rather than natural reproduction",
+        "Operatic saturation - colors designed and coordinated"
+      ],
+      "production_requirements": [
+        "Expensive process requiring specialized equipment",
+        "Massive lighting setups due to slow film speed and prism system",
+        "Coordinated production design for color control",
+        "Initially reserved for spectacle genres"
+      ],
+      "historical_impact": "Defined Golden Age Hollywood aesthetic, established color as premium experience, created 'Technicolor look' that persists as cultural reference.",
+      "cited_films": [
+        "The Wizard of Oz",
+        "Gone with the Wind", 
+        "Snow White and the Seven Dwarfs",
+        "Singin' in the Rain"
+      ],
+      "sources": ["Technicolor process documentation", "Hollywood Golden Age analysis"]
+    },
+    {
+      "technology_name": "Eastmancolor",
+      "period": "1950s-1970s",
+      "technical_description": "Kodak's single-strip color negative system compatible with standard cameras. Used unstable cyan and yellow dyes in printing process.",
+      "aesthetic_effect": [
+        "More naturalistic color reproduction than Technicolor",
+        "Democratized color for location shooting",
+        "Enabled gritty, realistic color aesthetics",
+        "Archival degradation leading to magenta shift over time"
+      ],
+      "production_requirements": [
+        "Compatible with standard camera equipment",
+        "Lower cost than Technicolor",
+        "Suitable for location and handheld shooting",
+        "Required new archival preservation strategies"
+      ],
+      "historical_impact": "Enabled New Hollywood movement, democratized color filmmaking, created major archival crisis due to dye instability.",
+      "cited_films": [
+        "Bonnie and Clyde",
+        "The Godfather",
+        "Taxi Driver"
+      ],
+      "sources": ["Eastmancolor technical history", "New Hollywood documentation", "Film preservation studies"]
+    },
+    {
+      "technology_name": "Digital Intermediate (DI)",
+      "period": "2000s-Present",
+      "technical_description": "Process of digitizing film footage for color correction and manipulation before outputting back to film or digital formats. Allows selective color control within individual frames.",
+      "aesthetic_effect": [
+        "Complete color control in post-production",
+        "Ability to manipulate specific hues without affecting entire image",
+        "Digital painting of frames",
+        "Creation of impossible natural looks",
+        "Heavily stylized aesthetic possibilities"
+      ],
+      "production_requirements": [
+        "Digital scanning and processing equipment",
+        "Colorist expertise and specialized software",
+        "Separation of capture and color timing processes",
+        "High-resolution digital workflows"
+      ],
+      "historical_impact": "Revolutionized color control, enabled new visual styles, led to both creative possibilities and aesthetic homogenization concerns.",
+      "cited_films": [
+        "O Brother, Where Art Thou? (first complete DI)",
+        "The Aviator",
+        "Sin City",
+        "Mad Max: Fury Road"
+      ],
+      "sources": ["Digital Intermediate history", "Color grading documentation"]
+    },
+    {
+      "technology_name": "Bleach Bypass (ENR Process)",
+      "period": "1990s-Present", 
+      "technical_description": "Chemical process that retains silver in film print alongside color dyes, creating desaturated colors and enhanced contrast.",
+      "aesthetic_effect": [
+        "Desaturated, metallic color palette",
+        "Enhanced contrast and deep blacks",
+        "Gritty, industrial aesthetic",
+        "Reduced color saturation with maintained detail"
+      ],
+      "production_requirements": [
+        "Specialized laboratory processing",
+        "Careful exposure and lighting considerations",
+        "Coordination with cinematographer vision",
+        "Additional processing costs"
+      ],
+      "historical_impact": "Influenced 1990s and 2000s thriller and action aesthetics, provided alternative to full color saturation.",
+      "cited_films": [
+        "Se7en",
+        "Saving Private Ryan",
+        "Minority Report"
+      ],
+      "sources": ["ENR process documentation", "1990s cinematography analysis"]
+    },
+    {
+      "technology_name": "HDR (High Dynamic Range)",
+      "period": "2010s-Present",
+      "technical_description": "Extended range of luminosity and color gamut beyond standard dynamic range, allowing for brighter highlights and deeper shadows with expanded color space.",
+      "aesthetic_effect": [
+        "Extended luminosity range",
+        "Enhanced color gamut and saturation possibilities",
+        "Increased contrast capabilities",
+        "More detailed shadow and highlight information"
+      ],
+      "production_requirements": [
+        "HDR-capable cameras and monitors",
+        "Specialized grading and mastering workflows",
+        "HDR-compatible exhibition systems",
+        "Careful consideration of viewing environments"
+      ],
+      "historical_impact": "Expanding possibilities for color and contrast, though adoption varies and some cinematographers express skepticism about overuse.",
+      "cited_films": [
+        "Blade Runner 2049",
+        "Dune (2021)",
+        "Various streaming content"
+      ],
+      "sources": ["HDR technology documentation", "Contemporary cinematography analysis"]
+    },
+    {
+      "technology_name": "LED Lighting Systems",
+      "period": "2010s-Present",
+      "technical_description": "Light-emitting diode systems offering full spectrum color control, dimming capabilities, and energy efficiency for cinematographic lighting.",
+      "aesthetic_effect": [
+        "Precise color temperature control",
+        "Full spectrum color possibilities",
+        "Consistent color reproduction",
+        "Energy-efficient continuous lighting"
+      ],
+      "production_requirements": [
+        "LED lighting equipment and control systems",
+        "Color temperature and spectrum monitoring",
+        "Integration with traditional lighting workflows",
+        "Understanding of LED color science"
+      ],
+      "historical_impact": "Enabling new lighting possibilities and color control, particularly for contemporary neon noir and stylized aesthetics.",
+      "cited_films": [
+        "Drive",
+        "Only God Forgives",
+        "Blade Runner 2049"
+      ],
+      "sources": ["LED lighting documentation", "Contemporary lighting techniques"]
+    },
+    {
+      "technology_name": "Film Stock Variations",
+      "period": "Throughout film history",
+      "technical_description": "Different film emulsions and chemical compositions creating distinct color characteristics, grain structures, and sensitivity profiles.",
+      "aesthetic_effect": [
+        "Kodak vs. Fuji color characteristics",
+        "Different grain structures and textures",
+        "Varying color saturation and contrast",
+        "Push/pull processing effects"
+      ],
+      "production_requirements": [
+        "Stock selection based on desired aesthetic",
+        "Processing considerations for different emulsions",
+        "Lighting adjustments for stock characteristics",
+        "Archival considerations for different stocks"
+      ],
+      "historical_impact": "Created distinct aesthetic periods and regional preferences, influenced cinematographer choices and visual styles.",
+      "cited_films": [
+        "Various films showcasing stock differences",
+        "Comparative studies of Kodak vs. Fuji aesthetics"
+      ],
+      "sources": ["Film stock documentation", "Cinematography technical analysis"]
+    },
+    {
+      "technology_name": "Digital Color Grading Software",
+      "period": "2000s-Present",
+      "technical_description": "Sophisticated software systems allowing precise color manipulation, secondary color correction, and creative color effects in digital post-production.",
+      "aesthetic_effect": [
+        "Precise selective color control",
+        "Creative color effects and stylization",
+        "Consistent color across different shots",
+        "Emulation of historical processes"
+      ],
+      "production_requirements": [
+        "High-end grading systems and software",
+        "Skilled colorist expertise",
+        "Calibrated monitoring environments",
+        "Integration with editorial workflows"
+      ],
+      "historical_impact": "Democratized advanced color control, enabled new aesthetic possibilities, but also contributed to color homogenization concerns.",
+      "cited_films": [
+        "Films utilizing advanced grading techniques",
+        "Period emulation projects",
+        "Stylized contemporary cinema"
+      ],
+      "sources": ["Color grading software documentation", "Post-production workflow analysis"]
+    },
+    {
+      "technology_name": "Tinting and Toning (Historical)",
+      "period": "1895-1920s",
+      "technical_description": "Early color processes involving dyeing film base (tinting) or replacing silver particles with colored salts (toning) to add color to black-and-white images.",
+      "aesthetic_effect": [
+        "Monochromatic color washes",
+        "Symbolic color associations (blue for night, red for fire)",
+        "Enhanced emotional and narrative content",
+        "Artistic interpretation over realism"
+      ],
+      "production_requirements": [
+        "Chemical processing facilities",
+        "Color coordination with narrative content",
+        "Hand-coloring for localized effects",
+        "Stencil processes for repeated patterns"
+      ],
+      "historical_impact": "Established foundational color-meaning associations in cinema, demonstrated early understanding of color's narrative potential.",
+      "cited_films": [
+        "A Trip to the Moon (hand-colored version)",
+        "Various early cinema examples"
+      ],
+      "sources": ["Early cinema color history", "Silent film documentation"]
+    }
+  ],
+  "extraction_notes": {
+    "methodology": "Technologies extracted based on their documented aesthetic and cultural impact in source material",
+    "scope": "Covers major color technologies from early cinema to contemporary digital systems",
+    "technical_accuracy": "Technical descriptions based on documented sources, not independent research",
+    "cultural_context": "Maintains connection between technology and aesthetic/cultural developments"
+  }
+}
