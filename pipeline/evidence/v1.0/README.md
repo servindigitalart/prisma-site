@@ -1,5 +1,26 @@
 # Prisma Evidence Layer v1.0
 
+## Primary Research Sources
+
+The evidence layer v1.0 is derived from the following primary source document:
+
+### cinema_color_research_v1.docx
+- **Location:** `pipeline/evidence/sources/cinema_color_research_v1.docx`
+- **Origin:** External cinema color research (Gemini Deep Research–assisted)
+- **Date:** 2026-02-02
+- **Scope:** Historical, theoretical, and editorial discussion of color in cinema, covering:
+  - Cinematographer philosophies and documented approaches
+  - Film case studies and color analysis
+  - Theoretical frameworks from cinema theory and cognitive science
+  - Technical history of color processes (Technicolor, film stocks, etc.)
+  - Critical discourse on color in contemporary and historical cinema
+- **Role:** Primary evidence artifact supporting Prisma doctrine and editorial decisions
+- **Important:** This document is **descriptive, not prescriptive**. It does not define rules, assign colors to films, or create rankings. It provides research context and reference material for editorial judgment.
+
+The structured JSON files in this directory (`cinematographers.json`, `film_color_case_studies.json`, `theoretical_frameworks.json`, `bibliography.json`) are extractions from this source document, normalized for machine readability.
+
+---
+
 ## What This Is
 
 The **Evidence Layer** is a structured repository of cinema color research extracted from authoritative sources. It provides:
