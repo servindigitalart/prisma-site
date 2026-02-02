@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tier Doctrine Schema",
+  "description": "Schema for tier_doctrine.json - defines tier meanings and ranking rules",
+  "type": "object",
+  "required": ["version", "last_updated", "tiers"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "last_updated": {"type": "string", "format": "date"},
+    "tiers": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "purpose", "characteristics", "curation", "ui_presentation"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": ["canon", "core", "strong", "peripheral", "uncertain"]
+          },
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "purpose": {"type": "string"},
+          "characteristics": {"type": "array", "items": {"type": "string"}},
+          "curation": {
+            "type": "object",
+            "required": ["method", "ranking"],
+            "properties": {
+              "method": {"type": "string"},
+              "max_count": {"type": ["integer", "null"]},
+              "ranking": {"type": "string"},
+              "review_frequency": {"type": "string"}
+            }
+          },
+          "ui_presentation": {
+            "type": "object",
+            "required": ["featured", "badge_style", "default_sort", "notes"],
+            "properties": {
+              "featured": {"type": ["boolean", "string"]},
+              "badge_style": {"type": "string"},
+              "default_sort": {"type": "string"},
+              "notes": {"type": "string"}
+            }
+          },
+          "examples": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "tier_transition_rules": {"type": "object"},
+    "ranking_methodology": {"type": "object"},
+    "ui_design_guidelines": {"type": "object"}
+  }
+}

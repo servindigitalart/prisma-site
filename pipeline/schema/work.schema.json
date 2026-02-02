@@ -21,6 +21,21 @@
     "cast": ["person_id"]
   },
   "awards": [],
+  "color_identity": {
+    "mode": "color | monochromatic",
+    "primary_color": "color_id | monochromatic_mode_id",
+    "secondary_colors": ["color_id"],
+    "confidence": "number (0-1)",
+    "tier": "canon | core | strong | peripheral | uncertain",
+    "tier_rank": "number | null (1-30 for canon, optional for core)",
+    "numeric_score": "number (0-100)",
+    "cultural_weight": "number (0-100)",
+    "authorship_score": "number (0-100)",
+    "popularity_score": "number (0-100)",
+    "ai_confidence": "number (0-1)",
+    "source": "ai | editorial | hybrid",
+    "assigned_at": "ISO8601 timestamp"
+  },
   "color_signature": {},
   "external_ratings": {},
   "media": {}

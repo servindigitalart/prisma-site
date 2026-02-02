@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Score Doctrine Schema",
+  "description": "Schema for score_doctrine.json - defines scoring formula and tier thresholds",
+  "type": "object",
+  "required": ["version", "last_updated", "formula", "tier_thresholds", "tier_ranking_rules"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "last_updated": {"type": "string", "format": "date"},
+    "formula": {
+      "type": "object",
+      "required": ["description", "weights", "calculation", "range"],
+      "properties": {
+        "description": {"type": "string"},
+        "weights": {
+          "type": "object",
+          "required": ["ai_confidence", "authorship", "cultural_recognition", "popularity"],
+          "properties": {
+            "ai_confidence": {
+              "type": "object",
+              "required": ["value", "description", "source"],
+              "properties": {
+                "value": {"type": "number", "minimum": 0, "maximum": 1},
+                "description": {"type": "string"},
+                "source": {"type": "string"}
+              }
+            },
+            "authorship": {
+              "type": "object",
+              "required": ["value", "description", "source"],
+              "properties": {
+                "value": {"type": "number", "minimum": 0, "maximum": 1},
+                "description": {"type": "string"},
+                "source": {"type": "string"}
+              }
+            },
+            "cultural_recognition": {
+              "type": "object",
+              "required": ["value", "description", "source"],
+              "properties": {
+                "value": {"type": "number", "minimum": 0, "maximum": 1},
+                "description": {"type": "string"},
+                "source": {"type": "string"}
+              }
+            },
+            "popularity": {
+              "type": "object",
+              "required": ["value", "description", "source"],
+              "properties": {
+                "value": {"type": "number", "minimum": 0, "maximum": 1},
+                "description": {"type": "string"},
+                "source": {"type": "string"}
+              }
+            }
+          }
+        },
+        "calculation": {"type": "string"},
+        "range": {"type": "string"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "tier_thresholds": {
+      "type": "object",
+      "required": ["canon", "core", "strong", "peripheral", "uncertain"],
+      "additionalProperties": {
+        "type": "object",
+        "required": ["description", "ranking_method"],
+        "properties": {
+          "min_score": {"type": ["integer", "null"]},
+          "description": {"type": "string"},
+          "max_films": {"type": ["integer", "null"]},
+          "ranking_method": {"type": "string"},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "tier_ranking_rules": {"type": "object"},
+    "cultural_weight_signals": {"type": "object"},
+    "authorship_signals": {"type": "object"},
+    "popularity_normalization": {"type": "object"},
+    "validation_rules": {"type": "object"}
+  }
+}

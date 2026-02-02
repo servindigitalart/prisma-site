@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schema/tier_doctrine.schema.json",
+  "version": "1.0",
+  "last_updated": "2026-02-02",
+  "tiers": [
+    {
+      "id": "canon",
+      "name": "Canon",
+      "description": "Essential masterworks that define the color's cinematic identity",
+      "purpose": "The definitive films that, when someone thinks of this color in cinema, these are the touchstones. Each film is a cultural landmark.",
+      "characteristics": [
+        "Universally recognized visual achievement",
+        "Historical or cultural significance",
+        "Influential on other filmmakers",
+        "Explicit mastery of color as narrative/emotional tool",
+        "Sustained critical consensus over time"
+      ],
+      "curation": {
+        "method": "Editorial",
+        "max_count": 30,
+        "ranking": "Manual rank order (1-30) based on importance and influence",
+        "review_frequency": "Quarterly"
+      },
+      "ui_presentation": {
+        "featured": true,
+        "badge_style": "gold",
+        "default_sort": "By tier_rank (editorial order)",
+        "notes": "Always shown at top of color page; most prominent visual treatment"
+      },
+      "examples": [
+        "Blade Runner 2049 (cyan_clinico)",
+        "In the Mood for Love (rojo_pasion)",
+        "The Grand Budapest Hotel (rosa_melancolico)",
+        "The Conformist (azul_profundo)"
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "description": "Important works that strongly represent the color's character",
+      "purpose": "The backbone of each color's collection. Reliable, high-quality examples that demonstrate the color's range and versatility.",
+      "characteristics": [
+        "Strong color identity with clear intentionality",
+        "High technical/artistic quality",
+        "Significant critical recognition",
+        "May not be universally known but respected in cinephile circles"
+      ],
+      "curation": {
+        "method": "Hybrid (editorial + algorithmic)",
+        "max_count": 100,
+        "ranking": "Editorial tier_rank if set, else numeric score",
+        "review_frequency": "Bi-annually"
+      },
+      "ui_presentation": {
+        "featured": true,
+        "badge_style": "silver",
+        "default_sort": "By tier_rank if exists, else numeric score",
+        "notes": "Shown prominently after Canon tier; clear visual distinction"
+      },
+      "examples": [
+        "Drive (naranja_vibrante)",
+        "Amélie (verde_esperanza)",
+        "Lost in Translation (rosa_melancolico)",
+        "The Matrix (verde_acido)"
+      ]
+    },
+    {
+      "id": "strong",
+      "name": "Strong",
+      "description": "Solid examples with clear color identity and quality",
+      "purpose": "The depth of each color's catalog. Good films with distinctive color work that may not be canonical but are worth exploring.",
+      "characteristics": [
+        "Clear, identifiable color signature",
+        "Competent to excellent cinematography",
+        "May be less well-known or recent releases",
+        "Reliable recommendations for color exploration"
+      ],
+      "curation": {
+        "method": "Algorithmic",
+        "max_count": null,
+        "ranking": "By numeric score (descending)",
+        "review_frequency": "Ongoing (automated)"
+      },
+      "ui_presentation": {
+        "featured": "conditional",
+        "badge_style": "bronze",
+        "default_sort": "By numeric score",
+        "notes": "Shown in scrollable list after Core tier; less visual emphasis but accessible"
+      },
+      "examples": [
+        "Recent festival films with strong color work",
+        "Genre films with distinctive palettes",
+        "International cinema with clear color identity"
+      ]
+    },
+    {
+      "id": "peripheral",
+      "name": "Peripheral",
+      "description": "Valid but less distinctive examples; exploratory tier",
+      "purpose": "The long tail. Films that technically fit the color but aren't essential viewing. Good for completionists and niche interests.",
+      "characteristics": [
+        "Color present but not necessarily defining",
+        "May be good films with less distinctive color work",
+        "May be lesser-known works from great directors",
+        "Includes experimental and edge-case assignments"
+      ],
+      "curation": {
+        "method": "Algorithmic",
+        "max_count": null,
+        "ranking": "By numeric score (descending)",
+        "review_frequency": "Annual review for quality control"
+      },
+      "ui_presentation": {
+        "featured": false,
+        "badge_style": "gray",
+        "default_sort": "By numeric score",
+        "notes": "Hidden by default; shown via 'Show More' or filter; minimal visual treatment"
+      },
+      "examples": [
+        "Films with color present but not dominant",
+        "Lower-budget films with good color work",
+        "Borderline assignments pending validation"
+      ]
+    },
+    {
+      "id": "uncertain",
+      "name": "Uncertain",
+      "description": "Films below quality threshold; not displayed publicly",
+      "purpose": "Internal tier for films that don't meet inclusion criteria. Retained for analysis, debugging, and potential re-evaluation.",
+      "characteristics": [
+        "Score below 50",
+        "AI confidence below threshold",
+        "Contradictory frame analysis",
+        "Insufficient metadata for confident assignment"
+      ],
+      "curation": {
+        "method": "Automated flagging",
+        "max_count": null,
+        "ranking": "None",
+        "review_frequency": "On-demand (when reviewing assignment logic)"
+      },
+      "ui_presentation": {
+        "featured": false,
+        "badge_style": "none",
+        "default_sort": "N/A",
+        "notes": "Not shown in public site; visible only in admin/debug views"
+      },
+      "examples": [
+        "Films with weak color data",
+        "Potential data quality issues",
+        "Films awaiting human review"
+      ]
+    }
+  ],
+  "tier_transition_rules": {
+    "description": "Rules for how films move between tiers over time",
+    "promotion": {
+      "peripheral_to_strong": {
+        "conditions": [
+          "Score increases to ≥ 70 (via updated metadata or awards)",
+          "Cultural recognition increases (new festival selection, award)",
+          "Frame validation confirms stronger color presence"
+        ],
+        "action": "Automatic re-tier on next pipeline run"
+      },
+      "strong_to_core": {
+        "conditions": [
+          "Score increases to ≥ 85",
+          "OR editorial decision to highlight film",
+          "OR sustained community engagement (if social features active)"
+        ],
+        "action": "Automatic re-tier OR manual editorial promotion"
+      },
+      "core_to_canon": {
+        "conditions": [
+          "Editorial decision only",
+          "Requires written justification",
+          "Canon tier must have space (max 30 per color)"
+        ],
+        "action": "Manual promotion with tier_rank assignment"
+      }
+    },
+    "demotion": {
+      "canon_to_core": {
+        "conditions": [
+          "Editorial re-evaluation (rare)",
+          "Making room for more significant film"
+        ],
+        "action": "Manual with required changelog entry"
+      },
+      "any_to_uncertain": {
+        "conditions": [
+          "Data quality issue discovered",
+          "Color assignment found to be incorrect"
+        ],
+        "action": "Flag for review; remove from public tiers"
+      }
+    }
+  },
+  "ranking_methodology": {
+    "canon": {
+      "primary_sort": "tier_rank (1-30, manually assigned)",
+      "tie_breaker": "year (older first)",
+      "notes": "Each film has explicit rank reflecting cultural/historical importance"
+    },
+    "core": {
+      "primary_sort": "tier_rank if exists, else numeric_score (descending)",
+      "tie_breaker_1": "cultural_weight (descending)",
+      "tie_breaker_2": "year (older first)",
+      "notes": "Hybrid approach allows editorial curation of key films while letting algorithm handle the rest"
+    },
+    "strong": {
+      "primary_sort": "numeric_score (descending)",
+      "tie_breaker_1": "cultural_weight (descending)",
+      "tie_breaker_2": "year (older first)",
+      "notes": "Pure algorithmic ranking"
+    },
+    "peripheral": {
+      "primary_sort": "numeric_score (descending)",
+      "tie_breaker_1": "cultural_weight (descending)",
+      "tie_breaker_2": "year (older first)",
+      "notes": "Pure algorithmic ranking"
+    }
+  },
+  "ui_design_guidelines": {
+    "visual_hierarchy": {
+      "canon": "Largest thumbnails, gold accent, featured placement",
+      "core": "Medium thumbnails, silver accent, prominent placement",
+      "strong": "Standard thumbnails, bronze accent, scrollable list",
+      "peripheral": "Small thumbnails, minimal styling, collapsed by default"
+    },
+    "badge_design": {
+      "canon": "Gold badge with 'CANON' text, prominent",
+      "core": "Silver badge with 'CORE' text, visible",
+      "strong": "Bronze badge or subtle indicator",
+      "peripheral": "No badge or very subtle gray indicator"
+    },
+    "default_view": {
+      "show_by_default": ["canon", "core", "strong"],
+      "hidden_by_default": ["peripheral"],
+      "never_shown": ["uncertain"]
+    }
+  }
+}

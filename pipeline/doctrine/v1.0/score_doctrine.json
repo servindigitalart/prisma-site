@@ -1,0 +1,272 @@
+{
+  "$schema": "../../schema/score_doctrine.schema.json",
+  "version": "1.0",
+  "last_updated": "2026-02-02",
+  "formula": {
+    "description": "Weighted formula for calculating color assignment confidence and tier placement",
+    "weights": {
+      "ai_confidence": {
+        "value": 0.30,
+        "description": "AI model's confidence in color assignment based on frame analysis and metadata",
+        "source": "Gemini Pro vision model output"
+      },
+      "authorship": {
+        "value": 0.25,
+        "description": "Strength of authorial control over color (DP/director prestige and intentionality)",
+        "source": "Cinematographer awards, director visual style reputation"
+      },
+      "cultural_recognition": {
+        "value": 0.30,
+        "description": "Critical and institutional recognition of the film's visual achievement",
+        "source": "Festival awards, critical canon membership, cinematography prizes"
+      },
+      "popularity": {
+        "value": 0.15,
+        "description": "Public awareness and accessibility (tempered to avoid blockbuster bias)",
+        "source": "TMDB popularity score, viewing figures, cultural penetration"
+      }
+    },
+    "calculation": "score = (ai_confidence × 0.30) + (authorship × 0.25) + (cultural_recognition × 0.30) + (popularity × 0.15)",
+    "range": "0-100",
+    "notes": [
+      "All component scores normalized to 0-100 before applying weights",
+      "Editorial boost can add up to +10 points (applied after formula)",
+      "Minimum score of 50 required for peripheral tier inclusion"
+    ]
+  },
+  "tier_thresholds": {
+    "canon": {
+      "min_score": 95,
+      "description": "Essential masterworks that define the color's cinematic identity",
+      "max_films": 30,
+      "ranking_method": "editorial",
+      "notes": "Almost always requires editorial curation; formula alone rarely reaches 95+"
+    },
+    "core": {
+      "min_score": 85,
+      "description": "Important works that strongly represent the color's character",
+      "max_films": 100,
+      "ranking_method": "hybrid",
+      "notes": "Mix of high-scoring algorithmic picks and editorial selections"
+    },
+    "strong": {
+      "min_score": 70,
+      "description": "Solid examples with clear color identity and quality",
+      "max_films": null,
+      "ranking_method": "numeric",
+      "notes": "Purely algorithmic ranking by score; no cap"
+    },
+    "peripheral": {
+      "min_score": 50,
+      "description": "Valid but less distinctive examples; exploratory tier",
+      "max_films": null,
+      "ranking_method": "numeric",
+      "notes": "Included for completeness; not featured prominently in UI"
+    },
+    "uncertain": {
+      "min_score": null,
+      "description": "Films below threshold; not displayed but retained for analysis",
+      "max_films": null,
+      "ranking_method": "none",
+      "notes": "Used for debugging and future recalibration"
+    }
+  },
+  "tier_ranking_rules": {
+    "canon": {
+      "method": "editorial",
+      "description": "Manually curated rank order (1-30) based on cultural importance, influence, and exemplary status",
+      "sorting": "By tier_rank field (set in editorial override)",
+      "notes": "Each film assigned explicit rank; ties broken by year (older first)"
+    },
+    "core": {
+      "method": "hybrid",
+      "description": "Editorial tier_rank if present, else numeric score",
+      "sorting": [
+        "If tier_rank exists: sort by tier_rank",
+        "If no tier_rank: sort by numeric_score descending",
+        "Ties broken by cultural_weight, then year (older first)"
+      ],
+      "notes": "Allows editorial intervention for key films while letting algorithm handle the rest"
+    },
+    "strong": {
+      "method": "numeric",
+      "description": "Pure algorithmic ranking by score",
+      "sorting": "By numeric_score descending, ties broken by cultural_weight, then year (older first)",
+      "notes": "No editorial override needed"
+    },
+    "peripheral": {
+      "method": "numeric",
+      "description": "Pure algorithmic ranking by score",
+      "sorting": "By numeric_score descending, ties broken by cultural_weight, then year (older first)",
+      "notes": "No editorial override needed"
+    }
+  },
+  "cultural_weight_signals": {
+    "description": "Factors that contribute to the cultural_recognition component (0-100 scale)",
+    "festivals": {
+      "weight": 30,
+      "criteria": {
+        "tier_1": {
+          "festivals": ["Cannes (Palme d'Or)", "Venice (Golden Lion)", "Berlin (Golden Bear)"],
+          "points": 30
+        },
+        "tier_2": {
+          "festivals": ["Cannes (Grand Prix, Director)", "Venice (Silver Lion)", "Berlin (Silver Bear)", "Sundance (Grand Jury)"],
+          "points": 20
+        },
+        "tier_3": {
+          "festivals": ["Cannes (Official Selection)", "Venice (Competition)", "Berlin (Competition)", "TIFF (Platform)", "New York FF (Main Slate)"],
+          "points": 10
+        }
+      }
+    },
+    "critical_canon": {
+      "weight": 30,
+      "criteria": {
+        "sight_and_sound_top_250": {
+          "points": 30,
+          "notes": "Inclusion in Sight & Sound Greatest Films poll (any year)"
+        },
+        "tspdt_top_1000": {
+          "points": 20,
+          "notes": "Inclusion in They Shoot Pictures Don't They top 1000"
+        },
+        "criterion_collection": {
+          "points": 15,
+          "notes": "Released by Criterion Collection"
+        },
+        "mubi_notebook_great_films": {
+          "points": 10,
+          "notes": "Featured in MUBI Notebook's Great Films series"
+        }
+      }
+    },
+    "cinematography_awards": {
+      "weight": 25,
+      "criteria": {
+        "oscar_cinematography": {
+          "points": 25,
+          "notes": "Academy Award for Best Cinematography (win)"
+        },
+        "oscar_nomination": {
+          "points": 15,
+          "notes": "Oscar nomination for cinematography"
+        },
+        "bafta_cinematography": {
+          "points": 20,
+          "notes": "BAFTA Award for Best Cinematography"
+        },
+        "asc_award": {
+          "points": 20,
+          "notes": "American Society of Cinematographers Award"
+        },
+        "cannes_technical_prize": {
+          "points": 15,
+          "notes": "Cannes Technical Grand Prize (often for cinematography)"
+        }
+      }
+    },
+    "arthouse_distribution": {
+      "weight": 10,
+      "criteria": {
+        "criterion": 10,
+        "mubi_library": 5,
+        "janus_films": 8,
+        "kino_lorber": 5
+      },
+      "notes": "Indicates curatorial validation and sustained cultural presence"
+    },
+    "language_bonus": {
+      "weight": 5,
+      "criteria": {
+        "non_english": 5,
+        "notes": "Bonus for non-English films to counteract Hollywood bias"
+      }
+    },
+    "editorial_boost": {
+      "weight": "variable",
+      "max_points": 10,
+      "criteria": "Manual boost applied by curator for films of exceptional visual significance not captured by metrics",
+      "notes": "Applied sparingly; requires written justification in editorial override file"
+    }
+  },
+  "authorship_signals": {
+    "description": "Factors that contribute to the authorship component (0-100 scale)",
+    "cinematographer_prestige": {
+      "weight": 60,
+      "criteria": {
+        "master_dp": {
+          "description": "DP with multiple Oscar nominations or iconic body of work",
+          "examples": ["Roger Deakins", "Emmanuel Lubezki", "Vittorio Storaro", "Gordon Willis"],
+          "points": 60
+        },
+        "established_dp": {
+          "description": "DP with award nominations or sustained quality career",
+          "points": 40
+        },
+        "emerging_dp": {
+          "description": "DP with critical recognition but limited filmography",
+          "points": 25
+        }
+      }
+    },
+    "director_visual_style": {
+      "weight": 30,
+      "criteria": {
+        "visual_auteur": {
+          "description": "Director known for strong visual authorship",
+          "examples": ["Wes Anderson", "Wong Kar-wai", "Terrence Malick", "Sofia Coppola"],
+          "points": 30
+        },
+        "visual_collaborator": {
+          "description": "Director with consistent DP partnerships and visual attention",
+          "points": 20
+        }
+      }
+    },
+    "production_design": {
+      "weight": 10,
+      "criteria": {
+        "production_design_award": {
+          "description": "Oscar/BAFTA production design win or nomination",
+          "points": 10
+        }
+      }
+    }
+  },
+  "popularity_normalization": {
+    "description": "How to convert raw popularity metrics to 0-100 score while avoiding blockbuster bias",
+    "tmdb_popularity": {
+      "source": "TMDB popularity score",
+      "normalization": "Log scale: score = min(100, log10(tmdb_popularity + 1) × 25)",
+      "notes": "Diminishing returns for extremely popular films"
+    },
+    "viewing_figures": {
+      "source": "Letterboxd watches, IMDb votes",
+      "normalization": "Combined and log-scaled",
+      "notes": "Indicates cultural penetration"
+    },
+    "cap": {
+      "description": "Maximum popularity score capped at 100",
+      "notes": "Prevents Marvel films from dominating purely on popularity"
+    }
+  },
+  "validation_rules": {
+    "minimum_confidence": {
+      "description": "AI confidence must be ≥ 0.60 for any tier assignment",
+      "action_if_below": "Flag for manual review; do not auto-assign"
+    },
+    "score_floor": {
+      "description": "Films scoring < 50 are excluded from public tiers",
+      "action": "Assign to 'uncertain' tier; retain in database for analysis"
+    },
+    "manual_review_triggers": {
+      "conditions": [
+        "AI confidence < 0.70 and attempting canon tier",
+        "Score > 90 from unknown director/DP (potential data error)",
+        "Monochromatic film scoring > 80 (verify mode assignment)",
+        "Color shift detected in frame analysis (review primary color choice)"
+      ]
+    }
+  }
+}

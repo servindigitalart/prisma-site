@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schema/color_doctrine.schema.json",
+  "version": "1.0",
+  "last_updated": "2026-02-02",
+  "colors": [
+    {
+      "id": "azul_profundo",
+      "hex": "#1a4d7a",
+      "name": "Azul Profundo",
+      "moods": ["melancholic", "contemplative", "nocturnal", "mysterious", "isolated"],
+      "genre_associations": ["neo_noir", "thriller", "drama", "science_fiction"],
+      "cinematographic_notes": "Associated with night exteriors, urban alienation, moral ambiguity, and psychological depth"
+    },
+    {
+      "id": "verde_esperanza",
+      "hex": "#2d5a3f",
+      "name": "Verde Esperanza",
+      "moods": ["natural", "nostalgic", "pastoral", "innocent", "bittersweet"],
+      "genre_associations": ["drama", "coming_of_age", "period", "romance"],
+      "cinematographic_notes": "Lush natural settings, memory sequences, idealized past, organic textures"
+    },
+    {
+      "id": "ambar_dorado",
+      "hex": "#d4a843",
+      "name": "Ámbar Dorado",
+      "moods": ["warm", "nostalgic", "romantic", "luxurious", "decadent"],
+      "genre_associations": ["period", "romance", "drama", "biopic"],
+      "cinematographic_notes": "Golden hour lighting, opulent interiors, historical grandeur, heightened beauty"
+    },
+    {
+      "id": "rojo_pasion",
+      "hex": "#a42c2c",
+      "name": "Rojo Pasión",
+      "moods": ["intense", "violent", "passionate", "dangerous", "visceral"],
+      "genre_associations": ["thriller", "horror", "crime", "melodrama"],
+      "cinematographic_notes": "Blood, violence, desire, warning, heat, aggression"
+    },
+    {
+      "id": "violeta_onirico",
+      "hex": "#6b4c7a",
+      "name": "Violeta Onírico",
+      "moods": ["dreamlike", "surreal", "mysterious", "erotic", "uncanny"],
+      "genre_associations": ["fantasy", "horror", "mystery", "psychological_thriller"],
+      "cinematographic_notes": "Dream sequences, altered states, ambiguous reality, artificial lighting"
+    },
+    {
+      "id": "turquesa_retro",
+      "hex": "#4a9fa0",
+      "name": "Turquesa Retro",
+      "moods": ["nostalgic", "artificial", "midcentury", "quirky", "stylized"],
+      "genre_associations": ["comedy", "period", "drama", "science_fiction"],
+      "cinematographic_notes": "1950s-70s aesthetics, artificial color grading, retro design, heightened reality"
+    },
+    {
+      "id": "rosa_melancolico",
+      "hex": "#d4829f",
+      "name": "Rosa Melancólico",
+      "moods": ["tender", "melancholic", "feminine", "vulnerable", "bittersweet"],
+      "genre_associations": ["drama", "romance", "coming_of_age"],
+      "cinematographic_notes": "Feminine perspective, emotional vulnerability, soft focus, fading beauty"
+    },
+    {
+      "id": "naranja_vibrante",
+      "hex": "#e67e22",
+      "name": "Naranja Vibrante",
+      "moods": ["energetic", "optimistic", "warm", "explosive", "dynamic"],
+      "genre_associations": ["action", "comedy", "adventure", "heist"],
+      "cinematographic_notes": "Kinetic energy, desert landscapes, explosions, sunsets, heat"
+    },
+    {
+      "id": "gris_industrial",
+      "hex": "#6e7c89",
+      "name": "Gris Industrial",
+      "moods": ["cold", "modern", "alienating", "technological", "dystopian"],
+      "genre_associations": ["science_fiction", "thriller", "dystopian", "action"],
+      "cinematographic_notes": "Concrete, steel, digital environments, corporate spaces, futuristic bleakness"
+    },
+    {
+      "id": "sepia_nostalgico",
+      "hex": "#a67c52",
+      "name": "Sepia Nostálgico",
+      "moods": ["nostalgic", "historical", "faded", "memory", "timeless"],
+      "genre_associations": ["western", "period", "war", "historical_drama"],
+      "cinematographic_notes": "Historical distance, memory representation, aged photography aesthetic, dusty landscapes"
+    },
+    {
+      "id": "cyan_clinico",
+      "hex": "#5a8fa6",
+      "name": "Cian Clínico",
+      "moods": ["sterile", "cold", "clinical", "detached", "institutional"],
+      "genre_associations": ["thriller", "horror", "science_fiction", "drama"],
+      "cinematographic_notes": "Hospitals, labs, morgues, fluorescent lighting, digital displays, alienation"
+    },
+    {
+      "id": "verde_acido",
+      "hex": "#9fb830",
+      "name": "Verde Ácido",
+      "moods": ["toxic", "unnatural", "unsettling", "cyberpunk", "artificial"],
+      "genre_associations": ["science_fiction", "horror", "thriller", "cyberpunk"],
+      "cinematographic_notes": "Chemical hazards, digital matrices, surveillance, contamination, artificial environments"
+    }
+  ],
+  "monochromatic_modes": [
+    {
+      "id": "claroscuro_dramatico",
+      "name": "Claroscuro Dramático",
+      "description": "High-contrast black and white with dramatic shadows and sculptural lighting",
+      "moods": ["dramatic", "expressionist", "theatrical", "timeless", "stark"],
+      "genre_associations": ["noir", "thriller", "drama", "horror"],
+      "cinematographic_notes": "Deep blacks, harsh shadows, chiaroscuro lighting, expressionist influence, sculptural faces",
+      "historical_context": "Film noir, German expressionism, high-contrast photography"
+    },
+    {
+      "id": "monocromatico_intimo",
+      "name": "Monocromático Íntimo",
+      "description": "Soft, naturalistic black and white with gentle gradations and organic texture",
+      "moods": ["intimate", "contemplative", "lyrical", "humanistic", "tender"],
+      "genre_associations": ["drama", "romance", "character_study", "documentary"],
+      "cinematographic_notes": "Soft grays, gentle lighting, natural textures, documentary realism, emotional proximity",
+      "historical_context": "Italian neorealism, French New Wave, naturalistic photography"
+    }
+  ],
+  "assignment_rules": {
+    "primary_color": {
+      "definition": "The dominant color identity that defines the film's visual character",
+      "criteria": [
+        "Most frequently occurring color in frame analysis",
+        "Color with highest narrative significance",
+        "Color that best represents the film's emotional tone",
+        "Color explicitly controlled by cinematographer/production designer"
+      ],
+      "confidence_threshold": 0.70
+    },
+    "secondary_colors": {
+      "definition": "Supporting colors that contribute to the film's palette (maximum 3)",
+      "criteria": [
+        "Significant presence across multiple scenes",
+        "Narrative or thematic function",
+        "Deliberate chromatic relationship to primary color",
+        "Minimum 15% frame presence threshold"
+      ],
+      "max_count": 3,
+      "confidence_threshold": 0.50
+    },
+    "monochromatic_detection": {
+      "criteria": [
+        "Film shot in black and white (not colorized)",
+        "Intentional artistic choice (not archival limitation)",
+        "Entire film maintains monochrome palette"
+      ],
+      "assignment_logic": [
+        "If high contrast and dramatic lighting → claroscuro_dramatico",
+        "If soft, naturalistic, intimate → monocromatico_intimo",
+        "Default to claroscuro_dramatico if ambiguous"
+      ]
+    },
+    "edge_cases": {
+      "color_shift_films": {
+        "description": "Films that shift color palettes dramatically (e.g., Wizard of Oz, Pleasantville)",
+        "handling": "Assign primary color to dominant portion of runtime; note shift in metadata"
+      },
+      "desaturated_films": {
+        "description": "Color films with very low saturation approaching monochrome",
+        "handling": "Treat as color film if saturation > 10%; assign based on hue bias"
+      },
+      "multi_segment_films": {
+        "description": "Anthology films or films with distinct visual chapters",
+        "handling": "Assign primary color to most narratively significant segment"
+      }
+    }
+  }
+}

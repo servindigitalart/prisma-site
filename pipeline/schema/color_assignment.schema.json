@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Color Assignment Schema",
+  "description": "Schema for AI-generated or editorial color assignments for films",
+  "type": "object",
+  "required": ["work_id", "mode", "primary_color", "confidence", "assigned_at", "source"],
+  "properties": {
+    "work_id": {
+      "type": "string",
+      "description": "Reference to work entity",
+      "pattern": "^work_"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["color", "monochromatic"],
+      "description": "Whether film is in color or monochromatic (B&W)"
+    },
+    "primary_color": {
+      "type": "string",
+      "description": "Primary color ID or monochromatic mode ID",
+      "pattern": "^(azul_profundo|verde_esperanza|ambar_dorado|rojo_pasion|violeta_onirico|turquesa_retro|rosa_melancolico|naranja_vibrante|gris_industrial|sepia_nostalgico|cyan_clinico|verde_acido|claroscuro_dramatico|monocromatico_intimo)$"
+    },
+    "secondary_colors": {
+      "type": "array",
+      "description": "Supporting colors (max 3)",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "pattern": "^(azul_profundo|verde_esperanza|ambar_dorado|rojo_pasion|violeta_onirico|turquesa_retro|rosa_melancolico|naranja_vibrante|gris_industrial|sepia_nostalgico|cyan_clinico|verde_acido)$"
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "description": "Overall confidence in assignment (0-1)",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reasoning": {
+      "type": "object",
+      "description": "AI reasoning for color assignment",
+      "properties": {
+        "primary_color_rationale": {
+          "type": "string",
+          "description": "Why this primary color was chosen"
+        },
+        "secondary_colors_rationale": {
+          "type": "string",
+          "description": "Why these secondary colors were chosen"
+        },
+        "visual_elements": {
+          "type": "array",
+          "description": "Specific visual elements that support assignment",
+          "items": {"type": "string"}
+        },
+        "cinematographic_techniques": {
+          "type": "array",
+          "description": "Cinematographic techniques used",
+          "items": {"type": "string"}
+        },
+        "narrative_significance": {
+          "type": "string",
+          "description": "How color relates to narrative/themes"
+        }
+      }
+    },
+    "frame_analysis": {
+      "type": "object",
+      "description": "Frame-by-frame color analysis results",
+      "properties": {
+        "total_frames_analyzed": {"type": "integer"},
+        "color_distribution": {
+          "type": "object",
+          "description": "Percentage distribution of colors across frames",
+          "additionalProperties": {"type": "number"}
+        },
+        "dominant_scenes": {
+          "type": "array",
+          "description": "Key scenes that exemplify the color identity",
+          "items": {
+            "type": "object",
+            "properties": {
+              "timestamp": {"type": "string"},
+              "color": {"type": "string"},
+              "description": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "string",
+      "enum": ["ai", "editorial", "hybrid"],
+      "description": "Source of assignment"
+    },
+    "assigned_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO8601 timestamp of assignment"
+    },
+    "assigned_by": {
+      "type": "string",
+      "description": "Model version or curator name"
+    },
+    "validation": {
+      "type": "object",
+      "description": "Validation results from frame validator",
+      "properties": {
+        "validated": {"type": "boolean"},
+        "contradictions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "confidence_adjustment": {
+          "type": "number",
+          "description": "Adjustment to confidence based on validation"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata used in assignment",
+      "properties": {
+        "director": {"type": "string"},
+        "cinematographer": {"type": "string"},
+        "production_designer": {"type": "string"},
+        "genres": {"type": "array", "items": {"type": "string"}},
+        "year": {"type": "integer"},
+        "plot_summary": {"type": "string"}
+      }
+    }
+  }
+}
