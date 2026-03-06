@@ -1,0 +1,977 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/44SNTCSZTdbF5bzgUy4IfPV3DUq.jpg",
+    "belongs_to_collection": null,
+    "budget": 120000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 30020,
+    "imdb_id": "tt0120265",
+    "origin_country": [
+      "IR"
+    ],
+    "original_language": "fa",
+    "original_title": "\u0637\u0639\u0645 \u06af\u064a\u0644\u0627\u0633",
+    "overview": "A middle-aged Tehranian man, Mr. Badii is intent on killing himself and seeks someone to bury him after his demise. Driving around the city, the seemingly well-to-do Badii meets with numerous people, including a Muslim student, asking them to take on the job, but initially he has little luck. Eventually, Badii finds a man who is up for the task because he needs the money, but his new associate soon tries to talk him out of committing suicide.",
+    "popularity": 2.6693,
+    "poster_path": "/u6GYH4HyR0BVwpqFuTOc2g4KB1L.jpg",
+    "production_companies": [
+      {
+        "id": 11459,
+        "logo_path": "/q05YOjsHS2MBfteVQod3MRGkjCD.png",
+        "name": "Kanoon",
+        "origin_country": "IR"
+      },
+      {
+        "id": 2938,
+        "logo_path": "/yXPsl1WM1IqvcBaLLhY40utgHzu.png",
+        "name": "Kiarostami Foundation",
+        "origin_country": "IR"
+      },
+      {
+        "id": 105,
+        "logo_path": "/pyiNvPJYGz4W2SImgULoG2sn4y4.png",
+        "name": "CiBy 2000",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IR",
+        "name": "Iran"
+      },
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "1997-09-28",
+    "revenue": 10923,
+    "runtime": 99,
+    "spoken_languages": [
+      {
+        "english_name": "Persian",
+        "iso_639_1": "fa",
+        "name": "\u0641\u0627\u0631\u0633\u06cc"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Taste of Cherry",
+    "video": false,
+    "vote_average": 7.7,
+    "vote_count": 687
+  },
+  "credits": {
+    "id": 30020,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 117528,
+        "known_for_department": "Acting",
+        "name": "Homayoun Ershadi",
+        "original_name": "\u0647\u0645\u0627\u06cc\u0648\u0646 \u0627\u0631\u0634\u0627\u062f\u06cc",
+        "popularity": 0.6545,
+        "profile_path": "/gBoWtYN8Z8UunnCKVQmebWA0Qv4.jpg",
+        "cast_id": 1,
+        "character": "Mr. Badii",
+        "credit_id": "52fe43f49251416c9100030b",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 117529,
+        "known_for_department": "Acting",
+        "name": "Abdolrahman Bagheri",
+        "original_name": "Abdolrahman Bagheri",
+        "popularity": 0.2225,
+        "profile_path": "/AtFw5qprLGCcDK95SnBse9vyce5.jpg",
+        "cast_id": 2,
+        "character": "Mr. Bagheri",
+        "credit_id": "52fe43f49251416c9100030f",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 117531,
+        "known_for_department": "Acting",
+        "name": "Safar Ali Moradi",
+        "original_name": "Safar Ali Moradi",
+        "popularity": 0.1305,
+        "profile_path": "/t9dTsZ9mctpeol4LgzpnT8lO00a.jpg",
+        "cast_id": 4,
+        "character": "Soldier",
+        "credit_id": "52fe43f49251416c91000317",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 117532,
+        "known_for_department": "Acting",
+        "name": "Mir Hossein Noori",
+        "original_name": "Mir Hossein Noori",
+        "popularity": 0.4046,
+        "profile_path": "/9mFN25mefcGRWPEIRCOA5SVaMDz.jpg",
+        "cast_id": 5,
+        "character": "Seminarian",
+        "credit_id": "52fe43f49251416c9100031b",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3875705,
+        "known_for_department": "Acting",
+        "name": "Elham Imani",
+        "original_name": "Elham Imani",
+        "popularity": 0.2338,
+        "profile_path": null,
+        "cast_id": 19,
+        "character": "Photographer",
+        "credit_id": "63c53d005f2b8d00853deab4",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 117530,
+        "known_for_department": "Acting",
+        "name": "Afshin Khorshid Bakhtiari",
+        "original_name": "Afshin Khorshid Bakhtiari",
+        "popularity": 0.1264,
+        "profile_path": null,
+        "cast_id": 3,
+        "character": "Worker",
+        "credit_id": "52fe43f49251416c91000313",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 554586,
+        "known_for_department": "Acting",
+        "name": "Ahmad Ansari",
+        "original_name": "Ahmad Ansari",
+        "popularity": 0.0911,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Self",
+        "credit_id": "52fe43f49251416c91000325",
+        "order": 6
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 119294,
+        "known_for_department": "Directing",
+        "name": "Abbas Kiarostami",
+        "original_name": "\u0639\u0628\u0627\u0633 \u06a9\u06cc\u0627\u0631\u0633\u062a\u0645\u06cc",
+        "popularity": 1.073,
+        "profile_path": "/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg",
+        "credit_id": "52fe43f49251416c91000331",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 119294,
+        "known_for_department": "Directing",
+        "name": "Abbas Kiarostami",
+        "original_name": "\u0639\u0628\u0627\u0633 \u06a9\u06cc\u0627\u0631\u0633\u062a\u0645\u06cc",
+        "popularity": 1.073,
+        "profile_path": "/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg",
+        "credit_id": "52fe43f49251416c9100032b",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 119294,
+        "known_for_department": "Directing",
+        "name": "Abbas Kiarostami",
+        "original_name": "\u0639\u0628\u0627\u0633 \u06a9\u06cc\u0627\u0631\u0633\u062a\u0645\u06cc",
+        "popularity": 1.073,
+        "profile_path": "/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg",
+        "credit_id": "52fe43f49251416c9100033d",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 119294,
+        "known_for_department": "Directing",
+        "name": "Abbas Kiarostami",
+        "original_name": "\u0639\u0628\u0627\u0633 \u06a9\u06cc\u0627\u0631\u0633\u062a\u0645\u06cc",
+        "popularity": 1.073,
+        "profile_path": "/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg",
+        "credit_id": "52fe43f49251416c91000321",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 554587,
+        "known_for_department": "Camera",
+        "name": "Homayun Payvar",
+        "original_name": "Homayun Payvar",
+        "popularity": 0.06,
+        "profile_path": null,
+        "credit_id": "6198c7bf67b61300946d7673",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1666118,
+        "known_for_department": "Sound",
+        "name": "Jahangir Mirshekari",
+        "original_name": "Jahangir Mirshekari",
+        "popularity": 0.2316,
+        "profile_path": null,
+        "credit_id": "5f553e03a589020034e3de05",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1666111,
+        "known_for_department": "Sound",
+        "name": "Sasan Bagherpour",
+        "original_name": "Sasan Bagherpour",
+        "popularity": 0.2346,
+        "profile_path": null,
+        "credit_id": "5f553d3acb9f4b00386b1038",
+        "department": "Sound",
+        "job": "Sound Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2387597,
+        "known_for_department": "Camera",
+        "name": "Farshad Bashirzadeh",
+        "original_name": "Farshad Bashirzadeh",
+        "popularity": 0.0723,
+        "profile_path": null,
+        "credit_id": "5f553d0a6654080033bcfe8d",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1327119,
+        "known_for_department": "Directing",
+        "name": "Hassan Yektapanah",
+        "original_name": "Hassan Yektapanah",
+        "popularity": 0.0759,
+        "profile_path": null,
+        "credit_id": "5f553dd784f2490038f94800",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1563440,
+        "known_for_department": "Directing",
+        "name": "Bahman Kiarostami",
+        "original_name": "Bahman Kiarostami",
+        "popularity": 0.1648,
+        "profile_path": "/8fuckijhQ5ERfQV4wXEHV9bsuiT.jpg",
+        "credit_id": "5f553deacb9f4b00366b0299",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1141702,
+        "known_for_department": "Sound",
+        "name": "Mohammad Reza Delpak",
+        "original_name": "Mohammad Reza Delpak",
+        "popularity": 0.2316,
+        "profile_path": "/xi980puBtCKIM5OjbQzJein76lU.jpg",
+        "credit_id": "5f553e136a300b0035d836ee",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1462022,
+        "known_for_department": "Production",
+        "name": "Alain Depardieu",
+        "original_name": "Alain Depardieu",
+        "popularity": 0.1559,
+        "profile_path": "/1Vwo9e8QYVDbLKWe0J9qb5eptDU.jpg",
+        "credit_id": "672c32a1d98bbc3977ad10ac",
+        "department": "Production",
+        "job": "Producer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 30020,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Taste of Cherry | Modern Trailer",
+        "key": "ukmYdGwVqPg",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2024-09-17T14:06:49.000Z",
+        "id": "68485cb080ad301196293607"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer for \"Taste of Cherry\"",
+        "key": "XDSQLTtGZE0",
+        "published_at": "2008-11-12T23:02:31.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "id": "57642adc925141035b0001b3"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 30020,
+    "keywords": [
+      {
+        "id": 894,
+        "name": "depression"
+      },
+      {
+        "id": 236,
+        "name": "suicide"
+      },
+      {
+        "id": 314,
+        "name": "life and death"
+      },
+      {
+        "id": 789,
+        "name": "muslim"
+      },
+      {
+        "id": 814,
+        "name": "talking"
+      },
+      {
+        "id": 1541,
+        "name": "nihilism"
+      },
+      {
+        "id": 2392,
+        "name": "koran"
+      },
+      {
+        "id": 5986,
+        "name": "teheran (tehran), iran"
+      },
+      {
+        "id": 14586,
+        "name": "construction site"
+      },
+      {
+        "id": 161043,
+        "name": "suicidal thoughts"
+      },
+      {
+        "id": 170468,
+        "name": "grave digging"
+      },
+      {
+        "id": 180307,
+        "name": "driving"
+      },
+      {
+        "id": 215015,
+        "name": "hopelessness"
+      },
+      {
+        "id": 219923,
+        "name": "life challenges"
+      },
+      {
+        "id": 233130,
+        "name": "self-harm"
+      },
+      {
+        "id": 245910,
+        "name": "contemplating suicide"
+      },
+      {
+        "id": 250379,
+        "name": "ideologies"
+      },
+      {
+        "id": 272061,
+        "name": "religious conversation"
+      },
+      {
+        "id": 281623,
+        "name": "iranian cinema"
+      },
+      {
+        "id": 308750,
+        "name": "desperation"
+      },
+      {
+        "id": 328715,
+        "name": "depressed man"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 30020,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=AU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/rvepVasXaE7VFNNXR9pm0tGMu97.jpg",
+            "provider_id": 2157,
+            "provider_name": "Reserva Imovision Amazon Channel",
+            "display_priority": 57
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 69
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 7
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/489t5n9o1KhH7voGNQkrXT7vBKV.jpg",
+            "provider_id": 1939,
+            "provider_name": "Lepsi TV",
+            "display_priority": 26
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 15
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 14
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/f1V0OhsOKnOQVyNb8h8BbioorQ4.jpg",
+            "provider_id": 576,
+            "provider_name": "KlikFilm",
+            "display_priority": 24
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 47
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 72
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 4
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=LI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=NZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=PG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/9qSVItdgkVHH3Rrl9db2yRWsgBq.jpg",
+            "provider_id": 159,
+            "provider_name": "Catchplay",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9qSVItdgkVHH3Rrl9db2yRWsgBq.jpg",
+            "provider_id": 159,
+            "provider_name": "Catchplay",
+            "display_priority": 13
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/30020/watch?locale=VA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      }
+    }
+  }
+}

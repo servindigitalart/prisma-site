@@ -1,0 +1,54 @@
+{
+  "work_id": "work_madeline-s-madeline_2018",
+  "processed_at": "2026-02-28T06:14:26.431419+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.8,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Warm, golden-amber lighting saturates Madeline's interior scenes and intense close-ups.",
+      "The production design of the raw rehearsal spaces often features desaturated, earthy amber and gold tones.",
+      "The overall cinematography and color grading apply a consistent, raw, golden tint to many sequences."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_madeline-s-madeline_2018",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:14:26.420979Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:14:26.420965Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_madeline-s-madeline_2018",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

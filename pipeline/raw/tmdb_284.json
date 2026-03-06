@@ -1,0 +1,4663 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/2L8U8rUyWeFTb6n1egTNeJsEsvj.jpg",
+    "belongs_to_collection": null,
+    "budget": 3000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 284,
+    "imdb_id": "tt0053604",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Apartment",
+    "overview": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+    "popularity": 4.0347,
+    "poster_path": "/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+    "production_companies": [
+      {
+        "id": 219,
+        "logo_path": null,
+        "name": "The Mirisch Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 60,
+        "logo_path": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "name": "United Artists",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1960-06-21",
+    "revenue": 25000000,
+    "runtime": 125,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Movie-wise, there has never been anything like it - laugh-wise, love-wise, or otherwise-wise!",
+    "title": "The Apartment",
+    "video": false,
+    "vote_average": 8.19,
+    "vote_count": 2581
+  },
+  "credits": {
+    "id": 284,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3151,
+        "known_for_department": "Acting",
+        "name": "Jack Lemmon",
+        "original_name": "Jack Lemmon",
+        "popularity": 0.8256,
+        "profile_path": "/7jWVWLr1VJqQrN3d4YJaATCIHRw.jpg",
+        "cast_id": 1,
+        "character": "C.C. Baxter",
+        "credit_id": "52fe4232c3a36847f800b417",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4090,
+        "known_for_department": "Acting",
+        "name": "Shirley MacLaine",
+        "original_name": "Shirley MacLaine",
+        "popularity": 2.4446,
+        "profile_path": "/mpW9c34IAFPW0ODuKR8J0FAqN5i.jpg",
+        "cast_id": 2,
+        "character": "Fran Kubelik",
+        "credit_id": "52fe4232c3a36847f800b41b",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4091,
+        "known_for_department": "Acting",
+        "name": "Fred MacMurray",
+        "original_name": "Fred MacMurray",
+        "popularity": 0.4583,
+        "profile_path": "/lxxixlFMNH0JuA9K0K3mJmigYcc.jpg",
+        "cast_id": 3,
+        "character": "Jeff D. Sheldrake",
+        "credit_id": "52fe4232c3a36847f800b41f",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4093,
+        "known_for_department": "Acting",
+        "name": "Ray Walston",
+        "original_name": "Ray Walston",
+        "popularity": 0.7388,
+        "profile_path": "/pRVUmhdc9nxflBI5GJvokz0nPPb.jpg",
+        "cast_id": 4,
+        "character": "Joe Dobisch",
+        "credit_id": "52fe4232c3a36847f800b423",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4094,
+        "known_for_department": "Acting",
+        "name": "Jack Kruschen",
+        "original_name": "Jack Kruschen",
+        "popularity": 0.424,
+        "profile_path": "/3QOPlFyLfFR8cLe0pseRjrm3lra.jpg",
+        "cast_id": 5,
+        "character": "Dr. Dreyfuss",
+        "credit_id": "52fe4232c3a36847f800b427",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 571911,
+        "known_for_department": "Acting",
+        "name": "David Lewis",
+        "original_name": "David Lewis",
+        "popularity": 0.3065,
+        "profile_path": "/nwEuF8nyeN7tlHL7GsJuVCOsmI7.jpg",
+        "cast_id": 28,
+        "character": "Al Kirkeby",
+        "credit_id": "52fe4232c3a36847f800b4a5",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4097,
+        "known_for_department": "Acting",
+        "name": "Hope Holiday",
+        "original_name": "Hope Holiday",
+        "popularity": 1.35,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Mrs. Margie MacDougall",
+        "credit_id": "52fe4232c3a36847f800b42f",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3161,
+        "known_for_department": "Acting",
+        "name": "Joan Shawlee",
+        "original_name": "Joan Shawlee",
+        "popularity": 0.2921,
+        "profile_path": "/oUmK5YF1jcGs5eEGStI1I3iF5vd.jpg",
+        "cast_id": 9,
+        "character": "Sylvia",
+        "credit_id": "52fe4232c3a36847f800b437",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4096,
+        "known_for_department": "Acting",
+        "name": "Naomi Stevens",
+        "original_name": "Naomi Stevens",
+        "popularity": 0.2698,
+        "profile_path": "/3s8sSpWsA2iZr20Db47nEbTcAYo.jpg",
+        "cast_id": 6,
+        "character": "Mrs. Mildred Dreyfuss",
+        "credit_id": "52fe4232c3a36847f800b42b",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4099,
+        "known_for_department": "Acting",
+        "name": "Johnny Seven",
+        "original_name": "Johnny Seven",
+        "popularity": 0.6306,
+        "profile_path": "/kn6k8OPk4OnAGl2aKp9zOBXfMyw.jpg",
+        "cast_id": 10,
+        "character": "Karl Matuschka",
+        "credit_id": "52fe4232c3a36847f800b43b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 40381,
+        "known_for_department": "Acting",
+        "name": "Joyce Jameson",
+        "original_name": "Joyce Jameson",
+        "popularity": 1.1743,
+        "profile_path": "/wSkhDflX3GiIMx8AQx0gKKwxE9m.jpg",
+        "cast_id": 29,
+        "character": "The Blonde",
+        "credit_id": "5676fb96c3a368168900611e",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 87517,
+        "known_for_department": "Acting",
+        "name": "Willard Waterman",
+        "original_name": "Willard Waterman",
+        "popularity": 0.1686,
+        "profile_path": "/t0QsePvJiJgTvusWlS8exxXFwsj.jpg",
+        "cast_id": 30,
+        "character": "Mr. Vanderhoff",
+        "credit_id": "5676fbbbc3a368168e006b6f",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 141694,
+        "known_for_department": "Acting",
+        "name": "David White",
+        "original_name": "David White",
+        "popularity": 0.8412,
+        "profile_path": "/h6jZkxOg7Z6I8SxkicURKqIHEn9.jpg",
+        "cast_id": 31,
+        "character": "Mr. Eichelberger",
+        "credit_id": "5676fbf9c3a368168500663f",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4098,
+        "known_for_department": "Acting",
+        "name": "Edie Adams",
+        "original_name": "Edie Adams",
+        "popularity": 0.3372,
+        "profile_path": "/wA8UQVoIG2OFZe6goZWmNGPuaBR.jpg",
+        "cast_id": 8,
+        "character": "Miss Olsen",
+        "credit_id": "52fe4232c3a36847f800b433",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1234545,
+        "known_for_department": "Acting",
+        "name": "Dorothy Abbott",
+        "original_name": "Dorothy Abbott",
+        "popularity": 0.2773,
+        "profile_path": "/bheDciblNfOsKTvRNRyWJ5BNUJS.jpg",
+        "cast_id": 32,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "5676fcca92514179e30062b8",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551605,
+        "known_for_department": "Acting",
+        "name": "Ralph Moratz",
+        "original_name": "Ralph Moratz",
+        "popularity": 0.1787,
+        "profile_path": "/ax2d7RI6kcHIzV6PBnoE7hafNbs.jpg",
+        "cast_id": 33,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "5676fd0292514179e1006467",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1250242,
+        "known_for_department": "Acting",
+        "name": "Joe Palma",
+        "original_name": "Joe Palma",
+        "popularity": 0.4526,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "Office Maintenance Man (uncredited)",
+        "credit_id": "5676feae92514179e30062f1",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 16527,
+        "known_for_department": "Acting",
+        "name": "Bill Baldwin",
+        "original_name": "Bill Baldwin",
+        "popularity": 0.3236,
+        "profile_path": "/lxPg2ucKAdQJ2L3jT0Ob3E6kvS0.jpg",
+        "cast_id": 35,
+        "character": "TV Movie Host (uncredited)",
+        "credit_id": "5676fedc925141691a002c3b",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 120555,
+        "known_for_department": "Acting",
+        "name": "Benny Burt",
+        "original_name": "Benny Burt",
+        "popularity": 0.105,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "Charlie - Bartender (uncredited)",
+        "credit_id": "5676ff06925141691a002c40",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 98166,
+        "known_for_department": "Acting",
+        "name": "Lynn Cartwright",
+        "original_name": "Lynn Cartwright",
+        "popularity": 1.0356,
+        "profile_path": "/p6gqVvZUKKR9IS4anwJFwMJmwxn.jpg",
+        "cast_id": 37,
+        "character": "Elevator Supervisor with Clicker (uncredited)",
+        "credit_id": "5676ff3d925141691a002c49",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1225439,
+        "known_for_department": "Acting",
+        "name": "Mason Curry",
+        "original_name": "Mason Curry",
+        "popularity": 0.0726,
+        "profile_path": null,
+        "cast_id": 38,
+        "character": "Bit Part (uncredited)",
+        "credit_id": "5676ffa4c3a368167a006c04",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 153413,
+        "known_for_department": "Acting",
+        "name": "David Macklin",
+        "original_name": "David Macklin",
+        "popularity": 0.3639,
+        "profile_path": "/pjVvJcWLFXKX2GZfEsHajJal34P.jpg",
+        "cast_id": 39,
+        "character": "Messenger (uncredited)",
+        "credit_id": "5676fff092514179d20066a8",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 25627,
+        "known_for_department": "Acting",
+        "name": "Hal Smith",
+        "original_name": "Hal Smith",
+        "popularity": 0.412,
+        "profile_path": "/xVXbKpSgCHvP5ymJNeB1fyf4GMP.jpg",
+        "cast_id": 40,
+        "character": "Man in Santa Claus Suit (uncredited)",
+        "credit_id": "5677002c92514179d40065ff",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1594339,
+        "known_for_department": "Acting",
+        "name": "Paul Bradley",
+        "original_name": "Paul Bradley",
+        "popularity": 0.3011,
+        "profile_path": null,
+        "cast_id": 66,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "6264ff9b6ca9a000aa6d1f0c",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 191823,
+        "known_for_department": "Acting",
+        "name": "Steve Carruthers",
+        "original_name": "Steve Carruthers",
+        "popularity": 0.3689,
+        "profile_path": "/lafDxGcaP7zzYGi5s1BlVjnMNjy.jpg",
+        "cast_id": 67,
+        "character": "Restaurant Patron (uncredited)",
+        "credit_id": "6264ffeda35c8e10e04ed071",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1600501,
+        "known_for_department": "Acting",
+        "name": "Dick Cherney",
+        "original_name": "Dick Cherney",
+        "popularity": 0.2342,
+        "profile_path": null,
+        "cast_id": 68,
+        "character": "Bar Patron (uncredited)",
+        "credit_id": "626500062fdec600a7f47166",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 975597,
+        "known_for_department": "Acting",
+        "name": "Franklyn Farnum",
+        "original_name": "Franklyn Farnum",
+        "popularity": 0.3776,
+        "profile_path": "/273KbcYjCmFpDMUcFtNKf7hNTRV.jpg",
+        "cast_id": 69,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "62650038d1a8937095487b66",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1598135,
+        "known_for_department": "Acting",
+        "name": "Herschel Graham",
+        "original_name": "Herschel Graham",
+        "popularity": 0.9733,
+        "profile_path": null,
+        "cast_id": 70,
+        "character": "Restaurant Patron (uncredited)",
+        "credit_id": "62650049d1a89370937c63b5",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1507184,
+        "known_for_department": "Acting",
+        "name": "Lars Hensen",
+        "original_name": "Lars Hensen",
+        "popularity": 0.4388,
+        "profile_path": null,
+        "cast_id": 71,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "62650058713ed4005047f4bd",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 89313,
+        "known_for_department": "Acting",
+        "name": "Eugene Jackson",
+        "original_name": "Eugene Jackson",
+        "popularity": 0.5395,
+        "profile_path": "/7RMdrhnV73hsCiJiWyHCVlAFTDf.jpg",
+        "cast_id": 72,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "626500738fdda90050667273",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3520811,
+        "known_for_department": "Acting",
+        "name": "Frances Weintraub Lax",
+        "original_name": "Frances Weintraub Lax",
+        "popularity": 0.2283,
+        "profile_path": null,
+        "cast_id": 73,
+        "character": "Mrs. Lieberman (uncredited)",
+        "credit_id": "626500a71495651655fba7b1",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 983505,
+        "known_for_department": "Acting",
+        "name": "William Meader",
+        "original_name": "William Meader",
+        "popularity": 0.7693,
+        "profile_path": null,
+        "cast_id": 74,
+        "character": "Executive (uncredited)",
+        "credit_id": "6265011b7fcab371e7024c43",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1368758,
+        "known_for_department": "Acting",
+        "name": "Monty O'Grady",
+        "original_name": "Monty O'Grady",
+        "popularity": 1.0984,
+        "profile_path": "/1yz4sQu0J0EAYvUWvjGgT0udItr.jpg",
+        "cast_id": 75,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "6265013b1f33190065bfc05d",
+        "order": 32
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 151891,
+        "known_for_department": "Acting",
+        "name": "Paul Power",
+        "original_name": "Paul Power",
+        "popularity": 0.1359,
+        "profile_path": null,
+        "cast_id": 76,
+        "character": "Bar Patron (uncredited)",
+        "credit_id": "62650165202e1108ac7aec53",
+        "order": 33
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1581532,
+        "known_for_department": "Acting",
+        "name": "Tony Regan",
+        "original_name": "Tony Regan",
+        "popularity": 0.172,
+        "profile_path": null,
+        "cast_id": 77,
+        "character": "Executive (uncredited)",
+        "credit_id": "626501ec1495651655fba9c8",
+        "order": 34
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2100076,
+        "known_for_department": "Acting",
+        "name": "Clark Ross",
+        "original_name": "Clark Ross",
+        "popularity": 0.2862,
+        "profile_path": null,
+        "cast_id": 78,
+        "character": "Restaurant Patron (uncredited)",
+        "credit_id": "62650246e32943009d3b5807",
+        "order": 35
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 122067,
+        "known_for_department": "Acting",
+        "name": "Norman Stevans",
+        "original_name": "Norman Stevans",
+        "popularity": 0.1092,
+        "profile_path": null,
+        "cast_id": 79,
+        "character": "Office Worker (uncredited)",
+        "credit_id": "62650281aaec710067bc992e",
+        "order": 36
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1289627,
+        "known_for_department": "Acting",
+        "name": "Sid Troy",
+        "original_name": "Sid Troy",
+        "popularity": 0.3275,
+        "profile_path": null,
+        "cast_id": 80,
+        "character": "Williams (uncredited)",
+        "credit_id": "62650299a35c8e129d796a5a",
+        "order": 37
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3146,
+        "known_for_department": "Directing",
+        "name": "Billy Wilder",
+        "original_name": "Billy Wilder",
+        "popularity": 0.6098,
+        "profile_path": "/nWV9BDDCbRegP7etiPjl3vYnJEq.jpg",
+        "credit_id": "52fe4232c3a36847f800b441",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4100,
+        "known_for_department": "Sound",
+        "name": "Adolph Deutsch",
+        "original_name": "Adolph Deutsch",
+        "popularity": 1.326,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b453",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4101,
+        "known_for_department": "Camera",
+        "name": "Joseph LaShelle",
+        "original_name": "Joseph LaShelle",
+        "popularity": 0.3537,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b459",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4102,
+        "known_for_department": "Editing",
+        "name": "Daniel Mandell",
+        "original_name": "Daniel Mandell",
+        "popularity": 0.4,
+        "profile_path": "/i0E71PSow73Gix42CIJTRv0UP0f.jpg",
+        "credit_id": "52fe4232c3a36847f800b45f",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4103,
+        "known_for_department": "Art",
+        "name": "Alexandre Trauner",
+        "original_name": "Alexandre Trauner",
+        "popularity": 0.1092,
+        "profile_path": "/A7dZ4YPZIfxOGiZFjpC3fGY8B0H.jpg",
+        "credit_id": "52fe4232c3a36847f800b465",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4104,
+        "known_for_department": "Art",
+        "name": "Edward G. Boyle",
+        "original_name": "Edward G. Boyle",
+        "popularity": 0.2396,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b46b",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4105,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Harry Ray",
+        "original_name": "Harry Ray",
+        "popularity": 0.3623,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b471",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4106,
+        "known_for_department": "Production",
+        "name": "Allen K. Wood",
+        "original_name": "Allen K. Wood",
+        "popularity": 0.1222,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b477",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4107,
+        "known_for_department": "Crew",
+        "name": "Milt Rice",
+        "original_name": "Milt Rice",
+        "popularity": 0.4787,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b47d",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4108,
+        "known_for_department": "Lighting",
+        "name": "Don Stott",
+        "original_name": "Don Stott",
+        "popularity": 0.4122,
+        "profile_path": null,
+        "credit_id": "52fe4232c3a36847f800b483",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3146,
+        "known_for_department": "Directing",
+        "name": "Billy Wilder",
+        "original_name": "Billy Wilder",
+        "popularity": 0.6098,
+        "profile_path": "/nWV9BDDCbRegP7etiPjl3vYnJEq.jpg",
+        "credit_id": "52fe4232c3a36847f800b489",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3146,
+        "known_for_department": "Directing",
+        "name": "Billy Wilder",
+        "original_name": "Billy Wilder",
+        "popularity": 0.6098,
+        "profile_path": "/nWV9BDDCbRegP7etiPjl3vYnJEq.jpg",
+        "credit_id": "626502bb8fdda9009ca4fedc",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3147,
+        "known_for_department": "Writing",
+        "name": "I. A. L. Diamond",
+        "original_name": "I. A. L. Diamond",
+        "popularity": 0.4257,
+        "profile_path": "/tm4mgbRqYYQMqbIps8F6iKmOBM9.jpg",
+        "credit_id": "626502c88fdda90050667648",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4103,
+        "known_for_department": "Art",
+        "name": "Alexandre Trauner",
+        "original_name": "Alexandre Trauner",
+        "popularity": 0.1092,
+        "profile_path": "/A7dZ4YPZIfxOGiZFjpC3fGY8B0H.jpg",
+        "credit_id": "62a1e950c8f85800a53b8446",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1454978,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Alice Monte",
+        "original_name": "Alice Monte",
+        "popularity": 0.1188,
+        "profile_path": null,
+        "credit_id": "567839ff9251411187000040",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 18379,
+        "known_for_department": "Production",
+        "name": "Hal W. Polaire",
+        "original_name": "Hal W. Polaire",
+        "popularity": 0.5971,
+        "profile_path": null,
+        "credit_id": "56783a35925141117b000034",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551963,
+        "known_for_department": "Production",
+        "name": "David Salven",
+        "original_name": "David Salven",
+        "popularity": 0.341,
+        "profile_path": null,
+        "credit_id": "56783aa6c3a3684742000057",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1551974,
+        "known_for_department": "Sound",
+        "name": "Del Harris",
+        "original_name": "Del Harris",
+        "popularity": 0.3201,
+        "profile_path": null,
+        "credit_id": "56783d55925141117d0000ad",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 14828,
+        "known_for_department": "Sound",
+        "name": "Robert Martin",
+        "original_name": "Robert Martin",
+        "popularity": 0.1838,
+        "profile_path": null,
+        "credit_id": "56783df5c3a36847470000be",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1551980,
+        "known_for_department": "Camera",
+        "name": "William Schurr",
+        "original_name": "William Schurr",
+        "popularity": 0.2911,
+        "profile_path": null,
+        "credit_id": "56783f6ac3a3684753000114",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 121343,
+        "known_for_department": "Sound",
+        "name": "Sid Sidney",
+        "original_name": "Sid Sidney",
+        "popularity": 0.2836,
+        "profile_path": null,
+        "credit_id": "5678407c92514111830000e8",
+        "department": "Sound",
+        "job": "Music Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 491,
+        "known_for_department": "Sound",
+        "name": "John Williams",
+        "original_name": "John Williams",
+        "popularity": 1.535,
+        "profile_path": "/wswitHP5jQNvsIxd6Yypa1Crmn1.jpg",
+        "credit_id": "567840dc925141118c00012c",
+        "department": "Sound",
+        "job": "Orchestrator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1250242,
+        "known_for_department": "Acting",
+        "name": "Joe Palma",
+        "original_name": "Joe Palma",
+        "popularity": 0.4526,
+        "profile_path": null,
+        "credit_id": "567841aa925141118a000157",
+        "department": "Crew",
+        "job": "Stand In"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3159,
+        "known_for_department": "Editing",
+        "name": "Doane Harrison",
+        "original_name": "Doane Harrison",
+        "popularity": 0.3067,
+        "profile_path": null,
+        "credit_id": "56a7797492514129fb0031df",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1825945,
+        "known_for_department": "Directing",
+        "name": "May Wale Brown",
+        "original_name": "May Wale Brown",
+        "popularity": 0.749,
+        "profile_path": null,
+        "credit_id": "59cfd43c92514113fc001362",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1897584,
+        "known_for_department": "Art",
+        "name": "Tom Plews",
+        "original_name": "Tom Plews",
+        "popularity": 0.3312,
+        "profile_path": null,
+        "credit_id": "59cfd482c3a36879290012b5",
+        "department": "Art",
+        "job": "Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3147,
+        "known_for_department": "Writing",
+        "name": "I. A. L. Diamond",
+        "original_name": "I. A. L. Diamond",
+        "popularity": 0.4257,
+        "profile_path": "/tm4mgbRqYYQMqbIps8F6iKmOBM9.jpg",
+        "credit_id": "59fce0d1925141168f001f42",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10919,
+        "known_for_department": "Sound",
+        "name": "Fred Lau",
+        "original_name": "Fred Lau",
+        "popularity": 0.2755,
+        "profile_path": null,
+        "credit_id": "5afc116bc3a368071b006f30",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2043642,
+        "known_for_department": "Sound",
+        "name": "Gordon Sawyer",
+        "original_name": "Gordon Sawyer",
+        "popularity": 0.1552,
+        "profile_path": null,
+        "credit_id": "5afc117192514107a6005135",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2043643,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Forrest T. Butler",
+        "original_name": "Forrest T. Butler",
+        "popularity": 0.4553,
+        "profile_path": null,
+        "credit_id": "5afc11b60e0a26345a0055db",
+        "department": "Costume & Make-Up",
+        "job": "Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1551984,
+        "known_for_department": "Crew",
+        "name": "Miriam Nelson",
+        "original_name": "Miriam Nelson",
+        "popularity": 0.333,
+        "profile_path": "/nps1ihmQZsmAKBlbhBWq87zI8S1.jpg",
+        "credit_id": "5c31faf30e0a2655ee429aaf",
+        "department": "Crew",
+        "job": "Choreographer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 284,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "4K UHD Unboxing",
+        "key": "rV1bREWZ_DA",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2025-12-18T18:01:06.000Z",
+        "id": "69456e9852827378fa8cd873"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Arrow Trailer",
+        "key": "ekDkUUPSWuY",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2025-11-20T18:00:50.000Z",
+        "id": "691f584848432d2bb2eb68ed"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Shirley MacLaine shares behind-the-scenes memories from the making of THE APARTMENT.",
+        "key": "nZvoAbgV_TM",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2025-06-15T18:00:46.000Z",
+        "id": "685066edcb036e9ff1b99e8b"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "4K Restoration | Official Trailer",
+        "key": "isjfwA0B5xQ",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2025-01-17T10:00:06.000Z",
+        "id": "678af332a915feb71064d562"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Office Christmas Party Scene",
+        "key": "cktAgwbtbxw",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2022-12-20T21:00:13.000Z",
+        "id": "63af57868741c4008cb7e555"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Baxter Gets A Promotion",
+        "key": "R_e57AjiJh4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2022-12-17T21:00:08.000Z",
+        "id": "63af5792c56d2d00f30ea4f9"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Elevator Operator With Shirley MacLaine",
+        "key": "mL0pISorUNw",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2022-12-16T21:00:18.000Z",
+        "id": "639d9a84be6d880084eafaac"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Opening Scene",
+        "key": "GpTa7kgLqrU",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2022-12-13T21:00:06.000Z",
+        "id": "6399c2fbe263bb0080fb0006"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "OcslkrBMLGc",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2021-06-28T13:00:08.000Z",
+        "id": "622341158ee49c0044c66514"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"The Apartment\" and \"Spartacus\" winning Art Direction Oscars\u00ae",
+        "key": "FhevYSMU0cI",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-02-24T22:00:13.000Z",
+        "id": "68472b0ccb13e4c617de74c7"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"The Apartment\" winning the Oscar\u00ae for Film Editing",
+        "key": "STZnnSbF148",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-02-03T18:58:32.000Z",
+        "id": "68472c161516e3e64b342c55"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Billy Wilder winning the Oscar\u00ae for Writing\u202c\u202c\u202c\u202c \"The Apartment\"",
+        "key": "wg5SdYUQz-A",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2012-09-14T22:26:22.000Z",
+        "id": "68472c28798d308006fd61c8"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Billy Wilder winning the Oscar\u00ae for Directing\u202c\u202c\u202c\u202c \"The Apartment\"",
+        "key": "S2X_BenTWNA",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2012-08-28T17:31:34.000Z",
+        "id": "68472bd94e83f7c09bde7306"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"The Apartment\" winning Best Picture",
+        "key": "tC99FU4bdAg",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2012-03-14T16:29:55.000Z",
+        "id": "68472bcf72276fc73bbb33aa"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Jack Lemmon On THE APARTMENT",
+        "key": "frUrR3vc3M8",
+        "published_at": "2010-12-10T23:43:53.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec653c3a3685448000255"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 284,
+    "keywords": [
+      {
+        "id": 613,
+        "name": "new year's eve"
+      },
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 725,
+        "name": "lovesickness"
+      },
+      {
+        "id": 1443,
+        "name": "clerk"
+      },
+      {
+        "id": 1442,
+        "name": "winter"
+      },
+      {
+        "id": 965,
+        "name": "age difference"
+      },
+      {
+        "id": 1252,
+        "name": "suicide attempt"
+      },
+      {
+        "id": 1438,
+        "name": "office"
+      },
+      {
+        "id": 1439,
+        "name": "flat"
+      },
+      {
+        "id": 1440,
+        "name": "spaghetti"
+      },
+      {
+        "id": 1487,
+        "name": "tennis racket"
+      },
+      {
+        "id": 9799,
+        "name": "romcom"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 14720,
+        "name": "love affair"
+      },
+      {
+        "id": 34094,
+        "name": "extramarital affair"
+      },
+      {
+        "id": 179173,
+        "name": "quitting a job"
+      },
+      {
+        "id": 207317,
+        "name": "christmas"
+      },
+      {
+        "id": 286239,
+        "name": "apartment"
+      },
+      {
+        "id": 325782,
+        "name": "cheerful"
+      },
+      {
+        "id": 362041,
+        "name": "r\u00e9veillon"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 284,
+    "results": {
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AO",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 67
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 57
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=AZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 37
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BF",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/foWKiK4ikpdM72OGN2B8jjyy6OY.jpg",
+            "provider_id": 2142,
+            "provider_name": "MGM+ Apple TV Channel",
+            "display_priority": 54
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 55
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BY",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=BZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 70
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 75
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 75
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/foWKiK4ikpdM72OGN2B8jjyy6OY.jpg",
+            "provider_id": 2142,
+            "provider_name": "MGM+ Apple TV Channel",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CO",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 60
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/foWKiK4ikpdM72OGN2B8jjyy6OY.jpg",
+            "provider_id": 2142,
+            "provider_name": "MGM+ Apple TV Channel",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 60
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CV",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=CZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 124
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 130
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=EE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=EG",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=ES",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 68
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 104
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 56
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 57
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=HK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=HR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=HU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 37
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 37
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=ID",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=IL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=IN",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 77
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=IS",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 71
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=LT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=LU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=LV",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=ML",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MX",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/foWKiK4ikpdM72OGN2B8jjyy6OY.jpg",
+            "provider_id": 2142,
+            "provider_name": "MGM+ Apple TV Channel",
+            "display_priority": 47
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 48
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=MZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=NL",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 59
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 36
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 59
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PG",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 30
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=PY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=RO",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/ny55kYI31jrwSYp2LmCniMCGc03.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SI",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=TH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=TW",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=TZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=UA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=UG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
+            "provider_id": 486,
+            "provider_name": "Spectrum On Demand",
+            "display_priority": 120
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/4tJBhJcuF1ZstI5Yqu82G0yroLa.jpg",
+            "provider_id": 235,
+            "provider_name": "YouTube Free",
+            "display_priority": 95
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 356
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+            "provider_id": 257,
+            "provider_name": "fuboTV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 583,
+            "provider_name": "MGM+ Amazon Channel",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/lD7HKUmXDvUya58DceiTA809Zbf.jpg",
+            "provider_id": 636,
+            "provider_name": "MGM Plus Roku Premium Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+            "provider_id": 2528,
+            "provider_name": "YouTube TV",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/ctiRpS16dlaTXQBSsiFncMrgWmh.jpg",
+            "provider_id": 34,
+            "provider_name": "MGM Plus",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+            "provider_id": 2383,
+            "provider_name": "Philo",
+            "display_priority": 52
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=ZA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/284-the-apartment/watch?locale=ZW",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      }
+    }
+  }
+}

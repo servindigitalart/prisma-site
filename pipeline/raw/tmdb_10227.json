@@ -1,0 +1,2168 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/ynz9uQBiNGojJzpxhpbGDXkpTP.jpg",
+    "belongs_to_collection": {
+      "id": 619806,
+      "name": "Monsieur Hulot Collection",
+      "poster_path": "/j1hH3spsoDcioEXWep46jZQfSI4.jpg",
+      "backdrop_path": "/zGjOWVzgEZiHHM6L1pp5eAgBqio.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "homepage": "",
+    "id": 10227,
+    "imdb_id": "tt0062136",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "PlayTime",
+    "overview": "Clumsy Monsieur Hulot finds himself perplexed by the intimidating complexity of a gadget-filled Paris. He attempts to meet with a business contact but soon becomes lost. His roundabout journey parallels that of an American tourist, and as they weave through the inventive urban environment, they intermittently meet, developing an interest in one another. They eventually get together at a chaotic restaurant, along with several other quirky characters.",
+    "popularity": 2.7136,
+    "poster_path": "/kQOrS0DLUXYsqPMedM2G6NJcJBq.jpg",
+    "production_companies": [
+      {
+        "id": 10481,
+        "logo_path": null,
+        "name": "Jolly Film",
+        "origin_country": "IT"
+      },
+      {
+        "id": 30847,
+        "logo_path": "/gXwWRlvQuZMfXKYdu4IZIlHzvvu.png",
+        "name": "Specta Films",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "IT",
+        "name": "Italy"
+      }
+    ],
+    "release_date": "1967-12-13",
+    "revenue": 0,
+    "runtime": 115,
+    "spoken_languages": [
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "An incomparable spectacle.",
+    "title": "PlayTime",
+    "video": false,
+    "vote_average": 7.727,
+    "vote_count": 645
+  },
+  "credits": {
+    "id": 10227,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5763,
+        "known_for_department": "Directing",
+        "name": "Jacques Tati",
+        "original_name": "Jacques Tati",
+        "popularity": 0.3399,
+        "profile_path": "/eRDsYZuxodRNvO4zarqhL3SoOSz.jpg",
+        "cast_id": 2,
+        "character": "Monsieur Hulot",
+        "credit_id": "52fe43459251416c7500a1a5",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 67960,
+        "known_for_department": "Acting",
+        "name": "Barbara Dennek",
+        "original_name": "Barbara Dennek",
+        "popularity": 0.0726,
+        "profile_path": "/vVpI0nu5QYIhd06E7DFHBmlp0u5.jpg",
+        "cast_id": 3,
+        "character": "Young Tourist",
+        "credit_id": "52fe43469251416c7500a1a9",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 18242,
+        "known_for_department": "Acting",
+        "name": "Rita Maiden",
+        "original_name": "Rita Maiden",
+        "popularity": 0.4284,
+        "profile_path": "/z21gHqDxwCgBxdzySbmZVYHNARQ.jpg",
+        "cast_id": 4,
+        "character": "Mr. Schultz's Companion",
+        "credit_id": "52fe43469251416c7500a1ad",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 39145,
+        "known_for_department": "Acting",
+        "name": "France Rumilly",
+        "original_name": "France Rumilly",
+        "popularity": 0.7604,
+        "profile_path": "/oALdQ3D0HGDTIY61g4guKheinQz.jpg",
+        "cast_id": 5,
+        "character": "Woman Selling Eyeglasses",
+        "credit_id": "52fe43469251416c7500a1b1",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1921077,
+        "known_for_department": "Acting",
+        "name": "France Delahalle",
+        "original_name": "France Delahalle",
+        "popularity": 0.6409,
+        "profile_path": "/qPkk4QmDkOldaAhrY6NiOslHeO9.jpg",
+        "cast_id": 18,
+        "character": "Shopper in Department Store",
+        "credit_id": "5ae730f60e0a26105400bfb0",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1206571,
+        "known_for_department": "Acting",
+        "name": "Val\u00e9rie Camille",
+        "original_name": "Val\u00e9rie Camille",
+        "popularity": 0.216,
+        "profile_path": null,
+        "cast_id": 19,
+        "character": "Mr. Lacs's Secretary",
+        "credit_id": "5ae73158c3a368136700a594",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1924061,
+        "known_for_department": "Acting",
+        "name": "Erika Dentzler",
+        "original_name": "Erika Dentzler",
+        "popularity": 0.2002,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "Mme. Giffard",
+        "credit_id": "5ae731959251410d2800a863",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133648,
+        "known_for_department": "Acting",
+        "name": "Nicole Ray",
+        "original_name": "Nicole Ray",
+        "popularity": 0.1157,
+        "profile_path": null,
+        "cast_id": 22,
+        "character": "Singer",
+        "credit_id": "60d2a780a27502005fd319df",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133649,
+        "known_for_department": "Acting",
+        "name": "Yvette Ducreux",
+        "original_name": "Yvette Ducreux",
+        "popularity": 0.0324,
+        "profile_path": null,
+        "cast_id": 23,
+        "character": "Hat Check Girl",
+        "credit_id": "60d2a79695c0af00462668e0",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133650,
+        "known_for_department": "Acting",
+        "name": "Nathalie Jem",
+        "original_name": "Nathalie Jem",
+        "popularity": 0.0558,
+        "profile_path": null,
+        "cast_id": 24,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a7a143cd54005d796b7c",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133651,
+        "known_for_department": "Acting",
+        "name": "Jacqueline Lecomte",
+        "original_name": "Jacqueline Lecomte",
+        "popularity": 0.0091,
+        "profile_path": null,
+        "cast_id": 25,
+        "character": "Young Tourist's Friend",
+        "credit_id": "60d2a7ad35c30a005ee4ea40",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2513244,
+        "known_for_department": "Acting",
+        "name": "Olivia Poli",
+        "original_name": "Olivia Poli",
+        "popularity": 0.3377,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a7c435c30a00270fcfdc",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 47965,
+        "known_for_department": "Acting",
+        "name": "Alice Field",
+        "original_name": "Alice Field",
+        "popularity": 0.1167,
+        "profile_path": "/2np8d70rhxGVdGMGLI609Nop9CT.jpg",
+        "cast_id": 27,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a7d695c0af002cac5f74",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133652,
+        "known_for_department": "Acting",
+        "name": "Sophie Wennek",
+        "original_name": "Sophie Wennek",
+        "popularity": 0.0495,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a7dee54d5d007fe620f9",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133653,
+        "known_for_department": "Acting",
+        "name": "Evy Cavallaro",
+        "original_name": "Evy Cavallaro",
+        "popularity": 0.0066,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a7e58d1b8e0074aa536e",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1004633,
+        "known_for_department": "Acting",
+        "name": "Laure Paillette",
+        "original_name": "Laure Paillette",
+        "popularity": 0.1099,
+        "profile_path": "/raHcFZmGVNDeNLmGJMrLQh7lVrA.jpg",
+        "cast_id": 30,
+        "character": "Lamp Woman #1",
+        "credit_id": "60d2a806dbad5000735bdd4e",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1995487,
+        "known_for_department": "Acting",
+        "name": "Colette Proust",
+        "original_name": "Colette Proust",
+        "popularity": 0.1427,
+        "profile_path": "/2L8gMman4ldfMelO34uaKw6kpGn.jpg",
+        "cast_id": 31,
+        "character": "Lamp Woman #2",
+        "credit_id": "60d2a81ebf31f2005d1ccbae",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1529404,
+        "known_for_department": "Acting",
+        "name": "Luce Bonifassy",
+        "original_name": "Luce Bonifassy",
+        "popularity": 0.1177,
+        "profile_path": "/qVfZUjaa2WTRBtwmE1SzMAg4EbE.jpg",
+        "cast_id": 32,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a829229ae20046ba5319",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1109809,
+        "known_for_department": "Acting",
+        "name": "Ketty France",
+        "original_name": "Ketty France",
+        "popularity": 0.156,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a83a43cd54005d796efb",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133654,
+        "known_for_department": "Acting",
+        "name": "Eliane Firmin-Didot",
+        "original_name": "Eliane Firmin-Didot",
+        "popularity": 0.0292,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "Customer of the Royal Garden",
+        "credit_id": "60d2a8468d1b8e0046ed1371",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 35958,
+        "known_for_department": "Acting",
+        "name": "Billy Kearns",
+        "original_name": "Billy Kearns",
+        "popularity": 0.1007,
+        "profile_path": "/yX9kCJ4HLVyYPRZ83XQSACpNz8g.jpg",
+        "cast_id": 21,
+        "character": "Mr. Schulz, the American businessman",
+        "credit_id": "60d2a6d7bf31f2005d1cc5bc",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133655,
+        "known_for_department": "Acting",
+        "name": "Tony Andal",
+        "original_name": "Tony Andal",
+        "popularity": 0.0322,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "Tony, Restaurant's Doorman",
+        "credit_id": "60d2a861e54d5d0047bb78d9",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39334,
+        "known_for_department": "Acting",
+        "name": "Yves Barsacq",
+        "original_name": "Yves Barsacq",
+        "popularity": 0.6025,
+        "profile_path": "/bxTkvQcR3b78MM3BXGBJ0jSbOL9.jpg",
+        "cast_id": 36,
+        "character": "Hulot's Friend",
+        "credit_id": "60d2a88565e0a200747cf163",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1174515,
+        "known_for_department": "Acting",
+        "name": "Andr\u00e9 Fouch\u00e9",
+        "original_name": "Andr\u00e9 Fouch\u00e9",
+        "popularity": 0.3031,
+        "profile_path": null,
+        "cast_id": 37,
+        "character": "Restaurant Manager",
+        "credit_id": "60d2a8a4dbad5000735bdf56",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 580216,
+        "known_for_department": "Acting",
+        "name": "Georges Montant",
+        "original_name": "Georges Montant",
+        "popularity": 0.2066,
+        "profile_path": "/wmtP2XGIvoGQXvtN0jXtEPYaK3s.jpg",
+        "cast_id": 38,
+        "character": "Mr. Giffard",
+        "credit_id": "60d2a8cce54d5d005e7308b6",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2591258,
+        "known_for_department": "Acting",
+        "name": "Georges Faye",
+        "original_name": "Georges Faye",
+        "popularity": 0.0475,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "Architect",
+        "credit_id": "60d2a8dba27502002fc1cd78",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 142593,
+        "known_for_department": "Acting",
+        "name": "John Abbey",
+        "original_name": "John Abbey",
+        "popularity": 0.315,
+        "profile_path": "/7ffhS0Co7BSp7KnDQRgqKatA4O4.jpg",
+        "cast_id": 40,
+        "character": "Mr. Lacs",
+        "credit_id": "60d2a8f8bf31f20046792336",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 38171,
+        "known_for_department": "Acting",
+        "name": "Reinhard Kolldehoff",
+        "original_name": "Reinhard Kolldehoff",
+        "popularity": 0.2072,
+        "profile_path": "/gQwOGcEcEdGVdTnE30YADnojNXw.jpg",
+        "cast_id": 41,
+        "character": "German Businessman",
+        "credit_id": "60d2a90667b613005d01a430",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39344,
+        "known_for_department": "Acting",
+        "name": "Michel Francini",
+        "original_name": "Michel Francini",
+        "popularity": 0.2294,
+        "profile_path": "/aqnuDPOTALnBIgF7RBMIedu4ObA.jpg",
+        "cast_id": 42,
+        "character": "1st Maitre D'",
+        "credit_id": "60d2a93f65e0a200450dd31f",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133656,
+        "known_for_department": "Acting",
+        "name": "Gr\u00e9goire Katz",
+        "original_name": "Gr\u00e9goire Katz",
+        "popularity": 0.0377,
+        "profile_path": null,
+        "cast_id": 43,
+        "character": "German Salesman",
+        "credit_id": "60d2a94b43cd5400740e2051",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2657493,
+        "known_for_department": "Acting",
+        "name": "Jack Gauthier",
+        "original_name": "Jack Gauthier",
+        "popularity": 0.2259,
+        "profile_path": null,
+        "cast_id": 44,
+        "character": "The Guide",
+        "credit_id": "60d2a95de54d5d002ebeddc9",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1500823,
+        "known_for_department": "Acting",
+        "name": "Henri Piccoli",
+        "original_name": "Henri Piccoli",
+        "popularity": 0.142,
+        "profile_path": null,
+        "cast_id": 45,
+        "character": "An Important Gentleman",
+        "credit_id": "60d2a9710a517c005c829ddc",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133657,
+        "known_for_department": "Acting",
+        "name": "L\u00e9on Doyen",
+        "original_name": "L\u00e9on Doyen",
+        "popularity": 0.0025,
+        "profile_path": null,
+        "cast_id": 46,
+        "character": "Old Doorman",
+        "credit_id": "60d2a97d67b613005d01a633",
+        "order": 32
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 992716,
+        "known_for_department": "Acting",
+        "name": "Douglas Read",
+        "original_name": "Douglas Read",
+        "popularity": 0.462,
+        "profile_path": null,
+        "cast_id": 47,
+        "character": "",
+        "credit_id": "60d2a99695c0af0075e21176",
+        "order": 33
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1326530,
+        "known_for_department": "Acting",
+        "name": "Fran\u00e7ois Viaur",
+        "original_name": "Fran\u00e7ois Viaur",
+        "popularity": 0.1681,
+        "profile_path": "/cN9Ex7afkpnn2F7ONo0BeC2q2tD.jpg",
+        "cast_id": 48,
+        "character": "Waiter at the Royal Garden",
+        "credit_id": "60d2a99dbf31f2002fc1a190",
+        "order": 34
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133658,
+        "known_for_department": "Acting",
+        "name": "Bob Harley",
+        "original_name": "Bob Harley",
+        "popularity": 0.2297,
+        "profile_path": null,
+        "cast_id": 49,
+        "character": "",
+        "credit_id": "60d2a9af67b613005d01a718",
+        "order": 35
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133659,
+        "known_for_department": "Acting",
+        "name": "Jacques Chauveau",
+        "original_name": "Jacques Chauveau",
+        "popularity": 0.0108,
+        "profile_path": null,
+        "cast_id": 50,
+        "character": "",
+        "credit_id": "60d2a9bedbad50002730f9e8",
+        "order": 36
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3133660,
+        "known_for_department": "Acting",
+        "name": "Gilbert Reeb",
+        "original_name": "Gilbert Reeb",
+        "popularity": 0.0754,
+        "profile_path": null,
+        "cast_id": 51,
+        "character": "",
+        "credit_id": "60d2a9c643cd5400461bb9ca",
+        "order": 37
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 583500,
+        "known_for_department": "Acting",
+        "name": "Marc Monjou",
+        "original_name": "Marc Monjou",
+        "popularity": 0.2715,
+        "profile_path": null,
+        "cast_id": 52,
+        "character": "False Hulot with beard",
+        "credit_id": "60d2a9de957e6d0030b4aba7",
+        "order": 38
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1624814,
+        "known_for_department": "Acting",
+        "name": "Billy Bourbon",
+        "original_name": "Billy Bourbon",
+        "popularity": 0.678,
+        "profile_path": null,
+        "cast_id": 53,
+        "character": "",
+        "credit_id": "60d2a9e5957e6d007315d4cc",
+        "order": 39
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5763,
+        "known_for_department": "Directing",
+        "name": "Jacques Tati",
+        "original_name": "Jacques Tati",
+        "popularity": 0.3399,
+        "profile_path": "/eRDsYZuxodRNvO4zarqhL3SoOSz.jpg",
+        "credit_id": "52fe43459251416c7500a1a1",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5763,
+        "known_for_department": "Directing",
+        "name": "Jacques Tati",
+        "original_name": "Jacques Tati",
+        "popularity": 0.3399,
+        "profile_path": "/eRDsYZuxodRNvO4zarqhL3SoOSz.jpg",
+        "credit_id": "52fe43469251416c7500a1bd",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67962,
+        "known_for_department": "Production",
+        "name": "Bernard Maurice",
+        "original_name": "Bernard Maurice",
+        "popularity": 0.0614,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1c9",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67961,
+        "known_for_department": "Writing",
+        "name": "Art Buchwald",
+        "original_name": "Art Buchwald",
+        "popularity": 0.2805,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1c3",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5774,
+        "known_for_department": "Writing",
+        "name": "Jacques Lagrange",
+        "original_name": "Jacques Lagrange",
+        "popularity": 0.1804,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1b7",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 26020,
+        "known_for_department": "Camera",
+        "name": "Jean Badal",
+        "original_name": "Jean Badal",
+        "popularity": 0.2202,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1d5",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 32074,
+        "known_for_department": "Camera",
+        "name": "Andr\u00e9as Winding",
+        "original_name": "Andr\u00e9as Winding",
+        "popularity": 0.1993,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1db",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67963,
+        "known_for_department": "Sound",
+        "name": "Francis Lemarque",
+        "original_name": "Francis Lemarque",
+        "popularity": 0.0634,
+        "profile_path": "/7jWyEjisR8mOtT0QmMhJPTaFqfq.jpg",
+        "credit_id": "52fe43469251416c7500a1cf",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67964,
+        "known_for_department": "Editing",
+        "name": "G\u00e9rard Pollicand",
+        "original_name": "G\u00e9rard Pollicand",
+        "popularity": 0.0972,
+        "profile_path": null,
+        "credit_id": "52fe43469251416c7500a1e1",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69216,
+        "known_for_department": "Sound",
+        "name": "Maurice Laumain",
+        "original_name": "Maurice Laumain",
+        "popularity": 0.1103,
+        "profile_path": null,
+        "credit_id": "598c688192514107d6012520",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1867349,
+        "known_for_department": "Art",
+        "name": "Eug\u00e8ne Roman",
+        "original_name": "Eug\u00e8ne Roman",
+        "popularity": 0.2828,
+        "profile_path": null,
+        "credit_id": "598c6860925141080d011985",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 32321,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Jacques Cottin",
+        "original_name": "Jacques Cottin",
+        "popularity": 0.2937,
+        "profile_path": null,
+        "credit_id": "598c686c92514107fa011aa2",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      }
+    ]
+  },
+  "videos": {
+    "id": 10227,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "PLAYTIME: How Jacques Tati Develops a Single Gag",
+        "key": "0apeMNoM1XE",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2026-02-12T20:16:59.000Z",
+        "id": "699110059bd5ecf20b2ae926"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Marshall Harvey on PLAYTIME",
+        "key": "NPSLvV9eBeA",
+        "published_at": "2016-12-16T02:30:00.000Z",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": false,
+        "id": "5853d510c3a3682f5802ca2a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Reissue Trailer 2014",
+        "key": "zrYB8hgyq4s",
+        "published_at": "2014-09-23T13:48:42.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "57c720e8c3a3683e3e00a3d0"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Behind the Scenes",
+        "key": "GkwvVTVzJsQ",
+        "published_at": "2012-11-08T21:10:07.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Behind the Scenes",
+        "official": true,
+        "id": "533ec669c3a3685448001a23"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 10227,
+    "keywords": [
+      {
+        "id": 90,
+        "name": "paris, france"
+      },
+      {
+        "id": 2384,
+        "name": "modernity"
+      },
+      {
+        "id": 1946,
+        "name": "restaurant"
+      },
+      {
+        "id": 3131,
+        "name": "modern society"
+      },
+      {
+        "id": 188478,
+        "name": "glass"
+      },
+      {
+        "id": 208421,
+        "name": "american tourist"
+      },
+      {
+        "id": 210399,
+        "name": "steel"
+      },
+      {
+        "id": 225012,
+        "name": "satirical"
+      },
+      {
+        "id": 320420,
+        "name": "hilarious"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 10227,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/geOzgeKZWpZC3lymAVEHVIk3X0q.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 55
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=BG",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/9HhIlyFlilVtx0sMTcPbhs5qR31.jpg",
+            "provider_id": 47,
+            "provider_name": "Looke",
+            "display_priority": 4
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/jlyafDbXLyNXNNFZbIgB9VrlScW.jpg",
+            "provider_id": 19,
+            "provider_name": "NetMovies",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=BY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/7rJJlPpuGz0DV5OLjVW1HzYaFj9.jpg",
+            "provider_id": 146,
+            "provider_name": "iciTouTV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=CH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=CV",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=CY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=CZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 110
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 123
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 130
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=EE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=ES",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/mLif0L2p0M2AK4pbqHOBqLwB3bP.jpg",
+            "provider_id": 1747,
+            "provider_name": "Studiocanal Presents Amazon Channel",
+            "display_priority": 80
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 56
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 57
+          },
+          {
+            "logo_path": "/mLif0L2p0M2AK4pbqHOBqLwB3bP.jpg",
+            "provider_id": 1747,
+            "provider_name": "Studiocanal Presents Amazon Channel",
+            "display_priority": 77
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 14
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=HU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=IL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=IN",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=JP",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=LT",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=LV",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=MU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=MY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=MZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=NO",
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=NZ",
+        "free": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=PH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=PL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=SI",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=SK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=UG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      }
+    }
+  }
+}

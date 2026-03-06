@@ -1,0 +1,54 @@
+{
+  "work_id": "work_blue-velvet_1986",
+  "processed_at": "2026-02-28T04:40:44.820352+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The deep blue velvet curtain and stage lighting in the 'Slow Club' where Dorothy Vallens performs 'Blue Velvet.'",
+      "The film's title, 'Blue Velvet,' directly references this dominant color and fabric, solidifying its visual and thematic importance.",
+      "The pervasive nocturnal atmosphere and sense of mystery and sorrow are conveyed through deep blue lighting in many key underworld scenes."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_blue-velvet_1986",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:40:44.816037Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:40:44.816025Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_blue-velvet_1986",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

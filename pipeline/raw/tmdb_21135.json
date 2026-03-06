@@ -1,0 +1,1435 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/n6hmnEqU9W4jcVxCU00S4XJ5ecw.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 21135,
+    "imdb_id": "tt0056736",
+    "origin_country": [
+      "IT"
+    ],
+    "original_language": "it",
+    "original_title": "L'eclisse",
+    "overview": "Vittoria is a beautiful literary translator living in Rome. After splitting from her writer boyfriend, Riccardo, Vittoria meets Piero, a lively stockbroker, on the hectic floor of the Roman stock exchange. Though Vittoria and Piero begin a relationship, it is not one without difficulties, and their commitment to one another is tested during an eclipse.",
+    "popularity": 3.299,
+    "poster_path": "/oXoe0Fp92Yw3mMJ9Vq0hPlaMELg.jpg",
+    "production_companies": [
+      {
+        "id": 9387,
+        "logo_path": null,
+        "name": "Cineriz",
+        "origin_country": "IT"
+      },
+      {
+        "id": 21078,
+        "logo_path": null,
+        "name": "Interopa Film",
+        "origin_country": "IT"
+      },
+      {
+        "id": 14697,
+        "logo_path": null,
+        "name": "Paris-Film Production",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "IT",
+        "name": "Italy"
+      }
+    ],
+    "release_date": "1962-04-13",
+    "revenue": 0,
+    "runtime": 126,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Released",
+    "tagline": "\u2026 the ache and ecstasy of love\u2026",
+    "title": "L'Eclisse",
+    "video": false,
+    "vote_average": 7.7,
+    "vote_count": 522
+  },
+  "credits": {
+    "id": 21135,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15135,
+        "known_for_department": "Acting",
+        "name": "Alain Delon",
+        "original_name": "Alain Delon",
+        "popularity": 3.1607,
+        "profile_path": "/dRPDxFehaVGbHojEUsCvqLSNfqH.jpg",
+        "cast_id": 2,
+        "character": "Piero",
+        "credit_id": "52fe440cc3a368484e00c6bb",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 41779,
+        "known_for_department": "Acting",
+        "name": "Monica Vitti",
+        "original_name": "Monica Vitti",
+        "popularity": 0.4451,
+        "profile_path": "/fwDSIup9fJHnu7DHlAp20OSTDly.jpg",
+        "cast_id": 3,
+        "character": "Vittoria",
+        "credit_id": "52fe440cc3a368484e00c6bf",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9768,
+        "known_for_department": "Acting",
+        "name": "Francisco Rabal",
+        "original_name": "Francisco Rabal",
+        "popularity": 0.2669,
+        "profile_path": "/4SXneju54P5QjrF7ZmAlU09HHxX.jpg",
+        "cast_id": 4,
+        "character": "Riccardo",
+        "credit_id": "52fe440cc3a368484e00c6c3",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 131329,
+        "known_for_department": "Acting",
+        "name": "Lilla Brignone",
+        "original_name": "Lilla Brignone",
+        "popularity": 0.242,
+        "profile_path": "/mYjtn73Xjve1aHprpb4xpmdRlpQ.jpg",
+        "cast_id": 6,
+        "character": "Vittoria's Mother",
+        "credit_id": "52fe440cc3a368484e00c6c7",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 91543,
+        "known_for_department": "Acting",
+        "name": "Rossana Rory",
+        "original_name": "Rossana Rory",
+        "popularity": 0.588,
+        "profile_path": "/cOm2323wuX2jRKJAmPiXnH91XIX.jpg",
+        "cast_id": 7,
+        "character": "Anita",
+        "credit_id": "52fe440cc3a368484e00c6cb",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2377125,
+        "known_for_department": "Acting",
+        "name": "Mirella Ricciardi",
+        "original_name": "Mirella Ricciardi",
+        "popularity": 0.4408,
+        "profile_path": "/kMzJw90y9ldIW7anSKWvFEDDwOq.jpg",
+        "cast_id": 32,
+        "character": "Marta",
+        "credit_id": "5d4453ada9117f0015f08289",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24885,
+        "known_for_department": "Acting",
+        "name": "Louis Seigner",
+        "original_name": "Louis Seigner",
+        "popularity": 0.1549,
+        "profile_path": "/oP5LPh8jiTfduUtDScypi3O4mol.jpg",
+        "cast_id": 10,
+        "character": "Ercoli",
+        "credit_id": "52fe440cc3a368484e00c6db",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 138646,
+        "known_for_department": "Acting",
+        "name": "Cyrus Elias",
+        "original_name": "Cyrus Elias",
+        "popularity": 1.4988,
+        "profile_path": "/uxVul7Ik93qpgbtyy76nYGJLmY5.jpg",
+        "cast_id": 24,
+        "character": "Intoxicated Man (uncredited)",
+        "credit_id": "59b545629251410f58001cfb",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1452104,
+        "known_for_department": "Acting",
+        "name": "Alba Maiolini",
+        "original_name": "Alba Maiolini",
+        "popularity": 0.136,
+        "profile_path": "/hqHkC2tdrifAFs2OaWkuPVpfVkj.jpg",
+        "cast_id": 55,
+        "character": "Woman at the Stock Market (uncredited)",
+        "credit_id": "668549d3323ecdc64b0264ab",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1108286,
+        "known_for_department": "Acting",
+        "name": "Maria Tedeschi",
+        "original_name": "Maria Tedeschi",
+        "popularity": 0.864,
+        "profile_path": "/tF3oeho2TkUZJrbpaIjN0slxYO7.jpg",
+        "cast_id": 56,
+        "character": "Woman with Glasses at the Stock Market (uncredited)",
+        "credit_id": "668549ea4b4e17da8f3b2535",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "52fe440cc3a368484e00c6b7",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1176688,
+        "known_for_department": "Sound",
+        "name": "Franco Ferrara",
+        "original_name": "Franco Ferrara",
+        "popularity": 1.3895,
+        "profile_path": null,
+        "credit_id": "626cea22d7107e2aa16a810d",
+        "department": "Sound",
+        "job": "Conductor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1625628,
+        "known_for_department": "Sound",
+        "name": "Renato Cadueri",
+        "original_name": "Renato Cadueri",
+        "popularity": 0.1812,
+        "profile_path": null,
+        "credit_id": "627669f4724de1009ba832a4",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15191,
+        "known_for_department": "Writing",
+        "name": "Tonino Guerra",
+        "original_name": "Tonino Guerra",
+        "popularity": 0.474,
+        "profile_path": "/5fO9Jrbnp0LbvVisSXhLJiVvxaL.jpg",
+        "credit_id": "6276696067e0f700519ce52b",
+        "department": "Writing",
+        "job": "Story"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 41777,
+        "known_for_department": "Writing",
+        "name": "Elio Bartolini",
+        "original_name": "Elio Bartolini",
+        "popularity": 0.3218,
+        "profile_path": null,
+        "credit_id": "62766971724de100503e8fe7",
+        "department": "Writing",
+        "job": "Co-Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1586005,
+        "known_for_department": "Sound",
+        "name": "Mario Bramonti",
+        "original_name": "Mario Bramonti",
+        "popularity": 1.3369,
+        "profile_path": null,
+        "credit_id": "627669fd713ea610d7b25d93",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 932651,
+        "known_for_department": "Directing",
+        "name": "Franco Indovina",
+        "original_name": "Franco Indovina",
+        "popularity": 1.4803,
+        "profile_path": "/6e7zySK2oLgNdOyZgr4K0MGUsAo.jpg",
+        "credit_id": "62766a2767e0f70066d73882",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 18214,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Gitt Magrini",
+        "original_name": "Gitt Magrini",
+        "popularity": 1.1218,
+        "profile_path": "/lc4U97Wo6mt2Kihcq08E6VXVqNF.jpg",
+        "credit_id": "62766a14e7868700676c0dd1",
+        "department": "Costume & Make-Up",
+        "job": "Assistant Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "62766959724de1009ba830c6",
+        "department": "Writing",
+        "job": "Story"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1885292,
+        "known_for_department": "Writing",
+        "name": "Ottiero Ottieri",
+        "original_name": "Ottiero Ottieri",
+        "popularity": 0.1106,
+        "profile_path": null,
+        "credit_id": "6276697d713ea610d7b25c12",
+        "department": "Writing",
+        "job": "Co-Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1626009,
+        "known_for_department": "Sound",
+        "name": "Claudio Maielli",
+        "original_name": "Claudio Maielli",
+        "popularity": 0.2571,
+        "profile_path": null,
+        "credit_id": "627669eb72d8551307420259",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1671233,
+        "known_for_department": "Production",
+        "name": "Giorgio Baldi",
+        "original_name": "Giorgio Baldi",
+        "popularity": 0.1649,
+        "profile_path": null,
+        "credit_id": "632b4fc3d71fb4007d5fb6db",
+        "department": "Production",
+        "job": "Unit Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 36016,
+        "known_for_department": "Camera",
+        "name": "Pasqualino De Santis",
+        "original_name": "Pasqualino De Santis",
+        "popularity": 0.259,
+        "profile_path": "/edpUP1MUFgbAjL2oKGPX35DQGHo.jpg",
+        "credit_id": "62037fc166565a00d0bc9624",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2838336,
+        "known_for_department": "Camera",
+        "name": "Sergio Strizzi",
+        "original_name": "Sergio Strizzi",
+        "popularity": 0.1059,
+        "profile_path": null,
+        "credit_id": "620380d962fcd300690c9d36",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1538554,
+        "known_for_department": "Editing",
+        "name": "Marcella Benvenuti",
+        "original_name": "Marcella Benvenuti",
+        "popularity": 0.1631,
+        "profile_path": null,
+        "credit_id": "6203820fe323f3006649aff4",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1384107,
+        "known_for_department": "Directing",
+        "name": "Elvira D'Amico",
+        "original_name": "Elvira D'Amico",
+        "popularity": 0.2584,
+        "profile_path": null,
+        "credit_id": "6203802762fcd3009f26906f",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1349178,
+        "known_for_department": "Production",
+        "name": "Dino Di Salvo",
+        "original_name": "Dino Di Salvo",
+        "popularity": 0.4917,
+        "profile_path": null,
+        "credit_id": "620381a612425c00e1a4afc5",
+        "department": "Production",
+        "job": "Production Secretary"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39161,
+        "known_for_department": "Sound",
+        "name": "Giovanni Fusco",
+        "original_name": "Giovanni Fusco",
+        "popularity": 0.2994,
+        "profile_path": "/3zteU2F37Lx82pKvLIcg5lLVbYz.jpg",
+        "credit_id": "57c267199251413abd0007ce",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4418,
+        "known_for_department": "Editing",
+        "name": "Eraldo Da Roma",
+        "original_name": "Eraldo Da Roma",
+        "popularity": 0.2159,
+        "profile_path": "/7mU29mK4NziwjL7GSHCIeDb4pb7.jpg",
+        "credit_id": "57c267209251410d3f00253b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9750,
+        "known_for_department": "Production",
+        "name": "Raymond Hakim",
+        "original_name": "Raymond Hakim",
+        "popularity": 0.3861,
+        "profile_path": null,
+        "credit_id": "57c2670a9251413abd0007c4",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5680,
+        "known_for_department": "Camera",
+        "name": "Gianni Di Venanzo",
+        "original_name": "Gianni Di Venanzo",
+        "popularity": 0.0965,
+        "profile_path": "/54yU99jkZ6HSI1gRAASakuyQEAp.jpg",
+        "credit_id": "57c267009251413b1d00080e",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1671232,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Bice Brichetto",
+        "original_name": "Bice Brichetto",
+        "popularity": 0.1374,
+        "profile_path": null,
+        "credit_id": "57c267379251413af70007d8",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9751,
+        "known_for_department": "Production",
+        "name": "Robert Hakim",
+        "original_name": "Robert Hakim",
+        "popularity": 2.0219,
+        "profile_path": "/6TJjHhpnD4YP7atFDmbayj0v2DG.jpg",
+        "credit_id": "57c26712c3a368533400ceb0",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125487,
+        "known_for_department": "Production",
+        "name": "Danilo Marciani",
+        "original_name": "Danilo Marciani",
+        "popularity": 0.3756,
+        "profile_path": null,
+        "credit_id": "57c26762c3a3680b6f0029c5",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 29502,
+        "known_for_department": "Art",
+        "name": "Piero Poletto",
+        "original_name": "Piero Poletto",
+        "popularity": 0.2301,
+        "profile_path": null,
+        "credit_id": "57c267289251410d1400235b",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1461764,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Franco Freda",
+        "original_name": "Franco Freda",
+        "popularity": 0.1805,
+        "profile_path": null,
+        "credit_id": "59b545d392514123b30010d7",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "59b5458e9251412945000e13",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15191,
+        "known_for_department": "Writing",
+        "name": "Tonino Guerra",
+        "original_name": "Tonino Guerra",
+        "popularity": 0.474,
+        "profile_path": "/5fO9Jrbnp0LbvVisSXhLJiVvxaL.jpg",
+        "credit_id": "59b545839251412eca000a4b",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 235398,
+        "known_for_department": "Directing",
+        "name": "Gianni Arduini",
+        "original_name": "Gianni Arduini",
+        "popularity": 0.2395,
+        "profile_path": null,
+        "credit_id": "66a48d953f7b3d969a80f6c1",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9751,
+        "known_for_department": "Production",
+        "name": "Robert Hakim",
+        "original_name": "Robert Hakim",
+        "popularity": 2.0219,
+        "profile_path": "/6TJjHhpnD4YP7atFDmbayj0v2DG.jpg",
+        "credit_id": "66a48c71f4259b5317600561",
+        "department": "Crew",
+        "job": "Presenter"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9750,
+        "known_for_department": "Production",
+        "name": "Raymond Hakim",
+        "original_name": "Raymond Hakim",
+        "popularity": 0.3861,
+        "profile_path": null,
+        "credit_id": "66a48c81477a9b1f8eb89d2c",
+        "department": "Crew",
+        "job": "Presenter"
+      }
+    ]
+  },
+  "videos": {
+    "id": 21135,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "L'Eclisse Trailer - Digitally Restored - In Cinemas Aug 28",
+        "key": "SHUapLYEi4s",
+        "published_at": "2015-08-12T15:00:25.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "5b342bc5c3a368532802051c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "L'Eclisse",
+        "key": "tqqLJ_kXD58",
+        "published_at": "2008-06-21T11:10:51.000Z",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Clip",
+        "official": false,
+        "id": "533ec681c3a368544800324f"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 21135,
+    "keywords": [
+      {
+        "id": 592,
+        "name": "capitalism"
+      },
+      {
+        "id": 3925,
+        "name": "boredom"
+      },
+      {
+        "id": 7368,
+        "name": "alienation"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 14534,
+        "name": "relationship"
+      },
+      {
+        "id": 167040,
+        "name": "airplane trip"
+      },
+      {
+        "id": 177493,
+        "name": "stock market"
+      },
+      {
+        "id": 187243,
+        "name": "stock market crash"
+      },
+      {
+        "id": 307805,
+        "name": "stock broker"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 21135,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/3tKojIkk9QpkDUeU8HgpHQ9Jb2v.jpg",
+            "provider_id": 304,
+            "provider_name": "Joyn",
+            "display_priority": 68
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=AU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/rXNXvz2096ri69ZlZsFwKxZYJsS.jpg",
+            "provider_id": 499,
+            "provider_name": "Oldflix",
+            "display_priority": 17
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=CZ",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=DE",
+        "ads": [
+          {
+            "logo_path": "/3tKojIkk9QpkDUeU8HgpHQ9Jb2v.jpg",
+            "provider_id": 304,
+            "provider_name": "Joyn",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 110
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 123
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 15
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/48aHN85OncgXjtl6DOVOJ6Wni4g.jpg",
+            "provider_id": 642,
+            "provider_name": "STUDIOCANAL PRESENTS Apple TV Channel",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/mLif0L2p0M2AK4pbqHOBqLwB3bP.jpg",
+            "provider_id": 1747,
+            "provider_name": "Studiocanal Presents Amazon Channel",
+            "display_priority": 80
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/mLif0L2p0M2AK4pbqHOBqLwB3bP.jpg",
+            "provider_id": 1747,
+            "provider_name": "Studiocanal Presents Amazon Channel",
+            "display_priority": 77
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=HU",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 37
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 37
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=IN",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=NL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=PG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=PL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=RO",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/21135-l-eclisse/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ]
+      }
+    }
+  }
+}

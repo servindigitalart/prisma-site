@@ -1,0 +1,50 @@
+{
+  "work_id": "work_zero-for-conduct_1933",
+  "processed_at": "2026-02-28T07:00:07.597087+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "monocromatico_intimo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is shot entirely in black and white with a naturalistic tonal quality.",
+      "The cinematography often employs diffused lighting, avoiding stark chiaroscuro.",
+      "Iconic scenes, like the slow-motion pillow fight, use a softer, dreamlike B&W aesthetic."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_zero-for-conduct_1933",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T07:00:07.592046Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T07:00:07.592035Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_zero-for-conduct_1933",
+    "color_iconico": "monocromatico_intimo",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_apocalypse-now_1979",
+  "processed_at": "2026-02-27T23:51:43.621188+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "naranja_apocaliptico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The iconic napalm strike scene is visually dominated by intense orange and red flames against the dark jungle.",
+      "Fires and flares extensively illuminate Kurtz's compound and the river banks, casting a strong orange glow in the final act.",
+      "The overall cinematography for action sequences, such as the attack on the bridge, is graded with prominent burnt orange and red hues."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_apocalypse-now_1979",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-27T23:51:43.610540Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-27T23:51:43.610527Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_apocalypse-now_1979",
+    "color_iconico": "naranja_apocaliptico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

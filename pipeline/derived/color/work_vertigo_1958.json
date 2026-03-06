@@ -1,0 +1,54 @@
+{
+  "work_id": "work_vertigo_1958",
+  "processed_at": "2026-02-27T23:52:25.490020+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_esmeralda",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The green suit worn by Judy during her transformation into Madeleine, appearing in multiple crucial scenes.",
+      "The green neon light illuminating Judy's hotel room as she completes her physical transformation, a highly iconic visual.",
+      "The rich, often eerie, green tones used in specific set dressings and lighting to emphasize mystery and obsession."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_vertigo_1958",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-27T23:52:25.486146Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-27T23:52:25.486135Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_vertigo_1958",
+    "color_iconico": "verde_esmeralda",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

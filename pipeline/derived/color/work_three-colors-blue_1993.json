@@ -1,0 +1,55 @@
+{
+  "work_id": "work_three-colors-blue_1993",
+  "processed_at": "2026-02-28T06:51:44.484245+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [
+      "blanco_polar"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive deep blue color grading applied across almost all cinematography.",
+      "Prominent blue elements in production design, such as the swimming pool, apartment lighting, and specific props (e.g., blue sugar cube, lampshade).",
+      "Iconic close-ups of Julie's eyes reflecting blue light, and her frequent wearing of muted clothing against blue environments.",
+      "The film's title, 'Three Colors: Blue,' explicitly signals the director's intention for blue to be the defining visual and thematic color."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_three-colors-blue_1993",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:51:44.480759Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:51:44.480747Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_three-colors-blue_1993",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

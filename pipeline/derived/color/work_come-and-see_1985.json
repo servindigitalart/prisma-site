@@ -1,0 +1,56 @@
+{
+  "work_id": "work_come-and-see_1985",
+  "processed_at": "2026-02-28T04:48:06.019978+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "blanco_polar",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [
+      "verde_lima",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The overall color grading is severely desaturated, resulting in a near-monochromatic look dominated by cold greys and white tones.",
+      "Many exterior shots feature vast, desolate landscapes, often covered in snow or mud, under bleak, overcast skies that appear light grey or almost white.",
+      "The winter setting and the visual emphasis on cold, empty spaces align with `blanco_polar`'s description of 'winter isolation' and 'existential emptiness'."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_come-and-see_1985",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:48:06.016239Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:48:06.016227Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_come-and-see_1985",
+    "color_iconico": "blanco_polar",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

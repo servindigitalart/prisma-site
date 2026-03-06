@@ -1,0 +1,130 @@
+---
+interface Review {
+  rating: number;
+  review: string;
+  user_id: string;
+  user_profiles: {
+    display_name: string | null;
+    avatar_url: string | null;
+    username: string | null;
+  } | null;
+}
+
+interface Props {
+  reviews: Review[];
+}
+
+const { reviews } = Astro.props;
+---
+
+{reviews.length > 0 && (
+  <section class="film-reviews">
+    <div class="site-container">
+      <h2 class="film-reviews__title">Reviews</h2>
+      <div class="film-reviews__list">
+        {reviews.map((r) => {
+          const profile = r.user_profiles;
+          const name = profile?.display_name || profile?.username || 'Anonymous';
+          const avatar = profile?.avatar_url;
+          return (
+            <div class="review-card">
+              <a href={`/u/${r.user_id}`} class="review-card__author">
+                {avatar ? (
+                  <img src={avatar} alt={name} class="review-card__avatar" />
+                ) : (
+                  <div class="review-card__avatar-placeholder">{name[0].toUpperCase()}</div>
+                )}
+                <div class="review-card__meta">
+                  <span class="review-card__name">{name}</span>
+                  <span class="review-card__rating">★ {r.rating}/10</span>
+                </div>
+              </a>
+              <p class="review-card__text">{r.review}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .film-reviews {
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--surface-border);
+  }
+
+  .film-reviews__title {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .film-reviews__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .review-card {
+    background: var(--surface-card);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+
+  .review-card__author {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+  }
+
+  .review-card__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .review-card__avatar-placeholder {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--surface-elevated);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .review-card__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .review-card__name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+
+  .review-card__rating {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #C98A2E;
+  }
+
+  .review-card__text {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+</style>

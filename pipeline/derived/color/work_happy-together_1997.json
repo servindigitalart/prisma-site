@@ -1,0 +1,56 @@
+{
+  "work_id": "work_happy-together_1997",
+  "processed_at": "2026-02-28T05:59:40.503471+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "monocromatico_intimo",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Deep blue color grading and lighting dominate the Buenos Aires night scenes and many interior apartment sequences.",
+      "The Iguazu Falls, a recurring and iconic visual, is frequently depicted with a strong blue cast when in color.",
+      "Many of the film's posters and most reproduced stills feature a strong blue tint or cool, desaturated tones with blue undertones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_happy-together_1997",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:59:40.499834Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:59:40.499823Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_happy-together_1997",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "monocromatico_intimo",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

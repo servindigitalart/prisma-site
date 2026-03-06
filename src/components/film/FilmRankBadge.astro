@@ -1,0 +1,74 @@
+---
+interface Props {
+  rank: number | null;
+  score: number | null;
+  tier: string | null;
+  context?: string;
+}
+
+const { rank, score, tier, context = 'global' } = Astro.props;
+
+if (!rank && !score) return;
+
+const tierClass = tier ? `tier-badge--${tier}` : '';
+---
+
+<div class="film-rank-badge">
+  {rank && (
+    <div class="film-rank-badge__rank">
+      <span class="film-rank-badge__rank-label">Rank</span>
+      <span class="film-rank-badge__rank-number">#{rank}</span>
+    </div>
+  )}
+  {score && (
+    <div class="film-rank-badge__score">
+      <span class="film-rank-badge__score-label">Score</span>
+      <span class="film-rank-badge__score-value">{score.toFixed(1)}</span>
+    </div>
+  )}
+  {tier && (
+    <span class={`tier-badge ${tierClass}`}>{tier}</span>
+  )}
+</div>
+
+<style>
+.film-rank-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+}
+
+.film-rank-badge__rank,
+.film-rank-badge__score {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.film-rank-badge__rank-label,
+.film-rank-badge__score-label {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.film-rank-badge__rank-number {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.film-rank-badge__score-value {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1;
+}
+</style>

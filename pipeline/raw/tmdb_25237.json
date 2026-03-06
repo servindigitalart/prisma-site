@@ -1,0 +1,1331 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/3Na31ta8vDuKOgQuPLdSZLs8bCB.jpg",
+    "belongs_to_collection": null,
+    "budget": 5000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10752,
+        "name": "War"
+      }
+    ],
+    "homepage": "",
+    "id": 25237,
+    "imdb_id": "tt0091251",
+    "origin_country": [
+      "SU"
+    ],
+    "original_language": "ru",
+    "original_title": "\u0418\u0434\u0438 \u0438 \u0441\u043c\u043e\u0442\u0440\u0438",
+    "overview": "The invasion of a village in Belarus by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family's wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.",
+    "popularity": 7.3129,
+    "poster_path": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+    "production_companies": [
+      {
+        "id": 12617,
+        "logo_path": "/9Wf5DFTvzxo0pSqDp8MQWW3d01.png",
+        "name": "Belarusfilm",
+        "origin_country": "SU"
+      },
+      {
+        "id": 344,
+        "logo_path": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "name": "Mosfilm",
+        "origin_country": "SU"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "SU",
+        "name": "Soviet Union"
+      }
+    ],
+    "release_date": "1985-10-17",
+    "revenue": 20929648,
+    "runtime": 142,
+    "spoken_languages": [
+      {
+        "english_name": "Belarusian",
+        "iso_639_1": "be",
+        "name": "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430"
+      },
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "Russian",
+        "iso_639_1": "ru",
+        "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+      }
+    ],
+    "status": "Released",
+    "tagline": "The cruelest side of war.",
+    "title": "Come and See",
+    "video": false,
+    "vote_average": 8.22,
+    "vote_count": 1757
+  },
+  "credits": {
+    "id": 25237,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93407,
+        "known_for_department": "Acting",
+        "name": "Aleksei Kravchenko",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e",
+        "popularity": 0.3739,
+        "profile_path": "/o7UD6o30iJ29dTHPCbtOScv9s5E.jpg",
+        "cast_id": 4,
+        "character": "Flyora Gayshun",
+        "credit_id": "52fe44bfc3a368484e0347b1",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 93408,
+        "known_for_department": "Acting",
+        "name": "Olga Mironova",
+        "original_name": "\u041e\u043b\u044c\u0433\u0430 \u041c\u0438\u0440\u043e\u043d\u043e\u0432\u0430",
+        "popularity": 0.5405,
+        "profile_path": "/wSeCtQNuWVVUlHMAAkxVRSCYh7s.jpg",
+        "cast_id": 5,
+        "character": "Glasha",
+        "credit_id": "52fe44bfc3a368484e0347b5",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93409,
+        "known_for_department": "Acting",
+        "name": "Liubomiras Laucevi\u010dius",
+        "original_name": "Liubomiras Laucevi\u010dius",
+        "popularity": 0.1969,
+        "profile_path": "/r6Gdi2P7D6cPHcgTvvO4NSzvb9I.jpg",
+        "cast_id": 6,
+        "character": "Kosach",
+        "credit_id": "52fe44bfc3a368484e0347b9",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 139096,
+        "known_for_department": "Acting",
+        "name": "Vladas Bagdonas",
+        "original_name": "Vladas Bagdonas",
+        "popularity": 0.2488,
+        "profile_path": "/58chkP7aSp51iKDjEtP295ZWl6k.jpg",
+        "cast_id": 11,
+        "character": "Rubezh",
+        "credit_id": "52fe44bfc3a368484e0347c3",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1148739,
+        "known_for_department": "Acting",
+        "name": "J\u00fcri Lumiste",
+        "original_name": "J\u00fcri Lumiste",
+        "popularity": 0.205,
+        "profile_path": "/wU5CyMxiwzEU5mCSSUsTZeIHp8A.jpg",
+        "cast_id": 12,
+        "character": "Obersturmf\u00fchrer",
+        "credit_id": "52fe44bfc3a368484e0347c7",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1148740,
+        "known_for_department": "Acting",
+        "name": "Viktors Lorencs",
+        "original_name": "Viktors Lorencs",
+        "popularity": 0.3688,
+        "profile_path": "/24LC3IfTgkY7Mj7fjQENx6Q9oaf.jpg",
+        "cast_id": 13,
+        "character": "Sturmbannf\u00fchrer",
+        "credit_id": "52fe44bfc3a368484e0347cb",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1148741,
+        "known_for_department": "Acting",
+        "name": "Kazimir Rabetsky",
+        "original_name": "Kazimir Rabetsky",
+        "popularity": 0.0829,
+        "profile_path": "/qQzj2XqMqf4OpFwBFYGR5lRETtY.jpg",
+        "cast_id": 14,
+        "character": "Village Headman",
+        "credit_id": "52fe44bfc3a368484e0347cf",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1148742,
+        "known_for_department": "Acting",
+        "name": "Yevgeni Tilicheyev",
+        "original_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0422\u0438\u043b\u0438\u0447\u0435\u0435\u0432",
+        "popularity": 0.7921,
+        "profile_path": "/1je1iVIpiAvJ0CAt4KDk6ALe434.jpg",
+        "cast_id": 15,
+        "character": "Gezhel",
+        "credit_id": "52fe44bfc3a368484e0347d3",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1148743,
+        "known_for_department": "Acting",
+        "name": "Aleksandr Berda",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0411\u0435\u0440\u0434\u0430",
+        "popularity": 0.8367,
+        "profile_path": "/rUldJxRhCDRhlYegoaTK6U4fl2H.jpg",
+        "cast_id": 16,
+        "character": "Chief of Staff of the Partisan Detachment",
+        "credit_id": "52fe44bfc3a368484e0347d7",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1406690,
+        "known_for_department": "Acting",
+        "name": "G. Velts",
+        "original_name": "\u0413. \u0412\u0435\u043b\u044c\u0446",
+        "popularity": 0.2464,
+        "profile_path": null,
+        "cast_id": 49,
+        "character": "Medical NCO",
+        "credit_id": "61e1eec2cb30840098dd9666",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5244044,
+        "known_for_department": "Acting",
+        "name": "Viktor Vasiliev",
+        "original_name": "\u0412\u0438\u043a\u0442\u043e\u0440 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432",
+        "popularity": 1.0288,
+        "profile_path": "/7ZbYdDqSyYNhRMhKaJTFGK9GLvV.jpg",
+        "cast_id": 69,
+        "character": "German",
+        "credit_id": "67ad8fcff87b3796279f3f3c",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1406692,
+        "known_for_department": "Acting",
+        "name": "Igor Gnevashev",
+        "original_name": "Igor Gnevashev",
+        "popularity": 0.1046,
+        "profile_path": "/2cN6eH5nRDbUSgzcWtjeMtxGBcd.jpg",
+        "cast_id": 40,
+        "character": "Jew",
+        "credit_id": "5fb615cf7c6de3003e0a3e6e",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1163598,
+        "known_for_department": "Acting",
+        "name": "Vasiliy Domrachyov",
+        "original_name": "\u0412\u0430\u0441\u0438\u043b\u0438\u0439 \u0414\u043e\u043c\u0440\u0430\u0447\u0451\u0432",
+        "popularity": 0.8972,
+        "profile_path": "/9rOuq0gBTlVeHEeqwl2oFcrFVIS.jpg",
+        "cast_id": 35,
+        "character": "Little Policeman",
+        "credit_id": "5eb824aeed96bc001fa2b0d4",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5244055,
+        "known_for_department": "Acting",
+        "name": "Gennadiy Yelkin",
+        "original_name": "Gennadiy Yelkin",
+        "popularity": 0.1437,
+        "profile_path": null,
+        "cast_id": 70,
+        "character": "Flyora's friend",
+        "credit_id": "67ad90bdabe77ca47a36e7b9",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1961439,
+        "known_for_department": "Acting",
+        "name": "Evgeniy Kryzhanovskiy",
+        "original_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u041a\u0440\u044b\u0436\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+        "popularity": 0.6894,
+        "profile_path": "/lGm7vZjHBPU0Jv43AlYXzZzxXJQ.jpg",
+        "cast_id": 36,
+        "character": "Partisan with Glasses",
+        "credit_id": "5eb82579c3514c00205cb58a",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3382987,
+        "known_for_department": "Acting",
+        "name": "N. Lisichenok",
+        "original_name": "N. Lisichenok",
+        "popularity": 0.0958,
+        "profile_path": null,
+        "cast_id": 53,
+        "character": "",
+        "credit_id": "61e1f13b9ca759001d7448fb",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1783654,
+        "known_for_department": "Acting",
+        "name": "Viktor Manaev",
+        "original_name": "\u0412\u0438\u043a\u0442\u043e\u0440 \u041c\u0430\u043d\u0430\u0435\u0432",
+        "popularity": 0.6051,
+        "profile_path": "/csHIgeFfBcLqgkZmDKLfHmvcqCc.jpg",
+        "cast_id": 41,
+        "character": "Partisan",
+        "credit_id": "5fb616258741c4003e366f65",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3382989,
+        "known_for_department": "Acting",
+        "name": "Takhir Matyullin",
+        "original_name": "\u0422\u0430\u0445\u0438\u0440 \u041c\u0430\u0442\u044e\u043b\u0438\u043d",
+        "popularity": 0.1691,
+        "profile_path": "/jlIPiqUhz7aGnC3XMbD5SzIdUDE.jpg",
+        "cast_id": 54,
+        "character": "Elderly Partisan",
+        "credit_id": "61e1f1958cfcc700412624de",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 86853,
+        "known_for_department": "Acting",
+        "name": "Pyotr Merkuryev",
+        "original_name": "\u041f\u0451\u0442\u0440 \u041c\u0435\u0440\u043a\u0443\u0440\u044c\u0435\u0432",
+        "popularity": 0.8375,
+        "profile_path": "/kiFCwEOdurqceu0A3y0WKgwVwWq.jpg",
+        "cast_id": 42,
+        "character": "Gleb Vasiliyevich",
+        "credit_id": "5fb61659ae3843003de0c2f6",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1098559,
+        "known_for_department": "Acting",
+        "name": "Valentin Mishatkin",
+        "original_name": "\u0412\u0430\u043b\u0435\u043d\u0442\u0438\u043d \u041c\u0438\u0448\u0430\u0442\u043a\u0438\u043d",
+        "popularity": 0.4767,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "Policeman",
+        "credit_id": "5fb615b3a6c104003da4eca0",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2861820,
+        "known_for_department": "Acting",
+        "name": "Gennady Matytskiy",
+        "original_name": "Gennady Matytskiy",
+        "popularity": 0.0256,
+        "profile_path": "/96dfsJvSifZHWuQ6Y2Y8upOS7vN.jpg",
+        "cast_id": 43,
+        "character": "Kazik",
+        "credit_id": "5fb617f968929c003c7801f8",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3382993,
+        "known_for_department": "Acting",
+        "name": "Yevgeniya Polyakova",
+        "original_name": "Yevgeniya Polyakova",
+        "popularity": 0.1036,
+        "profile_path": null,
+        "cast_id": 55,
+        "character": "",
+        "credit_id": "61e1f1f6bf0f630068f3a704",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1478765,
+        "known_for_department": "Acting",
+        "name": "Anatoly Slivnikov",
+        "original_name": "\u0410\u043d\u0430\u0442\u043e\u043b\u0438\u0439 \u0421\u043b\u0438\u0432\u043d\u0438\u043a\u043e\u0432",
+        "popularity": 0.6214,
+        "profile_path": "/82oC8Csd0LR9n6pw2meJxua9ago.jpg",
+        "cast_id": 37,
+        "character": "Partisan Disguised as a German Soldier",
+        "credit_id": "5eb825b6cc277c00216e2a66",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1890350,
+        "known_for_department": "Acting",
+        "name": "Georgiy Strokov",
+        "original_name": "\u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0421\u0442\u0440\u043e\u043a\u043e\u0432",
+        "popularity": 0.5544,
+        "profile_path": "/jhuXIa0oNQeNEfHb9zRWuqQYNLu.jpg",
+        "cast_id": 44,
+        "character": "Policeman",
+        "credit_id": "5fb6196ea6c104003da4f01b",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1874463,
+        "known_for_department": "Acting",
+        "name": "Tatyana Shestakova",
+        "original_name": "\u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u0428\u0435\u0441\u0442\u0430\u043a\u043e\u0432\u0430",
+        "popularity": 0.6233,
+        "profile_path": "/sinCSQMI9nwX8gx4ZkhdBR86oVn.jpg",
+        "cast_id": 38,
+        "character": "Flyora's Mother",
+        "credit_id": "5eb826a20cb3350021cd3589",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2861821,
+        "known_for_department": "Acting",
+        "name": "Oleg Shapko",
+        "original_name": "Oleg Shapko",
+        "popularity": 0.2893,
+        "profile_path": "/hg0vqsuVGWo9U6Y2orTn6Mettqv.jpg",
+        "cast_id": 45,
+        "character": "Partisan",
+        "credit_id": "5fb61b5f7314a1004006eaaf",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3382986,
+        "known_for_department": "Acting",
+        "name": "Nina Evdokimova",
+        "original_name": "Nina Evdokimova",
+        "popularity": 0.0201,
+        "profile_path": null,
+        "cast_id": 51,
+        "character": "Mother (uncredited)",
+        "credit_id": "61e1f093ffd44d0097461d3a",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1090374,
+        "known_for_department": "Acting",
+        "name": "Valery Kravchenko",
+        "original_name": "\u0412\u0430\u043b\u0435\u0440\u0438\u0439 \u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e",
+        "popularity": 0.7268,
+        "profile_path": "/tkdZ581x4c1SQgKJCNUZnG1UnIl.jpg",
+        "cast_id": 52,
+        "character": "Kosach (voice) (uncredited)",
+        "credit_id": "61e1f0fd8cfcc7006555f9ea",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2509809,
+        "known_for_department": "Acting",
+        "name": "Aleksandra Ravenskikh",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0420\u043e\u0432\u0435\u043d\u0441\u043a\u0438\u0445",
+        "popularity": 0.7279,
+        "profile_path": "/e5LcfocAnpQqrjf3rhDmqPK86Vd.jpg",
+        "cast_id": 56,
+        "character": "German Woman in the Car (uncredited)",
+        "credit_id": "61e1f243c175b2008a714fc1",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3383015,
+        "known_for_department": "Acting",
+        "name": "Aleksandr Solopov",
+        "original_name": "Aleksandr Solopov",
+        "popularity": 0.0622,
+        "profile_path": null,
+        "cast_id": 57,
+        "character": "Part-bit (uncredited)",
+        "credit_id": "61e1f35dcb30840068ea4767",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2553352,
+        "known_for_department": "Acting",
+        "name": "Igor Bezyaev",
+        "original_name": "\u0406\u0433\u043e\u0440 \u0411\u0435\u0437\u044f\u0454\u0432",
+        "popularity": 1.2352,
+        "profile_path": "/87qNUimmP1RJH1GbBVuKloHK0g7.jpg",
+        "cast_id": 59,
+        "character": "Partisan (uncredited)",
+        "credit_id": "61e1f3bebf0f6300411fafd3",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3383020,
+        "known_for_department": "Acting",
+        "name": "Yakov Ovchukov-Suvorov",
+        "original_name": "Yakov Ovchukov-Suvorov",
+        "popularity": 0.0944,
+        "profile_path": null,
+        "cast_id": 60,
+        "character": "German with a Tambourine (uncredited)",
+        "credit_id": "61e1f3f0bf0f63001ae5c614",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1614386,
+        "known_for_department": "Acting",
+        "name": "Svetlana Zelenkovskaya",
+        "original_name": "Svetlana Zelenkovskaya",
+        "popularity": 0.3383,
+        "profile_path": "/8pAdFPxV1gvBoPN6YZz9VU53Dkf.jpg",
+        "cast_id": 47,
+        "character": "Village Girl (uncredited)",
+        "credit_id": "5fb65773d96c3c0040de5a49",
+        "order": 32
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1092913,
+        "known_for_department": "Editing",
+        "name": "Valeriya Belova",
+        "original_name": "\u0412\u0430\u043b\u0435\u0440\u0438\u044f \u0411\u0435\u043b\u043e\u0432\u0430",
+        "popularity": 0.2305,
+        "profile_path": "/zKCJCIWukTUo28ksi46ZT5HYW9b.jpg",
+        "credit_id": "52fe44bfc3a368484e0347e9",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93406,
+        "known_for_department": "Directing",
+        "name": "Elem Klimov",
+        "original_name": "\u042d\u043b\u0435\u043c \u041a\u043b\u0438\u043c\u043e\u0432",
+        "popularity": 0.7568,
+        "profile_path": "/9NKmQh7OWRefFBaMl30MTLgRqKj.jpg",
+        "credit_id": "52fe44bfc3a368484e0347a1",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1148745,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Eleonora Semyonova",
+        "original_name": "Eleonora Semyonova",
+        "popularity": 0.1366,
+        "profile_path": null,
+        "credit_id": "52fe44bfc3a368484e034807",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 929399,
+        "known_for_department": "Sound",
+        "name": "Oleg Yanchenko",
+        "original_name": "\u041e\u043b\u0435\u0433 \u042f\u043d\u0447\u0435\u043d\u043a\u043e",
+        "popularity": 0.4198,
+        "profile_path": "/3fSOIj2F2YhpUaXLkTIhE8s1O3l.jpg",
+        "credit_id": "52fe44bfc3a368484e0347ef",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 125892,
+        "known_for_department": "Art",
+        "name": "Viktor Petrov",
+        "original_name": "\u0412\u0438\u043a\u0442\u043e\u0440 \u041f\u0435\u0442\u0440\u043e\u0432",
+        "popularity": 0.398,
+        "profile_path": null,
+        "credit_id": "52fe44bfc3a368484e0347f5",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1584996,
+        "known_for_department": "Costume & Make-Up",
+        "name": "V. Bolotnikova",
+        "original_name": "\u0412. \u0411\u043e\u043b\u043e\u0442\u043d\u0438\u043a\u043e\u0432\u0430",
+        "popularity": 0.2145,
+        "profile_path": null,
+        "credit_id": "638ebf8b196757028e60657c",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 57467,
+        "known_for_department": "Camera",
+        "name": "Alexey Rodionov",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0420\u043e\u0434\u0438\u043e\u043d\u043e\u0432",
+        "popularity": 0.0875,
+        "profile_path": null,
+        "credit_id": "591100f8c3a36864d403a857",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 59903,
+        "known_for_department": "Writing",
+        "name": "Ales Adamovich",
+        "original_name": "Ales Adamovich",
+        "popularity": 0.5687,
+        "profile_path": null,
+        "credit_id": "662a568e33a533009dd1e205",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93406,
+        "known_for_department": "Directing",
+        "name": "Elem Klimov",
+        "original_name": "\u042d\u043b\u0435\u043c \u041a\u043b\u0438\u043c\u043e\u0432",
+        "popularity": 0.7568,
+        "profile_path": "/9NKmQh7OWRefFBaMl30MTLgRqKj.jpg",
+        "credit_id": "662a567f886348011eae590f",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 57467,
+        "known_for_department": "Camera",
+        "name": "Alexey Rodionov",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0420\u043e\u0434\u0438\u043e\u043d\u043e\u0432",
+        "popularity": 0.0875,
+        "profile_path": null,
+        "credit_id": "663270312a09bc0126584c79",
+        "department": "Camera",
+        "job": "Steadicam Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3669954,
+        "known_for_department": "Production",
+        "name": "Stepan Tereschenko",
+        "original_name": "\u0421\u0442\u0435\u043f\u0430\u043d \u0422\u0435\u0440\u0435\u0449\u0435\u043d\u043a\u043e",
+        "popularity": 0.1612,
+        "profile_path": null,
+        "credit_id": "66c4dcf66d109b33c0adc4ff",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2530936,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Sofya Mikhlina",
+        "original_name": "Sofya Mikhlina",
+        "popularity": 0.1944,
+        "profile_path": null,
+        "credit_id": "5eb7f24a0cb3350020cf8c63",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1866991,
+        "known_for_department": "Sound",
+        "name": "Viktor Mors",
+        "original_name": "\u0412\u0438\u043a\u0442\u043e\u0440 \u041c\u043e\u0440\u0441",
+        "popularity": 0.2365,
+        "profile_path": null,
+        "credit_id": "5eb7ef84bbe1dd002281a1ae",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2319190,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Aleksandr Zhurba",
+        "original_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0416\u0443\u0440\u0431\u0430",
+        "popularity": 0.3996,
+        "profile_path": null,
+        "credit_id": "5eb7f41b0cb3350020cf90c1",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      }
+    ]
+  },
+  "videos": {
+    "id": 25237,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "COME AND SEE Trailer",
+        "key": "UHaSQU-4wss",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2020-01-10T21:59:21.000Z",
+        "id": "65abe257a843c100bab6b82d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Katie Mitchell introduces Come and See",
+        "key": "OPb2Be9zqM8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2015-05-13T12:32:29.000Z",
+        "id": "6590cf5cce4ddc6e647d72ec"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 25237,
+    "keywords": [
+      {
+        "id": 2652,
+        "name": "nazi"
+      },
+      {
+        "id": 1327,
+        "name": "war crimes"
+      },
+      {
+        "id": 6255,
+        "name": "insanity"
+      },
+      {
+        "id": 1956,
+        "name": "world war ii"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 5403,
+        "name": "wehrmacht"
+      },
+      {
+        "id": 10809,
+        "name": "teenage girl"
+      },
+      {
+        "id": 11872,
+        "name": "atrocity"
+      },
+      {
+        "id": 14900,
+        "name": "genocide"
+      },
+      {
+        "id": 166454,
+        "name": "russian army"
+      },
+      {
+        "id": 168839,
+        "name": "mine field"
+      },
+      {
+        "id": 190351,
+        "name": "horrors of war"
+      },
+      {
+        "id": 190352,
+        "name": "premature aging"
+      },
+      {
+        "id": 190353,
+        "name": "byelorussia"
+      },
+      {
+        "id": 199524,
+        "name": "disturbed"
+      },
+      {
+        "id": 241982,
+        "name": "children in wartime"
+      },
+      {
+        "id": 325825,
+        "name": "horrified"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 25237,
+    "results": {
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=CA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/vBbNBDZnpnhgHe5ZO9CVur4DmkG.jpg",
+            "provider_id": 1736,
+            "provider_name": "Shadowz Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=NZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=RU",
+        "rent": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/51wuCkUdkEQTUtB8TrtZzzxp3Tj.jpg",
+            "provider_id": 117,
+            "provider_name": "Kinopoisk",
+            "display_priority": 20
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 59
+          },
+          {
+            "logo_path": "/vBbNBDZnpnhgHe5ZO9CVur4DmkG.jpg",
+            "provider_id": 1736,
+            "provider_name": "Shadowz Amazon Channel",
+            "display_priority": 62
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=SK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/25237/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      }
+    }
+  }
+}

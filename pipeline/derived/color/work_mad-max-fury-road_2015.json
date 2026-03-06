@@ -1,0 +1,57 @@
+{
+  "work_id": "work_mad-max-fury-road_2015",
+  "processed_at": "2026-02-28T06:14:00.126820+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "naranja_apocaliptico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "cian_melancolico",
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "dinamico_frenetico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The overwhelming burnt orange color grade of the desert landscapes in all daytime scenes.",
+      "The prominent use of fiery orange in explosions, dust, and the massive sandstorm sequence.",
+      "The color of the sun-baked vehicles, rust, and the general color scheme of the War Boys' aesthetic.",
+      "The sharp contrast of cool blue/teal in night scenes, emphasizing the orange's dominance during the day."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_mad-max-fury-road_2015",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:14:00.123268Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:14:00.123256Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_mad-max-fury-road_2015",
+    "color_iconico": "naranja_apocaliptico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "cian_melancolico",
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_frenetico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

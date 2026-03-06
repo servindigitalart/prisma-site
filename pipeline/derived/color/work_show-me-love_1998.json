@@ -1,0 +1,54 @@
+{
+  "work_id": "work_show-me-love_1998",
+  "processed_at": "2026-02-28T06:33:14.633793+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "blanco_polar"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Overall desaturated color grade with a cool, blue-green tint across the entire film.",
+      "Exterior shots of the small Swedish town, featuring muted buildings, grey-blue skies, and natural landscapes in cool, desaturated greens and blues.",
+      "Interiors are often lit with natural light that emphasizes cool, slightly blue-green hues on walls and furniture, avoiding warmth."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_show-me-love_1998",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:33:14.629846Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:33:14.629834Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_show-me-love_1998",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

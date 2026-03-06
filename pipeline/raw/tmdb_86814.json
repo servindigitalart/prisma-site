@@ -1,0 +1,540 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/A37wxjHIy75UhpAi5K0p8iFRQgC.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "homepage": "",
+    "id": 86814,
+    "imdb_id": "tt0076452",
+    "origin_country": [
+      "BE"
+    ],
+    "original_language": "fr",
+    "original_title": "News from Home",
+    "overview": "Impersonal and beautiful images of Akerman's life in New York are combined with letters from her loving but manipulative mother, read by Akerman herself.",
+    "popularity": 0.4704,
+    "poster_path": "/nWqWaEySdo8hAKJsd1IS9mdnZpF.jpg",
+    "production_companies": [
+      {
+        "id": 4606,
+        "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "name": "ZDF",
+        "origin_country": "DE"
+      },
+      {
+        "id": 10645,
+        "logo_path": null,
+        "name": "Paradise Films",
+        "origin_country": "BE"
+      },
+      {
+        "id": 10647,
+        "logo_path": null,
+        "name": "Unit\u00e9 Trois",
+        "origin_country": "FR"
+      },
+      {
+        "id": 16180,
+        "logo_path": "/tE5t6MnMhvyc34beR4Qf6hM2c5K.png",
+        "name": "INA",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "BE",
+        "name": "Belgium"
+      },
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "DE",
+        "name": "Germany"
+      }
+    ],
+    "release_date": "1977-05-20",
+    "revenue": 0,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Write to me, it\u2019s all I ask.",
+    "title": "News from Home",
+    "video": false,
+    "vote_average": 7.0,
+    "vote_count": 86
+  },
+  "credits": {
+    "id": 86814,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 130030,
+        "known_for_department": "Directing",
+        "name": "Chantal Akerman",
+        "original_name": "Chantal Akerman",
+        "popularity": 0.3291,
+        "profile_path": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
+        "cast_id": 2,
+        "character": "Narrator (voice)",
+        "credit_id": "52fe49a09251416c910b37b5",
+        "order": 0
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 130030,
+        "known_for_department": "Directing",
+        "name": "Chantal Akerman",
+        "original_name": "Chantal Akerman",
+        "popularity": 0.3291,
+        "profile_path": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
+        "credit_id": "52fe49a09251416c910b37b1",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 130030,
+        "known_for_department": "Directing",
+        "name": "Chantal Akerman",
+        "original_name": "Chantal Akerman",
+        "popularity": 0.3291,
+        "profile_path": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
+        "credit_id": "52fe49a09251416c910b37bb",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1093088,
+        "known_for_department": "Production",
+        "name": "Alain Dahan",
+        "original_name": "Alain Dahan",
+        "popularity": 0.1911,
+        "profile_path": null,
+        "credit_id": "565b7b2fc3a3685069003ccc",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1542493,
+        "known_for_department": "Production",
+        "name": "Guy Cavagnac",
+        "original_name": "Guy Cavagnac",
+        "popularity": 0.0734,
+        "profile_path": null,
+        "credit_id": "565b7b37c3a368507d003b73",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 238582,
+        "known_for_department": "Directing",
+        "name": "Liliane de Kermadec",
+        "original_name": "Liliane de Kermadec",
+        "popularity": 0.0507,
+        "profile_path": "/naoXiH19ijv2aK3KpzMiyIqXaMl.jpg",
+        "credit_id": "565b7b40925141692e003cc6",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1542494,
+        "known_for_department": "Camera",
+        "name": "Jim Asbell",
+        "original_name": "Jim Asbell",
+        "popularity": 0.0503,
+        "profile_path": null,
+        "credit_id": "565b7b48c3a368506d003f7a",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1017426,
+        "known_for_department": "Camera",
+        "name": "Babette Mangolte",
+        "original_name": "Babette Mangolte",
+        "popularity": 0.1535,
+        "profile_path": "/lW1aBFQVh4GNXtqZPFL8QTIlJQm.jpg",
+        "credit_id": "565b7b539251416925003b8d",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 17532,
+        "known_for_department": "Editing",
+        "name": "Francine Sandberg",
+        "original_name": "Francine Sandberg",
+        "popularity": 0.5043,
+        "profile_path": null,
+        "credit_id": "565b7b5b9251416928003890",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1542495,
+        "known_for_department": "Directing",
+        "name": "Epp Kotkas",
+        "original_name": "Epp Kotkas",
+        "popularity": 0.4729,
+        "profile_path": null,
+        "credit_id": "565b7b65925141691e003ab8",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1542496,
+        "known_for_department": "Directing",
+        "name": "Paule Zadjermann",
+        "original_name": "Paule Zadjermann",
+        "popularity": 0.0388,
+        "profile_path": null,
+        "credit_id": "565b7b71c3a3685074003e81",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5439,
+        "known_for_department": "Sound",
+        "name": "Dominique Dalmasso",
+        "original_name": "Dominique Dalmasso",
+        "popularity": 0.2678,
+        "profile_path": "/ylHaCFrbkWiJTnQHihdqH6J540M.jpg",
+        "credit_id": "565b7b7b925141691e003ac0",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1542497,
+        "known_for_department": "Sound",
+        "name": "Larry Haas",
+        "original_name": "Larry Haas",
+        "popularity": 0.2213,
+        "profile_path": null,
+        "credit_id": "565b7b83c3a36850810038bd",
+        "department": "Sound",
+        "job": "Sound"
+      }
+    ]
+  },
+  "videos": {
+    "id": 86814,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "News From Home (1977) - \"Your Loving Mother\"",
+        "key": "0uXCMAUuZ7k",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": false,
+        "published_at": "2020-03-29T11:00:01.000Z",
+        "id": "63ee3693f92532009d93cec4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "AFS PRESENTS: NEWS FROM HOME",
+        "key": "wY65NKH0t3Q",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2016-09-01T20:39:29.000Z",
+        "id": "63ee36b1f92532008534c51f"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 86814,
+    "keywords": [
+      {
+        "id": 187056,
+        "name": "woman director"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 86814,
+    "results": {
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/ptNJnBKMVLv3XxmLU9UMVSDop80.jpg",
+            "provider_id": 1973,
+            "provider_name": "Filmicca",
+            "display_priority": 48
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/qsOM361vYHE7pcNFG7bCJHyievG.jpg",
+            "provider_id": 182,
+            "provider_name": "Hollywood Suite",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/p5xtRLEzPyRhqOPpiW1sFy4FyPc.jpg",
+            "provider_id": 705,
+            "provider_name": "Hollywood Suite Amazon Channel",
+            "display_priority": 87
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/7up8PVB6RaL0fDs5XFzjJlq9mg2.jpg",
+            "provider_id": 550,
+            "provider_name": "Tenk",
+            "display_priority": 30
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/kohVS01u3sP5IkqsSaAKdBit6aP.jpg",
+            "provider_id": 2041,
+            "provider_name": "BFI Player Apple TV Channel",
+            "display_priority": 97
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 22
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/86814-news-from-home/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      }
+    }
+  }
+}

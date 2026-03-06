@@ -1,0 +1,56 @@
+{
+  "work_id": "work_yi-yi_2000",
+  "processed_at": "2026-02-28T06:59:48.056716+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.76,
+    "secondary_colors": [
+      "blanco_polar",
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Overall cool and desaturated color grading throughout the film.",
+      "Prevalence of blue-grey concrete buildings and cool artificial lighting in urban and interior settings.",
+      "Long, observational takes frequently frame characters within these cool-toned environments, emphasizing the `cian_melancolico` hue."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_yi-yi_2000",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:59:48.053004Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:59:48.052992Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_yi-yi_2000",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "blanco_polar",
+      "verde_lima"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

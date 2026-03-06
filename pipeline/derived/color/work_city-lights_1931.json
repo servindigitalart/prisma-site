@@ -1,0 +1,51 @@
+{
+  "work_id": "work_city-lights_1931",
+  "processed_at": "2026-02-28T04:46:34.306274+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The entire film is shot in black and white, relying on light and shadow for visual impact.",
+      "Dramatic contrasts are visible in iconic scenes, such as the boxing match and the Tramp's encounters with the wealthy man.",
+      "The expressive faces of the characters, particularly Chaplin's, are highlighted by strong chiaroscuro lighting.",
+      "The final iconic scene utilizes the stark visual presence of the Tramp and the flower girl through black and white contrast."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_city-lights_1931",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:46:34.302854Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:46:34.302843Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_city-lights_1931",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

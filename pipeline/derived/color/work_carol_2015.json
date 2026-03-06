@@ -1,0 +1,56 @@
+{
+  "work_id": "work_carol_2015",
+  "processed_at": "2026-02-28T17:30:18.189965+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rosa_pastel",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.77,
+    "secondary_colors": [
+      "verde_esmeralda",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive soft, desaturated pink color grading, particularly evident in intimate scenes and close-ups of faces, enhancing a tender, romantic mood.",
+      "Many costumes, especially those worn by Therese and supporting characters, feature muted pinks, soft reds, and rose tones.",
+      "The overall soft-focus, painterly aesthetic by Edward Lachman consistently employs a gentle, rosy hue that contributes to the film's nostalgic and feminine atmosphere."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_carol_2015",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T17:30:18.185427Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T17:30:18.185404Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_carol_2015",
+    "color_iconico": "rosa_pastel",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_esmeralda",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

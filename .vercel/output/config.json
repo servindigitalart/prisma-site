@@ -1,0 +1,199 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"src": "^/_server-islands/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/_image/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/admin/curator/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/admin/ficha/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/admin/review/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/admin/submissions/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/approve-article/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/bunny-upload/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/override-color/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/publish/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/reject-article/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/send-ficha/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/admin/submissions/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/ficha/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/share/film-card/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/stream-token/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/submit/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/user/follow/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/user/rate/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/user/review/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/user/seen/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/user/watchlist/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/auth/callback/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/auth/error/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/auth/signin/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/auth/signout/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/colors/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/colors/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/countries/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/countries/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/festivals/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/festivals/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ficha/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/films/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/people/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/people/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/rankings/films/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/share/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/studios/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/submit/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/u/([^/]+?)/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/$",
+			"dest": "_render"
+		}
+	],
+	"images": {
+		"sizes": [
+			640,
+			750,
+			828,
+			1080,
+			1200,
+			1920,
+			2048,
+			3840
+		],
+		"domains": [
+			"image.tmdb.org"
+		],
+		"remotePatterns": []
+	}
+}

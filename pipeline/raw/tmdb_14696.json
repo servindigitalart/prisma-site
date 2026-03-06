@@ -1,0 +1,2999 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/iB1tCWl4MKl6OO1kMBD5LxM5BmJ.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 14,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      }
+    ],
+    "homepage": "",
+    "id": 14696,
+    "imdb_id": "tt0046478",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "\u96e8\u6708\u7269\u8a9e",
+    "overview": "In 16th century Japan, peasants Genjuro and Tobei sell their earthenware pots to a group of soldiers in a nearby village, in defiance of a local sage's warning against seeking to profit from warfare. Genjuro's pursuit of both riches and the mysterious Lady Wakasa, as well as Tobei's desire to become a samurai, run the risk of destroying both themselves and their wives, Miyagi and Ohama.",
+    "popularity": 2.2363,
+    "poster_path": "/r8RiuKTIYIJBjczBVsfeP5C00CJ.jpg",
+    "production_companies": [
+      {
+        "id": 880,
+        "logo_path": "/vwhPRAZ4lhUtSuaifk4Au2MIm92.png",
+        "name": "Daiei Film",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "1953-03-26",
+    "revenue": 0,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "\u65e5\u672c\u8a9e"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Ugetsu",
+    "video": false,
+    "vote_average": 8.005,
+    "vote_count": 628
+  },
+  "credits": {
+    "id": 14696,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 7451,
+        "known_for_department": "Acting",
+        "name": "Machiko Ky\u014d",
+        "original_name": "\u4eac\u30de\u30c1\u5b50",
+        "popularity": 1.157,
+        "profile_path": "/24tQVUgGN4s6rp1P9qlnT74RSJI.jpg",
+        "cast_id": 36,
+        "character": "Lady Wakasa",
+        "credit_id": "5e7da1b0278d8a001572f263",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 108021,
+        "known_for_department": "Acting",
+        "name": "Mitsuko Mito",
+        "original_name": "Mitsuko Mito",
+        "popularity": 1.1488,
+        "profile_path": "/kCyFyOJieZ70TnYUmGQatdzET4n.jpg",
+        "cast_id": 37,
+        "character": "Ohama",
+        "credit_id": "5e7da1d76c849200166b0c99",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 24551,
+        "known_for_department": "Acting",
+        "name": "Kinuyo Tanaka",
+        "original_name": "\u7530\u4e2d\u7d79\u4ee3",
+        "popularity": 1.0653,
+        "profile_path": "/1OnULAXSOskknSCxTzx3Naqoe5O.jpg",
+        "cast_id": 38,
+        "character": "Miyagi",
+        "credit_id": "5e7da214f794ad0011ef973a",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7452,
+        "known_for_department": "Acting",
+        "name": "Masayuki Mori",
+        "original_name": "\u68ee\u96c5\u4e4b",
+        "popularity": 1.0554,
+        "profile_path": "/4HZFAdEGIOk7HxJjcdcxfL4k1x3.jpg",
+        "cast_id": 39,
+        "character": "Genjur\u00f4",
+        "credit_id": "5e7da23a278d8a001372dd54",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 97203,
+        "known_for_department": "Acting",
+        "name": "Eitar\u014d Ozawa",
+        "original_name": "\u5c0f\u6ca2\u6804\u592a\u90ce",
+        "popularity": 0.5329,
+        "profile_path": "/5ppJVvKljVAvBaXxEoCb7rbkjEJ.jpg",
+        "cast_id": 40,
+        "character": "T\u00f4bei",
+        "credit_id": "5e7da28af794ad0011ef99a9",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1049221,
+        "known_for_department": "Acting",
+        "name": "Sugisaku Aoyama",
+        "original_name": "\u9752\u5c71\u6749\u4f5c",
+        "popularity": 0.2078,
+        "profile_path": null,
+        "cast_id": 41,
+        "character": "Old Priest",
+        "credit_id": "5e7da2abfea0d772afc9ac5c",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134387,
+        "known_for_department": "Acting",
+        "name": "Mitsusabur\u014d Ramon",
+        "original_name": "\u7f85\u9580\u5149\u4e09\u90ce",
+        "popularity": 0.5237,
+        "profile_path": null,
+        "cast_id": 42,
+        "character": "Captain of Tamba Soldiers",
+        "credit_id": "5e7da2ca6c849200166b0df7",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 551748,
+        "known_for_department": "Acting",
+        "name": "Ry\u014dsuke Kagawa",
+        "original_name": "\u9999\u5ddd\u826f\u4ecb",
+        "popularity": 0.4838,
+        "profile_path": "/c6A6LKaPacYsgl4GOMsIfqXA6oa.jpg",
+        "cast_id": 43,
+        "character": "Village Master",
+        "credit_id": "5e7da3066c74b95757cb9fe9",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7455,
+        "known_for_department": "Acting",
+        "name": "Kichijir\u014d Ueda",
+        "original_name": "\u4e0a\u7530\u5409\u4e8c\u90ce",
+        "popularity": 1.0361,
+        "profile_path": "/qjBYqwAobeFnOhpkxNnv36IvCQy.jpg",
+        "cast_id": 44,
+        "character": "Shop Owner",
+        "credit_id": "5e7da32c6c74b95757cba00e",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134625,
+        "known_for_department": "Acting",
+        "name": "Sh\u014dz\u014d Nanbu",
+        "original_name": "\u5357\u90e8\u5f70\u4e09",
+        "popularity": 0.7092,
+        "profile_path": "/rIEVvmIDTJEEFrZFu5GPu009FLr.jpg",
+        "cast_id": 45,
+        "character": "Shint\u00f4 Priest",
+        "credit_id": "5e7da3716c74b95757cba04d",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1092519,
+        "known_for_department": "Acting",
+        "name": "Kikue M\u014dri",
+        "original_name": "\u6bdb\u5229\u83ca\u679d",
+        "popularity": 0.3908,
+        "profile_path": null,
+        "cast_id": 46,
+        "character": "Ukon",
+        "credit_id": "5e7da3946c849200166b101b",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551755,
+        "known_for_department": "Acting",
+        "name": "Ry\u016bzabur\u014d Mitsuoka",
+        "original_name": "\u5149\u5ca1\u9f8d\u4e09\u90ce",
+        "popularity": 0.4003,
+        "profile_path": "/uta3NPnDzvtIIJJVRDt2PFkpOW9.jpg",
+        "cast_id": 47,
+        "character": "Soldier",
+        "credit_id": "5e7da3ca278d8a001372decf",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1602376,
+        "known_for_department": "Acting",
+        "name": "Ichir\u014d Amano",
+        "original_name": "\u5929\u91ce\u4e00\u90ce",
+        "popularity": 1.0167,
+        "profile_path": null,
+        "cast_id": 48,
+        "character": "Boatsman",
+        "credit_id": "5e7da40ef794ad0011ef9dd4",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 555561,
+        "known_for_department": "Acting",
+        "name": "Eigor\u014d Onoe",
+        "original_name": "\u5c3e\u4e0a\u6804\u4e94\u90ce",
+        "popularity": 0.2031,
+        "profile_path": "/yO78wJL2XBjORT7aldcovpNhUZM.jpg",
+        "cast_id": 49,
+        "character": "Knight",
+        "credit_id": "5e7da42b6c849200166b109d",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 125011,
+        "known_for_department": "Acting",
+        "name": "Saburo Date",
+        "original_name": "\u4f0a\u9054\u4e09\u90ce",
+        "popularity": 1.0017,
+        "profile_path": "/2aApL79MtchtDoCdMtwuutioDTY.jpg",
+        "cast_id": 50,
+        "character": "Vassal",
+        "credit_id": "5e7da44c6c849200166b10c3",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134620,
+        "known_for_department": "Acting",
+        "name": "Fumihiko Yokoyama",
+        "original_name": "\u6a2a\u5c71\u6587\u5f66",
+        "popularity": 1.4873,
+        "profile_path": null,
+        "cast_id": 51,
+        "character": "Meshiro",
+        "credit_id": "5e7da47c109dec1cbb02f5ce",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2580258,
+        "known_for_department": "Acting",
+        "name": "Ichisaburo Sawamura",
+        "original_name": "Ichisaburo Sawamura",
+        "popularity": 0.0983,
+        "profile_path": null,
+        "cast_id": 52,
+        "character": "Genichi",
+        "credit_id": "5e7da4976c74b94ca5cb1c22",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2580259,
+        "known_for_department": "Acting",
+        "name": "Koji Murata",
+        "original_name": "\u6751\u7530\u5b8f\u4e8c",
+        "popularity": 0.9955,
+        "profile_path": null,
+        "cast_id": 53,
+        "character": "Armored Knight",
+        "credit_id": "5e7da5256c74b94e95cba0fd",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 555562,
+        "known_for_department": "Acting",
+        "name": "Yukio Horikita",
+        "original_name": "\u5800\u5317\u5e78\u592b",
+        "popularity": 0.8746,
+        "profile_path": "/nMN21nawwsRi1ziigOpqVikLpJj.jpg",
+        "cast_id": 54,
+        "character": "Armored Knight",
+        "credit_id": "5e7da622fea0d708fec9c2db",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 150319,
+        "known_for_department": "Acting",
+        "name": "Akira Shimizu",
+        "original_name": "\u6e05\u6c34\u5f70",
+        "popularity": 1.2388,
+        "profile_path": null,
+        "cast_id": 55,
+        "character": "Armored Knight",
+        "credit_id": "5e7da663278d8a001172c614",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133712,
+        "known_for_department": "Acting",
+        "name": "Shuntaro Tamamura",
+        "original_name": "\u7389\u6751\u4fca\u592a\u90ce",
+        "popularity": 0.9391,
+        "profile_path": null,
+        "cast_id": 56,
+        "character": "Armored Knight",
+        "credit_id": "5e7da688f794ad0013eff3dd",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1274820,
+        "known_for_department": "Acting",
+        "name": "Shir\u014d Osaki",
+        "original_name": "Shiro Osaki",
+        "popularity": 0.2616,
+        "profile_path": null,
+        "cast_id": 57,
+        "character": "Armored Knight",
+        "credit_id": "5e7da6d5278d8a001372e26c",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 555557,
+        "known_for_department": "Acting",
+        "name": "Toshio Chiba",
+        "original_name": "\u5343\u8449\u654f\u90ce",
+        "popularity": 0.7017,
+        "profile_path": null,
+        "cast_id": 58,
+        "character": "Armored Knight",
+        "credit_id": "5e7da6f2109dec213c031146",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551761,
+        "known_for_department": "Acting",
+        "name": "Hachiro Okuni",
+        "original_name": "Hachiro Okuni",
+        "popularity": 0.3517,
+        "profile_path": null,
+        "cast_id": 59,
+        "character": "Brothel Armored Knight",
+        "credit_id": "5e7da711fea0d708fec9c48d",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1897887,
+        "known_for_department": "Acting",
+        "name": "Shiro Miura",
+        "original_name": "\u4e09\u6d66\u5fd7\u90ce",
+        "popularity": 0.851,
+        "profile_path": null,
+        "cast_id": 60,
+        "character": "Brothel Guest",
+        "credit_id": "5e7da7506c74b95757cba3ec",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 555565,
+        "known_for_department": "Acting",
+        "name": "Hajime Koshikawa",
+        "original_name": "\u8d8a\u5ddd\u4e00",
+        "popularity": 0.739,
+        "profile_path": null,
+        "cast_id": 61,
+        "character": "Brothel Guest",
+        "credit_id": "5e7da7bf109dec213c03119b",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2069806,
+        "known_for_department": "Acting",
+        "name": "Tetsu Mikami",
+        "original_name": "Tetsu Mikami",
+        "popularity": 0.3282,
+        "profile_path": null,
+        "cast_id": 62,
+        "character": "Brothel Guest",
+        "credit_id": "5e7da7db109dec213c0311ec",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134621,
+        "known_for_department": "Acting",
+        "name": "Jun Fujikawa",
+        "original_name": "\u85e4\u5ddd\u6e96",
+        "popularity": 1.0244,
+        "profile_path": "/5Wv81uX29uuFhmbG7NCiXsCTWcJ.jpg",
+        "cast_id": 63,
+        "character": "Defeated Soldier",
+        "credit_id": "5e7da7fa6c74b94e95cba349",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551758,
+        "known_for_department": "Acting",
+        "name": "Takaji Fukui",
+        "original_name": "Takaji Fukui",
+        "popularity": 1.3247,
+        "profile_path": null,
+        "cast_id": 64,
+        "character": "Defeated Soldier",
+        "credit_id": "5e7da844278d8a001572fbd4",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1954216,
+        "known_for_department": "Acting",
+        "name": "Eiji Ishikura",
+        "original_name": "Eiji Ishikura",
+        "popularity": 0.6601,
+        "profile_path": null,
+        "cast_id": 65,
+        "character": "Defeated Soldier",
+        "credit_id": "5e7da8606c74b94ca5cb210e",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2580265,
+        "known_for_department": "Acting",
+        "name": "Tokurin Takeda",
+        "original_name": "Tokurin Takeda",
+        "popularity": 0.0379,
+        "profile_path": null,
+        "cast_id": 66,
+        "character": "Defeated Soldier",
+        "credit_id": "5e7da881f794ad0013eff5da",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1863305,
+        "known_for_department": "Acting",
+        "name": "Koji Kanda",
+        "original_name": "Koji Kanda",
+        "popularity": 0.4242,
+        "profile_path": null,
+        "cast_id": 67,
+        "character": "Defeated Soldier",
+        "credit_id": "5e7da8bd6c849200166b197d",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 555564,
+        "known_for_department": "Acting",
+        "name": "Masayoshi Kikuno",
+        "original_name": "Masayoshi Kikuno",
+        "popularity": 0.725,
+        "profile_path": null,
+        "cast_id": 68,
+        "character": "Ch\u00f4hatsu's Soldier",
+        "credit_id": "5e7da991109dec1ebb0355f7",
+        "order": 32
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1597586,
+        "known_for_department": "Acting",
+        "name": "Michio Yuri",
+        "original_name": "Michio Yuri",
+        "popularity": 0.3899,
+        "profile_path": null,
+        "cast_id": 69,
+        "character": "Ch\u00f4hatsu's Soldier",
+        "credit_id": "5e7da9b7278d8a001572fd97",
+        "order": 33
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2580275,
+        "known_for_department": "Acting",
+        "name": "S\u00f4 Funagami",
+        "original_name": "S\u00f4 Funagami",
+        "popularity": 0.1161,
+        "profile_path": null,
+        "cast_id": 70,
+        "character": "Ch\u00f4hatsu's Soldier",
+        "credit_id": "5e7da9cdfea0d708fec9c714",
+        "order": 34
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1602378,
+        "known_for_department": "Acting",
+        "name": "Shigeru Hasegawa",
+        "original_name": "Shigeru Hasegawa",
+        "popularity": 0.5535,
+        "profile_path": null,
+        "cast_id": 71,
+        "character": "Ch\u00f4hatsu's Soldier",
+        "credit_id": "5e7daa60fea0d708fec9c7bb",
+        "order": 35
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 372732,
+        "known_for_department": "Acting",
+        "name": "Teruko \u014cmi",
+        "original_name": "\u8fd1\u6c5f\u8f1d\u5b50",
+        "popularity": 0.2884,
+        "profile_path": "/9CyasumObS92NAiEBDXtC9wn1vN.jpg",
+        "cast_id": 72,
+        "character": "Prostitute",
+        "credit_id": "5e7daaaa278d8a001172cd75",
+        "order": 36
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 134349,
+        "known_for_department": "Acting",
+        "name": "Keiko Koyanagi",
+        "original_name": "\u5c0f\u67f3\u572d\u5b50",
+        "popularity": 0.6754,
+        "profile_path": "/yZEClBqTQFPBvRd174ey8YiCKTR.jpg",
+        "cast_id": 73,
+        "character": "Prostitute",
+        "credit_id": "5e7dab836c74b94e95cba703",
+        "order": 37
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1602393,
+        "known_for_department": "Acting",
+        "name": "Masako Tomura",
+        "original_name": "Masako Tomura",
+        "popularity": 0.3188,
+        "profile_path": null,
+        "cast_id": 74,
+        "character": "Prostitute",
+        "credit_id": "5e7dac0d6c74b94e95cba7db",
+        "order": 38
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1200210,
+        "known_for_department": "Acting",
+        "name": "Tokiko Mita",
+        "original_name": "\u4e09\u7530\u767b\u559c\u5b50",
+        "popularity": 0.3548,
+        "profile_path": "/x0lGwlZDNlg6flCDYdsU9ynMcHG.jpg",
+        "cast_id": 75,
+        "character": "Lady Attendant",
+        "credit_id": "5e7dac31fea0d772afc9b850",
+        "order": 39
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2580289,
+        "known_for_department": "Acting",
+        "name": "Tokuko Ueda",
+        "original_name": "Tokuko Ueda",
+        "popularity": 0.1833,
+        "profile_path": null,
+        "cast_id": 76,
+        "character": "Lady Attendant",
+        "credit_id": "5e7dac5c278d8a001172d113",
+        "order": 40
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1626906,
+        "known_for_department": "Acting",
+        "name": "Sachiko Soma",
+        "original_name": "\u76f8\u99ac\u5e78\u5b50",
+        "popularity": 0.6816,
+        "profile_path": "/A8XrBD4zX7KmPo7EO472vo21P1b.jpg",
+        "cast_id": 77,
+        "character": "Lady Attendant",
+        "credit_id": "5e7dac756c74b95757cbabde",
+        "order": 41
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 134618,
+        "known_for_department": "Acting",
+        "name": "Reiko Kong\u014d",
+        "original_name": "\u91d1\u525b\u9e97\u5b50",
+        "popularity": 1.2116,
+        "profile_path": null,
+        "cast_id": 78,
+        "character": "Old Woman in Brothel",
+        "credit_id": "5e7daefe6c74b95757cbaffe",
+        "order": 42
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134347,
+        "known_for_department": "Acting",
+        "name": "Ikkei Tamaki",
+        "original_name": "\u7389\u7f6e\u4e00\u6075",
+        "popularity": 1.6433,
+        "profile_path": null,
+        "cast_id": 79,
+        "character": "Villager",
+        "credit_id": "5e7daf6f6c74b95757cbb02d",
+        "order": 43
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1048948,
+        "known_for_department": "Editing",
+        "name": "Mitsuz\u014d Miyata",
+        "original_name": "\u5bae\u7530\u5473\u6d25\u4e09",
+        "popularity": 1.2869,
+        "profile_path": null,
+        "credit_id": "52fe46119251416c7506c03b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 97202,
+        "known_for_department": "Directing",
+        "name": "Kenji Mizoguchi",
+        "original_name": "\u6e9d\u53e3\u5065\u4e8c",
+        "popularity": 1.11,
+        "profile_path": "/ngKRZZPKh8d7GaeMgcM0eXbzMte.jpg",
+        "credit_id": "52fe46119251416c7506bfeb",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1092504,
+        "known_for_department": "Sound",
+        "name": "Tamekichi Mochizuki",
+        "original_name": "Tamekichi Mochizuki",
+        "popularity": 0.2572,
+        "profile_path": null,
+        "credit_id": "52fe46119251416c7506c029",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134343,
+        "known_for_department": "Writing",
+        "name": "Yoshikata Yoda",
+        "original_name": "\u4f9d\u7530\u7fa9\u8ce2",
+        "popularity": 0.4797,
+        "profile_path": null,
+        "credit_id": "52fe46119251416c7506c00b",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7460,
+        "known_for_department": "Sound",
+        "name": "Fumio Hayasaka",
+        "original_name": "\u65e9\u5742\u6587\u96c4",
+        "popularity": 1.1252,
+        "profile_path": "/A4t45XV0SXKnYzZNkzrjCl4jHUy.jpg",
+        "credit_id": "52fe46119251416c7506c023",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 125001,
+        "known_for_department": "Sound",
+        "name": "Ichir\u014d Sait\u014d",
+        "original_name": "\u658e\u85e4\u4e00\u90ce",
+        "popularity": 0.2565,
+        "profile_path": null,
+        "credit_id": "52fe46119251416c7506c02f",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7459,
+        "known_for_department": "Production",
+        "name": "Masaichi Nagata",
+        "original_name": "\u6c38\u7530\u96c5\u4e00",
+        "popularity": 0.2106,
+        "profile_path": "/dPuhe47WZSUIu4IzFtrg8olqF9K.jpg",
+        "credit_id": "52fe46119251416c7506c01d",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7461,
+        "known_for_department": "Camera",
+        "name": "Kazuo Miyagawa",
+        "original_name": "\u5bae\u5ddd\u4e00\u592b",
+        "popularity": 0.7715,
+        "profile_path": "/zOuiKy1s39qfm1eY6HBF6OIFIBu.jpg",
+        "credit_id": "57171ade9251417a220060dc",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134342,
+        "known_for_department": "Writing",
+        "name": "Matsutar\u014d Kawaguchi",
+        "original_name": "\u5ddd\u53e3\u677e\u592a\u90ce",
+        "popularity": 0.1969,
+        "profile_path": null,
+        "credit_id": "5832503292514162cf02fb11",
+        "department": "Writing",
+        "job": "Adaptation"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1551748,
+        "known_for_department": "Art",
+        "name": "Kosabur\u014d Nakajima",
+        "original_name": "Kosabur\u014d Nakajima",
+        "popularity": 0.1911,
+        "profile_path": null,
+        "credit_id": "5b043dd40e0a26435400c0be",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1551749,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Shima Yoshizane",
+        "original_name": "Shima Yoshizane",
+        "popularity": 0.206,
+        "profile_path": null,
+        "credit_id": "5b043de90e0a2623c902b336",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1552083,
+        "known_for_department": "Production",
+        "name": "Masatsugu Hashimoto",
+        "original_name": "Masatsugu Hashimoto",
+        "popularity": 0.1907,
+        "profile_path": null,
+        "credit_id": "5b043dbf925141099302db5a",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2048274,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Tadaoto Kainosh\u014d",
+        "original_name": "\u7532\u6590\u5e84\u6960\u97f3",
+        "popularity": 0.7834,
+        "profile_path": null,
+        "credit_id": "5b043ddf9251410986031e69",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2048275,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Yoshiya Fukuyama",
+        "original_name": "Yoshiya Fukuyama",
+        "popularity": 0.413,
+        "profile_path": null,
+        "credit_id": "5b043df99251410923024ada",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1551750,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Ritsu Hanai",
+        "original_name": "Ritsu Hanai",
+        "popularity": 0.2566,
+        "profile_path": null,
+        "credit_id": "5b043e03c3a3686c7d01fbc3",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1529375,
+        "known_for_department": "Art",
+        "name": "Kisaku Ito",
+        "original_name": "\u4f0a\u85e4\u71b9\u6714",
+        "popularity": 0.1778,
+        "profile_path": null,
+        "credit_id": "5dea286027d9cc0011ea34ed",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1092518,
+        "known_for_department": "Writing",
+        "name": "Akinari Ueda",
+        "original_name": "Akinari Ueda",
+        "popularity": 0.214,
+        "profile_path": null,
+        "credit_id": "5e7dafe3278d8a0015730478",
+        "department": "Writing",
+        "job": "Original Story"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2493118,
+        "known_for_department": "Sound",
+        "name": "Akira Suzuki",
+        "original_name": "Akira Suzuki",
+        "popularity": 0.2255,
+        "profile_path": null,
+        "credit_id": "5eeb06c06dea3a0032bd25f6",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1111737,
+        "known_for_department": "Sound",
+        "name": "Iwao \u014ctani",
+        "original_name": "\u5927\u8c37\u5dcc",
+        "popularity": 0.8804,
+        "profile_path": null,
+        "credit_id": "5eeb066481da3900344ec4e6",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 83199,
+        "known_for_department": "Directing",
+        "name": "Tokuz\u014d Tanaka",
+        "original_name": "\u7530\u4e2d\u5fb3\u4e09",
+        "popularity": 0.8929,
+        "profile_path": "/955mUKMcFxKnW9lrSQ4fXx9M0Tc.jpg",
+        "credit_id": "5eeb069ddb4ed60037ca928e",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1267600,
+        "known_for_department": "Lighting",
+        "name": "Ken'ichi Okamoto",
+        "original_name": "\u5ca1\u672c\u5065\u4e00",
+        "popularity": 0.2178,
+        "profile_path": null,
+        "credit_id": "699dfa2613c2e651e406632b",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134382,
+        "known_for_department": "Production",
+        "name": "Hisakazu Tsuji",
+        "original_name": "Hisakazu Tsuji",
+        "popularity": 0.8204,
+        "profile_path": null,
+        "credit_id": "699dfa2afe44d658d1066159",
+        "department": "Writing",
+        "job": "Story"
+      }
+    ]
+  },
+  "videos": {
+    "id": 14696,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Ugetsu (1953) ORIGINAL TRAILER [HD]",
+        "key": "C8Z3DYtUP0E",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2018-06-21T21:08:28.000Z",
+        "id": "61f0604d15794a0090c349d7"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Masahiro Shinoda on the Blending of Fantasy and Reality in UGETSU",
+        "key": "NX95N9EuLgo",
+        "published_at": "2017-06-07T18:34:54.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "id": "5938b31992514108990063ac"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "AFS PRESENTS: UGETSU",
+        "key": "CLrlhu0XxdY",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2017-05-16T16:46:30.000Z",
+        "id": "66b8ba287d739ff29e9f0270"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 14696,
+    "keywords": [
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 1462,
+        "name": "samurai"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 5332,
+        "name": "greed"
+      },
+      {
+        "id": 6977,
+        "name": "bigamy"
+      },
+      {
+        "id": 10614,
+        "name": "tragedy"
+      },
+      {
+        "id": 11004,
+        "name": "rural area"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 162846,
+        "name": "ghost"
+      },
+      {
+        "id": 186753,
+        "name": "jidaigeki"
+      },
+      {
+        "id": 194424,
+        "name": "sengoku period"
+      },
+      {
+        "id": 198754,
+        "name": "feudal japan"
+      },
+      {
+        "id": 208244,
+        "name": "16th century"
+      },
+      {
+        "id": 223738,
+        "name": "warring states period"
+      },
+      {
+        "id": 248451,
+        "name": "historical romance"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 14696,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 59
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=AZ",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 0
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 51
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/gBYz3cTgDPRoRFOCS4gG9BNPJdX.jpg",
+            "provider_id": 447,
+            "provider_name": "Belas Artes \u00e0 La Carte",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/rXNXvz2096ri69ZlZsFwKxZYJsS.jpg",
+            "provider_id": 499,
+            "provider_name": "Oldflix",
+            "display_priority": 17
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BY",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 9
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=CZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 34
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=DE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 49
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 118
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 44
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=DO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=DZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=EC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=EE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=FI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 39
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=FJ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=FR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 28
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 22
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=GY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 1
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=HK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=HN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=HR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=HU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ID",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 40
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 75
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=IT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=JM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=JO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/3lWxKERHputjERnJzsRkH5ozFoS.jpg",
+            "provider_id": 2489,
+            "provider_name": "KADOKAWA channel Amazon Channel",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 72
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=KE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 23
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=KW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 6
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=LY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 21
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 1
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MX",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=MZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 16
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 6
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=NZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 34
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=OM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=PY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=RO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=RS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 23
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=RU",
+        "free": [
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 43
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=SV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=TZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=UG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          },
+          {
+            "logo_path": "/8G7qvHF7hdmXpfxxqtF1WT9ib68.jpg",
+            "provider_id": 2308,
+            "provider_name": "Darkroom",
+            "display_priority": 137
+          },
+          {
+            "logo_path": "/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
+            "provider_id": 2409,
+            "provider_name": "Fawesome",
+            "display_priority": 144
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=UY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=VA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 6
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=VE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "XK": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=XK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=YE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ZM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/14696/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      }
+    }
+  }
+}

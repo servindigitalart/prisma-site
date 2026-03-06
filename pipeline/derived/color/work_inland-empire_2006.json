@@ -1,0 +1,56 @@
+{
+  "work_id": "work_inland-empire_2006",
+  "processed_at": "2026-02-28T17:45:26.129329+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_distopico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "Many interior scenes feature a distinct sickly green-yellow tint from artificial lighting (e.g., apartment scenes, brothel sequences).",
+      "The raw digital video aesthetic often gives overall scenes a muddy, greenish cast.",
+      "The pervasive artificiality and unsettling nature of the film's world are visually communicated through this specific color grade."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_inland-empire_2006",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T17:45:26.125661Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T17:45:26.125650Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_inland-empire_2006",
+    "color_iconico": "verde_distopico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

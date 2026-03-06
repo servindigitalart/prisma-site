@@ -1,0 +1,51 @@
+{
+  "work_id": "work_citizen-kane_1941",
+  "processed_at": "2026-02-28T04:46:11.673007+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Deep focus cinematography emphasizes dramatic contrasts between foreground and background.",
+      "Extensive use of chiaroscuro lighting, with deep shadows and strong highlights.",
+      "Iconic low-angle shots with visible ceilings are defined by the interplay of light and dark.",
+      "Characters are frequently presented in powerful silhouettes against stark backgrounds."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_citizen-kane_1941",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:46:11.669573Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:46:11.669562Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_citizen-kane_1941",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

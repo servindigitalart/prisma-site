@@ -1,0 +1,56 @@
+{
+  "work_id": "work_do-the-right-thing_1989",
+  "processed_at": "2026-02-28T00:07:31.106268+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "amarillo_ludico",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Rosie Perez's iconic opening dance sequence is set against a striking red backdrop, immediately establishing the film's passionate visual tone.",
+      "Sal's Famous Pizzeria features prominent red signage and warm-toned walls and lighting that visually amplify the heat and building tension.",
+      "The climactic riot and the subsequent fire visually overwhelm the screen with vibrant orange and red flames, serving as a powerful culmination of the film's emotional intensity."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_do-the-right-thing_1989",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T00:07:31.102605Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T00:07:31.102592Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_do-the-right-thing_1989",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "amarillo_ludico",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

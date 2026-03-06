@@ -1,0 +1,50 @@
+{
+  "work_id": "work_earth_1930",
+  "processed_at": "2026-02-28T05:54:35.830490+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "High-contrast black and white cinematography is consistent throughout the entire film's runtime.",
+      "Dramatic interplay of light and shadow dominates iconic shots of wheat fields and agricultural machinery.",
+      "Stark visual compositions and chiaroscuro lighting are used for close-ups of peasant faces and the emotional funeral sequence."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_earth_1930",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:54:35.826890Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:54:35.826879Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_earth_1930",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

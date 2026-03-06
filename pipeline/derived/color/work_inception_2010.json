@@ -1,0 +1,57 @@
+{
+  "work_id": "work_inception_2010",
+  "processed_at": "2026-02-28T06:04:40.102692+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "titanio_mecanico",
+      "blanco_polar"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Overall cool and desaturated color grading throughout the film.",
+      "The blue-green tint in urban dreamscapes, rain-soaked streets, and architectural elements (e.g., collapsing Paris).",
+      "Muted, cool-toned costumes (dark suits, grays, blues) that blend into the palette.",
+      "The metallic sheen and cool lighting of the zero-gravity hotel fight sequence."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_inception_2010",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:04:40.098638Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:04:40.098627Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_inception_2010",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico",
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,230 @@
+---
+import { getPaletteEntry, isLightColor } from '../../lib/color/colorPalette';
+import { getColorProfile } from '../../lib/db/colors';
+import type { FilesystemWork } from '../../lib/loaders/loadWork';
+import type { WorkFull } from '../../lib/db/types';
+
+interface Props {
+  work: WorkFull | FilesystemWork;
+}
+
+const { work } = Astro.props;
+
+// Resolve color ID
+const colorId: string =
+  ('color_assignments' in work && work.color_assignments?.color_iconico)
+    ? work.color_assignments.color_iconico
+    : ('prisma_palette' in work && (work as FilesystemWork).prisma_palette?.primary)
+      ? (work as FilesystemWork).prisma_palette!.primary
+      : 'azul_nocturno';
+
+const palette = getPaletteEntry(colorId);
+const doctrine = getColorProfile(colorId);
+const lightBg = isLightColor(colorId);
+
+// Narrative / editorial note
+const editorialNote: string | null =
+  ('color_narrative' in work) ? (work as FilesystemWork).color_narrative ?? null : null;
+
+const contextNote = doctrine?.cultural_context ?? editorialNote ?? null;
+const cinematographicNote = doctrine?.cinematographic_notes ?? null;
+
+// Secondary colors
+const secondaryIds: string[] =
+  ('color_assignments' in work && (work as WorkFull).color_assignments?.colores_secundarios)
+    ? (work as WorkFull).color_assignments!.colores_secundarios
+    : ('prisma_palette' in work && (work as FilesystemWork).prisma_palette?.secondary)
+      ? (work as FilesystemWork).prisma_palette!.secondary ?? []
+      : [];
+
+const secondaryPalettes = secondaryIds
+  .slice(0, 4)
+  .map((id) => getPaletteEntry(id))
+  .filter(Boolean);
+---
+
+<section class="film-color-block">
+  <div class="site-container">
+    <div class="film-color-block__layout">
+      <div class="film-color-block__swatch-col">
+        <div
+          class="film-color-block__swatch"
+          style={`background: ${palette?.hex ?? '#1B2A41'}`}
+          role="img"
+          aria-label={`${palette?.name ?? colorId} color swatch`}
+        >
+          <div class={`film-color-block__swatch-label${lightBg ? ' film-color-block__swatch-label--dark' : ''}`}>
+            <span class="film-color-block__swatch-hex">{palette?.hex}</span>
+          </div>
+        </div>
+
+        {secondaryPalettes.length > 0 && (
+          <div class="film-color-block__secondary">
+            <span class="film-color-block__secondary-label">Secondary palette</span>
+            <div class="film-color-block__secondary-swatches">
+              {secondaryPalettes.map((p) => (
+                <a
+                  href={`/colors/${p!.id}`}
+                  title={p!.name}
+                  class="film-color-block__secondary-dot"
+                  style={`background: ${p!.hex}`}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div class="film-color-block__info">
+        <div class="film-color-block__overline">Prisma Color Identity</div>
+
+        <h2 class="film-color-block__color-name">
+          <a href={`/colors/${colorId}`}>{palette?.name ?? colorId}</a>
+        </h2>
+
+        {contextNote && (
+          <p class="film-color-block__context">{contextNote}</p>
+        )}
+
+        {cinematographicNote && (
+          <p class="film-color-block__notes">{cinematographicNote}</p>
+        )}
+
+        {doctrine && doctrine.moods.length > 0 && (
+          <div class="film-color-block__moods">
+            {doctrine.moods.map((mood) => (
+              <span class="film-color-block__mood-tag">{mood}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.film-color-block {
+  padding: 5rem 0;
+  border-top: 1px solid var(--surface-border);
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.film-color-block__layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .film-color-block__layout { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+.film-color-block__swatch {
+  width: 100%;
+  aspect-ratio: 1 / 1.25;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.film-color-block__swatch-label {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.film-color-block__swatch-hex {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: rgba(240,238,232,0.55);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.film-color-block__swatch-label--dark .film-color-block__swatch-hex {
+  color: rgba(10,10,15,0.5);
+}
+
+.film-color-block__secondary { margin-top: 1.25rem; }
+
+.film-color-block__secondary-label {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.625rem;
+}
+
+.film-color-block__secondary-swatches { display: flex; gap: 0.5rem; }
+
+.film-color-block__secondary-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--surface-border);
+  display: block;
+  transition: transform 160ms ease;
+}
+.film-color-block__secondary-dot:hover { transform: scale(1.15); }
+
+.film-color-block__info { padding-top: 0.5rem; }
+
+.film-color-block__overline {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.875rem;
+}
+
+.film-color-block__color-name {
+  font-family: var(--font-serif);
+  font-size: clamp(1.875rem, 3.5vw, 2.75rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.film-color-block__color-name a {
+  color: inherit;
+  transition: opacity 160ms ease;
+}
+.film-color-block__color-name a:hover { opacity: 0.65; }
+
+.film-color-block__context {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.film-color-block__notes {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.film-color-block__moods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.film-color-block__mood-tag {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 2px;
+}
+</style>

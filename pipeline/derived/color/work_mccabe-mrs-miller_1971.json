@@ -1,0 +1,54 @@
+{
+  "work_id": "work_mccabe-mrs-miller_1971",
+  "processed_at": "2026-02-28T06:15:37.556251+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The unique 'flashing' color grading by Vilmos Zsigmond, which creates a pervasive, desaturated, brownish-gold filter over the entire film, evoking an antique photograph.",
+      "The production design of the frontier town, with its unvarnished wooden buildings, muddy streets, and interiors lit with warm, dim light, all contributing to the dusty, aged aesthetic.",
+      "Iconic promotional materials and film stills consistently feature the desaturated, warm, amber-toned palette as the film's defining visual characteristic."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_mccabe-mrs-miller_1971",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:15:37.552732Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:15:37.552721Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_mccabe-mrs-miller_1971",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

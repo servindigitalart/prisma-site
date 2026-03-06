@@ -1,0 +1,214 @@
+---
+import type { FilesystemWork } from '../../lib/loaders/loadWork';
+import type { WorkFull } from '../../lib/db/types';
+
+interface Props {
+  work: WorkFull | FilesystemWork;
+}
+
+const { work } = Astro.props;
+
+// ─── Technical / distribution details ────────────────────────────────────────
+
+const isCriterion = ('criterion_title' in work) ? (work as WorkFull).criterion_title : false;
+const isMubi = ('mubi_title' in work) ? (work as WorkFull).mubi_title : false;
+const isSightAndSound = ('is_sight_and_sound' in work) ? (work as WorkFull).is_sight_and_sound : false;
+const imdbRating = ('imdb_rating' in work) ? (work as WorkFull).imdb_rating : null;
+const duration = work.duration_min;
+const languages = work.languages ?? [];
+
+const studios: Array<{ name: string; slug: string }> = [];
+if ('work_studios' in work && Array.isArray(work.work_studios)) {
+  for (const ws of (work as WorkFull).work_studios) {
+    studios.push({ name: ws.studios.name, slug: ws.studios.id.replace(/^studio_/, '') });
+  }
+} else if ('studios' in work) {
+  const fsWork = work as FilesystemWork;
+  for (const s of fsWork.studios ?? []) {
+    const slug = s.replace(/^studio_/, '');
+    const name = slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    studios.push({ name, slug });
+  }
+}
+
+interface Section {
+  id: string;
+  title: string;
+  hasContent: boolean;
+}
+
+const sections: Section[] = [
+  { id: 'technical',    title: 'Technical Details', hasContent: !!(duration || languages.length || studios.length || imdbRating) },
+  { id: 'distribution', title: 'Distribution',      hasContent: !!(isCriterion || isMubi || isSightAndSound) },
+];
+---
+
+<section class="film-meta-accordion">
+  <div class="site-container">
+    <div class="film-meta-accordion__sections">
+      {sections.filter(s => s.hasContent).map((section) => (
+        <details class="accordion-item" name="film-meta">
+          <summary class="accordion-item__header">
+            <span class="accordion-item__title">{section.title}</span>
+            <span class="accordion-item__icon" aria-hidden="true">+</span>
+          </summary>
+
+          <div class="accordion-item__body">
+            {section.id === 'technical' && (
+              <div class="accordion-facts">
+                {duration && (
+                  <div class="accordion-fact">
+                    <span class="accordion-fact__label">Runtime</span>
+                    <span class="accordion-fact__value">{duration} minutes</span>
+                  </div>
+                )}
+                {languages.length > 0 && (
+                  <div class="accordion-fact">
+                    <span class="accordion-fact__label">Languages</span>
+                    <span class="accordion-fact__value">{languages.join(', ')}</span>
+                  </div>
+                )}
+                {studios.length > 0 && (
+                  <div class="accordion-fact">
+                    <span class="accordion-fact__label">Studios</span>
+                    <span class="accordion-fact__value accordion-fact__value--studios">
+                      {studios.map((s, i) => (
+                        <>
+                          <a href={`/studios/${s.slug}`} class="accordion-studio-link">{s.name}</a>
+                          {i < studios.length - 1 && <span class="accordion-fact__sep">, </span>}
+                        </>
+                      ))}
+                    </span>
+                  </div>
+                )}
+                {imdbRating && (
+                  <div class="accordion-fact">
+                    <span class="accordion-fact__label">IMDb Rating</span>
+                    <span class="accordion-fact__value">{imdbRating.toFixed(1)}</span>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {section.id === 'distribution' && (
+              <div class="accordion-dist">
+                {isCriterion && <span class="dist-badge dist-badge--criterion">Criterion Collection</span>}
+                {isMubi && <span class="dist-badge dist-badge--mubi">MUBI</span>}
+                {isSightAndSound && <span class="dist-badge dist-badge--s-and-s">Sight &amp; Sound</span>}
+              </div>
+            )}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+.film-meta-accordion {
+  padding: 2rem 0 5rem;
+}
+
+.film-meta-accordion__sections {
+  max-width: var(--content-max-width);
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.accordion-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  transition: color 160ms ease;
+}
+
+.accordion-item__header::-webkit-details-marker { display: none; }
+.accordion-item__header::marker { display: none; }
+
+.accordion-item__title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  transition: color 160ms ease;
+}
+
+.accordion-item[open] .accordion-item__title,
+.accordion-item__header:hover .accordion-item__title {
+  color: var(--text-secondary);
+}
+
+.accordion-item__icon {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: var(--text-muted);
+  transition: transform 280ms ease, color 160ms ease;
+  line-height: 1;
+}
+
+.accordion-item[open] .accordion-item__icon {
+  transform: rotate(45deg);
+  color: var(--text-secondary);
+}
+
+.accordion-item__body {
+  padding-bottom: 2rem;
+}
+
+/* Facts */
+.accordion-facts { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.accordion-fact {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.accordion-fact__label {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.accordion-fact__value {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+/* Studio links */
+.accordion-fact__value--studios { display: inline; }
+.accordion-studio-link {
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+}
+.accordion-studio-link:hover { color: var(--text-primary); }
+.accordion-fact__sep { color: var(--text-muted); }
+
+/* Distribution */
+.accordion-dist { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.dist-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.375rem 0.875rem;
+  border-radius: 2px;
+  border: 1px solid var(--surface-border);
+  color: var(--text-muted);
+}
+
+.dist-badge--criterion { border-color: rgba(212,201,168,0.3); color: var(--text-accent); }
+.dist-badge--mubi      { border-color: rgba(255,255,255,0.12); }
+.dist-badge--s-and-s   { border-color: rgba(255,255,255,0.12); }
+</style>

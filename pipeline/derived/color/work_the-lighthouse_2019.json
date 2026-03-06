@@ -1,0 +1,51 @@
+{
+  "work_id": "work_the-lighthouse_2019",
+  "processed_at": "2026-02-28T06:44:39.373964+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.96,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "High-contrast black and white cinematography throughout the entire film.",
+      "Deep, inky shadows dominating interior and night scenes, creating a sense of dread.",
+      "Stark, bright highlights, particularly from the lighthouse beam and natural light, cutting through the darkness.",
+      "The grim, textured appearance of the lighthouse and the characters' costumes, rendered in shades of intense black and white."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-lighthouse_2019",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:44:39.369995Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:44:39.369983Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-lighthouse_2019",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

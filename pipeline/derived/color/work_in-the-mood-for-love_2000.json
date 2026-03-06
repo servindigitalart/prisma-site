@@ -1,0 +1,57 @@
+{
+  "work_id": "work_in-the-mood-for-love_2000",
+  "processed_at": "2026-02-27T14:35:14.406382+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.95,
+    "secondary_colors": [
+      "ambar_desertico",
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Maggie Cheung's iconic red and burgundy cheongsams are worn in almost every significant scene.",
+      "The narrow corridors and stairwells are consistently lit with warm, reddish-amber tones.",
+      "The film's overall color grading emphasizes saturated reds and warm hues, especially in close-ups and intimate moments.",
+      "The most famous stills and promotional materials heavily feature the red dresses."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_in-the-mood-for-love_2000",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-27T14:35:14.406252Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-27T14:35:14.406241Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_in-the-mood-for-love_2000",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "moderado_balanceado",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

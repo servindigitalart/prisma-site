@@ -1,0 +1,54 @@
+{
+  "work_id": "work_money-plane_2020",
+  "processed_at": "2026-02-28T06:17:51.501236+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "titanio_mecanico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.85,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The interior of the 'money plane' is constructed with metallic gray walls, floors, and equipment.",
+      "The overall production design emphasizes industrial, high-tech, and mechanical aesthetics, which are inherently gray.",
+      "Costumes often include tactical gear in shades of gray and black, blending with the environment."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_money-plane_2020",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:17:51.497728Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:17:51.497717Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_money-plane_2020",
+    "color_iconico": "titanio_mecanico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

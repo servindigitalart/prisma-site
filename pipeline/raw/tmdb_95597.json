@@ -1,0 +1,3152 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/3NcTGBFQnGpUUvfloymFiTaejZA.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 95597,
+    "imdb_id": "tt0060758",
+    "origin_country": [
+      "FR",
+      "SN"
+    ],
+    "original_language": "fr",
+    "original_title": "La Noire de...",
+    "overview": "Eager to find a better life abroad, a Senegalese woman becomes a mere governess to a family in southern France, suffering from discrimination and marginalization.",
+    "popularity": 0.783,
+    "poster_path": "/hYYAk9I9KkscSr8DC30KyDjzsVu.jpg",
+    "production_companies": [
+      {
+        "id": 68399,
+        "logo_path": null,
+        "name": "Filmi Domirev",
+        "origin_country": "SN"
+      },
+      {
+        "id": 140606,
+        "logo_path": null,
+        "name": "Les Actualit\u00e9s Fran\u00e7aises",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "SN",
+        "name": "Senegal"
+      }
+    ],
+    "release_date": "1966-03-17",
+    "revenue": 0,
+    "runtime": 65,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      },
+      {
+        "english_name": "Wolof",
+        "iso_639_1": "wo",
+        "name": "Wolof"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Black Girl",
+    "video": false,
+    "vote_average": 7.223,
+    "vote_count": 164
+  },
+  "credits": {
+    "id": 95597,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1467441,
+        "known_for_department": "Acting",
+        "name": "Mbissine Th\u00e9r\u00e8se Diop",
+        "original_name": "Mbissine Th\u00e9r\u00e8se Diop",
+        "popularity": 0.4872,
+        "profile_path": "/brqQWUcMCScThyhQefLyUubeb23.jpg",
+        "cast_id": 9,
+        "character": "Diouana",
+        "credit_id": "55567e629251411e540036f7",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1467443,
+        "known_for_department": "Acting",
+        "name": "Anne-Marie Jelinek",
+        "original_name": "Anne-Marie Jelinek",
+        "popularity": 0.6037,
+        "profile_path": null,
+        "cast_id": 10,
+        "character": "Madame",
+        "credit_id": "55567e76c3a368777e0037ad",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1087675,
+        "known_for_department": "Acting",
+        "name": "Robert Fontaine",
+        "original_name": "Robert Fontaine",
+        "popularity": 0.7974,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Monsieur",
+        "credit_id": "52fe498b9251416c750cb781",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1325161,
+        "known_for_department": "Acting",
+        "name": "Nar Sene",
+        "original_name": "Nar Sene",
+        "popularity": 0.2645,
+        "profile_path": "/cXOvg90pzNHnO3icUZ3hCdLbqQM.jpg",
+        "cast_id": 28,
+        "character": "Diouana's Boyfriend",
+        "credit_id": "65dbe84403bf840161ae1ce3",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2724182,
+        "known_for_department": "Acting",
+        "name": "Ibrahima Boy",
+        "original_name": "Ibrahima Boy",
+        "popularity": 0.4248,
+        "profile_path": null,
+        "cast_id": 14,
+        "character": "Boy with Mask",
+        "credit_id": "5f1ef6dc1cc4ff003213bdf9",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2724183,
+        "known_for_department": "Acting",
+        "name": "Bernard Delbard",
+        "original_name": "Bernard Delbard",
+        "popularity": 0.3639,
+        "profile_path": null,
+        "cast_id": 15,
+        "character": "Young Male Guest",
+        "credit_id": "5f1ef6ee1cc4ff0033132d38",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2724184,
+        "known_for_department": "Acting",
+        "name": "Nicole Donati",
+        "original_name": "Nicole Donati",
+        "popularity": 0.3791,
+        "profile_path": null,
+        "cast_id": 16,
+        "character": "Young Female Guest",
+        "credit_id": "5f1ef6fe0e597b0034419ff4",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2724186,
+        "known_for_department": "Acting",
+        "name": "Raymond Lemeri",
+        "original_name": "Raymond Lemeri",
+        "popularity": 0.3923,
+        "profile_path": null,
+        "cast_id": 17,
+        "character": "Old Male Guest",
+        "credit_id": "5f1ef7231cc4ff0035136a94",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2724187,
+        "known_for_department": "Acting",
+        "name": "Suzanne Lemeri",
+        "original_name": "Suzanne Lemeri",
+        "popularity": 0.7816,
+        "profile_path": null,
+        "cast_id": 18,
+        "character": "Old Female Guest",
+        "credit_id": "5f1ef7370e597b003441a008",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3613088,
+        "known_for_department": "Acting",
+        "name": "Philippe",
+        "original_name": "Philippe",
+        "popularity": 0.0362,
+        "profile_path": null,
+        "cast_id": 24,
+        "character": "Couple's Oldest Son",
+        "credit_id": "62c505b7f5c8240051c87f73",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3613089,
+        "known_for_department": "Acting",
+        "name": "Sophie",
+        "original_name": "Sophie",
+        "popularity": 0.0382,
+        "profile_path": null,
+        "cast_id": 25,
+        "character": "Couple's Daughter",
+        "credit_id": "62c505cab6c26400687936e0",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3613090,
+        "known_for_department": "Acting",
+        "name": "Damien",
+        "original_name": "Damien",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "Couple's Youngest Son",
+        "credit_id": "62c505df0499f2007267effe",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 40315,
+        "known_for_department": "Acting",
+        "name": "Toto Bissainthe",
+        "original_name": "Toto Bissainthe",
+        "popularity": 0.3422,
+        "profile_path": null,
+        "cast_id": 5,
+        "character": "Diouana (voice)",
+        "credit_id": "52fe498b9251416c750cb779",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2570310,
+        "known_for_department": "Acting",
+        "name": "Robert Marcy",
+        "original_name": "Robert Marcy",
+        "popularity": 0.0853,
+        "profile_path": null,
+        "cast_id": 13,
+        "character": "Monsieur (voice)",
+        "credit_id": "5f1ef6c01cc4ff0033132d2e",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1777415,
+        "known_for_department": "Acting",
+        "name": "Sophie Leclair",
+        "original_name": "Sophie Leclair",
+        "popularity": 0.4029,
+        "profile_path": "/v3gif8m9m66QBmoM3Lw24iYeWAg.jpg",
+        "cast_id": 27,
+        "character": "Madame (voice)",
+        "credit_id": "62c50640f5c824005e38395d",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 557134,
+        "known_for_department": "Directing",
+        "name": "Ousmane Semb\u00e8ne",
+        "original_name": "Ousmane Semb\u00e8ne",
+        "popularity": 0.5718,
+        "profile_path": "/v5QkPWoui6zLgD8ROo8VfjFum6l.jpg",
+        "cast_id": 6,
+        "character": "The Teacher (uncredited)",
+        "credit_id": "52fe498b9251416c750cb77d",
+        "order": 15
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133187,
+        "known_for_department": "Directing",
+        "name": "Andr\u00e9 Zwobada",
+        "original_name": "Andr\u00e9 Zwobada",
+        "popularity": 0.2551,
+        "profile_path": "/nGbqqxK9aM7Bp5ur6zqD6gE5xVr.jpg",
+        "credit_id": "620ddca91ad93b001d541d70",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1200614,
+        "known_for_department": "Editing",
+        "name": "Andr\u00e9 Gaudier",
+        "original_name": "Andr\u00e9 Gaudier",
+        "popularity": 0.1742,
+        "profile_path": null,
+        "credit_id": "52fe498b9251416c750cb775",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 557134,
+        "known_for_department": "Directing",
+        "name": "Ousmane Semb\u00e8ne",
+        "original_name": "Ousmane Semb\u00e8ne",
+        "popularity": 0.5718,
+        "profile_path": "/v5QkPWoui6zLgD8ROo8VfjFum6l.jpg",
+        "credit_id": "52fe498b9251416c750cb763",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 557134,
+        "known_for_department": "Directing",
+        "name": "Ousmane Semb\u00e8ne",
+        "original_name": "Ousmane Semb\u00e8ne",
+        "popularity": 0.5718,
+        "profile_path": "/v5QkPWoui6zLgD8ROo8VfjFum6l.jpg",
+        "credit_id": "52fe498b9251416c750cb769",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1200627,
+        "known_for_department": "Crew",
+        "name": "Christian Lacoste",
+        "original_name": "Christian Lacoste",
+        "popularity": 0.0071,
+        "profile_path": null,
+        "credit_id": "62c504e60499f200526956d1",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3613086,
+        "known_for_department": "Camera",
+        "name": "Ibrahima Barro",
+        "original_name": "Ibrahima Barro",
+        "popularity": 0.0879,
+        "profile_path": null,
+        "credit_id": "62c50537c0348b005da8e39b",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133187,
+        "known_for_department": "Directing",
+        "name": "Andr\u00e9 Zwobada",
+        "original_name": "Andr\u00e9 Zwobada",
+        "popularity": 0.2551,
+        "profile_path": "/nGbqqxK9aM7Bp5ur6zqD6gE5xVr.jpg",
+        "credit_id": "62c50508c0348b005da8e36e",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3613087,
+        "known_for_department": "Camera",
+        "name": "Path\u00e9 Diop",
+        "original_name": "Path\u00e9 Diop",
+        "popularity": 0.07,
+        "profile_path": null,
+        "credit_id": "62c505434f3a4c00554641fa",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 557134,
+        "known_for_department": "Directing",
+        "name": "Ousmane Semb\u00e8ne",
+        "original_name": "Ousmane Semb\u00e8ne",
+        "popularity": 0.5718,
+        "profile_path": "/v5QkPWoui6zLgD8ROo8VfjFum6l.jpg",
+        "credit_id": "56a6003ac3a3683893009c5b",
+        "department": "Writing",
+        "job": "Novel"
+      }
+    ]
+  },
+  "videos": {
+    "id": 95597,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Enduring Beauty of Ousmane Semb\u00e8ne's BLACK GIRL | On Film | TIFF 2023",
+        "key": "a166qYVIT9I",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2023-11-13T15:25:50.000Z",
+        "id": "6558aa6aca0e17013a1d2458"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "BLACK GIRL Trailer [1966] 4K",
+        "key": "3BOr-joMyso",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2022-03-18T21:53:59.000Z",
+        "id": "635eb31f0c3ec80090b4cc4a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "tcBzo0YWWjs",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2019-04-26T16:23:34.000Z",
+        "id": "629787e809ed8f0ceff26316"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Janus Films - Black Girl - Trailer",
+        "key": "167022630",
+        "site": "Vimeo",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2016-05-17T20:31:16.000Z",
+        "id": "5c96c4bb0e0a264ccebf5d78"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 95597,
+    "keywords": [
+      {
+        "id": 2356,
+        "name": "immigrant"
+      },
+      {
+        "id": 236,
+        "name": "suicide"
+      },
+      {
+        "id": 3640,
+        "name": "work"
+      },
+      {
+        "id": 254,
+        "name": "france"
+      },
+      {
+        "id": 1007,
+        "name": "homesickness"
+      },
+      {
+        "id": 964,
+        "name": "servant"
+      },
+      {
+        "id": 2335,
+        "name": "southern france"
+      },
+      {
+        "id": 2804,
+        "name": "exploitation"
+      },
+      {
+        "id": 6544,
+        "name": "senegal"
+      },
+      {
+        "id": 9813,
+        "name": "french riviera"
+      },
+      {
+        "id": 9957,
+        "name": "loneliness"
+      },
+      {
+        "id": 12425,
+        "name": "racism"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 13097,
+        "name": "maid"
+      },
+      {
+        "id": 167925,
+        "name": "employer employee relationship"
+      },
+      {
+        "id": 185467,
+        "name": "antibes"
+      },
+      {
+        "id": 186782,
+        "name": "discrimination"
+      },
+      {
+        "id": 188700,
+        "name": "black maid"
+      },
+      {
+        "id": 190035,
+        "name": "working woman"
+      },
+      {
+        "id": 190742,
+        "name": "solitude"
+      },
+      {
+        "id": 206713,
+        "name": "master servant relationship"
+      },
+      {
+        "id": 208766,
+        "name": "poor woman"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      },
+      {
+        "id": 234980,
+        "name": "west africa"
+      },
+      {
+        "id": 260856,
+        "name": "dakar"
+      },
+      {
+        "id": 265289,
+        "name": "enslaving work"
+      },
+      {
+        "id": 282511,
+        "name": "senegalese cinema"
+      },
+      {
+        "id": 291081,
+        "name": "black woman"
+      },
+      {
+        "id": 321827,
+        "name": "foreign country"
+      },
+      {
+        "id": 357521,
+        "name": "black exploitation"
+      },
+      {
+        "id": 359644,
+        "name": "french racism"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 95597,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 59
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AU",
+        "ads": [
+          {
+            "logo_path": "/cR4okiAS0zcXb4ufs3mi4PImXPB.jpg",
+            "provider_id": 132,
+            "provider_name": "SBS On Demand",
+            "display_priority": 20
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=AZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 36
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 51
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=BZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 13
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 9
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=CZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=DE",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 90
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 90
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 49
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 118
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 44
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 45
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=DO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=DZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=EE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ES",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 52
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 53
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=FJ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=FR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/jWUqMTaqhDcdK3HCI7HV4EWDr8r.jpg",
+            "provider_id": 2614,
+            "provider_name": "Outbuster Amazon Channel",
+            "display_priority": 104
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 22
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=HN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=HR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ID",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 40
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 75
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=IT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=JM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 73
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=KE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=KW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=LY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ME",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ML",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MX",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=MZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 16
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 63
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NO",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=NZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 34
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=PY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=RS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=RU",
+        "free": [
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 59
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=SV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=TZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=UA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=UG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=VA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 6
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=VE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "XK": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=XK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ZM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/95597-la-noire-de/watch?locale=ZW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          }
+        ]
+      }
+    }
+  }
+}

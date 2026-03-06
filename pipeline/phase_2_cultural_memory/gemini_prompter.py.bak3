@@ -1,0 +1,209 @@
+#!/usr/bin/env python3
+"""
+Phase 2: Cultural Memory - Gemini Prompter
+Aligned with color_doctrine.json v1.1
+v2 — improved color disambiguation for azul/cian and purpura/magenta
+
+Key principle: "What color do people think of when they remember this film?"
+"""
+
+from typing import Dict, Any
+
+
+SYSTEM_PROMPT = """You are a film culture expert analyzing how films live in popular memory.
+
+Your task is to identify the ICONIC COLOR and visual qualities that audiences
+and the general public most strongly associate with this film.
+
+CRITICAL INSTRUCTIONS:
+- Focus on POPULAR PERCEPTION (marketing, posters, audience memory, cultural impact)
+- NOT academic analysis, cinematography theory, or symbolic interpretation
+- What color do people instinctively think of when they hear the film's title?
+- How is the film remembered visually in pop culture?
+
+Sources to prioritize:
+1. Movie posters and promotional materials
+2. Cultural impact (memes, references, parodies, "that [color] movie")
+3. Letterboxd reviews, IMDb discussions, Reddit threads
+4. Wikipedia visual descriptions (not symbolism sections)
+5. Marketing campaigns and trailers
+6. Audience memory: "I remember it being very [color]"
+
+Avoid prioritizing:
+- Deep symbolic color analysis
+- Film theory discourse on color as metaphor
+- Academic papers on cinematography
+- Director interviews about artistic intent (unless discussing audience reception)
+
+Think like this: "If someone saw this film once, 5 years ago, what color would they remember?"
+
+Answer as if you're explaining to a casual moviegoer, not a film scholar."""
+
+
+PRISMA_PALETTE = """
+PRISMA OFFICIAL COLOR PALETTE (use ONLY these exact IDs in your response):
+
+| ID                    | Color             | HEX     | When to use — canonical film examples                          |
+|-----------------------|-------------------|---------|----------------------------------------------------------------|
+| rojo_pasional         | Deep Red          | #8E1B1B | Passion, violence, desire — Almodóvar films, Suspiria          |
+| naranja_apocaliptico  | Burnt Orange      | #C4471D | Fire, chaos, war — Mad Max: Fury Road, Apocalypse Now          |
+| ambar_desertico       | Amber/Gold        | #C98A2E | Nostalgia, dust, westerns — No Country for Old Men             |
+| amarillo_ludico       | Bright Yellow     | #F2C94C | Joy, childhood, playfulness — Amélie, Little Miss Sunshine     |
+| verde_lima            | Light Lime Green  | #7BC96F | Natural sunlight, growth — Call Me By Your Name, Tree of Life  |
+| verde_esmeralda       | Rich Emerald      | #1F7A5C | Jewel tones, elegance — Vertigo (second half)                  |
+| verde_distopico       | Dark Sickly Green | #2F4F3E | Digital code, surveillance, cyberpunk — THE MATRIX             |
+| cian_melancolico      | Blue-Green Teal   | #4A7C8C | Urban isolation — Lost in Translation. NOT deep blue.          |
+| azul_nocturno         | Deep Pure Blue    | #1B2A41 | Profound sorrow, night — THREE COLORS: BLUE, Blade Runner      |
+| violeta_cinetico      | Electric Violet   | #5B3FA4 | Neon energy, 80s kinetic — Mandy, Drive                        |
+| purpura_onirico       | Muted Dream Purple| #7A3E6D | Pastel purple, magic realism — THE FLORIDA PROJECT motel       |
+| magenta_pop           | Hot Pink/Magenta  | #D63384 | Bold pop culture maximalism — BARBIE                           |
+| claroscuro_dramatico  | B&W High Contrast | —       | Deep blacks, harsh shadows — The Lighthouse, Nosferatu         |
+| monocromatico_intimo  | B&W Soft/Natural  | —       | Gentle naturalistic B&W — Roma, neorealism                     |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL DISAMBIGUATION — these pairs are often confused:
+
+1. azul_nocturno vs cian_melancolico:
+   - azul_nocturno = DEEP, PURE, EMOTIONAL blue. Profound sadness or noir night.
+     Three Colors: Blue = azul_nocturno. Blade Runner = azul_nocturno.
+   - cian_melancolico = TEAL, BLUE-GREEN, urban cool.
+     Lost in Translation = cian_melancolico.
+   Rule: deep sorrowful blue → azul_nocturno. Teal or urban → cian_melancolico.
+
+2. purpura_onirico vs magenta_pop:
+   - purpura_onirico = MUTED, DREAMY, PASTEL purple. Magical poverty, liminal spaces.
+     The Florida Project motel = purpura_onirico.
+   - magenta_pop = LOUD, HOT PINK, maximalist pop energy.
+     Barbie = magenta_pop.
+   Rule: soft dreamy purple → purpura_onirico. Loud hot pink → magenta_pop.
+
+3. verde_distopico vs verde_lima:
+   - verde_distopico = DARK, ARTIFICIAL, SICKLY green. Technology, control.
+     The Matrix = verde_distopico.
+   - verde_lima = NATURAL, SUNLIT, ORGANIC green. Nature, youth.
+     Call Me By Your Name = verde_lima.
+   Rule: dark digital green → verde_distopico. Natural light green → verde_lima.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"""
+
+
+def build_cultural_memory_prompt(
+    work_id: str,
+    title: str,
+    year: int,
+    director: str = None,
+    countries: list = None,
+    genres: list = None
+) -> str:
+
+    context_parts = [f"Film: {title} ({year})"]
+    if director:
+        context_parts.append(f"Director: {director}")
+    if genres:
+        context_parts.append(f"Genres: {', '.join(genres)}")
+    if countries:
+        context_parts.append(f"Countries: {', '.join(countries)}")
+
+    film_context = "\n".join(context_parts)
+
+    prompt = f"""{film_context}
+
+{PRISMA_PALETTE}
+
+QUESTIONS TO ANSWER:
+
+1. ICONIC COLOR MEMORY:
+   When people think about "{title}", what single Prisma color ID do they most strongly associate with it?
+
+   Consider:
+   - The movie poster (what color dominates?)
+   - A signature costume, prop, or set (the iconic visual)
+   - Marketing materials and trailers
+   - A visually dominant scene everyone remembers
+   - How people describe it: "that [color] movie"
+   - Cultural references (parodies, memes, homages)
+
+   Answer with:
+   - iconic_color: ONE exact Prisma ID from the table above
+   - color_confidence: high / medium / low
+   - color_reasoning: 2-4 sentences. If choosing between similar colors
+     (azul vs cian, purpura vs magenta), explicitly state why you chose one over the other.
+
+2. SECONDARY COLORS (up to 3):
+   List up to 3 other Prisma color IDs people associate with this film.
+   Only valid Prisma IDs. If fewer than 3 apply, list only those. If none, return [].
+
+3. VISUAL RHYTHM:
+   Choose ONE:
+   - dinamico_frenetico (chaotic, hyperactive — Uncut Gems, Run Lola Run)
+   - dinamico_energico (active but controlled — action, kinetic camerawork)
+   - moderado_balanceado (classic narrative flow — most films)
+   - lento_contemplativo (slow cinema — Wong Kar-wai, Malick)
+   - estatico_ritualistico (minimal movement — Tarkovsky, The Lighthouse)
+
+4. EMOTIONAL TEMPERATURE:
+   Choose ONE:
+   - calido_apasionado (intense, fiery, visceral)
+   - calido_nostalgico (golden, tender, bittersweet memory)
+   - neutral_contemplativo (observational, balanced)
+   - frio_melancolico (blue, sad, introspective)
+   - frio_perturbador (alienating, unsettling, cold tension)
+
+5. VISUAL ABSTRACTION:
+   Choose ONE:
+   - extremadamente_realista (documentary-like, naturalistic)
+   - realista_con_estilizacion (grounded but cinematic)
+   - estilizado (clear artistic choices, heightened)
+   - muy_estilizado (theatrical, expressionistic, Wes Anderson-like)
+   - extremadamente_abstracto (surreal, dreamlike, Lynch-like)
+
+IMPORTANT: Base all answers on POPULAR MEMORY, not film theory.
+Respond ONLY with valid JSON, no markdown, no commentary outside the JSON.
+
+{{
+  "iconic_color": "verde_distopico",
+  "color_confidence": "high",
+  "color_reasoning": "The Matrix is universally remembered as the green movie due to the digital rain code and the green tint saturating all Matrix-world scenes. Chose verde_distopico over verde_lima because this green is dark, artificial, and dystopian — not natural.",
+  "secondary_colors": ["azul_nocturno", "rojo_pasional"],
+  "secondary_reasoning": {{
+    "azul_nocturno": "Real world scenes — Zion and the ship — are cold dark blue",
+    "rojo_pasional": "The red pill symbolism is the film's key color contrast"
+  }},
+  "visual_rhythm": "dinamico_energico",
+  "emotional_temperature": "frio_perturbador",
+  "abstraction_level": "estilizado",
+  "supporting_evidence": [
+    "Green digital rain code is the film's most iconic visual element",
+    "Marketing campaign used green tint throughout all promotional materials",
+    "Culturally referenced as the green movie in pop culture",
+    "Green tint saturates all scenes set inside the Matrix simulation"
+  ]
+}}"""
+
+    return prompt
+
+
+def extract_perception_response(llm_response: str) -> dict:
+    import json
+
+    try:
+        data = json.loads(llm_response)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"LLM response is not valid JSON: {e}\nRaw: {llm_response[:300]}")
+
+    required_fields = [
+        "iconic_color",
+        "color_confidence",
+        "color_reasoning",
+        "secondary_colors",
+        "visual_rhythm",
+        "emotional_temperature",
+        "abstraction_level",
+        "supporting_evidence"
+    ]
+
+    missing = [f for f in required_fields if f not in data]
+    if missing:
+        raise ValueError(f"LLM response missing required fields: {missing}")
+
+    return data

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_floating-weeds_1959",
+  "processed_at": "2026-02-28T05:57:46.835447+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "ambar_desertico",
+      "cian_melancolico"
+    ],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The vibrant red kimonos worn by Sumiko and other female characters, often central to key scenes.",
+      "Strategic use of red curtains, doors, and props within the traditional Japanese interior sets.",
+      "The deliberate color grading emphasizes deep reds against the muted backdrops in many iconic Ozu compositions."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_floating-weeds_1959",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:57:46.831875Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:57:46.831864Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_floating-weeds_1959",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "cian_melancolico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

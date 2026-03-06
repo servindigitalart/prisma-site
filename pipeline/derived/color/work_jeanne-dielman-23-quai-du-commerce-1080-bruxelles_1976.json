@@ -1,0 +1,50 @@
+{
+  "work_id": "work_jeanne-dielman-23-quai-du-commerce-1080-bruxelles_1976",
+  "processed_at": "2026-02-28T00:09:05.875029+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.93,
+    "secondary_colors": [],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "neutral_contemplativo",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "The cool, muted blue-grey tint of the apartment's interior walls, which are the primary setting.",
+      "Jeanne Dielman's consistent wardrobe of practical dresses in subdued blues, greys, and light beige.",
+      "The film's naturalistic, desaturated cinematography that emphasizes a detached, cool observation of her daily routines."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_jeanne-dielman-23-quai-du-commerce-1080-bruxelles_1976",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T00:09:05.870250Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T00:09:05.870236Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_jeanne-dielman-23-quai-du-commerce-1080-bruxelles_1976",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "neutral_contemplativo",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

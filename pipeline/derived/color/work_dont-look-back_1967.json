@@ -1,0 +1,50 @@
+{
+  "work_id": "work_dont-look-back_1967",
+  "processed_at": "2026-02-28T05:53:13.711193+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "monocromatico_intimo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "The film is entirely shot in black and white, a defining visual characteristic.",
+      "The handheld, v\u00e9rit\u00e9 style and natural lighting create an intimate, non-stylized monochromatic look.",
+      "Iconic frames feature Bob Dylan in various candid, unposed moments, captured with a soft, naturalistic black and white aesthetic."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_dont-look-back_1967",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:53:13.706880Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:53:13.706868Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_dont-look-back_1967",
+    "color_iconico": "monocromatico_intimo",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "work_id": "work_the-red-shoes_1948",
+  "processed_at": "2026-02-28T06:47:15.825925+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.91,
+    "secondary_colors": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The iconic red ballet shoes as the central visual motif and plot device.",
+      "The 'Red Shoes' ballet sequence, heavily saturated with red costumes, lighting, and set pieces.",
+      "Moira Shearer's distinctive red hair, often highlighted in key emotional scenes.",
+      "The dramatic use of red velvet curtains and stage design in theatre performances."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-red-shoes_1948",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:47:15.822231Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:47:15.822219Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-red-shoes_1948",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

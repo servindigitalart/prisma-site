@@ -1,0 +1,176 @@
+
+================================================================================
+PRISMA PIPELINE v2.0 - NEW NUMERIC SCORING SYSTEM TEST
+Testing 15-film canonical suite with differentiated scores
+================================================================================
+
+
+[1/15] Processing: The Matrix (1999)
+         Expected: verde_distopico
+         Result:   verde_distopico ✓ PASS
+         Gemini Raw Score: 0.97
+         Final Color Rank: 0.97
+         Confidence (legacy): high
+         Reasoning: Green dominates approximately 85-90% of The Matrix's screen time and all its iconic frames. The digital rain, the Matrix...
+
+[2/15] Processing: In the Mood for Love (2000)
+         Expected: rojo_pasional
+         Result:   rojo_pasional ✓ PASS
+         Gemini Raw Score: 0.93
+         Final Color Rank: 0.95
+         Confidence (legacy): high
+         Reasoning: Rojo_pasional dominates over 80% of In the Mood for Love's iconic frames and visual identity. Maggie Cheung's red and bu...
+
+[3/15] Processing: Amélie (2001)
+         Expected: amarillo_ludico
+         Result:   amarillo_ludico ✓ PASS
+         Gemini Raw Score: 0.95
+         Final Color Rank: 0.95
+         Confidence (legacy): high
+         Reasoning: The film 'Amélie' is visually defined by a pervasive, warm golden-yellow color grade that saturates over 90% of all fram...
+
+[4/15] Processing: Blade Runner (1982)
+         Expected: azul_nocturno
+         Result:   azul_nocturno ✓ PASS
+         Gemini Raw Score: 0.92
+         Final Color Rank: 0.94
+         Confidence (legacy): high
+         Reasoning: Deep blue dominates approximately 85-90% of Blade Runner's runtime and virtually all iconic frames. The film's overwhelm...
+
+[5/15] Processing: Mad Max: Fury Road (2015)
+         Expected: naranja_apocaliptico
+         Result:   naranja_apocaliptico ✓ PASS
+         Gemini Raw Score: 0.91
+         Final Color Rank: 0.90
+         Confidence (legacy): high
+         Reasoning: Naranja_apocaliptico dominates approximately 75-80% of Mad Max: Fury Road's iconic frames and overall runtime. The vast ...
+
+[6/15] Processing: Moonlight (2016)
+         Expected: azul_nocturno
+         Result:   azul_nocturno ✓ PASS
+         Gemini Raw Score: 0.93
+         Final Color Rank: 0.94
+         Confidence (legacy): high
+         Reasoning: 0.93: Azul_nocturno profoundly saturates Moonlight's most iconic and memorable scenes, including the crucial ocean seque...
+
+[7/15] Processing: The Grand Budapest Hotel (2014)
+         Expected: purpura_onirico
+         Result:   purpura_onirico ✓ PASS
+         Gemini Raw Score: 0.90
+         Final Color Rank: 0.92
+         Confidence (legacy): high
+         Reasoning: Purpura_onirico dominates approximately 75-80% of the film's iconic frames and overall visual identity. The Grand Budape...
+
+[8/15] Processing: Her (2013)
+         Expected: rojo_pasional
+         Result:   rojo_pasional ✓ PASS
+         Gemini Raw Score: 0.90
+         Final Color Rank: 0.90
+         Confidence (legacy): high
+         Reasoning: 0.90: Theodore's iconic red/reddish-orange shirts define his character's visual presence in over 70% of the film's runti...
+
+[9/15] Processing: The Lighthouse (2019)
+         Expected: claroscuro_dramatico
+         Result:   claroscuro_dramatico ✓ PASS
+         Gemini Raw Score: 0.99
+         Final Color Rank: 0.97
+         Confidence (legacy): high
+         Reasoning: The Lighthouse is entirely shot in high-contrast black and white, making 'claroscuro_dramatico' the undisputed dominant ...
+
+[10/15] Processing: Barbie (2023)
+         Expected: magenta_pop
+         Result:   magenta_pop ✓ PASS
+         Gemini Raw Score: 0.96
+         Final Color Rank: 0.91
+         Confidence (legacy): high
+         Reasoning: 0.96: magenta_pop unequivocally defines "Barbie." Approximately 90% of the film's iconic frames, marketing, and the enti...
+
+[11/15] Processing: Call Me by Your Name (2017)
+         Expected: verde_lima
+         Result:   verde_lima ✓ PASS
+         Gemini Raw Score: 0.88
+         Final Color Rank: 0.86
+         Confidence (legacy): high
+         Reasoning: Verde_lima (light lime green) is highly dominant, forming the natural backdrop for the majority of the film's runtime an...
+
+[12/15] Processing: Lost in Translation (2003)
+         Expected: cian_melancolico
+         Result:   cian_melancolico ✓ PASS
+         Gemini Raw Score: 0.90
+         Final Color Rank: 0.92
+         Confidence (legacy): high
+         Reasoning: Cian_melancolico dominates approximately 90% of 'Lost in Translation's' screen time and its most iconic frames. The film...
+
+[13/15] Processing: No Country for Old Men (2007)
+         Expected: ambar_desertico
+         Result:   ambar_desertico ✓ PASS
+         Gemini Raw Score: 0.90
+         Final Color Rank: 0.90
+         Confidence (legacy): high
+         Reasoning: Ambar_desertico dominates approximately 80-85% of the film's screen time and its most iconic frames. The vast West Texas...
+
+[14/15] Processing: Drive (2011)
+         Expected: violeta_cinetico
+         Result:   violeta_cinetico ✓ PASS
+         Gemini Raw Score: 0.75
+         Final Color Rank: 0.75
+         Confidence (legacy): medium
+         Reasoning: Violeta_cinetico is the clear primary color, defining the film's iconic neon aesthetic, especially in night scenes and m...
+
+[15/15] Processing: Three Colors: White (1994)
+         Expected: blanco_polar
+         Result:   blanco_polar ✓ PASS
+         Gemini Raw Score: 0.96
+         Final Color Rank: 0.98
+         Confidence (legacy): high
+         Reasoning: Blanco_polar dominates approximately 85-90% of the film's iconic frames and overall visual experience. As one of the 'Th...
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total films tested: 15
+Passed: 15 (100.0%)
+Failed: 0 (0.0%)
+
+================================================================================
+SCORE DISTRIBUTION ANALYSIS
+================================================================================
+Color Rank Range: 0.75 - 0.98
+Average Color Rank: 0.92
+Gemini Raw Score Range: 0.75 - 0.99
+Average Gemini Raw Score: 0.92
+
+Unique scores: 9 / 15
+⚠️  WARNING: Low score differentiation detected
+
+Score distribution:
+  0.95-1.00 (Undisputed): 5 films
+  0.85-0.94 (Dominant): 9 films
+  0.70-0.84 (Clear primary): 1 films
+  0.50-0.69 (Contested): 0 films
+  0.30-0.49 (Weak): 0 films
+
+================================================================================
+SAMPLE REASONING (Top 3 scores)
+================================================================================
+
+1. Three Colors: White (1994)
+   Color: blanco_polar
+   Score: 0.98 (raw: 0.96)
+   Reasoning: Blanco_polar dominates approximately 85-90% of the film's iconic frames and overall visual experience. As one of the 'Three Colors' trilogy, the film literally embodies its title color. White snow covers exterior scenes, interior sets are often sterile white or very light gray, and the protagonist, Karol, frequently wears a white suit jacket. Deducted 0.04 because muted grays and pale blues (titanio_mecanico, a desaturated azul_nocturno undertone) are consistently present, particularly in urban environments and costumes that are not pure white.
+
+2. The Matrix (1999)
+   Color: verde_distopico
+   Score: 0.97 (raw: 0.97)
+   Reasoning: Green dominates approximately 85-90% of The Matrix's screen time and all its iconic frames. The digital rain, the Matrix simulation scenes, and all major action sequences are saturated with a green tint. Deducted 0.03 because real-world scenes (~10-15% of runtime) are dominated by dark blues and blacks, offering a significant, though minority, visual contrast.
+
+3. The Lighthouse (2019)
+   Color: claroscuro_dramatico
+   Score: 0.97 (raw: 0.99)
+   Reasoning: The Lighthouse is entirely shot in high-contrast black and white, making 'claroscuro_dramatico' the undisputed dominant visual element for 100% of the film's runtime. Every iconic frame, costume, and set piece is defined by this monochrome palette, with no other color competing. It is as dominant as a color can be for a film that is literally black and white.
+
+
+Full results saved to: /Users/servinemilio/Documents/REPOS/prisma-site/pipeline/test_results_new_scoring.json
+
+================================================================================
+

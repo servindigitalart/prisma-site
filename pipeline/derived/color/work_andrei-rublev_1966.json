@@ -1,0 +1,55 @@
+{
+  "work_id": "work_andrei-rublev_1966",
+  "processed_at": "2026-02-28T04:34:37.382323+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "High-contrast black and white cinematography dominates scenes of medieval hardship and violence (e.g., the burning village, the mud, the horse falling).",
+      "Stark lighting and deep shadows characterize interiors of monasteries and churches, emphasizing spiritual struggle.",
+      "The vast majority of the film's iconic frames and overall runtime are presented in a dramatic black and white.",
+      "The final sequence, depicting Rublev's icons in color, features prominent gold/amber tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_andrei-rublev_1966",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:34:37.378302Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:34:37.378290Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_andrei-rublev_1966",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

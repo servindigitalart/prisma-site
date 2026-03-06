@@ -1,0 +1,57 @@
+{
+  "work_id": "work_mirror_1975",
+  "processed_at": "2026-02-28T06:17:22.678396+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "purpura_onirico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.75,
+    "secondary_colors": [
+      "ambar_desertico",
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The explicit canonical mention of 'Mirror (Tarkovsky dreams)' under purpura_onirico in the Prisma palette guide.",
+      "Subtle, muted purple and cool tones in the color grading of dream sequences and interior memory scenes, such as the levitation scene.",
+      "The pervasive use of long takes and a slow, meditative pace, characteristic of Tarkovsky, which allows for contemplation of these subtle color shifts.",
+      "Juxtaposition of color segments with black and white and sepia, where the color segments often take on a dreamlike, almost 'magical realist' quality through their specific tinting."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_mirror_1975",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:17:22.674917Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:17:22.674906Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_mirror_1975",
+    "color_iconico": "purpura_onirico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "verde_lima"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,1902 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/5EHNInARZmBhOnwl3kiDfhCYTvC.jpg",
+    "belongs_to_collection": {
+      "id": 441443,
+      "name": "Ukraine Trilogy",
+      "poster_path": "/fYW53oxOvlJ91c7ieupdiEUANIx.jpg",
+      "backdrop_path": "/dvmMYzzG3FdVLrlvdzTQvlLxmVt.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://vufku.org/en/found/earth",
+    "id": 46594,
+    "imdb_id": "tt0021571",
+    "origin_country": [
+      "SU"
+    ],
+    "original_language": "uk",
+    "original_title": "\u0417\u0435\u043c\u043b\u044f",
+    "overview": "The film tells about the creation of the first collective farm communes and class enmity. Vasyl, a member of the Komsomol, with the help of a local party organization, gets a tractor and plows private boundaries \"on kulak fields.\" However, this enthusiasm will cost him dearly.",
+    "popularity": 0.7245,
+    "poster_path": "/tyWzVnZ3ot0nSPgG88B0Ni19k2S.jpg",
+    "production_companies": [
+      {
+        "id": 25065,
+        "logo_path": "/ugfX3cgasxoDtUjkmWqlthK4hja.png",
+        "name": "VUFKU",
+        "origin_country": "SU"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "SU",
+        "name": "Soviet Union"
+      }
+    ],
+    "release_date": "1930-04-08",
+    "revenue": 0,
+    "runtime": 79,
+    "spoken_languages": [
+      {
+        "english_name": "No Language",
+        "iso_639_1": "xx",
+        "name": "No Language"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Earth",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 149
+  },
+  "credits": {
+    "id": 46594,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1156066,
+        "known_for_department": "Acting",
+        "name": "Stepan Shkurat",
+        "original_name": "\u0421\u0442\u0435\u043f\u0430\u043d \u0428\u043a\u0443\u0440\u0430\u0442",
+        "popularity": 0.5615,
+        "profile_path": "/yNoahLfFWNRooECyQTXaBjqheIl.jpg",
+        "cast_id": 2,
+        "character": "Opanas",
+        "credit_id": "52fe4701c3a36847f811e89f",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 592961,
+        "known_for_department": "Acting",
+        "name": "Semen Svashenko",
+        "original_name": "Semen Svashenko",
+        "popularity": 0.8068,
+        "profile_path": "/mDrbVRFVMC8DVeCHMLboYpYqrp8.jpg",
+        "cast_id": 3,
+        "character": "Vasyl",
+        "credit_id": "52fe4701c3a36847f811e8a3",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 29195,
+        "known_for_department": "Directing",
+        "name": "Yuliya Solntseva",
+        "original_name": "\u042e\u043b\u0438\u044f \u0421\u043e\u043b\u043d\u0446\u0435\u0432\u0430",
+        "popularity": 1.6295,
+        "profile_path": "/rIf08Ja0WgoGVDdUp9hjMGfFjUo.jpg",
+        "cast_id": 4,
+        "character": "Vasyl's sister",
+        "credit_id": "52fe4701c3a36847f811e8a7",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1117973,
+        "known_for_department": "Acting",
+        "name": "Olena Maksymova",
+        "original_name": "\u0415\u043b\u0435\u043d\u0430 \u041c\u0430\u043a\u0441\u0438\u043c\u043e\u0432\u0430",
+        "popularity": 1.2972,
+        "profile_path": "/mqBoKGMrpKsimgtYsC9nyhQlPp1.jpg",
+        "cast_id": 5,
+        "character": "Natalia, Vasyl's bride",
+        "credit_id": "52fe4701c3a36847f811e8ab",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540519,
+        "known_for_department": "Acting",
+        "name": "Vasyl Krasenko",
+        "original_name": "Vasyl Krasenko",
+        "popularity": 0.576,
+        "profile_path": "/4s6a0KQ71Dar637P8pLAqC51eZD.jpg",
+        "cast_id": 20,
+        "character": "Petro",
+        "credit_id": "5654b5719251412707000481",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 592960,
+        "known_for_department": "Acting",
+        "name": "Mykola Nademskyi",
+        "original_name": "\u041c\u0438\u043a\u043e\u043b\u0430 \u041d\u0430\u0434\u0435\u043c\u0441\u044c\u043a\u0438\u0439",
+        "popularity": 0.6761,
+        "profile_path": "/fw1Exl0fEJt1lS5oNkkYPUziI0W.jpg",
+        "cast_id": 6,
+        "character": "grandfather Semen",
+        "credit_id": "52fe4701c3a36847f811e8af",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1540514,
+        "known_for_department": "Acting",
+        "name": "Ivan Franko",
+        "original_name": "Ivan Franko",
+        "popularity": 0.4073,
+        "profile_path": null,
+        "cast_id": 13,
+        "character": "Arkhyp Bilokin",
+        "credit_id": "5654b52ac3a36817660004b6",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1461065,
+        "known_for_department": "Acting",
+        "name": "Petro Masokha",
+        "original_name": "Petro Masokha",
+        "popularity": 0.3547,
+        "profile_path": null,
+        "cast_id": 14,
+        "character": "Khoma Bilokin",
+        "credit_id": "5654b534c3a3681775000457",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540515,
+        "known_for_department": "Acting",
+        "name": "Volodymyr Mikhajlov",
+        "original_name": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432",
+        "popularity": 1.6698,
+        "profile_path": null,
+        "cast_id": 15,
+        "character": "priest",
+        "credit_id": "5654b53d9251412707000478",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540516,
+        "known_for_department": "Acting",
+        "name": "Pavlo Petryk",
+        "original_name": "Pavlo Petryk",
+        "popularity": 0.403,
+        "profile_path": null,
+        "cast_id": 16,
+        "character": "Communist Party cell leader",
+        "credit_id": "5654b54a925141271200041b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1540517,
+        "known_for_department": "Acting",
+        "name": "Umanets",
+        "original_name": "Umanets",
+        "popularity": 0.0429,
+        "profile_path": null,
+        "cast_id": 17,
+        "character": "village headman",
+        "credit_id": "5654b552c3a368177d00048b",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1270866,
+        "known_for_department": "Acting",
+        "name": "Luka Liashenko",
+        "original_name": "\u041b\u0443\u043a\u0430 \u041b\u044f\u0448\u0435\u043d\u043a\u043e",
+        "popularity": 0.9612,
+        "profile_path": "/j6KukAILili3eYTJLpgXbqhyLbx.jpg",
+        "cast_id": 19,
+        "character": "young kulak",
+        "credit_id": "5654b568925141270a00042f",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1540518,
+        "known_for_department": "Acting",
+        "name": "Ye. Bondina",
+        "original_name": "Ye. Bondina",
+        "popularity": 0.1046,
+        "profile_path": null,
+        "cast_id": 18,
+        "character": "peasant girl",
+        "credit_id": "5654b55ec3a3681773000401",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5668708,
+        "known_for_department": "Acting",
+        "name": "O. Bondina",
+        "original_name": "O. Bondina",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "peasant girl",
+        "credit_id": "68b875622382a0330b9bf05b",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1540520,
+        "known_for_department": "Acting",
+        "name": "M. Matsiutsia",
+        "original_name": "M. Matsyutsia",
+        "popularity": 0.0261,
+        "profile_path": null,
+        "cast_id": 21,
+        "character": "peasant girl",
+        "credit_id": "5654b579c3a368176d000747",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2128042,
+        "known_for_department": "Acting",
+        "name": "Sergey Borisov",
+        "original_name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432",
+        "popularity": 1.279,
+        "profile_path": "/bnak2n9s4pjiIbWFgfyeqcC0irQ.jpg",
+        "cast_id": 29,
+        "character": "",
+        "credit_id": "68ced782eef2f2daa0cd71cd",
+        "order": 15
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 141713,
+        "known_for_department": "Directing",
+        "name": "Oleksandr Dovzhenko",
+        "original_name": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u043e\u0432\u0436\u0435\u043d\u043a\u043e",
+        "popularity": 0.7849,
+        "profile_path": "/3qbvZ0aYfLL2SIFjhlNTKpOB0oo.jpg",
+        "credit_id": "52fe4701c3a36847f811e89b",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540512,
+        "known_for_department": "Art",
+        "name": "Vasyl Krychevskyi",
+        "original_name": "\u0412\u0430\u0441\u0438\u043b\u044c \u041a\u0440\u0438\u0447\u0435\u0432\u0441\u044c\u043a\u0438\u0439",
+        "popularity": 0.6548,
+        "profile_path": "/uERPwKS9IqkcU2OoIUsz46ZpEQb.jpg",
+        "credit_id": "5654b4b89251412715000458",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540511,
+        "known_for_department": "Camera",
+        "name": "Danylo Demutsky",
+        "original_name": "\u0414\u0430\u043d\u0438\u0438\u043b \u0414\u0435\u043c\u0443\u0446\u043a\u0438\u0439",
+        "popularity": 0.6658,
+        "profile_path": "/msgYofKheBpztGnDIerj2yfeSHB.jpg",
+        "credit_id": "5654b49ec3a36817690003e9",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 141713,
+        "known_for_department": "Directing",
+        "name": "Oleksandr Dovzhenko",
+        "original_name": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u043e\u0432\u0436\u0435\u043d\u043a\u043e",
+        "popularity": 0.7849,
+        "profile_path": "/3qbvZ0aYfLL2SIFjhlNTKpOB0oo.jpg",
+        "credit_id": "5654b4af9251412715000455",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1540513,
+        "known_for_department": "Directing",
+        "name": "Lazar Bodik",
+        "original_name": "\u041b\u0430\u0437\u0430\u0440 \u0411\u043e\u0434\u0438\u043a",
+        "popularity": 0.2435,
+        "profile_path": null,
+        "credit_id": "5654b4c2c3a3681763000437",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 141713,
+        "known_for_department": "Directing",
+        "name": "Oleksandr Dovzhenko",
+        "original_name": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u043e\u0432\u0436\u0435\u043d\u043a\u043e",
+        "popularity": 0.7849,
+        "profile_path": "/3qbvZ0aYfLL2SIFjhlNTKpOB0oo.jpg",
+        "credit_id": "5654b490c3a36817730003dd",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 29195,
+        "known_for_department": "Directing",
+        "name": "Yuliya Solntseva",
+        "original_name": "\u042e\u043b\u0438\u044f \u0421\u043e\u043b\u043d\u0446\u0435\u0432\u0430",
+        "popularity": 1.6295,
+        "profile_path": "/rIf08Ja0WgoGVDdUp9hjMGfFjUo.jpg",
+        "credit_id": "5654b4cc925141270500051e",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1898745,
+        "known_for_department": "Sound",
+        "name": "Lev Revutskyi",
+        "original_name": "Lev Revutskyi",
+        "popularity": 0.0673,
+        "profile_path": null,
+        "credit_id": "59d2b0889251413eeb007570",
+        "department": "Sound",
+        "job": "Music"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1572241,
+        "known_for_department": "Sound",
+        "name": "Frank Strobel",
+        "original_name": "Frank Strobel",
+        "popularity": 0.6128,
+        "profile_path": null,
+        "credit_id": "59d2b1049251413ed70073b9",
+        "department": "Sound",
+        "job": "Conductor"
+      }
+    ]
+  },
+  "videos": {
+    "id": 46594,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\u0417\u0435\u043c\u043b\u044f / Earth",
+        "key": "8wXzFIDMLT0",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2022-08-23T06:37:34.000Z",
+        "id": "63fbbc12e4b57600a880804b"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Earth Runner 1930 (final cut)",
+        "key": "NcjnSxoHEAw",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": false,
+        "published_at": "2019-02-19T19:16:06.000Z",
+        "id": "6402486bc7176d008189c4b4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\u0417\u0415\u041c\u041b\u042f feat. DakhaBrakha",
+        "key": "ZU5vjiNvIj4",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Teaser",
+        "official": false,
+        "published_at": "2014-05-08T14:12:11.000Z",
+        "id": "640248379653f600853e578f"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 46594,
+    "keywords": [
+      {
+        "id": 4932,
+        "name": "farm"
+      },
+      {
+        "id": 154802,
+        "name": "silent film"
+      },
+      {
+        "id": 173644,
+        "name": "communism"
+      },
+      {
+        "id": 237543,
+        "name": "proletariat"
+      },
+      {
+        "id": 267422,
+        "name": "rural setting"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 46594,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AD",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 15
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AL",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 44
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 48
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BB",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 29
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 16
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BH",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BM",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=BS",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 91
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CH",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CI",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CL",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CV",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=CZ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 81
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=DO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=DZ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=EC",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=EE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=EG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=ES",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 49
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=FI",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=FJ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 57
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/ehLnHewfxeKWCL7PT5K4AzTXIcV.jpg",
+            "provider_id": 1793,
+            "provider_name": "Klassiki",
+            "display_priority": 84
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 98
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 83
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GF",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GG",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GH",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GI",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GQ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=HK",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=HN",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=HR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 29
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=HU",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=ID",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IL",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IN",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 41
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IQ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IS",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 28
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 51
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=JM",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=JO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=JP",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=KE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 12
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=KR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=KW",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LB",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LC",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LI",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LV",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=LY",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MC",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MD",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MK",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MU",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MX",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 37
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MY",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=MZ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=NE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=NG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=NL",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 41
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=NZ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 31
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=OM",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PF",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PH",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PL",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PS",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=PT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 26
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=QA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=RO",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 16
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=RS",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=RU",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 28
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SC",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 27
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SI",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 31
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SM",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SN",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=SV",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TC",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TH",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TN",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TR",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TT",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TW",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=TZ",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 10
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=UG",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 150
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/q4WTdA5wH3TXDFiYKejCCwSOyJ8.jpg",
+            "provider_id": 585,
+            "provider_name": "Metrograph",
+            "display_priority": 140
+          },
+          {
+            "logo_path": "/ehLnHewfxeKWCL7PT5K4AzTXIcV.jpg",
+            "provider_id": 1793,
+            "provider_name": "Klassiki",
+            "display_priority": 151
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=UY",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 27
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=VE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=YE",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=ZA",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/46594/watch?locale=ZM",
+        "buy": [
+          {
+            "logo_path": "/ed0vz5bryWIhQB5sHiuGvHKnHHn.jpg",
+            "provider_id": 1771,
+            "provider_name": "Takflix",
+            "display_priority": 11
+          }
+        ]
+      }
+    }
+  }
+}

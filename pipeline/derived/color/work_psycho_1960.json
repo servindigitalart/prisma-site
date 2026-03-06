@@ -1,0 +1,51 @@
+{
+  "work_id": "work_psycho_1960",
+  "processed_at": "2026-02-28T06:27:08.730133+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The iconic silhouette of the Bates house against the dark sky, emphasizing its menacing presence through light and shadow.",
+      "The use of harsh lighting and deep shadows within the Bates Motel parlor, creating a claustrophobic and unsettling atmosphere around Norman Bates and his taxidermy.",
+      "The rapid-fire editing and stark visual contrasts during the infamous shower scene, which uses the absence of color to heighten the terror and ambiguity.",
+      "The overall cinematography consistently employs high contrast and dramatic lighting for suspense and psychological effect throughout the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_psycho_1960",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:27:08.726650Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:27:08.726638Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_psycho_1960",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

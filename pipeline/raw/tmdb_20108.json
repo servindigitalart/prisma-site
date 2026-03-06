@@ -1,0 +1,2034 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/7LPz7NEYtLXcV44j0kRLLkZ54yH.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 20108,
+    "imdb_id": "tt0060138",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "Au hasard Balthazar",
+    "overview": "The story of a donkey Balthazar as he is passed from owner to owner, some kind and some cruel but all with motivations beyond his understanding. Balthazar, whose life parallels that of his first keeper, Marie, is truly a beast of burden, suffering the sins of humankind. But despite his powerlessness, he accepts his fate nobly.",
+    "popularity": 0.8662,
+    "poster_path": "/lkLO1HDzzaXpTXtAgnGpVqIQkvF.jpg",
+    "production_companies": [
+      {
+        "id": 6116,
+        "logo_path": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "name": "Argos films",
+        "origin_country": "FR"
+      },
+      {
+        "id": 14680,
+        "logo_path": null,
+        "name": "Parc Film",
+        "origin_country": "FR"
+      },
+      {
+        "id": 6181,
+        "logo_path": "/gYyww91VI1jdH89xpZgFFc8zN3F.png",
+        "name": "SF Studios",
+        "origin_country": "SE"
+      },
+      {
+        "id": 2302,
+        "logo_path": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
+        "name": "Svenska Filminstitutet",
+        "origin_country": "SE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "SE",
+        "name": "Sweden"
+      }
+    ],
+    "release_date": "1966-05-25",
+    "revenue": 39388,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      },
+      {
+        "english_name": "Latin",
+        "iso_639_1": "la",
+        "name": "Latin"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Au Hasard Balthazar",
+    "video": false,
+    "vote_average": 7.5,
+    "vote_count": 499
+  },
+  "credits": {
+    "id": 20108,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 18227,
+        "known_for_department": "Acting",
+        "name": "Anne Wiazemsky",
+        "original_name": "Anne Wiazemsky",
+        "popularity": 0.2546,
+        "profile_path": "/1YF6xvQQXHgED5vJKSFKTTis7Y6.jpg",
+        "cast_id": 3,
+        "character": "Marie",
+        "credit_id": "52fe43d7c3a368484e001509",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 143032,
+        "known_for_department": "Acting",
+        "name": "Walter Green",
+        "original_name": "Walter Green",
+        "popularity": 0.3894,
+        "profile_path": null,
+        "cast_id": 4,
+        "character": "Jacques",
+        "credit_id": "52fe43d7c3a368484e00150d",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 143033,
+        "known_for_department": "Acting",
+        "name": "Fran\u00e7ois Lafarge",
+        "original_name": "Fran\u00e7ois Lafarge",
+        "popularity": 0.5689,
+        "profile_path": null,
+        "cast_id": 5,
+        "character": "G\u00e9rard",
+        "credit_id": "52fe43d7c3a368484e001511",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 17590,
+        "known_for_department": "Acting",
+        "name": "Jean-Claude Guilbert",
+        "original_name": "Jean-Claude Guilbert",
+        "popularity": 0.1856,
+        "profile_path": null,
+        "cast_id": 6,
+        "character": "Arnold",
+        "credit_id": "52fe43d7c3a368484e001515",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 143034,
+        "known_for_department": "Acting",
+        "name": "Philippe Asselin",
+        "original_name": "Philippe Asselin",
+        "popularity": 0.4005,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Marie's Father",
+        "credit_id": "52fe43d7c3a368484e001519",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 545032,
+        "known_for_department": "Acting",
+        "name": "Pierre Klossowski",
+        "original_name": "Pierre Klossowski",
+        "popularity": 0.1744,
+        "profile_path": null,
+        "cast_id": 8,
+        "character": "Merchant",
+        "credit_id": "572910a0c3a36815a40004d5",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1614868,
+        "known_for_department": "Acting",
+        "name": "Nathalie Joyaut",
+        "original_name": "Nathalie Joyaut",
+        "popularity": 0.4357,
+        "profile_path": null,
+        "cast_id": 9,
+        "character": "Marie's Mother",
+        "credit_id": "572910aec3a368159f0003f1",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1614869,
+        "known_for_department": "Acting",
+        "name": "Marie-Claire Fremont",
+        "original_name": "Marie-Claire Fremont",
+        "popularity": 0.3536,
+        "profile_path": null,
+        "cast_id": 10,
+        "character": "Baker's Wife",
+        "credit_id": "572910bd92514172cb000421",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1614870,
+        "known_for_department": "Acting",
+        "name": "Jean-Jo\u00ebl Barbier",
+        "original_name": "Jean-Jo\u00ebl Barbier",
+        "popularity": 0.3762,
+        "profile_path": null,
+        "cast_id": 11,
+        "character": "The Priest",
+        "credit_id": "572910c992514172d10003fa",
+        "order": 8
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10346,
+        "known_for_department": "Directing",
+        "name": "Robert Bresson",
+        "original_name": "Robert Bresson",
+        "popularity": 0.9342,
+        "profile_path": "/vgQWc59n5tnlHMD1FdKOoRe2iP7.jpg",
+        "credit_id": "52fe43d7c3a368484e0014ff",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10346,
+        "known_for_department": "Directing",
+        "name": "Robert Bresson",
+        "original_name": "Robert Bresson",
+        "popularity": 0.9342,
+        "profile_path": "/vgQWc59n5tnlHMD1FdKOoRe2iP7.jpg",
+        "credit_id": "52fe43d7c3a368484e001505",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 223233,
+        "known_for_department": "Directing",
+        "name": "Jacques K\u00e9badian",
+        "original_name": "Jacques K\u00e9badian",
+        "popularity": 1.3146,
+        "profile_path": null,
+        "credit_id": "613bcfead7107e0062aeba16",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 18209,
+        "known_for_department": "Directing",
+        "name": "Claude Miller",
+        "original_name": "Claude Miller",
+        "popularity": 0.2532,
+        "profile_path": "/c9h4B4kFWgU4Jf2ciUzoDVD4IOU.jpg",
+        "credit_id": "613bcff39653f60043e5fba8",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 26013,
+        "known_for_department": "Production",
+        "name": "Mag Bodard",
+        "original_name": "Mag Bodard",
+        "popularity": 0.3818,
+        "profile_path": null,
+        "credit_id": "58d9418ac3a368121b06898e",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 36997,
+        "known_for_department": "Sound",
+        "name": "Jean Wiener",
+        "original_name": "Jean Wiener",
+        "popularity": 0.3989,
+        "profile_path": "/bzldg007m9qkczKsvuAYuVmgPVJ.jpg",
+        "credit_id": "58d94192c3a368125f06d9e1",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11988,
+        "known_for_department": "Camera",
+        "name": "Ghislain Cloquet",
+        "original_name": "Ghislain Cloquet",
+        "popularity": 0.1249,
+        "profile_path": null,
+        "credit_id": "58d94199c3a36812670663ab",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10350,
+        "known_for_department": "Editing",
+        "name": "Raymond Lamy",
+        "original_name": "Raymond Lamy",
+        "popularity": 0.9271,
+        "profile_path": null,
+        "credit_id": "58d941a0c3a368126f068897",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10352,
+        "known_for_department": "Art",
+        "name": "Pierre Charbonnier",
+        "original_name": "Pierre Charbonnier",
+        "popularity": 0.3636,
+        "profile_path": null,
+        "credit_id": "58d941a7c3a368127c06cda6",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39191,
+        "known_for_department": "Camera",
+        "name": "Emmanuel Machuel",
+        "original_name": "Emmanuel Machuel",
+        "popularity": 0.4197,
+        "profile_path": null,
+        "credit_id": "66559360ab987ac11a73f680",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10354,
+        "known_for_department": "Sound",
+        "name": "Antoine Archimbaud",
+        "original_name": "Antoine Archimbaud",
+        "popularity": 0.2012,
+        "profile_path": null,
+        "credit_id": "5aa1d1de9251412c530062c9",
+        "department": "Sound",
+        "job": "Sound Engineer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1317194,
+        "known_for_department": "Sound",
+        "name": "Jacques Carr\u00e8re",
+        "original_name": "Jacques Carr\u00e8re",
+        "popularity": 1.1264,
+        "profile_path": null,
+        "credit_id": "5aa1d1eb9251412c530062ed",
+        "department": "Sound",
+        "job": "Sound Engineer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 20108,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"Au hasard Balthazar\" | \"\u041d\u0430\u0443\u0434\u0430\u0447\u0443, \u0411\u0430\u043b\u044c\u0442\u0430\u0437\u0430\u0440\", 1966 (Rialto Pictures trailer, english subs)",
+        "key": "RN9H8ze3hXI",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2020-10-21T13:35:00.000Z",
+        "id": "6100505c7ad08c0074872d53"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Donald Richie on Au Hasard Balthazar",
+        "key": "FED1zl5p-kA",
+        "published_at": "2013-02-19T22:49:54.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec680c3a368544800310d"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 20108,
+    "keywords": [
+      {
+        "id": 236,
+        "name": "suicide"
+      },
+      {
+        "id": 570,
+        "name": "rape"
+      },
+      {
+        "id": 548,
+        "name": "countryside"
+      },
+      {
+        "id": 5252,
+        "name": "misery"
+      },
+      {
+        "id": 4144,
+        "name": "donkey"
+      },
+      {
+        "id": 5606,
+        "name": "gang leader"
+      },
+      {
+        "id": 10766,
+        "name": "youth gang"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 14624,
+        "name": "cruelty"
+      },
+      {
+        "id": 33487,
+        "name": "burden"
+      },
+      {
+        "id": 33488,
+        "name": "beast of burden"
+      },
+      {
+        "id": 33489,
+        "name": "transcendence"
+      },
+      {
+        "id": 54613,
+        "name": "purity"
+      },
+      {
+        "id": 156501,
+        "name": "pride"
+      },
+      {
+        "id": 205685,
+        "name": "animal cruelty"
+      },
+      {
+        "id": 219988,
+        "name": "riding a donkey"
+      },
+      {
+        "id": 233361,
+        "name": "abusive boyfriend"
+      },
+      {
+        "id": 293805,
+        "name": "peasants"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 20108,
+    "results": {
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/acANFKCTLQuvDPjJAb5SnmzJaT6.jpg",
+            "provider_id": 311,
+            "provider_name": "Be TV Go",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/9HhIlyFlilVtx0sMTcPbhs5qR31.jpg",
+            "provider_id": 47,
+            "provider_name": "Looke",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/7Cg8esVVXOijXAm1f1vrS7jVjcN.jpg",
+            "provider_id": 307,
+            "provider_name": "Globoplay",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/jlyafDbXLyNXNNFZbIgB9VrlScW.jpg",
+            "provider_id": 19,
+            "provider_name": "NetMovies",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=DE",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=EE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/tGvAD4O9obFP3DfOrDn8NaRQ6eT.jpg",
+            "provider_id": 1742,
+            "provider_name": "Acontra Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/8qSG9LtUhBQIWy2Fr6fzeW7gBdd.jpg",
+            "provider_id": 1967,
+            "provider_name": "Molotov TV",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/zg1uFDzIchkwrwOW6dq7LFxB4n6.jpg",
+            "provider_id": 1737,
+            "provider_name": "INA  madelen Amazon Channel",
+            "display_priority": 54
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=JM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 73
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 6
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 63
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 7
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/20108-au-hasard-balthazar/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      }
+    }
+  }
+}

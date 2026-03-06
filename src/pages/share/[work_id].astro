@@ -1,0 +1,291 @@
+---
+export const prerender = false
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { createSupabaseServerClient } from '../../lib/supabase/server'
+import { PRISMA_PALETTE } from '../../lib/color/colorPalette'
+
+const { work_id } = Astro.params
+
+if (!work_id) {
+  return Astro.redirect('/404')
+}
+
+const workId = `work_${work_id}`
+const userIdParam = Astro.url.searchParams.get('user')
+
+const supabase = createSupabaseServerClient(Astro.cookies)
+
+// Get work details
+const { data: work, error: workError } = await supabase
+  .from('works')
+  .select(`
+    title,
+    year,
+    poster_path,
+    color_assignments (
+      color_id
+    )
+  `)
+  .eq('id', workId)
+  .single()
+
+if (workError || !work) {
+  return Astro.redirect('/404')
+}
+
+const colorId = (work as any).color_assignments?.[0]?.color_id
+const color = colorId ? PRISMA_PALETTE[colorId] : null
+
+let userRating = null
+let userName = null
+
+if (userIdParam) {
+  const { data: ratingData } = await supabase
+    .from('user_ratings')
+    .select('rating')
+    .eq('user_id', userIdParam)
+    .eq('work_id', workId)
+    .single()
+  
+  userRating = ratingData?.rating || null
+
+  const { data: profileData } = await supabase
+    .from('user_profiles')
+    .select('display_name, username')
+    .eq('id', userIdParam)
+    .single()
+  
+  userName = profileData?.display_name || profileData?.username || 'A PRISMA user'
+}
+
+const posterUrl = (work as any).poster_path
+  ? `https://image.tmdb.org/t/p/w500${(work as any).poster_path}`
+  : null
+
+const pageTitle = userRating 
+  ? `${userName} rated ${work.title} ${userRating}/10 on PRISMA`
+  : `${work.title} (${(work as any).year}) on PRISMA`
+
+const pageDescription = color
+  ? `Cinematic color: ${color.name}`
+  : 'Discover cinematic visual identity on PRISMA'
+
+const bgColor = color?.hex || '#0a0a0a'
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  ogImage={posterUrl || undefined}
+>
+  <div class="share-page" style={`--share-color: ${bgColor}`}>
+    <div class="share-container">
+      
+      <div class="share-card">
+        {posterUrl ? (
+          <img src={posterUrl} alt={work.title} class="share-poster" />
+        ) : (
+          <div class="share-poster-placeholder">{work.title}</div>
+        )}
+
+        <div class="share-content">
+          <h1 class="share-title">{work.title}</h1>
+          <p class="share-year">{(work as any).year}</p>
+
+          {color && (
+            <div class="share-color">
+              <div class="share-color__swatch" style={`background: ${color.hex}`}></div>
+              <span class="share-color__name">{color.name}</span>
+            </div>
+          )}
+
+          {userRating && (
+            <div class="share-rating">
+              <span class="share-rating__score">{userRating}/10</span>
+              <span class="share-rating__by">rated by {userName}</span>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {!Astro.locals.user && (
+        <div class="share-cta">
+          <a href="/" class="share-cta__button">Join PRISMA</a>
+          <p class="share-cta__text">Track, rate, and discover films by their cinematic color</p>
+        </div>
+      )}
+
+      <div class="share-view-film">
+        <a href={`/films/${work_id}`} class="share-link">View full film page →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .share-page {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--share-color) 0%, #0a0a0a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .share-container {
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .share-card {
+      background: rgba(10, 10, 10, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      backdrop-filter: blur(20px);
+    }
+
+    .share-poster {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      display: block;
+    }
+
+    .share-poster-placeholder {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      background: var(--surface-card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      font-size: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    .share-content {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .share-title {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      margin: 0;
+    }
+
+    .share-year {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    .share-color {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding-top: 0.5rem;
+    }
+
+    .share-color__swatch {
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .share-color__name {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .share-rating {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      margin-top: 0.5rem;
+    }
+
+    .share-rating__score {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--share-color, #C98A2E);
+    }
+
+    .share-rating__by {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .share-cta {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(10, 10, 10, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      backdrop-filter: blur(20px);
+    }
+
+    .share-cta__button {
+      display: inline-block;
+      padding: 0.875rem 2rem;
+      background: var(--share-color, #C98A2E);
+      color: #0a0a0a;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 120ms ease, opacity 120ms ease;
+    }
+
+    .share-cta__button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .share-cta__text {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .share-view-film {
+      text-align: center;
+    }
+
+    .share-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 120ms ease;
+    }
+
+    .share-link:hover {
+      color: var(--text-primary);
+    }
+
+    @media (max-width: 640px) {
+      .share-title {
+        font-size: 1.5rem;
+      }
+
+      .share-content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</BaseLayout>

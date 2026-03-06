@@ -1,0 +1,57 @@
+{
+  "work_id": "work_sunrise-a-song-of-two-humans_1927",
+  "processed_at": "2026-02-28T06:35:40.042023+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Warm, sepia/amber tinting in day scenes, especially the idyllic countryside and romantic sequences.",
+      "The film's title 'Sunrise' intrinsically suggests golden/amber light.",
+      "The overall tone of nostalgic reflection and memory aligns with the 'faded memory' aspect of ambar_desertico.",
+      "Murnau's innovative and fluid camerawork (tracking shots, subjective POV) creates dynamic visual energy.",
+      "The emotional arc, while dramatic, resolves with tenderness and a bittersweet reflection on enduring love, suiting a 'warm but bittersweet' temperature.",
+      "The expressionistic sets (especially the city) and subjective cinematography demonstrate a clear, intentional departure from realism."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_sunrise-a-song-of-two-humans_1927",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:35:40.038576Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:35:40.038565Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_sunrise-a-song-of-two-humans_1927",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

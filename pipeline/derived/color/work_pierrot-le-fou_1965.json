@@ -1,0 +1,57 @@
+{
+  "work_id": "work_pierrot-le-fou_1965",
+  "processed_at": "2026-02-28T06:25:16.311588+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "azul_nocturno",
+      "amarillo_ludico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "Marianne's iconic red dresses and other red outfits (e.g., striped top with red scarf)",
+      "Prominent use of red for blood in various scenes of violence",
+      "Red cars and other red elements in the production design and props",
+      "Godard's use of direct address to the camera and jump cuts, typical of New Wave stylization"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_pierrot-le-fou_1965",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:25:16.308091Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:25:16.308080Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_pierrot-le-fou_1965",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "amarillo_ludico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

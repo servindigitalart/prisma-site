@@ -1,0 +1,720 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/5dJ8t6CljwZ1NUXwW1nsmEpMf8x.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      },
+      {
+        "id": 10402,
+        "name": "Music"
+      }
+    ],
+    "homepage": "",
+    "id": 135,
+    "imdb_id": "tt0061589",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Dont Look Back",
+    "overview": "In this wildly entertaining vision of one of the twentieth century\u2019s greatest artists, Bob Dylan is surrounded by teen fans, gets into heated philosophical jousts with journalists, and kicks back with fellow musicians Joan Baez, Donovan, and Alan Price.",
+    "popularity": 0.7801,
+    "poster_path": "/2kd5XfH2MhFlChq7DkjxWBLoYPF.jpg",
+    "production_companies": [
+      {
+        "id": 91189,
+        "logo_path": null,
+        "name": "Leacock-Pennebaker",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1967-05-17",
+    "revenue": 0,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Dont Look Back",
+    "video": false,
+    "vote_average": 7.361,
+    "vote_count": 169
+  },
+  "credits": {
+    "id": 135,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1487,
+        "known_for_department": "Acting",
+        "name": "Bob Dylan",
+        "original_name": "Bob Dylan",
+        "popularity": 0.6837,
+        "profile_path": "/pMGkRge9jE0TRgENbUYt3N5qDPl.jpg",
+        "cast_id": 2,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004d8d",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1488,
+        "known_for_department": "Production",
+        "name": "Albert Grossman",
+        "original_name": "Albert Grossman",
+        "popularity": 0.6925,
+        "profile_path": "/snyDwkGYaUUMbvbHrmVmuIU94gJ.jpg",
+        "cast_id": 3,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004d91",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1489,
+        "known_for_department": "Acting",
+        "name": "Bob Neuwirth",
+        "original_name": "Bob Neuwirth",
+        "popularity": 0.4345,
+        "profile_path": "/hg91gp5RasSWXeNliz8qkCoTvYf.jpg",
+        "cast_id": 4,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004d95",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1490,
+        "known_for_department": "Acting",
+        "name": "Joan Baez",
+        "original_name": "Joan Baez",
+        "popularity": 0.285,
+        "profile_path": "/blirnm784OsM2csUEZUBunrqXkt.jpg",
+        "cast_id": 5,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004d99",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1491,
+        "known_for_department": "Sound",
+        "name": "Alan Price",
+        "original_name": "Alan Price",
+        "popularity": 0.3576,
+        "profile_path": "/dkN0hAczKzkh6aA6XyfGjGC8wuQ.jpg",
+        "cast_id": 6,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004d9d",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1492,
+        "known_for_department": "Acting",
+        "name": "Tito Burns",
+        "original_name": "Tito Burns",
+        "popularity": 0.0025,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004da1",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1493,
+        "known_for_department": "Acting",
+        "name": "Donovan",
+        "original_name": "Donovan",
+        "popularity": 0.1126,
+        "profile_path": "/lsGxxUJvWglrxiaQGMB2LaPEZ6E.jpg",
+        "cast_id": 8,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004da5",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1494,
+        "known_for_department": "Acting",
+        "name": "Derroll Adams",
+        "original_name": "Derroll Adams",
+        "popularity": 0.2534,
+        "profile_path": null,
+        "cast_id": 9,
+        "character": "Self",
+        "credit_id": "52fe421cc3a36847f8004da9",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 110589,
+        "known_for_department": "Acting",
+        "name": "Allen Ginsberg",
+        "original_name": "Allen Ginsberg",
+        "popularity": 0.6263,
+        "profile_path": "/w7qQvokS1lp7IRgefiJdALaaiIi.jpg",
+        "cast_id": 24,
+        "character": "Self (uncredited)",
+        "credit_id": "640e7115e18e3f07e952d19f",
+        "order": 8
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1487,
+        "known_for_department": "Acting",
+        "name": "Bob Dylan",
+        "original_name": "Bob Dylan",
+        "popularity": 0.6837,
+        "profile_path": "/pMGkRge9jE0TRgENbUYt3N5qDPl.jpg",
+        "credit_id": "52fe421cc3a36847f8004dbb",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1495,
+        "known_for_department": "Production",
+        "name": "John Court",
+        "original_name": "John Court",
+        "popularity": 0.3081,
+        "profile_path": null,
+        "credit_id": "52fe421cc3a36847f8004daf",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21113,
+        "known_for_department": "Directing",
+        "name": "D. A. Pennebaker",
+        "original_name": "D. A. Pennebaker",
+        "popularity": 0.5544,
+        "profile_path": "/bLonM1nzO87XvyrPYyS6L2q9yV.jpg",
+        "credit_id": "52fe421cc3a36847f8004dc1",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21113,
+        "known_for_department": "Directing",
+        "name": "D. A. Pennebaker",
+        "original_name": "D. A. Pennebaker",
+        "popularity": 0.5544,
+        "profile_path": "/bLonM1nzO87XvyrPYyS6L2q9yV.jpg",
+        "credit_id": "52fe421cc3a36847f8004dc7",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1488,
+        "known_for_department": "Production",
+        "name": "Albert Grossman",
+        "original_name": "Albert Grossman",
+        "popularity": 0.6925,
+        "profile_path": "/snyDwkGYaUUMbvbHrmVmuIU94gJ.jpg",
+        "credit_id": "52fe421cc3a36847f8004db5",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21113,
+        "known_for_department": "Directing",
+        "name": "D. A. Pennebaker",
+        "original_name": "D. A. Pennebaker",
+        "popularity": 0.5544,
+        "profile_path": "/bLonM1nzO87XvyrPYyS6L2q9yV.jpg",
+        "credit_id": "631938e3aad9c2007f55fb2f",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2171251,
+        "known_for_department": "Camera",
+        "name": "Jones Alk",
+        "original_name": "Jones Alk",
+        "popularity": 0.0807,
+        "profile_path": null,
+        "credit_id": "631938fafac50200a2c13eae",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1046088,
+        "known_for_department": "Directing",
+        "name": "Ed Emshwiller",
+        "original_name": "Ed Emshwiller",
+        "popularity": 0.8104,
+        "profile_path": "/fYkXS4etuNHwIaryNNDRydFFE0a.jpg",
+        "credit_id": "631938ea0021340098fc9cad",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 927798,
+        "known_for_department": "Editing",
+        "name": "Howard Alk",
+        "original_name": "Howard Alk",
+        "popularity": 0.0639,
+        "profile_path": null,
+        "credit_id": "631938f20f0da5007defa7b0",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2608183,
+        "known_for_department": "Sound",
+        "name": "Leon Payne",
+        "original_name": "Leon Payne",
+        "popularity": 0.2903,
+        "profile_path": "/w4vJYTapTPDDsZLqlGXWVdKYRok.jpg",
+        "credit_id": "5e9d491aa5046e00259a1a13",
+        "department": "Sound",
+        "job": "Music"
+      }
+    ]
+  },
+  "videos": {
+    "id": 135,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Bob Dylan - Don't Look Back - Colorized and Improved Audio (1967)",
+        "key": "M7l1mArrpkM",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": false,
+        "published_at": "2022-11-30T20:29:17.000Z",
+        "id": "675885ce5ab21dc05c6f7aa9"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "DONT LOOK BACK \u2013 \"She Belongs to Me\" Outtake Reel",
+        "key": "HAKGOGAGzzk",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2015-11-25T17:50:01.000Z",
+        "id": "67588564ae68e8db0f0d4f1f"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Patti Smith on Bob Dylan and DONT LOOK BACK",
+        "key": "aotVBN9FCo4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2015-11-23T22:40:17.000Z",
+        "id": "675885f03688459d7589afc9"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Chris Wilkinson on DON'T LOOK BACK",
+        "key": "6BLDeu8bVoA",
+        "published_at": "2013-11-09T09:26:24.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": false,
+        "id": "533ec652c3a3685448000110"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Bob Dylan Don't Look Back Trailer",
+        "key": "1inL6s1htio",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2011-04-17T18:55:10.000Z",
+        "id": "675885855ab21dc05c6f7a7b"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Bob Dylan: Dont Look Back - Clip",
+        "key": "VY4HtQ-XJQE",
+        "published_at": "2009-10-21T14:26:47.000Z",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Clip",
+        "official": true,
+        "id": "533ec652c3a368544800010e"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 135,
+    "keywords": [
+      {
+        "id": 6029,
+        "name": "concert"
+      },
+      {
+        "id": 578,
+        "name": "rock 'n' roll"
+      },
+      {
+        "id": 392,
+        "name": "england"
+      },
+      {
+        "id": 953,
+        "name": "guitar"
+      },
+      {
+        "id": 4048,
+        "name": "musician"
+      },
+      {
+        "id": 2570,
+        "name": "rock star"
+      },
+      {
+        "id": 3490,
+        "name": "pop star"
+      },
+      {
+        "id": 2089,
+        "name": "harmonica"
+      },
+      {
+        "id": 190756,
+        "name": "cin\u00e9ma v\u00e9rit\u00e9"
+      },
+      {
+        "id": 193749,
+        "name": "folk"
+      },
+      {
+        "id": 200276,
+        "name": "direct cinema"
+      },
+      {
+        "id": 219892,
+        "name": "donovan"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 135,
+    "results": {
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/135-dont-look-back/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+            "provider_id": 230,
+            "provider_name": "Crave",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/xoFyQOXR3qINRsdnCQyd7jGx8Wo.jpg",
+            "provider_id": 326,
+            "provider_name": "CTV",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/135-dont-look-back/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/135-dont-look-back/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/135-dont-look-back/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/135-dont-look-back/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+            "provider_id": 2528,
+            "provider_name": "YouTube TV",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/y9jFndski0fRO4MHh3yg5PIL9ZI.jpg",
+            "provider_id": 439,
+            "provider_name": "Shout! Factory TV",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/4tJBhJcuF1ZstI5Yqu82G0yroLa.jpg",
+            "provider_id": 235,
+            "provider_name": "YouTube Free",
+            "display_priority": 95
+          }
+        ]
+      }
+    }
+  }
+}

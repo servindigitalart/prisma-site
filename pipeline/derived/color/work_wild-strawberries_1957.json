@@ -1,0 +1,50 @@
+{
+  "work_id": "work_wild-strawberries_1957",
+  "processed_at": "2026-02-28T06:58:32.753293+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.95,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The iconic dream sequences featuring the faceless man and the coffin are characterized by stark black and white contrast.",
+      "The use of deep shadows and bright light creates a dramatic chiaroscuro effect in many interior and exterior shots.",
+      "The overall cinematography emphasizes the psychological states of characters through high-contrast lighting."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_wild-strawberries_1957",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:58:32.749714Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:58:32.749703Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_wild-strawberries_1957",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

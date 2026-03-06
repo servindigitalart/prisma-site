@@ -1,0 +1,54 @@
+{
+  "work_id": "work_daughters-of-the-dust_1991",
+  "processed_at": "2026-02-28T04:49:32.635062+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The pervasive warm, golden-amber color grading used throughout the film, particularly in outdoor and natural light scenes.",
+      "The way sunlight filters through trees and illuminates the sandy landscapes, consistently rendered in amber tones.",
+      "The overall aesthetic evokes a faded photograph or a cherished memory, aligning with the 'ambar_desertico' descriptor for historical and nostalgic visuals."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_daughters-of-the-dust_1991",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:49:32.631486Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:49:32.631475Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_daughters-of-the-dust_1991",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

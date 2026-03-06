@@ -1,0 +1,252 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": null,
+    "belongs_to_collection": {
+      "id": 109701,
+      "name": "Histoire(s) du Cin\u00e9ma",
+      "poster_path": "/1xOG2ejvdoAAmQhOsaj6gznMYle.jpg",
+      "backdrop_path": null
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "homepage": "",
+    "id": 91296,
+    "imdb_id": "tt0179216",
+    "origin_country": [
+      "FR",
+      "CH"
+    ],
+    "original_language": "fr",
+    "original_title": "Histoire(s) du cin\u00e9ma 1b : une histoire seule",
+    "overview": "A very personal look at the history of cinema directed, written and edited by Jean-Luc Godard in his Swiss residence in Rolle for ten years (1988-98); a monumental collage, constructed from film fragments, texts and quotations, photos and paintings, music and sound, and diverse readings; a critical, beautiful and melancholic vision of cinematographic art.",
+    "popularity": 0.2119,
+    "poster_path": "/Alw1Ex1G4S6jFeGiLkGSRLesROW.jpg",
+    "production_companies": [
+      {
+        "id": 9,
+        "logo_path": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "name": "Gaumont",
+        "origin_country": "FR"
+      },
+      {
+        "id": 153395,
+        "logo_path": "/oVCO4P9C1pEyO38OfclcsMHHT7U.png",
+        "name": "La Sept",
+        "origin_country": "FR"
+      },
+      {
+        "id": 22811,
+        "logo_path": null,
+        "name": "JLG Films",
+        "origin_country": "FR"
+      },
+      {
+        "id": 310,
+        "logo_path": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
+        "name": "CNC",
+        "origin_country": "FR"
+      },
+      {
+        "id": 13668,
+        "logo_path": "/azhapBvZ8g1UWyyQQhhcRR9bM9x.png",
+        "name": "RTS",
+        "origin_country": "CH"
+      },
+      {
+        "id": 8138,
+        "logo_path": "/4P6c8TiJZhL2z7b0LbPOUTZwP4z.png",
+        "name": "Vega Film",
+        "origin_country": "CH"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "CH",
+        "name": "Switzerland"
+      }
+    ],
+    "release_date": "1989-11-16",
+    "revenue": 0,
+    "runtime": 42,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Histoire(s) du Cin\u00e9ma 1b: A Single (Hi)story",
+    "video": false,
+    "vote_average": 6.5,
+    "vote_count": 25
+  },
+  "credits": {
+    "id": 91296,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3776,
+        "known_for_department": "Directing",
+        "name": "Jean-Luc Godard",
+        "original_name": "Jean-Luc Godard",
+        "popularity": 0.7324,
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg",
+        "cast_id": 2,
+        "character": "Self - Filmmaker / Narrator (voice)",
+        "credit_id": "61735432894ed600646de762",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 27440,
+        "known_for_department": "Acting",
+        "name": "Fran\u00e7ois P\u00e9rier",
+        "original_name": "Fran\u00e7ois P\u00e9rier",
+        "popularity": 0.3899,
+        "profile_path": "/aTgZII5M2ZW936lQJIUh94wQTFV.jpg",
+        "cast_id": 5,
+        "character": "Self - Narrator (voice)",
+        "credit_id": "617357d95c5cc80065bea4bf",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1146,
+        "known_for_department": "Acting",
+        "name": "Julie Delpy",
+        "original_name": "Julie Delpy",
+        "popularity": 0.9381,
+        "profile_path": "/rd40f4QpAUUne3hMaUhHrZtcK2c.jpg",
+        "cast_id": 6,
+        "character": "Self - Narrator (voice)",
+        "credit_id": "6173585cfd7aa4006612a24b",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 25156,
+        "known_for_department": "Acting",
+        "name": "Mar\u00eda Casares",
+        "original_name": "Mar\u00eda Casares",
+        "popularity": 0.3362,
+        "profile_path": "/gYknomwNpmZPxfVqvzbR3DvoxBk.jpg",
+        "cast_id": 7,
+        "character": "Self - Narrator (voice)",
+        "credit_id": "617359e033ec26008b496d0c",
+        "order": 3
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2219678,
+        "known_for_department": "Sound",
+        "name": "Pierre-Alain Besse",
+        "original_name": "Pierre-Alain Besse",
+        "popularity": 0.184,
+        "profile_path": null,
+        "credit_id": "625d7a31bf09d10066c13f82",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 73858,
+        "known_for_department": "Sound",
+        "name": "Fran\u00e7ois Musy",
+        "original_name": "Fran\u00e7ois Musy",
+        "popularity": 1.4677,
+        "profile_path": "/jkZBgZfPcvQJ0YqgYcecKrTzLmz.jpg",
+        "credit_id": "625d7a3cbf09d1009937bad8",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3776,
+        "known_for_department": "Directing",
+        "name": "Jean-Luc Godard",
+        "original_name": "Jean-Luc Godard",
+        "popularity": 0.7324,
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg",
+        "credit_id": "52fe48cb9251416c750b38b3",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3776,
+        "known_for_department": "Directing",
+        "name": "Jean-Luc Godard",
+        "original_name": "Jean-Luc Godard",
+        "popularity": 0.7324,
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg",
+        "credit_id": "617354465bce9e002d5e2b3b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3776,
+        "known_for_department": "Directing",
+        "name": "Jean-Luc Godard",
+        "original_name": "Jean-Luc Godard",
+        "popularity": 0.7324,
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg",
+        "credit_id": "61735458fd7aa400661295e5",
+        "department": "Writing",
+        "job": "Writer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 91296,
+    "results": []
+  },
+  "keywords": {
+    "id": 91296,
+    "keywords": [
+      {
+        "id": 6026,
+        "name": "cinema on cinema"
+      },
+      {
+        "id": 170487,
+        "name": "essay film"
+      },
+      {
+        "id": 222228,
+        "name": "cinema history"
+      },
+      {
+        "id": 246160,
+        "name": "experimental narrative"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 91296,
+    "results": {}
+  }
+}

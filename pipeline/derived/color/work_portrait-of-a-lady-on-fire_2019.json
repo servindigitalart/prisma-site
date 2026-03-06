@@ -1,0 +1,56 @@
+{
+  "work_id": "work_portrait-of-a-lady-on-fire_2019",
+  "processed_at": "2026-02-28T17:29:07.731355+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rosa_pastel",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.86,
+    "secondary_colors": [
+      "verde_esmeralda",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Soft, warm, and often subtly pinkish skin tones, particularly in close-ups and intimate moments.",
+      "Naturalistic lighting that imbues interiors and faces with a delicate, muted glow, contributing to a sense of 'tender memory' and 'quiet femininity'.",
+      "Overall gentle and desaturated visual aesthetic that prioritizes subtle warmth and intimate details, consistently present throughout the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_portrait-of-a-lady-on-fire_2019",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T17:29:07.727230Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T17:29:07.727218Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_portrait-of-a-lady-on-fire_2019",
+    "color_iconico": "rosa_pastel",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_esmeralda",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

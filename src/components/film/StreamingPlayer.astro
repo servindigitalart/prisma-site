@@ -1,0 +1,99 @@
+---
+interface Props {
+  workId: string
+  bunnyVideoId: string
+  title: string
+}
+
+const { workId, bunnyVideoId, title } = Astro.props
+
+import { getBunnyEmbedUrlSigned } from '../../lib/bunny'
+const embedUrl = getBunnyEmbedUrlSigned(bunnyVideoId)
+---
+
+<div class="streaming-player" id="streaming-player" data-work-id={workId}>
+  <div class="player-header">
+    <span class="player-badge">PRISMA STREAMING</span>
+  </div>
+  <div class="player-wrapper">
+    <iframe
+      id="bunny-iframe"
+      src={embedUrl}
+      class="bunny-player"
+      loading="lazy"
+      allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;fullscreen"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <p class="player-credit">Streamed exclusively on PRISMA · © {title}</p>
+</div>
+
+<script is:inline>
+// Refresh the signed token before it expires (every 3.5 hours)
+(function() {
+  var player = document.getElementById('streaming-player');
+  if (!player) return;
+
+  var workId = player.dataset.workId;
+  var refreshMs = 3.5 * 60 * 60 * 1000; // 3.5 hours
+
+  setInterval(async function() {
+    try {
+      var res = await fetch('/api/stream-token/' + workId);
+      var data = await res.json();
+      if (data.embedUrl) {
+        var iframe = document.getElementById('bunny-iframe');
+        if (iframe) iframe.src = data.embedUrl;
+      }
+    } catch (e) {
+      // Silent fail — current token still valid for ~30 min
+    }
+  }, refreshMs);
+})();
+</script>
+
+<style>
+  .streaming-player {
+    margin: 2rem 0;
+  }
+
+  .player-header {
+    margin-bottom: 0.5rem;
+  }
+
+  .player-badge {
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--text-accent, #D4C9A8);
+    background: color-mix(in srgb, var(--text-accent, #D4C9A8) 10%, transparent);
+    padding: 0.2rem 0.625rem;
+    border-radius: 3px;
+  }
+
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+    background: #000;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--surface-border, #2a2a2a);
+  }
+
+  .bunny-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .player-credit {
+    font-size: 0.72rem;
+    color: var(--text-muted, #666);
+    text-align: center;
+    margin-top: 0.625rem;
+    letter-spacing: 0.02em;
+  }
+</style>

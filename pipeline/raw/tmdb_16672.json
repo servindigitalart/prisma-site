@@ -1,0 +1,753 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/dxfFh9pTKDaYH2B6PwcR6ohCM1L.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "homepage": "",
+    "id": 16672,
+    "imdb_id": "tt0058625",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "\u7802\u306e\u5973",
+    "overview": "A vacationing entomologist suffers extreme physical and psychological trauma after being taken captive by the residents of a poor seaside village and made to live with a woman whose life task is shoveling sand for them.",
+    "popularity": 2.1558,
+    "poster_path": "/f0JpsMQ9oEjKBD66Ky3qK3z7LGT.jpg",
+    "production_companies": [
+      {
+        "id": 3212,
+        "logo_path": null,
+        "name": "Teshigahara Productions",
+        "origin_country": "JP"
+      },
+      {
+        "id": 882,
+        "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "name": "TOHO",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "1964-02-15",
+    "revenue": 0,
+    "runtime": 147,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "\u65e5\u672c\u8a9e"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Haunting. Erotic. Unforgettable.",
+    "title": "Woman in the Dunes",
+    "video": false,
+    "vote_average": 8.207,
+    "vote_count": 505
+  },
+  "credits": {
+    "id": 16672,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 25466,
+        "known_for_department": "Acting",
+        "name": "Eiji Okada",
+        "original_name": "\u5ca1\u7530\u82f1\u6b21",
+        "popularity": 0.4571,
+        "profile_path": "/mQb4kOYl1WlISWZOStAhm13DHdQ.jpg",
+        "cast_id": 2,
+        "character": "Entomologist Niki Jumpei",
+        "credit_id": "52fe46e49251416c7508706f",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 94188,
+        "known_for_department": "Acting",
+        "name": "Ky\u00f4ko Kishida",
+        "original_name": "\u5cb8\u7530\u4eca\u65e5\u5b50",
+        "popularity": 0.8454,
+        "profile_path": "/d5raLmrkUXAgJ7kN17Uedwwu4iD.jpg",
+        "cast_id": 12,
+        "character": "The Woman",
+        "credit_id": "52fe46e49251416c75087091",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 555339,
+        "known_for_department": "Acting",
+        "name": "Hiroko It\u014d",
+        "original_name": "\u4f0a\u85e4\u5f18\u5b50",
+        "popularity": 0.4229,
+        "profile_path": null,
+        "cast_id": 13,
+        "character": "Entomologist's Wife",
+        "credit_id": "52fe46e49251416c75087095",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 96804,
+        "known_for_department": "Acting",
+        "name": "K\u014dji Mitsui",
+        "original_name": "\u4e09\u4e95\u5f18\u6b21",
+        "popularity": 0.1862,
+        "profile_path": "/nahTXDNpFHNfKMraAHNDYiLXBM.jpg",
+        "cast_id": 5,
+        "character": "Village Elder",
+        "credit_id": "52fe46e49251416c75087073",
+        "order": 3
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 96801,
+        "known_for_department": "Directing",
+        "name": "Hiroshi Teshigahara",
+        "original_name": "\u52c5\u4f7f\u6cb3\u539f\u5b8f",
+        "popularity": 0.3366,
+        "profile_path": "/bMg5nblcbQPY48P1nURbXsyHvfO.jpg",
+        "credit_id": "52fe46e49251416c7508706b",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 96807,
+        "known_for_department": "Writing",
+        "name": "K\u014db\u014d Abe",
+        "original_name": "\u5b89\u90e8\u516c\u623f",
+        "popularity": 1.2176,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c750870a1",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 96810,
+        "known_for_department": "Editing",
+        "name": "Fusako Shuzui",
+        "original_name": "Fusako Shuzui",
+        "popularity": 0.2758,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c75087087",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 96809,
+        "known_for_department": "Camera",
+        "name": "Hiroshi Segawa",
+        "original_name": "Hiroshi Segawa",
+        "popularity": 0.2468,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c75087081",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1089017,
+        "known_for_department": "Production",
+        "name": "Tadashi \u00d4no",
+        "original_name": "Tadashi \u00d4no",
+        "popularity": 0.2243,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c750870ad",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1089030,
+        "known_for_department": "Production",
+        "name": "Kiichi Ichikawa",
+        "original_name": "Kiichi Ichikawa",
+        "popularity": 0.1676,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c750870a7",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 96807,
+        "known_for_department": "Writing",
+        "name": "K\u014db\u014d Abe",
+        "original_name": "\u5b89\u90e8\u516c\u623f",
+        "popularity": 1.2176,
+        "profile_path": null,
+        "credit_id": "52fe46e49251416c7508709b",
+        "department": "Writing",
+        "job": "Novel"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 51808,
+        "known_for_department": "Sound",
+        "name": "Toru Takemitsu",
+        "original_name": "\u6b66\u6e80\u5fb9",
+        "popularity": 0.3424,
+        "profile_path": "/l48fEVb1HGMilTCkxSzYuZsSPdk.jpg",
+        "credit_id": "57171fb69251417a22006174",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1591535,
+        "known_for_department": "Art",
+        "name": "Masao Yamazaki",
+        "original_name": "\u5c71\u5d0e\u6b63\u592b",
+        "popularity": 0.251,
+        "profile_path": null,
+        "credit_id": "5c19ae0ec3a3681885239b09",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1375495,
+        "known_for_department": "Crew",
+        "name": "Ichiro Kato",
+        "original_name": "\u52a0\u85e4\u4e00\u90ce",
+        "popularity": 0.63,
+        "profile_path": null,
+        "credit_id": "5c19ae1b0e0a26618ee63437",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1602592,
+        "known_for_department": "Sound",
+        "name": "Shigenosuke Okuyama",
+        "original_name": "Shigenosuke Okuyama",
+        "popularity": 0.2243,
+        "profile_path": null,
+        "credit_id": "5c19ae26c3a3681890239b2c",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2198020,
+        "known_for_department": "Sound",
+        "name": "Keiji Mori",
+        "original_name": "Keiji Mori",
+        "popularity": 0.1595,
+        "profile_path": null,
+        "credit_id": "5c19ae3192514129f0d83773",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1268042,
+        "known_for_department": "Art",
+        "name": "T\u014dtetsu Hirakawa",
+        "original_name": "\u5e73\u5ddd\u900f\u5fb9",
+        "popularity": 0.6515,
+        "profile_path": null,
+        "credit_id": "5c19ae010e0a26618ee63429",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2081838,
+        "known_for_department": "Directing",
+        "name": "Isao Fujisawa",
+        "original_name": "Isao Fujisawa",
+        "popularity": 0.5912,
+        "profile_path": null,
+        "credit_id": "678d83dce4566399a26e0f37",
+        "department": "Directing",
+        "job": "Assistant Director"
+      }
+    ]
+  },
+  "videos": {
+    "id": 16672,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Original Trailer",
+        "key": "UFbJ9iDeZgg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2019-12-01T20:27:52.000Z",
+        "id": "62e5be9ff1b5710059561514"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Criterion Trailer",
+        "key": "7kX4h_sEBiI",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2018-07-03T00:41:35.000Z",
+        "id": "67c9d69dbd7861478b24ca15"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 16672,
+    "keywords": [
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 332,
+        "name": "insect"
+      },
+      {
+        "id": 5789,
+        "name": "sand"
+      },
+      {
+        "id": 11130,
+        "name": "art house"
+      },
+      {
+        "id": 10489,
+        "name": "water shortage"
+      },
+      {
+        "id": 12565,
+        "name": "psychological thriller"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 15365,
+        "name": "held captive"
+      },
+      {
+        "id": 17973,
+        "name": "skin"
+      },
+      {
+        "id": 18029,
+        "name": "trapped"
+      },
+      {
+        "id": 156091,
+        "name": "missing person"
+      },
+      {
+        "id": 159595,
+        "name": "sexual torture"
+      },
+      {
+        "id": 178080,
+        "name": "sand dune"
+      },
+      {
+        "id": 192119,
+        "name": "erotic photography"
+      },
+      {
+        "id": 196584,
+        "name": "water pump"
+      },
+      {
+        "id": 209998,
+        "name": "japanese new wave"
+      },
+      {
+        "id": 211636,
+        "name": "slave labor"
+      },
+      {
+        "id": 214613,
+        "name": "entomologist"
+      },
+      {
+        "id": 222268,
+        "name": "escape attempt"
+      },
+      {
+        "id": 225471,
+        "name": "sand pit"
+      },
+      {
+        "id": 270615,
+        "name": "forced labor"
+      },
+      {
+        "id": 292558,
+        "name": "texture"
+      },
+      {
+        "id": 308818,
+        "name": "avant garde"
+      },
+      {
+        "id": 313483,
+        "name": "disappeared"
+      },
+      {
+        "id": 329352,
+        "name": "barbaric behavior"
+      },
+      {
+        "id": 364682,
+        "name": "areia"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 16672,
+    "results": {
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 19
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/16672/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+            "provider_id": 2528,
+            "provider_name": "YouTube TV",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/8SIxng8eznACvCTRsN1FZfd5Ycg.jpg",
+            "provider_id": 361,
+            "provider_name": "TCM",
+            "display_priority": 98
+          },
+          {
+            "logo_path": "/8G7qvHF7hdmXpfxxqtF1WT9ib68.jpg",
+            "provider_id": 2308,
+            "provider_name": "Darkroom",
+            "display_priority": 137
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2875 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/yvafnYvrxnwD3MrXcc18sUrkHqU.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "homepage": "",
+    "id": 44379,
+    "imdb_id": "tt0247380",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "Les Glaneurs et la Glaneuse",
+    "overview": "Varda focuses her eye on gleaners: those who scour already-reaped fields for the odd potato or turnip. Her investigation leads from forgotten corners of the French countryside to off-hours at the green markets of Paris, following those who insist on finding a use for that which society has cast off, whether out of necessity or activism.",
+    "popularity": 0.6626,
+    "poster_path": "/6IdCTKi4Eu7i897jpe59wIDGCri.jpg",
+    "production_companies": [
+      {
+        "id": 14683,
+        "logo_path": "/oqpU5dX9DlN3YB96NdsNXknJhcl.png",
+        "name": "Cin\u00e9-Tamaris",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "2000-07-07",
+    "revenue": 0,
+    "runtime": 82,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Gleaners and I",
+    "video": false,
+    "vote_average": 7.6,
+    "vote_count": 215
+  },
+  "credits": {
+    "id": 44379,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 147063,
+        "known_for_department": "Acting",
+        "name": "Bodan Litnanski",
+        "original_name": "Bodan Litnanski",
+        "popularity": 0.0409,
+        "profile_path": null,
+        "cast_id": 3,
+        "character": "Self",
+        "credit_id": "52fe4685c3a36847f8103a73",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6817,
+        "known_for_department": "Directing",
+        "name": "Agn\u00e8s Varda",
+        "original_name": "Agn\u00e8s Varda",
+        "popularity": 0.399,
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg",
+        "cast_id": 4,
+        "character": "Self",
+        "credit_id": "52fe4685c3a36847f8103a77",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 147064,
+        "known_for_department": "Sound",
+        "name": "Fran\u00e7ois Wertheimer",
+        "original_name": "Fran\u00e7ois Wertheimer",
+        "popularity": 0.1086,
+        "profile_path": "/1G50lrfqKO4tKRIVmjAuTs2Sk2b.jpg",
+        "cast_id": 5,
+        "character": "Self",
+        "credit_id": "52fe4685c3a36847f8103a7b",
+        "order": 2
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6817,
+        "known_for_department": "Directing",
+        "name": "Agn\u00e8s Varda",
+        "original_name": "Agn\u00e8s Varda",
+        "popularity": 0.399,
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg",
+        "credit_id": "52fe4685c3a36847f8103a69",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6817,
+        "known_for_department": "Directing",
+        "name": "Agn\u00e8s Varda",
+        "original_name": "Agn\u00e8s Varda",
+        "popularity": 0.399,
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg",
+        "credit_id": "52fe4685c3a36847f8103a6f",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6817,
+        "known_for_department": "Directing",
+        "name": "Agn\u00e8s Varda",
+        "original_name": "Agn\u00e8s Varda",
+        "popularity": 0.399,
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg",
+        "credit_id": "5a7d4e55c3a3684481002400",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1345865,
+        "known_for_department": "Editing",
+        "name": "Jean-Baptiste Morin",
+        "original_name": "Jean-Baptiste Morin",
+        "popularity": 0.1432,
+        "profile_path": null,
+        "credit_id": "5a7d4e650e0a263e79002787",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1974856,
+        "known_for_department": "Editing",
+        "name": "Laurent Pineau",
+        "original_name": "Laurent Pineau",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "credit_id": "5a7d4e74c3a368447d00247c",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1505714,
+        "known_for_department": "Sound",
+        "name": "Isabelle Olivier",
+        "original_name": "Isabelle Olivier",
+        "popularity": 0.0229,
+        "profile_path": null,
+        "credit_id": "5a7d4e870e0a263e790027ae",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1536671,
+        "known_for_department": "Sound",
+        "name": "Joanna Bruzdowicz",
+        "original_name": "Joanna Bruzdowicz",
+        "popularity": 0.1673,
+        "profile_path": null,
+        "credit_id": "5a7d4e990e0a263e85002874",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1598833,
+        "known_for_department": "Camera",
+        "name": "Didier Doussin",
+        "original_name": "Didier Doussin",
+        "popularity": 0.0533,
+        "profile_path": null,
+        "credit_id": "5a7d4ea79251415509002440",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1501039,
+        "known_for_department": "Camera",
+        "name": "St\u00e9phane Krausz",
+        "original_name": "St\u00e9phane Krausz",
+        "popularity": 0.5935,
+        "profile_path": null,
+        "credit_id": "5a7d4eba9251415501002334",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1974857,
+        "known_for_department": "Camera",
+        "name": "Didier Rouget",
+        "original_name": "Didier Rouget",
+        "popularity": 0.1606,
+        "profile_path": null,
+        "credit_id": "5a7d4ec60e0a263e7c00296b",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1605716,
+        "known_for_department": "Camera",
+        "name": "Pascal Sautelet",
+        "original_name": "Pascal Sautelet",
+        "popularity": 0.055,
+        "profile_path": null,
+        "credit_id": "5a7d4eda0e0a263e79002808",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6817,
+        "known_for_department": "Directing",
+        "name": "Agn\u00e8s Varda",
+        "original_name": "Agn\u00e8s Varda",
+        "popularity": 0.399,
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg",
+        "credit_id": "5a7d4ee7c3a36844680026dc",
+        "department": "Camera",
+        "job": "Director of Photography"
+      }
+    ]
+  },
+  "videos": {
+    "id": 44379,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Gleaners and I - Trailer - SFF 19",
+        "key": "XZF3VRGgxTU",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2019-05-28T05:39:03.000Z",
+        "id": "623e3b43b3316b005a36446d"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 44379,
+    "keywords": [
+      {
+        "id": 254,
+        "name": "france"
+      },
+      {
+        "id": 548,
+        "name": "countryside"
+      },
+      {
+        "id": 10528,
+        "name": "collecting"
+      },
+      {
+        "id": 11665,
+        "name": "handheld camera"
+      },
+      {
+        "id": 182621,
+        "name": "salvage"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 190061,
+        "name": "harvest"
+      },
+      {
+        "id": 207506,
+        "name": "trash"
+      },
+      {
+        "id": 239329,
+        "name": "potatoes"
+      },
+      {
+        "id": 240183,
+        "name": "rubbish dump"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 44379,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=AU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 75
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BB",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BG",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BM",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BO",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BS",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=BY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 65
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 65
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 69
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CL",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CO",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CR",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 13
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=DK",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=DO",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=EE",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/tGvAD4O9obFP3DfOrDn8NaRQ6eT.jpg",
+            "provider_id": 1742,
+            "provider_name": "Acontra Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 25
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 25
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 15
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 78
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GF",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 75
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GR",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=HK",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=HN",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=HU",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/5zNYQG7TVVAEWbnhrcnKsEGk8xR.jpg",
+            "provider_id": 2537,
+            "provider_name": "IFI@Home",
+            "display_priority": 16
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/5zNYQG7TVVAEWbnhrcnKsEGk8xR.jpg",
+            "provider_id": 2537,
+            "provider_name": "IFI@Home",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 38
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IS",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 47
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=JM",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/qHThQdkJuROK0k5QTCrknaNukWe.jpg",
+            "provider_id": 1883,
+            "provider_name": "TVING",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LI",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MD",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 6
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MX",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=NL",
+        "rent": [
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 26
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 26
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=NZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 48
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PE",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PT",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=PY",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=QA",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=RO",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=RU",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SK",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TH",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TR",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 135
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 135
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=VA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=VE",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=YE",
+        "rent": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/44379-les-glaneurs-et-la-glaneuse/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      }
+    }
+  }
+}

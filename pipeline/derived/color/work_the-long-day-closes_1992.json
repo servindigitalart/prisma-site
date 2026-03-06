@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-long-day-closes_1992",
+  "processed_at": "2026-02-28T06:44:57.291490+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The entire film is bathed in a distinct, saturated golden/amber color grade, evoking a sense of memory and the past.",
+      "Interiors of Bud's home, the pub, and the cinema are consistently lit with warm, golden hues.",
+      "Iconic still frames and promotional images feature characters (especially Bud) illuminated by this amber light."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-long-day-closes_1992",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:44:57.287839Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:44:57.287828Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-long-day-closes_1992",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_howl-s-moving-castle_2004",
+  "processed_at": "2026-02-28T06:02:44.531359+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "verde_lima",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Howl's signature deep blue jacket, a prominent costume throughout the film.",
+      "The vast, consistently deep blue skies that serve as a dominant backdrop for the castle and flying scenes.",
+      "Blue elements present in magical effects and the visual design of certain environments."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_howl-s-moving-castle_2004",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:02:44.527784Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:02:44.527773Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_howl-s-moving-castle_2004",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

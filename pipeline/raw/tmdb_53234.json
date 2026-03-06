@@ -1,0 +1,974 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/ApHMimmIYcIW0Foz17aTZNX7Ef3.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 53234,
+    "imdb_id": "tt0084116",
+    "origin_country": [
+      "IT"
+    ],
+    "original_language": "it",
+    "original_title": "Identificazione di una donna",
+    "overview": "Movie director Niccol\u00f2 has just been left by his wife. Subsequently he embarks on an obsessive relationship with a young woman who eventually leaves him and disappears while searching for her, he meets a variety of other willing girls. This gives him the idea of making a movie about women's relationships. He starts to search for a woman who can play the leading part in the movie.",
+    "popularity": 0.8942,
+    "poster_path": "/5SOYgzI3CeWgCKlPYkv43C11ZfZ.jpg",
+    "production_companies": [
+      {
+        "id": 9,
+        "logo_path": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "name": "Gaumont",
+        "origin_country": "FR"
+      },
+      {
+        "id": 1583,
+        "logo_path": "/gKP4egMJOi5rksdnplfPV1wa0sd.png",
+        "name": "RAI",
+        "origin_country": "IT"
+      },
+      {
+        "id": 212284,
+        "logo_path": null,
+        "name": "Iter Film",
+        "origin_country": "IT"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "IT",
+        "name": "Italy"
+      }
+    ],
+    "release_date": "1982-10-15",
+    "revenue": 0,
+    "runtime": 128,
+    "spoken_languages": [
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Identification of a Woman",
+    "video": false,
+    "vote_average": 5.829,
+    "vote_count": 76
+  },
+  "credits": {
+    "id": 53234,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21708,
+        "known_for_department": "Acting",
+        "name": "Tomas Milian",
+        "original_name": "Tomas Milian",
+        "popularity": 0.4656,
+        "profile_path": "/ajNHZQgV7fnUefTCtYbI553dd2r.jpg",
+        "cast_id": 3,
+        "character": "Nicolo",
+        "credit_id": "52fe485ac3a36847f8163245",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 147539,
+        "known_for_department": "Acting",
+        "name": "Daniela Silverio",
+        "original_name": "Daniela Silverio",
+        "popularity": 0.3997,
+        "profile_path": "/3hsvurOUC50QeLNmUIBsudWvDo1.jpg",
+        "cast_id": 4,
+        "character": "Mavi",
+        "credit_id": "52fe485ac3a36847f8163249",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 91573,
+        "known_for_department": "Acting",
+        "name": "Christine Boisson",
+        "original_name": "Christine Boisson",
+        "popularity": 0.1968,
+        "profile_path": "/xZzstootMUuQxcG8wtpAItirS5W.jpg",
+        "cast_id": 5,
+        "character": "Ida",
+        "credit_id": "52fe485ac3a36847f816324d",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 32915,
+        "known_for_department": "Acting",
+        "name": "Lara Wendel",
+        "original_name": "Lara Wendel",
+        "popularity": 0.7116,
+        "profile_path": "/qsyeG0DpjRuE342SuItNYXqvoRd.jpg",
+        "cast_id": 9,
+        "character": "Girl in Swimming Pool",
+        "credit_id": "52fe485ac3a36847f8163263",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 18339,
+        "known_for_department": "Acting",
+        "name": "Veronica Laz\u0103r",
+        "original_name": "Veronica Laz\u0103r",
+        "popularity": 1.2628,
+        "profile_path": "/dnKrX2ICWB4Pe4EsbCpA8O6Nard.jpg",
+        "cast_id": 10,
+        "character": "Carla",
+        "credit_id": "52fe485ac3a36847f8163267",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 225921,
+        "known_for_department": "Acting",
+        "name": "Enrica Antonioni",
+        "original_name": "Enrica Antonioni",
+        "popularity": 0.0408,
+        "profile_path": "/z2j6cIZ6USH03Sb4yDcUmEvr6A3.jpg",
+        "cast_id": 11,
+        "character": "Nadia (as Enrica Fico)",
+        "credit_id": "52fe485ac3a36847f816326b",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 225922,
+        "known_for_department": "Acting",
+        "name": "Sandra Monteleoni",
+        "original_name": "Sandra Monteleoni",
+        "popularity": 0.1683,
+        "profile_path": null,
+        "cast_id": 12,
+        "character": "Mavi's sister",
+        "credit_id": "52fe485ac3a36847f816326f",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15184,
+        "known_for_department": "Acting",
+        "name": "Marcel Bozzuffi",
+        "original_name": "Marcel Bozzuffi",
+        "popularity": 0.3201,
+        "profile_path": "/m1U5WSvkhfqJx00jPKvZXXuAk0p.jpg",
+        "cast_id": 13,
+        "character": "Mario",
+        "credit_id": "57ef0c2fc3a368766d001268",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 84309,
+        "known_for_department": "Acting",
+        "name": "Gianpaolo Saccarola",
+        "original_name": "Gianpaolo Saccarola",
+        "popularity": 0.344,
+        "profile_path": null,
+        "cast_id": 14,
+        "character": "The Gorilla",
+        "credit_id": "57ef0c3c92514141d900123f",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 100411,
+        "known_for_department": "Acting",
+        "name": "Stefania D'Amario",
+        "original_name": "Stefania D'Amario",
+        "popularity": 0.5877,
+        "profile_path": "/6e0d7OGwoqwnol8AGlXjyFe2jid.jpg",
+        "cast_id": 15,
+        "character": "Landlady's Friend",
+        "credit_id": "57ef0c4e92514141db00121d",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2356,
+        "known_for_department": "Writing",
+        "name": "G\u00e9rard Brach",
+        "original_name": "G\u00e9rard Brach",
+        "popularity": 0.3641,
+        "profile_path": "/mwHDbpsJEIiMCi78UpY1MSFPTdI.jpg",
+        "credit_id": "52fe485ac3a36847f816325f",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "52fe485ac3a36847f8163241",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "52fe485ac3a36847f8163253",
+        "department": "Writing",
+        "job": "Story"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "52fe485ac3a36847f8163259",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15194,
+        "known_for_department": "Camera",
+        "name": "Carlo Di Palma",
+        "original_name": "Carlo Di Palma",
+        "popularity": 0.6754,
+        "profile_path": "/i9bOfpLR2V68gGYv0yqJkjF6qiT.jpg",
+        "credit_id": "590dc5f49251414e9200e9b8",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1586005,
+        "known_for_department": "Sound",
+        "name": "Mario Bramonti",
+        "original_name": "Mario Bramonti",
+        "popularity": 1.3369,
+        "profile_path": null,
+        "credit_id": "5b780bbf0e0a26473c00ffda",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 240121,
+        "known_for_department": "Art",
+        "name": "Paola Comencini",
+        "original_name": "Paola Comencini",
+        "popularity": 0.2377,
+        "profile_path": "/3iVHMjLuYvDxNfkA0E90NYQzffk.jpg",
+        "credit_id": "5b780ba40e0a26473a00ecef",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5560,
+        "known_for_department": "Sound",
+        "name": "Michael Billingsley",
+        "original_name": "Michael Billingsley",
+        "popularity": 0.0767,
+        "profile_path": null,
+        "credit_id": "5b780bb40e0a264736010a06",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1719814,
+        "known_for_department": "Sound",
+        "name": "Alvaro Gramigna",
+        "original_name": "Alvaro Gramigna",
+        "popularity": 0.275,
+        "profile_path": null,
+        "credit_id": "5b780bd6c3a36860df0117ec",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2110043,
+        "known_for_department": "Sound",
+        "name": "John Foxx",
+        "original_name": "John Foxx",
+        "popularity": 0.334,
+        "profile_path": null,
+        "credit_id": "5b780b799251412947010a97",
+        "department": "Sound",
+        "job": "Music"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15189,
+        "known_for_department": "Directing",
+        "name": "Michelangelo Antonioni",
+        "original_name": "Michelangelo Antonioni",
+        "popularity": 0.7937,
+        "profile_path": "/o9QjZcZBkqQg25IW03WPRQfk9tN.jpg",
+        "credit_id": "5b780b83c3a36860ed00f0e0",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1601919,
+        "known_for_department": "Production",
+        "name": "Giorgio Nocella",
+        "original_name": "Giorgio Nocella",
+        "popularity": 0.1258,
+        "profile_path": null,
+        "credit_id": "5b780b620e0a264728010b48",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2110042,
+        "known_for_department": "Production",
+        "name": "Antonio Macri",
+        "original_name": "Antonio Macri",
+        "popularity": 0.0318,
+        "profile_path": null,
+        "credit_id": "5b780b6fc3a36860e600d409",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 101547,
+        "known_for_department": "Art",
+        "name": "Massimo Tavazzi",
+        "original_name": "Massimo Tavazzi",
+        "popularity": 0.0731,
+        "profile_path": null,
+        "credit_id": "5b780b9a925141295b010fdd",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5557,
+        "known_for_department": "Art",
+        "name": "Andrea Crisanti",
+        "original_name": "Andrea Crisanti",
+        "popularity": 0.1208,
+        "profile_path": null,
+        "credit_id": "5b780b8f0e0a26473a00ecd0",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15191,
+        "known_for_department": "Writing",
+        "name": "Tonino Guerra",
+        "original_name": "Tonino Guerra",
+        "popularity": 0.474,
+        "profile_path": "/5fO9Jrbnp0LbvVisSXhLJiVvxaL.jpg",
+        "credit_id": "5b780b510e0a26472e010b3b",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2221673,
+        "known_for_department": "Sound",
+        "name": "Colin Moulding",
+        "original_name": "Colin Moulding",
+        "popularity": 0.5065,
+        "profile_path": null,
+        "credit_id": "68d06a7b775c266ea3cc366a",
+        "department": "Sound",
+        "job": "Songs"
+      }
+    ]
+  },
+  "videos": {
+    "id": 53234,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Identificazione di una donna (1982) Trailer",
+        "key": "_t5Za_vuM70",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2010-04-12T08:26:18.000Z",
+        "id": "5e5fca569b86160015fff4f9"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 53234,
+    "keywords": []
+  },
+  "watch_providers": {
+    "id": 53234,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=AT",
+        "ads": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=CH",
+        "ads": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 9
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 25
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/4bKgwiotEIN6wiZNQhQfjp7qPCk.jpg",
+            "provider_id": 28,
+            "provider_name": "Netzkino",
+            "display_priority": 25
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 98
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=IT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 47
+          },
+          {
+            "logo_path": "/iayPGzRbLdE2kXDzvF5QTbRkEHe.jpg",
+            "provider_id": 2483,
+            "provider_name": "MYmovies One",
+            "display_priority": 86
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/53234-identificazione-di-una-donna/watch?locale=VA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      }
+    }
+  }
+}

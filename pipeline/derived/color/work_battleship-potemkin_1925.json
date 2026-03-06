@@ -1,0 +1,50 @@
+{
+  "work_id": "work_battleship-potemkin_1925",
+  "processed_at": "2026-02-28T04:37:42.323930+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_frenetico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The entire film is shot in black and white with a pronounced use of high contrast lighting and deep shadows.",
+      "The iconic Odessa Steps sequence masterfully employs sharp contrasts between figures and backgrounds to convey chaos and violence.",
+      "Dramatic close-ups of faces are rendered with stark lighting to emphasize emotion and suffering."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_battleship-potemkin_1925",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:37:42.319445Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:37:42.319434Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_battleship-potemkin_1925",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_frenetico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

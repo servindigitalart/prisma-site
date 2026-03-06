@@ -1,0 +1,55 @@
+{
+  "work_id": "work_rear-window_1954",
+  "processed_at": "2026-02-28T06:28:51.727313+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "verde_esmeralda"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Golden-tan walls and furnishings of L.B. Jefferies' apartment throughout the film",
+      "Warm, incandescent lighting creating amber glows in the apartments seen through the window, especially at night",
+      "The red-brown brick facades of the courtyard apartments under natural and artificial light",
+      "Grace Kelly's iconic green suit providing a vibrant, jewel-toned contrast"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_rear-window_1954",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:28:51.722018Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:28:51.722007Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_rear-window_1954",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_esmeralda"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

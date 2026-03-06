@@ -1,0 +1,50 @@
+{
+  "work_id": "work_werckmeister-harmonies_2001",
+  "processed_at": "2026-02-28T06:57:13.798337+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The entire film is shot in high-contrast black and white.",
+      "B\u00e9la Tarr's signature long takes heavily rely on chiaroscuro compositions.",
+      "Iconic scenes like the whale's arrival and the mob's rampage are defined by stark black and white lighting and deep shadows."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_werckmeister-harmonies_2001",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:57:13.794612Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:57:13.794601Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_werckmeister-harmonies_2001",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

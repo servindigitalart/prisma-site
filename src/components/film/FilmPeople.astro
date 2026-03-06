@@ -1,0 +1,348 @@
+---
+import type { FilesystemWork } from '../../lib/loaders/loadWork';
+import type { WorkFull, PersonRole } from '../../lib/db/types';
+
+interface Props {
+  work: WorkFull | FilesystemWork;
+  castAwardHighlights?: Record<string, string[]>;
+}
+
+const { work, castAwardHighlights = {} } = Astro.props;
+
+const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
+
+const ROLE_LABELS: Record<string, string> = {
+  director:          'Director',
+  cinematography:    'D.P.',
+  writer:            'Writer',
+  editor:            'Editor',
+  composer:          'Composer',
+  actor:             'Actor',
+  production_design: 'Prod. Design',
+};
+
+type PersonCard = {
+  name: string;
+  role: PersonRole;
+  slug?: string;
+  initials: string;
+  photoUrl: string | null;
+  billingOrder: number | null;
+};
+
+function getInitials(name: string): string {
+  return name
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0]?.toUpperCase() ?? '')
+    .join('');
+}
+
+// Roles that qualify as "Key Filmmakers"
+const FILMMAKER_ROLES: PersonRole[] = ['director', 'writer'];
+const CREW_ROLES: PersonRole[]      = ['cinematography', 'editor', 'composer'];
+
+// Filmmakers grouped by person — multiple roles collapse into one card
+type FilmmakerEntry = { card: PersonCard; roles: PersonRole[] };
+const filmmakersMap = new Map<string, FilmmakerEntry>();
+
+const crew: PersonCard[] = [];
+const cast: PersonCard[] = [];
+
+if ('work_people' in work && Array.isArray(work.work_people)) {
+  const fw = work as WorkFull;
+
+  for (const wp of fw.work_people) {
+    const card: PersonCard = {
+      name:         wp.people.name,
+      role:         wp.role,
+      slug:         wp.people.id.replace(/^person_/, ''),
+      initials:     getInitials(wp.people.name),
+      photoUrl:     wp.people.profile_path ? `${TMDB_IMG}${wp.people.profile_path}` : null,
+      billingOrder: wp.billing_order ?? null,
+    };
+
+    if (FILMMAKER_ROLES.includes(wp.role)) {
+      const key = wp.people.id;
+      if (filmmakersMap.has(key)) {
+        filmmakersMap.get(key)!.roles.push(wp.role);
+      } else {
+        filmmakersMap.set(key, { card, roles: [wp.role] });
+      }
+    } else if (CREW_ROLES.includes(wp.role)) {
+      crew.push(card);
+    } else if (wp.role === 'actor') {
+      cast.push(card);
+    }
+  }
+
+  cast.sort((a, b) => (a.billingOrder ?? 999) - (b.billingOrder ?? 999));
+
+} else if ('people' in work) {
+  const fsWork = work as FilesystemWork;
+  const roleMap = fsWork.people ?? {};
+
+  for (const role of FILMMAKER_ROLES) {
+    const ids = (roleMap as Record<string, string[]>)[role] ?? [];
+    for (const id of ids) {
+      const name = id.replace(/^person_/, '').split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      const card: PersonCard = { name, role: role as PersonRole, slug: id.replace(/^person_/, ''), initials: getInitials(name), photoUrl: null, billingOrder: null };
+      if (filmmakersMap.has(id)) {
+        filmmakersMap.get(id)!.roles.push(role as PersonRole);
+      } else {
+        filmmakersMap.set(id, { card, roles: [role as PersonRole] });
+      }
+    }
+  }
+  for (const role of CREW_ROLES) {
+    const ids = (roleMap as Record<string, string[]>)[role] ?? [];
+    for (const id of ids) {
+      const name = id.replace(/^person_/, '').split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      crew.push({ name, role: role as PersonRole, slug: id.replace(/^person_/, ''), initials: getInitials(name), photoUrl: null, billingOrder: null });
+    }
+  }
+  const castIds = (roleMap as Record<string, string[]>)['cast'] ?? [];
+  for (const id of castIds) {
+    const name = id.replace(/^person_/, '').split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    cast.push({ name, role: 'actor' as PersonRole, slug: id.replace(/^person_/, ''), initials: getInitials(name), photoUrl: null, billingOrder: null });
+  }
+}
+
+const filmmakers = [...filmmakersMap.values()];
+
+if (filmmakers.length === 0 && crew.length === 0 && cast.length === 0) return;
+---
+
+<section class="film-people">
+  <div class="site-container">
+
+    {/* ── Key Filmmakers (director, writer — deduplicated per person) ── */}
+    {filmmakers.length > 0 && (
+      <div class="people-section">
+        <h3 class="people-section__heading">Key Filmmakers</h3>
+        <div class="people-grid people-grid--filmmakers">
+          {filmmakers.map((entry) => (
+            <div class="person-card">
+              <div class="person-card__avatar">
+                {entry.card.photoUrl
+                  ? <img src={entry.card.photoUrl} alt={entry.card.name} class="person-card__photo" loading="lazy" decoding="async" />
+                  : <span class="person-card__initials" aria-hidden="true">{entry.card.initials}</span>
+                }
+              </div>
+              <div class="person-card__info">
+                {entry.card.slug
+                  ? <a href={`/people/${entry.card.slug}`} class="person-card__name">{entry.card.name}</a>
+                  : <span class="person-card__name">{entry.card.name}</span>
+                }
+                <span class="role-badge">
+                  {entry.roles.map(r => ROLE_LABELS[r] ?? r).join(' · ')}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {/* ── Crew (cinematography, editor, composer) ── */}
+    {crew.length > 0 && (
+      <div class="people-section">
+        <h3 class="people-section__heading">Crew</h3>
+        <div class="people-grid people-grid--crew">
+          {crew.map((person) => (
+            <div class="person-card person-card--crew">
+              <div class="person-card__avatar person-card__avatar--sm">
+                {person.photoUrl
+                  ? <img src={person.photoUrl} alt={person.name} class="person-card__photo" loading="lazy" decoding="async" />
+                  : <span class="person-card__initials" aria-hidden="true">{person.initials}</span>
+                }
+              </div>
+              <div class="person-card__info">
+                {person.slug
+                  ? <a href={`/people/${person.slug}`} class="person-card__name">{person.name}</a>
+                  : <span class="person-card__name">{person.name}</span>
+                }
+                <span class="role-badge">{ROLE_LABELS[person.role] ?? person.role}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {/* ── Cast — always visible, rectangular cards matching Crew style ── */}
+    {cast.length > 0 && (
+      <div class="people-section">
+        <h3 class="people-section__heading">Cast ({cast.length})</h3>
+        <div class="people-grid people-grid--cast">
+          {cast.map((person) => {
+            const personFullId = person.slug ? `person_${person.slug}` : '';
+            const awardBadges = castAwardHighlights[personFullId] ?? [];
+            return (
+              <div class="person-card person-card--crew">
+                <div class="person-card__avatar person-card__avatar--sm">
+                  {person.photoUrl
+                    ? <img src={person.photoUrl} alt={person.name} class="person-card__photo" loading="lazy" decoding="async" />
+                    : <span class="person-card__initials" aria-hidden="true">{person.initials}</span>
+                  }
+                </div>
+                <div class="person-card__info">
+                  {person.slug
+                    ? <a href={`/people/${person.slug}`} class="person-card__name">{person.name}</a>
+                    : <span class="person-card__name">{person.name}</span>
+                  }
+                  {awardBadges.length > 0 ? (
+                    <div class="cast-award-badges">
+                      {awardBadges.map(award => (
+                        <span class="cast-award-badge">{award}</span>
+                      ))}
+                    </div>
+                  ) : (
+                    <span class="role-badge">Actor</span>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    )}
+
+  </div>
+</section>
+
+<style>
+.film-people {
+  padding: 4rem 0 0;
+}
+
+/* ── Section wrapper ── */
+.people-section {
+  margin-bottom: 3rem;
+}
+
+.people-section__heading {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+/* ── Card grid ── */
+.people-grid {
+  display: grid;
+  gap: 0.875rem;
+}
+.people-grid--filmmakers {
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
+.people-grid--crew {
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+}
+.people-grid--cast {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+/* ── Person card ── */
+.person-card {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.875rem;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  transition: border-color 160ms ease;
+}
+.person-card:hover { border-color: var(--surface-border-strong); }
+
+.person-card__avatar {
+  width: 52px;
+  aspect-ratio: 3 / 4;
+  border-radius: 3px;
+  background: var(--surface-elevated);
+  border: 1px solid var(--surface-border);
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person-card__avatar--sm {
+  width: 42px;
+}
+
+.person-card__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.person-card__initials {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.person-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.person-card__name {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 160ms ease;
+  text-decoration: none;
+}
+a.person-card__name:hover { color: var(--text-primary); }
+
+.role-badge {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* Career award highlights on cast cards */
+.cast-award-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.cast-award-badge {
+  font-size: 0.58rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--color-ambar_desertico, #C8922B) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-ambar_desertico, #C8922B) 25%, transparent);
+  border-radius: 2px;
+  padding: 0.1em 0.4em;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .people-grid--filmmakers,
+  .people-grid--crew,
+  .people-grid--cast { grid-template-columns: 1fr 1fr; }
+}
+</style>

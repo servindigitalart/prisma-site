@@ -1,0 +1,54 @@
+{
+  "work_id": "work_la-roue_1923",
+  "processed_at": "2026-02-28T06:10:18.281316+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "dinamico_frenetico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive sepia/amber tinting in common restorations and historical reproductions of the film.",
+      "The extensive train sequences, natural landscapes, and working-class interiors are viewed through this warm, aged tint.",
+      "Abel Gance's pioneering use of rapid montage and superimposition further enhances the stylized visual quality, often seen through this dominant color filter."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_la-roue_1923",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:10:18.277680Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:10:18.277668Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_la-roue_1923",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_frenetico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

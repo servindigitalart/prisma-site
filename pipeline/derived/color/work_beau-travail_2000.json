@@ -1,0 +1,55 @@
+{
+  "work_id": "work_beau-travail_2000",
+  "processed_at": "2026-02-28T04:38:07.925599+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.91,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Vast, sun-baked desert landscapes in golden-brown and sand tones.",
+      "Soldiers' light khaki uniforms consistently taking on an amber hue under the desert sun.",
+      "Overall warm, desaturated color grading, particularly in outdoor training sequences.",
+      "Iconic shots of the Foreign Legionnaires moving through the dusty, amber-toned terrain."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_beau-travail_2000",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:38:07.922069Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:38:07.922056Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_beau-travail_2000",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

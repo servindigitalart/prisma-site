@@ -1,0 +1,3031 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/3Z2OhNVU0FhxGZJIq6Gn32UNoKu.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "homepage": "https://citefilms.com/movie/la-jetee",
+    "id": 662,
+    "imdb_id": "tt0056119",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "La Jet\u00e9e",
+    "overview": "A man confronts his past during an experiment that attempts to find a solution to the problems of a post-apocalyptic world caused by a world war.",
+    "popularity": 1.7388,
+    "poster_path": "/elGidsRHXkk8UyrtLbcMhaptDyp.jpg",
+    "production_companies": [
+      {
+        "id": 6116,
+        "logo_path": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "name": "Argos films",
+        "origin_country": "FR"
+      },
+      {
+        "id": 24119,
+        "logo_path": "/iNcPopycyTGDgWy6dDl5cnlfS3n.png",
+        "name": "Radio-T\u00e9l\u00e9vision Fran\u00e7aise",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "1962-02-16",
+    "revenue": 0,
+    "runtime": 29,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "A man's obsession with an image of his past",
+    "title": "La Jet\u00e9e",
+    "video": false,
+    "vote_average": 7.883,
+    "vote_count": 971
+  },
+  "credits": {
+    "id": 662,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9960,
+        "known_for_department": "Acting",
+        "name": "Jean N\u00e9groni",
+        "original_name": "Jean N\u00e9groni",
+        "popularity": 0.1664,
+        "profile_path": "/xYAVdEbiIvYJgDjlW6gROBSAf0L.jpg",
+        "cast_id": 8,
+        "character": "Narrator (voice)",
+        "credit_id": "52fe4266c3a36847f801b73b",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9961,
+        "known_for_department": "Acting",
+        "name": "H\u00e9l\u00e8ne Chatelain",
+        "original_name": "H\u00e9l\u00e8ne Chatelain",
+        "popularity": 1.4065,
+        "profile_path": "/uJF1YsNGKTttrFcPTz20Uqy1j8F.jpg",
+        "cast_id": 9,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b73f",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9962,
+        "known_for_department": "Acting",
+        "name": "Davos Hanich",
+        "original_name": "Davos Hanich",
+        "popularity": 0.0605,
+        "profile_path": "/rjS5UyIrHaI3NNNIK5AT78zoUgV.jpg",
+        "cast_id": 10,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b743",
+        "order": 2
+      },
+      {
+        "adult": true,
+        "gender": 2,
+        "id": 9963,
+        "known_for_department": "Crew",
+        "name": "Jacques Ledoux",
+        "original_name": "Jacques Ledoux",
+        "popularity": 1.4,
+        "profile_path": "/eHrwD3ooCNfHnrR7ITiADlVDKuM.jpg",
+        "cast_id": 11,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b747",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1167681,
+        "known_for_department": "Directing",
+        "name": "Andr\u00e9 Heinrich",
+        "original_name": "Andr\u00e9 Heinrich",
+        "popularity": 0.6274,
+        "profile_path": "/rUSb5tlNO5y3vsIeh9mk7TkxhVp.jpg",
+        "cast_id": 12,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b74b",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1167682,
+        "known_for_department": "Acting",
+        "name": "Jacques Branchu",
+        "original_name": "Jacques Branchu",
+        "popularity": 0.2313,
+        "profile_path": null,
+        "cast_id": 13,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b74f",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1167683,
+        "known_for_department": "Writing",
+        "name": "Pierre Joffroy",
+        "original_name": "Pierre Joffroy",
+        "popularity": 0.923,
+        "profile_path": "/lgt4ILK9zM6HkSEKDBlaKD0DLnI.jpg",
+        "cast_id": 14,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b753",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24854,
+        "known_for_department": "Camera",
+        "name": "\u00c9tienne Becker",
+        "original_name": "\u00c9tienne Becker",
+        "popularity": 0.1526,
+        "profile_path": null,
+        "cast_id": 15,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b757",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1167684,
+        "known_for_department": "Acting",
+        "name": "Philbert von Lifchitz",
+        "original_name": "Philbert von Lifchitz",
+        "popularity": 0.4716,
+        "profile_path": null,
+        "cast_id": 16,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b75b",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 589138,
+        "known_for_department": "Acting",
+        "name": "Ligia Branice",
+        "original_name": "Ligia Branice",
+        "popularity": 1.2493,
+        "profile_path": "/c57onsT7V7wGonErbUwG42gJQ4U.jpg",
+        "cast_id": 22,
+        "character": "",
+        "credit_id": "59e5a5b592514102ae00491f",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1167686,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Janine Klein",
+        "original_name": "Janine Klein",
+        "popularity": 0.2036,
+        "profile_path": null,
+        "cast_id": 18,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b763",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 97083,
+        "known_for_department": "Directing",
+        "name": "William Klein",
+        "original_name": "William Klein",
+        "popularity": 0.3897,
+        "profile_path": "/5SLqYqn6i0KjLXWkl3tvPurMv0R.jpg",
+        "cast_id": 21,
+        "character": "",
+        "credit_id": "5776da68925141069e000573",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1167688,
+        "known_for_department": "Acting",
+        "name": "Germano Facetti",
+        "original_name": "Germano Facetti",
+        "popularity": 0.157,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "",
+        "credit_id": "52fe4266c3a36847f801b76b",
+        "order": 12
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "52fe4266c3a36847f801b713",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 9957,
+        "known_for_department": "Camera",
+        "name": "Jean Chiabaut",
+        "original_name": "Jean Chiabaut",
+        "popularity": 0.0608,
+        "profile_path": null,
+        "credit_id": "52fe4266c3a36847f801b725",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9958,
+        "known_for_department": "Editing",
+        "name": "Jean Ravel",
+        "original_name": "Jean Ravel",
+        "popularity": 0.1002,
+        "profile_path": null,
+        "credit_id": "52fe4266c3a36847f801b731",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "52fe4266c3a36847f801b72b",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": true,
+        "gender": 0,
+        "id": 131778,
+        "known_for_department": "Sound",
+        "name": "Trevor Duncan",
+        "original_name": "Trevor Duncan",
+        "popularity": 0.98,
+        "profile_path": null,
+        "credit_id": "64aa3b16b686b900af9df136",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "67f0680fa9313c7184ad32a4",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2304,
+        "known_for_department": "Production",
+        "name": "Anatole Dauman",
+        "original_name": "Anatole Dauman",
+        "popularity": 0.2348,
+        "profile_path": "/6OMlQTVM3D2lKiVt6eccx7JIMCP.jpg",
+        "credit_id": "67f0f3f5ede8d82f3bad5b75",
+        "department": "Production",
+        "job": "Producer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 662,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer",
+        "key": "jO4W6TPkSD8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2023-10-02T18:00:30.000Z",
+        "id": "67f07bb9cbd55b661fd94b18"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer",
+        "key": "WstrUci5Fbg",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2020-11-02T11:25:03.000Z",
+        "id": "67f07b75f5a80aa5459966b5"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "La Jet\u00e9e at the Akron Art Museum",
+        "key": "uHyMMffwPUA",
+        "published_at": "2009-01-26T20:04:46.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": false,
+        "id": "533ec655c3a3685448000507"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 662,
+    "keywords": [
+      {
+        "id": 90,
+        "name": "paris, france"
+      },
+      {
+        "id": 677,
+        "name": "nuclear war"
+      },
+      {
+        "id": 4458,
+        "name": "post-apocalyptic future"
+      },
+      {
+        "id": 3318,
+        "name": "paris orly airport"
+      },
+      {
+        "id": 4379,
+        "name": "time travel"
+      },
+      {
+        "id": 9741,
+        "name": "radioactivity"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 263548,
+        "name": "short film"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 662,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BB",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 49
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BG",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BH",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BM",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BS",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/7up8PVB6RaL0fDs5XFzjJlq9mg2.jpg",
+            "provider_id": 550,
+            "provider_name": "Tenk",
+            "display_priority": 59
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CL",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 13
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=DO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=EC",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=FI",
+        "buy": [
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/zg1uFDzIchkwrwOW6dq7LFxB4n6.jpg",
+            "provider_id": 1737,
+            "provider_name": "INA  madelen Amazon Channel",
+            "display_priority": 54
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GF",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GI",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=HK",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=HR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ID",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 28
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 28
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=IN",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=IT",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=JM",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=JP",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
+            "provider_id": 15,
+            "provider_name": "Hulu",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5Vn7Tuha1PMQQUpdIAa1aT0bdnx.jpg",
+            "provider_id": 2493,
+            "provider_name": "Cinefil Wow Plus Amazon Channel",
+            "display_priority": 45
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=KW",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=LI",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 6
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MY",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 63
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 32
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NO",
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=NZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=OM",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PA",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PT",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=RO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=SV",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TH",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TW",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 135
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=VE",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=YE",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/662-la-jetee/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      }
+    }
+  }
+}

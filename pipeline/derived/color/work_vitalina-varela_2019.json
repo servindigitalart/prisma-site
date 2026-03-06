@@ -1,0 +1,54 @@
+{
+  "work_id": "work_vitalina-varela_2019",
+  "processed_at": "2026-02-28T06:56:29.091741+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "negro_abismo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.95,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Extreme chiaroscuro lighting defines virtually every frame, with figures appearing to emerge from deep, pervasive black shadows.",
+      "Long takes and a largely static camera emphasize compositions dominated by large areas of darkness and minimal light.",
+      "The overall aesthetic and production design create environments (interiors and exteriors) that are profoundly dark and often indistinguishable from pure black background."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_vitalina-varela_2019",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:56:29.088241Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:56:29.088221Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_vitalina-varela_2019",
+    "color_iconico": "negro_abismo",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

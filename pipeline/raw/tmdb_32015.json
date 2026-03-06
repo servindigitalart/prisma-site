@@ -1,0 +1,982 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/cLKNGx0bFpbtsVOXeaXJw3dNcKQ.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 32015,
+    "imdb_id": "tt0058604",
+    "origin_country": [
+      "CU",
+      "SU"
+    ],
+    "original_language": "es",
+    "original_title": "Soy Cuba",
+    "overview": "Four vignettes on the lives of pre-revolutionary era Cuban people; in Havana, Maria is ashamed when a man she loves discovers how she makes a living. Pedro, an old farmer, discovers that the land he cultivates is being sold to an American company. A student sees his friends attacked by the police while they distribute leaflets supporting Fidel Castro. Finally, a peasant family is threatened by Batista's army.",
+    "popularity": 1.0374,
+    "poster_path": "/qQxv27Lae6Uph7iOEzyZ5BOZxJh.jpg",
+    "production_companies": [
+      {
+        "id": 5175,
+        "logo_path": "/sEc4VmMYh1G09ySm8ThZ5S3gcUS.png",
+        "name": "ICAIC",
+        "origin_country": "CU"
+      },
+      {
+        "id": 344,
+        "logo_path": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "name": "Mosfilm",
+        "origin_country": "SU"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CU",
+        "name": "Cuba"
+      },
+      {
+        "iso_3166_1": "SU",
+        "name": "Soviet Union"
+      }
+    ],
+    "release_date": "1964-10-26",
+    "revenue": 0,
+    "runtime": 141,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Russian",
+        "iso_639_1": "ru",
+        "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Espa\u00f1ol"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "I Am Cuba",
+    "video": false,
+    "vote_average": 7.8,
+    "vote_count": 242
+  },
+  "credits": {
+    "id": 32015,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108773,
+        "known_for_department": "Acting",
+        "name": "Sergio Corrieri",
+        "original_name": "Sergio Corrieri",
+        "popularity": 0.1086,
+        "profile_path": "/hmnSowA99COYoMaOdIo8AnzsRrs.jpg",
+        "cast_id": 6,
+        "character": "Alberto",
+        "credit_id": "52fe44b19251416c910198b3",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1349308,
+        "known_for_department": "Acting",
+        "name": "Salvador Wood",
+        "original_name": "Salvador Wood",
+        "popularity": 0.2192,
+        "profile_path": "/p6zAxTXhoepBx9MfXAgkQoBvCKq.jpg",
+        "cast_id": 14,
+        "character": "",
+        "credit_id": "5524f01f92514171cb008298",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1293291,
+        "known_for_department": "Writing",
+        "name": "Jos\u00e9 Gallardo",
+        "original_name": "Jos\u00e9 Gallardo",
+        "popularity": 0.3395,
+        "profile_path": null,
+        "cast_id": 9,
+        "character": "Pedro",
+        "credit_id": "5300a2ec9251416ae72f17a6",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1060325,
+        "known_for_department": "Sound",
+        "name": "Ra\u00fal Garc\u00eda",
+        "original_name": "Ra\u00fal Garc\u00eda",
+        "popularity": 0.2334,
+        "profile_path": null,
+        "cast_id": 11,
+        "character": "Enrique",
+        "credit_id": "5524efa0c3a3687df3000e0f",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1293290,
+        "known_for_department": "Acting",
+        "name": "Luz Mar\u00eda Collazo",
+        "original_name": "Luz Mar\u00eda Collazo",
+        "popularity": 0.5371,
+        "profile_path": null,
+        "cast_id": 8,
+        "character": "Maria / Betty",
+        "credit_id": "5300a2e39251416ad52f0e84",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2168,
+        "known_for_department": "Acting",
+        "name": "Jean Bouise",
+        "original_name": "Jean Bouise",
+        "popularity": 0.2575,
+        "profile_path": "/oRUMbNX21qfcTmxodcn3SRqkoe6.jpg",
+        "cast_id": 10,
+        "character": "Jim",
+        "credit_id": "5300a2f49251416aee31de1e",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378355,
+        "known_for_department": "Acting",
+        "name": "Alberto Morgan",
+        "original_name": "Alberto Morgan",
+        "popularity": 0.297,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "\u00c1ngel",
+        "credit_id": "61ddc7e1c175b200664c06b6",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378356,
+        "known_for_department": "Acting",
+        "name": "Fausto Mirabal",
+        "original_name": "Fausto Mirabal",
+        "popularity": 0.3111,
+        "profile_path": null,
+        "cast_id": 21,
+        "character": "",
+        "credit_id": "61ddc7fa5c071b0066eaca38",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378358,
+        "known_for_department": "Acting",
+        "name": "Roberto Garc\u00eda York",
+        "original_name": "Roberto Garc\u00eda York",
+        "popularity": 0.3443,
+        "profile_path": null,
+        "cast_id": 22,
+        "character": "American Activist",
+        "credit_id": "61ddc8155c071b001debf47f",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378362,
+        "known_for_department": "Acting",
+        "name": "Mar\u00eda de las Mercedes D\u00edez",
+        "original_name": "Mar\u00eda de las Mercedes D\u00edez",
+        "popularity": 0.1082,
+        "profile_path": null,
+        "cast_id": 23,
+        "character": "",
+        "credit_id": "61ddc82a6e0d72009e997cab",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378363,
+        "known_for_department": "Acting",
+        "name": "B\u00e1rbara Dom\u00ednguez",
+        "original_name": "B\u00e1rbara Dom\u00ednguez",
+        "popularity": 0.017,
+        "profile_path": null,
+        "cast_id": 24,
+        "character": "",
+        "credit_id": "61ddc83ae24b9300416f88fa",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378364,
+        "known_for_department": "Acting",
+        "name": "Jes\u00fas del Monte",
+        "original_name": "Jes\u00fas del Monte",
+        "popularity": 0.088,
+        "profile_path": null,
+        "cast_id": 25,
+        "character": "",
+        "credit_id": "61ddc84cc175b2001c88bf03",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 94913,
+        "known_for_department": "Acting",
+        "name": "Luisa Mar\u00eda Jim\u00e9nez Rodr\u00edquez",
+        "original_name": "Luisa Mar\u00eda Jim\u00e9nez Rodr\u00edquez",
+        "popularity": 0.4816,
+        "profile_path": null,
+        "cast_id": 13,
+        "character": "Teresa",
+        "credit_id": "5524efbd9251415c7c00b2eb",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378365,
+        "known_for_department": "Acting",
+        "name": "Mario Gonz\u00e1lez Broche",
+        "original_name": "Mario Gonz\u00e1lez Broche",
+        "popularity": 0.0621,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "Pablo",
+        "credit_id": "61ddc864b0040a001c647b4d",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378366,
+        "known_for_department": "Acting",
+        "name": "Tony L\u00f3pez",
+        "original_name": "Tony L\u00f3pez",
+        "popularity": 0.0516,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "",
+        "credit_id": "61ddc893c175b20041c70ec9",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378369,
+        "known_for_department": "Acting",
+        "name": "H\u00e9ctor Casta\u00f1eda",
+        "original_name": "H\u00e9ctor Casta\u00f1eda",
+        "popularity": 0.0497,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "",
+        "credit_id": "61ddc8e207291c0067f9c8f2",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3378370,
+        "known_for_department": "Acting",
+        "name": "Rosendo Lamadriz",
+        "original_name": "Rosendo Lamadriz",
+        "popularity": 0.0552,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "",
+        "credit_id": "61ddc8eb5c071b0043f912a5",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378372,
+        "known_for_department": "Acting",
+        "name": "Roberto Villar",
+        "original_name": "Roberto Villar",
+        "popularity": 0.095,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "",
+        "credit_id": "61ddc90eb0040a0041eaeb8d",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1683612,
+        "known_for_department": "Acting",
+        "name": "Roberto Cabrera",
+        "original_name": "Roberto Cabrera",
+        "popularity": 0.2913,
+        "profile_path": null,
+        "cast_id": 31,
+        "character": "",
+        "credit_id": "61ddc91ccb3084001dfb70fd",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378374,
+        "known_for_department": "Acting",
+        "name": "Alfredo \u00c1vila",
+        "original_name": "Alfredo \u00c1vila",
+        "popularity": 0.0382,
+        "profile_path": null,
+        "cast_id": 32,
+        "character": "",
+        "credit_id": "61ddc93d945c20001950d3ac",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378375,
+        "known_for_department": "Acting",
+        "name": "Jos\u00e9 Espinosa",
+        "original_name": "Jos\u00e9 Espinosa",
+        "popularity": 0.0888,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "",
+        "credit_id": "61ddc9511d6c5f004352e685",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378376,
+        "known_for_department": "Acting",
+        "name": "Rafael D\u00edaz",
+        "original_name": "Rafael D\u00edaz",
+        "popularity": 0.1452,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "",
+        "credit_id": "61ddc9771d6c5f00960395ae",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 944598,
+        "known_for_department": "Acting",
+        "name": "Isabel Moreno",
+        "original_name": "Isabel Moreno",
+        "popularity": 0.3702,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "",
+        "credit_id": "61ddc9a9a6fdaa0068f4ce84",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2963397,
+        "known_for_department": "Sound",
+        "name": "Manuel J. Mora",
+        "original_name": "Manuel J. Mora",
+        "popularity": 0.2454,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "",
+        "credit_id": "61ddc9b68cfcc700411b3c72",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 990600,
+        "known_for_department": "Acting",
+        "name": "Raquel Revuelta",
+        "original_name": "Raquel Revuelta",
+        "popularity": 0.3726,
+        "profile_path": null,
+        "cast_id": 37,
+        "character": "The voice of Cuba",
+        "credit_id": "61ddc9d407291c0067f9cb5e",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1044011,
+        "known_for_department": "Acting",
+        "name": "Aram\u00eds Delgado",
+        "original_name": "Aram\u00eds Delgado",
+        "popularity": 0.2939,
+        "profile_path": null,
+        "cast_id": 38,
+        "character": "(uncredited)",
+        "credit_id": "61ddca35b0040a0066108856",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378381,
+        "known_for_department": "Acting",
+        "name": "Ra\u00fal G\u00f3mez",
+        "original_name": "Ra\u00fal G\u00f3mez",
+        "popularity": 0.045,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "Singer (uncredited)",
+        "credit_id": "61ddca55cb30840068e12590",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3378382,
+        "known_for_department": "Acting",
+        "name": "Pepe Ram\u00edrez",
+        "original_name": "Pepe Ram\u00edrez",
+        "popularity": 0.0281,
+        "profile_path": null,
+        "cast_id": 40,
+        "character": "(uncredited)",
+        "credit_id": "61ddca6e945c20001950d734",
+        "order": 27
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108770,
+        "known_for_department": "Writing",
+        "name": "Yevgeny Yevtushenko",
+        "original_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0415\u0432\u0442\u0443\u0448\u0435\u043d\u043a\u043e",
+        "popularity": 0.3619,
+        "profile_path": "/gGOLO9f3uRSm6B0OkVakpZXb9Ns.jpg",
+        "credit_id": "52fe44b19251416c910198a3",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108772,
+        "known_for_department": "Art",
+        "name": "Yevgeni Svidetelev",
+        "original_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u0435\u0432",
+        "popularity": 0.5318,
+        "profile_path": null,
+        "credit_id": "52fe44b19251416c910198af",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108764,
+        "known_for_department": "Directing",
+        "name": "Mikheil Kalatozishvili",
+        "original_name": "\u10db\u10d8\u10ee\u10d4\u10d8\u10da \u10d9\u10d0\u10da\u10d0\u10e2\u10dd\u10d6\u10d8\u10e8\u10d5\u10d8\u10da\u10d8",
+        "popularity": 0.923,
+        "profile_path": "/1RTm958MhWTNjD8CHFx7Z8u2gU7.jpg",
+        "credit_id": "52fe44b19251416c910198b9",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108769,
+        "known_for_department": "Directing",
+        "name": "Enrique Pineda Barnet",
+        "original_name": "Enrique Pineda Barnet",
+        "popularity": 0.5635,
+        "profile_path": "/k6nEIUVR8DC9nf3V9blMo5NG2Po.jpg",
+        "credit_id": "52fe44b19251416c9101989d",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3274678,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Ren\u00e9 Portocarrero",
+        "original_name": "Ren\u00e9 Portocarrero",
+        "popularity": 0.138,
+        "profile_path": null,
+        "credit_id": "616c8f4c53866e0093cedc81",
+        "department": "Costume & Make-Up",
+        "job": "Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3274679,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Luz M. C\u00e1ceres",
+        "original_name": "Luz M. C\u00e1ceres",
+        "popularity": 0.0637,
+        "profile_path": null,
+        "credit_id": "616c8f581365450064dcbdf0",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1632789,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Vera Rudina",
+        "original_name": "\u0412\u0435\u0440\u0430 \u0420\u0443\u0434\u0438\u043d\u0430",
+        "popularity": 0.3074,
+        "profile_path": null,
+        "credit_id": "616c8f63a097dc00920483e8",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2180553,
+        "known_for_department": "Visual Effects",
+        "name": "Boris Travkin",
+        "original_name": "\u0411\u043e\u0440\u0438\u0441 \u0422\u0440\u0430\u0432\u043a\u0438\u043d",
+        "popularity": 0.8245,
+        "profile_path": null,
+        "credit_id": "64132ce7e18e3f0816c571f6",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3965019,
+        "known_for_department": "Crew",
+        "name": "Enrique Fong",
+        "original_name": "Enrique Fong",
+        "popularity": 0.0466,
+        "profile_path": null,
+        "credit_id": "64132cc42667780099a1eda7",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2585829,
+        "known_for_department": "Editing",
+        "name": "Lidiya Tyurina",
+        "original_name": "Lidiya Tyurina",
+        "popularity": 0.23,
+        "profile_path": null,
+        "credit_id": "64132d0f26677800b85ad521",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3965020,
+        "known_for_department": "Crew",
+        "name": "Vasily Pugachev",
+        "original_name": "Vasily Pugachev",
+        "popularity": 0.0546,
+        "profile_path": null,
+        "credit_id": "64132ccf26677800b85ad506",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3965021,
+        "known_for_department": "Crew",
+        "name": "Vladimir Sukharizky",
+        "original_name": "Vladimir Sukharizky",
+        "popularity": 0.0177,
+        "profile_path": null,
+        "credit_id": "64132cdbe18e3f07e954c865",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3965022,
+        "known_for_department": "Visual Effects",
+        "name": "A. Vinokurov",
+        "original_name": "A. Vinokurov",
+        "popularity": 0.1047,
+        "profile_path": null,
+        "credit_id": "64132cf8b4224200f79209cb",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108771,
+        "known_for_department": "Camera",
+        "name": "Sergei Urusevsky",
+        "original_name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0423\u0440\u0443\u0441\u0435\u0432\u0441\u043a\u0438\u0439",
+        "popularity": 0.5893,
+        "profile_path": "/oz95CfL0V9CnKj9KWRWcCQ6HB8X.jpg",
+        "credit_id": "66521fe8cb9d2f74f43494dd",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1636891,
+        "known_for_department": "Sound",
+        "name": "Carlos Fari\u00f1as",
+        "original_name": "Carlos Fari\u00f1as",
+        "popularity": 0.1818,
+        "profile_path": null,
+        "credit_id": "66521fcd6277ad2806170e63",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3378391,
+        "known_for_department": "Writing",
+        "name": "Nina Glagoleva",
+        "original_name": "Nina Glagoleva",
+        "popularity": 0.1714,
+        "profile_path": null,
+        "credit_id": "686940cb9772f95ef7a953e6",
+        "department": "Writing",
+        "job": "Script Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2349193,
+        "known_for_department": "Production",
+        "name": "Konstantin Stenkin",
+        "original_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d \u0421\u0442\u0435\u043d\u043a\u0438\u043d",
+        "popularity": 0.5566,
+        "profile_path": "/uSfAerewVTJh9iBiGa5tZ7It1z.jpg",
+        "credit_id": "689ced24993a5e9777268e0a",
+        "department": "Production",
+        "job": "Executive Producer's Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 5624078,
+        "known_for_department": "Production",
+        "name": "T. Vargina",
+        "original_name": "T. Vargina",
+        "popularity": 0.0118,
+        "profile_path": null,
+        "credit_id": "689ced4b5d3761d8fb8db7c6",
+        "department": "Production",
+        "job": "Executive Producer's Assistant"
+      }
+    ]
+  },
+  "videos": {
+    "id": 32015,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "I Am Cuba (1964) Original US Trailer [HD]",
+        "key": "5RtATwDFvak",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2024-05-06T15:00:08.000Z",
+        "id": "68e13924bead25820c9ca3d1"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "I AM CUBA Restoration Trailer [1964]",
+        "key": "OdERW1MLr6s",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Teaser",
+        "official": false,
+        "published_at": "2022-03-21T01:25:57.000Z",
+        "id": "623d79a64fd141005ecfe8ff"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 32015,
+    "keywords": [
+      {
+        "id": 11196,
+        "name": "rebellion"
+      },
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 701,
+        "name": "cuba"
+      },
+      {
+        "id": 2903,
+        "name": "propaganda"
+      },
+      {
+        "id": 6057,
+        "name": "peace"
+      },
+      {
+        "id": 4402,
+        "name": "peasant"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 7937,
+        "name": "cuban revolution"
+      },
+      {
+        "id": 10329,
+        "name": "wealth"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 13160,
+        "name": "university"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 32015,
+    "results": {
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/32015-soy-cuba/watch?locale=CA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/32015-soy-cuba/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/32015-soy-cuba/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/32015-soy-cuba/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/l8nPh3HtqfIJiFTYT7RdNdsv1XD.jpg",
+            "provider_id": 2135,
+            "provider_name": "Kino Film Collection",
+            "display_priority": 209
+          }
+        ]
+      }
+    }
+  }
+}

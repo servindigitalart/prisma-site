@@ -1,0 +1,56 @@
+{
+  "work_id": "work_histoire-s-du-cinema-1b-a-single-hi-story_1989",
+  "processed_at": "2026-02-28T06:02:09.195894+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "ambar_desertico",
+      "monocromatico_intimo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "Pervasive desaturated blue-green tinting applied by Godard to archival film clips and photographs.",
+      "Superimposed images frequently feature a cool, melancholic, blue-green wash.",
+      "The overall visual filter applied to much of the diverse source material leans towards teal/blue-green hues."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_histoire-s-du-cinema-1b-a-single-hi-story_1989",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:02:09.192284Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:02:09.192272Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_histoire-s-du-cinema-1b-a-single-hi-story_1989",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "monocromatico_intimo"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

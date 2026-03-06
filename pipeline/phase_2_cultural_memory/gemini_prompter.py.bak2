@@ -1,0 +1,188 @@
+#!/usr/bin/env python3
+"""
+Phase 2: Cultural Memory - Gemini Prompter
+Aligned with color_doctrine.json v1.1
+
+Key principle: "What color do people think of when they remember this film?"
+"""
+
+from typing import Dict, Any
+
+
+SYSTEM_PROMPT = """You are a film culture expert analyzing how films live in popular memory.
+
+Your task is to identify the ICONIC COLOR and visual qualities that audiences
+and the general public most strongly associate with this film.
+
+CRITICAL INSTRUCTIONS:
+- Focus on POPULAR PERCEPTION (marketing, posters, audience memory, cultural impact)
+- NOT academic analysis, cinematography theory, or symbolic interpretation
+- What color do people instinctively think of when they hear the film's title?
+- How is the film remembered visually in pop culture?
+
+Sources to prioritize:
+1. Movie posters and promotional materials
+2. Cultural impact (memes, references, parodies, "that [color] movie")
+3. Letterboxd reviews, IMDb discussions, Reddit threads
+4. Wikipedia visual descriptions (not symbolism sections)
+5. Marketing campaigns and trailers
+6. Audience memory: "I remember it being very [color]"
+
+Avoid prioritizing:
+- Deep symbolic color analysis
+- Film theory discourse on color as metaphor
+- Academic papers on cinematography
+- Director interviews about artistic intent (unless discussing audience reception)
+
+Think like this: "If someone saw this film once, 5 years ago, what color would they remember?"
+
+Answer as if you're explaining to a casual moviegoer, not a film scholar."""
+
+
+# Official Prisma palette — map LLM color names to these IDs
+PRISMA_PALETTE = """
+PRISMA OFFICIAL COLOR PALETTE (use ONLY these IDs in your response):
+
+| ID                    | Color          | HEX     | Cultural Context                          |
+|-----------------------|----------------|---------|-------------------------------------------|
+| rojo_pasional         | Deep Red       | #8E1B1B | Passion, violence, desire, intensity      |
+| naranja_apocaliptico  | Burnt Orange   | #C4471D | Chaos, fire, dystopia, warfare            |
+| ambar_desertico       | Amber/Gold     | #C98A2E | Nostalgia, western, warmth, memory        |
+| amarillo_ludico       | Bright Yellow  | #F2C94C | Joy, whimsy, innocence, childhood         |
+| verde_lima            | Lime Green     | #7BC96F | Vitality, nature, youth, renewal          |
+| verde_esmeralda       | Emerald Green  | #1F7A5C | Elegance, mystery, jewel tones            |
+| verde_distopico       | Dark Green     | #2F4F3E | Surveillance, decay, cyberpunk, Matrix    |
+| cian_melancolico      | Teal/Cyan      | #4A7C8C | Urban melancholy, rain, isolation         |
+| azul_nocturno         | Dark Blue      | #1B2A41 | Night, noir, mystery, neon rain           |
+| violeta_cinetico      | Electric Violet| #5B3FA4 | Neon, energy, 80s, surreal motion         |
+| purpura_onirico       | Dream Purple   | #7A3E6D | Dreamlike, romantic, otherworldly         |
+| magenta_pop           | Hot Pink       | #D63384 | Rebellion, pop culture, Barbie energy     |
+| claroscuro_dramatico  | B&W High Contrast | —    | Noir, expressionist, dramatic shadows     |
+| monocromatico_intimo  | B&W Soft       | —       | Intimate, naturalistic, Roma-like         |
+"""
+
+
+def build_cultural_memory_prompt(
+    work_id: str,
+    title: str,
+    year: int,
+    director: str = None,
+    countries: list = None,
+    genres: list = None
+) -> str:
+
+    context_parts = [f"Film: {title} ({year})"]
+    if director:
+        context_parts.append(f"Director: {director}")
+    if genres:
+        context_parts.append(f"Genres: {', '.join(genres)}")
+    if countries:
+        context_parts.append(f"Countries: {', '.join(countries)}")
+
+    film_context = "\n".join(context_parts)
+
+    prompt = f"""{film_context}
+
+{PRISMA_PALETTE}
+
+QUESTIONS TO ANSWER:
+
+1. ICONIC COLOR MEMORY:
+   When people think about "{title}", what single Prisma color ID do they most strongly associate with it?
+
+   Consider:
+   - The movie poster (what color dominates?)
+   - A signature costume, prop, or set (the iconic visual)
+   - Marketing materials and trailers
+   - A visually dominant scene everyone remembers
+   - How people describe it: "that [color] movie"
+   - Cultural references (parodies, memes, homages)
+
+   Answer with:
+   - iconic_color: ONE Prisma ID from the table above
+   - color_confidence: high / medium / low
+   - color_reasoning: 2-4 sentences explaining WHY people remember this color
+     (Be specific: poster? costume? set? marketing? cultural impact?)
+
+2. SECONDARY COLORS (exactly up to 3):
+   List up to 3 other Prisma color IDs that people might associate with this film.
+   Each must be a valid Prisma ID from the table above.
+   If fewer than 3 exist, list only the ones that genuinely apply.
+   If none exist, return an empty array.
+
+3. VISUAL RHYTHM (how people remember pacing/energy):
+   Choose ONE:
+   - dinamico_frenetico (chaotic, hyperactive — Uncut Gems, Run Lola Run)
+   - dinamico_energico (active but controlled — action, kinetic camerawork)
+   - moderado_balanceado (classic narrative flow — most films)
+   - lento_contemplativo (slow cinema — Wong Kar-wai, Malick)
+   - estatico_ritualistico (minimal movement — Tarkovsky, The Lighthouse)
+
+4. EMOTIONAL TEMPERATURE (how people remember the feel):
+   Choose ONE:
+   - calido_apasionado (intense, fiery, visceral)
+   - calido_nostalgico (golden, tender, bittersweet memory)
+   - neutral_contemplativo (observational, balanced)
+   - frio_melancolico (blue, sad, introspective)
+   - frio_perturbador (alienating, unsettling, cold tension)
+
+5. VISUAL ABSTRACTION (how people remember the style):
+   Choose ONE:
+   - extremadamente_realista (documentary-like, naturalistic)
+   - realista_con_estilizacion (grounded but cinematic)
+   - estilizado (clear artistic choices, heightened)
+   - muy_estilizado (theatrical, expressionistic, Wes Anderson-like)
+   - extremadamente_abstracto (surreal, dreamlike, Lynch-like)
+
+IMPORTANT: Base all answers on POPULAR MEMORY, not film theory.
+If the color is obvious (e.g., Barbie = magenta_pop, The Matrix = verde_distopico), say so clearly.
+If there is NO clear color association, say "no clear consensus" in reasoning.
+
+OUTPUT FORMAT — respond ONLY with valid JSON, no markdown, no commentary:
+{{
+  "iconic_color": "verde_distopico",
+  "color_confidence": "high",
+  "color_reasoning": "The Matrix is universally remembered as 'the green movie' due to the green digital rain code, the green tint in Matrix world scenes, and a marketing campaign that emphasized this sickly artificial green. It is one of cinema's most iconic color associations.",
+  "secondary_colors": ["azul_nocturno", "rojo_pasional"],
+  "secondary_reasoning": {{
+    "azul_nocturno": "The real world scenes are cold, dark blue — Zion and the ship interior",
+    "rojo_pasional": "The red pill / blue pill choice — red is the film's key symbolic contrast"
+  }},
+  "visual_rhythm": "dinamico_energico",
+  "emotional_temperature": "frio_perturbador",
+  "abstraction_level": "estilizado",
+  "supporting_evidence": [
+    "Green digital rain code is the film's most iconic visual element",
+    "Marketing campaign used green tint throughout all promotional materials",
+    "Culturally referenced as 'the green movie' in pop culture",
+    "Green tint saturates all scenes set inside the Matrix simulation"
+  ]
+}}"""
+
+    return prompt
+
+
+def extract_perception_response(llm_response: str) -> Dict[str, Any]:
+    import json
+
+    try:
+        data = json.loads(llm_response)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"LLM response is not valid JSON: {e}\nRaw: {llm_response[:300]}")
+
+    required_fields = [
+        "iconic_color",
+        "color_confidence",
+        "color_reasoning",
+        "secondary_colors",
+        "visual_rhythm",
+        "emotional_temperature",
+        "abstraction_level",
+        "supporting_evidence"
+    ]
+
+    missing = [f for f in required_fields if f not in data]
+    if missing:
+        raise ValueError(f"LLM response missing required fields: {missing}")
+
+    return data

@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""
+Phase 2: Cultural Memory Schema
+Aligned with color_doctrine.json v1.1
+"""
+
+from typing import List, Literal, Optional
+from dataclasses import dataclass
+
+
+TemperaturaEmocional = Literal[
+    "calido_apasionado",
+    "calido_nostalgico",
+    "neutral_contemplativo",
+    "frio_melancolico",
+    "frio_perturbador"       # Fixed: was frio_alienado
+]
+
+RitmoVisual = Literal[
+    "dinamico_frenetico",    # Fixed: removed accents for consistency
+    "dinamico_energico",
+    "moderado_balanceado",
+    "lento_contemplativo",
+    "estatico_ritualistico"  # Fixed: was estático_meditativo
+]
+
+GradoAbstraccionVisual = Literal[
+    "extremadamente_realista",
+    "realista_con_estilizacion",
+    "estilizado",
+    "muy_estilizado",
+    "extremadamente_abstracto"
+]
+
+ColorConfidence = Literal["high", "medium", "low"]
+
+# Official Prisma palette IDs from color_doctrine.json v1.1
+PRISMA_COLOR_IDS = [
+    "rojo_pasional",
+    "naranja_apocaliptico",
+    "ambar_desertico",
+    "amarillo_ludico",
+    "verde_lima",
+    "verde_esmeralda",
+    "verde_distopico",
+    "cian_melancolico",
+    "azul_nocturno",
+    "violeta_cinetico",
+    "purpura_onirico",
+    "magenta_pop",
+    "claroscuro_dramatico",   # Monochromatic mode
+    "monocromatico_intimo"    # Monochromatic mode
+]
+
+
+@dataclass
+class CulturalMemoryResult:
+    """
+    Result of cultural memory resolution via Gemini LLM.
+
+    Represents collective perception: how audiences remember and discuss
+    the film's visual identity in popular culture.
+
+    Attributes:
+        work_id: Film identifier
+        iconic_color: Prisma color ID from color_doctrine.json
+        color_confidence: LLM confidence in color association
+        color_consensus_strength: Calculated strength score (0.0-1.0)
+        secondary_colors: Up to 3 secondary Prisma color IDs
+        visual_rhythm: Perceived pacing/energy
+        emotional_temperature: Perceived emotional feel
+        abstraction_level: Perceived visual style
+        supporting_evidence: Why this color (from LLM)
+        llm_raw_response: Full LLM response for audit trail
+    """
+    work_id: str
+    iconic_color: str
+    color_confidence: ColorConfidence
+    color_consensus_strength: float
+    secondary_colors: List[str]
+    visual_rhythm: RitmoVisual
+    emotional_temperature: TemperaturaEmocional
+    abstraction_level: GradoAbstraccionVisual
+    supporting_evidence: List[str]
+    llm_raw_response: str
+
+    def __post_init__(self):
+        if not (0.0 <= self.color_consensus_strength <= 1.0):
+            raise ValueError(
+                f"color_consensus_strength {self.color_consensus_strength} "
+                f"out of bounds [0.0, 1.0]"
+            )
+        if len(self.secondary_colors) > 3:
+            raise ValueError("secondary_colors exceeds max 3")
+        if not self.supporting_evidence:
+            raise ValueError("supporting_evidence cannot be empty")
+
+    @property
+    def reasoning(self) -> str:
+        return "; ".join(self.supporting_evidence) if self.supporting_evidence else ""
+
+    @property
+    def sources_cited(self) -> List[str]:
+        return self.supporting_evidence
+
+    @property
+    def color_temperature(self) -> str:
+        if "calido" in self.emotional_temperature:
+            return "WARM"
+        elif "frio" in self.emotional_temperature:
+            return "COOL"
+        else:
+            return "NEUTRAL"
+
+
+def to_dict(result: CulturalMemoryResult) -> dict:
+    return {
+        "work_id": result.work_id,
+        "iconic_color": result.iconic_color,
+        "color_confidence": result.color_confidence,
+        "color_consensus_strength": result.color_consensus_strength,
+        "secondary_colors": result.secondary_colors,
+        "visual_rhythm": result.visual_rhythm,
+        "emotional_temperature": result.emotional_temperature,
+        "abstraction_level": result.abstraction_level,
+        "supporting_evidence": result.supporting_evidence,
+        "llm_raw_response": result.llm_raw_response[:500] + "..."
+    }

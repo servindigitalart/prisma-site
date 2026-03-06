@@ -1,0 +1,56 @@
+{
+  "work_id": "work_the-spirit-of-the-beehive_1973",
+  "processed_at": "2026-02-28T06:50:01.084746+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.93,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The pervasive golden-amber color grading applied across the entire film.",
+      "The warm, aged tones of the family's isolated house interiors and exteriors.",
+      "The dusty, sun-drenched Castilian landscape where much of the film takes place.",
+      "The visual motif of the beehive and its golden wax, reinforcing the amber palette.",
+      "Iconic shots of Ana illuminated by soft, melancholic, golden light."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-spirit-of-the-beehive_1973",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:50:01.080496Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:50:01.080486Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-spirit-of-the-beehive_1973",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

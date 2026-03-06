@@ -1,0 +1,56 @@
+{
+  "work_id": "work_ran_1985",
+  "processed_at": "2026-02-28T06:27:58.067416+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "naranja_apocaliptico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "rojo_pasional",
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The iconic sequence of the burning castle, engulfed in vibrant orange flames and smoke, dominates a significant portion of the film's climax.",
+      "Widespread battle scenes frequently feature dust, fire, and explosions which contribute to a dominant orange-brown visual palette.",
+      "The desolate, often barren landscapes are graded with warm, earthy tones that lean into the burnt orange spectrum, especially during daytime outdoor scenes."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_ran_1985",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:27:58.063796Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:27:58.063784Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_ran_1985",
+    "color_iconico": "naranja_apocaliptico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

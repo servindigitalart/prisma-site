@@ -1,0 +1,217 @@
+---
+import type { FilesystemWork } from '../../lib/loaders/loadWork';
+import type { WorkFull } from '../../lib/db/types';
+import { isoToFlag, isoToName, countryToSlug } from '../../lib/countries';
+
+interface Props {
+  work: WorkFull | FilesystemWork;
+}
+
+const { work } = Astro.props;
+
+const synopsis: string | null =
+  ('synopsis' in work) ? (work as WorkFull).synopsis : null;
+
+const tagline: string | null =
+  ('tagline' in work) ? (work as WorkFull).tagline : null;
+
+const genres: string[] = work.genres ?? [];
+const countries: string[] = work.countries ?? [];
+
+const TMDB_LOGO = 'https://image.tmdb.org/t/p/w92';
+
+// Extract studios from work
+type StudioEntry = { name: string; slug: string; logoPath: string | null };
+const studios: StudioEntry[] = [];
+if ('work_studios' in work && Array.isArray((work as WorkFull).work_studios)) {
+  for (const ws of (work as WorkFull).work_studios) {
+    studios.push({
+      name: ws.studios.name,
+      slug: ws.studios.id.replace(/^studio_/, ''),
+      logoPath: ws.studios.logo_path ?? null,
+    });
+  }
+} else if ('studios' in work) {
+  for (const s of (work as FilesystemWork).studios ?? []) {
+    const slug = s.replace(/^studio_/, '');
+    const name = slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    studios.push({ name, slug, logoPath: null });
+  }
+}
+
+// If no synopsis available, use color_narrative as fallback
+const colorNarrative: string | null =
+  ('color_narrative' in work) ? (work as FilesystemWork).color_narrative ?? null : null;
+
+const hasContent = synopsis || tagline || colorNarrative;
+---
+
+{hasContent && (
+  <section class="film-synopsis">
+    <div class="site-container">
+      <div class="film-synopsis__inner">
+        {tagline && (
+          <p class="film-synopsis__tagline">"{tagline}"</p>
+        )}
+
+        {synopsis && (
+          <div class="film-synopsis__body">
+            <p>{synopsis}</p>
+          </div>
+        )}
+
+        {!synopsis && colorNarrative && (
+          <div class="film-synopsis__body film-synopsis__body--narrative">
+            <p>{colorNarrative}</p>
+          </div>
+        )}
+
+        <div class="film-synopsis__meta">
+          {genres.length > 0 && (
+            <div class="film-synopsis__meta-row">
+              <span class="film-synopsis__meta-label">Genre</span>
+              <span class="film-synopsis__meta-value">{genres.join(', ')}</span>
+            </div>
+          )}
+          {countries.length > 0 && (
+            <div class="film-synopsis__meta-row">
+              <span class="film-synopsis__meta-label">Origin</span>
+              <span class="film-synopsis__meta-value film-synopsis__countries">
+                {countries.map((iso2) => (
+                  <a href={`/countries/${countryToSlug(iso2)}`} class="film-synopsis__country">
+                    <span aria-hidden="true">{isoToFlag(iso2)}</span>
+                    <span>{isoToName(iso2)}</span>
+                  </a>
+                ))}
+              </span>
+            </div>
+          )}
+          {studios.length > 0 && (
+            <div class="film-synopsis__meta-row">
+              <span class="film-synopsis__meta-label">Production</span>
+              <span class="film-synopsis__meta-value film-synopsis__studios">
+                {studios.map((s) => (
+                  <a href={`/studios/${s.slug}`} class="film-synopsis__studio">
+                    {s.logoPath && (
+                      <img
+                        src={`${TMDB_LOGO}${s.logoPath}`}
+                        alt=""
+                        class="film-synopsis__studio-logo"
+                        loading="lazy"
+                      />
+                    )}
+                    {s.name}
+                  </a>
+                ))}
+              </span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+.film-synopsis {
+  padding: 5rem 0;
+}
+
+.film-synopsis__inner {
+  max-width: var(--content-max-width);
+}
+
+.film-synopsis__tagline {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  color: var(--text-accent);
+  line-height: 1.45;
+  margin-bottom: 2rem;
+}
+
+.film-synopsis__body {
+  margin-bottom: 2.5rem;
+}
+
+.film-synopsis__body p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+}
+
+.film-synopsis__body--narrative p {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.film-synopsis__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.film-synopsis__meta-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.film-synopsis__meta-label {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  width: 5rem;
+}
+
+.film-synopsis__meta-value {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.film-synopsis__countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.film-synopsis__country {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+}
+.film-synopsis__country:hover { color: var(--text-primary); }
+
+.film-synopsis__studios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.film-synopsis__studio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+}
+.film-synopsis__studio:hover { color: var(--text-primary); }
+
+.film-synopsis__studio-logo {
+  height: 20px;
+  width: auto;
+  max-width: 60px;
+  object-fit: contain;
+  opacity: 0.75;
+  filter: brightness(1.1);
+}
+</style>

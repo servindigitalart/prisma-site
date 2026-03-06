@@ -1,0 +1,324 @@
+---
+import type { WorkFull, FestivalMini } from '../../lib/db/types';
+import type { FilesystemWork } from '../../lib/loaders/loadWork';
+import { getFestivalLogoUrl, getFestivalMonogram, isFestivalLogoLocal } from '../../lib/festivalUtils';
+
+interface Props {
+  work: WorkFull | FilesystemWork;
+}
+
+const { work } = Astro.props;
+
+// Only renders for Supabase-backed works that have work_awards rows
+if (!('work_awards' in work) || !Array.isArray(work.work_awards) || work.work_awards.length === 0) {
+  return;
+}
+
+// ── Acting award inference ─────────────────────────────────────────────────
+// Cast sorted by billing_order (top-billed first) — approximation until person_id is populated
+type CastEntry = { name: string; billing_order: number | null };
+const castMembers: CastEntry[] =
+  'work_people' in work && Array.isArray((work as any).work_people)
+    ? (work as any).work_people
+        .filter((wp: any) => wp.role === 'actor')
+        .sort((a: any, b: any) => (a.billing_order ?? 999) - (b.billing_order ?? 999))
+        .map((wp: any) => ({ name: wp.people.name, billing_order: wp.billing_order }))
+    : [];
+
+const ACTING_PATTERNS = [
+  'best actor', 'best actress', 'best supporting actor', 'best supporting actress',
+  'best performance', 'volpi cup', 'best male', 'best female', 'best lead',
+];
+function inferActingActor(awardName: string): string | null {
+  const lower = awardName.toLowerCase();
+  if (!ACTING_PATTERNS.some(p => lower.includes(p))) return null;
+  return castMembers[0]?.name ?? null;
+}
+
+type AwardRow = {
+  id: number;
+  award_id: string;
+  year: number | null;
+  category: string | null;
+  result: 'win' | 'nomination';
+  awards: {
+    id: string;
+    name: string;
+    organization: string;
+    tier: 'A' | 'B' | 'C' | null;
+    is_grand_prize: boolean;
+    festivals: FestivalMini | null;
+  };
+};
+
+const allAwards = work.work_awards as AwardRow[];
+
+const TIER_ORDER: Record<string, number> = { A: 0, B: 1, C: 2, D: 3 };
+
+function sortFn(a: AwardRow, b: AwardRow) {
+  const ta = TIER_ORDER[a.awards?.festivals?.tier ?? a.awards?.tier ?? 'C'] ?? 3;
+  const tb = TIER_ORDER[b.awards?.festivals?.tier ?? b.awards?.tier ?? 'C'] ?? 3;
+  if (ta !== tb) return ta - tb;
+  return (b.year ?? 0) - (a.year ?? 0);
+}
+
+const wins = [...allAwards.filter(wa => wa.result === 'win')].sort(sortFn);
+const noms = [...allAwards.filter(wa => wa.result === 'nomination')].sort(sortFn);
+
+const TIER_COLOR: Record<string, string> = {
+  A: '#C98A2E',
+  B: 'rgba(255,255,255,0.3)',
+  C: 'rgba(255,255,255,0.15)',
+  D: 'rgba(255,255,255,0.08)',
+};
+
+function tierColor(wa: AwardRow): string {
+  const t = wa.awards.festivals?.tier ?? wa.awards.tier ?? '';
+  return TIER_COLOR[t] ?? TIER_COLOR['C'];
+}
+
+function festivalName(wa: AwardRow): string {
+  return wa.awards.festivals?.name ?? wa.awards.organization;
+}
+
+function festivalHref(wa: AwardRow): string | undefined {
+  const fid = wa.awards.festivals?.id;
+  return fid ? `/festivals/${fid.replace(/^festival_/, '')}` : undefined;
+}
+---
+
+<section class="film-awards">
+  <div class="site-container">
+    <h2 class="awards-label">Awards & Recognition</h2>
+
+    {/* ── Wins ── */}
+    {wins.length > 0 && (
+      <div class="wins-grid">
+        {wins.map(wa => {
+          const color  = tierColor(wa);
+          const tier   = wa.awards.festivals?.tier ?? wa.awards.tier;
+          const href   = festivalHref(wa);
+          const actor  = inferActingActor(wa.awards.name);
+          return (
+            <a
+              href={href}
+              class="award-card"
+              style={`--tc: ${color}`}
+              aria-label={`${wa.awards.name} — ${festivalName(wa)} ${wa.year ?? ''}`}
+            >
+              {(() => {
+                const logoUrl = getFestivalLogoUrl(wa.awards.festivals?.logo_path ?? null);
+                const isLocal = isFestivalLogoLocal(wa.awards.festivals?.logo_path ?? null);
+                const monogram = getFestivalMonogram(festivalName(wa));
+                return logoUrl
+                  ? <img src={logoUrl} alt="" class={`award-fest-logo${isLocal ? ' festival-logo--local' : ''}`} loading="lazy" />
+                  : <span class="award-monogram" aria-hidden="true" style={`background: color-mix(in srgb, ${tierColor(wa)} 15%, transparent)`}>{monogram}</span>;
+              })()}
+              <div class="award-body">
+                <span class="award-name">{wa.awards.name}</span>
+                <span class="award-meta">
+                  {actor && <>{actor} &middot; </>}
+                  {festivalName(wa)}{wa.year && <> &middot; {wa.year}</>}
+                </span>
+              </div>
+              {tier && (
+                <span class="award-tier-badge" style={`color: ${color}`}>[{tier}]</span>
+              )}
+            </a>
+          );
+        })}
+      </div>
+    )}
+
+    {/* ── Nominations ── */}
+    {noms.length > 0 && (
+      <div class="noms-block">
+        <h3 class="noms-label">Nominations</h3>
+        <ul class="noms-list" role="list">
+          {noms.map(wa => {
+            const tier = wa.awards.festivals?.tier ?? wa.awards.tier;
+            return (
+              <li class="nom-row">
+                <span class="nom-name">{wa.awards.name}</span>
+                <span class="nom-sep" aria-hidden="true">&middot;</span>
+                <span class="nom-festival">{festivalName(wa)}</span>
+                {wa.year && <span class="nom-year">{wa.year}</span>}
+                {tier && <span class="nom-tier">[{tier}]</span>}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    )}
+
+  </div>
+</section>
+
+<style>
+.film-awards {
+  padding: 4rem 0 0;
+}
+
+/* ── Section headings ── */
+.awards-label {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.noms-label {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 0.875rem;
+}
+
+/* ── Win cards grid ── */
+.wins-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.625rem;
+}
+
+.award-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-left: 3px solid var(--tc, var(--surface-border-strong));
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background var(--duration-fast) ease;
+}
+.award-card:hover { background: var(--surface-elevated); }
+
+/* non-link cards (no festival href) */
+.award-card:not([href]) { cursor: default; }
+
+/* ── Festival logo / monogram ── */
+.award-fest-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.festival-logo--local {
+  filter: invert(1) brightness(2);
+  opacity: 0.9;
+}
+
+.award-monogram {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: #C98A2E;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+}
+
+.award-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.175rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.award-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.award-meta {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.award-tier-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+/* ── Nominations list ── */
+.noms-block {
+  margin-top: 2.5rem;
+}
+
+.noms-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nom-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--surface-border);
+  flex-wrap: wrap;
+}
+.nom-row:last-child { border-bottom: none; }
+
+.nom-name {
+  font-size: 0.825rem;
+  color: var(--text-secondary);
+}
+
+.nom-sep {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.nom-festival {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}
+
+.nom-year {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.nom-tier {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-muted);
+  opacity: 0.65;
+}
+
+@media (max-width: 600px) {
+  .wins-grid { grid-template-columns: 1fr; }
+  .nom-year  { margin-left: 0; }
+}
+</style>

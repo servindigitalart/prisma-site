@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-smiling-madame-beudet_1923",
+  "processed_at": "2026-02-28T06:49:08.773740+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive sepia/amber tinting in most widely distributed and restored versions of the film, coloring interior scenes.",
+      "The warm, aged hue of the tint contributes to the sense of a dusty, decaying bourgeois environment.",
+      "Many iconic frames (e.g., Madame Beudet in her room, the distorted reflections) are seen with this amber saturation."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-smiling-madame-beudet_1923",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:49:08.770265Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:49:08.770253Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-smiling-madame-beudet_1923",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

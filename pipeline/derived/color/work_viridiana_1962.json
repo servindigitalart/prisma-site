@@ -1,0 +1,50 @@
+{
+  "work_id": "work_viridiana_1962",
+  "processed_at": "2026-02-28T06:56:07.101131+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is entirely in black and white, utilizing deep shadows and strong highlights in its cinematography.",
+      "The iconic 'Last Supper' scene with the beggars is a masterclass in chiaroscuro, defining the film's dramatic visual style.",
+      "Viridiana's white nun's habit consistently creates stark visual contrast against the dark, decaying interiors and figures around her."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_viridiana_1962",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:56:07.097744Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:56:07.097733Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_viridiana_1962",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

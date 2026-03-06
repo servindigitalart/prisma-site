@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-godfather-part-ii_1974",
+  "processed_at": "2026-02-28T06:42:50.918385+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Consistent warm, golden-amber color grade across all timelines and locations.",
+      "Prominent use of desaturated tones and deep shadows in interior lighting.",
+      "The overall 'aged photograph' aesthetic, particularly in the flashback sequences of young Vito."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-godfather-part-ii_1974",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:42:50.914206Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:42:50.914195Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-godfather-part-ii_1974",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

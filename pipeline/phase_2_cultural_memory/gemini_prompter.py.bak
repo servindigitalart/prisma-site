@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+"""
+Phase 2: Cultural Memory - Gemini Prompter
+
+Builds prompts that ask about POPULAR PERCEPTION, not academic analysis.
+
+Key principle: "What color do people think of when they remember this film?"
+"""
+
+from typing import Dict, Any
+
+
+SYSTEM_PROMPT = """You are a film culture expert analyzing how films live in popular memory.
+
+Your task is to identify the ICONIC COLOR and visual qualities that audiences
+and the general public most strongly associate with this film.
+
+CRITICAL INSTRUCTIONS:
+- Focus on POPULAR PERCEPTION (marketing, posters, audience memory, cultural impact)
+- NOT academic analysis, cinematography theory, or symbolic interpretation
+- What color do people instinctively think of when they hear the film's title?
+- How is the film remembered visually in pop culture?
+
+Sources to prioritize:
+1. Movie posters and promotional materials
+2. Cultural impact (memes, references, parodies, "that [color] movie")
+3. Letterboxd reviews, IMDb discussions, Reddit threads
+4. Wikipedia visual descriptions (not symbolism sections)
+5. Marketing campaigns and trailers
+6. Audience memory: "I remember it being very [color]"
+
+Avoid prioritizing:
+- Deep symbolic color analysis
+- Film theory discourse on color as metaphor
+- Academic papers on cinematography
+- Director interviews about artistic intent (unless discussing audience reception)
+
+Think like this: "If someone saw this film once, 5 years ago, what color would they remember?"
+
+Answer as if you're explaining to a casual moviegoer, not a film scholar."""
+
+
+def build_cultural_memory_prompt(
+    work_id: str,
+    title: str,
+    year: int,
+    director: str = None,
+    countries: list = None,
+    genres: list = None
+) -> str:
+    """
+    Build a perception-focused prompt for Gemini.
+
+    Args:
+        work_id: Film identifier
+        title: Film title
+        year: Release year
+        director: Director name (optional but helpful)
+        countries: Country codes (optional)
+        genres: Genre list (optional)
+
+    Returns:
+        Formatted prompt string asking about popular perception
+    """
+
+    # Build film context
+    context_parts = [f"Film: {title} ({year})"]
+    if director:
+        context_parts.append(f"Director: {director}")
+    if genres:
+        context_parts.append(f"Genres: {', '.join(genres)}")
+    if countries:
+        context_parts.append(f"Countries: {', '.join(countries)}")
+
+    film_context = "\n".join(context_parts)
+
+    prompt = f"""{film_context}
+
+QUESTIONS TO ANSWER:
+
+1. ICONIC COLOR MEMORY:
+   When people think about "{title}", what color do they most strongly associate with it?
+
+   Consider:
+   - The movie poster (what color dominates?)
+   - A signature costume, prop, or set (the iconic visual)
+   - Marketing materials (trailers, promotional images)
+   - A visually dominant scene everyone remembers
+   - How people describe it: "that [color] movie"
+   - Cultural references (parodies, memes, homages)
+
+   Answer with:
+   - Primary color: ONE WORD (red, blue, green, pink, yellow, orange, purple, white, black, etc.)
+   - Confidence: high/medium/low
+   - Reasoning: 2-4 sentences explaining WHY people remember this color
+     (Be specific: poster? costume? set? marketing? cultural impact?)
+
+2. SECONDARY COLORS (if any):
+   Are there 1-2 other colors people might associate with this film?
+   List them with brief explanations (1 sentence each).
+   If no strong secondary colors, write "none".
+
+3. VISUAL RHYTHM (how people remember pacing/energy):
+   Choose ONE:
+   - frenetic (Mad Max, Uncut Gems, Run Lola Run)
+   - energetic (action movies, kinetic camerawork)
+   - balanced (most films, moderate pacing)
+   - contemplative (slow cinema, Tarkovsky, Malick)
+   - meditative (static camera, minimal movement)
+
+4. EMOTIONAL TEMPERATURE (how people remember the feel):
+   Choose ONE:
+   - warm_passionate (intense, fiery, heated)
+   - warm_nostalgic (golden, tender, bittersweet)
+   - neutral (balanced, neither warm nor cold)
+   - cold_melancholic (blue, sad, introspective)
+   - cold_alienating (distant, isolating, detached)
+
+5. VISUAL ABSTRACTION (how people remember the style):
+   Choose ONE:
+   - extremely_realistic (documentary-like, naturalistic)
+   - realistic_with_style (grounded but cinematic)
+   - stylized (clear artistic choices, heightened)
+   - very_stylized (theatrical, expressionistic, Wes Anderson-like)
+   - extremely_abstract (surreal, dreamlike, Lynch-like)
+
+IMPORTANT: Base all answers on POPULAR MEMORY, not film theory.
+If the color is obvious (e.g., Barbie = pink, The Matrix = green), say so clearly.
+If there's NO clear color association, say "no clear consensus" in reasoning.
+
+OUTPUT FORMAT (JSON):
+{{
+  "iconic_color": "green",
+  "color_confidence": "high",
+  "color_reasoning": "The Matrix is universally remembered as 'the green movie' due to the green digital rain code effect, the green tint in Matrix scenes, and marketing materials that emphasized green. This is one of cinema's most iconic color associations.",
+  "secondary_colors": ["black"],
+  "secondary_reasoning": "Black leather costumes, dark sunglasses, and the Matrix code background",
+  "visual_rhythm": "energetic",
+  "emotional_temperature": "cold_alienating",
+  "abstraction_level": "stylized",
+  "supporting_evidence": [
+    "Green digital rain code is the film's most iconic visual",
+    "Marketing campaign emphasized green tint",
+    "Culturally referenced as 'the green movie'",
+    "Green tint in all Matrix world scenes"
+  ]
+}}
+
+Respond ONLY with valid JSON. No additional commentary."""
+
+    return prompt
+
+
+def extract_perception_response(llm_response: str) -> Dict[str, Any]:
+    """
+    Parse LLM response into structured perception data.
+
+    Args:
+        llm_response: Raw JSON response from Gemini
+
+    Returns:
+        Parsed dict with perception fields
+
+    Raises:
+        ValueError: If response is not valid JSON or missing required fields
+    """
+    import json
+
+    try:
+        data = json.loads(llm_response)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"LLM response is not valid JSON: {e}")
+
+    # Validate required fields
+    required_fields = [
+        "iconic_color",
+        "color_confidence",
+        "color_reasoning",
+        "visual_rhythm",
+        "emotional_temperature",
+        "abstraction_level",
+        "supporting_evidence"
+    ]
+
+    missing = [f for f in required_fields if f not in data]
+    if missing:
+        raise ValueError(f"LLM response missing required fields: {missing}")
+
+    return data

@@ -1,0 +1,5456 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/eeMoFKxjjiCi6iep2GEZtSAMYIr.jpg",
+    "belongs_to_collection": null,
+    "budget": 5300000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "homepage": "",
+    "id": 19,
+    "imdb_id": "tt0017136",
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_title": "Metropolis",
+    "overview": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
+    "popularity": 3.3311,
+    "poster_path": "/kr9wXRN23zLuWJIelahas1mtnYj.jpg",
+    "production_companies": [
+      {
+        "id": 12372,
+        "logo_path": "/lcQScIQXHQXuLMLFQt0loJl5gWJ.png",
+        "name": "UFA",
+        "origin_country": "DE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "DE",
+        "name": "Germany"
+      }
+    ],
+    "release_date": "1927-01-10",
+    "revenue": 1350322,
+    "runtime": 148,
+    "spoken_languages": [
+      {
+        "english_name": "No Language",
+        "iso_639_1": "xx",
+        "name": "No Language"
+      }
+    ],
+    "status": "Released",
+    "tagline": "There can be no understanding between the hands and the brain unless the heart acts as mediator.",
+    "title": "Metropolis",
+    "video": false,
+    "vote_average": 8.095,
+    "vote_count": 3041
+  },
+  "credits": {
+    "id": 19,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 74,
+        "known_for_department": "Acting",
+        "name": "Gustav Fr\u00f6hlich",
+        "original_name": "Gustav Fr\u00f6hlich",
+        "popularity": 0.6664,
+        "profile_path": "/bkjDaorTT3LcOeTcQF1TDpBlHwt.jpg",
+        "cast_id": 9,
+        "character": "Freder Fredersen",
+        "credit_id": "52fe420fc3a36847f8000c83",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 75,
+        "known_for_department": "Acting",
+        "name": "Brigitte Helm",
+        "original_name": "Brigitte Helm",
+        "popularity": 0.6216,
+        "profile_path": "/a7mwxoeF34BCxmteoHQSB1ENth0.jpg",
+        "cast_id": 10,
+        "character": "Maria / The Machine Man",
+        "credit_id": "52fe420fc3a36847f8000c87",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 73,
+        "known_for_department": "Acting",
+        "name": "Alfred Abel",
+        "original_name": "Alfred Abel",
+        "popularity": 0.1466,
+        "profile_path": "/dGk5r64zQZVHplTwRDZGpNkoCjc.jpg",
+        "cast_id": 28,
+        "character": "Johann 'Joh' Fredersen",
+        "credit_id": "52fe420fc3a36847f8000cdb",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 77,
+        "known_for_department": "Acting",
+        "name": "Rudolf Klein-Rogge",
+        "original_name": "Rudolf Klein-Rogge",
+        "popularity": 0.4853,
+        "profile_path": "/fbP75fGfXFQlkf3Q5oHbJ4wjG1g.jpg",
+        "cast_id": 11,
+        "character": "C.A. Rotwang",
+        "credit_id": "52fe420fc3a36847f8000c8b",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 79,
+        "known_for_department": "Acting",
+        "name": "Theodor Loos",
+        "original_name": "Theodor Loos",
+        "popularity": 0.192,
+        "profile_path": "/9PbtusE5TJYfyQrWb6brBXuXTLX.jpg",
+        "cast_id": 13,
+        "character": "Josaphat",
+        "credit_id": "52fe420fc3a36847f8000c93",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 78,
+        "known_for_department": "Acting",
+        "name": "Fritz Rasp",
+        "original_name": "Fritz Rasp",
+        "popularity": 0.1537,
+        "profile_path": "/6NnV7WF489FZqMYSVhm3tFHEQXe.jpg",
+        "cast_id": 12,
+        "character": "The Thin Man",
+        "credit_id": "52fe420fc3a36847f8000c8f",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 80,
+        "known_for_department": "Acting",
+        "name": "Erwin Biswanger",
+        "original_name": "Erwin Biswanger",
+        "popularity": 0.2463,
+        "profile_path": null,
+        "cast_id": 14,
+        "character": "No. 11811 - Georgy",
+        "credit_id": "52fe420fc3a36847f8000c97",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 81,
+        "known_for_department": "Acting",
+        "name": "Heinrich George",
+        "original_name": "Heinrich George",
+        "popularity": 0.2702,
+        "profile_path": "/gy4bpVG804KFIj6LCZJLWa93WmU.jpg",
+        "cast_id": 15,
+        "character": "Grot",
+        "credit_id": "52fe420fc3a36847f8000c9b",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 20535,
+        "known_for_department": "Acting",
+        "name": "Fritz Alberti",
+        "original_name": "Fritz Alberti",
+        "popularity": 0.2602,
+        "profile_path": "/qCQhv7RCYwEZJ8l0Hs0ToXZIAP7.jpg",
+        "cast_id": 22,
+        "character": "Creative Human - Man Who Convinces Babel (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000cb9",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 47173,
+        "known_for_department": "Acting",
+        "name": "Grete Berger",
+        "original_name": "Grete Berger",
+        "popularity": 1.5099,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "Working Woman (uncredited)",
+        "credit_id": "56b2a655c3a36806ee000328",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2535176,
+        "known_for_department": "Writing",
+        "name": "Olly Boeheim",
+        "original_name": "Olly Boeheim",
+        "popularity": 0.1068,
+        "profile_path": null,
+        "cast_id": 62,
+        "character": "Working Woman (uncredited)",
+        "credit_id": "5ea3da6a66f2d2001e3df014",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 20533,
+        "known_for_department": "Acting",
+        "name": "Heinrich Gotho",
+        "original_name": "Heinrich Gotho",
+        "popularity": 1.6307,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "Master of Ceremonies (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000cb1",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69,
+        "known_for_department": "Sound",
+        "name": "Gottfried Huppertz",
+        "original_name": "Gottfried Huppertz",
+        "popularity": 0.1992,
+        "profile_path": null,
+        "cast_id": 63,
+        "character": "Man Playing Violin (uncredited)",
+        "credit_id": "5ea3db17a2d2e90021dca274",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 29129,
+        "known_for_department": "Acting",
+        "name": "Georg John",
+        "original_name": "Georg John",
+        "popularity": 0.2619,
+        "profile_path": "/bBqQO3Z63tJ1DYo2XEipcSsdi1t.jpg",
+        "cast_id": 31,
+        "character": "Working Man Who Causes Explosion of M-Machine (uncredited)",
+        "credit_id": "56b2a75f92514114e8000311",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 20534,
+        "known_for_department": "Acting",
+        "name": "Margarete Lanner",
+        "original_name": "Margarete Lanner",
+        "popularity": 0.0568,
+        "profile_path": "/giYIXmUL3PvxRR91vkreSx6qlO8.jpg",
+        "cast_id": 21,
+        "character": "Woman of Eternal Gardens / Lady in Car (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000cb5",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2190565,
+        "known_for_department": "Acting",
+        "name": "Rose Lichtenstein",
+        "original_name": "Rose Lichtenstein",
+        "popularity": 0.3404,
+        "profile_path": null,
+        "cast_id": 64,
+        "character": "Working Woman (uncredited)",
+        "credit_id": "5ea3db56bdc34c001e25bf0c",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 83,
+        "known_for_department": "Acting",
+        "name": "Hanns Leo Reich",
+        "original_name": "Hanns Leo Reich",
+        "popularity": 0.3596,
+        "profile_path": null,
+        "cast_id": 17,
+        "character": "Marinus (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000ca3",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1531781,
+        "known_for_department": "Acting",
+        "name": "Arthur Reinhardt",
+        "original_name": "Arthur Reinhardt",
+        "popularity": 0.1613,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "Working Man (uncredited)",
+        "credit_id": "56b2a89c92514114e5000363",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5028,
+        "known_for_department": "Writing",
+        "name": "Curt Siodmak",
+        "original_name": "Curt Siodmak",
+        "popularity": 0.1426,
+        "profile_path": "/1g2v8J8vJKziUnmee4JVoBAeRsW.jpg",
+        "cast_id": 33,
+        "character": "Working Man (uncredited)",
+        "credit_id": "56b2a7d9c3a36806f80002f8",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1689706,
+        "known_for_department": "Acting",
+        "name": "Henrietta Siodmak",
+        "original_name": "Henrietta Siodmak",
+        "popularity": 0.0236,
+        "profile_path": null,
+        "cast_id": 44,
+        "character": "Working Woman (uncredited)",
+        "credit_id": "57f54434c3a36831cb00017e",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 82,
+        "known_for_department": "Acting",
+        "name": "Olaf Storm",
+        "original_name": "Olaf Storm",
+        "popularity": 1.0999,
+        "profile_path": "/xS5kAz8hax8kOSFO8QrbGpp0S4i.jpg",
+        "cast_id": 16,
+        "character": "Jan (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000c9f",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 50893,
+        "known_for_department": "Acting",
+        "name": "Rolf von Goth",
+        "original_name": "Rolf von Goth",
+        "popularity": 0.2553,
+        "profile_path": "/bSP4xmj1ghotvnuBRV4DarKFYyO.jpg",
+        "cast_id": 34,
+        "character": "Son in Eternal Gardens (uncredited)",
+        "credit_id": "56b2a80f92514114eb00033e",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1288145,
+        "known_for_department": "Acting",
+        "name": "Helen von M\u00fcnchofen",
+        "original_name": "Helen von M\u00fcnchofen",
+        "popularity": 0.1467,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "Woman of Eternal Gardens (uncredited)",
+        "credit_id": "56b2a83d92514114e800033a",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2350,
+        "known_for_department": "Acting",
+        "name": "Helene Weigel",
+        "original_name": "Helene Weigel",
+        "popularity": 1.2768,
+        "profile_path": null,
+        "cast_id": 19,
+        "character": "Working Woman (uncredited)",
+        "credit_id": "52fe420fc3a36847f8000cad",
+        "order": 23
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 71,
+        "known_for_department": "Camera",
+        "name": "G\u00fcnther Rittau",
+        "original_name": "G\u00fcnther Rittau",
+        "popularity": 0.3198,
+        "profile_path": null,
+        "credit_id": "52fe420fc3a36847f8000c79",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69,
+        "known_for_department": "Sound",
+        "name": "Gottfried Huppertz",
+        "original_name": "Gottfried Huppertz",
+        "popularity": 0.1992,
+        "profile_path": null,
+        "credit_id": "52fe420fc3a36847f8000c67",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2798,
+        "known_for_department": "Directing",
+        "name": "Walter Ruttmann",
+        "original_name": "Walter Ruttmann",
+        "popularity": 0.1022,
+        "profile_path": "/tadF9CxIFsJMTMhyPRWtgDqBzsi.jpg",
+        "credit_id": "52fe420fc3a36847f8000c7f",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 20536,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Aenne Willkomm",
+        "original_name": "Aenne Willkomm",
+        "popularity": 0.2917,
+        "profile_path": null,
+        "credit_id": "52fe420fc3a36847f8000cbf",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5030,
+        "known_for_department": "Directing",
+        "name": "Edgar G. Ulmer",
+        "original_name": "Edgar G. Ulmer",
+        "popularity": 0.2696,
+        "profile_path": "/uH5SR17ZJwe4y9K1CtkfQerIcCu.jpg",
+        "credit_id": "52fe420fc3a36847f8000cc5",
+        "department": "Art",
+        "job": "Set Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 68,
+        "known_for_department": "Directing",
+        "name": "Fritz Lang",
+        "original_name": "Fritz Lang",
+        "popularity": 1.0331,
+        "profile_path": "/9dz4PmFzlSyexldWrOXBLLpkBqB.jpg",
+        "credit_id": "52fe420fc3a36847f8000c61",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 68,
+        "known_for_department": "Directing",
+        "name": "Fritz Lang",
+        "original_name": "Fritz Lang",
+        "popularity": 1.0331,
+        "profile_path": "/9dz4PmFzlSyexldWrOXBLLpkBqB.jpg",
+        "credit_id": "52fe420fc3a36847f8000c6d",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 70,
+        "known_for_department": "Camera",
+        "name": "Karl Freund",
+        "original_name": "Karl Freund",
+        "popularity": 0.1517,
+        "profile_path": null,
+        "credit_id": "52fe420fc3a36847f8000c73",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67,
+        "known_for_department": "Production",
+        "name": "Erich Pommer",
+        "original_name": "Erich Pommer",
+        "popularity": 0.289,
+        "profile_path": "/tDYZA5sghHNO1g4hpkRbDei2SoK.jpg",
+        "credit_id": "52fe420fc3a36847f8000c55",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 68,
+        "known_for_department": "Directing",
+        "name": "Fritz Lang",
+        "original_name": "Fritz Lang",
+        "popularity": 1.0331,
+        "profile_path": "/9dz4PmFzlSyexldWrOXBLLpkBqB.jpg",
+        "credit_id": "56b24807925141033600061d",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1758,
+        "known_for_department": "Camera",
+        "name": "Eugen Sch\u00fcfftan",
+        "original_name": "Eugen Sch\u00fcfftan",
+        "popularity": 0.2743,
+        "profile_path": null,
+        "credit_id": "56b2ab12c3a36807000003a5",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2794,
+        "known_for_department": "Camera",
+        "name": "Robert Baberske",
+        "original_name": "Robert Baberske",
+        "popularity": 0.0983,
+        "profile_path": null,
+        "credit_id": "56b2ab9fc3a36806ee000427",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1572241,
+        "known_for_department": "Sound",
+        "name": "Frank Strobel",
+        "original_name": "Frank Strobel",
+        "popularity": 0.3799,
+        "profile_path": null,
+        "credit_id": "56b2ac4f92514114db000417",
+        "department": "Sound",
+        "job": "Music Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1572237,
+        "known_for_department": "Crew",
+        "name": "Ernst Kunstmann",
+        "original_name": "Ernst Kunstmann",
+        "popularity": 0.2427,
+        "profile_path": null,
+        "credit_id": "56b2a9ff92514114e800038d",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 29553,
+        "known_for_department": "Camera",
+        "name": "Horst von Harbou",
+        "original_name": "Horst von Harbou",
+        "popularity": 0.2214,
+        "profile_path": null,
+        "credit_id": "56b2abe792514114e80003dd",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12365,
+        "known_for_department": "Camera",
+        "name": "Konstantin Irmen-Tschet",
+        "original_name": "Konstantin Irmen-Tschet",
+        "popularity": 0.2429,
+        "profile_path": null,
+        "credit_id": "56b2aa6e92514114e80003a3",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1572235,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Walter Schulze-Mittendorff",
+        "original_name": "Walter Schulze-Mittendorff",
+        "popularity": 0.5084,
+        "profile_path": null,
+        "credit_id": "56b2a9bc92514114de000386",
+        "department": "Art",
+        "job": "Sculptor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2794,
+        "known_for_department": "Camera",
+        "name": "Robert Baberske",
+        "original_name": "Robert Baberske",
+        "popularity": 0.0983,
+        "profile_path": null,
+        "credit_id": "65a9546b7d2bc10136ea8357",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 157,
+        "known_for_department": "Writing",
+        "name": "Thea von Harbou",
+        "original_name": "Thea von Harbou",
+        "popularity": 0.6756,
+        "profile_path": "/jQ6EF2gcodiez6PFEOaqMMF3nfF.jpg",
+        "credit_id": "5857f223c3a36827a5055e55",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 157,
+        "known_for_department": "Writing",
+        "name": "Thea von Harbou",
+        "original_name": "Thea von Harbou",
+        "popularity": 0.6756,
+        "profile_path": "/jQ6EF2gcodiez6PFEOaqMMF3nfF.jpg",
+        "credit_id": "5857f22d9251415941009e69",
+        "department": "Writing",
+        "job": "Novel"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1111195,
+        "known_for_department": "Directing",
+        "name": "Slatan Dudow",
+        "original_name": "Slatan Dudow",
+        "popularity": 0.3447,
+        "profile_path": "/diLo5E7OYGV0ZFWYfmfu6qecymk.jpg",
+        "credit_id": "59d42672c3a368456100998c",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13887,
+        "known_for_department": "Art",
+        "name": "Otto Hunte",
+        "original_name": "Otto Hunte",
+        "popularity": 1.031,
+        "profile_path": null,
+        "credit_id": "59d426a39251414b7f009721",
+        "department": "Art",
+        "job": "Set Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1899458,
+        "known_for_department": "Sound",
+        "name": "Otto Harzner",
+        "original_name": "Otto Harzner",
+        "popularity": 0.1268,
+        "profile_path": null,
+        "credit_id": "59d4279dc3a368459400969a",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12369,
+        "known_for_department": "Art",
+        "name": "Erich Kettelhut",
+        "original_name": "Erich Kettelhut",
+        "popularity": 0.2458,
+        "profile_path": null,
+        "credit_id": "59d426b59251414b7f009746",
+        "department": "Art",
+        "job": "Set Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 70,
+        "known_for_department": "Camera",
+        "name": "Karl Freund",
+        "original_name": "Karl Freund",
+        "popularity": 0.1517,
+        "profile_path": null,
+        "credit_id": "59d427549251414b5c009841",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 36251,
+        "known_for_department": "Production",
+        "name": "Erich Holder",
+        "original_name": "Erich Holder",
+        "popularity": 0.2308,
+        "profile_path": null,
+        "credit_id": "59d427db9251414b8b009221",
+        "department": "Crew",
+        "job": "Production Office Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12369,
+        "known_for_department": "Art",
+        "name": "Erich Kettelhut",
+        "original_name": "Erich Kettelhut",
+        "popularity": 0.2458,
+        "profile_path": null,
+        "credit_id": "59d42800c3a3684561009c42",
+        "department": "Crew",
+        "job": "Production Office Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 71,
+        "known_for_department": "Camera",
+        "name": "G\u00fcnther Rittau",
+        "original_name": "G\u00fcnther Rittau",
+        "popularity": 0.3198,
+        "profile_path": null,
+        "credit_id": "59d42766c3a368453f0091a6",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1572241,
+        "known_for_department": "Sound",
+        "name": "Frank Strobel",
+        "original_name": "Frank Strobel",
+        "popularity": 0.3799,
+        "profile_path": null,
+        "credit_id": "59d427ab9251414b8b0091ac",
+        "department": "Sound",
+        "job": "Conductor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13887,
+        "known_for_department": "Art",
+        "name": "Otto Hunte",
+        "original_name": "Otto Hunte",
+        "popularity": 1.031,
+        "profile_path": null,
+        "credit_id": "59d42891c3a3684561009d32",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12369,
+        "known_for_department": "Art",
+        "name": "Erich Kettelhut",
+        "original_name": "Erich Kettelhut",
+        "popularity": 0.2458,
+        "profile_path": null,
+        "credit_id": "59d428829251414b8b009363",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12320,
+        "known_for_department": "Art",
+        "name": "Karl Vollbrecht",
+        "original_name": "Karl Vollbrecht",
+        "popularity": 0.8357,
+        "profile_path": null,
+        "credit_id": "59d42873c3a368451b00879a",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12320,
+        "known_for_department": "Art",
+        "name": "Karl Vollbrecht",
+        "original_name": "Karl Vollbrecht",
+        "popularity": 0.8357,
+        "profile_path": null,
+        "credit_id": "59d426c59251414b5c00973c",
+        "department": "Art",
+        "job": "Set Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1550861,
+        "known_for_department": "Crew",
+        "name": "Rudi George",
+        "original_name": "Rudi George",
+        "popularity": 0.1379,
+        "profile_path": null,
+        "credit_id": "59d428199251414b5c0099b9",
+        "department": "Crew",
+        "job": "Production Artist"
+      }
+    ]
+  },
+  "videos": {
+    "id": 19,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "ZAvzaOxDt2c",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2023-12-05T20:29:04.000Z",
+        "id": "65a12fcad207f3012ee769da"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 19,
+    "keywords": [
+      {
+        "id": 2964,
+        "name": "future"
+      },
+      {
+        "id": 1761,
+        "name": "metropolis"
+      },
+      {
+        "id": 4034,
+        "name": "class society"
+      },
+      {
+        "id": 312,
+        "name": "man vs machine"
+      },
+      {
+        "id": 1001,
+        "name": "underground world"
+      },
+      {
+        "id": 5966,
+        "name": "tower of babel"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1436,
+        "name": "inventor"
+      },
+      {
+        "id": 4565,
+        "name": "dystopia"
+      },
+      {
+        "id": 6662,
+        "name": "delirium"
+      },
+      {
+        "id": 10125,
+        "name": "mad scientist"
+      },
+      {
+        "id": 11222,
+        "name": "prophet"
+      },
+      {
+        "id": 10028,
+        "name": "steampunk"
+      },
+      {
+        "id": 11187,
+        "name": "grim reaper"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 14544,
+        "name": "robot"
+      },
+      {
+        "id": 14796,
+        "name": "destruction"
+      },
+      {
+        "id": 154802,
+        "name": "silent film"
+      },
+      {
+        "id": 164246,
+        "name": "nostalgic"
+      },
+      {
+        "id": 179874,
+        "name": "expressionism"
+      },
+      {
+        "id": 185459,
+        "name": "seven deadly sins"
+      },
+      {
+        "id": 201028,
+        "name": "depravity"
+      },
+      {
+        "id": 215678,
+        "name": "partially lost film"
+      },
+      {
+        "id": 232988,
+        "name": "mob justice"
+      },
+      {
+        "id": 234109,
+        "name": "downtrodden"
+      },
+      {
+        "id": 234110,
+        "name": "saviour"
+      },
+      {
+        "id": 239175,
+        "name": "social unrest"
+      },
+      {
+        "id": 244516,
+        "name": "german expressionism"
+      },
+      {
+        "id": 255786,
+        "name": "mediator"
+      },
+      {
+        "id": 266753,
+        "name": "cautionary"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 19,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AE",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 56
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 59
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 112
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 157
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/cR4okiAS0zcXb4ufs3mi4PImXPB.jpg",
+            "provider_id": 132,
+            "provider_name": "SBS On Demand",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 25
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 103
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=AZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 61
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 29
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BH",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 37
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BR",
+        "free": [
+          {
+            "logo_path": "/3MsEoFiBy9eaUdKo5Cx1iR9BPQy.jpg",
+            "provider_id": 544,
+            "provider_name": "Libreflix",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 51
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 70
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 94
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9HhIlyFlilVtx0sMTcPbhs5qR31.jpg",
+            "provider_id": 47,
+            "provider_name": "Looke",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/gBYz3cTgDPRoRFOCS4gG9BNPJdX.jpg",
+            "provider_id": 447,
+            "provider_name": "Belas Artes \u00e0 La Carte",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/xht0G3uRLcTgjxRz3cDHuf8KKUw.jpg",
+            "provider_id": 683,
+            "provider_name": "Looke Amazon Channel",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/9kcTsX2laYclN4bFiMH3RuhZel2.jpg",
+            "provider_id": 2156,
+            "provider_name": "Telecine Amazon Channel",
+            "display_priority": 56
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/rrdOTBxojM16IAOelfYROX0jmlW.jpg",
+            "provider_id": 2607,
+            "provider_name": "Arte Amazon Channel",
+            "display_priority": 90
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/jlyafDbXLyNXNNFZbIgB9VrlScW.jpg",
+            "provider_id": 19,
+            "provider_name": "NetMovies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BY",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=BZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 28
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 28
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 120
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 145
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CD",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 2
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 60
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 74
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 69
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 67
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 12
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 71
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CU",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/489t5n9o1KhH7voGNQkrXT7vBKV.jpg",
+            "provider_id": 1939,
+            "provider_name": "Lepsi TV",
+            "display_priority": 26
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 41
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=DE",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 48
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 118
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 225
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 52
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=DO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=DZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 35
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 40
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=EE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=EG",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 33
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 71
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 88
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 53
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/zDWv7ROPCqZXsIKSVFRANOTC1wx.jpg",
+            "provider_id": 539,
+            "provider_name": "Viddla",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 61
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=FJ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 19
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 81
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 107
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GB",
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 9
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/kohVS01u3sP5IkqsSaAKdBit6aP.jpg",
+            "provider_id": 2041,
+            "provider_name": "BFI Player Apple TV Channel",
+            "display_priority": 97
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 98
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/sSMxh3tIOAi3QBoSXdagDxb3OKp.jpg",
+            "provider_id": 615,
+            "provider_name": "W4free",
+            "display_priority": 69
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 170
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 88
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=HK",
+        "ads": [
+          {
+            "logo_path": "/r9rEesXJjzY8sH3NLqNdkPdZ714.jpg",
+            "provider_id": 624,
+            "provider_name": "KKTV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/j35eayHG7RC9Ll0ehtbOuek0TZL.jpg",
+            "provider_id": 625,
+            "provider_name": "LINE TV",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 37
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 45
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=HN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=HR",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 34
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=HU",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ID",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 37
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 48
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 63
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 67
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 75
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 85
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 14
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IQ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 38
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 47
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 89
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 73
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 98
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=JM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 32
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=JO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 38
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=JP",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 79
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=KE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 23
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 23
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=KW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LB",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 35
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 20
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 41
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 6
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 25
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=LY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 35
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ME",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 21
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ML",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 32
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MU",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MW",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 3
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 13
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 87
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=MZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 74
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 41
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 52
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=NZ",
+        "flatrate": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 63
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=OM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 38
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 18
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PG",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 8
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PL",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 65
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PS",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 48
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=PY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=QA",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=RO",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 33
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 23
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=RU",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 38
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SA",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 40
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 65
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 59
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 40
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SI",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 46
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=SV",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TC",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 19
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TD",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 2
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 38
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TN",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TR",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 7
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TT",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 21
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TW",
+        "ads": [
+          {
+            "logo_path": "/r9rEesXJjzY8sH3NLqNdkPdZ714.jpg",
+            "provider_id": 624,
+            "provider_name": "KKTV",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 37
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=TZ",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=UA",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 5
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=UG",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 24
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 94
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+            "provider_id": 207,
+            "provider_name": "The Roku Channel",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 73
+          },
+          {
+            "logo_path": "/q5nP5VaOM4YdkCjJmo7vC5wpCOw.jpg",
+            "provider_id": 2533,
+            "provider_name": "Mometu",
+            "display_priority": 340
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 356
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          },
+          {
+            "logo_path": "/8G7qvHF7hdmXpfxxqtF1WT9ib68.jpg",
+            "provider_id": 2308,
+            "provider_name": "Darkroom",
+            "display_priority": 137
+          },
+          {
+            "logo_path": "/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
+            "provider_id": 2409,
+            "provider_name": "Fawesome",
+            "display_priority": 144
+          },
+          {
+            "logo_path": "/ApDOxwTDcRbmgCORofsBftwm53B.jpg",
+            "provider_id": 2667,
+            "provider_name": "YOW.tv",
+            "display_priority": 364
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 366
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 94
+          },
+          {
+            "logo_path": "/in4AaJPqO6wCquDcXsirin7UQBb.jpg",
+            "provider_id": 2411,
+            "provider_name": "Eternal Family",
+            "display_priority": 143
+          },
+          {
+            "logo_path": "/l8nPh3HtqfIJiFTYT7RdNdsv1XD.jpg",
+            "provider_id": 2135,
+            "provider_name": "Kino Film Collection",
+            "display_priority": 209
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+            "provider_id": 331,
+            "provider_name": "FlixFling",
+            "display_priority": 94
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=UY",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=VA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 7
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "XK": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=XK",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 12
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=YE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 34
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ZA",
+        "free": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 28
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 36
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ZM",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/19-metropolis/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 3
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
+            "provider_id": 2623,
+            "provider_name": "Artiflix",
+            "display_priority": 13
+          }
+        ]
+      }
+    }
+  }
+}

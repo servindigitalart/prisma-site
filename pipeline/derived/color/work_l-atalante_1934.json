@@ -1,0 +1,50 @@
+{
+  "work_id": "work_l-atalante_1934",
+  "processed_at": "2026-02-28T06:07:59.232915+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "monocromatico_intimo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is entirely photographed in black and white.",
+      "Cinematography frequently employs soft, naturalistic lighting to highlight intimate moments and character expressions.",
+      "The dreamlike underwater sequence exemplifies the gentle, ethereal quality of its black and white aesthetic, contributing to its intimate humanism."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_l-atalante_1934",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:07:59.228873Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:07:59.228863Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_l-atalante_1934",
+    "color_iconico": "monocromatico_intimo",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

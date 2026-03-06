@@ -1,0 +1,899 @@
+---
+export const prerender = false
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { createSupabaseServerClient } from '../../lib/supabase/server'
+import { isSupabaseConfigured, createServiceClient } from '../../lib/db/client'
+import { PRISMA_PALETTE } from '../../lib/color/colorPalette'
+
+const { id } = Astro.params
+
+if (!id) {
+  return Astro.redirect('/404')
+}
+
+const supabase = createSupabaseServerClient(Astro.cookies, Astro.request)
+
+// Use service client for reading public data (bypasses RLS issues)
+const db = isSupabaseConfigured() ? createServiceClient() : supabase
+
+// 1. Get profile
+const { data: profile, error: profileError } = await db
+  .from('user_profiles')
+  .select('*')
+  .eq('id', id)
+  .maybeSingle()
+
+console.log('[profile] query result:', JSON.stringify(profile), 'error:', profileError?.message, 'for id:', id)
+
+if (profileError || !profile) {
+  console.error('[profile] Profile not found for id:', id, profileError?.message)
+  return Astro.redirect('/404')
+}
+
+// 2. Get watch stats with work details
+const { data: watches, error: watchesError } = await db
+  .from('user_watches')
+  .select(`
+    work_id,
+    watched_at,
+    works (
+      id,
+      title,
+      year,
+      tmdb_poster_path
+    )
+  `)
+  .eq('user_id', id)
+  .order('watched_at', { ascending: false })
+  .limit(12)
+
+if (watchesError) {
+  console.error('[profile] watches query error:', watchesError.message)
+}
+
+// 3. Get ratings (with review text and work details)
+const { data: ratings, error: ratingsError } = await db
+  .from('user_ratings')
+  .select(`
+    work_id,
+    rating,
+    review,
+    updated_at,
+    works (
+      id,
+      title,
+      year,
+      tmdb_poster_path
+    )
+  `)
+  .eq('user_id', id)
+  .order('updated_at', { ascending: false })
+
+if (ratingsError) {
+  console.error('[profile] ratings query error:', ratingsError.message)
+}
+
+// 4. Get follower & following counts
+const { count: followerCount } = await db
+  .from('follows')
+  .select('*', { count: 'exact', head: true })
+  .eq('following_id', id)
+
+const { count: followingCount } = await db
+  .from('follows')
+  .select('*', { count: 'exact', head: true })
+  .eq('follower_id', id)
+
+// 5. Get watchlist
+const { data: watchlist, error: watchlistError } = await db
+  .from('user_watchlist')
+  .select(`
+    work_id,
+    added_at,
+    works (
+      id,
+      title,
+      year,
+      tmdb_poster_path
+    )
+  `)
+  .eq('user_id', id)
+  .order('added_at', { ascending: false })
+  .limit(6)
+
+if (watchlistError) {
+  console.error('[profile] watchlist query error:', watchlistError.message)
+}
+
+// Build ratings map for quick lookup
+const ratingsMap: Record<string, number> = {}
+ratings?.forEach((r: any) => { ratingsMap[r.work_id] = r.rating })
+
+// Calculate cinematic DNA
+const colorCounts: Record<string, number> = {}
+watches?.forEach((w: any) => {
+  const colorId = w.works?.color_assignments?.[0]?.color_id
+  if (colorId) {
+    colorCounts[colorId] = (colorCounts[colorId] || 0) + 1
+  }
+})
+
+const dominantColorId = Object.entries(colorCounts).sort(([,a],[,b]) => (b as number) - (a as number))[0]?.[0]
+const dominantColor = dominantColorId ? PRISMA_PALETTE[dominantColorId] : null
+
+const ratingCount = ratings?.filter((r: any) => r.rating)?.length || 0
+const watchlistCount = watchlist?.length || 0
+const seenCount = watches?.length || 0
+const reviewCount = ratings?.filter((r: any) => r.review)?.length || 0
+
+// Check if current user is following this profile
+const currentUser = Astro.locals.user
+let isFollowing = false
+
+if (currentUser && currentUser.id !== id) {
+  const { data: followData } = await db
+    .from('follows')
+    .select('*')
+    .eq('follower_id', currentUser.id)
+    .eq('following_id', id)
+    .maybeSingle()
+  
+  isFollowing = !!followData
+}
+
+const pageTitle = `${profile.display_name || profile.username || 'User'} on PRISMA`
+const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${dominantColor ? ` · ${dominantColor.name}` : ''}`
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  ogImage={profile.avatar_url ?? undefined}
+>
+  <div class="profile-page page-enter">
+    <div class="site-container">
+
+      <!-- Profile Header -->
+      <header class="profile-header">
+        <div class="profile-avatar">
+          {profile.avatar_url ? (
+            <img src={profile.avatar_url} alt={profile.display_name || profile.username} class="profile-avatar__img" />
+          ) : (
+            <div class="profile-avatar__placeholder">
+              {(profile.display_name || profile.username || '?')[0].toUpperCase()}
+            </div>
+          )}
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">{profile.display_name || profile.username}</h1>
+          {profile.username && profile.display_name && (
+            <p class="profile-username">@{profile.username}</p>
+          )}
+          {profile.bio && (
+            <p class="profile-bio">{profile.bio}</p>
+          )}
+          <div class="profile-stats">
+            <span class="profile-stat">{ratingCount} rated</span>
+            <span class="profile-stat">{watchlistCount} watchlist</span>
+            <span class="profile-stat" id="follower-count-stat">{followerCount ?? 0} followers</span>
+            <span class="profile-stat">{followingCount ?? 0} following</span>
+          </div>
+          
+          <div class="profile-actions">
+            {currentUser && currentUser.id !== id && (
+              <button 
+                class="follow-btn" 
+                id="follow-btn"
+                data-profile-id={id}
+                data-is-following={isFollowing ? '1' : '0'}
+                data-follower-count={followerCount ?? 0}
+              >
+                <span id="follow-btn-text">{isFollowing ? 'Following' : 'Follow'}</span>
+              </button>
+            )}
+            <button class="btn-share" id="btn-share-profile">Share profile</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Cinematic DNA -->
+      {dominantColor && (
+        <section class="dna-section">
+          <h2 class="dna-title">Cinematic DNA</h2>
+          <div class="dna-grid">
+            <div class="dna-item">
+              <div class="dna-label">Dominant Color</div>
+              <div class="dna-color">
+                <div class="dna-color__swatch" style={`background: ${dominantColor.hex}`}></div>
+                <span class="dna-color__name">{dominantColor.name}</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- Collapsible sections -->
+
+      <!-- Watchlist (open by default) -->
+      <section class="profile-section" id="section-watchlist">
+        <button class="section-toggle">Watchlist <span>({watchlistCount})</span> ▾</button>
+        <div class="section-content">
+          {watchlist && watchlist.length > 0 ? (
+            <div class="film-grid">
+              {watchlist.map((item: any) => {
+                const work = item.works
+                if (!work) return null
+                const slug = work.id.replace(/^work_/, '')
+                const posterUrl = work.tmdb_poster_path 
+                  ? `https://image.tmdb.org/t/p/w300${work.tmdb_poster_path}`
+                  : null
+                return (
+                  <a href={`/films/${slug}`} class="film-card">
+                    {posterUrl ? (
+                      <img src={posterUrl} alt={work.title} class="film-card__poster" loading="lazy" />
+                    ) : (
+                      <div class="film-card__placeholder">{work.title}</div>
+                    )}
+                    <div class="film-card__meta">
+                      <div class="film-card__title">{work.title}</div>
+                      <div class="film-card__year">{work.year}</div>
+                    </div>
+                  </a>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="section-empty">No films in watchlist yet.</p>
+          )}
+        </div>
+      </section>
+
+      <!-- Ranked (closed by default) -->
+      <section class="profile-section" id="section-ranked">
+        <button class="section-toggle">Ranked <span>({ratingCount})</span> ▸</button>
+        <div class="section-content" hidden>
+          {ratings && ratings.filter((r: any) => r.rating).length > 0 ? (
+            <div class="ranked-list">
+              {ratings.filter((r: any) => r.rating).sort((a: any, b: any) => b.rating - a.rating).map((r: any) => {
+                const work = r.works
+                if (!work) return null
+                const slug = work.id.replace(/^work_/, '')
+                const posterUrl = work.tmdb_poster_path 
+                  ? `https://image.tmdb.org/t/p/w92${work.tmdb_poster_path}`
+                  : null
+                return (
+                  <a href={`/films/${slug}`} class="ranked-item">
+                    {posterUrl ? (
+                      <img src={posterUrl} alt={work.title} class="ranked-item__poster" loading="lazy" />
+                    ) : (
+                      <div class="ranked-item__poster-placeholder">{work.title[0]}</div>
+                    )}
+                    <div class="ranked-item__info">
+                      <span class="ranked-item__title">{work.title}</span>
+                      <span class="ranked-item__year">{work.year}</span>
+                    </div>
+                    <span class="ranked-item__rating">{r.rating}/10</span>
+                  </a>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="section-empty">No ratings yet.</p>
+          )}
+        </div>
+      </section>
+
+      <!-- Seen (closed by default) -->
+      <section class="profile-section" id="section-seen">
+        <button class="section-toggle">Seen <span>({seenCount})</span> ▸</button>
+        <div class="section-content" hidden>
+          {watches && watches.length > 0 ? (
+            <div class="film-grid">
+              {watches.map((watch: any) => {
+                const work = watch.works
+                if (!work) return null
+                const slug = work.id.replace(/^work_/, '')
+                const posterUrl = work.tmdb_poster_path 
+                  ? `https://image.tmdb.org/t/p/w300${work.tmdb_poster_path}`
+                  : null
+                return (
+                  <a href={`/films/${slug}`} class="film-card">
+                    {posterUrl ? (
+                      <img src={posterUrl} alt={work.title} class="film-card__poster" loading="lazy" />
+                    ) : (
+                      <div class="film-card__placeholder">{work.title}</div>
+                    )}
+                    <div class="film-card__meta">
+                      <div class="film-card__title">{work.title}</div>
+                      <div class="film-card__year">{work.year}</div>
+                    </div>
+                  </a>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="section-empty">No films seen yet.</p>
+          )}
+        </div>
+      </section>
+
+      <!-- Reviews (closed by default) -->
+      <section class="profile-section" id="section-reviews">
+        <button class="section-toggle">Reviews <span>({reviewCount})</span> ▸</button>
+        <div class="section-content" hidden>
+          {ratings && ratings.filter((r: any) => r.review).length > 0 ? (
+            <div class="reviews-list">
+              {ratings.filter((r: any) => r.review).map((r: any) => {
+                const work = r.works
+                if (!work) return null
+                const slug = work.id.replace(/^work_/, '')
+                const posterUrl = work.tmdb_poster_path 
+                  ? `https://image.tmdb.org/t/p/w92${work.tmdb_poster_path}`
+                  : null
+                return (
+                  <div class="review-item">
+                    <a href={`/films/${slug}`} class="review-item__header">
+                      {posterUrl ? (
+                        <img src={posterUrl} alt={work.title} class="review-item__poster" loading="lazy" />
+                      ) : (
+                        <div class="review-item__poster-placeholder">{work.title[0]}</div>
+                      )}
+                      <div class="review-item__info">
+                        <span class="review-item__title">{work.title}</span>
+                        <span class="review-item__rating">★ {r.rating}/10</span>
+                      </div>
+                    </a>
+                    <p class="review-item__text">{r.review}</p>
+                  </div>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="section-empty">No reviews yet.</p>
+          )}
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script is:inline>
+    // Section toggles
+    document.querySelectorAll('.section-toggle').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var content = btn.nextElementSibling;
+        if (!content) return;
+        var isHidden = content.hasAttribute('hidden');
+        if (isHidden) {
+          content.removeAttribute('hidden');
+          btn.textContent = btn.textContent.replace('▸', '▾');
+        } else {
+          content.setAttribute('hidden', '');
+          btn.textContent = btn.textContent.replace('▾', '▸');
+        }
+      });
+    });
+
+    // Follow button
+    var followBtn = document.getElementById('follow-btn');
+    if (followBtn) {
+      var followBtnText = document.getElementById('follow-btn-text');
+      var profileId = followBtn.dataset.profileId;
+      var isFollowing = followBtn.dataset.isFollowing === '1';
+      var fCount = Number(followBtn.dataset.followerCount) || 0;
+
+      followBtn.addEventListener('click', async function() {
+        followBtn.setAttribute('disabled', 'true');
+        // Optimistic update
+        isFollowing = !isFollowing;
+        fCount += isFollowing ? 1 : -1;
+        followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+        followBtn.classList.toggle('is-following', isFollowing);
+        var fcStat = document.getElementById('follower-count-stat');
+        if (fcStat) fcStat.textContent = fCount + ' followers';
+        
+        try {
+          var response = await fetch('/api/user/follow', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ following_id: profileId })
+          });
+          if (response.ok) {
+            var data = await response.json();
+            // Correct if server disagrees
+            if (data.following !== isFollowing) {
+              isFollowing = data.following;
+              fCount += isFollowing ? 1 : -1;
+              followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+              followBtn.classList.toggle('is-following', isFollowing);
+              if (fcStat) fcStat.textContent = fCount + ' followers';
+            }
+          }
+        } catch(e) {
+          // Revert on error
+          isFollowing = !isFollowing;
+          fCount += isFollowing ? 1 : -1;
+          followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+          followBtn.classList.toggle('is-following', isFollowing);
+          var fcStat2 = document.getElementById('follower-count-stat');
+          if (fcStat2) fcStat2.textContent = fCount + ' followers';
+        }
+        followBtn.removeAttribute('disabled');
+      });
+    }
+
+    // Share button
+    document.getElementById('btn-share-profile')?.addEventListener('click', async function() {
+      var url = window.location.href;
+      var btn = this;
+      try {
+        await navigator.clipboard.writeText(url);
+        btn.textContent = '✓ Link copied!';
+        setTimeout(function() { btn.textContent = 'Share profile'; }, 2000);
+      } catch(e) {
+        if (navigator.share) {
+          navigator.share({ title: 'My PRISMA profile', url: url });
+        } else {
+          prompt('Copy this link:', url);
+        }
+      }
+    });
+  </script>
+
+  <style>
+    .profile-page {
+      min-height: 100vh;
+      padding: 5rem 0 6rem;
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .profile-avatar {
+      flex-shrink: 0;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--surface-card);
+      border: 2px solid var(--surface-border);
+    }
+
+    .profile-avatar__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile-avatar__placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .profile-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .profile-name {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .profile-username {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .profile-bio {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+    }
+
+    .profile-stats {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .profile-stat {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .profile-actions {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+      align-items: center;
+    }
+
+    .follow-btn {
+      padding: 0.5rem 1.5rem;
+      background: var(--surface-card);
+      border: 1px solid var(--surface-border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 120ms ease;
+    }
+
+    .follow-btn:hover {
+      background: var(--surface-elevated);
+      border-color: var(--text-muted);
+    }
+
+    .follow-btn.is-following {
+      background: rgba(201, 138, 46, 0.1);
+      border-color: #C98A2E;
+      color: #C98A2E;
+    }
+
+    .follow-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-share {
+      padding: 0.5rem 1.25rem;
+      background: none;
+      border: 1px solid var(--surface-border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 120ms ease;
+    }
+
+    .btn-share:hover {
+      color: var(--text-primary);
+      border-color: var(--text-muted);
+    }
+
+    /* DNA Section */
+    .dna-section {
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .dna-title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      margin-bottom: 1.5rem;
+    }
+
+    .dna-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .dna-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .dna-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+
+    .dna-color {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .dna-color__swatch {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid var(--surface-border);
+    }
+
+    .dna-color__name {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    /* Collapsible sections */
+    .profile-section {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .section-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 0.5rem 0;
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      cursor: pointer;
+      text-align: left;
+      transition: color 120ms ease;
+    }
+
+    .section-toggle:hover {
+      color: var(--text-secondary);
+    }
+
+    .section-toggle span {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-family: var(--font-sans, sans-serif);
+    }
+
+    .section-content {
+      padding-top: 1rem;
+    }
+
+    .section-content[hidden] {
+      display: none;
+    }
+
+    .section-empty {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Film grid */
+    .film-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .film-card {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: transform 120ms ease;
+    }
+
+    .film-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .film-card__poster {
+      aspect-ratio: 2 / 3;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid var(--surface-border);
+    }
+
+    .film-card__placeholder {
+      aspect-ratio: 2 / 3;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      text-align: center;
+      background: var(--surface-card);
+      border: 1px solid var(--surface-border);
+      border-radius: 4px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .film-card__meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .film-card__title {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .film-card__year {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Ranked list */
+    .ranked-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .ranked-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 6px;
+      transition: background 80ms ease;
+    }
+
+    .ranked-item:hover {
+      background: var(--surface-card);
+    }
+
+    .ranked-item__poster {
+      width: 40px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .ranked-item__poster-placeholder {
+      width: 40px;
+      height: 60px;
+      background: var(--surface-card);
+      border: 1px solid var(--surface-border);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .ranked-item__info {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.125rem;
+    }
+
+    .ranked-item__title {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .ranked-item__year {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .ranked-item__rating {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #C98A2E;
+      flex-shrink: 0;
+    }
+
+    /* Reviews list */
+    .reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .review-item {
+      background: var(--surface-card);
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .review-item__header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .review-item__poster {
+      width: 36px;
+      height: 54px;
+      object-fit: cover;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .review-item__poster-placeholder {
+      width: 36px;
+      height: 54px;
+      background: var(--surface-elevated);
+      border: 1px solid var(--surface-border);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .review-item__info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.125rem;
+    }
+
+    .review-item__title {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    .review-item__rating {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #C98A2E;
+    }
+
+    .review-item__text {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin: 0;
+    }
+
+    @media (max-width: 640px) {
+      .profile-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .profile-stats {
+        justify-content: center;
+      }
+
+      .profile-actions {
+        justify-content: center;
+      }
+
+      .film-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 1rem;
+      }
+    }
+  </style>
+</BaseLayout>

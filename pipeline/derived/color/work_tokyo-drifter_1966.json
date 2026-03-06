@@ -1,0 +1,56 @@
+{
+  "work_id": "work_tokyo-drifter_1966",
+  "processed_at": "2026-02-28T06:53:02.497172+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "blanco_polar",
+      "violeta_cinetico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Tetsuya Watari's iconic light blue suit is worn consistently by the protagonist.",
+      "Prominent deep blue lighting and set design dominate numerous urban and interior locations, such as the train station and various club environments.",
+      "The film's overall cinematography frequently employs cool blue tints and saturation for a stylized, almost pop-art aesthetic."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_tokyo-drifter_1966",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:53:02.493260Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:53:02.493248Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_tokyo-drifter_1966",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "blanco_polar",
+      "violeta_cinetico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

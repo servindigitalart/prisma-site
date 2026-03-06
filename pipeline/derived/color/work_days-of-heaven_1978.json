@@ -1,0 +1,55 @@
+{
+  "work_id": "work_days-of-heaven_1978",
+  "processed_at": "2026-02-28T04:49:56.801064+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Extensive use of 'magic hour' cinematography, casting a warm golden glow over most scenes.",
+      "The vast wheat fields, a central visual motif, are consistently depicted in golden and amber tones.",
+      "Iconic shots feature characters silhouetted against amber sunsets and sunrises.",
+      "The overall color grading imparts a dusty, nostalgic, and melancholic warmth to the entire film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_days-of-heaven_1978",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:49:56.797044Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:49:56.797032Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_days-of-heaven_1978",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

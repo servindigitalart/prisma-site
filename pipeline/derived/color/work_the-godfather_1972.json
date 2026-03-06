@@ -1,0 +1,58 @@
+{
+  "work_id": "work_the-godfather_1972",
+  "processed_at": "2026-02-27T23:53:56.727320+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Gordon Willis's signature low-key lighting, creating warm, desaturated golden tones in highlights and mid-tones.",
+      "Rich, dark wood interiors with warm lamp light, prevalent in scenes like Vito Corleone's office.",
+      "The sepia-like overall color grade that evokes a sense of age and faded memory.",
+      "The warm, dusty, sun-baked landscapes of the Sicily sequences.",
+      "Iconic shots of characters like Vito Corleone often feature a predominant amber glow."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-godfather_1972",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-27T23:53:56.722389Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-27T23:53:56.722376Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-godfather_1972",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

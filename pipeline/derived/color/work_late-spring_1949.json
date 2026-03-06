@@ -1,0 +1,50 @@
+{
+  "work_id": "work_late-spring_1949",
+  "processed_at": "2026-02-28T06:10:59.596507+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "monocromatico_intimo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The film is shot entirely in black and white with soft, diffused lighting.",
+      "Ozu's signature static, low-angle 'tatami shots' feature gentle tones and subtle gradations of gray.",
+      "Costume design and production design of traditional Japanese homes are rendered in naturalistic black and white, avoiding harsh shadows or strong contrasts."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_late-spring_1949",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:10:59.593066Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:10:59.593054Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_late-spring_1949",
+    "color_iconico": "monocromatico_intimo",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

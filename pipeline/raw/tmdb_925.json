@@ -1,0 +1,4801 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/oYOZay9hyW3uI5paKWLIYkWZlzv.jpg",
+    "belongs_to_collection": null,
+    "budget": 6500000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 925,
+    "imdb_id": "tt0097216",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Do the Right Thing",
+    "overview": "Sal is the Italian owner of a pizzeria in Brooklyn. A neighborhood local, Buggin' Out, becomes upset when he sees that the pizzeria's Wall of Fame exhibits only Italian actors. Buggin' Out believes a pizzeria in a black neighborhood should showcase black actors, but Sal disagrees. The wall becomes a symbol of racism and hate to Buggin' Out and to other people in the neighborhood, and tensions rise.",
+    "popularity": 2.4682,
+    "poster_path": "/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+    "production_companies": [
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 4319,
+        "logo_path": "/dU4Y8EqPLCz6jARM63NwGhr4DcG.png",
+        "name": "40 Acres and a Mule Filmworks",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1989-06-14",
+    "revenue": 37300000,
+    "runtime": 120,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      },
+      {
+        "english_name": "Korean",
+        "iso_639_1": "ko",
+        "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Espa\u00f1ol"
+      }
+    ],
+    "status": "Released",
+    "tagline": "It's the hottest day of the summer. You can do nothing, you can do something, or you can...",
+    "title": "Do the Right Thing",
+    "video": false,
+    "vote_average": 7.768,
+    "vote_count": 1940
+  },
+  "credits": {
+    "id": 925,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1004,
+        "known_for_department": "Acting",
+        "name": "Danny Aiello",
+        "original_name": "Danny Aiello",
+        "popularity": 0.5469,
+        "profile_path": "/2WiZ8SkiFU355GUT2QuSPlenrfM.jpg",
+        "cast_id": 19,
+        "character": "Sal",
+        "credit_id": "52fe428ec3a36847f8027da3",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15531,
+        "known_for_department": "Acting",
+        "name": "Ossie Davis",
+        "original_name": "Ossie Davis",
+        "popularity": 0.3932,
+        "profile_path": "/ubOu0TvauzO1gdPe7eVSJuCx8Rz.jpg",
+        "cast_id": 18,
+        "character": "Da Mayor",
+        "credit_id": "52fe428ec3a36847f8027d9f",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 15532,
+        "known_for_department": "Acting",
+        "name": "Ruby Dee",
+        "original_name": "Ruby Dee",
+        "popularity": 0.4424,
+        "profile_path": "/eRRRVQTLkH3RU9inzRHJqWdIZkW.jpg",
+        "cast_id": 23,
+        "character": "Mother Sister",
+        "credit_id": "52fe428ec3a36847f8027db3",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6396,
+        "known_for_department": "Acting",
+        "name": "Richard Edson",
+        "original_name": "Richard Edson",
+        "popularity": 0.3107,
+        "profile_path": "/vuuU7beZrawR6VZB3a2QhDVtkjg.jpg",
+        "cast_id": 21,
+        "character": "Vito",
+        "credit_id": "52fe428ec3a36847f8027dab",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4808,
+        "known_for_department": "Acting",
+        "name": "Giancarlo Esposito",
+        "original_name": "Giancarlo Esposito",
+        "popularity": 2.8094,
+        "profile_path": "/rcXnr82TwDzU4ZGdBeNXfG0ZQnZ.jpg",
+        "cast_id": 20,
+        "character": "Buggin Out",
+        "credit_id": "52fe428ec3a36847f8027da7",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5281,
+        "known_for_department": "Directing",
+        "name": "Spike Lee",
+        "original_name": "Spike Lee",
+        "popularity": 1.3997,
+        "profile_path": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+        "cast_id": 22,
+        "character": "Mookie",
+        "credit_id": "52fe428ec3a36847f8027daf",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5502,
+        "known_for_department": "Acting",
+        "name": "Bill Nunn",
+        "original_name": "Bill Nunn",
+        "popularity": 0.5431,
+        "profile_path": "/trxNvS6g5yvwbXzx2LK6JqutE5z.jpg",
+        "cast_id": 24,
+        "character": "Radio Raheem",
+        "credit_id": "52fe428ec3a36847f8027db7",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1241,
+        "known_for_department": "Acting",
+        "name": "John Turturro",
+        "original_name": "John Turturro",
+        "popularity": 1.505,
+        "profile_path": "/6O9W9cJW0kCqMzYeLupV9oH0ftn.jpg",
+        "cast_id": 32,
+        "character": "Pino",
+        "credit_id": "52fe428ec3a36847f8027dd7",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15534,
+        "known_for_department": "Acting",
+        "name": "Paul Benjamin",
+        "original_name": "Paul Benjamin",
+        "popularity": 0.9352,
+        "profile_path": "/6t4RCyCoynTG0mk5godo7AW3doK.jpg",
+        "cast_id": 25,
+        "character": "ML",
+        "credit_id": "52fe428ec3a36847f8027dbb",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13936,
+        "known_for_department": "Acting",
+        "name": "Frankie Faison",
+        "original_name": "Frankie Faison",
+        "popularity": 1.3794,
+        "profile_path": "/3717JOXK2Z8qelfyvScDGimfFBf.jpg",
+        "cast_id": 28,
+        "character": "Coconut Sid",
+        "credit_id": "52fe428ec3a36847f8027dc7",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15535,
+        "known_for_department": "Acting",
+        "name": "Robin Harris",
+        "original_name": "Robin Harris",
+        "popularity": 0.3354,
+        "profile_path": "/o6a3MvOZjdxsMbmbWSTlSBlRUVZ.jpg",
+        "cast_id": 27,
+        "character": "Sweet Dick Willie",
+        "credit_id": "52fe428ec3a36847f8027dc3",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 13602,
+        "known_for_department": "Acting",
+        "name": "Joie Lee",
+        "original_name": "Joie Lee",
+        "popularity": 0.5304,
+        "profile_path": "/8rqNbAuW1RPTr6BN0P0v6B5ZSjx.jpg",
+        "cast_id": 34,
+        "character": "Jade",
+        "credit_id": "55768f7dc3a3680e31001049",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 30488,
+        "known_for_department": "Acting",
+        "name": "Miguel Sandoval",
+        "original_name": "Miguel Sandoval",
+        "popularity": 0.4737,
+        "profile_path": "/v5tHxTkgOqcdWgjoEhUj0a50NIK.jpg",
+        "cast_id": 37,
+        "character": "Officer Ponte",
+        "credit_id": "58668f84c3a36852d202b21d",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 128597,
+        "known_for_department": "Acting",
+        "name": "Rick Aiello",
+        "original_name": "Rick Aiello",
+        "popularity": 0.7694,
+        "profile_path": "/jsdOgza0pIsS5Jcvj3nLJnxgDEP.jpg",
+        "cast_id": 38,
+        "character": "Officer Long",
+        "credit_id": "58668f949251412b7d02d92f",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 47879,
+        "known_for_department": "Acting",
+        "name": "John Savage",
+        "original_name": "John Savage",
+        "popularity": 1.2447,
+        "profile_path": "/exzL5D7RSnIepF9FsFlzCs248he.jpg",
+        "cast_id": 36,
+        "character": "Clifton",
+        "credit_id": "58668f3c9251412b8d02e913",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2231,
+        "known_for_department": "Acting",
+        "name": "Samuel L. Jackson",
+        "original_name": "Samuel L. Jackson",
+        "popularity": 3.9763,
+        "profile_path": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
+        "cast_id": 31,
+        "character": "Mister Se\u00f1or Love Daddy",
+        "credit_id": "52fe428ec3a36847f8027dd3",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4810,
+        "known_for_department": "Acting",
+        "name": "Rosie Perez",
+        "original_name": "Rosie Perez",
+        "popularity": 1.1755,
+        "profile_path": "/g6iJNyIhVDY5NxZU1jbKMjPnNYf.jpg",
+        "cast_id": 26,
+        "character": "Tina",
+        "credit_id": "52fe428ec3a36847f8027dbf",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 40377,
+        "known_for_department": "Acting",
+        "name": "Roger Guenveur Smith",
+        "original_name": "Roger Guenveur Smith",
+        "popularity": 0.2872,
+        "profile_path": "/HN7w27Tss9HAHnqebnw6qWKk7z.jpg",
+        "cast_id": 39,
+        "character": "Smiley",
+        "credit_id": "58752716c3a3687c41001a18",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15536,
+        "known_for_department": "Acting",
+        "name": "Steve White",
+        "original_name": "Steve White",
+        "popularity": 0.1254,
+        "profile_path": "/sxOUPWrGPWszcAe6h5OVIzDi3mL.jpg",
+        "cast_id": 29,
+        "character": "Ahmad",
+        "credit_id": "52fe428ec3a36847f8027dcb",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 78029,
+        "known_for_department": "Acting",
+        "name": "Martin Lawrence",
+        "original_name": "Martin Lawrence",
+        "popularity": 2.1776,
+        "profile_path": "/y3SQzIPUPJpdueb1DkbTYph68nk.jpg",
+        "cast_id": 33,
+        "character": "Cee",
+        "credit_id": "52fe428ec3a36847f8027ddb",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15537,
+        "known_for_department": "Acting",
+        "name": "Leonard L. Thomas",
+        "original_name": "Leonard L. Thomas",
+        "popularity": 0.3138,
+        "profile_path": "/tz9fJ5O7aa3a1vBt52bIZKYdaSK.jpg",
+        "cast_id": 30,
+        "character": "Punchy",
+        "credit_id": "52fe428ec3a36847f8027dcf",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1736531,
+        "known_for_department": "Acting",
+        "name": "Christa Rivers",
+        "original_name": "Christa Rivers",
+        "popularity": 0.0521,
+        "profile_path": null,
+        "cast_id": 42,
+        "character": "Ella",
+        "credit_id": "5875289ac3a3687c2e001dfc",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7164,
+        "known_for_department": "Acting",
+        "name": "Frank Vincent",
+        "original_name": "Frank Vincent",
+        "popularity": 0.618,
+        "profile_path": "/fa1gikNsPKvX1roWUo2bBmixnvp.jpg",
+        "cast_id": 35,
+        "character": "Charlie",
+        "credit_id": "55768fbe92514111e40010d7",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 162339,
+        "known_for_department": "Acting",
+        "name": "Luis Antonio Ramos",
+        "original_name": "Luis Antonio Ramos",
+        "popularity": 0.3616,
+        "profile_path": "/AgRQTwDiw5a3bELMIMjUCaMlk5T.jpg",
+        "cast_id": 43,
+        "character": "Stevie",
+        "credit_id": "59a8c631c3a36874d5008fe9",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880160,
+        "known_for_department": "Acting",
+        "name": "Richard Habersham",
+        "original_name": "Richard Habersham",
+        "popularity": 1.1877,
+        "profile_path": null,
+        "cast_id": 44,
+        "character": "Eddie",
+        "credit_id": "59a8c666c3a36874d500901e",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 42296,
+        "known_for_department": "Acting",
+        "name": "Gwen McGee",
+        "original_name": "Gwen McGee",
+        "popularity": 0.2987,
+        "profile_path": "/2wj44JWYHtbQhNWd5UIk5XYVm7o.jpg",
+        "cast_id": 40,
+        "character": "Louise",
+        "credit_id": "5875281ac3a3687c2e001d85",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4025,
+        "known_for_department": "Acting",
+        "name": "Steve Park",
+        "original_name": "Steve Park",
+        "popularity": 0.2997,
+        "profile_path": "/wDa3CYi7GPUcFBoi7Fg0fcCCXDc.jpg",
+        "cast_id": 41,
+        "character": "Sonny",
+        "credit_id": "5875282ec3a3687c1a001d99",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 96538,
+        "known_for_department": "Acting",
+        "name": "Ginny Yang",
+        "original_name": "Ginny Yang",
+        "popularity": 0.8076,
+        "profile_path": null,
+        "cast_id": 46,
+        "character": "Kim",
+        "credit_id": "59a8c6d09251415799020f95",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880161,
+        "known_for_department": "Acting",
+        "name": "Sherwin Park",
+        "original_name": "Sherwin Park",
+        "popularity": 0.0453,
+        "profile_path": null,
+        "cast_id": 45,
+        "character": "Korean Child",
+        "credit_id": "59a8c68892514157ab021860",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1327735,
+        "known_for_department": "Acting",
+        "name": "Shawn Elliott",
+        "original_name": "Shawn Elliott",
+        "popularity": 0.4265,
+        "profile_path": "/gQ0bkwKIV0TOCQSkrqMuPmeHWDi.jpg",
+        "cast_id": 47,
+        "character": "Puerto Rican Icee Man",
+        "credit_id": "59a8c6ff92514158080222c0",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880162,
+        "known_for_department": "Acting",
+        "name": "Diva Osorio",
+        "original_name": "Diva Osorio",
+        "popularity": 0.1142,
+        "profile_path": null,
+        "cast_id": 48,
+        "character": "Carmen",
+        "credit_id": "59a8c7a492514157ab02197d",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880163,
+        "known_for_department": "Acting",
+        "name": "Chris Delaney",
+        "original_name": "Chris Delaney",
+        "popularity": 0.094,
+        "profile_path": null,
+        "cast_id": 49,
+        "character": "Stevie's Friend",
+        "credit_id": "59a8c7ce92514157ab0219a4",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1880164,
+        "known_for_department": "Acting",
+        "name": "Angel Ramirez Jr.",
+        "original_name": "Angel Ramirez Jr.",
+        "popularity": 0.6222,
+        "profile_path": null,
+        "cast_id": 50,
+        "character": "Stevie's Friend",
+        "credit_id": "59a8c7f492514157a5021885",
+        "order": 32
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1645223,
+        "known_for_department": "Acting",
+        "name": "Sixto Ramos",
+        "original_name": "Sixto Ramos",
+        "popularity": 0.0664,
+        "profile_path": "/hr1qohSfZROLPZCDcHysXcVVtJf.jpg",
+        "cast_id": 51,
+        "character": "Stevie's Friend",
+        "credit_id": "59a8c812925141579d021b60",
+        "order": 33
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 222487,
+        "known_for_department": "Acting",
+        "name": "Nelson Vasquez",
+        "original_name": "Nelson Vasquez",
+        "popularity": 0.8106,
+        "profile_path": "/eu42g5XCAgO7LOHxDBRd7U2zjJj.jpg",
+        "cast_id": 52,
+        "character": "Stevie's Friend",
+        "credit_id": "59a8c832c3a36876710094ac",
+        "order": 34
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880165,
+        "known_for_department": "Acting",
+        "name": "Travell Lee Toulson",
+        "original_name": "Travell Lee Toulson",
+        "popularity": 0.2494,
+        "profile_path": null,
+        "cast_id": 53,
+        "character": "Hector",
+        "credit_id": "59a8c84dc3a3683ce601f59e",
+        "order": 35
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1675606,
+        "known_for_department": "Acting",
+        "name": "Joel Nagle",
+        "original_name": "Joel Nagle",
+        "popularity": 1.4372,
+        "profile_path": "/iq5Q85WDWEKZV3MxVhiqJ1zzBo4.jpg",
+        "cast_id": 54,
+        "character": "Sergeant",
+        "credit_id": "59a8c863c3a3683c87020b42",
+        "order": 36
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1880166,
+        "known_for_department": "Acting",
+        "name": "David E. Weinberg",
+        "original_name": "David E. Weinberg",
+        "popularity": 0.1801,
+        "profile_path": null,
+        "cast_id": 55,
+        "character": "Plain Clothes Detective",
+        "credit_id": "59a8c87cc3a3683ce601f5d1",
+        "order": 37
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880167,
+        "known_for_department": "Acting",
+        "name": "Yatte Brown",
+        "original_name": "Yatte Brown",
+        "popularity": 0.0475,
+        "profile_path": null,
+        "cast_id": 56,
+        "character": "Double Dutch Girl",
+        "credit_id": "59a8c89392514157ab021a76",
+        "order": 38
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880171,
+        "known_for_department": "Acting",
+        "name": "Mecca Brunson",
+        "original_name": "Mecca Brunson",
+        "popularity": 0.0507,
+        "profile_path": null,
+        "cast_id": 60,
+        "character": "Double Dutch Girl",
+        "credit_id": "59a8c930c3a36876710095f3",
+        "order": 39
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880169,
+        "known_for_department": "Acting",
+        "name": "Shawn Stainback",
+        "original_name": "Shawn Stainback",
+        "popularity": 0.0517,
+        "profile_path": null,
+        "cast_id": 58,
+        "character": "Double Dutch Girl",
+        "credit_id": "59a8c8dfc3a3683c87020bb1",
+        "order": 40
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1880170,
+        "known_for_department": "Acting",
+        "name": "Soquana Wallace",
+        "original_name": "Soquana Wallace",
+        "popularity": 0.0505,
+        "profile_path": null,
+        "cast_id": 59,
+        "character": "Double Dutch Girl",
+        "credit_id": "59a8c8f292514157990211e6",
+        "order": 41
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1607841,
+        "known_for_department": "Acting",
+        "name": "Erik Dellums",
+        "original_name": "Erik Dellums",
+        "popularity": 0.3522,
+        "profile_path": "/sXkvaZ071a1envYTChDYQlcAo0H.jpg",
+        "cast_id": 64,
+        "character": "Customer in Pizzeria (uncredited)",
+        "credit_id": "646152876e0d72017b30e311",
+        "order": 42
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 32897,
+        "known_for_department": "Acting",
+        "name": "Nicholas Turturro",
+        "original_name": "Nicholas Turturro",
+        "popularity": 0.5299,
+        "profile_path": "/ljkk4jMBlYvYg02LHeeAK8DqoYM.jpg",
+        "cast_id": 62,
+        "character": "Policeman (uncredited)",
+        "credit_id": "5d38fcfc60c51d6d0c80d574",
+        "order": 43
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5281,
+        "known_for_department": "Directing",
+        "name": "Spike Lee",
+        "original_name": "Spike Lee",
+        "popularity": 1.3997,
+        "profile_path": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+        "credit_id": "52fe428ec3a36847f8027d41",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5281,
+        "known_for_department": "Directing",
+        "name": "Spike Lee",
+        "original_name": "Spike Lee",
+        "popularity": 1.3997,
+        "profile_path": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+        "credit_id": "52fe428ec3a36847f8027d47",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15520,
+        "known_for_department": "Sound",
+        "name": "Bill Lee",
+        "original_name": "Bill Lee",
+        "popularity": 0.2905,
+        "profile_path": "/hLtEGbchGOb7abdE1GEWyeySyt6.jpg",
+        "credit_id": "52fe428ec3a36847f8027d4d",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15521,
+        "known_for_department": "Directing",
+        "name": "Ernest R. Dickerson",
+        "original_name": "Ernest R. Dickerson",
+        "popularity": 0.2075,
+        "profile_path": "/iF1jgMI2b8Q2crFPCk5IaGUBdND.jpg",
+        "credit_id": "52fe428ec3a36847f8027d53",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5289,
+        "known_for_department": "Editing",
+        "name": "Barry Alexander Brown",
+        "original_name": "Barry Alexander Brown",
+        "popularity": 0.2229,
+        "profile_path": "/rSFpYvWaBONyOhveFnEx0I56zOx.jpg",
+        "credit_id": "52fe428ec3a36847f8027d59",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 15522,
+        "known_for_department": "Production",
+        "name": "Robi Reed",
+        "original_name": "Robi Reed",
+        "popularity": 0.4983,
+        "profile_path": "/mP7M7maaGFi6MAb6Usb4DuazrZa.jpg",
+        "credit_id": "52fe428ec3a36847f8027d5f",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 548,
+        "known_for_department": "Art",
+        "name": "Wynn Thomas",
+        "original_name": "Wynn Thomas",
+        "popularity": 0.6624,
+        "profile_path": "/2GhJIKpC5MseBxEk3ZTb8xSv9ie.jpg",
+        "credit_id": "52fe428ec3a36847f8027d65",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15523,
+        "known_for_department": "Art",
+        "name": "Steve Rosse",
+        "original_name": "Steve Rosse",
+        "popularity": 0.0287,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d6b",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 15524,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Ruth E. Carter",
+        "original_name": "Ruth E. Carter",
+        "popularity": 0.734,
+        "profile_path": "/ou4DhIfOTd5FYIvPypV53Fdois6.jpg",
+        "credit_id": "52fe428ec3a36847f8027d71",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 15525,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Matiki Anoff",
+        "original_name": "Matiki Anoff",
+        "popularity": 0.2243,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d77",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15526,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Larry M. Cherry",
+        "original_name": "Larry M. Cherry",
+        "popularity": 0.343,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d7d",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9619,
+        "known_for_department": "Sound",
+        "name": "Skip Lievsay",
+        "original_name": "Skip Lievsay",
+        "popularity": 0.1861,
+        "profile_path": "/2whUczAYkjZYOytRoaw0iOmCX0K.jpg",
+        "credit_id": "52fe428ec3a36847f8027d83",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15527,
+        "known_for_department": "Sound",
+        "name": "Tony Martinez",
+        "original_name": "Tony Martinez",
+        "popularity": 0.098,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d89",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15528,
+        "known_for_department": "Crew",
+        "name": "Steve Kirshoff",
+        "original_name": "Steve Kirshoff",
+        "popularity": 0.5473,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d8f",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15529,
+        "known_for_department": "Acting",
+        "name": "Eddie Smith",
+        "original_name": "Eddie Smith",
+        "popularity": 0.4081,
+        "profile_path": "/zbtq6dKhKGs0Zynnsu5Di4zkxVi.jpg",
+        "credit_id": "52fe428ec3a36847f8027d95",
+        "department": "Crew",
+        "job": "Stunt Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 15530,
+        "known_for_department": "Crew",
+        "name": "Andy Duppin",
+        "original_name": "Andy Duppin",
+        "popularity": 0.268,
+        "profile_path": null,
+        "credit_id": "52fe428ec3a36847f8027d9b",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 27513,
+        "known_for_department": "Crew",
+        "name": "Danny Aiello III",
+        "original_name": "Danny Aiello III",
+        "popularity": 0.3902,
+        "profile_path": "/4uDaf7ne7XJHL3AonRzW1FkXqWO.jpg",
+        "credit_id": "650f5f67f29d66013962df0a",
+        "department": "Crew",
+        "job": "Stunt Double"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4446,
+        "known_for_department": "Production",
+        "name": "Jon Kilik",
+        "original_name": "Jon Kilik",
+        "popularity": 1.5513,
+        "profile_path": "/gxNOHTVIUSACPZzNzcyi50SViid.jpg",
+        "credit_id": "65b65f7458efd30148cace04",
+        "department": "Production",
+        "job": "Line Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 959805,
+        "known_for_department": "Production",
+        "name": "Monty Ross",
+        "original_name": "Monty Ross",
+        "popularity": 0.6407,
+        "profile_path": null,
+        "credit_id": "65b65f99b6cff10163f74d90",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1606659,
+        "known_for_department": "Directing",
+        "name": "Randy Fletcher",
+        "original_name": "Randy Fletcher",
+        "popularity": 0.3003,
+        "profile_path": null,
+        "credit_id": "65b677534f33ad017a0ce9bd",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 13055,
+        "known_for_department": "Directing",
+        "name": "Nandi Bowe",
+        "original_name": "Nandi Bowe",
+        "popularity": 0.0821,
+        "profile_path": "/rXZZx3fyU1K42ouoo0AaCiyoGyf.jpg",
+        "credit_id": "65b677660d2944014a5ab563",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504582,
+        "known_for_department": "Crew",
+        "name": "Mharaka Washington",
+        "original_name": "Mharaka Washington",
+        "popularity": 0.026,
+        "profile_path": null,
+        "credit_id": "65b6788e2faf4d017cddc4ad",
+        "department": "Crew",
+        "job": "Stunt Driver"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504583,
+        "known_for_department": "Acting",
+        "name": "Gary Frith",
+        "original_name": "Gary Frith",
+        "popularity": 0.1475,
+        "profile_path": null,
+        "credit_id": "65b6789c58efd30148cad7d7",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1947873,
+        "known_for_department": "Acting",
+        "name": "Rashon Khan",
+        "original_name": "Rashon Khan",
+        "popularity": 0.163,
+        "profile_path": null,
+        "credit_id": "65b678b712425c01834a3930",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504584,
+        "known_for_department": "Crew",
+        "name": "Erik Koniger",
+        "original_name": "Erik Koniger",
+        "popularity": 0.1634,
+        "profile_path": null,
+        "credit_id": "65b678ce2faf4d017cddc509",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504585,
+        "known_for_department": "Crew",
+        "name": "Malcolm Livingston",
+        "original_name": "Malcolm Livingston",
+        "popularity": 0.0243,
+        "profile_path": null,
+        "credit_id": "65b678dab1131f014929b80c",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1223755,
+        "known_for_department": "Acting",
+        "name": "David S. Lomax",
+        "original_name": "David S. Lomax",
+        "popularity": 0.1263,
+        "profile_path": "/xmPi0D4PwUGZeiZHSfBxOfQYlP9.jpg",
+        "credit_id": "65b678e8afe22401843a6224",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 180435,
+        "known_for_department": "Acting",
+        "name": "Dominic Marcus",
+        "original_name": "Dominic Marcus",
+        "popularity": 0.5332,
+        "profile_path": "/8f2TC5QZIlJiIA5VuCZS8JdrS4Y.jpg",
+        "credit_id": "65b67900b6cff10163f75c84",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 154216,
+        "known_for_department": "Acting",
+        "name": "Eric Payne",
+        "original_name": "Eric Payne",
+        "popularity": 0.6118,
+        "profile_path": "/vWzmGpV07VvEHGplnXaNewFtO9a.jpg",
+        "credit_id": "65b6793460c51d0184d26e0e",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4308192,
+        "known_for_department": "Crew",
+        "name": "Roy Thomas",
+        "original_name": "Roy Thomas",
+        "popularity": 0.0582,
+        "profile_path": null,
+        "credit_id": "65b6794bf6596f00c9fe41e8",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 60475,
+        "known_for_department": "Production",
+        "name": "Preston L. Holmes",
+        "original_name": "Preston L. Holmes",
+        "popularity": 0.4915,
+        "profile_path": null,
+        "credit_id": "65b679884f33ad017a0ceb8a",
+        "department": "Production",
+        "job": "Production Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504587,
+        "known_for_department": "Directing",
+        "name": "Christopher Lopez",
+        "original_name": "Christopher Lopez",
+        "popularity": 0.0132,
+        "profile_path": null,
+        "credit_id": "65b679bc6e0d720184490e60",
+        "department": "Directing",
+        "job": "Second Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504588,
+        "known_for_department": "Production",
+        "name": "Brent Owens",
+        "original_name": "Brent Owens",
+        "popularity": 0.0637,
+        "profile_path": null,
+        "credit_id": "65b679f2b6cff100caf641d1",
+        "department": "Production",
+        "job": "Location Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504590,
+        "known_for_department": "Production",
+        "name": "R.W. Dixon",
+        "original_name": "R.W. Dixon",
+        "popularity": 0.0937,
+        "profile_path": null,
+        "credit_id": "65b67a0cf6596f0184fffe32",
+        "department": "Production",
+        "job": "Unit Manager"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 585679,
+        "known_for_department": "Production",
+        "name": "Lillian Pyles",
+        "original_name": "Lillian Pyles",
+        "popularity": 0.0961,
+        "profile_path": null,
+        "credit_id": "65b67a2958efd3017ccbad2b",
+        "department": "Production",
+        "job": "Production Office Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504592,
+        "known_for_department": "Production",
+        "name": "Robin Downes",
+        "original_name": "Robin Downes",
+        "popularity": 0.0453,
+        "profile_path": null,
+        "credit_id": "65b67a4e0d2944017f5af8e8",
+        "department": "Production",
+        "job": "Assistant Production Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2548364,
+        "known_for_department": "Production",
+        "name": "Susan D. Fowler",
+        "original_name": "Susan D. Fowler",
+        "popularity": 0.2446,
+        "profile_path": null,
+        "credit_id": "65b67a62f6596f0163ff4ab3",
+        "department": "Production",
+        "job": "Production Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504593,
+        "known_for_department": "Crew",
+        "name": "Robert F. Nickson",
+        "original_name": "Robert F. Nickson",
+        "popularity": 0.0118,
+        "profile_path": null,
+        "credit_id": "65b67a78f6596f0149fea56b",
+        "department": "Crew",
+        "job": "Production Controller"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1395701,
+        "known_for_department": "Directing",
+        "name": "Joe Gonzalez",
+        "original_name": "Joe Gonzalez",
+        "popularity": 0.0756,
+        "profile_path": null,
+        "credit_id": "65b67aa560c51d0163d1b44e",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21468,
+        "known_for_department": "Camera",
+        "name": "John Newby",
+        "original_name": "John Newby",
+        "popularity": 0.6528,
+        "profile_path": "/2QwToRnWysULIc5nzmgZheVcuLt.jpg",
+        "credit_id": "65b67ac858efd3017ccbad8e",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1018469,
+        "known_for_department": "Camera",
+        "name": "Jonathan Burkhart",
+        "original_name": "Jonathan Burkhart",
+        "popularity": 0.0118,
+        "profile_path": null,
+        "credit_id": "65b67adcb6cff10149f6aa3a",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 81727,
+        "known_for_department": "Directing",
+        "name": "Darnell Martin",
+        "original_name": "Darnell Martin",
+        "popularity": 0.3283,
+        "profile_path": "/ckJYoBeDRT6DgqfyEA1LWdIQjr1.jpg",
+        "credit_id": "65b67b0658efd30148cad907",
+        "department": "Camera",
+        "job": "Second Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 56906,
+        "known_for_department": "Camera",
+        "name": "Frank Prinzi",
+        "original_name": "Frank Prinzi",
+        "popularity": 0.1997,
+        "profile_path": null,
+        "credit_id": "65b67b24b1131f01722a2baf",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1232562,
+        "known_for_department": "Camera",
+        "name": "George Pattison",
+        "original_name": "George Pattison",
+        "popularity": 0.341,
+        "profile_path": null,
+        "credit_id": "65b67b356e0d72014947acc4",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1395281,
+        "known_for_department": "Camera",
+        "name": "Bob Gorelick",
+        "original_name": "Bob Gorelick",
+        "popularity": 0.1306,
+        "profile_path": null,
+        "credit_id": "65b67b4a0d294401315a97d1",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2632229,
+        "known_for_department": "Camera",
+        "name": "Paul Reuter",
+        "original_name": "Paul Reuter",
+        "popularity": 0.1509,
+        "profile_path": null,
+        "credit_id": "65b67b616e0d72014947acdd",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 120289,
+        "known_for_department": "Sound",
+        "name": "Frank Stettner",
+        "original_name": "Frank Stettner",
+        "popularity": 0.2014,
+        "profile_path": null,
+        "credit_id": "65b67b7b1c635b01621413d9",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 91096,
+        "known_for_department": "Sound",
+        "name": "Andrew Schmetterling",
+        "original_name": "Andrew Schmetterling",
+        "popularity": 0.6367,
+        "profile_path": null,
+        "credit_id": "65b67b9158efd30148cad923",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1537446,
+        "known_for_department": "Camera",
+        "name": "David Lee",
+        "original_name": "David Lee",
+        "popularity": 0.2575,
+        "profile_path": null,
+        "credit_id": "65b67bbf6e0d720184490fba",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13933,
+        "known_for_department": "Art",
+        "name": "Dennis Bradford",
+        "original_name": "Dennis Bradford",
+        "popularity": 0.1442,
+        "profile_path": null,
+        "credit_id": "65b67bfdb6cff1017cf7fd50",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504601,
+        "known_for_department": "Art",
+        "name": "Pam Stephens",
+        "original_name": "Pam Stephens",
+        "popularity": 0.0177,
+        "profile_path": null,
+        "credit_id": "65b67c0eb1131f018d2a8aad",
+        "department": "Art",
+        "job": "Art Department Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 143284,
+        "known_for_department": "Directing",
+        "name": "Jeff Balsmeyer",
+        "original_name": "Jeff Balsmeyer",
+        "popularity": 0.3143,
+        "profile_path": null,
+        "credit_id": "65b67c3112425c0162498595",
+        "department": "Art",
+        "job": "Storyboard Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1763592,
+        "known_for_department": "Art",
+        "name": "Octavio Molina",
+        "original_name": "Octavio Molina",
+        "popularity": 0.263,
+        "profile_path": null,
+        "credit_id": "65b67c4c58efd30163cb5353",
+        "department": "Art",
+        "job": "Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3115297,
+        "known_for_department": "Art",
+        "name": "Mark Paul Selemon",
+        "original_name": "Mark Paul Selemon",
+        "popularity": 0.4116,
+        "profile_path": null,
+        "credit_id": "65b67c6558efd3017ccbae3e",
+        "department": "Art",
+        "job": "Props"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1333980,
+        "known_for_department": "Art",
+        "name": "Kevin Ladson",
+        "original_name": "Kevin Ladson",
+        "popularity": 1.0451,
+        "profile_path": null,
+        "credit_id": "65b67cd34f33ad01310ca1b1",
+        "department": "Art",
+        "job": "Props"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3095752,
+        "known_for_department": "Art",
+        "name": "Andrew Lassman",
+        "original_name": "Andrew Lassman",
+        "popularity": 0.1798,
+        "profile_path": null,
+        "credit_id": "65b67ce3b1131f01722a2c9d",
+        "department": "Art",
+        "job": "Props"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 91073,
+        "known_for_department": "Art",
+        "name": "Scott Rosenstock",
+        "original_name": "Scott Rosenstock",
+        "popularity": 0.155,
+        "profile_path": null,
+        "credit_id": "65b67cf5b1131f01722a2caa",
+        "department": "Art",
+        "job": "Leadman"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1336712,
+        "known_for_department": "Art",
+        "name": "Keith Wall",
+        "original_name": "Keith Wall",
+        "popularity": 0.1175,
+        "profile_path": null,
+        "credit_id": "65b67d05afe224016339c57a",
+        "department": "Art",
+        "job": "Lead Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504606,
+        "known_for_department": "Art",
+        "name": "Jon Rudo",
+        "original_name": "Jon Rudo",
+        "popularity": 0.005,
+        "profile_path": null,
+        "credit_id": "65b67d2ef6596f0149fea636",
+        "department": "Art",
+        "job": "Assistant Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2264102,
+        "known_for_department": "Art",
+        "name": "Anthony Baldasare",
+        "original_name": "Anthony Baldasare",
+        "popularity": 0.4201,
+        "profile_path": null,
+        "credit_id": "65b67d43b6cff10163f75e94",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2725136,
+        "known_for_department": "Art",
+        "name": "Michael L. Benson",
+        "original_name": "Michael L. Benson",
+        "popularity": 0.0878,
+        "profile_path": null,
+        "credit_id": "65b67d526e0d72014947ad79",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2121516,
+        "known_for_department": "Crew",
+        "name": "James R. Bilz",
+        "original_name": "James R. Bilz",
+        "popularity": 0.4041,
+        "profile_path": null,
+        "credit_id": "65b67d632faf4d0163dd20e1",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2154244,
+        "known_for_department": "Art",
+        "name": "Thomas Hudson Reeve",
+        "original_name": "Thomas Hudson Reeve",
+        "popularity": 0.2134,
+        "profile_path": null,
+        "credit_id": "65b67d850d2944014a5ab7b7",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1399957,
+        "known_for_department": "Art",
+        "name": "Martin Bernstein",
+        "original_name": "Martin Bernstein",
+        "popularity": 0.5186,
+        "profile_path": null,
+        "credit_id": "65b67d9eafe224016339c5e3",
+        "department": "Art",
+        "job": "Construction Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504608,
+        "known_for_department": "Camera",
+        "name": "Robert Ippolito",
+        "original_name": "Robert Ippolito",
+        "popularity": 0.0268,
+        "profile_path": null,
+        "credit_id": "65b67dc5b6cff10163f75ef7",
+        "department": "Camera",
+        "job": "Key Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2673875,
+        "known_for_department": "Camera",
+        "name": "Paul Wachter",
+        "original_name": "Paul Wachter",
+        "popularity": 0.734,
+        "profile_path": null,
+        "credit_id": "65b67de6afe22400c038a511",
+        "department": "Camera",
+        "job": "Best Boy Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2990983,
+        "known_for_department": "Camera",
+        "name": "Rex North",
+        "original_name": "Rex North",
+        "popularity": 0.1023,
+        "profile_path": null,
+        "credit_id": "65b67df72faf4d0163dd214c",
+        "department": "Camera",
+        "job": "Dolly Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1813026,
+        "known_for_department": "Camera",
+        "name": "Rodney Bauer",
+        "original_name": "Rodney Bauer",
+        "popularity": 0.4595,
+        "profile_path": null,
+        "credit_id": "65b67e084f33ad01470bb312",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3343905,
+        "known_for_department": "Camera",
+        "name": "John Archibald",
+        "original_name": "John Archibald",
+        "popularity": 0.17,
+        "profile_path": null,
+        "credit_id": "65b67e18afe22400c038a527",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504609,
+        "known_for_department": "Camera",
+        "name": "Erich Augenstein",
+        "original_name": "Erich Augenstein",
+        "popularity": 0.0066,
+        "profile_path": null,
+        "credit_id": "65b67e2412425c00ca486646",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2685377,
+        "known_for_department": "Lighting",
+        "name": "Donald Bialer",
+        "original_name": "Donald Bialer",
+        "popularity": 0.1195,
+        "profile_path": null,
+        "credit_id": "65b67e330d294401645adbdf",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1891741,
+        "known_for_department": "Camera",
+        "name": "Roger Kimpton",
+        "original_name": "Roger Kimpton",
+        "popularity": 0.0911,
+        "profile_path": null,
+        "credit_id": "65b67e4760c51d0163d1b5d3",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2754109,
+        "known_for_department": "Lighting",
+        "name": "Charles Houston",
+        "original_name": "Charles Houston",
+        "popularity": 0.148,
+        "profile_path": null,
+        "credit_id": "65b67e592faf4d00c9dc1c3f",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2754110,
+        "known_for_department": "Lighting",
+        "name": "Val DeSalvo",
+        "original_name": "Val DeSalvo",
+        "popularity": 0.0299,
+        "profile_path": null,
+        "credit_id": "65b67e6758efd30163cb53fb",
+        "department": "Lighting",
+        "job": "Best Boy Electric"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3877656,
+        "known_for_department": "Lighting",
+        "name": "Serge Mihajlov",
+        "original_name": "Serge Mihajlov",
+        "popularity": 0.2201,
+        "profile_path": null,
+        "credit_id": "65b67e77b6cff10149f6aae8",
+        "department": "Lighting",
+        "job": "Electrician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504611,
+        "known_for_department": "Lighting",
+        "name": "John O'Malley",
+        "original_name": "John O'Malley",
+        "popularity": 0.0214,
+        "profile_path": null,
+        "credit_id": "65b67e8bb1131f01722a2d83",
+        "department": "Lighting",
+        "job": "Electrician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2974405,
+        "known_for_department": "Lighting",
+        "name": "Derrick Still",
+        "original_name": "Derrick Still",
+        "popularity": 0.0377,
+        "profile_path": null,
+        "credit_id": "65b67eabf6596f0149fea6f2",
+        "department": "Crew",
+        "job": "Generator Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504613,
+        "known_for_department": "Lighting",
+        "name": "James Boorman",
+        "original_name": "James Boorman",
+        "popularity": 0.0,
+        "profile_path": null,
+        "credit_id": "65b67ec812425c016249867a",
+        "department": "Lighting",
+        "job": "Electrician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504614,
+        "known_for_department": "Lighting",
+        "name": "Christopher Vanzant",
+        "original_name": "Christopher Vanzant",
+        "popularity": 0.0299,
+        "profile_path": null,
+        "credit_id": "65b67edeafe224016339c642",
+        "department": "Lighting",
+        "job": "Electrician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1917709,
+        "known_for_department": "Editing",
+        "name": "Tula Goenka",
+        "original_name": "Tula Goenka",
+        "popularity": 0.1836,
+        "profile_path": null,
+        "credit_id": "65b67ef50d2944017f5afb16",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1333223,
+        "known_for_department": "Sound",
+        "name": "Philip Stockton",
+        "original_name": "Philip Stockton",
+        "popularity": 0.4756,
+        "profile_path": null,
+        "credit_id": "65b67f0ef6596f0163ff4d39",
+        "department": "Sound",
+        "job": "Supervising Dialogue Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 388770,
+        "known_for_department": "Sound",
+        "name": "Jeffrey Stern",
+        "original_name": "Jeffrey Stern",
+        "popularity": 0.2306,
+        "profile_path": null,
+        "credit_id": "65b67f2058efd3017ccbafac",
+        "department": "Sound",
+        "job": "Dialogue Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1431622,
+        "known_for_department": "Editing",
+        "name": "Brunilda Torres",
+        "original_name": "Brunilda Torres",
+        "popularity": 0.0777,
+        "profile_path": null,
+        "credit_id": "65b67f30b1131f01302932ba",
+        "department": "Sound",
+        "job": "ADR Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1762315,
+        "known_for_department": "Sound",
+        "name": "Gail Showalter",
+        "original_name": "Gail Showalter",
+        "popularity": 0.2882,
+        "profile_path": null,
+        "credit_id": "65b67f412faf4d0163dd21c1",
+        "department": "Sound",
+        "job": "Foley Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 17862,
+        "known_for_department": "Sound",
+        "name": "Alex Steyermark",
+        "original_name": "Alex Steyermark",
+        "popularity": 0.3595,
+        "profile_path": null,
+        "credit_id": "65b67f714f33ad01610c2083",
+        "department": "Sound",
+        "job": "Music Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3532199,
+        "known_for_department": "Editing",
+        "name": "Rudy Gaskins",
+        "original_name": "Rudy Gaskins",
+        "popularity": 0.0622,
+        "profile_path": null,
+        "credit_id": "65b67f8858efd30148cada92",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1638,
+        "known_for_department": "Sound",
+        "name": "Eugene Gearty",
+        "original_name": "Eugene Gearty",
+        "popularity": 0.4668,
+        "profile_path": null,
+        "credit_id": "65b67f9a12425c01834a3dfa",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1620010,
+        "known_for_department": "Sound",
+        "name": "Bruce Pross",
+        "original_name": "Bruce Pross",
+        "popularity": 0.6347,
+        "profile_path": null,
+        "credit_id": "65b67fcff6596f0163ff4d93",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1763601,
+        "known_for_department": "Sound",
+        "name": "Stuart Stanley",
+        "original_name": "Stuart Stanley",
+        "popularity": 0.2977,
+        "profile_path": null,
+        "credit_id": "65b67fe12faf4d017cddc921",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1651774,
+        "known_for_department": "Sound",
+        "name": "James Flatto",
+        "original_name": "James Flatto",
+        "popularity": 0.2,
+        "profile_path": null,
+        "credit_id": "65b67ff4afe22401843a66c7",
+        "department": "Sound",
+        "job": "Assistant Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 92386,
+        "known_for_department": "Sound",
+        "name": "Marissa Littlefield",
+        "original_name": "Marissa Littlefield",
+        "popularity": 0.1996,
+        "profile_path": null,
+        "credit_id": "65b6800460c51d0163d1b6b2",
+        "department": "Sound",
+        "job": "Assistant Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1337469,
+        "known_for_department": "Sound",
+        "name": "Nic Ratner",
+        "original_name": "Nic Ratner",
+        "popularity": 0.6235,
+        "profile_path": null,
+        "credit_id": "65b6801612425c016249873c",
+        "department": "Sound",
+        "job": "Assistant Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 92376,
+        "known_for_department": "Sound",
+        "name": "Marko Costanzo",
+        "original_name": "Marko Costanzo",
+        "popularity": 0.2994,
+        "profile_path": null,
+        "credit_id": "65b68026b6cff10163f75fea",
+        "department": "Sound",
+        "job": "Foley Artist"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1400197,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Karen Perry",
+        "original_name": "Karen Perry",
+        "popularity": 0.3664,
+        "profile_path": null,
+        "credit_id": "65b6807760c51d0148d10638",
+        "department": "Costume & Make-Up",
+        "job": "Assistant Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504622,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Jennifer Ruscoe",
+        "original_name": "Jennifer Ruscoe",
+        "popularity": 0.0118,
+        "profile_path": null,
+        "credit_id": "65b680880d2944014a5ab922",
+        "department": "Costume & Make-Up",
+        "job": "Wardrobe Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2396812,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Valerie Gladstone-Appel",
+        "original_name": "Valerie Gladstone-Appel",
+        "popularity": 0.5233,
+        "profile_path": null,
+        "credit_id": "65b6809b2faf4d00e7dc8788",
+        "department": "Costume & Make-Up",
+        "job": "Seamstress"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1214641,
+        "known_for_department": "Directing",
+        "name": "Millicent Shelton",
+        "original_name": "Millicent Shelton",
+        "popularity": 0.2101,
+        "profile_path": "/8UVVp9iJNDRhPAegBKVwTnKMrJA.jpg",
+        "credit_id": "65b680ba1c635b01621416b6",
+        "department": "Costume & Make-Up",
+        "job": "Wardrobe Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504624,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Marianna Najjar",
+        "original_name": "Marianna Najjar",
+        "popularity": 0.0842,
+        "profile_path": null,
+        "credit_id": "65b680df60c51d0184d27312",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2540091,
+        "known_for_department": "Production",
+        "name": "Andrea Reed",
+        "original_name": "Andrea Reed",
+        "popularity": 0.1731,
+        "profile_path": null,
+        "credit_id": "65b680f56e0d72014947af1c",
+        "department": "Production",
+        "job": "Casting Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3264051,
+        "known_for_department": "Production",
+        "name": "Sarah Hyde Hamlet",
+        "original_name": "Sarah Hyde Hamlet",
+        "popularity": 0.3017,
+        "profile_path": null,
+        "credit_id": "65b681132faf4d017cddc9e8",
+        "department": "Production",
+        "job": "Extras Casting"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3087826,
+        "known_for_department": "Crew",
+        "name": "Sam Mattingly",
+        "original_name": "Sam Mattingly",
+        "popularity": 0.103,
+        "profile_path": null,
+        "credit_id": "65b6814c4f33ad017a0cef50",
+        "department": "Crew",
+        "job": "Unit Publicist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4504628,
+        "known_for_department": "Crew",
+        "name": "Cheryl Ann Scott",
+        "original_name": "Cheryl Ann Scott",
+        "popularity": 0.134,
+        "profile_path": null,
+        "credit_id": "65b6816f58efd3017ccbb174",
+        "department": "Crew",
+        "job": "Craft Service"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 75001,
+        "known_for_department": "Editing",
+        "name": "Bob Hagans",
+        "original_name": "Bob Hagans",
+        "popularity": 0.2303,
+        "profile_path": null,
+        "credit_id": "65b68187b1131f01722a2ede",
+        "department": "Editing",
+        "job": "Color Timer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1419271,
+        "known_for_department": "Editing",
+        "name": "John Nicolard",
+        "original_name": "John Nicolard",
+        "popularity": 0.434,
+        "profile_path": null,
+        "credit_id": "65b68193f6596f0184000300",
+        "department": "Editing",
+        "job": "Color Timer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 91080,
+        "known_for_department": "Art",
+        "name": "Jeffrey Rollins",
+        "original_name": "Jeffrey Rollins",
+        "popularity": 0.339,
+        "profile_path": null,
+        "credit_id": "6695b354b196899478967472",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1400072,
+        "known_for_department": "Sound",
+        "name": "Tom Fleischman",
+        "original_name": "Tom Fleischman",
+        "popularity": 0.1842,
+        "profile_path": null,
+        "credit_id": "5c12fc8892514132c9095fb3",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5281,
+        "known_for_department": "Directing",
+        "name": "Spike Lee",
+        "original_name": "Spike Lee",
+        "popularity": 1.3997,
+        "profile_path": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+        "credit_id": "5e92556584448e001a8f02e0",
+        "department": "Directing",
+        "job": "Director"
+      }
+    ]
+  },
+  "videos": {
+    "id": 925,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"Here It Is; Love and Hate!\" (Radio Raheem's Speech)",
+        "key": "0ok6LEdgt3Y",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2026-02-17T20:00:01.000Z",
+        "id": "699777377e664f3e33733f85"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Spike Lee Deals With Trouble At Sal's Pizzeria",
+        "key": "MJ0KJtou-VM",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2024-09-07T16:00:18.000Z",
+        "id": "66df32fd04f62a0e6449bd92"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Radio Raheem's Death Sparks Riot in 4K HDR",
+        "key": "2BN5xMV1jag",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2024-06-29T19:00:02.000Z",
+        "id": "6684e346fb01a6d4fe17c47a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Spike Lee and Ruth E. Carter find color in the dark",
+        "key": "CoVxp_0O4I0",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2024-02-16T10:00:11.000Z",
+        "id": "65cf66c9fdf8b7018667c132"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\u201cHow Come You Ain\u2019t Got No Brothers Up on the Wall?\u201d Scene in 4K HDR",
+        "key": "sPHOpLG91bo",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2021-02-20T14:00:13.000Z",
+        "id": "60f5dd22c7a7e000477975a7"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Spike Lee Live Conversation about DO THE RIGHT THING",
+        "key": "IcTB3kN9wzw",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2020-06-26T13:11:39.000Z",
+        "id": "699778bab32caf1d80666349"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Behind The Scene: DO THE RIGHT THING Production Designer Wynn Thomas",
+        "key": "AonC-LKUnoE",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2020-06-24T19:40:35.000Z",
+        "id": "69977ee6183f6665aa13bbb4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Spike Lee on DO THE RIGHT THING",
+        "key": "SK8mhRegZ2U",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2020-06-23T22:45:00.000Z",
+        "id": "5ef4aaca976a230034b701f4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Radio Raheem's Story of LOVE and HATE",
+        "key": "QC6gI4gXYPw",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2020-06-02T13:00:14.000Z",
+        "id": "65cf670560c751017b69a4c3"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Cinematography in DO THE RIGHT THING",
+        "key": "Sr-3jivmcTA",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2019-08-13T20:18:33.000Z",
+        "id": "665c9d9140e1d9b532c8e686"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Studio Visits: Danielle Mastrion",
+        "key": "J5qPYzJ1PDg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2019-08-07T18:52:04.000Z",
+        "id": "699777f62acec8fb9aba3590"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\u201cYou Stepped On My Brand New White Air Jordans!\u201d",
+        "key": "3sLwtz_fBtQ",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2019-06-30T16:00:00.000Z",
+        "id": "65cf66f966469a017c0a4aea"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Do the Right Thing Time-Lapse",
+        "key": "SeIeCHQvc5o",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2019-04-24T21:54:46.000Z",
+        "id": "699777ad870c1d1801a72762"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Restored Trailer",
+        "key": "yVAD4fYRcvA",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2018-07-06T20:04:58.000Z",
+        "id": "65cf675aea84c7014a8105c9"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Crew of Do the Right Thing in New York",
+        "key": "NEd9gcvsasw",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-07-08T01:06:19.000Z",
+        "id": "69977935d07b87887f30234a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Cast of Do the Right Thing in New York",
+        "key": "PqibtOIXAkQ",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-07-07T23:41:16.000Z",
+        "id": "6997796153406ea5b7733e87"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Do the Right Thing and Brooklyn's Hottest Day of the Summer",
+        "key": "6Zv69udIoXw",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-07-02T00:49:48.000Z",
+        "id": "69977990163b50cb38a7272a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "How Do the Right Thing Got Started",
+        "key": "W_UmolGG1UM",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-07-01T23:31:23.000Z",
+        "id": "6997791f2429d4709e733e88"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Chuck D and Spike Lee Remember Do the Right Thing",
+        "key": "zYHPWzg0iXA",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-07-01T23:02:15.000Z",
+        "id": "699779aab32caf1d8066635a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Asif Kapadia introduces Do The Right Thing",
+        "key": "lIheO4k0tso",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2012-07-16T09:47:53.000Z",
+        "id": "6997777e556d1dddebc99361"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 925,
+    "keywords": [
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 796,
+        "name": "police brutality"
+      },
+      {
+        "id": 898,
+        "name": "hip-hop"
+      },
+      {
+        "id": 700,
+        "name": "italian american"
+      },
+      {
+        "id": 1463,
+        "name": "culture clash"
+      },
+      {
+        "id": 4630,
+        "name": "chaos"
+      },
+      {
+        "id": 3772,
+        "name": "heat"
+      },
+      {
+        "id": 3261,
+        "name": "street war"
+      },
+      {
+        "id": 3910,
+        "name": "restaurant critic"
+      },
+      {
+        "id": 4305,
+        "name": "radio transmission"
+      },
+      {
+        "id": 4470,
+        "name": "punk rock"
+      },
+      {
+        "id": 4733,
+        "name": "pizzeria"
+      },
+      {
+        "id": 4668,
+        "name": "police operation"
+      },
+      {
+        "id": 4735,
+        "name": "pizza"
+      },
+      {
+        "id": 9673,
+        "name": "love"
+      },
+      {
+        "id": 10594,
+        "name": "money"
+      },
+      {
+        "id": 12425,
+        "name": "racism"
+      },
+      {
+        "id": 41523,
+        "name": "brooklyn, new york city"
+      },
+      {
+        "id": 163070,
+        "name": "burlesque"
+      },
+      {
+        "id": 200918,
+        "name": "angry"
+      },
+      {
+        "id": 221227,
+        "name": "heatwave"
+      },
+      {
+        "id": 241927,
+        "name": "race relations"
+      },
+      {
+        "id": 325795,
+        "name": "dignified"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 925,
+    "results": {
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=AE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=AR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BG",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/7Cg8esVVXOijXAm1f1vrS7jVjcN.jpg",
+            "provider_id": 307,
+            "provider_name": "Globoplay",
+            "display_priority": 9
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=BZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+            "provider_id": 1794,
+            "provider_name": "Starz Amazon Channel",
+            "display_priority": 92
+          },
+          {
+            "logo_path": "/qcKfSyX4xkXESjHrkO8cZLRJkn6.jpg",
+            "provider_id": 2604,
+            "provider_name": "Crave Amazon Channel",
+            "display_priority": 142
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 69
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 60
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 60
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CV",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CY",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=CZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=DE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 130
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=EE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=EG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/kAZkQcIxMxTmlwdgSB05fqtymp0.jpg",
+            "provider_id": 29,
+            "provider_name": "Sky Go",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/6sJLsWk4TZHz1EffmTRSkaDehkh.jpg",
+            "provider_id": 591,
+            "provider_name": "Now TV Cinema",
+            "display_priority": 57
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=GH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=GR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=HN",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=HU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kAZkQcIxMxTmlwdgSB05fqtymp0.jpg",
+            "provider_id": 29,
+            "provider_name": "Sky Go",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6sJLsWk4TZHz1EffmTRSkaDehkh.jpg",
+            "provider_id": 591,
+            "provider_name": "Now TV Cinema",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=IL",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=IN",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=IT",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=LT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=LV",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=MU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=MX",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 20
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=MZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=NI",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=NL",
+        "rent": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/nzjqsR28PVVp5GJAlHtbBArNKqN.jpg",
+            "provider_id": 563,
+            "provider_name": "KPN",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=NZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 59
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/iscLKFDwQlr0BAgVDBcuRapLiwC.jpg",
+            "provider_id": 273,
+            "provider_name": "Neon TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 59
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 9
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=PH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=PL",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=PT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=PY",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=SI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=TH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=UA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=UG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/voNwdFHk9uc2ZEWKZlwSQDsfRJN.jpg",
+            "provider_id": 2036,
+            "provider_name": "ALLBLK Apple TV channel",
+            "display_priority": 181
+          },
+          {
+            "logo_path": "/dj9jb4fiaHILc5GtF76BXzrsGZj.jpg",
+            "provider_id": 2064,
+            "provider_name": "ALLBLK Amazon channel ",
+            "display_priority": 214
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/4tJBhJcuF1ZstI5Yqu82G0yroLa.jpg",
+            "provider_id": 235,
+            "provider_name": "YouTube Free",
+            "display_priority": 95
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=VE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/925-do-the-right-thing/watch?locale=ZA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      }
+    }
+  }
+}

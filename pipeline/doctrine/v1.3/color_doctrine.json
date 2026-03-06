@@ -1,0 +1,577 @@
+{
+  "$schema": "../../schema/color_doctrine.schema.json",
+  "version": "1.3",
+  "last_updated": "2026-02-26",
+  "principles": {
+    "cultural_memory_over_pixels": "Color identity is determined by collective cultural memory and cinematographic intent, not by pixel dominance or frame frequency.",
+    "one_film_one_color": "A film can never be canonically associated with more than one primary color. The color identity is singular and defining.",
+    "ai_informs_editors_decide": "AI analysis provides reasoning and validation, but editorial judgment always has final authority over color assignments.",
+    "monochrome_is_editorial": "Monochromatic mode assignment (claroscuro_dramatico vs monocromatico_intimo) is an editorial decision based on cinematographic style, not chromatic analysis.",
+    "examples_are_illustrative": "All film examples in this doctrine are illustrative references only. They are non-exclusive, non-canonical, and not assignments. No film may appear as a reference example for more than one color."
+  },
+  "colors": [
+    {
+      "id": "rojo_pasional",
+      "hex": "#8E1B1B",
+      "name": "Rojo Pasional",
+      "moods": [
+        "passion",
+        "violence",
+        "desire",
+        "intensity",
+        "danger"
+      ],
+      "genre_associations": [
+        "thriller",
+        "melodrama",
+        "horror",
+        "romance"
+      ],
+      "cinematographer_signatures": [
+        "Vittorio Storaro",
+        "Dante Spinotti"
+      ],
+      "reference_examples": [
+        "The Conformist",
+        "Suspiria"
+      ],
+      "cultural_context": "Blood, love, revolution, emotional extremity",
+      "cinematographic_notes": "Associated with intense emotional states, bloodshed, desire, and moments of dramatic revelation"
+    },
+    {
+      "id": "naranja_apocaliptico",
+      "hex": "#C4471D",
+      "name": "Naranja Apocalíptico",
+      "moods": [
+        "chaos",
+        "heat",
+        "collapse",
+        "aggression",
+        "survival"
+      ],
+      "genre_associations": [
+        "action",
+        "war",
+        "dystopian_sci_fi"
+      ],
+      "cinematographer_signatures": [
+        "Roger Deakins"
+      ],
+      "reference_examples": [
+        "Mad Max: Fury Road",
+        "Apocalypse Now"
+      ],
+      "cultural_context": "Fire, desert warfare, end-of-world imagery",
+      "cinematographic_notes": "Explosive energy, desert heat, civilizational collapse, kinetic warfare"
+    },
+    {
+      "id": "ambar_desertico",
+      "hex": "#C98A2E",
+      "name": "Ámbar Desértico",
+      "moods": [
+        "nostalgia",
+        "decay",
+        "isolation",
+        "warmth",
+        "memory"
+      ],
+      "genre_associations": [
+        "western",
+        "period_drama"
+      ],
+      "cinematographer_signatures": [
+        "Roger Deakins",
+        "Rodrigo Prieto"
+      ],
+      "reference_examples": [
+        "No Country for Old Men",
+        "Lawrence of Arabia"
+      ],
+      "cultural_context": "Frontier mythology, faded sunlight, dust",
+      "cinematographic_notes": "Golden hour light in arid landscapes, temporal distance, weathered textures"
+    },
+    {
+      "id": "amarillo_ludico",
+      "hex": "#F2C94C",
+      "name": "Amarillo Lúdico",
+      "moods": [
+        "joy",
+        "whimsy",
+        "innocence",
+        "optimism"
+      ],
+      "genre_associations": [
+        "comedy",
+        "coming_of_age"
+      ],
+      "cinematographer_signatures": [
+        "Bruno Delbonnel"
+      ],
+      "reference_examples": [
+        "Amélie",
+        "Little Miss Sunshine"
+      ],
+      "cultural_context": "Playfulness, childhood, imagination",
+      "cinematographic_notes": "Bright, saturated palettes expressing joy, curiosity, and youthful energy"
+    },
+    {
+      "id": "verde_lima",
+      "hex": "#7BC96F",
+      "name": "Verde Lima",
+      "moods": [
+        "vitality",
+        "youth",
+        "nature",
+        "renewal"
+      ],
+      "genre_associations": [
+        "naturalistic_drama",
+        "coming_of_age"
+      ],
+      "cinematographer_signatures": [
+        "Emmanuel Lubezki"
+      ],
+      "reference_examples": [
+        "The Tree of Life",
+        "Call Me By Your Name"
+      ],
+      "cultural_context": "Natural light, growth, countryside",
+      "cinematographic_notes": "Organic, sun-dappled environments, pastoral beauty, life force"
+    },
+    {
+      "id": "verde_esmeralda",
+      "hex": "#1F7A5C",
+      "name": "Verde Esmeralda",
+      "moods": [
+        "elegance",
+        "mystery",
+        "depth",
+        "refinement"
+      ],
+      "genre_associations": [
+        "mystery",
+        "period_drama"
+      ],
+      "cinematographer_signatures": [
+        "Robert Yeoman"
+      ],
+      "reference_examples": [
+        "Vertigo",
+        "Solo con tu pareja"
+      ],
+      "cultural_context": "Jewel tones, opulence, hidden worlds",
+      "cinematographic_notes": "Rich, saturated greens suggesting luxury, obsession, or concealed truth"
+    },
+    {
+      "id": "verde_distopico",
+      "hex": "#2F4F3E",
+      "name": "Verde Distópico",
+      "moods": [
+        "decay",
+        "surveillance",
+        "toxicity",
+        "oppression"
+      ],
+      "genre_associations": [
+        "dystopia",
+        "sci_fi"
+      ],
+      "cinematographer_signatures": [
+        "Jordan Cronenweth"
+      ],
+      "reference_examples": [
+        "The Matrix",
+        "Alien"
+      ],
+      "cultural_context": "Control systems, night vision, industrial fear",
+      "cinematographic_notes": "Sickly, artificial greens associated with technological dread and systemic control"
+    },
+    {
+      "id": "cian_melancolico",
+      "hex": "#4A7C8C",
+      "name": "Cian Melancólico",
+      "moods": [
+        "loneliness",
+        "rain",
+        "contemplation"
+      ],
+      "genre_associations": [
+        "drama",
+        "arthouse"
+      ],
+      "cinematographer_signatures": [
+        "Harris Savides"
+      ],
+      "reference_examples": [
+        "Lost in Translation"
+      ],
+      "cultural_context": "Urban melancholy, emotional distance",
+      "cinematographic_notes": "Cool, desaturated blues expressing isolation and quiet introspection"
+    },
+    {
+      "id": "azul_nocturno",
+      "hex": "#1B2A41",
+      "name": "Azul Nocturno",
+      "moods": [
+        "night",
+        "mystery",
+        "contemplation"
+      ],
+      "genre_associations": [
+        "neo_noir",
+        "sci_fi"
+      ],
+      "cinematographer_signatures": [
+        "Jordan Cronenweth",
+        "Roger Deakins"
+      ],
+      "reference_examples": [
+        "Blade Runner"
+      ],
+      "cultural_context": "Neon nights, urban solitude",
+      "cinematographic_notes": "Deep, saturated blues of artificial night, rain-slicked streets, existential searching"
+    },
+    {
+      "id": "violeta_cinetico",
+      "hex": "#5B3FA4",
+      "name": "Violeta Cinético",
+      "moods": [
+        "energy",
+        "neon",
+        "surreal_motion"
+      ],
+      "genre_associations": [
+        "sci_fi",
+        "action"
+      ],
+      "cinematographer_signatures": [
+        "Newton Thomas Sigel"
+      ],
+      "reference_examples": [
+        "Mandy"
+      ],
+      "cultural_context": "Electric color, kinetic intensity",
+      "cinematographic_notes": "Vibrant, aggressive purples expressing heightened states and sensory overload"
+    },
+    {
+      "id": "purpura_onirico",
+      "hex": "#7A3E6D",
+      "name": "Púrpura Onírico",
+      "moods": [
+        "dreamlike",
+        "romantic",
+        "otherworldly"
+      ],
+      "genre_associations": [
+        "romance",
+        "surrealism"
+      ],
+      "cinematographer_signatures": [
+        "Christopher Doyle"
+      ],
+      "reference_examples": [
+        "Florida Project"
+      ],
+      "cultural_context": "Memory, longing, dream logic",
+      "cinematographic_notes": "Soft, suffused purples suggesting reverie, nostalgia, or liminal spaces"
+    },
+    {
+      "id": "magenta_pop",
+      "hex": "#D63384",
+      "name": "Magenta Pop",
+      "moods": [
+        "rebellion",
+        "excess",
+        "pop_energy"
+      ],
+      "genre_associations": [
+        "music_films",
+        "youth_culture"
+      ],
+      "cinematographer_signatures": [
+        "Robert Richardson"
+      ],
+      "reference_examples": [
+        "Barbie"
+      ],
+      "cultural_context": "Counterculture, maximalism",
+      "cinematographic_notes": "Bold, saturated magentas expressing defiance, spectacle, and cultural commentary"
+    },
+    {
+      "id": "blanco_polar",
+      "hex": "#E8EEF2",
+      "name": "Blanco Polar",
+      "moods": [
+        "isolation",
+        "void",
+        "clinical",
+        "existential",
+        "minimalism"
+      ],
+      "genre_associations": [
+        "arthouse",
+        "thriller",
+        "drama",
+        "psychological_horror"
+      ],
+      "cinematographer_signatures": [
+        "Sven Nykvist",
+        "Edward Lachman"
+      ],
+      "reference_examples": [
+        "Three Colors: White",
+        "Fargo"
+      ],
+      "cultural_context": "Moral void, institutional coldness, existential emptiness, winter isolation",
+      "cinematographic_notes": "Cold white environments suggesting absence, clinical detachment, or blankness of extreme moral situations"
+    },
+    {
+      "id": "negro_abismo",
+      "hex": "#0A0A0F",
+      "name": "Negro Abismo",
+      "moods": [
+        "darkness",
+        "gothic",
+        "void",
+        "power",
+        "menace"
+      ],
+      "genre_associations": [
+        "superhero",
+        "noir",
+        "gothic",
+        "thriller"
+      ],
+      "cinematographer_signatures": [
+        "Gordon Willis",
+        "Bruno Delbonnel"
+      ],
+      "reference_examples": [
+        "Batman (1989)",
+        "Se7en"
+      ],
+      "cultural_context": "Gotham darkness, gothic menace, total visual void, noir extremity",
+      "cinematographic_notes": "Near-total darkness as aesthetic choice, silhouettes, gothic architecture consumed by shadow"
+    },
+    {
+      "id": "titanio_mecanico",
+      "hex": "#8A9199",
+      "name": "Titanio Mecánico",
+      "moods": [
+        "mechanical",
+        "cold_future",
+        "industrial",
+        "artificial",
+        "inhuman"
+      ],
+      "genre_associations": [
+        "sci_fi",
+        "dystopia",
+        "cyberpunk",
+        "action"
+      ],
+      "cinematographer_signatures": [
+        "Douglas Trumbull",
+        "Roger Deakins"
+      ],
+      "reference_examples": [
+        "Terminator 2",
+        "2001: A Space Odyssey",
+        "Ex Machina"
+      ],
+      "cultural_context": "Metal bodies, spacecraft interiors, artificial intelligence, industrial dystopia",
+      "cinematographic_notes": "Cold metallic grays of machines, robots, and spacecraft — technology as overwhelming physical presence"
+    },
+    {
+      "id": "rosa_pastel",
+      "hex": "#F4A7B9",
+      "name": "Rosa Pastel",
+      "moods": [
+        "tenderness",
+        "nostalgia",
+        "femininity",
+        "innocence",
+        "melancholy",
+        "softness"
+      ],
+      "genre_associations": [
+        "romance",
+        "drama",
+        "coming_of_age",
+        "arthouse"
+      ],
+      "cinematographer_signatures": [
+        "Ed Lachman",
+        "Benoît Debie",
+        "Caroline Champetier"
+      ],
+      "reference_examples": [
+        "Lost in Translation",
+        "Portrait of a Lady on Fire",
+        "Carol",
+        "Mustang",
+        "Cleo from 5 to 7"
+      ],
+      "cultural_context": "Soft, muted, desaturated pink — not pop or loud. The color of memory, longing, tenderness, and quiet femininity in arthouse cinema. Distinct from magenta_pop (which is loud and cultural) and purpura_onirico (which is dreamy and purple-tinted).",
+      "cinematographic_notes": "Diffused light on skin tones, pastel-drenched interiors, period costumes, the warmth of film grain — this pink lives in quieter registers than magenta"
+    },
+    {
+      "id": "claroscuro_dramatico",
+      "hex": "#1A1A1A",
+      "name": "Claroscuro Dramático",
+      "moods": [
+        "chiaroscuro",
+        "high contrast",
+        "dramatic tension",
+        "noir",
+        "expressionism"
+      ],
+      "genre_associations": [
+        "noir",
+        "expressionist",
+        "psychological thriller",
+        "silent era",
+        "German Expressionism"
+      ],
+      "cinematographer_signatures": [
+        "Gordon Willis",
+        "Gregg Toland",
+        "Laszlo Kovacs"
+      ],
+      "reference_examples": [
+        "Citizen Kane (1941)",
+        "The Third Man (1949)",
+        "Nosferatu (1922)",
+        "Rashomon (1950)"
+      ],
+      "cultural_context": "The language of deep shadows and brilliant light — chiaroscuro as psychological and moral weight. Reserved for films where the contrast between darkness and illumination defines the visual identity.",
+      "cinematographic_notes": "Extreme contrast ratios, deep blacks, pools of light in darkness. Black-and-white films whose identity is defined by dramatic lighting architecture rather than tonal intimacy."
+    },
+    {
+      "id": "monocromatico_intimo",
+      "hex": "#4A4A4A",
+      "name": "Monocromático Íntimo",
+      "moods": [
+        "intimacy",
+        "contemplation",
+        "realism",
+        "quiet",
+        "memory",
+        "documentary texture"
+      ],
+      "genre_associations": [
+        "neorealism",
+        "personal cinema",
+        "observational documentary",
+        "intimate drama"
+      ],
+      "cinematographer_signatures": [
+        "Raoul Coutard",
+        "Henri Decaë",
+        "Agnes Godard"
+      ],
+      "reference_examples": [
+        "Bicycle Thieves (1948)",
+        "Breathless (1960)",
+        "Faces (1968)",
+        "Jeanne Dielman (1975 - B&W edition)"
+      ],
+      "cultural_context": "Monochrome as an intimate register — soft grays, naturalistic tones, the texture of everyday life. For films whose black-and-white is a choice of tenderness or documentary presence rather than dramatic contrast.",
+      "cinematographic_notes": "Naturalistic, low-contrast monochrome. Even lighting or ambient light, tonal mid-range, minimal deep blacks. The gray scale as a medium of closeness rather than confrontation."
+    }
+  ],
+  "monochromatic_modes": [
+    {
+      "id": "claroscuro_dramatico",
+      "name": "Claroscuro Dramático",
+      "description": "High-contrast black and white with dramatic shadows and sculptural lighting",
+      "moods": [
+        "dramatic",
+        "expressionist",
+        "theatrical",
+        "timeless",
+        "stark"
+      ],
+      "genre_associations": [
+        "noir",
+        "thriller",
+        "drama",
+        "horror"
+      ],
+      "cinematographic_notes": "Deep blacks, harsh shadows, chiaroscuro lighting, expressionist influence, sculptural faces",
+      "historical_context": "Film noir, German expressionism, high-contrast photography"
+    },
+    {
+      "id": "monocromatico_intimo",
+      "name": "Monocromático Íntimo",
+      "description": "Soft, naturalistic black and white with gentle gradations and organic texture",
+      "moods": [
+        "intimate",
+        "contemplative",
+        "lyrical",
+        "humanistic",
+        "tender"
+      ],
+      "genre_associations": [
+        "drama",
+        "romance",
+        "character_study",
+        "documentary"
+      ],
+      "cinematographic_notes": "Soft grays, gentle lighting, natural textures, documentary realism, emotional proximity",
+      "historical_context": "Italian neorealism, French New Wave, naturalistic photography"
+    }
+  ],
+  "assignment_rules": {
+    "primary_color_basis": "cultural_memory_and_cinematographic_intent",
+    "decision_hierarchy": [
+      "Collective cultural memory of the film",
+      "Cinematographer and director intentional palette",
+      "Narrative and symbolic color function",
+      "Historical and genre color associations"
+    ],
+    "frame_analysis_role": "validation_only",
+    "frame_contradiction_action": "flag_for_editorial_review",
+    "ai_must_not_use": [
+      "pixel_dominance",
+      "frame_frequency",
+      "numeric_thresholds"
+    ],
+    "editorial_override_always_wins": true,
+    "secondary_colors": {
+      "definition": "Supporting colors that contribute to the film's palette (maximum 3)",
+      "criteria": [
+        "Significant presence across multiple scenes",
+        "Narrative or thematic function",
+        "Deliberate chromatic relationship to primary color"
+      ],
+      "max_count": 3
+    },
+    "monochromatic_detection": {
+      "criteria": [
+        "Film shot in black and white (not colorized)",
+        "Intentional artistic choice (not archival limitation)",
+        "Entire film maintains monochrome palette"
+      ],
+      "assignment_logic": [
+        "If high contrast and dramatic lighting → claroscuro_dramatico",
+        "If soft, naturalistic, intimate → monocromatico_intimo",
+        "Assignment is editorial decision based on cinematographic style"
+      ]
+    },
+    "edge_cases": {
+      "color_shift_films": {
+        "description": "Films that shift color palettes dramatically (e.g., Wizard of Oz, Pleasantville)",
+        "handling": "Assign primary color to dominant portion of runtime or most culturally memorable segment; note shift in metadata"
+      },
+      "desaturated_films": {
+        "description": "Color films with very low saturation approaching monochrome",
+        "handling": "Treat as color film if color is present and intentional; assign based on hue bias and cultural memory"
+      },
+      "multi_segment_films": {
+        "description": "Anthology films or films with distinct visual chapters",
+        "handling": "Assign primary color to most narratively significant or culturally memorable segment"
+      }
+    }
+  }
+}

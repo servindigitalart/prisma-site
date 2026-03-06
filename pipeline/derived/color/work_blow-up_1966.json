@@ -1,0 +1,56 @@
+{
+  "work_id": "work_blow-up_1966",
+  "processed_at": "2026-02-28T04:40:06.320656+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_lima",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Extensive use of natural green landscapes in Maryon Park for key narrative sequences.",
+      "The film's opening and closing scenes prominently feature green grass and trees, establishing and concluding the narrative within this dominant green space.",
+      "The final, iconic mime tennis match, a crucial symbolic moment, is set entirely on a vast green lawn."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_blow-up_1966",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:40:06.316830Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:40:06.316817Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_blow-up_1966",
+    "color_iconico": "verde_lima",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

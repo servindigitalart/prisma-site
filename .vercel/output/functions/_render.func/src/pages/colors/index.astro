@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllColorProfiles } from '../../lib/db/colors';
+import { isLightColor } from '../../lib/color/colorPalette';
+
+const colors = getAllColorProfiles();
+
+const MONO_MODES = [
+  {
+    id: 'claroscuro_dramatico',
+    slug: 'claroscuro-dramatico',
+    name: 'Claroscuro Dramático',
+    hex: '#1A1A1A',
+    gradient: 'linear-gradient(to right, #0A0A0F 30%, #F0EEE8 70%)',
+    context: 'High contrast light and shadow. The drama of what is hidden and revealed.',
+  },
+  {
+    id: 'monocromatico_intimo',
+    slug: 'monocromatico-intimo',
+    name: 'Monocromático Íntimo',
+    hex: '#4A4A4A',
+    gradient: 'linear-gradient(135deg, #3A3A3A 0%, #909090 50%, #D8D8D8 100%)',
+    context: 'Desaturated grey tones. Texture and mood over chromatic spectacle.',
+  },
+];
+---
+
+<BaseLayout title="Color Palette — PRISMA" description="The 18 colors of the Prisma palette. Every film has a color.">
+  <div class="colors-page page-enter">
+    <div class="colors-page__hero site-container">
+      <h1 class="colors-page__title">The Prisma Palette</h1>
+      <p class="colors-page__subtitle">
+        Eighteen colors. Each one a distinct emotional register in cinema.
+      </p>
+    </div>
+
+    <div class="colors-page__grid site-container">
+      {colors.map((color) => {
+        const light = isLightColor(color.id);
+        return (
+          <a
+            href={`/colors/${color.id}`}
+            class="color-entry"
+            style={`--c: ${color.hex}; --ct: ${light ? '#0A0A0F' : '#F0EEE8'}; --cs: ${light ? 'rgba(10,10,15,0.5)' : 'rgba(240,238,232,0.45)'};`}
+          >
+            <div class="color-entry__swatch" />
+            <div class="color-entry__info">
+              <span class="color-entry__name">{color.name}</span>
+              <span class="color-entry__hex">{color.hex}</span>
+              <span class="color-entry__context">
+                {color.cultural_context.length > 55
+                  ? color.cultural_context.substring(0, 55) + '...'
+                  : color.cultural_context}
+              </span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- Monochromatic Modes — separate row, achromatic treatment -->
+    <div class="mono-section site-container">
+      <div class="mono-section__header">
+        <span class="mono-section__label">Monochromatic Modes</span>
+        <span class="mono-section__note">B&W and greyscale — achromatic registers</span>
+      </div>
+      <div class="mono-grid">
+        {MONO_MODES.map((mono) => (
+          <a href={`/colors/${mono.slug}`} class="color-entry color-entry--mono">
+            <div class="color-entry__swatch color-entry__swatch--gradient" style={`background: ${mono.gradient}`} />
+            <div class="color-entry__info">
+              <span class="color-entry__name">{mono.name}</span>
+              <span class="color-entry__hex mono-badge">B&W MODE</span>
+              <span class="color-entry__context">{mono.context}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</BaseLayout>
+
+<style>
+.colors-page {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.colors-page__hero {
+  margin-bottom: 4rem;
+}
+
+.colors-page__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 0.875rem;
+}
+
+.colors-page__subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 48ch;
+  line-height: 1.65;
+}
+
+.colors-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.color-entry {
+  display: flex;
+  align-items: stretch;
+  background: var(--surface-card);
+  transition: background 160ms ease;
+  text-decoration: none;
+}
+
+.color-entry:hover {
+  background: var(--surface-elevated);
+}
+
+.color-entry__swatch {
+  width: 4px;
+  background: var(--c);
+  flex-shrink: 0;
+}
+
+.color-entry__info {
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.color-entry__name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+}
+.color-entry:hover .color-entry__name { color: var(--text-primary); }
+
+.color-entry__hex {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+}
+
+.color-entry__context {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 0.125rem;
+}
+
+/* ── Monochromatic modes ── */
+.mono-section {
+  margin-top: 2rem;
+}
+
+.mono-section__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1px;
+  padding: 0.75rem 1rem;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: 4px 4px 0 0;
+  border-bottom: none;
+}
+
+.mono-section__label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.mono-section__note {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.mono-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  border: 1px solid var(--surface-border);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+.color-entry--mono {
+  background: var(--surface-card);
+  opacity: 0.9;
+}
+.color-entry--mono:hover {
+  opacity: 1;
+  background: var(--surface-elevated);
+}
+
+.color-entry__swatch--gradient {
+  width: 6px; /* slightly wider to show the gradient */
+  flex-shrink: 0;
+}
+
+.mono-badge {
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  opacity: 0.65;
+  text-transform: uppercase;
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 600px) {
+  .mono-grid { grid-template-columns: 1fr; }
+  .mono-section__note { display: none; }
+}
+</style>

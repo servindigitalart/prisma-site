@@ -1,0 +1,55 @@
+{
+  "work_id": "work_amelie_2001",
+  "processed_at": "2026-02-28T04:33:45.715811+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.95,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The entire film is visually defined by a pervasive golden-yellow color grade.",
+      "Am\u00e9lie's apartment walls and the Cafe des 2 Moulins are predominantly yellow-gold.",
+      "Iconic outdoor scenes and posters are bathed in warm yellow light.",
+      "Am\u00e9lie frequently wears red garments that pop against the yellow backdrop."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_amelie_2001",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:33:45.701054Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:33:45.701039Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_amelie_2001",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

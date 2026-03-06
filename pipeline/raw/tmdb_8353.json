@@ -1,0 +1,563 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/vyJSwV80dzj2WI1i6zZ68MDIo57.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "homepage": "http://worldcinemafoundation.org/films/limite",
+    "id": 8353,
+    "imdb_id": "tt0022080",
+    "origin_country": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "original_title": "Limite",
+    "overview": "Adrift in the vast expanse of the ocean, a solitary boat carries three castaways\u2014a man and two women. Stranded and devoid of any glimmer of rescue, they find solace in recounting the tales of their lives to one another. As they delve into their personal narratives, reminiscing about the circumstances that led them to this desolate predicament, they navigate through the depths of three distinct destinies. Bound by the confines of their shared space, every aspect of their existence becomes a boundary, underscoring their plight.",
+    "popularity": 0.486,
+    "poster_path": "/lRx6OsS1PXKs9k6pfUw4DhGkjNZ.jpg",
+    "production_companies": [
+      {
+        "id": 2445,
+        "logo_path": null,
+        "name": "Cin\u00e9dia",
+        "origin_country": "BR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "BR",
+        "name": "Brazil"
+      }
+    ],
+    "release_date": "1931-05-17",
+    "revenue": 0,
+    "runtime": 114,
+    "spoken_languages": [
+      {
+        "english_name": "No Language",
+        "iso_639_1": "xx",
+        "name": "No Language"
+      }
+    ],
+    "status": "Released",
+    "tagline": "The urban entity versus the passion for the land",
+    "title": "Limite",
+    "video": false,
+    "vote_average": 7.077,
+    "vote_count": 117
+  },
+  "credits": {
+    "id": 8353,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 55336,
+        "known_for_department": "Acting",
+        "name": "Olga Breno",
+        "original_name": "Olga Breno",
+        "popularity": 0.5175,
+        "profile_path": "/su72TanTYUv6CEjS928qaKXWiSu.jpg",
+        "cast_id": 2,
+        "character": "First woman",
+        "credit_id": "52fe44a2c3a36847f80a1361",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 55337,
+        "known_for_department": "Acting",
+        "name": "Tatiana Rey",
+        "original_name": "Tatiana Rey",
+        "popularity": 0.2224,
+        "profile_path": null,
+        "cast_id": 3,
+        "character": "Second woman",
+        "credit_id": "52fe44a2c3a36847f80a1365",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 55338,
+        "known_for_department": "Acting",
+        "name": "Raul Schnoor",
+        "original_name": "Raul Schnoor",
+        "popularity": 0.2316,
+        "profile_path": "/tjiSSAwnGy80Da9zhCKSs75N3KS.jpg",
+        "cast_id": 4,
+        "character": "First man",
+        "credit_id": "52fe44a2c3a36847f80a1369",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 55339,
+        "known_for_department": "Acting",
+        "name": "Brutus Pedreira",
+        "original_name": "Brutus Pedreira",
+        "popularity": 0.2058,
+        "profile_path": "/6n0SI04JopnwQua7tcDN5HhkrM2.jpg",
+        "cast_id": 5,
+        "character": "Second man",
+        "credit_id": "52fe44a2c3a36847f80a136d",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 937205,
+        "known_for_department": "Acting",
+        "name": "Carmen Santos",
+        "original_name": "Carmen Santos",
+        "popularity": 0.4023,
+        "profile_path": "/hojPCdi4Ln3cv595Uho7RznBTlE.jpg",
+        "cast_id": 12,
+        "character": "Woman eating a fruit",
+        "credit_id": "565d45a4c3a3687ce70006af",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55335,
+        "known_for_department": "Directing",
+        "name": "M\u00e1rio Peixoto",
+        "original_name": "M\u00e1rio Peixoto",
+        "popularity": 0.3818,
+        "profile_path": "/u4apCz9cOr3zPSaClTrMuhH1Tz0.jpg",
+        "cast_id": 13,
+        "character": "Man sitting at the cemetery",
+        "credit_id": "565d45ad9251416db4000627",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1184399,
+        "known_for_department": "Camera",
+        "name": "Edgar Brasil",
+        "original_name": "Edgar Brasil",
+        "popularity": 0.4335,
+        "profile_path": "/dNITsayGDV2wFba3uxqioWSFuKH.jpg",
+        "cast_id": 14,
+        "character": "Man asleep in the theatre",
+        "credit_id": "565d45b6c3a3687ced0006d0",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1543154,
+        "known_for_department": "Acting",
+        "name": "Iolanda Bernardes",
+        "original_name": "Iolanda Bernardes",
+        "popularity": 0.1976,
+        "profile_path": null,
+        "cast_id": 15,
+        "character": "Woman at the sewing-machine",
+        "credit_id": "565d45bf9251416daa0005f8",
+        "order": 7
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55335,
+        "known_for_department": "Directing",
+        "name": "M\u00e1rio Peixoto",
+        "original_name": "M\u00e1rio Peixoto",
+        "popularity": 0.3818,
+        "profile_path": "/u4apCz9cOr3zPSaClTrMuhH1Tz0.jpg",
+        "credit_id": "52fe44a2c3a36847f80a137f",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55335,
+        "known_for_department": "Directing",
+        "name": "M\u00e1rio Peixoto",
+        "original_name": "M\u00e1rio Peixoto",
+        "popularity": 0.3818,
+        "profile_path": "/u4apCz9cOr3zPSaClTrMuhH1Tz0.jpg",
+        "credit_id": "52fe44a2c3a36847f80a135d",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55335,
+        "known_for_department": "Directing",
+        "name": "M\u00e1rio Peixoto",
+        "original_name": "M\u00e1rio Peixoto",
+        "popularity": 0.3818,
+        "profile_path": "/u4apCz9cOr3zPSaClTrMuhH1Tz0.jpg",
+        "credit_id": "52fe44a2c3a36847f80a1373",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1501032,
+        "known_for_department": "Crew",
+        "name": "Ruy Santos",
+        "original_name": "Ruy Santos",
+        "popularity": 0.4102,
+        "profile_path": "/2Cra4zl5C950Kndx8ls2JS4APqx.jpg",
+        "credit_id": "64f2186c1f33190100a48070",
+        "department": "Art",
+        "job": "Assistant Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15119,
+        "known_for_department": "Sound",
+        "name": "Erik Satie",
+        "original_name": "Erik Satie",
+        "popularity": 1.0201,
+        "profile_path": "/5jn7eNKDP9lURFQt2tSj84qnVC9.jpg",
+        "credit_id": "64f7109ef29d66356658c982",
+        "department": "Sound",
+        "job": "Music"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1184399,
+        "known_for_department": "Camera",
+        "name": "Edgar Brasil",
+        "original_name": "Edgar Brasil",
+        "popularity": 0.4335,
+        "profile_path": "/dNITsayGDV2wFba3uxqioWSFuKH.jpg",
+        "credit_id": "565d4551c3a3687cff00060e",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 55339,
+        "known_for_department": "Acting",
+        "name": "Brutus Pedreira",
+        "original_name": "Brutus Pedreira",
+        "popularity": 0.2058,
+        "profile_path": "/6n0SI04JopnwQua7tcDN5HhkrM2.jpg",
+        "credit_id": "565d45679251416da4000603",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1299671,
+        "known_for_department": "Directing",
+        "name": "Ruy Costa",
+        "original_name": "Ruy Costa",
+        "popularity": 0.5825,
+        "profile_path": "/zoF8YB9qPiG4BHnkyY9X0YBffug.jpg",
+        "credit_id": "565d455ec3a3687cff000612",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55335,
+        "known_for_department": "Directing",
+        "name": "M\u00e1rio Peixoto",
+        "original_name": "M\u00e1rio Peixoto",
+        "popularity": 0.3818,
+        "profile_path": "/u4apCz9cOr3zPSaClTrMuhH1Tz0.jpg",
+        "credit_id": "572f50a8c3a36874eb0002d6",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1184399,
+        "known_for_department": "Camera",
+        "name": "Edgar Brasil",
+        "original_name": "Edgar Brasil",
+        "popularity": 0.4335,
+        "profile_path": "/dNITsayGDV2wFba3uxqioWSFuKH.jpg",
+        "credit_id": "689cd3472a54d63366c706a8",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1184399,
+        "known_for_department": "Camera",
+        "name": "Edgar Brasil",
+        "original_name": "Edgar Brasil",
+        "popularity": 0.4335,
+        "profile_path": "/dNITsayGDV2wFba3uxqioWSFuKH.jpg",
+        "credit_id": "689cd36aa4875980485d2381",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1184399,
+        "known_for_department": "Camera",
+        "name": "Edgar Brasil",
+        "original_name": "Edgar Brasil",
+        "popularity": 0.4335,
+        "profile_path": "/dNITsayGDV2wFba3uxqioWSFuKH.jpg",
+        "credit_id": "689cd3954edcd1564f269024",
+        "department": "Lighting",
+        "job": "Lighting Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1193756,
+        "known_for_department": "Sound",
+        "name": "Claude Debussy",
+        "original_name": "Claude Debussy",
+        "popularity": 0.6173,
+        "profile_path": "/fHvTJeeUDg4yKih5NBrXKgqajvH.jpg",
+        "credit_id": "689cd3d22a54d63366c706af",
+        "department": "Sound",
+        "job": "Music"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 974330,
+        "known_for_department": "Sound",
+        "name": "Igor Stravinsky",
+        "original_name": "\u0418\u0433\u043e\u0440\u044c \u0421\u0442\u0440\u0430\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+        "popularity": 0.2974,
+        "profile_path": "/gx6ZEJKrWOqsQIPaHgUxaCE8otz.jpg",
+        "credit_id": "68c3055b0502aac347948dfc",
+        "department": "Sound",
+        "job": "Music"
+      }
+    ]
+  },
+  "videos": {
+    "id": 8353,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Wagner Moura on M\u00e1rio Peixoto's LIMITE (1931)",
+        "key": "tiafmmKAUBE",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2026-02-09T19:52:05.000Z",
+        "id": "6991108c27123675de95891c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "A Scene from LIMITE",
+        "key": "6dVZ95UtG60",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "published_at": "2019-01-08T18:54:39.000Z",
+        "official": true,
+        "id": "5c35487f92514117b2dc6af6"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Limite, M\u00e1rio Peixoto 1931",
+        "key": "We2Dyk9zmDU",
+        "published_at": "2015-11-08T16:40:38.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "id": "59ae4231c3a3682c9c04d647"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 8353,
+    "keywords": [
+      {
+        "id": 1533,
+        "name": "isolation"
+      },
+      {
+        "id": 1422,
+        "name": "boat"
+      },
+      {
+        "id": 1261,
+        "name": "river"
+      },
+      {
+        "id": 10855,
+        "name": "fate"
+      },
+      {
+        "id": 154802,
+        "name": "silent film"
+      },
+      {
+        "id": 326606,
+        "name": "barco"
+      },
+      {
+        "id": 333428,
+        "name": "rio"
+      },
+      {
+        "id": 354871,
+        "name": "mudo"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 8353,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 50
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=BR",
+        "free": [
+          {
+            "logo_path": "/3MsEoFiBy9eaUdKo5Cx1iR9BPQy.jpg",
+            "provider_id": 544,
+            "provider_name": "Libreflix",
+            "display_priority": 22
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=DE",
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 90
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 90
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=IT",
+        "ads": [
+          {
+            "logo_path": "/cmURKKdS72Ckr52615xvc2JPsJm.jpg",
+            "provider_id": 222,
+            "provider_name": "Rai Play",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/fpHXCUD89WRC21wJjz3DDCgyudw.jpg",
+            "provider_id": 548,
+            "provider_name": "IFFR Unleashed",
+            "display_priority": 25
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/fpHXCUD89WRC21wJjz3DDCgyudw.jpg",
+            "provider_id": 548,
+            "provider_name": "IFFR Unleashed",
+            "display_priority": 25
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/8353-limite/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ]
+      }
+    }
+  }
+}

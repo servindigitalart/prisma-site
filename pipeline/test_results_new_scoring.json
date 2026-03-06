@@ -1,0 +1,247 @@
+[
+  {
+    "work_id": "the-matrix-1999",
+    "title": "The Matrix",
+    "year": 1999,
+    "expected_color": "verde_distopico",
+    "actual_color": "verde_distopico",
+    "color_match": true,
+    "gemini_raw_score": 0.97,
+    "color_rank": 0.97,
+    "color_rank_reasoning": "Green dominates approximately 85-90% of The Matrix's screen time and all its iconic frames. The digital rain, the Matrix simulation scenes, and all major action sequences are saturated with a green tint. Deducted 0.03 because real-world scenes (~10-15% of runtime) are dominated by dark blues and blacks, offering a significant, though minority, visual contrast.",
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador"
+  },
+  {
+    "work_id": "in-the-mood-for-love-2000",
+    "title": "In the Mood for Love",
+    "year": 2000,
+    "expected_color": "rojo_pasional",
+    "actual_color": "rojo_pasional",
+    "color_match": true,
+    "gemini_raw_score": 0.93,
+    "color_rank": 0.95,
+    "color_rank_reasoning": "Rojo_pasional dominates over 80% of In the Mood for Love's iconic frames and visual identity. Maggie Cheung's red and burgundy cheongsams are a central visual motif, appearing in almost every memorable scene. The film's interiors (corridors, noodle stalls, restaurants) are consistently bathed in deep red and amber lighting, defining the film's atmosphere. Deducted 0.07 because while red is paramount, strong amber/gold tones (ambar_desertico) are also very prevalent in the lighting and production design, and occasional cool blue tones appear in night exteriors.",
+    "secondary_colors": [
+      "ambar_desertico",
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_apasionado"
+  },
+  {
+    "work_id": "amelie-2001",
+    "title": "Amélie",
+    "year": 2001,
+    "expected_color": "amarillo_ludico",
+    "actual_color": "amarillo_ludico",
+    "color_match": true,
+    "gemini_raw_score": 0.95,
+    "color_rank": 0.95,
+    "color_rank_reasoning": "The film 'Amélie' is visually defined by a pervasive, warm golden-yellow color grade that saturates over 90% of all frames, both interior and exterior. This hue is central to the film's iconic imagery, including Amélie's apartment and the Café des Deux Moulins, and is consistently featured in marketing. Deducted 0.05 because significant accents of rojo_pasional (Amélie's clothing, cafe elements) and verde_lima (greengrocer's stall) provide vibrant counterpoints, but always within the dominant yellow glow.",
+    "secondary_colors": [
+      "rojo_pasional",
+      "verde_lima"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado"
+  },
+  {
+    "work_id": "blade-runner-1982",
+    "title": "Blade Runner",
+    "year": 1982,
+    "expected_color": "azul_nocturno",
+    "actual_color": "azul_nocturno",
+    "color_match": true,
+    "gemini_raw_score": 0.92,
+    "color_rank": 0.94,
+    "color_rank_reasoning": "Deep blue dominates approximately 85-90% of Blade Runner's runtime and virtually all iconic frames. The film's overwhelming visual identity is defined by rain-soaked, perpetually dark, blue-lit nightscapes. Deducted 0.08 points because vibrant neon signs introduce significant flashes of violeta_cinetico, and some interior scenes feature distinct ambar_desertico lighting, creating a genuine, albeit secondary, visual competition.",
+    "secondary_colors": [
+      "violeta_cinetico",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico"
+  },
+  {
+    "work_id": "mad-max-fury-road-2015",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "expected_color": "naranja_apocaliptico",
+    "actual_color": "naranja_apocaliptico",
+    "color_match": true,
+    "gemini_raw_score": 0.91,
+    "color_rank": 0.9,
+    "color_rank_reasoning": "Naranja_apocaliptico dominates approximately 75-80% of Mad Max: Fury Road's iconic frames and overall runtime. The vast desert landscapes, frequent fire and explosions, and the primary color grading all heavily feature burnt orange and intense reds. Deducted 0.09 because the film makes prominent use of cian_melancolico in night scenes and some daylight skies (e.g., the lightning storm, the distant horizon), which serves as a powerful visual contrast and occupies approximately 20-25% of the visual space, providing meaningful competition. Metallic grays also contribute to the visual palette but are less dominant than the orange or teal.",
+    "secondary_colors": [
+      "cian_melancolico",
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado"
+  },
+  {
+    "work_id": "moonlight-2016",
+    "title": "Moonlight",
+    "year": 2016,
+    "expected_color": "azul_nocturno",
+    "actual_color": "azul_nocturno",
+    "color_match": true,
+    "gemini_raw_score": 0.93,
+    "color_rank": 0.94,
+    "color_rank_reasoning": "0.93: Azul_nocturno profoundly saturates Moonlight's most iconic and memorable scenes, including the crucial ocean sequences and nearly all emotionally resonant night scenes, which form the film's visual backbone. The color grading consistently pushes towards a deep, pure blue. Deducted 0.07 due to the presence of naturalistic daytime scenes and some interior settings that feature warmer, desaturated tones, preventing absolute blue dominance across 100% of the runtime.",
+    "secondary_colors": [
+      "purpura_onirico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico"
+  },
+  {
+    "work_id": "the-grand-budapest-hotel-2014",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "expected_color": "purpura_onirico",
+    "actual_color": "purpura_onirico",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.92,
+    "color_rank_reasoning": "Purpura_onirico dominates approximately 75-80% of the film's iconic frames and overall visual identity. The Grand Budapest Hotel's exterior is famously pink/purple, and the main characters' uniforms are a distinct purple. While yellow and amber are significant, purpura_onirico is the most defining and memorable color, central to the film's aesthetic, but not absolutely ubiquitous in every single frame.",
+    "secondary_colors": [
+      "amarillo_ludico",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "calido_nostalgico"
+  },
+  {
+    "work_id": "her-2013",
+    "title": "Her",
+    "year": 2013,
+    "expected_color": "rojo_pasional",
+    "actual_color": "rojo_pasional",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.9,
+    "color_rank_reasoning": "0.90: Theodore's iconic red/reddish-orange shirts define his character's visual presence in over 70% of the film's runtime and feature in nearly all iconic promotional materials. The film's pervasive warm color grading often leans into deep red and burnt orange hues. While other warm tones like amber and orange are present, 'rojo_pasional' acts as the anchor for this emotional warmth. Deducted 0.10 because some scenes have a more distinctly amber or golden tint, and the cityscapes occasionally introduce cooler tones.",
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "calido_apasionado"
+  },
+  {
+    "work_id": "the-lighthouse-2019",
+    "title": "The Lighthouse",
+    "year": 2019,
+    "expected_color": "claroscuro_dramatico",
+    "actual_color": "claroscuro_dramatico",
+    "color_match": true,
+    "gemini_raw_score": 0.99,
+    "color_rank": 0.97,
+    "color_rank_reasoning": "The Lighthouse is entirely shot in high-contrast black and white, making 'claroscuro_dramatico' the undisputed dominant visual element for 100% of the film's runtime. Every iconic frame, costume, and set piece is defined by this monochrome palette, with no other color competing. It is as dominant as a color can be for a film that is literally black and white.",
+    "secondary_colors": [],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "frio_perturbador"
+  },
+  {
+    "work_id": "barbie-2023",
+    "title": "Barbie",
+    "year": 2023,
+    "expected_color": "magenta_pop",
+    "actual_color": "magenta_pop",
+    "color_match": true,
+    "gemini_raw_score": 0.96,
+    "color_rank": 0.91,
+    "color_rank_reasoning": "0.96: magenta_pop unequivocally defines \"Barbie.\" Approximately 90% of the film's iconic frames, marketing, and the entire Barbieland setting are saturated with various shades of vibrant pink. Costumes, production design (Dreamhouse, cars, streets), and color grading are overwhelmingly pink. Deducted 0.04 because the \"Real World\" sequences introduce a more diverse, less pink-dominated palette, preventing a perfect 1.0 score, but these scenes primarily serve as visual contrast to the pink dominance.",
+    "secondary_colors": [
+      "amarillo_ludico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado"
+  },
+  {
+    "work_id": "call-me-by-your-name-2017",
+    "title": "Call Me by Your Name",
+    "year": 2017,
+    "expected_color": "verde_lima",
+    "actual_color": "verde_lima",
+    "color_match": true,
+    "gemini_raw_score": 0.88,
+    "color_rank": 0.86,
+    "color_rank_reasoning": "Verde_lima (light lime green) is highly dominant, forming the natural backdrop for the majority of the film's runtime and appearing in nearly all iconic outdoor scenes. Approximately 70-80% of visually prominent frames feature lush green landscapes and foliage. Deducted 0.12 because the film also features significant warm golden sunlight (amarillo_ludico) and clear blue skies/water as competing visual elements, preventing it from being an almost exclusive color identifier.",
+    "secondary_colors": [
+      "amarillo_ludico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico"
+  },
+  {
+    "work_id": "lost-in-translation-2003",
+    "title": "Lost in Translation",
+    "year": 2003,
+    "expected_color": "cian_melancolico",
+    "actual_color": "cian_melancolico",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.92,
+    "color_rank_reasoning": "Cian_melancolico dominates approximately 90% of 'Lost in Translation's' screen time and its most iconic frames. The film's pervasive cool, desaturated blue-green color grading establishes its unique visual identity, especially in nighttime cityscapes and hotel interiors. Deducted 0.10 because vibrant neon lights (violeta_cinetico) provide occasional, yet significant, splashes of contrasting color, and some warmer, albeit muted, tones appear in specific indoor lighting or skin tones.",
+    "secondary_colors": [
+      "violeta_cinetico",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico"
+  },
+  {
+    "work_id": "no-country-for-old-men-2007",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "expected_color": "ambar_desertico",
+    "actual_color": "ambar_desertico",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.9,
+    "color_rank_reasoning": "Ambar_desertico dominates approximately 80-85% of the film's screen time and its most iconic frames. The vast West Texas landscapes, dusty roads, and interiors are consistently bathed in a warm, desaturated golden-amber light, characteristic of Roger Deakins' cinematography. Deducted 0.10 because significant portions of the film, particularly night scenes and tense confrontations, utilize deep shadows and near-total black (negro_abismo) which creates a strong counterpoint, but not enough to dethrone ambar_desertico's pervasive visual presence.",
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico"
+  },
+  {
+    "work_id": "drive-2011",
+    "title": "Drive",
+    "year": 2011,
+    "expected_color": "violeta_cinetico",
+    "actual_color": "violeta_cinetico",
+    "color_match": true,
+    "gemini_raw_score": 0.75,
+    "color_rank": 0.75,
+    "color_rank_reasoning": "Violeta_cinetico is the clear primary color, defining the film's iconic neon aesthetic, especially in night scenes and marketing. However, the film is genuinely multi-color. A significant portion of the film takes place during the day, featuring more naturalistic and sometimes warm (ambar_desertico) or cool (cian_melancolico) palettes. Dark interiors and black (negro_abismo) also play a crucial role in creating visual contrast and menace. The 0.75 score reflects this strong primary identity balanced by other visually memorable palettes that prevent it from reaching the 0.85+ range.",
+    "secondary_colors": [
+      "azul_nocturno",
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico"
+  },
+  {
+    "work_id": "three-colors-white-1994",
+    "title": "Three Colors: White",
+    "year": 1994,
+    "expected_color": "blanco_polar",
+    "actual_color": "blanco_polar",
+    "color_match": true,
+    "gemini_raw_score": 0.96,
+    "color_rank": 0.98,
+    "color_rank_reasoning": "Blanco_polar dominates approximately 85-90% of the film's iconic frames and overall visual experience. As one of the 'Three Colors' trilogy, the film literally embodies its title color. White snow covers exterior scenes, interior sets are often sterile white or very light gray, and the protagonist, Karol, frequently wears a white suit jacket. Deducted 0.04 because muted grays and pale blues (titanio_mecanico, a desaturated azul_nocturno undertone) are consistently present, particularly in urban environments and costumes that are not pure white.",
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "frio_perturbador"
+  }
+]

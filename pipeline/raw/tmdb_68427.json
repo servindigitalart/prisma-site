@@ -1,0 +1,1153 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/l8ofJ0ErKaL5F3JKmYVn4aa4i1w.jpg",
+    "belongs_to_collection": null,
+    "budget": 800000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 68427,
+    "imdb_id": "tt0104057",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Daughters of the Dust",
+    "overview": "In 1902, an African-American family living on a sea island off the coast of South Carolina prepares to move to the North.",
+    "popularity": 0.4947,
+    "poster_path": "/sk5qednzLeDZMIhto6Oa9QFKOon.jpg",
+    "production_companies": [
+      {
+        "id": 8923,
+        "logo_path": null,
+        "name": "WMG Film",
+        "origin_country": "DE"
+      },
+      {
+        "id": 3906,
+        "logo_path": "/iSK5VQnKq7ZZKI3ge9K1DySvJYm.png",
+        "name": "American Playhouse",
+        "origin_country": "US"
+      },
+      {
+        "id": 45440,
+        "logo_path": null,
+        "name": "Geechee Girls",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "DE",
+        "name": "Germany"
+      }
+    ],
+    "release_date": "1991-01-24",
+    "revenue": 1642436,
+    "runtime": 112,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Daughters of the Dust",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 54
+  },
+  "credits": {
+    "id": 68427,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 551900,
+        "known_for_department": "Acting",
+        "name": "Cora Lee Day",
+        "original_name": "Cora Lee Day",
+        "popularity": 0.1052,
+        "profile_path": "/e1oWNRoNg3eMt0EcPMwFZyDcUbh.jpg",
+        "cast_id": 1000,
+        "character": "Nana Peazant",
+        "credit_id": "52fe4792c3a368484e0ce5a3",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 551901,
+        "known_for_department": "Acting",
+        "name": "Alva Rogers",
+        "original_name": "Alva Rogers",
+        "popularity": 0.3202,
+        "profile_path": "/3VG2BiZ5XwZufXiwwsVi98uZNA8.jpg",
+        "cast_id": 1001,
+        "character": "Eula Peazant",
+        "credit_id": "52fe4792c3a368484e0ce5a7",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1421260,
+        "known_for_department": "Acting",
+        "name": "Barbara O. Jones",
+        "original_name": "Barbara O. Jones",
+        "popularity": 0.5083,
+        "profile_path": "/AvtppBsnqfnsUBwJ2pVgvf7l0xa.jpg",
+        "cast_id": 1004,
+        "character": "Yellow Mary",
+        "credit_id": "54ccb8fbc3a3687f8c0012ae",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1092666,
+        "known_for_department": "Acting",
+        "name": "Trula Hoosier",
+        "original_name": "Trula Hoosier",
+        "popularity": 0.8767,
+        "profile_path": "/vnMUnKLz5dGHcxxMoP0QboYClGi.jpg",
+        "cast_id": 1005,
+        "character": "Trula",
+        "credit_id": "54ccb90dc3a3687f82001450",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1790088,
+        "known_for_department": "Acting",
+        "name": "Umar Abdurrahamn",
+        "original_name": "Umar Abdurrahamn",
+        "popularity": 0.2999,
+        "profile_path": null,
+        "cast_id": 1027,
+        "character": "Bilal Muhammad",
+        "credit_id": "58e487109251412810028e04",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1287307,
+        "known_for_department": "Acting",
+        "name": "Adisa Anderson",
+        "original_name": "Adisa Anderson",
+        "popularity": 0.3558,
+        "profile_path": null,
+        "cast_id": 1028,
+        "character": "Eli Peazant",
+        "credit_id": "58e48724c3a36872af026874",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 143438,
+        "known_for_department": "Acting",
+        "name": "Kaycee Moore",
+        "original_name": "Kaycee Moore",
+        "popularity": 0.7745,
+        "profile_path": "/7e3SzMwd9i5GEHNUhvfLEY0fBzB.jpg",
+        "cast_id": 1029,
+        "character": "Haagar Peazant",
+        "credit_id": "58e487309251412835029b3c",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1234271,
+        "known_for_department": "Acting",
+        "name": "Bahni Turpin",
+        "original_name": "Bahni Turpin",
+        "popularity": 0.1634,
+        "profile_path": "/5pGC4pFliDDTOUhVnnMZ0Bk3N28.jpg",
+        "cast_id": 1030,
+        "character": "Iona Peazant",
+        "credit_id": "58e4873e92514127f002aae2",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 23355,
+        "known_for_department": "Acting",
+        "name": "Cheryl Lynn Bruce",
+        "original_name": "Cheryl Lynn Bruce",
+        "popularity": 0.3265,
+        "profile_path": "/u3Na9OzrjiJpqQ4Hpp7S1hT0oTF.jpg",
+        "cast_id": 1031,
+        "character": "Viola Peazant",
+        "credit_id": "58e4874bc3a368731a02b4be",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 99359,
+        "known_for_department": "Acting",
+        "name": "Tommy Redmond Hicks",
+        "original_name": "Tommy Redmond Hicks",
+        "popularity": 0.7089,
+        "profile_path": "/jx7MpUfQ8zyLnNLjvIACxMDLiEs.jpg",
+        "cast_id": 1032,
+        "character": "Mr. Snead",
+        "credit_id": "58e4875a925141281902896b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55672,
+        "known_for_department": "Acting",
+        "name": "Tony King",
+        "original_name": "Tony King",
+        "popularity": 0.9397,
+        "profile_path": "/rBAaSCjG9wq1jrzipC8MA9MKd2X.jpg",
+        "cast_id": 1006,
+        "character": "Newlywed Man",
+        "credit_id": "54de31fe925141194b001d10",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1790093,
+        "known_for_department": "Acting",
+        "name": "Cornell Royal",
+        "original_name": "Cornell Royal",
+        "popularity": 0.1881,
+        "profile_path": null,
+        "cast_id": 1033,
+        "character": "Daddy Mack Peazant",
+        "credit_id": "58e4877cc3a3684a7901b7d1",
+        "order": 11
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1265153,
+        "known_for_department": "Sound",
+        "name": "Jeremy Hoenack",
+        "original_name": "Jeremy Hoenack",
+        "popularity": 0.4168,
+        "profile_path": null,
+        "credit_id": "608dc34fc433ea0079e054e0",
+        "department": "Sound",
+        "job": "Supervising Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1265153,
+        "known_for_department": "Sound",
+        "name": "Jeremy Hoenack",
+        "original_name": "Jeremy Hoenack",
+        "popularity": 0.4168,
+        "profile_path": null,
+        "credit_id": "608dc343d8cc4a006e37424b",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1597,
+        "known_for_department": "Sound",
+        "name": "Michael Payne",
+        "original_name": "Michael Payne",
+        "popularity": 0.6601,
+        "profile_path": null,
+        "credit_id": "608dc35e25882300785cd93d",
+        "department": "Sound",
+        "job": "Sound Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 142603,
+        "known_for_department": "Directing",
+        "name": "Julie Dash",
+        "original_name": "Julie Dash",
+        "popularity": 0.9343,
+        "profile_path": "/dJs2o6EK87J450ojmFZYYtgsJvZ.jpg",
+        "credit_id": "52fe4792c3a368484e0ce5ad",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 142603,
+        "known_for_department": "Directing",
+        "name": "Julie Dash",
+        "original_name": "Julie Dash",
+        "popularity": 0.9343,
+        "profile_path": "/dJs2o6EK87J450ojmFZYYtgsJvZ.jpg",
+        "credit_id": "54ccb8dc92514147550012b1",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 66134,
+        "known_for_department": "Sound",
+        "name": "John Barnes",
+        "original_name": "John Barnes",
+        "popularity": 0.503,
+        "profile_path": null,
+        "credit_id": "584a642b92514119b301ca26",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720063,
+        "known_for_department": "Directing",
+        "name": "C.C. Barnes",
+        "original_name": "C.C. Barnes",
+        "popularity": 0.4005,
+        "profile_path": null,
+        "credit_id": "584a64d992514119b301ca83",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 75631,
+        "known_for_department": "Directing",
+        "name": "J. Miller Tobin",
+        "original_name": "J. Miller Tobin",
+        "popularity": 0.2175,
+        "profile_path": null,
+        "credit_id": "584a6529c3a368141f01c74b",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 142603,
+        "known_for_department": "Directing",
+        "name": "Julie Dash",
+        "original_name": "Julie Dash",
+        "popularity": 0.9343,
+        "profile_path": "/dJs2o6EK87J450ojmFZYYtgsJvZ.jpg",
+        "credit_id": "584a644292514157fa00abf9",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720059,
+        "known_for_department": "Editing",
+        "name": "Joseph Burton",
+        "original_name": "Joseph Burton",
+        "popularity": 0.0385,
+        "profile_path": null,
+        "credit_id": "584a649992514157fa00ac1a",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 36188,
+        "known_for_department": "Production",
+        "name": "Larry Meistrich",
+        "original_name": "Larry Meistrich",
+        "popularity": 0.1015,
+        "profile_path": null,
+        "credit_id": "584a6521c3a368141401d9d9",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720060,
+        "known_for_department": "Production",
+        "name": "Len Hunt",
+        "original_name": "Len Hunt",
+        "popularity": 0.128,
+        "profile_path": null,
+        "credit_id": "584a64a9c3a368142801a780",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1303842,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Arline Burks Gant",
+        "original_name": "Arline Burks Gant",
+        "popularity": 0.3746,
+        "profile_path": null,
+        "credit_id": "584a64bf92514119bf01c782",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1349873,
+        "known_for_department": "Camera",
+        "name": "Arthur Jafa",
+        "original_name": "Arthur Jafa",
+        "popularity": 0.8456,
+        "profile_path": "/qaaaqyxc0bV0UTQobZTVftdB5wo.jpg",
+        "credit_id": "584a6452c3a368141401d978",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1349873,
+        "known_for_department": "Camera",
+        "name": "Arthur Jafa",
+        "original_name": "Arthur Jafa",
+        "popularity": 0.8456,
+        "profile_path": "/qaaaqyxc0bV0UTQobZTVftdB5wo.jpg",
+        "credit_id": "584a643992514157b500a8f4",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93159,
+        "known_for_department": "Production",
+        "name": "Lindsay Law",
+        "original_name": "Lindsay Law",
+        "popularity": 0.0721,
+        "profile_path": null,
+        "credit_id": "584a645bc3a368140a01dad6",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720057,
+        "known_for_department": "Production",
+        "name": "Floyd Webb",
+        "original_name": "Floyd Webb",
+        "popularity": 0.4798,
+        "profile_path": null,
+        "credit_id": "584a6474c3a368141f01c6e7",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720061,
+        "known_for_department": "Art",
+        "name": "Kerry Marshall",
+        "original_name": "Kerry Marshall",
+        "popularity": 0.1,
+        "profile_path": null,
+        "credit_id": "584a64b0c3a368141a01dfe7",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1701295,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Rose Chatterton",
+        "original_name": "Rose Chatterton",
+        "popularity": 0.1694,
+        "profile_path": "/oDDXMsrAoUfBfCE3bQPdjSAcTmT.jpg",
+        "credit_id": "584a64d2c3a368141401d9b6",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1720058,
+        "known_for_department": "Production",
+        "name": "Steven Jones",
+        "original_name": "Steven Jones",
+        "popularity": 0.1094,
+        "profile_path": null,
+        "credit_id": "584a6491c3a368141101c3eb",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1612279,
+        "known_for_department": "Editing",
+        "name": "Amy Carey",
+        "original_name": "Amy Carey",
+        "popularity": 1.0428,
+        "profile_path": null,
+        "credit_id": "584a64a0c3a368141a01dfcc",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 13055,
+        "known_for_department": "Directing",
+        "name": "Nandi Bowe",
+        "original_name": "Nandi Bowe",
+        "popularity": 0.0821,
+        "profile_path": "/rXZZx3fyU1K42ouoo0AaCiyoGyf.jpg",
+        "credit_id": "584a64f692514159b000a5bd",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1720048,
+        "known_for_department": "Production",
+        "name": "Pamm R. Jackson",
+        "original_name": "Pamm R. Jackson",
+        "popularity": 0.1227,
+        "profile_path": null,
+        "credit_id": "584a644a92514159b000a570",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1395132,
+        "known_for_department": "Writing",
+        "name": "Bernard Nicolas",
+        "original_name": "Bernard Nicolas",
+        "popularity": 0.2755,
+        "profile_path": "/32KCaHyXnb9FESaizBi9rfhYsqU.jpg",
+        "credit_id": "584a646c92514119b301ca43",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1720062,
+        "known_for_department": "Art",
+        "name": "Michael Kelly Williams",
+        "original_name": "Michael Kelly Williams",
+        "popularity": 0.2789,
+        "profile_path": null,
+        "credit_id": "584a64b8c3a368141401d9a6",
+        "department": "Art",
+        "job": "Art Direction"
+      }
+    ]
+  },
+  "videos": {
+    "id": 68427,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Daughters of the Dust - 25th anniversary trailer",
+        "key": "FRpTae7jmi4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2017-05-09T14:52:56.000Z",
+        "id": "6268c0f2fea0d70a2dfaff6d"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 68427,
+    "keywords": [
+      {
+        "id": 2041,
+        "name": "island"
+      },
+      {
+        "id": 570,
+        "name": "rape"
+      },
+      {
+        "id": 2795,
+        "name": "mystic"
+      },
+      {
+        "id": 2831,
+        "name": "slavery"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 240240,
+        "name": "l.a. rebellion"
+      },
+      {
+        "id": 291674,
+        "name": "gullah"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 68427,
+    "results": {
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 53
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/kohVS01u3sP5IkqsSaAKdBit6aP.jpg",
+            "provider_id": 2041,
+            "provider_name": "BFI Player Apple TV Channel",
+            "display_priority": 97
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 59
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/68427-daughters-of-the-dust/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/3eVIcUeRXji5SBV7gEv4f5U4CqV.jpg",
+            "provider_id": 199,
+            "provider_name": "Fandor Amazon Channel",
+            "display_priority": 89
+          },
+          {
+            "logo_path": "/QAtDmj6XHlkPvw5xAjF08ZQARh.jpg",
+            "provider_id": 1811,
+            "provider_name": "Cohen Media Amazon Channel",
+            "display_priority": 154
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
+            "provider_id": 2409,
+            "provider_name": "Fawesome",
+            "display_priority": 144
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          }
+        ]
+      }
+    }
+  }
+}

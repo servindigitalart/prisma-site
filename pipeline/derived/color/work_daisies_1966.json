@@ -1,0 +1,56 @@
+{
+  "work_id": "work_daisies_1966",
+  "processed_at": "2026-02-28T04:49:07.667225+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "verde_lima",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "dinamico_frenetico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "Marie I and Marie II's costumes often feature bright yellow patterns and solid yellow elements, notably in the food-cutting scene.",
+      "Many interior sets, particularly the Maries' apartment, display prominent yellow walls and decor.",
+      "The overall visual style uses vibrant, almost primary, colors to convey a sense of energetic, rebellious playfulness."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_daisies_1966",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:49:07.663003Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:49:07.662991Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_daisies_1966",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "verde_lima",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_frenetico",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

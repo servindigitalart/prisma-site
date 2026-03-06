@@ -1,0 +1,50 @@
+{
+  "work_id": "work_rio-bravo_1959",
+  "processed_at": "2026-02-28T06:29:51.579684+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.91,
+    "secondary_colors": [],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The dusty, sun-baked landscapes and town exteriors are saturated with golden-amber light.",
+      "Wooden saloon and jail interiors feature pervasive warm, amber lighting.",
+      "The characters' costumes are consistently earth-toned (browns, tans, faded fabrics) that blend into the overall warm palette."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_rio-bravo_1959",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:29:51.576026Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:29:51.576014Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_rio-bravo_1959",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "moderado_balanceado",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

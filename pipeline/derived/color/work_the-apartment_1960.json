@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-apartment_1960",
+  "processed_at": "2026-02-28T06:39:03.478149+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The entire film is shot in black and white cinematography, defining its visual identity.",
+      "The vast office scenes feature strong contrast between lit areas and shadows, emphasizing the corporate scale and Baxter's small place within it.",
+      "Lighting in Baxter's apartment and bar scenes often uses dramatic shadows to convey loneliness or illicit activities."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-apartment_1960",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:39:03.474386Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:39:03.474372Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-apartment_1960",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "moderado_balanceado",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

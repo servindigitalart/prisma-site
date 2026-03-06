@@ -1,9 +1,41 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Color Assignment Schema",
-  "description": "Schema for AI-generated or editorial color assignments for films",
+  "description": "Schema for AI-generated or editorial color assignments for films. Uses Prisma palette v1.3 canonical IDs.",
   "type": "object",
   "required": ["work_id", "mode", "primary_color", "confidence", "assigned_at", "source"],
+  "definitions": {
+    "chromatic_color_id": {
+      "type": "string",
+      "description": "A chromatic Prisma palette v1.3 color ID",
+      "enum": [
+        "rojo_pasional",
+        "naranja_apocaliptico",
+        "ambar_desertico",
+        "amarillo_ludico",
+        "verde_lima",
+        "verde_esmeralda",
+        "verde_distopico",
+        "cian_melancolico",
+        "azul_nocturno",
+        "violeta_cinetico",
+        "purpura_onirico",
+        "magenta_pop",
+        "blanco_polar",
+        "negro_abismo",
+        "titanio_mecanico",
+        "rosa_pastel"
+      ]
+    },
+    "monochromatic_mode_id": {
+      "type": "string",
+      "description": "A monochromatic mode Prisma palette v1.3 ID",
+      "enum": [
+        "claroscuro_dramatico",
+        "monocromatico_intimo"
+      ]
+    }
+  },
   "properties": {
     "work_id": {
       "type": "string",
@@ -13,25 +45,26 @@
     "mode": {
       "type": "string",
       "enum": ["color", "monochromatic"],
-      "description": "Whether film is in color or monochromatic (B&W)"
+      "description": "Whether film is in color or monochromatic (B&W / near-monochrome)"
     },
     "primary_color": {
-      "type": "string",
-      "description": "Primary color ID or monochromatic mode ID",
-      "pattern": "^(azul_profundo|verde_esperanza|ambar_dorado|rojo_pasion|violeta_onirico|turquesa_retro|rosa_melancolico|naranja_vibrante|gris_industrial|sepia_nostalgico|cyan_clinico|verde_acido|claroscuro_dramatico|monocromatico_intimo)$"
+      "description": "Primary Prisma palette v1.2 color ID. For color mode: one of 15 chromatic IDs. For monochromatic mode: one of 2 monochromatic mode IDs.",
+      "oneOf": [
+        { "$ref": "#/definitions/chromatic_color_id" },
+        { "$ref": "#/definitions/monochromatic_mode_id" }
+      ]
     },
     "secondary_colors": {
       "type": "array",
-      "description": "Supporting colors (max 3)",
+      "description": "Supporting chromatic colors (max 3). Never includes monochromatic modes.",
       "maxItems": 3,
       "items": {
-        "type": "string",
-        "pattern": "^(azul_profundo|verde_esperanza|ambar_dorado|rojo_pasion|violeta_onirico|turquesa_retro|rosa_melancolico|naranja_vibrante|gris_industrial|sepia_nostalgico|cyan_clinico|verde_acido)$"
+        "$ref": "#/definitions/chromatic_color_id"
       }
     },
     "confidence": {
       "type": "number",
-      "description": "Overall confidence in assignment (0-1)",
+      "description": "Overall confidence in assignment (0.0–1.0)",
       "minimum": 0,
       "maximum": 1
     },
@@ -49,29 +82,37 @@
         },
         "visual_elements": {
           "type": "array",
-          "description": "Specific visual elements that support assignment",
-          "items": {"type": "string"}
+          "description": "Specific visual elements that support the assignment",
+          "items": { "type": "string" }
         },
         "cinematographic_techniques": {
           "type": "array",
           "description": "Cinematographic techniques used",
-          "items": {"type": "string"}
+          "items": { "type": "string" }
         },
         "narrative_significance": {
           "type": "string",
           "description": "How color relates to narrative/themes"
+        },
+        "cultural_context": {
+          "type": "string",
+          "description": "Cultural and art-historical context for the color choice"
         }
       }
     },
     "frame_analysis": {
       "type": "object",
-      "description": "Frame-by-frame color analysis results",
+      "description": "OKLab frame-based color analysis results",
       "properties": {
-        "total_frames_analyzed": {"type": "integer"},
+        "total_frames_analyzed": { "type": "integer" },
+        "L_mean": { "type": "number", "description": "Mean lightness (OKLab L channel, 0-1)" },
+        "chroma_mean": { "type": "number", "description": "Mean chroma (0-1)" },
+        "L_std": { "type": "number", "description": "Lightness standard deviation" },
+        "chroma_std": { "type": "number", "description": "Chroma standard deviation" },
         "color_distribution": {
           "type": "object",
-          "description": "Percentage distribution of colors across frames",
-          "additionalProperties": {"type": "number"}
+          "description": "Approximate distribution of Prisma color IDs across analyzed frames",
+          "additionalProperties": { "type": "number" }
         },
         "dominant_scenes": {
           "type": "array",
@@ -79,54 +120,127 @@
           "items": {
             "type": "object",
             "properties": {
-              "timestamp": {"type": "string"},
-              "color": {"type": "string"},
-              "description": {"type": "string"}
+              "timestamp": { "type": "string" },
+              "color": { "$ref": "#/definitions/chromatic_color_id" },
+              "description": { "type": "string" }
             }
           }
         }
       }
     },
+    "tier": {
+      "type": "string",
+      "enum": ["canon", "core", "strong", "peripheral", "uncertain"],
+      "description": "Color tier assignment per score doctrine v1.0"
+    },
+    "tier_rank": {
+      "type": ["integer", "null"],
+      "description": "Manual rank within canon tier (1-30) or editorial core rank. Null for non-ranked tiers.",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "numeric_score": {
+      "type": "number",
+      "description": "Weighted score (0-100) per score doctrine formula",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "cultural_weight": {
+      "type": "number",
+      "description": "Cultural recognition component score (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "authorship_score": {
+      "type": "number",
+      "description": "Authorship component score (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "popularity_score": {
+      "type": "number",
+      "description": "Popularity component score (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
     "source": {
       "type": "string",
       "enum": ["ai", "editorial", "hybrid"],
-      "description": "Source of assignment"
+      "description": "Source of the color assignment"
     },
     "assigned_at": {
       "type": "string",
       "format": "date-time",
-      "description": "ISO8601 timestamp of assignment"
+      "description": "ISO 8601 timestamp of assignment"
     },
     "assigned_by": {
       "type": "string",
-      "description": "Model version or curator name"
+      "description": "Model version or curator name (e.g. gemini-1.5-flash, editorial-override)"
+    },
+    "pipeline_version": {
+      "type": "string",
+      "description": "Pipeline version used for this assignment (e.g. phase3_v1.0). Used to target re-runs when doctrine changes.",
+      "pattern": "^phase3_v[0-9]+\\.[0-9]+"
+    },
+    "doctrine_version": {
+      "type": "string",
+      "description": "Color doctrine version used for this assignment (e.g. 1.2)",
+      "pattern": "^[0-9]+\\.[0-9]+"
     },
     "validation": {
       "type": "object",
       "description": "Validation results from frame validator",
       "properties": {
-        "validated": {"type": "boolean"},
+        "validated": { "type": "boolean" },
         "contradictions": {
           "type": "array",
-          "items": {"type": "string"}
+          "items": { "type": "string" }
         },
         "confidence_adjustment": {
           "type": "number",
-          "description": "Adjustment to confidence based on validation"
+          "description": "Adjustment to confidence based on validation (-1.0 to +1.0)"
         }
       }
     },
+    "editorial_override": {
+      "type": "object",
+      "description": "Present when an editor has overridden AI assignment. Required for canon/core tier.",
+      "properties": {
+        "overridden_primary": { "type": "string", "description": "Previous primary color (before override)" },
+        "reason": { "type": "string", "description": "Written justification for override (required)" },
+        "overridden_by": { "type": "string", "description": "Editor name or username" },
+        "overridden_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["reason", "overridden_by", "overridden_at"]
+    },
     "metadata": {
       "type": "object",
-      "description": "Additional metadata used in assignment",
+      "description": "Context metadata used during assignment",
       "properties": {
-        "director": {"type": "string"},
-        "cinematographer": {"type": "string"},
-        "production_designer": {"type": "string"},
-        "genres": {"type": "array", "items": {"type": "string"}},
-        "year": {"type": "integer"},
-        "plot_summary": {"type": "string"}
+        "director": { "type": "string" },
+        "cinematographer": { "type": "string" },
+        "production_designer": { "type": "string" },
+        "genres": { "type": "array", "items": { "type": "string" } },
+        "year": { "type": "integer" },
+        "plot_summary": { "type": "string" }
       }
+    }
+  },
+  "if": {
+    "properties": { "mode": { "const": "monochromatic" } }
+  },
+  "then": {
+    "properties": {
+      "primary_color": { "$ref": "#/definitions/monochromatic_mode_id" },
+      "secondary_colors": {
+        "maxItems": 0,
+        "description": "Secondary colors are not applicable for monochromatic films"
+      }
+    }
+  },
+  "else": {
+    "properties": {
+      "primary_color": { "$ref": "#/definitions/chromatic_color_id" }
     }
   }
 }

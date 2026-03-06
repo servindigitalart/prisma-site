@@ -1,0 +1,595 @@
+---
+interface Props {
+  workId: string;
+  userId: string | null;
+  initialRating?: number | null;
+  initialSeen?: boolean;
+  initialWatchlist?: boolean;
+  initialReview?: string | null;
+}
+
+const {
+  workId,
+  userId,
+  initialRating = null,
+  initialSeen = false,
+  initialWatchlist = false,
+  initialReview = null,
+} = Astro.props;
+
+const user = Astro.locals.user;
+const effectiveUserId = userId || user?.id || null;
+---
+
+<div
+  class="film-actions"
+  data-work-id={workId}
+  data-user-id={effectiveUserId || ''}
+  data-initial-rating={initialRating ?? ''}
+  data-initial-seen={initialSeen ? '1' : ''}
+  data-initial-watchlist={initialWatchlist ? '1' : ''}
+  data-initial-review={initialReview ?? ''}
+>
+  <!-- Rate -->
+  <div class="film-action film-action--rate">
+    <button class="film-action__btn" id="fa-rate-btn" aria-label="Rate this film" aria-expanded="false">
+      <span class="film-action__icon" aria-hidden="true">★</span>
+      <span class="film-action__label" id="fa-rate-label">Rate</span>
+    </button>
+    <div class="rating-picker" id="fa-rating-picker" hidden aria-label="Select rating">
+      {Array.from({ length: 10 }, (_, i) => i + 1).map(n => (
+        <button class="rating-pip" data-value={n} aria-label={`${n} out of 10`}>{n}</button>
+      ))}
+      <button class="rating-clear" id="fa-rating-clear" aria-label="Clear rating" title="Clear">✕</button>
+    </div>
+  </div>
+
+  <!-- Seen -->
+  <div class="film-action film-action--seen">
+    <button class="film-action__btn" id="fa-seen-btn" aria-label="Mark as seen" aria-expanded="false">
+      <span class="film-action__icon" aria-hidden="true">✓</span>
+      <span class="film-action__label">Seen</span>
+    </button>
+    <div class="seen-picker" id="fa-seen-picker" hidden>
+      <button class="seen-option" id="fa-seen-today">Just watched</button>
+      <button class="seen-option" id="fa-seen-before">I saw this before</button>
+    </div>
+  </div>
+
+  <!-- Watchlist -->
+  <button class="film-action__btn film-action--watchlist" id="fa-watchlist-btn" aria-label="Add to watchlist">
+    <span class="film-action__icon" aria-hidden="true" id="fa-watchlist-icon">+</span>
+    <span class="film-action__label" id="fa-watchlist-label">Watchlist</span>
+  </button>
+
+  <!-- Review (visible after rating) -->
+  <div class="film-action film-action--review" id="fa-review-wrapper" hidden>
+    <button class="film-action__btn" id="fa-review-btn" aria-label="Write a review">
+      <span class="film-action__icon" aria-hidden="true">✎</span>
+      <span class="film-action__label" id="fa-review-label">Review</span>
+    </button>
+    <div class="review-editor" id="fa-review-editor" hidden>
+      <textarea id="fa-review-textarea" class="review-textarea" maxlength="500" placeholder="Write your review…"></textarea>
+      <div class="review-footer">
+        <span class="review-charcount" id="fa-review-charcount">0/500</span>
+        <button class="review-submit" id="fa-review-submit">Save review</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+(function() {
+  function initFilmActions() {
+    var root = document.querySelector('.film-actions');
+    if (!root) return;
+
+    var workId = root.dataset.workId;
+    var userIdRaw = root.dataset.userId;
+    var userId = (userIdRaw && userIdRaw !== '' && userIdRaw !== 'null' && userIdRaw !== 'undefined') ? userIdRaw : null;
+    var currentRating = root.dataset.initialRating ? Number(root.dataset.initialRating) : null;
+    var isSeen = root.dataset.initialSeen === '1';
+    var inWatchlist = root.dataset.initialWatchlist === '1';
+    var currentReview = root.dataset.initialReview || '';
+
+    function requireAuth() {
+      if (!userId) {
+        if (window.showAuthModal) window.showAuthModal();
+        return false;
+      }
+      return true;
+    }
+
+    function showToast(msg) {
+      var notif = document.createElement('div');
+      notif.textContent = msg;
+      notif.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#1a1a1a;color:#aaa;padding:8px 16px;border-radius:6px;font-size:0.8rem;z-index:999;border:1px solid #333';
+      document.body.appendChild(notif);
+      setTimeout(function() { notif.remove(); }, 2500);
+    }
+
+    /* ── Rate ── */
+    var rateBtn = document.getElementById('fa-rate-btn');
+    var rateLabel = document.getElementById('fa-rate-label');
+    var ratingPicker = document.getElementById('fa-rating-picker');
+    var ratingClear = document.getElementById('fa-rating-clear');
+    if (!rateBtn || !rateLabel || !ratingPicker || !ratingClear) return;
+
+    function updateRateUI() {
+      if (currentRating) {
+        rateLabel.textContent = currentRating + '/10';
+        rateBtn.classList.add('is-active');
+      } else {
+        rateLabel.textContent = 'Rate';
+        rateBtn.classList.remove('is-active');
+      }
+      ratingPicker.querySelectorAll('.rating-pip').forEach(function(pip) {
+        pip.classList.toggle('is-selected', Number(pip.dataset.value) === currentRating);
+      });
+      updateReviewVisibility();
+    }
+
+    function closeSeen() {
+      var sp = document.getElementById('fa-seen-picker');
+      var sb = document.getElementById('fa-seen-btn');
+      if (sp) sp.setAttribute('hidden', '');
+      if (sb) sb.setAttribute('aria-expanded', 'false');
+    }
+
+    rateBtn.addEventListener('click', function() {
+      if (!requireAuth()) return;
+      var open = !ratingPicker.hasAttribute('hidden');
+      ratingPicker.toggleAttribute('hidden', open);
+      rateBtn.setAttribute('aria-expanded', String(!open));
+      if (!open) closeSeen();
+    });
+
+    ratingPicker.querySelectorAll('.rating-pip').forEach(function(pip) {
+      pip.addEventListener('click', async function() {
+        try {
+          var value = Number(pip.dataset.value);
+          var response = await fetch('/api/user/rate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ work_id: workId, rating: value })
+          });
+          if (response.ok) {
+            currentRating = value;
+            updateRateUI();
+            ratingPicker.setAttribute('hidden', '');
+            if (inWatchlist) {
+              inWatchlist = false;
+              updateWatchlistUI();
+              showToast('Removed from Watchlist');
+            }
+          }
+        } catch(e) {
+          console.error('Rate error:', e);
+        }
+      });
+    });
+
+    ratingClear.addEventListener('click', function() {
+      currentRating = null;
+      updateRateUI();
+      ratingPicker.setAttribute('hidden', '');
+    });
+
+    updateRateUI();
+
+    /* ── Seen ── */
+    var seenBtn = document.getElementById('fa-seen-btn');
+    var seenPicker = document.getElementById('fa-seen-picker');
+    var seenToday = document.getElementById('fa-seen-today');
+    var seenBefore = document.getElementById('fa-seen-before');
+    if (!seenBtn || !seenPicker || !seenToday || !seenBefore) return;
+
+    function updateSeenUI() {
+      seenBtn.classList.toggle('is-active', isSeen);
+    }
+
+    async function markSeen(date) {
+      try {
+        var response = await fetch('/api/user/seen', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ work_id: workId, watched_at: date })
+        });
+        if (response.ok) {
+          var data = await response.json();
+          isSeen = data.seen !== false;
+          updateSeenUI();
+          if (isSeen && inWatchlist) {
+            inWatchlist = false;
+            updateWatchlistUI();
+            showToast('Removed from Watchlist');
+          }
+        }
+      } catch(e) {
+        console.error('Seen error:', e);
+      }
+      closeSeen();
+    }
+
+    seenBtn.addEventListener('click', function() {
+      if (!requireAuth()) return;
+      if (isSeen) {
+        markSeen(null);
+        return;
+      }
+      var open = !seenPicker.hasAttribute('hidden');
+      seenPicker.toggleAttribute('hidden', open);
+      seenBtn.setAttribute('aria-expanded', String(!open));
+      if (!open) ratingPicker.setAttribute('hidden', '');
+    });
+
+    seenToday.addEventListener('click', function() {
+      markSeen(new Date().toISOString().slice(0, 10));
+    });
+
+    seenBefore.addEventListener('click', function() {
+      markSeen(null);
+    });
+
+    updateSeenUI();
+
+    /* ── Watchlist ── */
+    var wlBtn = document.getElementById('fa-watchlist-btn');
+    var wlIcon = document.getElementById('fa-watchlist-icon');
+    var wlLabel = document.getElementById('fa-watchlist-label');
+    if (!wlBtn || !wlIcon || !wlLabel) return;
+
+    function updateWatchlistUI() {
+      wlBtn.classList.toggle('is-active', inWatchlist);
+      wlIcon.textContent = inWatchlist ? '✓' : '+';
+      wlLabel.textContent = inWatchlist ? 'In Watchlist' : 'Watchlist';
+    }
+
+    wlBtn.addEventListener('click', async function() {
+      if (!requireAuth()) return;
+      try {
+        var response = await fetch('/api/user/watchlist', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ work_id: workId })
+        });
+        if (response.ok) {
+          var data = await response.json();
+          inWatchlist = data.added;
+          updateWatchlistUI();
+        }
+      } catch(e) {
+        console.error('Watchlist error:', e);
+      }
+    });
+
+    updateWatchlistUI();
+
+    /* ── Review ── */
+    var reviewWrapper = document.getElementById('fa-review-wrapper');
+    var reviewBtn = document.getElementById('fa-review-btn');
+    var reviewLabel = document.getElementById('fa-review-label');
+    var reviewEditor = document.getElementById('fa-review-editor');
+    var reviewTextarea = document.getElementById('fa-review-textarea');
+    var reviewCharcount = document.getElementById('fa-review-charcount');
+    var reviewSubmit = document.getElementById('fa-review-submit');
+
+    function updateReviewVisibility() {
+      if (!reviewWrapper) return;
+      if (currentRating) {
+        reviewWrapper.removeAttribute('hidden');
+        if (reviewLabel) reviewLabel.textContent = currentReview ? 'Edit review' : 'Review';
+      } else {
+        reviewWrapper.setAttribute('hidden', '');
+      }
+    }
+
+    if (reviewBtn && reviewEditor && reviewTextarea && reviewCharcount && reviewSubmit) {
+      if (currentReview) reviewTextarea.value = currentReview;
+
+      reviewTextarea.addEventListener('input', function() {
+        reviewCharcount.textContent = reviewTextarea.value.length + '/500';
+      });
+
+      reviewBtn.addEventListener('click', function() {
+        if (!requireAuth()) return;
+        var open = !reviewEditor.hasAttribute('hidden');
+        reviewEditor.toggleAttribute('hidden', open);
+        if (!open) {
+          reviewTextarea.focus();
+          reviewCharcount.textContent = reviewTextarea.value.length + '/500';
+        }
+      });
+
+      reviewSubmit.addEventListener('click', async function() {
+        var text = reviewTextarea.value.trim();
+        if (!text) return;
+        if (text.length > 500) { showToast('Review too long (max 500)'); return; }
+        reviewSubmit.disabled = true;
+        try {
+          var response = await fetch('/api/user/review', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ work_id: workId, review: text })
+          });
+          if (response.ok) {
+            currentReview = text;
+            reviewEditor.setAttribute('hidden', '');
+            if (reviewLabel) reviewLabel.textContent = 'Edit review';
+            showToast('Review saved');
+          }
+        } catch(e) {
+          console.error('Review error:', e);
+        }
+        reviewSubmit.disabled = false;
+      });
+    }
+
+    updateReviewVisibility();
+
+    /* ── Close on outside click ── */
+    document.addEventListener('click', function(e) {
+      if (!root.contains(e.target)) {
+        ratingPicker.setAttribute('hidden', '');
+        rateBtn.setAttribute('aria-expanded', 'false');
+        closeSeen();
+        if (reviewEditor) reviewEditor.setAttribute('hidden', '');
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilmActions);
+  } else {
+    initFilmActions();
+  }
+})();
+</script>
+
+<style>
+  .film-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .film-action__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    background: var(--surface-card);
+    border: 1px solid var(--surface-border);
+    border-radius: 999px;
+    color: var(--text-muted);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+    white-space: nowrap;
+  }
+
+  .film-action__btn:hover {
+    color: var(--text-primary);
+    border-color: var(--surface-border-strong);
+  }
+
+  .film-action__icon {
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+
+  /* Active: Rate = amber */
+  .film-action--rate .film-action__btn.is-active {
+    color: #C98A2E;
+    border-color: #C98A2E;
+    background: rgba(201, 138, 46, 0.08);
+  }
+
+  /* Active: Seen = green */
+  .film-action--seen .film-action__btn.is-active {
+    color: #3dba6f;
+    border-color: #3dba6f;
+    background: rgba(61, 186, 111, 0.08);
+  }
+
+  /* Watchlist: blue tint inactive, solid blue active */
+  .film-action--watchlist {
+    color: rgba(74, 144, 217, 0.6);
+    border-color: rgba(74, 144, 217, 0.25);
+  }
+
+  .film-action--watchlist:hover {
+    color: #4A90D9;
+    border-color: rgba(74, 144, 217, 0.5);
+  }
+
+  .film-action--watchlist.is-active {
+    color: #4A90D9;
+    border-color: #4A90D9;
+    background: rgba(74, 144, 217, 0.08);
+  }
+
+  .film-action--rate,
+  .film-action--seen,
+  .film-action--review {
+    position: relative;
+  }
+
+  /* Rating picker */
+  .rating-picker {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0.375rem 0.5rem;
+    background: var(--surface-elevated);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .rating-picker[hidden] {
+    display: none;
+  }
+
+  .rating-pip {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 80ms, background 80ms, border-color 80ms;
+  }
+
+  .rating-pip:hover {
+    color: var(--text-primary);
+    background: var(--surface-card);
+  }
+
+  .rating-pip.is-selected {
+    color: #C98A2E;
+    border-color: #C98A2E;
+    background: rgba(201, 138, 46, 0.12);
+  }
+
+  .rating-clear {
+    margin-left: 4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .rating-clear:hover {
+    color: var(--text-primary);
+  }
+
+  /* Seen picker */
+  .seen-picker {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    background: var(--surface-elevated);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .seen-picker[hidden] {
+    display: none;
+  }
+
+  .seen-option {
+    padding: 0.625rem 1rem;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.8125rem;
+    text-align: left;
+    cursor: pointer;
+    transition: background 80ms, color 80ms;
+  }
+
+  .seen-option:hover {
+    background: var(--surface-card);
+    color: var(--text-primary);
+  }
+
+  /* Review editor */
+  .review-editor {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 200;
+    width: 320px;
+    background: var(--surface-elevated);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    padding: 0.75rem;
+  }
+
+  .review-editor[hidden] {
+    display: none;
+  }
+
+  .review-textarea {
+    width: 100%;
+    min-height: 100px;
+    background: var(--surface-card);
+    border: 1px solid var(--surface-border);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    padding: 0.625rem;
+    resize: vertical;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .review-textarea:focus {
+    border-color: var(--text-muted);
+  }
+
+  .review-textarea::placeholder {
+    color: var(--text-muted);
+  }
+
+  .review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  .review-charcount {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+  }
+
+  .review-submit {
+    padding: 0.375rem 0.875rem;
+    background: #F0EEE8;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .review-submit:hover {
+    opacity: 0.88;
+  }
+
+  .review-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>

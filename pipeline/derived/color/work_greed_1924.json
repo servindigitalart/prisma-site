@@ -1,0 +1,56 @@
+{
+  "work_id": "work_greed_1924",
+  "processed_at": "2026-02-28T05:59:16.947150+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "claroscuro_dramatico",
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "The overwhelming presence of dusty, golden-brown, and amber desert landscapes in the film's climax, particularly in Death Valley.",
+      "Iconic stills and posters frequently feature the desolate, sun-baked desert, visually linking the film to a sense of decay and harshness.",
+      "The meticulous on-location shooting and natural light capture the gritty realism of the environments, reinforcing the amber/sepia perception of the desert."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_greed_1924",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:59:16.943654Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:59:16.943643Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_greed_1924",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "claroscuro_dramatico",
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

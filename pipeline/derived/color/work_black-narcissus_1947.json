@@ -1,0 +1,55 @@
+{
+  "work_id": "work_black-narcissus_1947",
+  "processed_at": "2026-02-28T04:39:37.515569+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.8,
+    "secondary_colors": [
+      "verde_esmeralda"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Red accents on the nuns' habits throughout the film, especially Sister Clodagh and Sister Ruth",
+      "Sister Ruth's vivid red dress during her descent into madness",
+      "The prominent red bell on the monastery tower in critical scenes",
+      "The highly saturated Technicolor cinematography, which makes the red elements incredibly striking"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_black-narcissus_1947",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:39:37.511075Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:39:37.511062Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_black-narcissus_1947",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_esmeralda"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_fight-club_1999",
+  "processed_at": "2026-02-28T17:43:56.261207+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Consistent warm, desaturated color grading with an amber/gold tint throughout the film",
+      "Production design of Tyler Durden's dilapidated house and the Fight Club basement featuring dirty browns, rusts, and faded amber tones",
+      "General urban environments often appear grimy and decaying with a prominent dusty, warm hue"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_fight-club_1999",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T17:43:56.256239Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T17:43:56.256220Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_fight-club_1999",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

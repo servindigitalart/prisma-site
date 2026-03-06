@@ -1,0 +1,3090 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/lns7roobSPQQTF54oSPzkT3qH1q.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "homepage": "",
+    "id": 1563,
+    "imdb_id": "tt0084628",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "Sans soleil",
+    "overview": "A woman narrates the thoughts of a world traveler, meditations on time and memory expressed in words and images from places as far-flung as Japan, Guinea-Bissau, Iceland, and San Francisco.",
+    "popularity": 0.622,
+    "poster_path": "/sspJu9K03FZQP8A1cheurkiePD0.jpg",
+    "production_companies": [
+      {
+        "id": 6116,
+        "logo_path": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "name": "Argos films",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "1983-03-02",
+    "revenue": 30878,
+    "runtime": 100,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "He wrote me...",
+    "title": "Sans Soleil",
+    "video": false,
+    "vote_average": 7.435,
+    "vote_count": 260
+  },
+  "credits": {
+    "id": 1563,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 222259,
+        "known_for_department": "Acting",
+        "name": "Florence Delay",
+        "original_name": "Florence Delay",
+        "popularity": 0.9819,
+        "profile_path": "/ci10iGFWeStka54O1TjS5E6suW9.jpg",
+        "cast_id": 4,
+        "character": "Narrator (voice)",
+        "credit_id": "52fe42fec3a36847f803263b",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3220622,
+        "known_for_department": "Acting",
+        "name": "Am\u00edlcar Cabral",
+        "original_name": "Am\u00edlcar Cabral",
+        "popularity": 0.0473,
+        "profile_path": "/9XRYlS2octNVDiydmhsDnLsrjzj.jpg",
+        "cast_id": 36,
+        "character": "Self (archive footage)",
+        "credit_id": "64a9c10f9c97bd00c5f7c3d7",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 28626,
+        "known_for_department": "Acting",
+        "name": "Arielle Dombasle",
+        "original_name": "Arielle Dombasle",
+        "popularity": 0.4646,
+        "profile_path": "/yzrLz3f4uXsiEJeG5FRiIqbGKPS.jpg",
+        "cast_id": 5,
+        "character": "Self",
+        "credit_id": "52fe42fec3a36847f803263f",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4153165,
+        "known_for_department": "Acting",
+        "name": "Bin Akao",
+        "original_name": "Bin Akao",
+        "popularity": 0.1376,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "Self (uncredited)",
+        "credit_id": "64a9c16ad1a89300ff8089f4",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 238869,
+        "known_for_department": "Acting",
+        "name": "David Coverdale",
+        "original_name": "David Coverdale",
+        "popularity": 2.0002,
+        "profile_path": "/yO85hLAzX6yQ66x5bHOXwvB5Z5w.jpg",
+        "cast_id": 40,
+        "character": "Self / Deep Purple Singer (uncredited)",
+        "credit_id": "64a9c17c3e2ec800af7d1278",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "cast_id": 41,
+        "character": "Self (uncredited)",
+        "credit_id": "64a9c1883e2ec800cbcd5bf2",
+        "order": 5
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "52fe42fec3a36847f8032637",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "52fe42fec3a36847f8032631",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1398627,
+        "known_for_department": "Camera",
+        "name": "Roger Grange",
+        "original_name": "Roger Grange",
+        "popularity": 0.1858,
+        "profile_path": null,
+        "credit_id": "64a9bfaa3e2ec800ec867b85",
+        "department": "Art",
+        "job": "Title Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1337801,
+        "known_for_department": "Directing",
+        "name": "Mario Marret",
+        "original_name": "Mario Marret",
+        "popularity": 0.1409,
+        "profile_path": null,
+        "credit_id": "64a9c01e9c97bd00e24c0e58",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "64a9bdab9c97bd00adea5ea0",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 43995,
+        "known_for_department": "Camera",
+        "name": "Dominique Gentil",
+        "original_name": "Dominique Gentil",
+        "popularity": 0.3301,
+        "profile_path": null,
+        "credit_id": "64a9be1e66a0d300c66e1ada",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "64a9bd90d1a893011c3268a0",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 41575,
+        "known_for_department": "Camera",
+        "name": "Eric Dumage",
+        "original_name": "Eric Dumage",
+        "popularity": 0.0839,
+        "profile_path": null,
+        "credit_id": "64a9be133e2ec8010dab4998",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 22208,
+        "known_for_department": "Sound",
+        "name": "Paul Bertault",
+        "original_name": "Paul Bertault",
+        "popularity": 0.2299,
+        "profile_path": null,
+        "credit_id": "64a9bddb3e2ec800cbcd5a9f",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1281231,
+        "known_for_department": "Crew",
+        "name": "Jean-Michel Humeau",
+        "original_name": "Jean-Michel Humeau",
+        "popularity": 0.1617,
+        "profile_path": null,
+        "credit_id": "64a9c011d1a89300c574ed04",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4153145,
+        "known_for_department": "Art",
+        "name": "Martin Boschet",
+        "original_name": "Martin Boschet",
+        "popularity": 0.1659,
+        "profile_path": null,
+        "credit_id": "64a9bf663e2ec800af7d11b3",
+        "department": "Art",
+        "job": "Title Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1202934,
+        "known_for_department": "Directing",
+        "name": "Sana Na N'Hada",
+        "original_name": "Sana Na N'Hada",
+        "popularity": 0.2023,
+        "profile_path": "/h8VIAWCgwEfLY0fx4YkazYWaSjC.jpg",
+        "credit_id": "64a9c03f3e2ec800ec867bca",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1159701,
+        "known_for_department": "Sound",
+        "name": "Anne-Marie L'H\u00f4te",
+        "original_name": "Anne-Marie L'H\u00f4te",
+        "popularity": 0.1065,
+        "profile_path": null,
+        "credit_id": "64a9bf019c97bd00c5f7c2f5",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "64a9bdf9d1a89300ff80887d",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2304,
+        "known_for_department": "Production",
+        "name": "Anatole Dauman",
+        "original_name": "Anatole Dauman",
+        "popularity": 0.2348,
+        "profile_path": "/6OMlQTVM3D2lKiVt6eccx7JIMCP.jpg",
+        "credit_id": "64a9bd7bd1a8930139d5e2aa",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1467137,
+        "known_for_department": "Sound",
+        "name": "Pierre Camus",
+        "original_name": "Pierre Camus",
+        "popularity": 0.262,
+        "profile_path": null,
+        "credit_id": "64a9bdbf9c97bd01390c484a",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 63900,
+        "known_for_department": "Camera",
+        "name": "Arthur Cloquet",
+        "original_name": "Arthur Cloquet",
+        "popularity": 0.256,
+        "profile_path": null,
+        "credit_id": "64a9be0666a0d3011d7ae22f",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1616700,
+        "known_for_department": "Sound",
+        "name": "Catherine Adda",
+        "original_name": "Catherine Adda",
+        "popularity": 0.2693,
+        "profile_path": null,
+        "credit_id": "64a9bee89c97bd011c5859c8",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1172548,
+        "known_for_department": "Acting",
+        "name": "Haroun Tazieff",
+        "original_name": "Haroun Tazieff",
+        "popularity": 0.223,
+        "profile_path": "/kx4Z4OO8cKFXmRt98ib3TDAUuin.jpg",
+        "credit_id": "64a9c05166a0d300e37340e2",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3335077,
+        "known_for_department": "Editing",
+        "name": "Dani\u00e8le Tessier",
+        "original_name": "Dani\u00e8le Tessier",
+        "popularity": 0.1111,
+        "profile_path": null,
+        "credit_id": "64a9c071b686b9010e0baec9",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9959,
+        "known_for_department": "Sound",
+        "name": "Antoine Bonfanti",
+        "original_name": "Antoine Bonfanti",
+        "popularity": 0.2056,
+        "profile_path": "/mrRqvA3Cl5fmfKmF9O7ETLGIpu8.jpg",
+        "credit_id": "64a9bde73e2ec8010dab4989",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 39475,
+        "known_for_department": "Camera",
+        "name": "Eugenio Bentivoglio",
+        "original_name": "Eugenio Bentivoglio",
+        "popularity": 0.249,
+        "profile_path": null,
+        "credit_id": "64a9bfd29c97bd00ff1aac8f",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9956,
+        "known_for_department": "Directing",
+        "name": "Chris Marker",
+        "original_name": "Chris Marker",
+        "popularity": 0.4812,
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg",
+        "credit_id": "64a9bd873e2ec8014f47e8c5",
+        "department": "Sound",
+        "job": "Music"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2687697,
+        "known_for_department": "Editing",
+        "name": "Marcel Mazoyer",
+        "original_name": "Marcel Mazoyer",
+        "popularity": 0.192,
+        "profile_path": null,
+        "credit_id": "64a9bf219c97bd00adea5f44",
+        "department": "Editing",
+        "job": "Colorist"
+      }
+    ]
+  },
+  "videos": {
+    "id": 1563,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Sans Soleil 1983 Chris Marker Trailer",
+        "key": "WbvAe3vmQs8",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-12-22T15:30:01.000Z",
+        "id": "64c8e2e0b97442010c1daac3"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Sans Soleil - Chris Marker (trailer 30th anniversary)",
+        "key": "0K8j3MU9dw4",
+        "published_at": "2013-09-08T14:54:04.000Z",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Trailer",
+        "official": false,
+        "id": "55682d89c3a3686bc3000d67"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 1563,
+    "keywords": [
+      {
+        "id": 195239,
+        "name": "travelogue"
+      },
+      {
+        "id": 237188,
+        "name": "ethnography"
+      },
+      {
+        "id": 269412,
+        "name": "poetic documentary"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 1563,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 145
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 146
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BB",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BE",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 49
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BM",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 13
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 58
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 45
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=DO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=EE",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 50
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/zg1uFDzIchkwrwOW6dq7LFxB4n6.jpg",
+            "provider_id": 1737,
+            "provider_name": "INA  madelen Amazon Channel",
+            "display_priority": 54
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GI",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 12
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=HU",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 23
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 28
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 28
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 34
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IS",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=JM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 13
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=KR",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=KW",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LI",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 19
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MD",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 6
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MY",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=NL",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 63
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 26
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 26
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 19
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=PY",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 14
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=RO",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=RU",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SA",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/sgws7qaFHYTEeYhc8RCjZ5D7IlH.jpg",
+            "provider_id": 517,
+            "provider_name": "TriArt Play",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TH",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 41
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 11
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 135
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 135
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=UY",
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 16
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+            "provider_id": 569,
+            "provider_name": "DocAlliance Films",
+            "display_priority": 15
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/1563-sans-soleil/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      }
+    }
+  }
+}

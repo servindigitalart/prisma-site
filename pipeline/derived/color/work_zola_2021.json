@@ -1,0 +1,56 @@
+{
+  "work_id": "work_zola_2021",
+  "processed_at": "2026-02-28T07:00:34.224048+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "magenta_pop",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.77,
+    "secondary_colors": [
+      "cian_melancolico",
+      "violeta_cinetico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Stefani's iconic hot pink and magenta wardrobe throughout the film",
+      "Prevalent pink and purple neon lighting in motel rooms, strip clubs, and night scenes",
+      "The film's overall highly saturated, 'filtered' aesthetic, emphasizing artificial vibrancy"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_zola_2021",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T07:00:34.220501Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T07:00:34.220488Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_zola_2021",
+    "color_iconico": "magenta_pop",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "cian_melancolico",
+      "violeta_cinetico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "work_id": "work_whiplash_2014",
+  "processed_at": "2026-02-28T06:58:17.403513+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "negro_abismo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "titanio_mecanico",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_frenetico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Terence Fletcher's consistent wardrobe of dark, usually black, suits.",
+      "Andrew Neiman's dark practice clothing and appearance in dimly lit, high-contrast environments.",
+      "The use of deep black backgrounds and shadows in practice rooms, studio, and concert stage settings.",
+      "The high-contrast lighting scheme that plunges most of the frame into darkness while spotlighting characters."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_whiplash_2014",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:58:17.400122Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:58:17.400110Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_whiplash_2014",
+    "color_iconico": "negro_abismo",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_frenetico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

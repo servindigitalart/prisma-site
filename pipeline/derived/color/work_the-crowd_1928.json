@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-crowd_1928",
+  "processed_at": "2026-02-28T06:41:17.940012+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The overwhelming majority of daytime and interior scenes are presented with an amber/sepia tint in restored versions.",
+      "Iconic shots of the bustling crowds and the vast, impersonal office spaces are visually defined by this warm, aged tint.",
+      "The overall visual atmosphere evokes a sense of looking back at a specific era, fitting the 'faded memory' aspect of ambar_desertico."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-crowd_1928",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:41:17.935944Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:41:17.935933Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-crowd_1928",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

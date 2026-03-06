@@ -1,0 +1,493 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/rBsAgCTXB6LtjTdtXG7mnSRwcse.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 3764,
+    "imdb_id": "tt0056049",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "\u88f8\u306e\u5cf6",
+    "overview": "A family of four are the sole inhabitants of a small island, where they struggle each day to irrigate their crops.",
+    "popularity": 0.9346,
+    "poster_path": "/rHpQyPBuFyofx5D5UC95ec2sFgV.jpg",
+    "production_companies": [
+      {
+        "id": 1516,
+        "logo_path": null,
+        "name": "Kindai Eiga Kyokai",
+        "origin_country": "JP"
+      },
+      {
+        "id": 882,
+        "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "name": "TOHO",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "1960-11-23",
+    "revenue": 0,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "\u65e5\u672c\u8a9e"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Naked Island",
+    "video": false,
+    "vote_average": 7.986,
+    "vote_count": 140
+  },
+  "credits": {
+    "id": 3764,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 33728,
+        "known_for_department": "Acting",
+        "name": "Nobuko Otowa",
+        "original_name": "\u4e59\u7fbd\u4fe1\u5b50",
+        "popularity": 0.5252,
+        "profile_path": "/6vcByiFlOE9JiLGWNKRtN8k0uil.jpg",
+        "cast_id": 5,
+        "character": "Toyo",
+        "credit_id": "52fe43a4c3a36847f8064099",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33732,
+        "known_for_department": "Acting",
+        "name": "Taiji Tonoyama",
+        "original_name": "\u6bbf\u5c71\u6cf0\u53f8",
+        "popularity": 0.7275,
+        "profile_path": "/k88bvJ91SiL2Nn6QtQf7hB8U4iv.jpg",
+        "cast_id": 6,
+        "character": "Senta",
+        "credit_id": "52fe43a4c3a36847f806409d",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33734,
+        "known_for_department": "Acting",
+        "name": "Shinji Tanaka",
+        "original_name": "Shinji Tanaka",
+        "popularity": 0.799,
+        "profile_path": null,
+        "cast_id": 7,
+        "character": "Taro",
+        "credit_id": "52fe43a4c3a36847f80640a1",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 33735,
+        "known_for_department": "Acting",
+        "name": "Masanori Horimoto",
+        "original_name": "Masanori Horimoto",
+        "popularity": 0.2131,
+        "profile_path": null,
+        "cast_id": 8,
+        "character": "Jiro",
+        "credit_id": "52fe43a4c3a36847f80640a5",
+        "order": 3
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33727,
+        "known_for_department": "Directing",
+        "name": "Kaneto Shind\u014d",
+        "original_name": "\u65b0\u85e4\u517c\u4eba",
+        "popularity": 0.8769,
+        "profile_path": "/slPRV7aV1R2W15HeVztiapjRdOH.jpg",
+        "credit_id": "52fe43a4c3a36847f8064083",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 33733,
+        "known_for_department": "Production",
+        "name": "Matsuura Eisaku",
+        "original_name": "Matsuura Eisaku",
+        "popularity": 0.117,
+        "profile_path": null,
+        "credit_id": "52fe43a4c3a36847f8064095",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33727,
+        "known_for_department": "Directing",
+        "name": "Kaneto Shind\u014d",
+        "original_name": "\u65b0\u85e4\u517c\u4eba",
+        "popularity": 0.8769,
+        "profile_path": "/slPRV7aV1R2W15HeVztiapjRdOH.jpg",
+        "credit_id": "52fe43a4c3a36847f806408f",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1034270,
+        "known_for_department": "Sound",
+        "name": "Hikaru Hayashi",
+        "original_name": "\u6797\u5149",
+        "popularity": 0.1573,
+        "profile_path": "/wCMXUIe1skenWCFRVET6FmxglhU.jpg",
+        "credit_id": "57a2312dc3a3686c15000448",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1660918,
+        "known_for_department": "Directing",
+        "name": "Mitsunori Kanaoka",
+        "original_name": "Mitsunori Kanaoka",
+        "popularity": 0.044,
+        "profile_path": null,
+        "credit_id": "57a23160c3a3686af2000504",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1615864,
+        "known_for_department": "Writing",
+        "name": "Takahisa Katsume",
+        "original_name": "Takahisa Katsume",
+        "popularity": 0.2918,
+        "profile_path": null,
+        "credit_id": "57a2316a9251410c43000445",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1472695,
+        "known_for_department": "Production",
+        "name": "Kazuo Kuwahara",
+        "original_name": "\u6851\u539f\u4e00\u96c4",
+        "popularity": 0.5356,
+        "profile_path": null,
+        "credit_id": "57a231579251410c10000424",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1183025,
+        "known_for_department": "Camera",
+        "name": "Kiyomi Kuroda",
+        "original_name": "\u9ed2\u7530\u6e05\u5df3",
+        "popularity": 0.8117,
+        "profile_path": null,
+        "credit_id": "57a231349251415f2c004423",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1183026,
+        "known_for_department": "Editing",
+        "name": "Toshio Enoki",
+        "original_name": "Toshio Enoki",
+        "popularity": 0.2311,
+        "profile_path": null,
+        "credit_id": "57a231449251415f2c004427",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1660917,
+        "known_for_department": "Production",
+        "name": "Mihoko Yoshino",
+        "original_name": "Mihoko Yoshino",
+        "popularity": 0.1857,
+        "profile_path": null,
+        "credit_id": "57a2314ec3a3686af20004fa",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33727,
+        "known_for_department": "Directing",
+        "name": "Kaneto Shind\u014d",
+        "original_name": "\u65b0\u85e4\u517c\u4eba",
+        "popularity": 0.8769,
+        "profile_path": "/slPRV7aV1R2W15HeVztiapjRdOH.jpg",
+        "credit_id": "64315af7e92d830113076c12",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 33727,
+        "known_for_department": "Directing",
+        "name": "Kaneto Shind\u014d",
+        "original_name": "\u65b0\u85e4\u517c\u4eba",
+        "popularity": 0.8769,
+        "profile_path": "/slPRV7aV1R2W15HeVztiapjRdOH.jpg",
+        "credit_id": "64315b029a643506f1b03b1f",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1625801,
+        "known_for_department": "Sound",
+        "name": "Kunie Maruyama",
+        "original_name": "Kunie Maruyama",
+        "popularity": 0.1646,
+        "profile_path": null,
+        "credit_id": "5a83696e0e0a264011004e0d",
+        "department": "Sound",
+        "job": "Sound Designer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 3764,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Naked Island (1960) ORIGINAL TRAILER [HD 1080p]",
+        "key": "3GrLWObrHkA",
+        "published_at": "2018-04-13T21:03:59.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": false,
+        "id": "5bda471492514153f80021c8"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 3764,
+    "keywords": [
+      {
+        "id": 658,
+        "name": "sea"
+      },
+      {
+        "id": 2041,
+        "name": "island"
+      },
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 1422,
+        "name": "boat"
+      },
+      {
+        "id": 18035,
+        "name": "family"
+      },
+      {
+        "id": 209998,
+        "name": "japanese new wave"
+      },
+      {
+        "id": 212330,
+        "name": "slap"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 3764,
+    "results": {
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/3764/watch?locale=CA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/3764/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/3764/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8G7qvHF7hdmXpfxxqtF1WT9ib68.jpg",
+            "provider_id": 2308,
+            "provider_name": "Darkroom",
+            "display_priority": 137
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      }
+    }
+  }
+}

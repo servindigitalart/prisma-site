@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-passion-of-joan-of-arc_1928",
+  "processed_at": "2026-02-28T06:46:30.154995+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.99,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film's iconic extreme close-ups emphasize high contrast, with stark lighting illuminating faces against dark backgrounds.",
+      "Cinematography frequently uses deep shadows and bright, almost blinding, highlights to create dramatic tension.",
+      "The minimalist and often abstract set designs are defined by the interplay of light and shadow, contributing to an overall expressionistic visual style."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-passion-of-joan-of-arc_1928",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:46:30.151454Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:46:30.151443Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-passion-of-joan-of-arc_1928",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

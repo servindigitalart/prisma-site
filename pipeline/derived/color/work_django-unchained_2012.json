@@ -1,0 +1,56 @@
+{
+  "work_id": "work_django-unchained_2012",
+  "processed_at": "2026-02-28T04:50:22.641058+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "rojo_pasional",
+      "verde_lima"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The pervasive warm, dusty color grade of outdoor Western landscapes.",
+      "Interior scenes in saloons and plantation houses often feature a golden-amber palette.",
+      "The overall visual texture evokes a sun-baked, historical period, characteristic of classic Westerns."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_django-unchained_2012",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:50:22.635798Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:50:22.635785Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_django-unchained_2012",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_the-avengers_2012",
+  "processed_at": "2026-02-28T06:39:36.835238+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "titanio_mecanico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.79,
+    "secondary_colors": [
+      "azul_nocturno",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The S.H.I.E.L.D. Helicarrier is a massive, recurring metallic gray structure.",
+      "The Chitauri alien ships and armor are consistently depicted in metallic gray.",
+      "The urban environment during the Battle of New York features extensive gray concrete and rubble, serving as a primary backdrop."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-avengers_2012",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:39:36.831221Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:39:36.831210Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-avengers_2012",
+    "color_iconico": "titanio_mecanico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_nosferatu_1922",
+  "processed_at": "2026-02-28T06:20:09.200978+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The use of deep shadows and stark contrasts to create unsettling atmospheres (e.g., Orlok's shadow on the wall, his figure in doorways).",
+      "The exaggerated and distorted architectural sets, a hallmark of German Expressionism, rely on chiaroscuro for dramatic effect.",
+      "Orlok's gaunt appearance and dark costuming are emphasized through sharp lighting and deep shadows throughout the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_nosferatu_1922",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:20:09.197341Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:20:09.197329Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_nosferatu_1922",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

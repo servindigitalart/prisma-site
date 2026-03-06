@@ -1,0 +1,1332 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/prQE97Ds6ElKtTuemJRCvGJFlZz.jpg",
+    "belongs_to_collection": {
+      "id": 745388,
+      "name": "Scenes From A Marriage Collection",
+      "poster_path": "/1hTkeWdI0oQDKkWgSB0r9HIqWMr.jpg",
+      "backdrop_path": null
+    },
+    "budget": 150000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 133919,
+    "imdb_id": "tt6725014",
+    "origin_country": [
+      "SE"
+    ],
+    "original_language": "sv",
+    "original_title": "Scener ur ett \u00e4ktenskap",
+    "overview": "Johan and Marianne are married and seem to have it all. Their happiness, however, is a fa\u00e7ade for a troubled relationship, which becomes even rockier when Johan admits that he's having an affair. Before long, the spouses separate and move towards finalizing their divorce, but they make attempts at reconciling. Even as they pursue other relationships, Johan and Marianne realize that they have a significant bond, but also many issues that hinder that connection.",
+    "popularity": 2.0374,
+    "poster_path": "/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
+    "production_companies": [
+      {
+        "id": 7445,
+        "logo_path": null,
+        "name": "Cinematograph AB",
+        "origin_country": "SE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "SE",
+        "name": "Sweden"
+      }
+    ],
+    "release_date": "1974-09-15",
+    "revenue": 0,
+    "runtime": 169,
+    "spoken_languages": [
+      {
+        "english_name": "Swedish",
+        "iso_639_1": "sv",
+        "name": "svenska"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Scenes from a Marriage",
+    "video": false,
+    "vote_average": 8.053,
+    "vote_count": 394
+  },
+  "credits": {
+    "id": 133919,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11916,
+        "known_for_department": "Acting",
+        "name": "Liv Ullmann",
+        "original_name": "Liv Ullmann",
+        "popularity": 0.8051,
+        "profile_path": "/7IJimLbXIOYpLAS4UaHcNYWRsJe.jpg",
+        "cast_id": 2,
+        "character": "Marianne",
+        "credit_id": "52fe4bbec3a368484e197877",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 38127,
+        "known_for_department": "Acting",
+        "name": "Erland Josephson",
+        "original_name": "Erland Josephson",
+        "popularity": 0.165,
+        "profile_path": "/dopG1nAzyT23DMAPyPoUuwbZs4a.jpg",
+        "cast_id": 3,
+        "character": "Johan",
+        "credit_id": "52fe4bbec3a368484e19787b",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6657,
+        "known_for_department": "Acting",
+        "name": "Bibi Andersson",
+        "original_name": "Bibi Andersson",
+        "popularity": 0.438,
+        "profile_path": "/6EGqmWOR3R3jv3IgrEZmCjTAVGv.jpg",
+        "cast_id": 5,
+        "character": "Katarina",
+        "credit_id": "52fe4bbec3a368484e197885",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 46867,
+        "known_for_department": "Acting",
+        "name": "Jan Malmsj\u00f6",
+        "original_name": "Jan Malmsj\u00f6",
+        "popularity": 0.9738,
+        "profile_path": "/w1x4KhyWndGgZYw772algFd1JBC.jpg",
+        "cast_id": 6,
+        "character": "Peter",
+        "credit_id": "52fe4bbec3a368484e197889",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6662,
+        "known_for_department": "Acting",
+        "name": "Gunnel Lindblom",
+        "original_name": "Gunnel Lindblom",
+        "popularity": 0.9874,
+        "profile_path": "/93heWge7LBJtmTlvVUvCHRogcmJ.jpg",
+        "cast_id": 7,
+        "character": "Eva",
+        "credit_id": "52fe4bbec3a368484e19788d",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 92052,
+        "known_for_department": "Acting",
+        "name": "Wenche Foss",
+        "original_name": "Wenche Foss",
+        "popularity": 0.4471,
+        "profile_path": "/ykmuRavTewKPNL9sfXgLm1w5m9P.jpg",
+        "cast_id": 8,
+        "character": "Modern",
+        "credit_id": "54a4258cc3a3680b2700ffb4",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 116509,
+        "known_for_department": "Acting",
+        "name": "Bertil Norstr\u00f6m",
+        "original_name": "Bertil Norstr\u00f6m",
+        "popularity": 0.1932,
+        "profile_path": "/xW6LH00nlT4caCfG7DghzBXqM4G.jpg",
+        "cast_id": 9,
+        "character": "Arne",
+        "credit_id": "54a4259dc3a3686428003352",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 109284,
+        "known_for_department": "Acting",
+        "name": "Anita Wall",
+        "original_name": "Anita Wall",
+        "popularity": 0.35,
+        "profile_path": "/kIXZcdOF1wV5YsKC5Lxq0dBX2xq.jpg",
+        "cast_id": 10,
+        "character": "Mrs. Palm",
+        "credit_id": "54a425ab9251414d2700cb65",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1407034,
+        "known_for_department": "Acting",
+        "name": "Rossana Mariano",
+        "original_name": "Rossana Mariano",
+        "popularity": 0.4155,
+        "profile_path": null,
+        "cast_id": 11,
+        "character": "Young Eva",
+        "credit_id": "54a425bb9251412127008ea5",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1194874,
+        "known_for_department": "Acting",
+        "name": "Lena Bergman",
+        "original_name": "Lena Bergman",
+        "popularity": 1.2651,
+        "profile_path": null,
+        "cast_id": 12,
+        "character": "Karin",
+        "credit_id": "54a425d8c3a3682f1e012026",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6648,
+        "known_for_department": "Directing",
+        "name": "Ingmar Bergman",
+        "original_name": "Ingmar Bergman",
+        "popularity": 0.7936,
+        "profile_path": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+        "cast_id": 13,
+        "character": "Voice of the Press Photographer (uncredited)",
+        "credit_id": "54a425e9c3a3682f1b0122a5",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 231918,
+        "known_for_department": "Acting",
+        "name": "Barbro Hiort af Orn\u00e4s",
+        "original_name": "Barbro Hiort af Orn\u00e4s",
+        "popularity": 0.9191,
+        "profile_path": "/17Umn77fT7DtWxUwTUTAAmUE6lD.jpg",
+        "cast_id": 14,
+        "character": "Mrs. Jacobi (uncredited)",
+        "credit_id": "54a425ffc3a368764f00ef4b",
+        "order": 11
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6648,
+        "known_for_department": "Directing",
+        "name": "Ingmar Bergman",
+        "original_name": "Ingmar Bergman",
+        "popularity": 0.7936,
+        "profile_path": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+        "credit_id": "52fe4bbec3a368484e197881",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6648,
+        "known_for_department": "Directing",
+        "name": "Ingmar Bergman",
+        "original_name": "Ingmar Bergman",
+        "popularity": 0.7936,
+        "profile_path": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+        "credit_id": "52fe4bbec3a368484e197873",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11909,
+        "known_for_department": "Production",
+        "name": "Lars-Owe Carlberg",
+        "original_name": "Lars-Owe Carlberg",
+        "popularity": 0.0687,
+        "profile_path": null,
+        "credit_id": "5723e790c3a3684004000b52",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 150839,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Inger Pehrsson",
+        "original_name": "Inger Pehrsson",
+        "popularity": 0.3308,
+        "profile_path": null,
+        "credit_id": "5723e77fc3a3681347000f58",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1540074,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Cecilia Drott",
+        "original_name": "Cecilia Drott",
+        "popularity": 1.2519,
+        "profile_path": null,
+        "credit_id": "5723e787c3a368222d000496",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11905,
+        "known_for_department": "Camera",
+        "name": "Sven Nykvist",
+        "original_name": "Sven Nykvist",
+        "popularity": 0.1662,
+        "profile_path": "/qs8gCA7aTXPfKkGiPdQAqposl5o.jpg",
+        "credit_id": "5723e751c3a3682d3f003b03",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 67522,
+        "known_for_department": "Editing",
+        "name": "Siv Lundgren",
+        "original_name": "Siv Lundgren",
+        "popularity": 0.3637,
+        "profile_path": null,
+        "credit_id": "5723e76c92514155c3000af7",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11909,
+        "known_for_department": "Production",
+        "name": "Lars-Owe Carlberg",
+        "original_name": "Lars-Owe Carlberg",
+        "popularity": 0.0687,
+        "profile_path": null,
+        "credit_id": "5723e764c3a3681347000f56",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1612812,
+        "known_for_department": "Art",
+        "name": "Bj\u00f6rn Thulin",
+        "original_name": "Bj\u00f6rn Thulin",
+        "popularity": 0.1872,
+        "profile_path": "/t1O2VQEFqsHEiouMPPtvlBdLhSw.jpg",
+        "credit_id": "5723e77792514155c3000afb",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1152382,
+        "known_for_department": "Camera",
+        "name": "Arne Carlsson",
+        "original_name": "Arne Carlsson",
+        "popularity": 0.1832,
+        "profile_path": null,
+        "credit_id": "57916ddd9251415aab002f93",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1332141,
+        "known_for_department": "Sound",
+        "name": "Owe Svensson",
+        "original_name": "Owe Svensson",
+        "popularity": 0.3222,
+        "profile_path": "/neULjCUlVnHv6roP5crOQdvDNHJ.jpg",
+        "credit_id": "57916e2d9251415fd8002be6",
+        "department": "Sound",
+        "job": "Sound Engineer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1264304,
+        "known_for_department": "Camera",
+        "name": "Lars Karlsson",
+        "original_name": "Lars Karlsson",
+        "popularity": 0.1611,
+        "profile_path": null,
+        "credit_id": "57916e8e9251416038002edf",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      }
+    ]
+  },
+  "videos": {
+    "id": 133919,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Liv Ullmann on Erland Josephson",
+        "key": "t3GgQyavR3w",
+        "published_at": "2012-02-28T20:38:00.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec6f1c3a36854480093c8"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 133919,
+    "keywords": [
+      {
+        "id": 1599,
+        "name": "midlife crisis"
+      },
+      {
+        "id": 6038,
+        "name": "marriage"
+      },
+      {
+        "id": 9957,
+        "name": "loneliness"
+      },
+      {
+        "id": 11833,
+        "name": "forty something"
+      },
+      {
+        "id": 14720,
+        "name": "love affair"
+      },
+      {
+        "id": 15160,
+        "name": "divorce"
+      },
+      {
+        "id": 33494,
+        "name": "couple"
+      },
+      {
+        "id": 33740,
+        "name": "humiliation"
+      },
+      {
+        "id": 162219,
+        "name": "selfishness"
+      },
+      {
+        "id": 163758,
+        "name": "ex-husband ex-wife relationship"
+      },
+      {
+        "id": 171848,
+        "name": "marital separation"
+      },
+      {
+        "id": 219902,
+        "name": "cognac"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 133919,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 23
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/489t5n9o1KhH7voGNQkrXT7vBKV.jpg",
+            "provider_id": 1939,
+            "provider_name": "Lepsi TV",
+            "display_priority": 26
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/fxYgfnsrUWa7e9aNr3j3RERpm66.jpg",
+            "provider_id": 1829,
+            "provider_name": "Behind the Tree",
+            "display_priority": 89
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 130
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 110
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 123
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/ddwrbKxlX8n7TasdvrauFijCmEm.jpg",
+            "provider_id": 383,
+            "provider_name": "TV 2",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/a6z85DKGuPOyTg03TlJ6ShzzFO6.jpg",
+            "provider_id": 1961,
+            "provider_name": "Allente",
+            "display_priority": 37
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 48
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/tGvAD4O9obFP3DfOrDn8NaRQ6eT.jpg",
+            "provider_id": 1742,
+            "provider_name": "Acontra Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=FI",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/wRMEDOZ8iAEEHXIY2VyckvT0K8I.jpg",
+            "provider_id": 2029,
+            "provider_name": "MTV Katsomo",
+            "display_priority": 38
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 54
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=IT",
+        "ads": [
+          {
+            "logo_path": "/cmURKKdS72Ckr52615xvc2JPsJm.jpg",
+            "provider_id": 222,
+            "provider_name": "Rai Play",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/jyiwuXdyRrh2R5UwY4MhOF4Xbfy.jpg",
+            "provider_id": 641,
+            "provider_name": "Nexo Plus",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 47
+          },
+          {
+            "logo_path": "/iayPGzRbLdE2kXDzvF5QTbRkEHe.jpg",
+            "provider_id": 2483,
+            "provider_name": "MYmovies One",
+            "display_priority": 86
+          },
+          {
+            "logo_path": "/2zkNz0wUCAIO0oCWWkGfssLrL72.jpg",
+            "provider_id": 2606,
+            "provider_name": "Novecento Amazon Channel",
+            "display_priority": 95
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=NO",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/3ZigBD8WTEPcEHAvMWiJGUsv5u4.jpg",
+            "provider_id": 578,
+            "provider_name": "Strim",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 49
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 22
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/jy4yvY3szonb0p6rtMXvF5stuX9.jpg",
+            "provider_id": 497,
+            "provider_name": "Tele2 Play",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/5lKPs5yrjeKHFrXh9RIvzyJJzSd.jpg",
+            "provider_id": 1944,
+            "provider_name": "TV4 Play",
+            "display_priority": 40
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/hsuv1uc7SUr9YjCXRlLQNELt4UU.jpg",
+            "provider_id": 628,
+            "provider_name": "Edisonline",
+            "display_priority": 24
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ]
+      },
+      "VA": {
+        "link": "https://www.themoviedb.org/movie/133919-scener-ur-ett-aktenskap/watch?locale=VA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      }
+    }
+  }
+}

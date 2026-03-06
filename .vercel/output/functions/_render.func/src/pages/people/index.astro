@@ -1,0 +1,369 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { createServiceClient, isSupabaseConfigured } from '../../lib/db/client';
+import { formatRole } from '../../lib/color/colorPalette';
+import type { PersonRole } from '../../lib/db/types';
+
+const TMDB_BASE = 'https://image.tmdb.org/t/p/w185';
+
+const TABS = [
+  { id: 'director',       label: 'Directors',     dbContext: 'director',       genderFilter: null },
+  { id: 'cinematography', label: 'Cinematography', dbContext: 'cinematography', genderFilter: null },
+  { id: 'writer',         label: 'Writers',        dbContext: 'writer',         genderFilter: null },
+  { id: 'actor',          label: 'Actors',         dbContext: 'actor',          genderFilter: [2, 0] },
+  { id: 'actress',        label: 'Actresses',      dbContext: 'actor',          genderFilter: [1, 3] },
+  { id: 'editor',         label: 'Editors',        dbContext: 'editor',         genderFilter: null },
+  { id: 'composer',       label: 'Composers',      dbContext: 'composer',       genderFilter: null },
+] as const;
+
+type TabId = typeof TABS[number]['id'];
+
+const activeTabId = (Astro.url.searchParams.get('role') ?? 'director') as TabId;
+const activeTab = TABS.find(t => t.id === activeTabId) ?? TABS[0];
+
+type RankedPerson = {
+  rank:        number;
+  score:       number;
+  entityId:    string;
+  slug:        string;
+  name:        string;
+  initials:    string;
+  profilePath: string | null;
+  gender:      number;
+};
+
+function getInitials(name: string): string {
+  return name.split(' ').filter(Boolean).slice(0, 2)
+    .map(w => w[0]?.toUpperCase() ?? '').join('');
+}
+
+let rankings: RankedPerson[] = [];
+let maxScore = 1;
+
+if (isSupabaseConfigured()) {
+  const db = createServiceClient();
+
+  // For actor/actress we need more rows so the gender split still yields ~100 each
+  const fetchLimit = activeTab.genderFilter ? 400 : 100;
+
+  const rsRes = await db
+    .from('ranking_scores')
+    .select('entity_id, score, rank')
+    .eq('entity_type', 'person')
+    .eq('context', activeTab.dbContext)
+    .order('rank')
+    .limit(fetchLimit);
+
+  if (rsRes.data && rsRes.data.length > 0) {
+    const entityIds = rsRes.data.map(r => r.entity_id as string);
+
+    const peopleRes = await db
+      .from('people')
+      .select('id, name, profile_path, gender')
+      .in('id', entityIds);
+
+    if (peopleRes.data) {
+      const peopleMap = new Map(
+        peopleRes.data.map(p => [p.id as string, p])
+      );
+
+      const merged: RankedPerson[] = rsRes.data
+        .map(r => {
+          const p = peopleMap.get(r.entity_id as string);
+          if (!p) return null;
+          return {
+            rank:        r.rank as number,
+            score:       r.score as number,
+            entityId:    r.entity_id as string,
+            slug:        (r.entity_id as string).replace(/^person_/, ''),
+            name:        p.name as string,
+            initials:    getInitials(p.name as string),
+            profilePath: (p.profile_path as string | null) ?? null,
+            gender:      (p.gender as number) ?? 0,
+          };
+        })
+        .filter((x): x is RankedPerson => x !== null);
+
+      if (activeTab.genderFilter) {
+        const gf = activeTab.genderFilter as number[];
+        const filtered = merged.filter(p => gf.includes(p.gender));
+        rankings = filtered.slice(0, 100).map((p, i) => ({ ...p, rank: i + 1 }));
+      } else {
+        rankings = merged.slice(0, 100);
+      }
+
+      maxScore = rankings[0]?.score ?? 1;
+    }
+  }
+}
+
+const pageTitle = 'Filmmakers — PRISMA';
+---
+
+<BaseLayout title={pageTitle} description="Rankings of the most decorated directors, cinematographers, actors, and key creatives in the PRISMA catalog.">
+  <div class="people-index page-enter">
+
+    <!-- Header -->
+    <section class="people-header">
+      <div class="site-container">
+        <h1 class="people-header__title">Filmmakers</h1>
+        <p class="people-header__subtitle">Ranked by awards, cultural weight, and prestige</p>
+      </div>
+    </section>
+
+    <!-- Tab nav -->
+    <nav class="people-tabs" aria-label="Role filter">
+      <div class="site-container">
+        <div class="people-tabs__inner">
+          {TABS.map(tab => (
+            <a
+              href={`/people?role=${tab.id}`}
+              class={`people-tabs__tab ${activeTabId === tab.id ? 'people-tabs__tab--active' : ''}`}
+            >
+              {tab.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </nav>
+
+    <!-- Ranked list -->
+    <section class="people-rankings">
+      <div class="site-container">
+        {rankings.length === 0 ? (
+          <p class="people-rankings__empty">No rankings available for this category.</p>
+        ) : (
+          <ol class="rankings-list" aria-label={`${activeTab.label} rankings`}>
+            {rankings.map((person) => {
+              const barWidth = Math.max(4, Math.round((person.score / maxScore) * 120));
+              const photoUrl = person.profilePath ? `${TMDB_BASE}${person.profilePath}` : null;
+              return (
+                <li class="rankings-item">
+                  <span class="rankings-item__rank" aria-label={`Rank ${person.rank}`}>
+                    #{person.rank}
+                  </span>
+
+                  <div class="rankings-item__avatar" aria-hidden="true">
+                    {photoUrl
+                      ? <img src={photoUrl} alt="" loading="lazy" decoding="async" class="rankings-item__photo" />
+                      : <span class="rankings-item__initials">{person.initials}</span>
+                    }
+                  </div>
+
+                  <div class="rankings-item__body">
+                    <a href={`/people/${person.slug}`} class="rankings-item__name">
+                      {person.name}
+                    </a>
+                    <div class="rankings-item__bar-wrap">
+                      <div
+                        class="rankings-item__bar"
+                        style={`width: ${barWidth}px`}
+                        aria-label={`Score: ${person.score.toFixed(1)}`}
+                      />
+                      <span class="rankings-item__score">{person.score.toFixed(1)} pts</span>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        )}
+      </div>
+    </section>
+
+  </div>
+
+  <style>
+    .people-index {
+      min-height: 100vh;
+      padding-bottom: 6rem;
+    }
+
+    /* Header */
+    .people-header {
+      padding: 7rem 0 2rem;
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .people-header__title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 400;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .people-header__subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Tabs */
+    .people-tabs {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--surface-bg);
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .people-tabs__inner {
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .people-tabs__inner::-webkit-scrollbar { display: none; }
+
+    .people-tabs__tab {
+      flex-shrink: 0;
+      padding: 0.875rem 1.25rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: color 120ms ease, border-color 120ms ease;
+      white-space: nowrap;
+    }
+
+    .people-tabs__tab:hover {
+      color: var(--text-secondary);
+    }
+
+    .people-tabs__tab--active {
+      color: var(--text-primary);
+      border-bottom-color: var(--color-ambar_desertico, #C8922B);
+    }
+
+    /* Rankings */
+    .people-rankings {
+      padding: 2rem 0;
+    }
+
+    .people-rankings__empty {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      font-style: italic;
+      text-align: center;
+      padding: 4rem 0;
+    }
+
+    .rankings-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    /* Ranking row */
+    .rankings-item {
+      display: grid;
+      grid-template-columns: 3rem 48px 1fr;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--surface-border);
+      transition: background 120ms ease;
+    }
+
+    .rankings-item:hover {
+      background: var(--surface-card);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      border-radius: 4px;
+    }
+
+    /* Rank number */
+    .rankings-item__rank {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* Photo */
+    .rankings-item__avatar {
+      width: 48px;
+      aspect-ratio: 2 / 3;
+      border-radius: 3px;
+      background: var(--surface-card);
+      border: 1px solid var(--surface-border);
+      flex-shrink: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .rankings-item__photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+
+    .rankings-item__initials {
+      font-size: 0.6rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    /* Body */
+    .rankings-item__body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.375rem;
+      min-width: 0;
+    }
+
+    .rankings-item__name {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-decoration: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      transition: color 120ms ease;
+    }
+    .rankings-item__name:hover { color: var(--text-primary); }
+
+    /* Score bar */
+    .rankings-item__bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+    }
+
+    .rankings-item__bar {
+      height: 3px;
+      border-radius: 1.5px;
+      background: var(--color-ambar_desertico, #C8922B);
+      flex-shrink: 0;
+      transition: width 200ms ease;
+    }
+
+    .rankings-item__score {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    @media (max-width: 640px) {
+      .rankings-item {
+        grid-template-columns: 2.5rem 40px 1fr;
+        gap: 0.75rem;
+      }
+      .rankings-item__avatar { width: 40px; }
+      .people-tabs__tab { padding: 0.75rem 0.875rem; }
+    }
+  </style>
+</BaseLayout>

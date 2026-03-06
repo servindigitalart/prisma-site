@@ -1,0 +1,1359 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/eGn78oJms1vrE4Z38m05d5GSTvk.jpg",
+    "belongs_to_collection": null,
+    "budget": 8847685,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 776,
+    "imdb_id": "tt0031885",
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_title": "La R\u00e8gle du jeu",
+    "overview": "A weekend at a marquis\u2019 country ch\u00e2teau lays bare some ugly truths about a group of haut bourgeois acquaintances.",
+    "popularity": 1.418,
+    "poster_path": "/8JOzt7uFZyshcuzCBmYU6CDJL4D.jpg",
+    "production_companies": [
+      {
+        "id": 481,
+        "logo_path": null,
+        "name": "La Nouvelle Edition Francaise",
+        "origin_country": ""
+      },
+      {
+        "id": 1477,
+        "logo_path": null,
+        "name": "Franco London Films",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "1939-07-09",
+    "revenue": 273520,
+    "runtime": 106,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Fran\u00e7ais"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Rules of the Game",
+    "video": false,
+    "vote_average": 7.505,
+    "vote_count": 649
+  },
+  "credits": {
+    "id": 776,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11528,
+        "known_for_department": "Directing",
+        "name": "Jean Renoir",
+        "original_name": "Jean Renoir",
+        "popularity": 0.3765,
+        "profile_path": "/ePLyIIgSud1ZhhaLtj1yFo2diC4.jpg",
+        "cast_id": 18,
+        "character": "Octave",
+        "credit_id": "52fe4275c3a36847f8020231",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4121,
+        "known_for_department": "Acting",
+        "name": "Marcel Dalio",
+        "original_name": "Marcel Dalio",
+        "popularity": 0.4168,
+        "profile_path": "/yYZMbAl56e5S7uFbiFbj0YziIDB.jpg",
+        "cast_id": 14,
+        "character": "Robert de la Cheyniest",
+        "credit_id": "52fe4275c3a36847f8020221",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11534,
+        "known_for_department": "Acting",
+        "name": "Nora Gregor",
+        "original_name": "Nora Gregor",
+        "popularity": 0.4093,
+        "profile_path": "/7hOjInnf0E4G2Ohwz7QPvdamMcj.jpg",
+        "cast_id": 7,
+        "character": "Christine de la Cheyniest",
+        "credit_id": "52fe4275c3a36847f8020205",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11541,
+        "known_for_department": "Acting",
+        "name": "Julien Carette",
+        "original_name": "Julien Carette",
+        "popularity": 0.1709,
+        "profile_path": "/6b0lgm5lexNOYnBl9LilhR7NwLa.jpg",
+        "cast_id": 15,
+        "character": "Marceau, le braconnier",
+        "credit_id": "52fe4275c3a36847f8020225",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11542,
+        "known_for_department": "Acting",
+        "name": "Roland Toutain",
+        "original_name": "Roland Toutain",
+        "popularity": 1.3709,
+        "profile_path": "/gsfZvHnCLMRlxVbNwNmU652fuH9.jpg",
+        "cast_id": 16,
+        "character": "Andr\u00e9 Jurieux",
+        "credit_id": "52fe4275c3a36847f8020229",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11535,
+        "known_for_department": "Acting",
+        "name": "Paulette Dubost",
+        "original_name": "Paulette Dubost",
+        "popularity": 0.1223,
+        "profile_path": "/tlAc3Z7ACgvg6N6qVqh8KCwdiyc.jpg",
+        "cast_id": 8,
+        "character": "Lisette, sa cam\u00e9riste",
+        "credit_id": "52fe4275c3a36847f8020209",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11543,
+        "known_for_department": "Acting",
+        "name": "Gaston Modot",
+        "original_name": "Gaston Modot",
+        "popularity": 0.2753,
+        "profile_path": "/6XEN6LX7stfMhnLi7ng0qkwfHJ6.jpg",
+        "cast_id": 17,
+        "character": "Edouard Schumacher, le garde-chasse",
+        "credit_id": "52fe4275c3a36847f802022d",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9744,
+        "known_for_department": "Acting",
+        "name": "Mila Par\u00e9ly",
+        "original_name": "Mila Par\u00e9ly",
+        "popularity": 0.2889,
+        "profile_path": "/kAfGY0eT1wf1O9UsDuaWKSyQmgk.jpg",
+        "cast_id": 9,
+        "character": "Genevi\u00e8ve de Marras",
+        "credit_id": "52fe4275c3a36847f802020d",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11539,
+        "known_for_department": "Acting",
+        "name": "Anne Mayen",
+        "original_name": "Anne Mayen",
+        "popularity": 0.3689,
+        "profile_path": "/2BZNuw8HFzxeWTqWuNKYZCoXBDx.jpg",
+        "cast_id": 12,
+        "character": "Jackie, ni\u00e8ce de Christine",
+        "credit_id": "52fe4275c3a36847f8020219",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1197883,
+        "known_for_department": "Acting",
+        "name": "Eddy Debray",
+        "original_name": "Eddy Debray",
+        "popularity": 0.3402,
+        "profile_path": "/c9Z1KmrDlMgi9VANBKtseRJzcBt.jpg",
+        "cast_id": 21,
+        "character": "Corneille, le majordome",
+        "credit_id": "55414da9c3a3681dab00242b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11537,
+        "known_for_department": "Acting",
+        "name": "Odette Talazac",
+        "original_name": "Odette Talazac",
+        "popularity": 0.0846,
+        "profile_path": "/kg8IRL0M0iCBKRDQOsURlAixruT.jpg",
+        "cast_id": 10,
+        "character": "Madame de la Plante",
+        "credit_id": "52fe4275c3a36847f8020211",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11538,
+        "known_for_department": "Acting",
+        "name": "Claire G\u00e9rard",
+        "original_name": "Claire G\u00e9rard",
+        "popularity": 0.2157,
+        "profile_path": "/qAu4kDIa2YQQ6apj7RCKdADQLC9.jpg",
+        "cast_id": 11,
+        "character": "Madame de la Bruy\u00e8re",
+        "credit_id": "52fe4275c3a36847f8020215",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 144364,
+        "known_for_department": "Acting",
+        "name": "Pierre Magnier",
+        "original_name": "Pierre Magnier",
+        "popularity": 0.2501,
+        "profile_path": "/o75tOvZRHdYDyCviOwPU8uIoRwh.jpg",
+        "cast_id": 20,
+        "character": "Le g\u00e9n\u00e9ral",
+        "credit_id": "55414d9d9251414ae8002558",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1460966,
+        "known_for_department": "Acting",
+        "name": "Pierre Nay",
+        "original_name": "Pierre Nay",
+        "popularity": 0.1979,
+        "profile_path": "/jKUgCJr6nqJ4YM9uB8lxNBAjURl.jpg",
+        "cast_id": 22,
+        "character": "Monsieur de St. Aubin",
+        "credit_id": "55414db8c3a3681da500252f",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1460967,
+        "known_for_department": "Acting",
+        "name": "Richard Franc\u0153ur",
+        "original_name": "Richard Franc\u0153ur",
+        "popularity": 0.8262,
+        "profile_path": "/4GOo11Pt7GhcC7pbT09V13jJNgm.jpg",
+        "cast_id": 23,
+        "character": "Monsieur La Bruy\u00e8re",
+        "credit_id": "55414de9c3a3681dab002432",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11601,
+        "known_for_department": "Acting",
+        "name": "L\u00e9on Larive",
+        "original_name": "L\u00e9on Larive",
+        "popularity": 0.1685,
+        "profile_path": "/igrzIXXMqZ2PPJkivGkFWSCAgxX.jpg",
+        "cast_id": 24,
+        "character": "Le cuisinier",
+        "credit_id": "55414df9c3a3681da000245a",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11540,
+        "known_for_department": "Acting",
+        "name": "Lise Elina",
+        "original_name": "Lise Elina",
+        "popularity": 0.1334,
+        "profile_path": "/hFenVQ8bkqpvhxgOgpe0VRlMwJF.jpg",
+        "cast_id": 13,
+        "character": "Radio-Reporter",
+        "credit_id": "52fe4275c3a36847f802021d",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 548717,
+        "known_for_department": "Acting",
+        "name": "Nicolas Amato",
+        "original_name": "Nicolas Amato",
+        "popularity": 0.2429,
+        "profile_path": "/m4YyU3wMT7U5v8fcKsmj9LvYVuM.jpg",
+        "cast_id": 25,
+        "character": "L'invit\u00e9 sud-am\u00e9ricain (uncredited)",
+        "credit_id": "55414e119251414af30024aa",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 38376,
+        "known_for_department": "Acting",
+        "name": "Jacques Beauvais",
+        "original_name": "Jacques Beauvais",
+        "popularity": 0.2281,
+        "profile_path": "/seR6nAVbej5phrKXhwZcWkjrk7P.jpg",
+        "cast_id": 43,
+        "character": "Adolphe, un domestique (uncredited)",
+        "credit_id": "5ab2ad280e0a261da600e0a9",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133185,
+        "known_for_department": "Directing",
+        "name": "Henri Cartier-Bresson",
+        "original_name": "Henri Cartier-Bresson",
+        "popularity": 0.0723,
+        "profile_path": "/8PoxkduHwvoTlahyhPWpgYZOehK.jpg",
+        "cast_id": 26,
+        "character": "Le domestique anglais (uncredited)",
+        "credit_id": "55414e1c9251413d6d002075",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1460968,
+        "known_for_department": "Acting",
+        "name": "Celestin",
+        "original_name": "Celestin",
+        "popularity": 0.0443,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "Le gar\u00e7on de cuisine (uncredited)",
+        "credit_id": "55414e33c3a3681d9c0025a9",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 103890,
+        "known_for_department": "Acting",
+        "name": "Tony Corteggiani",
+        "original_name": "Tony Corteggiani",
+        "popularity": 0.2264,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "Berthelin (uncredited)",
+        "credit_id": "55414e419251414af00024c4",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1460969,
+        "known_for_department": "Acting",
+        "name": "G\u00e9o Forster",
+        "original_name": "G\u00e9o Forster",
+        "popularity": 0.4853,
+        "profile_path": "/633UNtzpzrfaVoTmbe4UuyjW2bD.jpg",
+        "cast_id": 29,
+        "character": "L'invit\u00e9 eff\u00e9min\u00e9 (uncredited)",
+        "credit_id": "55414e529251414ae8002579",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1460970,
+        "known_for_department": "Production",
+        "name": "Camille Fran\u00e7ois",
+        "original_name": "Camille Fran\u00e7ois",
+        "popularity": 0.062,
+        "profile_path": "/bQI9WLjpp2ahPsJCUYL6F3yTmop.jpg",
+        "cast_id": 31,
+        "character": "La journaliste (uncredited)",
+        "credit_id": "55414e739251414ae800257f",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 103886,
+        "known_for_department": "Acting",
+        "name": "Jenny H\u00e9lia",
+        "original_name": "Jenny H\u00e9lia",
+        "popularity": 0.1502,
+        "profile_path": "/4cmqt7sLN0KUFXwMRCSLQ11IBA6.jpg",
+        "cast_id": 32,
+        "character": "La servante (uncredited)",
+        "credit_id": "55414e81c3a3681da000246a",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1505996,
+        "known_for_department": "Acting",
+        "name": "Maurice Marceau",
+        "original_name": "Maurice Marceau",
+        "popularity": 0.2808,
+        "profile_path": "/zfvFOQSxii9X5PugW3MlLjnZR2r.jpg",
+        "cast_id": 44,
+        "character": "Un garde-chasse (uncredited)",
+        "credit_id": "5ab2ad3c0e0a261de900e0ca",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 140365,
+        "known_for_department": "Acting",
+        "name": "Marcel Melrac",
+        "original_name": "Marcel Melrac",
+        "popularity": 0.1183,
+        "profile_path": "/3dXfDVO8ygpWkGZxyfZnnpxE2bT.jpg",
+        "cast_id": 55,
+        "character": "C\u00e9lestin, l'aide cuisinier",
+        "credit_id": "622f54e22866fa0045539425",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133187,
+        "known_for_department": "Directing",
+        "name": "Andr\u00e9 Zwobada",
+        "original_name": "Andr\u00e9 Zwobada",
+        "popularity": 0.1775,
+        "profile_path": "/nGbqqxK9aM7Bp5ur6zqD6gE5xVr.jpg",
+        "cast_id": 33,
+        "character": "L'ing\u00e9nieur (uncredited)",
+        "credit_id": "55414e8f9251411fcb000daa",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1342969,
+        "known_for_department": "Acting",
+        "name": "Marguerite de Morlaye",
+        "original_name": "Marguerite de Morlaye",
+        "popularity": 0.5048,
+        "profile_path": "/wXkjqJag1YVzuzZIOnVGBQrHGIw.jpg",
+        "cast_id": 54,
+        "character": "une invit\u00e9e",
+        "credit_id": "622f54d7e04aca0078b0b545",
+        "order": 28
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11530,
+        "known_for_department": "Camera",
+        "name": "Jean Bachelet",
+        "original_name": "Jean Bachelet",
+        "popularity": 0.1445,
+        "profile_path": null,
+        "credit_id": "52fe4275c3a36847f80201ef",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11528,
+        "known_for_department": "Directing",
+        "name": "Jean Renoir",
+        "original_name": "Jean Renoir",
+        "popularity": 0.3765,
+        "profile_path": "/ePLyIIgSud1ZhhaLtj1yFo2diC4.jpg",
+        "credit_id": "52fe4275c3a36847f8020237",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11531,
+        "known_for_department": "Editing",
+        "name": "Marthe Huguet",
+        "original_name": "Marthe Huguet",
+        "popularity": 0.0964,
+        "profile_path": null,
+        "credit_id": "52fe4275c3a36847f80201f5",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11532,
+        "known_for_department": "Editing",
+        "name": "Marguerite Renoir",
+        "original_name": "Marguerite Renoir",
+        "popularity": 0.1087,
+        "profile_path": "/voHXNa8MNbQxPWW26hX4RBsAbkn.jpg",
+        "credit_id": "52fe4275c3a36847f80201fb",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11528,
+        "known_for_department": "Directing",
+        "name": "Jean Renoir",
+        "original_name": "Jean Renoir",
+        "popularity": 0.3765,
+        "profile_path": "/ePLyIIgSud1ZhhaLtj1yFo2diC4.jpg",
+        "credit_id": "52fe4275c3a36847f80201e3",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11533,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Coco Chanel",
+        "original_name": "Coco Chanel",
+        "popularity": 0.0478,
+        "profile_path": null,
+        "credit_id": "52fe4275c3a36847f8020201",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11529,
+        "known_for_department": "Visual Effects",
+        "name": "Carl Koch",
+        "original_name": "Carl Koch",
+        "popularity": 0.3719,
+        "profile_path": null,
+        "credit_id": "52fe4275c3a36847f80201e9",
+        "department": "Writing",
+        "job": "Novel"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 960039,
+        "known_for_department": "Sound",
+        "name": "Roger Desormi\u00e8re",
+        "original_name": "Roger Desormi\u00e8re",
+        "popularity": 0.1331,
+        "profile_path": "/rY4s6AO4RP2uYkEiihy2uhivxSv.jpg",
+        "credit_id": "659cd990f85958014c7c83d5",
+        "department": "Sound",
+        "job": "Conductor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1876122,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Ralph",
+        "original_name": "Ralph",
+        "popularity": 0.0378,
+        "profile_path": null,
+        "credit_id": "599ef25a925141100801329e",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10473,
+        "known_for_department": "Art",
+        "name": "Max Douy",
+        "original_name": "Max Douy",
+        "popularity": 0.2067,
+        "profile_path": "/9AHNTR1LQAUDOxjAZPeOYWDajf1.jpg",
+        "credit_id": "599ef23b9251411060012da8",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 960721,
+        "known_for_department": "Crew",
+        "name": "Jean-Paul Alphen",
+        "original_name": "Jean-Paul Alphen",
+        "popularity": 0.1111,
+        "profile_path": null,
+        "credit_id": "599ef1f09251411060012d65",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 37450,
+        "known_for_department": "Camera",
+        "name": "Jacques Lemare",
+        "original_name": "Jacques Lemare",
+        "popularity": 0.0773,
+        "profile_path": null,
+        "credit_id": "599ef20dc3a3685a58011c7c",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11558,
+        "known_for_department": "Art",
+        "name": "Eug\u00e8ne Louri\u00e9",
+        "original_name": "Eug\u00e8ne Louri\u00e9",
+        "popularity": 0.5797,
+        "profile_path": "/utvEzHHhT65x9o2Md91recfgr3n.jpg",
+        "credit_id": "599ef245c3a3685a30014496",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1876121,
+        "known_for_department": "Camera",
+        "name": "Alain Renoir",
+        "original_name": "Alain Renoir",
+        "popularity": 0.1734,
+        "profile_path": null,
+        "credit_id": "599ef223925141105c012c4f",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11528,
+        "known_for_department": "Directing",
+        "name": "Jean Renoir",
+        "original_name": "Jean Renoir",
+        "popularity": 0.3765,
+        "profile_path": "/ePLyIIgSud1ZhhaLtj1yFo2diC4.jpg",
+        "credit_id": "599ef1c7c3a3685a22011e76",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2004336,
+        "known_for_department": "Production",
+        "name": "Claude Renoir Sr.",
+        "original_name": "Claude Renoir Sr.",
+        "popularity": 0.052,
+        "profile_path": null,
+        "credit_id": "5ab2adfb92514139f700d28d",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133187,
+        "known_for_department": "Directing",
+        "name": "Andr\u00e9 Zwobada",
+        "original_name": "Andr\u00e9 Zwobada",
+        "popularity": 0.1775,
+        "profile_path": "/nGbqqxK9aM7Bp5ur6zqD6gE5xVr.jpg",
+        "credit_id": "5ab2ae150e0a261e0300dfc3",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11563,
+        "known_for_department": "Camera",
+        "name": "Jean Mousselle",
+        "original_name": "Jean Mousselle",
+        "popularity": 0.0412,
+        "profile_path": null,
+        "credit_id": "5ab2ae539251413a3d00d31a",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1997768,
+        "known_for_department": "Crew",
+        "name": "Raymond Pillon",
+        "original_name": "Raymond Pillon",
+        "popularity": 0.3868,
+        "profile_path": null,
+        "credit_id": "5ab2ade7c3a3686fbd00ea75",
+        "department": "Production",
+        "job": "Unit Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11561,
+        "known_for_department": "Sound",
+        "name": "Joseph de Bretagne",
+        "original_name": "Joseph de Bretagne",
+        "popularity": 0.3511,
+        "profile_path": null,
+        "credit_id": "5ab2ae2ec3a3686fd2010ead",
+        "department": "Sound",
+        "job": "Sound Engineer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1698685,
+        "known_for_department": "Sound",
+        "name": "Sam Levin",
+        "original_name": "Sam Levin",
+        "popularity": 0.1861,
+        "profile_path": null,
+        "credit_id": "5ab2ae3d0e0a26789d00f976",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11555,
+        "known_for_department": "Sound",
+        "name": "Joseph Kosma",
+        "original_name": "Joseph Kosma",
+        "popularity": 0.091,
+        "profile_path": null,
+        "credit_id": "5ab2ad809251413a3d00d218",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133185,
+        "known_for_department": "Directing",
+        "name": "Henri Cartier-Bresson",
+        "original_name": "Henri Cartier-Bresson",
+        "popularity": 0.0723,
+        "profile_path": "/8PoxkduHwvoTlahyhPWpgYZOehK.jpg",
+        "credit_id": "5ab2ae0a0e0a261da600e23f",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1460970,
+        "known_for_department": "Production",
+        "name": "Camille Fran\u00e7ois",
+        "original_name": "Camille Fran\u00e7ois",
+        "popularity": 0.062,
+        "profile_path": "/bQI9WLjpp2ahPsJCUYL6F3yTmop.jpg",
+        "credit_id": "5ab2add70e0a261da600e1e8",
+        "department": "Production",
+        "job": "Production Supervisor"
+      }
+    ]
+  },
+  "videos": {
+    "id": 776,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip",
+        "key": "35nk3XoWA64",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2023-03-11T10:00:02.000Z",
+        "id": "640f2110323eba007cb7c1e4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "2022 US Re-Release Trailer",
+        "key": "oRH7oaBQuaY",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2022-12-02T17:24:56.000Z",
+        "id": "638b8f6615376c0097025c36"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Observations on Film Art: THE RULES OF THE GAME",
+        "key": "9Ce8VtddN9k",
+        "published_at": "2017-05-29T12:22:57.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "id": "592c76a5c3a3680f9300035e"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Jean Renoir Introduces The Rules of the Game",
+        "key": "19t8dx7WeHY",
+        "published_at": "2012-10-18T17:39:28.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec656c3a36854480005ba"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 776,
+    "keywords": [
+      {
+        "id": 931,
+        "name": "jealousy"
+      },
+      {
+        "id": 90,
+        "name": "paris, france"
+      },
+      {
+        "id": 213,
+        "name": "upper class"
+      },
+      {
+        "id": 964,
+        "name": "servant"
+      },
+      {
+        "id": 3203,
+        "name": "pilot"
+      },
+      {
+        "id": 4029,
+        "name": "bourgeoisie"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 33688,
+        "name": "hunting"
+      },
+      {
+        "id": 301096,
+        "name": "direct"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 776,
+    "results": {
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=BE",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/gBYz3cTgDPRoRFOCS4gG9BNPJdX.jpg",
+            "provider_id": 447,
+            "provider_name": "Belas Artes \u00e0 La Carte",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=CA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=CH",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 46
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/tGvAD4O9obFP3DfOrDn8NaRQ6eT.jpg",
+            "provider_id": 1742,
+            "provider_name": "Acontra Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/AboEF9vQyH2AAndLimdO043IzLh.jpg",
+            "provider_id": 324,
+            "provider_name": "Cinemas a la Demande",
+            "display_priority": 22
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/kohVS01u3sP5IkqsSaAKdBit6aP.jpg",
+            "provider_id": 2041,
+            "provider_name": "BFI Player Apple TV Channel",
+            "display_priority": 97
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=GF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 25
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 72
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 4
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=PF",
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 10
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=SE",
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/776-la-regle-du-jeu/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      }
+    }
+  }
+}

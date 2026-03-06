@@ -1,0 +1,55 @@
+{
+  "work_id": "work_tampopo_1985",
+  "processed_at": "2026-02-28T06:36:54.792296+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.83,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Golden-yellow hue of ramen noodles and broth in numerous close-ups",
+      "Bright yellow of the egg yolks in the iconic sensual eating scene",
+      "Consistent warm, golden color grading in all ramen shop interiors and food preparation scenes",
+      "The overall inviting and energetic visual palette celebrating food and its enjoyment"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_tampopo_1985",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:36:54.788638Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:36:54.788627Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_tampopo_1985",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_an-autumn-afternoon_1962",
+  "processed_at": "2026-02-28T04:34:11.683869+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "rojo_pasional",
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive warm brown/gold tones from tatami mats and wooden elements in almost all interior scenes.",
+      "Subtle, faded, nostalgic color grading that imbues the film with an overall amber warmth.",
+      "The iconic red kettle and red bar signs that stand out vividly against the dominant warm backdrop."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_an-autumn-afternoon_1962",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:34:11.676857Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:34:11.676843Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_an-autumn-afternoon_1962",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

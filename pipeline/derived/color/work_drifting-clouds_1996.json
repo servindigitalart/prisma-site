@@ -1,0 +1,54 @@
+{
+  "work_id": "work_drifting-clouds_1996",
+  "processed_at": "2026-02-28T05:53:41.299494+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Cool, muted blue-gray color grading saturates most interior and exterior scenes.",
+      "The Finnish urban landscape and overcast skies frequently appear in shades of blue-gray and muted teal.",
+      "Protagonists Ilona and Lauri, and other characters, primarily wear drab clothing in blues, grays, and browns."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_drifting-clouds_1996",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T05:53:41.295565Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T05:53:41.295554Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_drifting-clouds_1996",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

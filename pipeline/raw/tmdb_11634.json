@@ -1,0 +1,1421 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/7TjeFeYpwMqI9Q2o69IcZrQoUK.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 11634,
+    "imdb_id": "tt0150662",
+    "origin_country": [
+      "SE"
+    ],
+    "original_language": "sv",
+    "original_title": "Fucking \u00c5m\u00e5l",
+    "overview": "Two teenage girls in small-town Sweden. Elin is beautiful, popular, and bored with life. Agnes is friendless, sad, and secretly in love with Elin.",
+    "popularity": 1.8351,
+    "poster_path": "/ek5fMfwGVTyQ0N0VXBT1VWqan3U.jpg",
+    "production_companies": [
+      {
+        "id": 321,
+        "logo_path": "/pfp6VWF3tYfOHHVRHpYe2iGcYrf.png",
+        "name": "Memfis Film",
+        "origin_country": "SE"
+      },
+      {
+        "id": 2801,
+        "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "name": "Film i V\u00e4st",
+        "origin_country": "SE"
+      },
+      {
+        "id": 2999,
+        "logo_path": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "name": "SVT",
+        "origin_country": "SE"
+      },
+      {
+        "id": 76,
+        "logo_path": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "name": "Zentropa Entertainments",
+        "origin_country": "DK"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "DK",
+        "name": "Denmark"
+      },
+      {
+        "iso_3166_1": "SE",
+        "name": "Sweden"
+      }
+    ],
+    "release_date": "1998-10-23",
+    "revenue": 0,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "Swedish",
+        "iso_639_1": "sv",
+        "name": "svenska"
+      }
+    ],
+    "status": "Released",
+    "tagline": "I'd rather be happy now than in 25 years.",
+    "title": "Show Me Love",
+    "video": false,
+    "vote_average": 7.09,
+    "vote_count": 575
+  },
+  "credits": {
+    "id": 11634,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 70092,
+        "known_for_department": "Acting",
+        "name": "Alexandra Dahlstr\u00f6m",
+        "original_name": "Alexandra Dahlstr\u00f6m",
+        "popularity": 0.4001,
+        "profile_path": "/v2CDezrR9OyiSXN4BUcblAlMdHc.jpg",
+        "cast_id": 7,
+        "character": "Elin",
+        "credit_id": "52fe446d9251416c750344cf",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 70093,
+        "known_for_department": "Acting",
+        "name": "Rebecka Liljeberg",
+        "original_name": "Rebecka Liljeberg",
+        "popularity": 0.3555,
+        "profile_path": "/oixdin5Au0v1DqlR8Rwfdniqath.jpg",
+        "cast_id": 8,
+        "character": "Agnes",
+        "credit_id": "52fe446d9251416c750344d3",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 70095,
+        "known_for_department": "Acting",
+        "name": "Erica Carlson",
+        "original_name": "Erica Carlson",
+        "popularity": 0.1386,
+        "profile_path": "/lUsE6fLvwTta4HwI0bELnM2rKzf.jpg",
+        "cast_id": 10,
+        "character": "Jessica",
+        "credit_id": "52fe446d9251416c750344db",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 70096,
+        "known_for_department": "Acting",
+        "name": "Stefan H\u00f6rberg",
+        "original_name": "Stefan H\u00f6rberg",
+        "popularity": 0.0319,
+        "profile_path": "/eXgbXrtgssNfNVqQHKj8hBEa8Zi.jpg",
+        "cast_id": 11,
+        "character": "Markus",
+        "credit_id": "52fe446d9251416c750344df",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1270972,
+        "known_for_department": "Acting",
+        "name": "Josefine Nyberg",
+        "original_name": "Josefine Nyberg",
+        "popularity": 0.142,
+        "profile_path": "/zTE8v9EGgyLAmFwTiSiurx8ALNN.jpg",
+        "cast_id": 12,
+        "character": "Viktoria",
+        "credit_id": "52fe446d9251416c750344e3",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 114580,
+        "known_for_department": "Acting",
+        "name": "Ralph Carlsson",
+        "original_name": "Ralph Carlsson",
+        "popularity": 0.4576,
+        "profile_path": "/iTvT8uyyVrWbyczhSGRYHeOmb9Z.jpg",
+        "cast_id": 13,
+        "character": "Agnes' Father Olof",
+        "credit_id": "52fe446d9251416c750344e7",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1270973,
+        "known_for_department": "Acting",
+        "name": "Maria Hedborg",
+        "original_name": "Maria Hedborg",
+        "popularity": 0.1389,
+        "profile_path": "/xl6UhWyCQP0CnGlPF8n0uyCXzxj.jpg",
+        "cast_id": 14,
+        "character": "Agnes' Mother Karin",
+        "credit_id": "52fe446d9251416c750344eb",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1270974,
+        "known_for_department": "Acting",
+        "name": "Axel Widegren",
+        "original_name": "Axel Widegren",
+        "popularity": 0.0889,
+        "profile_path": "/ssVUBAxiK6oyd3bUQ0JPWd2mn5X.jpg",
+        "cast_id": 15,
+        "character": "Agnes' Little Brother Oskar",
+        "credit_id": "52fe446d9251416c750344ef",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1270975,
+        "known_for_department": "Acting",
+        "name": "Jill Ung",
+        "original_name": "Jill Ung",
+        "popularity": 0.2187,
+        "profile_path": "/ljZGq0S6fhNabUZxKn7TVDd0G9.jpg",
+        "cast_id": 16,
+        "character": "Elin's Mother Birgitta",
+        "credit_id": "52fe446d9251416c750344f3",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1270976,
+        "known_for_department": "Acting",
+        "name": "Lisa Skagerstam",
+        "original_name": "Lisa Skagerstam",
+        "popularity": 0.017,
+        "profile_path": "/1UHSWCjY9QgL89ntwSXK0z761Et.jpg",
+        "cast_id": 31,
+        "character": "Elin's Friend Camilla",
+        "credit_id": "65b51e1a2faf4d017cdc5dc8",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1270977,
+        "known_for_department": "Acting",
+        "name": "Lina Svantesson",
+        "original_name": "Lina Svantesson",
+        "popularity": 0.0,
+        "profile_path": null,
+        "cast_id": 18,
+        "character": "Elin's Friend Malin",
+        "credit_id": "52fe446d9251416c750344fb",
+        "order": 10
+      },
+      {
+        "adult": true,
+        "gender": 0,
+        "id": 1270978,
+        "known_for_department": "Acting",
+        "name": "Johanna Larsson",
+        "original_name": "Johanna Larsson",
+        "popularity": 0.6,
+        "profile_path": null,
+        "cast_id": 19,
+        "character": "Elin's Friend Sara",
+        "credit_id": "52fe446d9251416c750344ff",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1270979,
+        "known_for_department": "Acting",
+        "name": "Elinor Johansson",
+        "original_name": "Elinor Johansson",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "Elin's Friend Jenny",
+        "credit_id": "52fe446d9251416c75034503",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1270980,
+        "known_for_department": "Acting",
+        "name": "Jessica Melkersson",
+        "original_name": "Jessica Melkersson",
+        "popularity": 0.0071,
+        "profile_path": null,
+        "cast_id": 21,
+        "character": "Elin's Friend Sabina",
+        "credit_id": "52fe446d9251416c75034507",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1092425,
+        "known_for_department": "Acting",
+        "name": "Bo Lyckman",
+        "original_name": "Bo Lyckman",
+        "popularity": 0.1287,
+        "profile_path": "/vkp5x7CwZGlFyRdIz6WkmUMEt0w.jpg",
+        "cast_id": 30,
+        "character": "Man in Car",
+        "credit_id": "5ec6ebfe140bad001d19a04a",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503024,
+        "known_for_department": "Acting",
+        "name": "Daniel Teider",
+        "original_name": "Daniel Teider",
+        "popularity": 0.0071,
+        "profile_path": null,
+        "cast_id": 32,
+        "character": "Johan's Little Brother",
+        "credit_id": "65b51e5460c51d0184d0fc56",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503025,
+        "known_for_department": "Acting",
+        "name": "Nils Bj\u00f6rkman",
+        "original_name": "Nils Bj\u00f6rkman",
+        "popularity": 0.0,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "Bengtsson",
+        "credit_id": "65b51e7460c51d0148d061cc",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503026,
+        "known_for_department": "Acting",
+        "name": "Per Lars\u00e9n",
+        "original_name": "Per Lars\u00e9n",
+        "popularity": 0.0239,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "Teacher 1",
+        "credit_id": "65b51e9e1c635b0162130a8c",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503027,
+        "known_for_department": "Acting",
+        "name": "Kenneth Larsson",
+        "original_name": "Kenneth Larsson",
+        "popularity": 0.0214,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "Teacher 2",
+        "credit_id": "65b51ead12425c01624878fa",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 112718,
+        "known_for_department": "Camera",
+        "name": "Karl Strandlind",
+        "original_name": "Karl Strandlind",
+        "popularity": 0.1057,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "Ice Hockey Coach",
+        "credit_id": "65b51ed558efd3017cca7e82",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503029,
+        "known_for_department": "Acting",
+        "name": "Peter Teider",
+        "original_name": "Peter Teider",
+        "popularity": 0.0168,
+        "profile_path": null,
+        "cast_id": 37,
+        "character": "Markus' Friend",
+        "credit_id": "65b51eebb1131f0172291fc2",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4503030,
+        "known_for_department": "Acting",
+        "name": "Linda Malmqvist",
+        "original_name": "Linda Malmqvist",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "cast_id": 38,
+        "character": "Sobbing Girl",
+        "credit_id": "65b51ef86e0d72018447a160",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5737445,
+        "known_for_department": "Acting",
+        "name": "Mathias Rust",
+        "original_name": "Mathias Rust",
+        "popularity": 0.0071,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "Johan Hulth",
+        "credit_id": "68e63371f1c1878f6da04f8d",
+        "order": 22
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11037,
+        "known_for_department": "Directing",
+        "name": "Lukas Moodysson",
+        "original_name": "Lukas Moodysson",
+        "popularity": 0.4273,
+        "profile_path": "/9h6dyFQpzf7wTEpVMn9celf2iOI.jpg",
+        "credit_id": "52fe446d9251416c750344ad",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11037,
+        "known_for_department": "Directing",
+        "name": "Lukas Moodysson",
+        "original_name": "Lukas Moodysson",
+        "popularity": 0.4273,
+        "profile_path": "/9h6dyFQpzf7wTEpVMn9celf2iOI.jpg",
+        "credit_id": "52fe446d9251416c750344b3",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11053,
+        "known_for_department": "Production",
+        "name": "Lars J\u00f6nsson",
+        "original_name": "Lars J\u00f6nsson",
+        "popularity": 1.1536,
+        "profile_path": "/r25sTmwMi73MAiG6o6kpnmVKryw.jpg",
+        "credit_id": "52fe446d9251416c750344b9",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11232,
+        "known_for_department": "Camera",
+        "name": "Ulf Brant\u00e5s",
+        "original_name": "Ulf Brant\u00e5s",
+        "popularity": 0.4776,
+        "profile_path": null,
+        "credit_id": "52fe446d9251416c750344bf",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11233,
+        "known_for_department": "Editing",
+        "name": "Micha\u0142 Leszczy\u0142owski",
+        "original_name": "Micha\u0142 Leszczy\u0142owski",
+        "popularity": 0.4647,
+        "profile_path": null,
+        "credit_id": "52fe446d9251416c750344c5",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 70091,
+        "known_for_department": "Editing",
+        "name": "Bernhard Winkler",
+        "original_name": "Bernhard Winkler",
+        "popularity": 0.3567,
+        "profile_path": null,
+        "credit_id": "52fe446d9251416c750344cb",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1174,
+        "known_for_department": "Production",
+        "name": "Peter Aalb\u00e6k Jensen",
+        "original_name": "Peter Aalb\u00e6k Jensen",
+        "popularity": 0.2858,
+        "profile_path": "/9Zpmo9qyvyH6ZTO61VsJvQLbBx9.jpg",
+        "credit_id": "5716b4acc3a3682f4500522b",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 7737,
+        "known_for_department": "Production",
+        "name": "Anna Anthony",
+        "original_name": "Anna Anthony",
+        "popularity": 0.2012,
+        "profile_path": null,
+        "credit_id": "5716b525c3a3686678012c48",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 6338,
+        "known_for_department": "Production",
+        "name": "Imor Hermann",
+        "original_name": "Imor Hermann",
+        "popularity": 0.0797,
+        "profile_path": null,
+        "credit_id": "5716b588c3a3685eb80009e9",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11240,
+        "known_for_department": "Directing",
+        "name": "Malin Fornander",
+        "original_name": "Malin Fornander",
+        "popularity": 0.1252,
+        "profile_path": null,
+        "credit_id": "5716b5c49251414920003418",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1608106,
+        "known_for_department": "Art",
+        "name": "Heidi Saikkonen",
+        "original_name": "Heidi Saikkonen",
+        "popularity": 0.0214,
+        "profile_path": null,
+        "credit_id": "5716b6129251414e7c0009ed",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1608107,
+        "known_for_department": "Art",
+        "name": "Lina Strand",
+        "original_name": "Lina Strand",
+        "popularity": 0.1587,
+        "profile_path": null,
+        "credit_id": "5716b620c3a3684122015b14",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1374823,
+        "known_for_department": "Production",
+        "name": "Malte Forssell",
+        "original_name": "Malte Forssell",
+        "popularity": 0.0347,
+        "profile_path": null,
+        "credit_id": "5716b65fc3a3685378017b04",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2647949,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Maria Swensson",
+        "original_name": "Maria Swensson",
+        "popularity": 0.0071,
+        "profile_path": null,
+        "credit_id": "5ec6e8b0e635710022ce2702",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      }
+    ]
+  },
+  "videos": {
+    "id": 11634,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Original Trailer",
+        "key": "pJTa4EYcdy4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2022-10-28T15:31:20.000Z",
+        "id": "635d74e8e263bb00799ebdcf"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "US Trailer",
+        "key": "J54QQl0U_e0",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2009-02-06T01:43:00.000Z",
+        "id": "60b0ab0d17792c006e1e5d96"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 11634,
+    "keywords": [
+      {
+        "id": 1862,
+        "name": "coming out"
+      },
+      {
+        "id": 1415,
+        "name": "small town"
+      },
+      {
+        "id": 704,
+        "name": "adolescence"
+      },
+      {
+        "id": 1192,
+        "name": "sweden"
+      },
+      {
+        "id": 10683,
+        "name": "coming of age"
+      },
+      {
+        "id": 9833,
+        "name": "lesbian relationship"
+      },
+      {
+        "id": 11870,
+        "name": "teen movie"
+      },
+      {
+        "id": 18425,
+        "name": "teenage love"
+      },
+      {
+        "id": 158718,
+        "name": "lgbt"
+      },
+      {
+        "id": 163037,
+        "name": "lgbt teen"
+      },
+      {
+        "id": 190116,
+        "name": "school life"
+      },
+      {
+        "id": 264386,
+        "name": "lesbian"
+      },
+      {
+        "id": 296608,
+        "name": "teenager"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 11634,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/kMfIUfVymOKnLwQGBAAUl6V8Q6H.jpg",
+            "provider_id": 2267,
+            "provider_name": "Queer Cinemab Amazon Channel",
+            "display_priority": 98
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=BE",
+        "flatrate": [
+          {
+            "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+            "provider_id": 639,
+            "provider_name": "CineMember",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 82
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=CH",
+        "ads": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 75
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 75
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kMfIUfVymOKnLwQGBAAUl6V8Q6H.jpg",
+            "provider_id": 2267,
+            "provider_name": "Queer Cinemab Amazon Channel",
+            "display_priority": 160
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=DK",
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 81
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/eglAxQEXSO13p6gNf3HKymrIu7y.jpg",
+            "provider_id": 540,
+            "provider_name": "Elisa Viihde",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/eglAxQEXSO13p6gNf3HKymrIu7y.jpg",
+            "provider_id": 540,
+            "provider_name": "Elisa Viihde",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/u4OSH6NN7bdHRJJVLwozPa0jDUj.jpg",
+            "provider_id": 596,
+            "provider_name": "Arrow Video Amazon Channel",
+            "display_priority": 23
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=GG",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/u4OSH6NN7bdHRJJVLwozPa0jDUj.jpg",
+            "provider_id": 596,
+            "provider_name": "Arrow Video Amazon Channel",
+            "display_priority": 70
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 84
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=NL",
+        "buy": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/nzjqsR28PVVp5GJAlHtbBArNKqN.jpg",
+            "provider_id": 563,
+            "provider_name": "KPN",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+            "provider_id": 639,
+            "provider_name": "CineMember",
+            "display_priority": 35
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=NO",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=SE",
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/11634-fucking-amal/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 235
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-match-factory-girl_1990",
+  "processed_at": "2026-02-28T06:45:21.139775+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film's overall color grading and cinematography features a consistent desaturated, cool blue-green tint.",
+      "Iris's costumes throughout the film are consistently drab, muted, and often gray or dull blue.",
+      "The production design of the match factory and Iris's apartment showcases cold, utilitarian, and sparsely furnished environments with muted blue-gray tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-match-factory-girl_1990",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:45:21.136051Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:45:21.136039Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-match-factory-girl_1990",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

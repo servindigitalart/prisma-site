@@ -1,0 +1,57 @@
+{
+  "work_id": "work_mulholland-drive_2001",
+  "processed_at": "2026-02-27T23:52:08.317502+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "purpura_onirico",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Pervasive deep blue lighting in numerous night scenes (e.g., car crash, limousine rides, apartment exteriors).",
+      "The iconic blue box, a central mysterious object, is rendered in a pure, deep blue.",
+      "The film's overall color grade often features cool, desaturated tones with a blue cast, especially in later, more despairing scenes.",
+      "Even in scenes with other prominent colors (like Club Silencio's red and purple), deep blue shadows and lighting contribute to the overall cool atmosphere."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_mulholland-drive_2001",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-27T23:52:08.313449Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-27T23:52:08.313436Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_mulholland-drive_2001",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "purpura_onirico",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

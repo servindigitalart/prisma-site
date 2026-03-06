@@ -1,0 +1,2945 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/ApB0mF2d5Oqioi3yxjuogiotSLI.jpg",
+    "belongs_to_collection": null,
+    "budget": 100000,
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "homepage": "",
+    "id": 985,
+    "imdb_id": "tt0074486",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Eraserhead",
+    "overview": "First-time father Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child.",
+    "popularity": 5.6122,
+    "poster_path": "/mxveW3mGVc0DzLdOmtkZsgd7c3B.jpg",
+    "production_companies": [
+      {
+        "id": 12226,
+        "logo_path": "/5PJ3JaGTCvF7CjbjQ7bivae2cHJ.png",
+        "name": "AFI",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1977-09-28",
+    "revenue": 7000000,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Where your nightmares end...",
+    "title": "Eraserhead",
+    "video": false,
+    "vote_average": 7.348,
+    "vote_count": 2683
+  },
+  "credits": {
+    "id": 985,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6718,
+        "known_for_department": "Acting",
+        "name": "Jack Nance",
+        "original_name": "Jack Nance",
+        "popularity": 0.6814,
+        "profile_path": "/uYZ2D1gb7lO779L5nDn8XarZSvf.jpg",
+        "cast_id": 13,
+        "character": "Henry Spencer",
+        "credit_id": "52fe4296c3a36847f802a5e1",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14794,
+        "known_for_department": "Acting",
+        "name": "Charlotte Stewart",
+        "original_name": "Charlotte Stewart",
+        "popularity": 0.5499,
+        "profile_path": "/2q8O8fpP5e0yvKJkrR45qbHCq6n.jpg",
+        "cast_id": 14,
+        "character": "Mary X",
+        "credit_id": "52fe4296c3a36847f802a5e5",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14795,
+        "known_for_department": "Acting",
+        "name": "Allen Joseph",
+        "original_name": "Allen Joseph",
+        "popularity": 0.5477,
+        "profile_path": null,
+        "cast_id": 15,
+        "character": "Mr. X",
+        "credit_id": "52fe4296c3a36847f802a5e9",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14796,
+        "known_for_department": "Acting",
+        "name": "Jeanne Bates",
+        "original_name": "Jeanne Bates",
+        "popularity": 0.5165,
+        "profile_path": "/d0sb01vqRKDP0jNBbWEbs8VaIUj.jpg",
+        "cast_id": 16,
+        "character": "Mrs. X",
+        "credit_id": "52fe4296c3a36847f802a5ed",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14797,
+        "known_for_department": "Acting",
+        "name": "Judith Roberts",
+        "original_name": "Judith Roberts",
+        "popularity": 0.3678,
+        "profile_path": "/buUgZfvycC3jzj4VeZdoBtuwbF8.jpg",
+        "cast_id": 17,
+        "character": "Beautiful Girl Across the Hall",
+        "credit_id": "52fe4296c3a36847f802a5f1",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14798,
+        "known_for_department": "Acting",
+        "name": "Laurel Near",
+        "original_name": "Laurel Near",
+        "popularity": 0.172,
+        "profile_path": "/jb7UomcOKW3XpbgQnVAcoc4y36a.jpg",
+        "cast_id": 18,
+        "character": "Lady in the Radiator",
+        "credit_id": "52fe4296c3a36847f802a5f5",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5632,
+        "known_for_department": "Art",
+        "name": "Jack Fisk",
+        "original_name": "Jack Fisk",
+        "popularity": 0.6441,
+        "profile_path": "/6uXKrehuM7f300vQIw5i56offah.jpg",
+        "cast_id": 28,
+        "character": "Man in the Planet",
+        "credit_id": "6198fa289512e10062f0d850",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 14802,
+        "known_for_department": "Acting",
+        "name": "Jean Lange",
+        "original_name": "Jean Lange",
+        "popularity": 0.7628,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "Grandmother",
+        "credit_id": "6198fa321e259a0027498a7e",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3317745,
+        "known_for_department": "Acting",
+        "name": "Thomas Coulson",
+        "original_name": "Thomas Coulson",
+        "popularity": 0.2567,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "The Boy",
+        "credit_id": "6198fa40abdafc00657ccd2b",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3317746,
+        "known_for_department": "Acting",
+        "name": "John Monez",
+        "original_name": "John Monez",
+        "popularity": 0.1496,
+        "profile_path": null,
+        "cast_id": 31,
+        "character": "Bum",
+        "credit_id": "6198fa4aaf58cb004445f54d",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 105624,
+        "known_for_department": "Acting",
+        "name": "Darwin Joston",
+        "original_name": "Darwin Joston",
+        "popularity": 0.1332,
+        "profile_path": "/2XXzcuc3uQqixmiP2Vnit7Hgims.jpg",
+        "cast_id": 32,
+        "character": "Paul",
+        "credit_id": "6198fa52e32943008f10282b",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14799,
+        "known_for_department": "Acting",
+        "name": "T. Max Graham",
+        "original_name": "T. Max Graham",
+        "popularity": 0.3168,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "The Boss",
+        "credit_id": "6198fa5f29733800644229e8",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14801,
+        "known_for_department": "Acting",
+        "name": "Hal Landon Jr.",
+        "original_name": "Hal Landon Jr.",
+        "popularity": 0.2218,
+        "profile_path": "/ga7W0dAntkpKmnnMkTFtgxqQV2n.jpg",
+        "cast_id": 34,
+        "character": "Pencil Machine Operator",
+        "credit_id": "6198fa6e70b4440093034855",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14800,
+        "known_for_department": "Directing",
+        "name": "Jennifer Lynch",
+        "original_name": "Jennifer Lynch",
+        "popularity": 0.3895,
+        "profile_path": "/gdrZU7gTBo8dvWV9wxXqJ305QNW.jpg",
+        "cast_id": 35,
+        "character": "Little Girl",
+        "credit_id": "6198fa7952dc7f0087352bf6",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3317748,
+        "known_for_department": "Acting",
+        "name": "Brad Keeler",
+        "original_name": "Brad Keeler",
+        "popularity": 0.1896,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "Little Boy",
+        "credit_id": "6198faaae2ff320065915ca8",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 407,
+        "known_for_department": "Writing",
+        "name": "Gill Dennis",
+        "original_name": "Gill Dennis",
+        "popularity": 0.4012,
+        "profile_path": "/uaLww5CRb6Y20WxCwR1GtiQPqWu.jpg",
+        "cast_id": 39,
+        "character": "Man with Cigar",
+        "credit_id": "6198fae4497560002cfb7a8e",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1153808,
+        "known_for_department": "Directing",
+        "name": "Toby Keeler",
+        "original_name": "Toby Keeler",
+        "popularity": 0.2042,
+        "profile_path": null,
+        "cast_id": 40,
+        "character": "Man Fighting",
+        "credit_id": "6198faff52dc7f0087352cd5",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5613,
+        "known_for_department": "Acting",
+        "name": "Jack Walsh",
+        "original_name": "Jack Walsh",
+        "popularity": 0.7496,
+        "profile_path": "/hrklvoHt8KuRRUzMxS9YjMSNTEW.jpg",
+        "cast_id": 41,
+        "character": "Mr. Roundheels",
+        "credit_id": "6198fb1fabdafc008f434c4f",
+        "order": 17
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4434,
+        "known_for_department": "Camera",
+        "name": "Frederick Elmes",
+        "original_name": "Frederick Elmes",
+        "popularity": 0.3957,
+        "profile_path": "/lxhFy0QdIJzmmdSuX9Axl5Nib8t.jpg",
+        "credit_id": "52fe4296c3a36847f802a5dd",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5bf",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5c5",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5a7",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5ad",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5b3",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5d1",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 14793,
+        "known_for_department": "Camera",
+        "name": "Herbert Cardwell",
+        "original_name": "Herbert Cardwell",
+        "popularity": 0.1187,
+        "profile_path": null,
+        "credit_id": "52fe4296c3a36847f802a5d7",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4296c3a36847f802a5b9",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2039691,
+        "known_for_department": "Sound",
+        "name": "Peter Ivers",
+        "original_name": "Peter Ivers",
+        "popularity": 0.2047,
+        "profile_path": "/3eKFqpGIfFa5CNQOOToXWZ0IWAS.jpg",
+        "credit_id": "6249dca908cf8700a10c2d31",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 123516,
+        "known_for_department": "Acting",
+        "name": "Catherine E. Coulson",
+        "original_name": "Catherine E. Coulson",
+        "popularity": 0.1032,
+        "profile_path": "/4SaHDcYbd5q859LM7kMH3lPweTD.jpg",
+        "credit_id": "615bbb2adb952d002cb633e8",
+        "department": "Camera",
+        "job": "Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1117303,
+        "known_for_department": "Sound",
+        "name": "Alan Splet",
+        "original_name": "Alan Splet",
+        "popularity": 0.3065,
+        "profile_path": "/hDi7aeZgiDZF3KLkbUZHNVJhbex.jpg",
+        "credit_id": "6198fb75e2ff320026e39e6e",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 123516,
+        "known_for_department": "Acting",
+        "name": "Catherine E. Coulson",
+        "original_name": "Catherine E. Coulson",
+        "popularity": 0.1032,
+        "profile_path": "/4SaHDcYbd5q859LM7kMH3lPweTD.jpg",
+        "credit_id": "6198fb53e32943002d4a7e45",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "6198fb685c071b0065f36160",
+        "department": "Sound",
+        "job": "Sound Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3317751,
+        "known_for_department": "Production",
+        "name": "Doreen G. Small",
+        "original_name": "Doreen G. Small",
+        "popularity": 0.2093,
+        "profile_path": null,
+        "credit_id": "6198fb49497560002cfb7b15",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4434,
+        "known_for_department": "Camera",
+        "name": "Frederick Elmes",
+        "original_name": "Frederick Elmes",
+        "popularity": 0.3957,
+        "profile_path": "/lxhFy0QdIJzmmdSuX9Axl5Nib8t.jpg",
+        "credit_id": "6198fb848de0ae00422970ff",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15078,
+        "known_for_department": "Acting",
+        "name": "Fred Baker",
+        "original_name": "Fred Baker",
+        "popularity": 0.1664,
+        "profile_path": "/vTGhx4jcScfafQpXpM31UqDIKYU.jpg",
+        "credit_id": "5bea85a1c3a36876cf020951",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "5ebc2c5eaad9c2001f242fcd",
+        "department": "Directing",
+        "job": "Director"
+      }
+    ]
+  },
+  "videos": {
+    "id": 985,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Eraserhead (1977) Trailer [HD]",
+        "key": "zVJICfUx8M0",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2025-01-17T22:29:24.000Z",
+        "id": "68e5b5cb6aa5d848b0794f4c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Richard Linklater on Why Eraserhead Blew His Mind",
+        "key": "D4QD_mHPwXM",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2020-08-06T19:34:40.000Z",
+        "id": "6589bb405aba3266e7ba0a88"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Eraserhead - Trailer",
+        "key": "J0Eq5GtCYdA",
+        "published_at": "2014-09-18T15:43:07.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "id": "541afe41c3a368384c00009d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Patton Oswalt introduces Eraserhead",
+        "key": "_68o4wkhlYo",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-04-12T21:16:15.000Z",
+        "id": "6589bb76688cd057b285c2cb"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 985,
+    "keywords": [
+      {
+        "id": 1009,
+        "name": "baby"
+      },
+      {
+        "id": 3030,
+        "name": "nightmare"
+      },
+      {
+        "id": 1852,
+        "name": "mutant"
+      },
+      {
+        "id": 2147,
+        "name": "claustrophobia"
+      },
+      {
+        "id": 3453,
+        "name": "parents-in-law"
+      },
+      {
+        "id": 4597,
+        "name": "pencil"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 13006,
+        "name": "torture"
+      },
+      {
+        "id": 33465,
+        "name": "parallel world"
+      },
+      {
+        "id": 199524,
+        "name": "disturbed"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      },
+      {
+        "id": 325822,
+        "name": "gloomy"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 985,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/geOzgeKZWpZC3lymAVEHVIk3X0q.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 55
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 49
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 25
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 61
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CA",
+        "free": [
+          {
+            "logo_path": "/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+            "provider_id": 230,
+            "provider_name": "Crave",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+            "provider_id": 1794,
+            "provider_name": "Starz Amazon Channel",
+            "display_priority": 92
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/xoFyQOXR3qINRsdnCQyd7jGx8Wo.jpg",
+            "provider_id": 326,
+            "provider_name": "CTV",
+            "display_priority": 43
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 16
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 7
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=DE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/fxYgfnsrUWa7e9aNr3j3RERpm66.jpg",
+            "provider_id": 1829,
+            "provider_name": "Behind the Tree",
+            "display_priority": 89
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 110
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 123
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=DK",
+        "flatrate": [
+          {
+            "logo_path": "/uauVx3dGWt0GICqdMCBYJObd3Mo.jpg",
+            "provider_id": 692,
+            "provider_name": "Cultpix",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 45
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/jse4MOi92Jgetym7nbXFZZBI6LK.jpg",
+            "provider_id": 2241,
+            "provider_name": "Movistar Plus+",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/f6TRLB3H4jDpFEZ0z2KWSSvu1SB.jpg",
+            "provider_id": 149,
+            "provider_name": "Movistar Plus+ Ficci\u00f3n Total ",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 36
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=FI",
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/uauVx3dGWt0GICqdMCBYJObd3Mo.jpg",
+            "provider_id": 692,
+            "provider_name": "Cultpix",
+            "display_priority": 29
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 50
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 52
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/vBbNBDZnpnhgHe5ZO9CVur4DmkG.jpg",
+            "provider_id": 1736,
+            "provider_name": "Shadowz Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=FR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/11Yzww3g6lYZznKrom3cSrKP4St.jpg",
+            "provider_id": 239,
+            "provider_name": "Universcine",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/8qSG9LtUhBQIWy2Fr6fzeW7gBdd.jpg",
+            "provider_id": 1967,
+            "provider_name": "Molotov TV",
+            "display_priority": 36
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 45
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/br0wtjMDSjMahkhzn5XAXYWyr3V.jpg",
+            "provider_id": 138,
+            "provider_name": "FILMO",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 85
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 109
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/fPeKpIa1yVXDp3ZUUTdNnD78m7m.jpg",
+            "provider_id": 2557,
+            "provider_name": "Cinobo",
+            "display_priority": 14
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vXXpcM5yoD8GBWi6U50dOiKgukH.jpg",
+            "provider_id": 1896,
+            "provider_name": "Raro Video Amazon Channel",
+            "display_priority": 58
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/3lWxKERHputjERnJzsRkH5ozFoS.jpg",
+            "provider_id": 2489,
+            "provider_name": "KADOKAWA channel Amazon Channel",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 10
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 6
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 58
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 61
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 63
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/uauVx3dGWt0GICqdMCBYJObd3Mo.jpg",
+            "provider_id": 692,
+            "provider_name": "Cultpix",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 46
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 40
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=RU",
+        "rent": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/5z8dpQN27kybhn21EVLZcJPpMEo.jpg",
+            "provider_id": 115,
+            "provider_name": "Okko",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/sgws7qaFHYTEeYhc8RCjZ5D7IlH.jpg",
+            "provider_id": 517,
+            "provider_name": "TriArt Play",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/vyu1bwP7H0p7B8BLB3QRwHVmvlA.jpg",
+            "provider_id": 435,
+            "provider_name": "Draken Films",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/uauVx3dGWt0GICqdMCBYJObd3Mo.jpg",
+            "provider_id": 692,
+            "provider_name": "Cultpix",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 59
+          },
+          {
+            "logo_path": "/vBbNBDZnpnhgHe5ZO9CVur4DmkG.jpg",
+            "provider_id": 1736,
+            "provider_name": "Shadowz Amazon Channel",
+            "display_priority": 62
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 42
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=US",
+        "ads": [
+          {
+            "logo_path": "/y9jFndski0fRO4MHh3yg5PIL9ZI.jpg",
+            "provider_id": 439,
+            "provider_name": "Shout! Factory TV",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/4tJBhJcuF1ZstI5Yqu82G0yroLa.jpg",
+            "provider_id": 235,
+            "provider_name": "YouTube Free",
+            "display_priority": 95
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 356
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+            "provider_id": 257,
+            "provider_name": "fuboTV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 39
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 126
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 17
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/985-eraserhead/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      }
+    }
+  }
+}

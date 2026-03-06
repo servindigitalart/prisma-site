@@ -1,0 +1,302 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { isSupabaseConfigured, createServiceClient } from '../../lib/db/client';
+import { isoToFlag, isoToName } from '../../lib/countries';
+import { getFestivalLogoUrl, isFestivalLogoLocal } from '../../lib/festivalUtils';
+
+type FestivalEntry = {
+  id: string;
+  name: string;
+  city: string | null;
+  country: string | null;
+  founded_year: number | null;
+  tier: 'A' | 'B' | 'C' | 'D' | null;
+  logo_path: string | null;
+  filmCount: number;
+  winCount: number;
+};
+
+let festivals: FestivalEntry[] = [];
+
+if (isSupabaseConfigured()) {
+  const db = createServiceClient();
+
+  const [{ data: festData }, { data: waData }] = await Promise.all([
+    (db as any).from('festivals').select('id, name, city, country, founded_year, tier, logo_path').order('tier').order('name'),
+    db.from('work_awards').select('result, work_id, awards!inner(festival_id)').limit(5000),
+  ]);
+
+  // Build per-festival film+win counts
+  const countMap = new Map<string, { films: Set<string>; wins: number }>();
+  for (const row of (waData ?? []) as any[]) {
+    const fid = row.awards?.festival_id;
+    if (!fid) continue;
+    if (!countMap.has(fid)) countMap.set(fid, { films: new Set(), wins: 0 });
+    countMap.get(fid)!.films.add(row.work_id);
+    if (row.result === 'win') countMap.get(fid)!.wins++;
+  }
+
+  festivals = ((festData ?? []) as any[]).map((f: any) => ({
+    id: f.id,
+    name: f.name,
+    city: f.city,
+    country: f.country,
+    founded_year: f.founded_year,
+    tier: f.tier,
+    logo_path: f.logo_path ?? null,
+    filmCount: countMap.get(f.id)?.films.size ?? 0,
+    winCount: countMap.get(f.id)?.wins ?? 0,
+  }));
+}
+
+function festSlug(id: string) {
+  return id.replace(/^festival_/, '');
+}
+
+const TIER_GROUPS = [
+  { key: 'A', label: 'Grand International Festivals' },
+  { key: 'B', label: 'Major Festivals & Awards' },
+  { key: 'C', label: 'Regional & Specialty Awards' },
+] as const;
+
+const byTier = (tier: string) => festivals.filter(f => f.tier === tier);
+---
+
+<BaseLayout
+  title="Festivals & Awards — PRISMA"
+  description="Cinema's most prestigious festivals and awards, from Cannes to the Academy Awards."
+>
+  <div class="festivals-page page-enter">
+
+    <!-- Header -->
+    <div class="festivals-header site-container">
+      <h1 class="festivals-header__title">Festivals & Awards</h1>
+      <p class="festivals-header__desc">
+        {festivals.length} curated festivals · Cinema's most prestigious recognitions
+      </p>
+    </div>
+
+    <!-- Tier groups -->
+    <div class="site-container festivals-body">
+      {TIER_GROUPS.map(({ key, label }) => {
+        const group = byTier(key);
+        if (!group.length) return null;
+        return (
+          <section class="tier-section">
+            <div class="tier-section__header">
+              <span class="tier-badge" data-tier={key}>[{key}]</span>
+              <h2 class="tier-section__label">{label}</h2>
+            </div>
+            <div class="festival-grid">
+              {group.map(f => (
+                <a href={`/festivals/${festSlug(f.id)}`} class="festival-card">
+                  <div class="festival-card__top">
+                    <div class="festival-card__identity">
+                      {(() => {
+                        const logoUrl = getFestivalLogoUrl(f.logo_path);
+                        const isLocal = isFestivalLogoLocal(f.logo_path);
+                        return <>
+                          {logoUrl && <img src={logoUrl} alt="" class={`festival-card__logo${isLocal ? ' festival-logo--local' : ''}`} loading="lazy" />}
+                          <span class="festival-card__flag" aria-hidden="true">{f.country ? isoToFlag(f.country) : '🎬'}</span>
+                        </>;
+                      })()}
+                    </div>
+                    <span class="festival-card__tier" data-tier={f.tier}>[{f.tier}]</span>
+                  </div>
+                  <div class="festival-card__name">{f.name}</div>
+                  <div class="festival-card__meta">
+                    {f.city && f.country && (
+                      <span>{f.city}, {isoToName(f.country)}</span>
+                    )}
+                    {f.founded_year && (
+                      <span class="festival-card__year">est. {f.founded_year}</span>
+                    )}
+                  </div>
+                  {f.filmCount > 0 && (
+                    <div class="festival-card__stats">
+                      <span class="festival-card__stat">
+                        {f.winCount}W / {f.filmCount - f.winCount}N
+                      </span>
+                      <span class="festival-card__stat festival-card__stat--films">
+                        {f.filmCount} {f.filmCount === 1 ? 'film' : 'films'}
+                      </span>
+                    </div>
+                  )}
+                </a>
+              ))}
+            </div>
+          </section>
+        );
+      })}
+    </div>
+
+  </div>
+</BaseLayout>
+
+<style>
+.festivals-page {
+  padding-bottom: 6rem;
+}
+
+/* ── Header ── */
+.festivals-header {
+  padding-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.festivals-header__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 0.625rem;
+}
+
+.festivals-header__desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.03em;
+}
+
+/* ── Tier sections ── */
+.festivals-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.tier-section__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.tier-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+.tier-badge[data-tier="A"] { color: #C98A2E; }
+.tier-badge[data-tier="B"] { color: var(--text-secondary); }
+.tier-badge[data-tier="C"] { color: var(--text-muted); }
+
+.tier-section__label {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Festival grid ── */
+.festival-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.festival-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 1rem 1.125rem;
+  background: var(--surface-card);
+  text-decoration: none;
+  transition: background 160ms ease;
+}
+.festival-card:hover { background: var(--surface-elevated); }
+
+.festival-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.festival-card__flag {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.festival-card__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.festival-card__logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.festival-logo--local {
+  filter: invert(1) brightness(2);
+  opacity: 0.9;
+}
+
+.festival-card__tier {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  font-weight: 700;
+  opacity: 0.75;
+}
+.festival-card__tier[data-tier="A"] { color: #C98A2E; }
+.festival-card__tier[data-tier="B"] { color: var(--text-muted); }
+.festival-card__tier[data-tier="C"] { color: var(--surface-border-strong); }
+
+.festival-card__name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  transition: color 160ms ease;
+}
+.festival-card:hover .festival-card__name { color: var(--text-primary); }
+
+.festival-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.festival-card__year {
+  opacity: 0.7;
+}
+
+.festival-card__stats {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.festival-card__stat {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.festival-card__stat--films {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .festival-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 400px) {
+  .festival-grid { grid-template-columns: 1fr; }
+}
+</style>

@@ -1,0 +1,151 @@
+---
+/**
+ * FilmDimensionTags.astro
+ * ────────────────────────
+ * Renders three clickable dimension tags below the color block.
+ * Each tag links to its dedicated category page.
+ */
+
+import {
+  RHYTHM_LABELS,
+  TEMPERATURE_LABELS,
+  ABSTRACTION_LABELS,
+  rhythmSlug,
+  temperatureSlug,
+  abstractionSlug,
+  type VisualRhythm,
+  type EmotionalTemperature,
+  type VisualAbstraction,
+} from '../../lib/film/filmDimensions'
+import type { FilesystemWork } from '../../lib/loaders/loadWork'
+import type { WorkFull } from '../../lib/db/types'
+
+interface Props {
+  work: WorkFull | FilesystemWork
+}
+
+const { work } = Astro.props
+
+// Resolve dimension values from either data shape
+let rhythm: VisualRhythm | null = null
+let temperature: EmotionalTemperature | null = null
+let abstraction: VisualAbstraction | null = null
+
+if ('color_assignments' in work && work.color_assignments) {
+  rhythm      = (work as WorkFull).color_assignments.ritmo_visual as VisualRhythm ?? null
+  temperature = (work as WorkFull).color_assignments.temperatura_emocional as EmotionalTemperature ?? null
+  abstraction = (work as WorkFull).color_assignments.grado_abstraccion as VisualAbstraction ?? null
+} else if ('prisma_palette' in work) {
+  const fsWork = work as FilesystemWork
+  const palette = fsWork.prisma_palette as Record<string, string> | null
+  rhythm      = palette?.ritmo_visual as VisualRhythm ?? null
+  temperature = palette?.temperatura_emocional as EmotionalTemperature ?? null
+  // Fix: field name in JSON is grado_abstraccion_visual, not grado_abstraccion
+  abstraction = (palette?.grado_abstraccion_visual || palette?.grado_abstraccion) as VisualAbstraction ?? null
+}
+
+const hasDimensions = rhythm || temperature || abstraction
+---
+
+{hasDimensions && (
+  <div class="film-dimensions">
+    <div class="site-container">
+      <div class="film-dimensions__inner">
+
+        {rhythm && (
+          <a
+            href={`/ritmo/${rhythmSlug(rhythm)}`}
+            class="dim-tag dim-tag--rhythm"
+            title="Ritmo visual"
+          >
+            <span class="dim-tag__label">Ritmo</span>
+            <span class="dim-tag__value">{RHYTHM_LABELS[rhythm]}</span>
+          </a>
+        )}
+
+        {temperature && (
+          <a
+            href={`/temperatura/${temperatureSlug(temperature)}`}
+            class="dim-tag dim-tag--temperature"
+            title="Temperatura emocional"
+          >
+            <span class="dim-tag__label">Temperatura</span>
+            <span class="dim-tag__value">{TEMPERATURE_LABELS[temperature]}</span>
+          </a>
+        )}
+
+        {abstraction && (
+          <a
+            href={`/abstraccion/${abstractionSlug(abstraction)}`}
+            class="dim-tag dim-tag--abstraction"
+            title="Abstracción visual"
+          >
+            <span class="dim-tag__label">Imagen</span>
+            <span class="dim-tag__value">{ABSTRACTION_LABELS[abstraction]}</span>
+          </a>
+        )}
+
+      </div>
+    </div>
+  </div>
+)}
+
+<style>
+.film-dimensions {
+  padding: 0 0 2rem;
+}
+
+.film-dimensions__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.dim-tag {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 3px;
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease;
+  cursor: pointer;
+}
+
+.dim-tag:hover {
+  border-color: var(--text-muted);
+  background: rgba(255,255,255,0.03);
+}
+
+.dim-tag__label {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.dim-tag__value {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+}
+
+.dim-tag:hover .dim-tag__value {
+  color: var(--text-primary);
+}
+
+@media (max-width: 480px) {
+  .film-dimensions__inner {
+    gap: 0.5rem;
+  }
+  .dim-tag {
+    flex: 1;
+    min-width: 0;
+  }
+}
+</style>

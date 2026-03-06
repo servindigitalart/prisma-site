@@ -1,0 +1,172 @@
+[
+  {
+    "work_id": "kill-bill-vol1-2003",
+    "title": "Kill Bill: Volume 1",
+    "year": 2003,
+    "expected_color": "amarillo_ludico",
+    "expected_range": [
+      0.7,
+      0.84
+    ],
+    "actual_color": "amarillo_ludico",
+    "color_match": true,
+    "gemini_raw_score": 0.76,
+    "color_rank": 0.76,
+    "in_range": true,
+    "above_range": false,
+    "color_rank_reasoning": "Yellow (Beatrix Kiddo's tracksuit) is the most iconic visual element and the film's signature color, dominating all promotional material and many key action sequences. However, deep red (stylized blood, interior lighting in fight scenes) is also incredibly visually prevalent and memorable throughout the film, creating a genuine visual competition. The film is defined by these two strong colors, with yellow having a slight edge due to its iconic status on the protagonist.",
+    "secondary_colors": [
+      "rojo_pasional",
+      "negro_abismo"
+    ],
+    "note": "Yellow tracksuit is iconic but red blood competes equally"
+  },
+  {
+    "work_id": "apocalypse-now-1979",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "expected_color": "naranja_apocaliptico",
+    "expected_range": [
+      0.7,
+      0.84
+    ],
+    "actual_color": "naranja_apocaliptico",
+    "color_match": true,
+    "gemini_raw_score": 0.78,
+    "color_rank": 0.78,
+    "in_range": true,
+    "above_range": false,
+    "color_rank_reasoning": "Naranja_apocaliptico dominates the film's most iconic and reproduced frames, particularly the napalm strike and explosions, which represent the chaos and destruction of the war. While the vast majority of the runtime is set in the deep green jungle, the intense and visually striking orange of fire and explosions provides the most memorable and impactful visual identity for the film. The 0.78 score reflects that orange is the clear primary, but the deep greens of the jungle are equally present visually for long stretches of the film.",
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "note": "Napalm orange is iconic but jungle green dominates screen time"
+  },
+  {
+    "work_id": "midnight-in-paris-2011",
+    "title": "Midnight in Paris",
+    "year": 2011,
+    "expected_color": "ambar_desertico",
+    "expected_range": [
+      0.65,
+      0.82
+    ],
+    "actual_color": "ambar_desertico",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.9,
+    "in_range": false,
+    "above_range": true,
+    "color_rank_reasoning": "Ambar_desertico dominates approximately 80-85% of Midnight in Paris's most iconic and memorable frames. The entire aesthetic of the 'past' sequences (1920s, Belle Époque) is defined by a pervasive, dreamlike golden/amber color grade. This color is deeply ingrained in the film's visual identity, representing the protagonist's nostalgic longing. Deducted 0.10 because present-day scenes, while often warm, also feature naturalistic colors and some cooler night tones, preventing absolute visual saturation.",
+    "secondary_colors": [],
+    "note": "Warm amber present but no single color dominates"
+  },
+  {
+    "work_id": "vertigo-1958",
+    "title": "Vertigo",
+    "year": 1958,
+    "expected_color": "verde_esmeralda",
+    "expected_range": [
+      0.72,
+      0.85
+    ],
+    "actual_color": "verde_esmeralda",
+    "color_match": true,
+    "gemini_raw_score": 0.84,
+    "color_rank": 0.84,
+    "in_range": true,
+    "above_range": false,
+    "color_rank_reasoning": "Verde_esmeralda is the most visually striking and thematically central color in Vertigo, despite not saturating every frame. It dominates the film's most iconic images, primarily through Madeleine's legendary green suit and the deliberate green lighting used during critical moments of Scottie's obsession (e.g., her first appearance, the flower shop, Judy's transformation into Madeleine). The color is deeply tied to the narrative's mystery and obsession. While cool blues/greys of San Francisco are present in many scenes, and red appears in specific interiors, the purposeful, impactful use of emerald green ensures its strong dominance and memorability in the viewer's eye. Deducted points because it's a prominent motif rather than a pervasive overall color grade for the entire runtime.",
+    "secondary_colors": [
+      "cian_melancolico",
+      "rojo_pasional"
+    ],
+    "note": "Iconic green lighting but not dominant throughout runtime"
+  },
+  {
+    "work_id": "lost-highway-1997",
+    "title": "Lost Highway",
+    "year": 1997,
+    "expected_color": "negro_abismo",
+    "expected_range": [
+      0.65,
+      0.82
+    ],
+    "actual_color": "azul_nocturno",
+    "color_match": false,
+    "gemini_raw_score": 0.88,
+    "color_rank": 0.88,
+    "in_range": false,
+    "above_range": true,
+    "color_rank_reasoning": "Azul_nocturno dominates approximately 70-75% of 'Lost Highway's' visual experience. The film is largely set at night or in dimly lit interiors, which are consistently saturated with a deep, oppressive blue lighting and color grade. Many iconic frames, such as the opening highway sequence and interior shots of the Madison house, are defined by this pervasive blue. Deducted points because 'negro_abismo' is also extremely prevalent, often serving as the backdrop against which the blue light is cast, and 'rojo_pasional' creates highly memorable, contrasting visual moments in key scenes (jazz club, fiery cabin) preventing azul_nocturno from being a near-exclusive color.",
+    "secondary_colors": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "note": "Very dark but Lynch's palette is contested"
+  },
+  {
+    "work_id": "pulp-fiction-1994",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "expected_color": "ambar_desertico",
+    "expected_range": [
+      0.5,
+      0.69
+    ],
+    "actual_color": "ambar_desertico",
+    "color_match": true,
+    "gemini_raw_score": 0.58,
+    "color_rank": 0.58,
+    "in_range": true,
+    "above_range": false,
+    "color_rank_reasoning": "Pulp Fiction has no single overwhelmingly dominant color, making it a contested palette. The overall subtle warm, desaturated color grading contributes an 'ambar_desertico' feel to approximately 50-60% of frames, especially interiors and many daytime exteriors. However, 'negro_abismo' (black suits, Mia's hair) and 'rojo_pasional' (blood, Jack Rabbit Slim's accents, Mia's dress in one scene) are strong, memorable competing elements. The film lacks the singular color identity of highly ranked examples.",
+    "secondary_colors": [
+      "negro_abismo",
+      "rojo_pasional"
+    ],
+    "note": "Warm but genuinely no dominant color — multiple colors compete"
+  },
+  {
+    "work_id": "garden-state-2004",
+    "title": "Garden State",
+    "year": 2004,
+    "expected_color": "verde_lima",
+    "expected_range": [
+      0.55,
+      0.75
+    ],
+    "actual_color": "cian_melancolico",
+    "color_match": false,
+    "gemini_raw_score": 0.88,
+    "color_rank": 0.88,
+    "in_range": false,
+    "above_range": true,
+    "color_rank_reasoning": "Cian_melancolico (blue-green teal) defines the visual identity of Garden State in approximately 85-90% of its runtime. The consistent desaturated, cool color grading pushes natural greens into blue-green tones, and interior scenes are dominated by muted blues and grays. Deducted 0.12 because there are moments of muted earth tones and warmer, albeit still subdued, lighting, but these do not compete for overall dominance.",
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "note": "Green present but naturalistic — not stylized enough for high score"
+  },
+  {
+    "work_id": "the-godfather-1972",
+    "title": "The Godfather",
+    "year": 1972,
+    "expected_color": "ambar_desertico",
+    "expected_range": [
+      0.5,
+      0.7
+    ],
+    "actual_color": "ambar_desertico",
+    "color_match": true,
+    "gemini_raw_score": 0.9,
+    "color_rank": 0.9,
+    "in_range": false,
+    "above_range": true,
+    "color_rank_reasoning": "The film's iconic warm, golden-amber color grade and low-key lighting dominate approximately 75-80% of its runtime, especially in crucial interior scenes like Vito Corleone's office and the wedding reception. Many of the most reproduced frames feature this golden hue. Deducted 0.10 because deep blacks (in suits and shadows) and occasional striking reds (blood, decor) offer significant visual competition, preventing it from being an absolute single-color dominance.",
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "note": "Warm but so desaturated multiple viewers would name different colors"
+  }
+]

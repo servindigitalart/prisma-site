@@ -1,0 +1,56 @@
+{
+  "work_id": "work_wr-mysteries-of-the-organism_1971",
+  "processed_at": "2026-02-28T06:59:24.618718+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "verde_lima",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Recurring pinkish-red wallpaper and lighting in the fictional narrative segments (e.g., Milena and Jagoda's apartment).",
+      "Costume choices for lead characters, such as Milena's red/pink outfits, in prominent scenes.",
+      "The overall warm, sensual tint used in many of the film's staged, fictional sequences, emphasizing themes of desire and the body."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_wr-mysteries-of-the-organism_1971",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:59:24.615387Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:59:24.615375Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_wr-mysteries-of-the-organism_1971",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

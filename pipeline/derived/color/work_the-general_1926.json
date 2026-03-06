@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-general_1926",
+  "processed_at": "2026-02-28T06:42:09.674594+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The pervasive sepia/amber tint commonly applied to silent films from this era, defining the overall visual palette.",
+      "Iconic wide shots of the train 'Johnny' traversing landscapes, bathed in the warm, aged hue of the tint.",
+      "Buster Keaton's meticulously choreographed action sequences and stunts, presented with the consistent sepia tone across all environments."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-general_1926",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:42:09.670676Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:42:09.670664Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-general_1926",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

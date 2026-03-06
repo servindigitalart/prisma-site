@@ -1,0 +1,56 @@
+{
+  "work_id": "work_moonlight_2016",
+  "processed_at": "2026-02-28T06:18:08.127424+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [
+      "ambar_desertico",
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The vast, deep blue of the ocean, a recurring visual motif throughout Chiron's life stages.",
+      "The pervasive blue-to-indigo color grading used in most night scenes, creating a consistent visual mood.",
+      "Iconic promotional stills and the official poster heavily feature deep blue hues as the primary visual element."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_moonlight_2016",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:18:08.123343Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:18:08.123330Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_moonlight_2016",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "work_id": "work_love-streams_1984",
+  "processed_at": "2026-02-28T06:12:56.025331+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The interior of Robert Harmon's house is consistently lit with warm, golden tones, emphasizing wood and aged furnishings.",
+      "Many scenes, particularly those focusing on intimate dialogue, feature a pervasive, slightly desaturated amber color grade.",
+      "The overall visual impression of iconic stills and film segments is one of faded warmth, reflecting memory and intimate, often difficult, human connection."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_love-streams_1984",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:12:56.021289Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:12:56.021276Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_love-streams_1984",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

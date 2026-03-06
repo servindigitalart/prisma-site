@@ -1,0 +1,55 @@
+{
+  "work_id": "work_taxi-driver_1976",
+  "processed_at": "2026-02-28T06:38:06.779517+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "naranja_apocaliptico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.85,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The pervasive burnt orange and reddish artificial lighting of New York City streets at night.",
+      "The interior of Travis's taxi is frequently lit with a warm, reddish-orange glow from dashboard lights.",
+      "The overall color grade contributes to a grimy, decaying, and chaotic urban atmosphere, especially evident in movie posters and iconic stills featuring Travis in an orange-red glow.",
+      "Specific lighting in the 'red light' district and other seedy establishments often leans into these orange-red hues, emphasizing the film's themes of moral decay and violence."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_taxi-driver_1976",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:38:06.776051Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:38:06.776040Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_taxi-driver_1976",
+    "color_iconico": "naranja_apocaliptico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

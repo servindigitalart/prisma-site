@@ -1,0 +1,41 @@
+---
+export const prerender = false
+---
+<!DOCTYPE html>
+<html>
+<head><title>Signing in...</title></head>
+<body>
+<script is:inline>
+(function() {
+  var hash = window.location.hash.substring(1)
+  var params = {}
+  hash.split('&').forEach(function(part) {
+    var eq = part.indexOf('=')
+    if (eq > -1) {
+      params[decodeURIComponent(part.substring(0, eq))] = decodeURIComponent(part.substring(eq + 1))
+    }
+  })
+  
+  var accessToken = params['access_token']
+  var refreshToken = params['refresh_token'] || ''
+  var expiresIn = parseInt(params['expires_in'] || '3600')
+  
+  if (accessToken) {
+    var session = JSON.stringify({
+      access_token: accessToken,
+      refresh_token: refreshToken,
+      expires_in: expiresIn,
+      expires_at: Math.floor(Date.now() / 1000) + expiresIn,
+      token_type: 'bearer'
+    })
+    var expires = new Date(Date.now() + expiresIn * 1000).toUTCString()
+    var cookieName = 'sb-porqyokkphflvqfclvkj-auth-token'
+    document.cookie = cookieName + '=' + encodeURIComponent(session) + '; path=/; expires=' + expires + '; SameSite=Lax'
+    window.location.replace('/')
+  } else {
+    window.location.replace('/auth/error?message=No+token+received')
+  }
+})()
+</script>
+</body>
+</html>

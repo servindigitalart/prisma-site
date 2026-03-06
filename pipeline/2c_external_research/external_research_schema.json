@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prisma External Research Output",
+  "type": "object",
+  "required": [
+    "work_id",
+    "trigger_reason",
+    "conducted_at",
+    "doctrine_version_context",
+    "evidence_version_context",
+    "research_agent_id",
+    "sources",
+    "findings",
+    "uncertainty_flags",
+    "research_quality",
+    "promotion_eligible",
+    "promotion_status"
+  ],
+  "properties": {
+    "work_id": { "type": "string", "description": "Unique identifier for the film/work researched." },
+    "trigger_reason": {
+      "type": "string",
+      "enum": ["evidence_gap", "cultural_context", "doctrine_ambiguity", "editorial_request"],
+      "description": "Why External Research was triggered (policy-aligned)."
+    },
+    "conducted_at": { "type": "string", "format": "date-time", "description": "ISO 8601 timestamp of research action." },
+    "doctrine_version_context": { "type": "string", "description": "Version of Doctrine in effect during research." },
+    "evidence_version_context": { "type": "string", "description": "Version of Evidence in effect during research." },
+    "research_agent_id": { "type": "string", "description": "Identifier for the research agent/editor." },
+    "sources": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "url",
+          "title",
+          "author",
+          "publication",
+          "date",
+          "source_type",
+          "authority_score",
+          "excerpt",
+          "relevance"
+        ],
+        "properties": {
+          "source_id": { "type": "string", "description": "Unique identifier for the source." },
+          "url": { "type": "string", "format": "uri", "description": "URL of the source." },
+          "archive_url": { "type": "string", "format": "uri", "description": "Archived URL (optional)." },
+          "title": { "type": "string", "description": "Title of the source material." },
+          "author": { "type": "string", "description": "Author or creator of the source." },
+          "publication": { "type": "string", "description": "Publication or outlet name." },
+          "date": { "type": "string", "description": "Date of publication (ISO 8601 or free text)." },
+          "source_type": { "type": "string", "enum": ["PRIMARY", "SECONDARY", "TERTIARY"], "description": "Source classification." },
+          "authority_score": { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Authority score (0.0–1.0)." },
+          "excerpt": { "type": "string", "description": "Verbatim quote from the source." },
+          "relevance": { "type": "string", "description": "Relevance of the source to the research context." }
+        }
+      },
+      "description": "Array of all sources consulted."
+    },
+    "findings": {
+      "type": "object",
+      "required": ["cinematographer_context", "aesthetic_discourse", "cultural_context"],
+      "properties": {
+        "cinematographer_context": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["perspective", "source_id"],
+            "properties": {
+              "perspective": { "type": "string", "description": "Perspective or statement (non-prescriptive)." },
+              "source_id": { "type": "string", "description": "Attribution to a source." }
+            }
+          },
+          "description": "Multiple perspectives on cinematographer context."
+        },
+        "aesthetic_discourse": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["perspective", "source_id"],
+            "properties": {
+              "perspective": { "type": "string", "description": "Perspective or statement (non-prescriptive)." },
+              "source_id": { "type": "string", "description": "Attribution to a source." }
+            }
+          },
+          "description": "Multiple perspectives on aesthetic discourse."
+        },
+        "cultural_context": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["perspective", "source_id"],
+            "properties": {
+              "perspective": { "type": "string", "description": "Perspective or statement (non-prescriptive)." },
+              "source_id": { "type": "string", "description": "Attribution to a source." }
+            }
+          },
+          "description": "Multiple perspectives on cultural context."
+        }
+      },
+      "description": "Findings object with non-prescriptive, attributed perspectives."
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic", "source_a", "source_b", "conflict_description"],
+        "properties": {
+          "topic": { "type": "string", "description": "Topic of the conflict." },
+          "source_a": { "type": "string", "description": "Source ID of the first perspective." },
+          "source_b": { "type": "string", "description": "Source ID of the second perspective." },
+          "conflict_description": { "type": "string", "description": "Description of the conflict." }
+        }
+      },
+      "description": "Array of conflicts between sources (optional)."
+    },
+    "uncertainty_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["limited_sources", "conflicting_perspectives", "tertiary_only", "cultural_translation_gap"]
+      },
+      "description": "Array of uncertainty flags."
+    },
+    "research_quality": {
+      "type": "string",
+      "enum": ["HIGH", "MODERATE", "LOW"],
+      "description": "Overall quality of the research action."
+    },
+    "promotion_eligible": {
+      "type": "boolean",
+      "description": "Whether this research is eligible for promotion."
+    },
+    "promotion_status": {
+      "type": "object",
+      "required": ["reviewed", "decision", "reviewed_by", "reviewed_at", "promoted_to_version"],
+      "properties": {
+        "reviewed": { "type": "boolean", "description": "Whether this research has been reviewed." },
+        "decision": { "type": ["string", "null"], "enum": ["PROMOTE", "DEFER", "REJECT", null], "description": "Promotion decision." },
+        "reviewed_by": { "type": "string", "description": "Reviewer identifier." },
+        "reviewed_at": { "type": "string", "format": "date-time", "description": "Timestamp of review." },
+        "promoted_to_version": { "type": "string", "description": "Version to which this research was promoted." }
+      },
+      "description": "Promotion review status object."
+    }
+  },
+  "additionalProperties": false
+}

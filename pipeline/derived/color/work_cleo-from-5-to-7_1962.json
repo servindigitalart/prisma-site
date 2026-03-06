@@ -1,0 +1,50 @@
+{
+  "work_id": "work_cleo-from-5-to-7_1962",
+  "processed_at": "2026-02-28T04:47:02.404478+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "monocromatico_intimo",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is shot entirely in black and white, establishing its fundamental visual identity.",
+      "Cinematography uses naturalistic lighting and nuanced grayscale to convey intimacy and realism.",
+      "Iconic shots of Cl\u00e9o in various Parisian settings consistently feature soft, un-dramatic black and white tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_cleo-from-5-to-7_1962",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T04:47:02.400483Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T04:47:02.400470Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_cleo-from-5-to-7_1962",
+    "color_iconico": "monocromatico_intimo",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

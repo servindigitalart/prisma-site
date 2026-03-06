@@ -1,0 +1,55 @@
+{
+  "work_id": "work_parasite_2019",
+  "processed_at": "2026-02-28T06:23:24.148554+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_esmeralda",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.76,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The pristine, expansive green lawn of the Park mansion, visible and central in many iconic frames.",
+      "The son's prominent green teepee (tent) set up in the Park's living room.",
+      "Greenish hues of dampness and mold present in the Kim's semi-basement apartment, contrasting with the vibrant greens of the Parks'.",
+      "The overall cinematography and production design frequently highlight the natural green elements surrounding the Park's home, often presented in a rich, deep hue."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_parasite_2019",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:23:24.145024Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:23:24.145013Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_parasite_2019",
+    "color_iconico": "verde_esmeralda",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

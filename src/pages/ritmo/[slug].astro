@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import {
+  RHYTHM_LABELS,
+  RHYTHM_DESCRIPTIONS,
+  slugToRhythm,
+  type VisualRhythm,
+} from '../../lib/film/filmDimensions'
+import { getWorksByRhythm } from '../../lib/db/works'
+
+export const prerender = true
+
+export async function getStaticPaths() {
+  const rhythms: VisualRhythm[] = [
+    'dinamico_frenetico',
+    'dinamico_energico',
+    'moderado_balanceado',
+    'lento_contemplativo',
+    'estatico_ritualistico',
+  ]
+  return rhythms.map((r) => ({
+    params: { slug: r.replace(/_/g, '-') },
+    props: { rhythmId: r },
+  }))
+}
+
+const { rhythmId } = Astro.props as { rhythmId: VisualRhythm }
+const label = RHYTHM_LABELS[rhythmId]
+const description = RHYTHM_DESCRIPTIONS[rhythmId]
+const works = await getWorksByRhythm(rhythmId, 100)
+---
+
+<BaseLayout
+  title={`${label} — Ritmo Visual · Prisma`}
+  description={description}
+>
+  <div class="dim-page site-container">
+    <header class="dim-page__header">
+      <p class="dim-page__category">Ritmo Visual</p>
+      <h1 class="dim-page__title">{label}</h1>
+      <p class="dim-page__description">{description}</p>
+      <p class="dim-page__count">{works.length} películas</p>
+    </header>
+
+    <div class="dim-page__grid">
+      {works.map((work) => (
+        <a href={`/films/${work.id.replace('work_', '')}`} class="dim-card">
+          <span class="dim-card__title">{work.title}</span>
+          <span class="dim-card__year">{work.year}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+.dim-page { padding: 6rem 0 8rem; }
+
+.dim-page__header {
+  max-width: 42rem;
+  margin-bottom: 4rem;
+}
+
+.dim-page__category {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.dim-page__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.dim-page__description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.dim-page__count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+}
+
+.dim-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--surface-border);
+}
+
+.dim-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.25rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.dim-card:hover {
+  background: rgba(255,255,255,0.03);
+  border-color: var(--surface-border);
+}
+
+.dim-card__title {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: color 160ms ease;
+  line-height: 1.3;
+}
+
+.dim-card:hover .dim-card__title { color: var(--text-primary); }
+
+.dim-card__year {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+</style>

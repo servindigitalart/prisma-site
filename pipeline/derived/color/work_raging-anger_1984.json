@@ -1,0 +1,56 @@
+{
+  "work_id": "work_raging-anger_1984",
+  "processed_at": "2026-02-28T06:27:30.823897+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "negro_abismo",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Likely pervasive presence of blood and violence, visually depicted with deep red hues.",
+      "Intense lighting or color grading used to emphasize moments of rage or high conflict.",
+      "Prominent visual role of fire and explosions in action sequences, containing significant red tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_raging-anger_1984",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:27:30.820445Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:27:30.820435Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_raging-anger_1984",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

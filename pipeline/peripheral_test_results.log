@@ -1,0 +1,128 @@
+
+================================================================================
+PRISMA PIPELINE v2.0 - PERIPHERAL SCORING TEST
+Testing films that should score 0.50-0.84 (not iconic enough for 0.90+)
+================================================================================
+
+
+[1/8] Processing: Kill Bill: Volume 1 (2003)
+         Expected color: amarillo_ludico
+         Expected range: 0.70 - 0.84
+         Note: Yellow tracksuit is iconic but red blood competes equally
+         Result: amarillo_ludico - 0.76 ✅ PASS
+         Gemini Raw: 0.76
+         Reasoning: Yellow (Beatrix Kiddo's tracksuit) is the most iconic visual element and the film's signature color, dominating all prom...
+
+[2/8] Processing: Apocalypse Now (1979)
+         Expected color: naranja_apocaliptico
+         Expected range: 0.70 - 0.84
+         Note: Napalm orange is iconic but jungle green dominates screen time
+         Result: naranja_apocaliptico - 0.78 ✅ PASS
+         Gemini Raw: 0.78
+         Reasoning: Naranja_apocaliptico dominates the film's most iconic and reproduced frames, particularly the napalm strike and explosio...
+
+[3/8] Processing: Midnight in Paris (2011)
+         Expected color: ambar_desertico
+         Expected range: 0.65 - 0.82
+         Note: Warm amber present but no single color dominates
+         Result: ambar_desertico - 0.90 ⚠️  HIGH (SCORE INFLATION)
+         Gemini Raw: 0.90
+         Reasoning: Ambar_desertico dominates approximately 80-85% of Midnight in Paris's most iconic and memorable frames. The entire aesth...
+
+[4/8] Processing: Vertigo (1958)
+         Expected color: verde_esmeralda
+         Expected range: 0.72 - 0.85
+         Note: Iconic green lighting but not dominant throughout runtime
+         Result: verde_esmeralda - 0.84 ✅ PASS
+         Gemini Raw: 0.84
+         Reasoning: Verde_esmeralda is the most visually striking and thematically central color in Vertigo, despite not saturating every fr...
+
+[5/8] Processing: Lost Highway (1997)
+         Expected color: negro_abismo
+         Expected range: 0.65 - 0.82
+         Note: Very dark but Lynch's palette is contested
+         Result: azul_nocturno - 0.88 ✗ FAIL (WRONG COLOR)
+         Gemini Raw: 0.88
+         Reasoning: Azul_nocturno dominates approximately 70-75% of 'Lost Highway's' visual experience. The film is largely set at night or ...
+
+[6/8] Processing: Pulp Fiction (1994)
+         Expected color: ambar_desertico
+         Expected range: 0.50 - 0.69
+         Note: Warm but genuinely no dominant color — multiple colors compete
+         Result: ambar_desertico - 0.58 ✅ PASS
+         Gemini Raw: 0.58
+         Reasoning: Pulp Fiction has no single overwhelmingly dominant color, making it a contested palette. The overall subtle warm, desatu...
+
+[7/8] Processing: Garden State (2004)
+         Expected color: verde_lima
+         Expected range: 0.55 - 0.75
+         Note: Green present but naturalistic — not stylized enough for high score
+         Result: cian_melancolico - 0.88 ✗ FAIL (WRONG COLOR)
+         Gemini Raw: 0.88
+         Reasoning: Cian_melancolico (blue-green teal) defines the visual identity of Garden State in approximately 85-90% of its runtime. T...
+
+[8/8] Processing: The Godfather (1972)
+         Expected color: ambar_desertico
+         Expected range: 0.50 - 0.70
+         Note: Warm but so desaturated multiple viewers would name different colors
+         Result: ambar_desertico - 0.90 ⚠️  HIGH (SCORE INFLATION)
+         Gemini Raw: 0.90
+         Reasoning: The film's iconic warm, golden-amber color grade and low-key lighting dominate approximately 75-80% of its runtime, espe...
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total films tested: 8
+✅ Passed (in range): 4 (50.0%)
+⚠️  Warnings (out of range): 2 (25.0%)
+✗ Failed (wrong color): 2 (25.0%)
+
+================================================================================
+SCORE DISTRIBUTION ANALYSIS
+================================================================================
+Color Rank Range: 0.58 - 0.90
+Average Color Rank: 0.81
+Gemini Raw Score Range: 0.58 - 0.90
+Average Gemini Raw Score: 0.81
+
+Score distribution:
+  0.95-1.00 (Undisputed): 0 films
+  0.85-0.94 (Dominant): 4 films
+  0.70-0.84 (Clear primary): 3 films
+  0.50-0.69 (Contested): 1 films
+  0.30-0.49 (Weak): 0 films
+
+⚠️  SCORE INFLATION DETECTED: 4 films scored above expected range
+    Films with inflation:
+      - Midnight in Paris: 0.90 (expected max: 0.82)
+      - Lost Highway: 0.88 (expected max: 0.82)
+      - Garden State: 0.88 (expected max: 0.75)
+      - The Godfather: 0.90 (expected max: 0.70)
+
+================================================================================
+SAMPLE REASONING (3 films)
+================================================================================
+
+1. Kill Bill: Volume 1 (2003)
+   Color: amarillo_ludico
+   Score: 0.76 (raw: 0.76)
+   Expected: 0.70-0.84
+   Reasoning: Yellow (Beatrix Kiddo's tracksuit) is the most iconic visual element and the film's signature color, dominating all promotional material and many key action sequences. However, deep red (stylized blood, interior lighting in fight scenes) is also incredibly visually prevalent and memorable throughout the film, creating a genuine visual competition. The film is defined by these two strong colors, with yellow having a slight edge due to its iconic status on the protagonist.
+
+2. Apocalypse Now (1979)
+   Color: naranja_apocaliptico
+   Score: 0.78 (raw: 0.78)
+   Expected: 0.70-0.84
+   Reasoning: Naranja_apocaliptico dominates the film's most iconic and reproduced frames, particularly the napalm strike and explosions, which represent the chaos and destruction of the war. While the vast majority of the runtime is set in the deep green jungle, the intense and visually striking orange of fire and explosions provides the most memorable and impactful visual identity for the film. The 0.78 score reflects that orange is the clear primary, but the deep greens of the jungle are equally present visually for long stretches of the film.
+
+3. Midnight in Paris (2011)
+   Color: ambar_desertico
+   Score: 0.90 (raw: 0.90)
+   Expected: 0.65-0.82
+   Reasoning: Ambar_desertico dominates approximately 80-85% of Midnight in Paris's most iconic and memorable frames. The entire aesthetic of the 'past' sequences (1920s, Belle Époque) is defined by a pervasive, dreamlike golden/amber color grade. This color is deeply ingrained in the film's visual identity, representing the protagonist's nostalgic longing. Deducted 0.10 because present-day scenes, while often warm, also feature naturalistic colors and some cooler night tones, preventing absolute visual saturation.
+
+
+Full results saved to: /Users/servinemilio/Documents/REPOS/prisma-site/pipeline/test_results_peripheral_scoring.json
+
+================================================================================
+

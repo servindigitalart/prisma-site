@@ -1,0 +1,252 @@
+#!/usr/bin/env python3
+"""
+Phase 2: Cultural Memory Resolver
+Updated to use google-genai SDK (replaces deprecated google-generativeai)
+"""
+
+import os
+import json
+from typing import Dict, Any, Optional
+from .schema import (
+    CulturalMemoryResult,
+    ColorConfidence,
+    TemperaturaEmocional,
+    RitmoVisual,
+    GradoAbstraccionVisual
+)
+from .gemini_prompter import (
+    SYSTEM_PROMPT,
+    build_cultural_memory_prompt,
+    extract_perception_response
+)
+
+COLOR_NAME_TO_PRISMA = {
+    "red": "rojo_pasion",
+    "crimson": "rojo_pasion",
+    "scarlet": "rojo_pasion",
+    "blue": "azul_profundo",
+    "navy": "azul_profundo",
+    "cyan": "cyan_clinico",
+    "turquoise": "turquesa_retro",
+    "green": "verde_esperanza",
+    "emerald": "verde_esperanza",
+    "lime": "verde_acido",
+    "acid green": "verde_acido",
+    "neon green": "verde_acido",
+    "yellow": "ambar_dorado",
+    "gold": "ambar_dorado",
+    "golden": "ambar_dorado",
+    "amber": "ambar_dorado",
+    "orange": "naranja_vibrante",
+    "pink": "rosa_melancolico",
+    "magenta": "rosa_melancolico",
+    "purple": "violeta_onirico",
+    "violet": "violeta_onirico",
+    "white": "sepia_nostalgico",
+    "grey": "gris_industrial",
+    "gray": "gris_industrial",
+    "black": "gris_industrial",
+    "sepia": "sepia_nostalgico",
+    "monochrome": "gris_industrial",
+    "black and white": "gris_industrial"
+}
+
+TEMPERATURE_MAPPING = {
+    "warm_passionate": "calido_apasionado",
+    "warm_nostalgic": "calido_nostalgico",
+    "neutral": "neutral_contemplativo",
+    "cold_melancholic": "frio_melancolico",
+    "cold_alienating": "frio_alienado"
+}
+
+RHYTHM_MAPPING = {
+    "frenetic": "dinamico_frenético",
+    "energetic": "dinamico_energético",
+    "balanced": "moderado_balanceado",
+    "contemplative": "lento_contemplativo",
+    "meditative": "estático_meditativo"
+}
+
+ABSTRACTION_MAPPING = {
+    "extremely_realistic": "extremadamente_realista",
+    "realistic_with_style": "realista_con_estilizacion",
+    "stylized": "estilizado",
+    "very_stylized": "muy_estilizado",
+    "extremely_abstract": "extremadamente_abstracto"
+}
+
+
+def resolve_cultural_memory(
+    work: Dict[str, Any],
+    use_gemini: bool = True
+) -> CulturalMemoryResult:
+
+    work_id = work.get("work_id")
+    title = work.get("title")
+    year = work.get("year")
+
+    if not all([work_id, title, year]):
+        raise ValueError("work_id, title, and year are required")
+
+    if not use_gemini:
+        return _create_fallback_result(work)
+
+    prompt = build_cultural_memory_prompt(
+        work_id=work_id,
+        title=title,
+        year=year,
+        director=work.get("director"),
+        countries=work.get("countries"),
+        genres=work.get("genres")
+    )
+
+    try:
+        llm_response = _call_gemini_api(prompt)
+    except Exception as e:
+        raise ValueError("Gemini API call failed: " + str(e))
+
+    try:
+        parsed = extract_perception_response(llm_response)
+    except ValueError as e:
+        raise ValueError("Failed to parse LLM response: " + str(e))
+
+    iconic_color = _map_color_to_prisma(parsed["iconic_color"])
+    secondary_colors = [
+        _map_color_to_prisma(c)
+        for c in parsed.get("secondary_colors", [])
+        if c and c.lower() != "none"
+    ][:3]
+
+    color_confidence = parsed["color_confidence"]
+    if color_confidence not in ["high", "medium", "low"]:
+        color_confidence = "medium"
+
+    consensus_strength = _calculate_consensus_strength(
+        color_confidence=color_confidence,
+        reasoning=parsed["color_reasoning"],
+        secondary_colors=secondary_colors,
+        supporting_evidence=parsed.get("supporting_evidence", [])
+    )
+
+    visual_rhythm = RHYTHM_MAPPING.get(
+        parsed.get("visual_rhythm", "balanced"),
+        "moderado_balanceado"
+    )
+
+    emotional_temperature = TEMPERATURE_MAPPING.get(
+        parsed.get("emotional_temperature", "neutral"),
+        "neutral_contemplativo"
+    )
+
+    abstraction_level = ABSTRACTION_MAPPING.get(
+        parsed.get("abstraction_level", "stylized"),
+        "estilizado"
+    )
+
+    return CulturalMemoryResult(
+        work_id=work_id,
+        iconic_color=iconic_color,
+        color_confidence=color_confidence,
+        color_consensus_strength=consensus_strength,
+        secondary_colors=secondary_colors,
+        visual_rhythm=visual_rhythm,
+        emotional_temperature=emotional_temperature,
+        abstraction_level=abstraction_level,
+        supporting_evidence=parsed.get("supporting_evidence", []),
+        llm_raw_response=llm_response
+    )
+
+
+def _map_color_to_prisma(color_name: str) -> str:
+    color_lower = color_name.lower().strip()
+    if color_lower in COLOR_NAME_TO_PRISMA:
+        return COLOR_NAME_TO_PRISMA[color_lower]
+    for key, value in COLOR_NAME_TO_PRISMA.items():
+        if key in color_lower or color_lower in key:
+            return value
+    return "azul_profundo"
+
+
+def _calculate_consensus_strength(
+    color_confidence: str,
+    reasoning: str,
+    secondary_colors: list,
+    supporting_evidence: list
+) -> float:
+    base_strength = {
+        "high": 0.85,
+        "medium": 0.60,
+        "low": 0.40
+    }.get(color_confidence, 0.50)
+
+    if len(reasoning) > 100:
+        if any(word in reasoning.lower() for word in ["because", "due to", "iconic", "universally", "famous"]):
+            base_strength += 0.05
+
+    if len(supporting_evidence) >= 3:
+        base_strength += 0.05
+
+    if len(secondary_colors) >= 1:
+        base_strength += 0.03
+
+    return min(0.95, base_strength)
+
+
+def _call_gemini_api(prompt: str) -> str:
+    from google import genai
+
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY environment variable not set")
+
+    client = genai.Client(api_key=api_key)
+
+    full_prompt = SYSTEM_PROMPT + "\n\n" + prompt
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=full_prompt
+    )
+
+    if not response.text:
+        raise ValueError("Empty response from Gemini API")
+
+    text = response.text.strip()
+    if text.startswith("```json"):
+        text = text[7:]
+    if text.startswith("```"):
+        text = text[3:]
+    if text.endswith("```"):
+        text = text[:-3]
+
+    return text.strip()
+
+
+def _create_fallback_result(work: Dict[str, Any]) -> CulturalMemoryResult:
+    return CulturalMemoryResult(
+        work_id=work["work_id"],
+        iconic_color="azul_profundo",
+        color_confidence="low",
+        color_consensus_strength=0.30,
+        secondary_colors=[],
+        visual_rhythm="moderado_balanceado",
+        emotional_temperature="neutral_contemplativo",
+        abstraction_level="estilizado",
+        supporting_evidence=["Fallback result - Gemini not used"],
+        llm_raw_response="N/A - fallback mode"
+    )
+
+
+def should_use_consensus(result: CulturalMemoryResult) -> bool:
+    if result.color_consensus_strength < 0.75:
+        return False
+
+    uncertain_phrases = ["no clear", "unclear", "ambiguous", "not strongly"]
+    for evidence in result.supporting_evidence:
+        if any(phrase in evidence.lower() for phrase in uncertain_phrases):
+            return False
+
+    if len(result.supporting_evidence) < 2:
+        return False
+
+    return True

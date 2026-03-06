@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-matrix_1999",
+  "processed_at": "2026-02-28T06:45:39.607624+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_distopico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.97,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The pervasive green digital rain code visible in opening credits and throughout action sequences within the Matrix.",
+      "The uniform green color grade applied to almost all scenes set within the Matrix simulation.",
+      "Iconic action sequences, such as the bullet-time scene and the lobby shootout, are prominently lit with green light."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-matrix_1999",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:45:39.603743Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:45:39.603729Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-matrix_1999",
+    "color_iconico": "verde_distopico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

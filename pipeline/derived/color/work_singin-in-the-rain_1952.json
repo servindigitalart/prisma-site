@@ -1,0 +1,57 @@
+{
+  "work_id": "work_singin-in-the-rain_1952",
+  "processed_at": "2026-02-28T06:34:14.745125+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "azul_nocturno",
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The prominent yellow walls in the 'Good Morning' musical sequence.",
+      "The general bright, sunny, and optimistic lighting style used in many daytime and interior scenes.",
+      "The overall vibrant and saturated Technicolor palette, which emphasizes cheerful, primary colors, leaning towards yellow's joyful connotations.",
+      "The visual portrayal of Hollywood as a bright and hopeful place, often bathed in golden light."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_singin-in-the-rain_1952",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-02-28T06:34:14.741637Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-02-28T06:34:14.741625Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_singin-in-the-rain_1952",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

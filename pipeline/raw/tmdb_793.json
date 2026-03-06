@@ -1,0 +1,3955 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/12UiL2rS5M80AhS9uiZ633iy4pB.jpg",
+    "belongs_to_collection": null,
+    "budget": 6000000,
+    "genres": [
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "homepage": "",
+    "id": 793,
+    "imdb_id": "tt0090756",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Blue Velvet",
+    "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
+    "popularity": 6.4499,
+    "poster_path": "/tzXuURjPzCqtA6eL0Cswq9wzFx0.jpg",
+    "production_companies": [
+      {
+        "id": 484,
+        "logo_path": "/y3jYroFE9tjDTx5aSOgecXV732c.png",
+        "name": "DEG",
+        "origin_country": "US"
+      },
+      {
+        "id": 21,
+        "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "name": "Metro-Goldwyn-Mayer",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1986-09-19",
+    "revenue": 8636706,
+    "runtime": 120,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "It's a strange world, isn't it?",
+    "title": "Blue Velvet",
+    "video": false,
+    "vote_average": 7.609,
+    "vote_count": 3737
+  },
+  "credits": {
+    "id": 793,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6588,
+        "known_for_department": "Acting",
+        "name": "Isabella Rossellini",
+        "original_name": "Isabella Rossellini",
+        "popularity": 1.6739,
+        "profile_path": "/z0zojT6nwDxi35HMcXlVpBfuBAU.jpg",
+        "cast_id": 12,
+        "character": "Dorothy Vallens",
+        "credit_id": "52fe4277c3a36847f8020dc7",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6677,
+        "known_for_department": "Acting",
+        "name": "Kyle MacLachlan",
+        "original_name": "Kyle MacLachlan",
+        "popularity": 3.1783,
+        "profile_path": "/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
+        "cast_id": 13,
+        "character": "Jeffrey Beaumont",
+        "credit_id": "52fe4277c3a36847f8020dcb",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2778,
+        "known_for_department": "Acting",
+        "name": "Dennis Hopper",
+        "original_name": "Dennis Hopper",
+        "popularity": 1.5338,
+        "profile_path": "/8qgrHITunVA5RXiaUPI0NFNIZeK.jpg",
+        "cast_id": 14,
+        "character": "Frank Booth",
+        "credit_id": "52fe4277c3a36847f8020dcf",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 4784,
+        "known_for_department": "Acting",
+        "name": "Laura Dern",
+        "original_name": "Laura Dern",
+        "popularity": 2.8046,
+        "profile_path": "/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
+        "cast_id": 15,
+        "character": "Sandy Williams",
+        "credit_id": "52fe4277c3a36847f8020dd3",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3382,
+        "known_for_department": "Acting",
+        "name": "Hope Lange",
+        "original_name": "Hope Lange",
+        "popularity": 0.3556,
+        "profile_path": "/lhuJRAbnSkHaOt0msbnyn6NcQuH.jpg",
+        "cast_id": 16,
+        "character": "Mrs. Williams",
+        "credit_id": "52fe4277c3a36847f8020dd7",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 923,
+        "known_for_department": "Acting",
+        "name": "Dean Stockwell",
+        "original_name": "Dean Stockwell",
+        "popularity": 1.1108,
+        "profile_path": "/gdHo8LNElMf1XxoRYgi0UUzbJuB.jpg",
+        "cast_id": 17,
+        "character": "Ben",
+        "credit_id": "52fe4277c3a36847f8020ddb",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11792,
+        "known_for_department": "Acting",
+        "name": "George Dickerson",
+        "original_name": "George Dickerson",
+        "popularity": 0.6296,
+        "profile_path": "/xw2ZqkQkd7p30yXro7UNCyRSv.jpg",
+        "cast_id": 18,
+        "character": "Detective Williams",
+        "credit_id": "52fe4277c3a36847f8020ddf",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11793,
+        "known_for_department": "Acting",
+        "name": "Priscilla Pointer",
+        "original_name": "Priscilla Pointer",
+        "popularity": 0.3059,
+        "profile_path": "/sLuwocnvy9QmJ9AOG7QKbi0PN0N.jpg",
+        "cast_id": 19,
+        "character": "Mrs. Beaumont",
+        "credit_id": "52fe4277c3a36847f8020de3",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11794,
+        "known_for_department": "Acting",
+        "name": "Frances Bay",
+        "original_name": "Frances Bay",
+        "popularity": 0.4003,
+        "profile_path": "/1mtcINBBbvb7E4ySgOr86u34XLJ.jpg",
+        "cast_id": 20,
+        "character": "Aunt Barbara",
+        "credit_id": "52fe4277c3a36847f8020de7",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1599429,
+        "known_for_department": "Acting",
+        "name": "Jack Harvey",
+        "original_name": "Jack Harvey",
+        "popularity": 0.1832,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "Mr. Beaumont",
+        "credit_id": "56fe824ac3a36821b1002b6b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11796,
+        "known_for_department": "Acting",
+        "name": "Ken Stovitz",
+        "original_name": "Ken Stovitz",
+        "popularity": 0.2094,
+        "profile_path": "/ls7UTKXh4OvSLlXfcxQsOLKsijK.jpg",
+        "cast_id": 22,
+        "character": "Mike",
+        "credit_id": "52fe4277c3a36847f8020def",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1370,
+        "known_for_department": "Acting",
+        "name": "Brad Dourif",
+        "original_name": "Brad Dourif",
+        "popularity": 1.3718,
+        "profile_path": "/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg",
+        "cast_id": 23,
+        "character": "Raymond",
+        "credit_id": "52fe4277c3a36847f8020df3",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6718,
+        "known_for_department": "Acting",
+        "name": "Jack Nance",
+        "original_name": "Jack Nance",
+        "popularity": 0.6814,
+        "profile_path": "/uYZ2D1gb7lO779L5nDn8XarZSvf.jpg",
+        "cast_id": 24,
+        "character": "Paul",
+        "credit_id": "52fe4277c3a36847f8020df7",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11797,
+        "known_for_department": "Acting",
+        "name": "J. Michael Hunter",
+        "original_name": "J. Michael Hunter",
+        "popularity": 0.1272,
+        "profile_path": "/mjR1BiWsxHmmC3L0xLbevw8KLxm.jpg",
+        "cast_id": 25,
+        "character": "Hunter",
+        "credit_id": "52fe4277c3a36847f8020dfb",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3501696,
+        "known_for_department": "Acting",
+        "name": "Dick Green",
+        "original_name": "Dick Green",
+        "popularity": 0.0247,
+        "profile_path": null,
+        "cast_id": 60,
+        "character": "Don Vallens",
+        "credit_id": "62533fc7ab684906131519a1",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2352561,
+        "known_for_department": "Acting",
+        "name": "Fred Pickler",
+        "original_name": "Fred Pickler",
+        "popularity": 0.0336,
+        "profile_path": null,
+        "cast_id": 41,
+        "character": "Yellow Man",
+        "credit_id": "5d210fdb94d8a8311645e470",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2679800,
+        "known_for_department": "Acting",
+        "name": "Philip Markert",
+        "original_name": "Philip Markert",
+        "popularity": 0.0025,
+        "profile_path": null,
+        "cast_id": 42,
+        "character": "Dr. Gynde",
+        "credit_id": "5ee79adfafa1b00021c062ac",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2679801,
+        "known_for_department": "Acting",
+        "name": "Leonard Watkins",
+        "original_name": "Leonard Watkins",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "cast_id": 43,
+        "character": "Double Ed",
+        "credit_id": "5ee79b18a217c00022d701a2",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1519522,
+        "known_for_department": "Acting",
+        "name": "Moses Gibson",
+        "original_name": "Moses Gibson",
+        "popularity": 0.36,
+        "profile_path": null,
+        "cast_id": 44,
+        "character": "Double Ed",
+        "credit_id": "5ee79b52afa1b00023c1924f",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 11798,
+        "known_for_department": "Acting",
+        "name": "Selden Smith",
+        "original_name": "Selden Smith",
+        "popularity": 0.1029,
+        "profile_path": "/2OHLUkwmiQmkLdV3YLy9D7HF732.jpg",
+        "cast_id": 26,
+        "character": "Nurse Cindy",
+        "credit_id": "52fe4277c3a36847f8020dff",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 103205,
+        "known_for_department": "Acting",
+        "name": "Peter Carew",
+        "original_name": "Peter Carew",
+        "popularity": 0.4761,
+        "profile_path": null,
+        "cast_id": 59,
+        "character": "Coroner",
+        "credit_id": "61789438c2b9df006222bf48",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2679802,
+        "known_for_department": "Acting",
+        "name": "Jon Jon Snipes",
+        "original_name": "Jon Jon Snipes",
+        "popularity": 0.0361,
+        "profile_path": null,
+        "cast_id": 45,
+        "character": "Little Donny",
+        "credit_id": "5ee79bf33ff2df00226a0beb",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5628,
+        "known_for_department": "Sound",
+        "name": "Angelo Badalamenti",
+        "original_name": "Angelo Badalamenti",
+        "popularity": 0.319,
+        "profile_path": "/x80I3W87lIfuPn3A3smVrGSA8Bx.jpg",
+        "cast_id": 29,
+        "character": "Piano Player",
+        "credit_id": "598c68c492514107ee0111c4",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2679805,
+        "known_for_department": "Acting",
+        "name": "Jean-Pierre Viale",
+        "original_name": "Jean-Pierre Viale",
+        "popularity": 0.1336,
+        "profile_path": null,
+        "cast_id": 46,
+        "character": "Master of Ceremonies",
+        "credit_id": "5ee79c43a217c0001fd563ff",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 185512,
+        "known_for_department": "Acting",
+        "name": "Donald Moore",
+        "original_name": "Donald Moore",
+        "popularity": 0.629,
+        "profile_path": null,
+        "cast_id": 47,
+        "character": "Desk Sergeant",
+        "credit_id": "5ee79c7a9715ae0020a6a8c0",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2679807,
+        "known_for_department": "Acting",
+        "name": "A. Michelle Depland",
+        "original_name": "A. Michelle Depland",
+        "popularity": 0.0252,
+        "profile_path": null,
+        "cast_id": 48,
+        "character": "Party Girl",
+        "credit_id": "5ee79cb9a217c0001fd56490",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2679808,
+        "known_for_department": "Acting",
+        "name": "Michelle Sasser",
+        "original_name": "Michelle Sasser",
+        "popularity": 0.0767,
+        "profile_path": null,
+        "cast_id": 49,
+        "character": "Party Girl",
+        "credit_id": "5ee79cf09715ae0021a6d52a",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2679809,
+        "known_for_department": "Acting",
+        "name": "Katie Reid",
+        "original_name": "Katie Reid",
+        "popularity": 0.049,
+        "profile_path": null,
+        "cast_id": 50,
+        "character": "Party Girl",
+        "credit_id": "5ee79d2dafa1b00022c27fd9",
+        "order": 27
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 5634,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Patricia Norris",
+        "original_name": "Patricia Norris",
+        "popularity": 0.7451,
+        "profile_path": null,
+        "credit_id": "52fe4277c3a36847f8020dbd",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 8971,
+        "known_for_department": "Production",
+        "name": "Pat Golden",
+        "original_name": "Pat Golden",
+        "popularity": 1.3104,
+        "profile_path": "/83ZwBFc01QO4Y5qMnT6B6NPmg9C.jpg",
+        "credit_id": "52fe4277c3a36847f8020db1",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3686,
+        "known_for_department": "Production",
+        "name": "Johanna Ray",
+        "original_name": "Johanna Ray",
+        "popularity": 0.4447,
+        "profile_path": "/lFsen9pniTp6ay0DhWr4gEabAbY.jpg",
+        "credit_id": "52fe4277c3a36847f8020db7",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11790,
+        "known_for_department": "Production",
+        "name": "Richard A. Roth",
+        "original_name": "Richard A. Roth",
+        "popularity": 0.3214,
+        "profile_path": null,
+        "credit_id": "52fe4277c3a36847f8020d99",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 11791,
+        "known_for_department": "Art",
+        "name": "Edward 'Tantar' LeViseur",
+        "original_name": "Edward 'Tantar' LeViseur",
+        "popularity": 0.2316,
+        "profile_path": null,
+        "credit_id": "52fe4277c3a36847f8020dc3",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11789,
+        "known_for_department": "Production",
+        "name": "Fred C. Caruso",
+        "original_name": "Fred C. Caruso",
+        "popularity": 0.5985,
+        "profile_path": null,
+        "credit_id": "52fe4277c3a36847f8020d93",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "52fe4277c3a36847f8020d87",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4434,
+        "known_for_department": "Camera",
+        "name": "Frederick Elmes",
+        "original_name": "Frederick Elmes",
+        "popularity": 0.3957,
+        "profile_path": "/lxhFy0QdIJzmmdSuX9Axl5Nib8t.jpg",
+        "credit_id": "52fe4277c3a36847f8020da5",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6592,
+        "known_for_department": "Editing",
+        "name": "Duwayne Dunham",
+        "original_name": "Duwayne Dunham",
+        "popularity": 0.4865,
+        "profile_path": "/tXJrEHJ7QFAewyBOUpIPIMwW42C.jpg",
+        "credit_id": "52fe4277c3a36847f8020dab",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3553442,
+        "known_for_department": "Sound",
+        "name": "Patrick Moriarty",
+        "original_name": "Patrick Moriarty",
+        "popularity": 0.2483,
+        "profile_path": null,
+        "credit_id": "62839d74dcf875334dd2c8f6",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 231531,
+        "known_for_department": "Acting",
+        "name": "Pamela Guest",
+        "original_name": "Pamela Guest",
+        "popularity": 0.0997,
+        "profile_path": "/xgt2yYfvWwE9ueq0eYUfDrX7SBf.jpg",
+        "credit_id": "617891e3894ed600234084c7",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1159944,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Dean Jones",
+        "original_name": "Dean Jones",
+        "popularity": 0.963,
+        "profile_path": null,
+        "credit_id": "6178922be9da690064597573",
+        "department": "Costume & Make-Up",
+        "job": "Special Effects Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2540976,
+        "known_for_department": "Production",
+        "name": "Gail Kearns",
+        "original_name": "Gail Kearns",
+        "popularity": 0.0794,
+        "profile_path": null,
+        "credit_id": "61789266b458b87a83f94b7a",
+        "department": "Production",
+        "job": "Production Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1824578,
+        "known_for_department": "Crew",
+        "name": "Greg Hull",
+        "original_name": "Greg Hull",
+        "popularity": 0.5084,
+        "profile_path": null,
+        "credit_id": "617892dc678259008fd325de",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11789,
+        "known_for_department": "Production",
+        "name": "Fred C. Caruso",
+        "original_name": "Fred C. Caruso",
+        "popularity": 0.5985,
+        "profile_path": null,
+        "credit_id": "6178924ee323f3009124a212",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1978791,
+        "known_for_department": "Directing",
+        "name": "Ellen Rauch",
+        "original_name": "Ellen Rauch",
+        "popularity": 0.2126,
+        "profile_path": null,
+        "credit_id": "61789279f2cf25002cfabdc5",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1506292,
+        "known_for_department": "Directing",
+        "name": "Ian Woolf",
+        "original_name": "Ian Woolf",
+        "popularity": 1.0585,
+        "profile_path": null,
+        "credit_id": "6178928db458b87a83f94bad",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 123518,
+        "known_for_department": "Acting",
+        "name": "Frank Silva",
+        "original_name": "Frank Silva",
+        "popularity": 0.3866,
+        "profile_path": "/sUGPae15svyCDXgUHUx4OMo87Cz.jpg",
+        "credit_id": "63555b5543cd5400826737c9",
+        "department": "Art",
+        "job": "Set Dresser"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1117303,
+        "known_for_department": "Sound",
+        "name": "Alan Splet",
+        "original_name": "Alan Splet",
+        "popularity": 0.3065,
+        "profile_path": "/hDi7aeZgiDZF3KLkbUZHNVJhbex.jpg",
+        "credit_id": "598c68ed92514107bc0117c9",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5628,
+        "known_for_department": "Sound",
+        "name": "Angelo Badalamenti",
+        "original_name": "Angelo Badalamenti",
+        "popularity": 0.319,
+        "profile_path": "/x80I3W87lIfuPn3A3smVrGSA8Bx.jpg",
+        "credit_id": "6657ba3d86feb447e188a668",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2112092,
+        "known_for_department": "Sound",
+        "name": "Ann Kroeber",
+        "original_name": "Ann Kroeber",
+        "popularity": 0.2882,
+        "profile_path": null,
+        "credit_id": "5b7be343c3a3681976010415",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7764,
+        "known_for_department": "Sound",
+        "name": "Richard Hymns",
+        "original_name": "Richard Hymns",
+        "popularity": 0.8039,
+        "profile_path": "/970GjgH2nfqsnEsimqLvLYoYTQn.jpg",
+        "credit_id": "5b7be35e925141020000d3bf",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1406614,
+        "known_for_department": "Sound",
+        "name": "David Parker",
+        "original_name": "David Parker",
+        "popularity": 0.4043,
+        "profile_path": "/bDGLVWQShONQ59fvwKqP6dtFxT5.jpg",
+        "credit_id": "5b7be3ce92514101e400e465",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1081891,
+        "known_for_department": "Directing",
+        "name": "Rob Fruchtman",
+        "original_name": "Rob Fruchtman",
+        "popularity": 0.8112,
+        "profile_path": null,
+        "credit_id": "5b7be3efc3a368196f0112be",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 7069,
+        "known_for_department": "Sound",
+        "name": "Pat Jackson",
+        "original_name": "Pat Jackson",
+        "popularity": 0.2403,
+        "profile_path": null,
+        "credit_id": "5b7be42392514101fb00e507",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3177,
+        "known_for_department": "Sound",
+        "name": "Mark Berger",
+        "original_name": "Mark Berger",
+        "popularity": 0.4036,
+        "profile_path": null,
+        "credit_id": "5b7be39f0e0a267c7d010b3d",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1419906,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Jeff Goodwin",
+        "original_name": "Jeff Goodwin",
+        "popularity": 0.9274,
+        "profile_path": null,
+        "credit_id": "5b7be51092514101eb00fe38",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 959071,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Ronald Leamon",
+        "original_name": "Ronald Leamon",
+        "popularity": 0.5571,
+        "profile_path": null,
+        "credit_id": "5b7be4b20e0a267c7100d730",
+        "department": "Costume & Make-Up",
+        "job": "Costumer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5398,
+        "known_for_department": "Production",
+        "name": "Dino De Laurentiis",
+        "original_name": "Dino De Laurentiis",
+        "popularity": 0.5082,
+        "profile_path": "/AemWmlAEoezGnyJTVP0DYfc0Fmu.jpg",
+        "credit_id": "5c78795b9251412a6647045a",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 5604,
+        "known_for_department": "Production",
+        "name": "Mary Sweeney",
+        "original_name": "Mary Sweeney",
+        "popularity": 0.6563,
+        "profile_path": "/iW3m51sl7zyaLllcwVP6cFCiEZC.jpg",
+        "credit_id": "680e45e38077d25801380ca4",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15806,
+        "known_for_department": "Editing",
+        "name": "Jonathan P. Shaw",
+        "original_name": "Jonathan P. Shaw",
+        "popularity": 0.0782,
+        "profile_path": null,
+        "credit_id": "680e46d43c718e8c5537f12e",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1743909,
+        "known_for_department": "Editing",
+        "name": "Donah Bassett",
+        "original_name": "Donah Bassett",
+        "popularity": 0.188,
+        "profile_path": null,
+        "credit_id": "680e47e95a9b78d27280fa10",
+        "department": "Editing",
+        "job": "Negative Cutter"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1569315,
+        "known_for_department": "Directing",
+        "name": "Rena Sternfeld-Allon",
+        "original_name": "Rena Sternfeld-Allon",
+        "popularity": 0.1336,
+        "profile_path": null,
+        "credit_id": "680e485df97f5cb6b8eaf5d7",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2497428,
+        "known_for_department": "Camera",
+        "name": "Donne Daniels",
+        "original_name": "Donne Daniels",
+        "popularity": 0.0346,
+        "profile_path": null,
+        "credit_id": "680e48bcf97f5cb6b8eaf5f4",
+        "department": "Camera",
+        "job": "Key Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2188698,
+        "known_for_department": "Lighting",
+        "name": "Michael Katz",
+        "original_name": "Michael Katz",
+        "popularity": 0.5517,
+        "profile_path": null,
+        "credit_id": "680e4947f97f5cb6b8eaf62e",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5400178,
+        "known_for_department": "Crew",
+        "name": "Richard Langdon",
+        "original_name": "Richard Langdon",
+        "popularity": 0.0445,
+        "profile_path": null,
+        "credit_id": "680e49d4baac1c5a7d8127d1",
+        "department": "Crew",
+        "job": "Stunt Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5602,
+        "known_for_department": "Directing",
+        "name": "David Lynch",
+        "original_name": "David Lynch",
+        "popularity": 1.5097,
+        "profile_path": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "credit_id": "685f4cb96f3523ed479aed9d",
+        "department": "Writing",
+        "job": "Writer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 793,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Isabella Rossellini wears BLUE VELVET | MUBI Podcast",
+        "key": "FGW2cS96W4k",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2025-09-11T17:25:41.000Z",
+        "id": "6929f47601823e51fe26cd95"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Wanna Go For a Ride?",
+        "key": "7OSjkJxBys8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2025-02-15T17:00:09.000Z",
+        "id": "67b39e7f5aca5a71d29fe698"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Pest Control Scene",
+        "key": "0Ze80Of58l8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2025-02-12T19:00:00.000Z",
+        "id": "67ae02193e4967e13e36e480"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Detective's Daughter",
+        "key": "Op81FXjCbhs",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2025-02-11T19:00:25.000Z",
+        "id": "67abcc2af71a3783e1bb3ee2"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "rAA6imfqMYQ",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2025-02-10T19:00:39.000Z",
+        "id": "67aa4d1f15cf29606eb07d90"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Austin Film Society Trailer",
+        "key": "k8v4-jxOm0s",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2018-12-07T23:12:06.000Z",
+        "id": "669dee46f61d94d17c98cee6"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Rerelease Trailer",
+        "key": "k_BybDB_phY",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2016-03-01T11:38:46.000Z",
+        "id": "651327f78e2ba6014147ad9e"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Richard Linklater Presents: Blue Velvet",
+        "key": "b6kcydk-07o",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2015-04-20T19:34:21.000Z",
+        "id": "669dee4e5dad7438024c50aa"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 793,
+    "keywords": [
+      {
+        "id": 2231,
+        "name": "drug dealer"
+      },
+      {
+        "id": 1415,
+        "name": "small town"
+      },
+      {
+        "id": 459,
+        "name": "sexual obsession"
+      },
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 2334,
+        "name": "nightclub"
+      },
+      {
+        "id": 4075,
+        "name": "ear"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 9332,
+        "name": "psychological abuse"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 14964,
+        "name": "drugs"
+      },
+      {
+        "id": 33699,
+        "name": "policeman"
+      },
+      {
+        "id": 178649,
+        "name": "voyeurism"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 207767,
+        "name": "erotic thriller"
+      },
+      {
+        "id": 325790,
+        "name": "cruel"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 793,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 30
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AO",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AU",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=AZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BE",
+        "free": [
+          {
+            "logo_path": "/gqxv8W54I95K3hNS6UT6sDRe2Az.jpg",
+            "provider_id": 312,
+            "provider_name": "VRT MAX",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BF",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BR",
+        "ads": [
+          {
+            "logo_path": "/jlyafDbXLyNXNNFZbIgB9VrlScW.jpg",
+            "provider_id": 19,
+            "provider_name": "NetMovies",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/9HhIlyFlilVtx0sMTcPbhs5qR31.jpg",
+            "provider_id": 47,
+            "provider_name": "Looke",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 41
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=BZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CA",
+        "free": [
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 53
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CO",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CV",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 10
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CY",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=CZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 130
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=EE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=EG",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=ES",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=FI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 101
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 20
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+            "provider_id": 2141,
+            "provider_name": "MGM Plus Amazon Channel",
+            "display_priority": 104
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 16
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 56
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GI",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=HK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=ID",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=IE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 55
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=IL",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 22
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=IN",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=IS",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 2
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=LT",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=LV",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=ML",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 28
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MY",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=MZ",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=NI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=NL",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/nzjqsR28PVVp5GJAlHtbBArNKqN.jpg",
+            "provider_id": 563,
+            "provider_name": "KPN",
+            "display_priority": 29
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=NO",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PG",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PL",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/mBliLuM0AbkRPGDoVa7IGxwC59b.jpg",
+            "provider_id": 2102,
+            "provider_name": "Premiery Canal+",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PT",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SA",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SG",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 23
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=TC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 15
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=TH",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 3
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=TW",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=TZ",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=UA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=UG",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=US",
+        "ads": [
+          {
+            "logo_path": "/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+            "provider_id": 207,
+            "provider_name": "The Roku Channel",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 356
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 60
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
+            "provider_id": 486,
+            "provider_name": "Spectrum On Demand",
+            "display_priority": 120
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 125
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 34
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 35
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=VE",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=ZA",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/793-blue-velvet/watch?locale=ZW",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      }
+    }
+  }
+}

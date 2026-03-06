@@ -1,0 +1,595 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/kbzoS9HfKmfftOfiX9aSGeUz4Ab.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      }
+    ],
+    "homepage": "",
+    "id": 399426,
+    "imdb_id": "tt5146510",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "\u5f71\u6cd5\u5e2b\u6355\u7269\u5e16",
+    "overview": "For the poor, Edo is Hell on Earth, starving under the rule of Tanuma Okitsugi, corrupt councilor to the shogun. But the courageous vagabond called \u201cKageboshi\u201d (Shadow Avenger), will fight for the common folk, robbing the rich so the people will have rice. Tanuma\u2019s henchmen will hire an evil swordsman to pose as Kageboshi, starting a wave of murder, kidnapping and robbery, searching for two antique sword-guards that will reveal the hiding place of a fortune in buried gold. But who will claim the gold? The poor of Edo, or the conniving Tanuma? Only Kageboshi\u2019s flashing sword, tearing through Tanuma\u2019s bloodthirsty minions, can forestall his wicked schemes.",
+    "popularity": 0.3201,
+    "poster_path": "/vQYvsm3SLH4AYYieAYZAhEk7wt5.jpg",
+    "production_companies": [
+      {
+        "id": 3094,
+        "logo_path": "/vF7iTe9c00UaTnuL9oSpZTXROyC.png",
+        "name": "Shintoho Company",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "1959-04-29",
+    "revenue": 0,
+    "runtime": 85,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "\u65e5\u672c\u8a9e"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Kageb\u00f4shi: The Shadow Avenger",
+    "video": false,
+    "vote_average": 10.0,
+    "vote_count": 1
+  },
+  "credits": {
+    "id": 399426,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 150321,
+        "known_for_department": "Acting",
+        "name": "Kanj\u016br\u014d Arashi",
+        "original_name": "\u5d50\u5bdb\u5bff\u90ce",
+        "popularity": 0.6412,
+        "profile_path": "/odVRTsXJNeSxCsUVtE8nyFpf8mS.jpg",
+        "cast_id": 0,
+        "character": "",
+        "credit_id": "5747778192514124b9000159",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1024335,
+        "known_for_department": "Acting",
+        "name": "Ry\u016bzabur\u014d Nakamura",
+        "original_name": "\u4e2d\u6751\u7adc\u4e09\u90ce",
+        "popularity": 0.3933,
+        "profile_path": "/v326Gwtz9WsPVv131GWJkKUGcHj.jpg",
+        "cast_id": 1,
+        "character": "",
+        "credit_id": "5747778ec3a368567b00008e",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1268149,
+        "known_for_department": "Acting",
+        "name": "Kinuko Obata",
+        "original_name": "\u5c0f\u7560\u7d79\u5b50",
+        "popularity": 1.0946,
+        "profile_path": "/zPJdl106ZxsT5wEXX6EQnDXjnDL.jpg",
+        "cast_id": 8,
+        "character": "",
+        "credit_id": "57477809c3a3685684000088",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1378961,
+        "known_for_department": "Acting",
+        "name": "J\u016bzabur\u014d Akechi",
+        "original_name": "\u660e\u667a\u5341\u4e09\u90ce",
+        "popularity": 1.214,
+        "profile_path": "/f5Icv48kDAq3GLzG2YBhgmdTIrU.jpg",
+        "cast_id": 2,
+        "character": "",
+        "credit_id": "5747779cc3a368567b000092",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 239649,
+        "known_for_department": "Acting",
+        "name": "Ureo Egawa",
+        "original_name": "\u6c5f\u5ddd\u5b87\u793c\u96c4",
+        "popularity": 0.341,
+        "profile_path": "/annpTNa7QYD53lsGi9pW5QeS4my.jpg",
+        "cast_id": 9,
+        "character": "",
+        "credit_id": "57477823c3a368566f000061",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 125012,
+        "known_for_department": "Acting",
+        "name": "Hikosaburo Kataoka",
+        "original_name": "Hikosaburo Kataoka",
+        "popularity": 0.6826,
+        "profile_path": "/eFHgOGid9ldGduXHdQrSJ47C9dV.jpg",
+        "cast_id": 4,
+        "character": "",
+        "credit_id": "574777d492514124a8000062",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1024337,
+        "known_for_department": "Acting",
+        "name": "Noriko Kitazawa",
+        "original_name": "\u5317\u6ca2\u5178\u5b50",
+        "popularity": 1.0935,
+        "profile_path": "/y00jS3xZ9Rq1keTZHmgNHstf8mk.jpg",
+        "cast_id": 7,
+        "character": "",
+        "credit_id": "5747780092514124bd000070",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 118985,
+        "known_for_department": "Acting",
+        "name": "Junko Ikeuchi",
+        "original_name": "\u6c60\u5185\u6df3\u5b50",
+        "popularity": 0.6398,
+        "profile_path": "/6oaMYbLnPpnOeIUEMekO1SbwiOJ.jpg",
+        "cast_id": 6,
+        "character": "",
+        "credit_id": "574777f5c3a368567b0000a7",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1008470,
+        "known_for_department": "Acting",
+        "name": "Takamaru Sasaki",
+        "original_name": "\u4f50\u3005\u6728\u5b5d\u4e38",
+        "popularity": 0.3759,
+        "profile_path": "/A2Z5wU2CYGSPrRgESpwnzISGhx0.jpg",
+        "cast_id": 24,
+        "character": "",
+        "credit_id": "5b67ea129251412168048e5a",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93100,
+        "known_for_department": "Acting",
+        "name": "Toshio Hosokawa",
+        "original_name": "\u7d30\u5ddd\u4fca\u592b",
+        "popularity": 0.2551,
+        "profile_path": null,
+        "cast_id": 10,
+        "character": "",
+        "credit_id": "57477833c3a368567b0000ba",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1590684,
+        "known_for_department": "Acting",
+        "name": "Jushiro Kobayashi",
+        "original_name": "\u5c0f\u6797\u91cd\u56db\u90ce",
+        "popularity": 0.3219,
+        "profile_path": null,
+        "cast_id": 25,
+        "character": "",
+        "credit_id": "5b67ea300e0a267eed0c7747",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1587995,
+        "known_for_department": "Acting",
+        "name": "Gen Funabashi",
+        "original_name": "\u821f\u6a4b\u5143",
+        "popularity": 1.0522,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "",
+        "credit_id": "5b67ea380e0a267ef80c09bb",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1530306,
+        "known_for_department": "Acting",
+        "name": "Teruo Wakatsuki",
+        "original_name": "Teruo Wakatsuki",
+        "popularity": 0.1398,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "",
+        "credit_id": "5b67ea3e0e0a267ee50b831e",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 136359,
+        "known_for_department": "Acting",
+        "name": "Arata Shibata",
+        "original_name": "\u829d\u7530\u65b0",
+        "popularity": 0.8545,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "",
+        "credit_id": "5b67ea440e0a267eed0c776b",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 134296,
+        "known_for_department": "Acting",
+        "name": "Ichiro Namiki",
+        "original_name": "\u4e26\u6728\u4e00\u8def",
+        "popularity": 0.1743,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "",
+        "credit_id": "5b67ea4f0e0a267ef60bafbf",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 551803,
+        "known_for_department": "Acting",
+        "name": "K\u014dtar\u014d Sugie",
+        "original_name": "\u6749\u6c5f\u5ee3\u592a\u90ce",
+        "popularity": 0.2613,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "",
+        "credit_id": "5b67ea6a0e0a267ef10bde33",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1587690,
+        "known_for_department": "Acting",
+        "name": "Jotaro Yuki",
+        "original_name": "Jotaro Yuki",
+        "popularity": 1.3464,
+        "profile_path": null,
+        "cast_id": 31,
+        "character": "",
+        "credit_id": "5b67ea7092514140680b5f5e",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1187649,
+        "known_for_department": "Acting",
+        "name": "Tomohiko \u00d4tani",
+        "original_name": "Tomohiko \u00d4tani",
+        "popularity": 0.4801,
+        "profile_path": null,
+        "cast_id": 32,
+        "character": "",
+        "credit_id": "5b67ea750e0a267ef10bde3b",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1587963,
+        "known_for_department": "Acting",
+        "name": "Koji Hirose",
+        "original_name": "\u5e83\u702c\u5eb7\u6cbb",
+        "popularity": 1.6415,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "",
+        "credit_id": "5b67ea80c3a36818860e39f9",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1083308,
+        "known_for_department": "Acting",
+        "name": "Kan Sugi",
+        "original_name": "\u6749\u5bdb",
+        "popularity": 1.0023,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "",
+        "credit_id": "5b67ea87c3a36818860e3a08",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1585646,
+        "known_for_department": "Acting",
+        "name": "Junko Uozumi",
+        "original_name": "\u9b5a\u4f4f\u7d14\u5b50",
+        "popularity": 1.3993,
+        "profile_path": "/irwF3MDXTzf483AmiVmuRXyLM8V.jpg",
+        "cast_id": 35,
+        "character": "",
+        "credit_id": "5b67ea8c925141406a0b8a9a",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1029792,
+        "known_for_department": "Acting",
+        "name": "K\u014dtar\u014d Band\u014d",
+        "original_name": "\u5742\u6771\u597d\u592a\u90ce",
+        "popularity": 1.2261,
+        "profile_path": "/lh72nyUk4FoinFSqDAbBOL311y2.jpg",
+        "cast_id": 5,
+        "character": "",
+        "credit_id": "574777e492514124ae00005d",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 18612,
+        "known_for_department": "Acting",
+        "name": "Tadao Takashima",
+        "original_name": "\u9ad8\u5cf6\u5fe0\u592b",
+        "popularity": 0.5114,
+        "profile_path": "/rfncG3rr2W1orpjnPYlaKFolIHO.jpg",
+        "cast_id": 11,
+        "character": "",
+        "credit_id": "5747784792514124b0000093",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1493731,
+        "known_for_department": "Acting",
+        "name": "Eiji Wakasugi",
+        "original_name": "Eiji Wakasugi",
+        "popularity": 1.0245,
+        "profile_path": null,
+        "cast_id": 3,
+        "character": "",
+        "credit_id": "574777a892514124ae000053",
+        "order": 23
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 89132,
+        "known_for_department": "Production",
+        "name": "Mitsugi Okura",
+        "original_name": "\u5927\u8535\u8ca2",
+        "popularity": 0.0741,
+        "profile_path": null,
+        "credit_id": "5747785dc3a368567e000075",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 239551,
+        "known_for_department": "Directing",
+        "name": "Nobuo Nakagawa",
+        "original_name": "\u4e2d\u5ddd\u4fe1\u592b",
+        "popularity": 1.0209,
+        "profile_path": "/rIrLZ8N0nlclzEmY5qNKP6boO2R.jpg",
+        "credit_id": "57477867c3a368567100007a",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1537921,
+        "known_for_department": "Art",
+        "name": "Keiji Miyazawa",
+        "original_name": "Keiji Miyazawa",
+        "popularity": 0.9364,
+        "profile_path": null,
+        "credit_id": "5b67e97c925141406a0b8951",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1024331,
+        "known_for_department": "Writing",
+        "name": "Jiro Fujishima",
+        "original_name": "Jiro Fujishima",
+        "popularity": 0.4875,
+        "profile_path": null,
+        "credit_id": "5b67e935c3a36818990aea73",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 57726,
+        "known_for_department": "Camera",
+        "name": "Tadashi Nishimoto",
+        "original_name": "Tadashi Nishimoto",
+        "popularity": 0.6093,
+        "profile_path": "/fXkAYWr4UoWJbHian8Aa5ojTxlD.jpg",
+        "credit_id": "5b67e95dc3a36818970b591b",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1601073,
+        "known_for_department": "Sound",
+        "name": "Haruo Numata",
+        "original_name": "Haruo Numata",
+        "popularity": 0.3573,
+        "profile_path": null,
+        "credit_id": "5b67e970c3a368188f0bf3cd",
+        "department": "Sound",
+        "job": "Sound Recordist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1589290,
+        "known_for_department": "Lighting",
+        "name": "Shigeo Orimo",
+        "original_name": "Shigeo Orimo",
+        "popularity": 0.3291,
+        "profile_path": null,
+        "credit_id": "5b67e968925141406a0b892a",
+        "department": "Lighting",
+        "job": "Lighting Technician"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 240008,
+        "known_for_department": "Directing",
+        "name": "Yoshihiro Ishikawa",
+        "original_name": "\u77f3\u5ddd\u7fa9\u5bdb",
+        "popularity": 0.3935,
+        "profile_path": null,
+        "credit_id": "5b67e99c0e0a267eed0c7650",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 240008,
+        "known_for_department": "Directing",
+        "name": "Yoshihiro Ishikawa",
+        "original_name": "\u77f3\u5ddd\u7fa9\u5bdb",
+        "popularity": 0.3935,
+        "profile_path": null,
+        "credit_id": "5b67e92f925141406a0b88de",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1602608,
+        "known_for_department": "Editing",
+        "name": "Shin Nagata",
+        "original_name": "Shin Nagata",
+        "popularity": 0.4683,
+        "profile_path": null,
+        "credit_id": "5b67e9a4c3a36818940df2fa",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1616148,
+        "known_for_department": "Sound",
+        "name": "Rokur\u014d Hara",
+        "original_name": "\u539f\u516d\u6717",
+        "popularity": 0.6905,
+        "profile_path": null,
+        "credit_id": "5b67e98592514140560a7ce9",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1194768,
+        "known_for_department": "Writing",
+        "name": "Rokuhei Susukita",
+        "original_name": "\u5bff\u3005\u559c\u591a\u5442\u4e5d\u5e73",
+        "popularity": 1.2513,
+        "profile_path": null,
+        "credit_id": "5b67e9290e0a267eed0c755c",
+        "department": "Writing",
+        "job": "Original Story"
+      }
+    ]
+  },
+  "videos": {
+    "id": 399426,
+    "results": []
+  },
+  "keywords": {
+    "id": 399426,
+    "keywords": [
+      {
+        "id": 15060,
+        "name": "period drama"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 399426,
+    "results": {
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/399426/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      }
+    }
+  }
+}
