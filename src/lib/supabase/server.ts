@@ -1,4 +1,4 @@
-import { createServerClient } from '@supabase/ssr'
+import { createServerClient, parseCookieHeader } from '@supabase/ssr'
 import type { AstroCookies } from 'astro'
 
 export function createSupabaseServerClient(cookies: AstroCookies, request?: Request) {
@@ -10,11 +10,10 @@ export function createSupabaseServerClient(cookies: AstroCookies, request?: Requ
         getAll() {
           const raw = request?.headers?.get('cookie') ??
                       (cookies as any)._request?.headers?.get('cookie') ?? ''
-          if (!raw) return []
-          return raw.split(';').map((c: string) => {
-            const [name, ...rest] = c.trim().split('=')
-            return { name: name.trim(), value: decodeURIComponent(rest.join('=').trim()) }
-          })
+          return parseCookieHeader(raw).map(c => ({
+            name: c.name,
+            value: c.value ?? '',
+          }))
         },
         setAll(cookiesToSet) {
           cookiesToSet.forEach(({ name, value, options }) => {
@@ -22,8 +21,8 @@ export function createSupabaseServerClient(cookies: AstroCookies, request?: Requ
               ...options,
               path: '/',
               sameSite: 'lax',
-              httpOnly: false,
-              secure: false,
+              httpOnly: true,
+              secure: import.meta.env.PROD,
             })
           })
         },

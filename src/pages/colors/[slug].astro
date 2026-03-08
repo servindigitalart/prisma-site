@@ -99,11 +99,46 @@ const posterRow2 = top10.slice(5, 10);
 
 const TMDB_IMG = 'https://image.tmdb.org/t/p/w342';
 
-const pageTitle = `${doctrine.name} — Prisma Color`;
-const pageDescription = doctrine.cultural_context;
+const colorDisplayName = doctrine.name;
+const colorMood = doctrine.cultural_context ?? '';
+const topFilmNames = allFilms.slice(0, 3).map(f => f.title);
+const topFilmList = topFilmNames.length ? ` Incluye ${topFilmNames.join(', ')} y más.` : '';
+
+const pageTitle = `${colorDisplayName} — Paleta PRISMA | Cine de Autor`;
+const pageDescription = `Las mejores películas de cine de autor clasificadas como ${colorDisplayName} en PRISMA. ${colorMood}${topFilmList}`.slice(0, 160);
+
+const colorOgImage = allFilms.find(f => f.tmdb_poster_path)?.tmdb_poster_path
+  ? `https://image.tmdb.org/t/p/w780${allFilms.find(f => f.tmdb_poster_path)!.tmdb_poster_path}`
+  : undefined;
+
+const SITE = 'https://prisma.film';
+const colorJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageTitle,
+  description: pageDescription,
+  url: `${SITE}/colors/${slug}`,
+  numberOfItems: allFilms.length,
+  itemListElement: allFilms.slice(0, 10).map((film, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Movie',
+      name: film.title,
+      dateCreated: film.year?.toString(),
+      url: `${SITE}/films/${film.id.replace(/^work_/, '')}`,
+    },
+  })),
+};
+
+const colorBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Colores', url: `${SITE}/colors` },
+  { name: colorDisplayName, url: `${SITE}/colors/${slug}` },
+];
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<BaseLayout title={pageTitle} description={pageDescription} ogImage={colorOgImage} jsonLd={colorJsonLd} breadcrumbs={colorBreadcrumbs}>
   <!-- Color Hero -->
   <section
     class="color-hero"
@@ -111,7 +146,7 @@ const pageDescription = doctrine.cultural_context;
   >
     <div class="color-hero__wash" />
     <div class="color-hero__inner site-container">
-      <div class="color-hero__overline">Prisma Palette</div>
+      <div class="color-hero__overline">Paleta Prisma</div>
       <h1 class="color-hero__name">{doctrine.name}</h1>
       <div class="color-hero__hex">{doctrine.hex}</div>
       <p class="color-hero__context">{doctrine.cultural_context}</p>
@@ -131,7 +166,7 @@ const pageDescription = doctrine.cultural_context;
         <p class="color-notes__text">{doctrine.cinematographic_notes}</p>
         {doctrine.cinematographer_signatures.length > 0 && (
           <div class="color-notes__sigs">
-            <span class="color-notes__sigs-label">Associated cinematographers</span>
+            <span class="color-notes__sigs-label">Cinefotógrafos asociados</span>
             <span class="color-notes__sigs-names">{doctrine.cinematographer_signatures.join(' · ')}</span>
           </div>
         )}
@@ -209,8 +244,8 @@ const pageDescription = doctrine.cultural_context;
     <section class="color-films">
       <div class="site-container">
         <div class="color-films__header">
-          <h2 class="color-films__heading">Films in this color</h2>
-          <span class="color-films__count">{allFilms.length} works</span>
+          <h2 class="color-films__heading">Películas en este color</h2>
+          <span class="color-films__count">{allFilms.length} obras</span>
         </div>
 
         {films.canon.length > 0 && (
@@ -307,7 +342,7 @@ const pageDescription = doctrine.cultural_context;
   ) : (
     <section class="color-films">
       <div class="site-container">
-        <p class="color-films__empty">No films assigned to this color yet.</p>
+        <p class="color-films__empty">Aún no hay películas asignadas a este color.</p>
       </div>
     </section>
   )}

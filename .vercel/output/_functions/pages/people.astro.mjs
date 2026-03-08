@@ -1,7 +1,7 @@
 /* empty css                                  */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute } from '../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../chunks/BaseLayout_QHw3iGXw.mjs';
+import { $ as $$BaseLayout } from '../chunks/BaseLayout_CKaj1kxH.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../chunks/client_DzNyPYKT.mjs';
 /* empty css                                 */
 export { renderers } from '../renderers.mjs';
@@ -12,13 +12,13 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   Astro2.self = $$Index;
   const TMDB_BASE = "https://image.tmdb.org/t/p/w185";
   const TABS = [
-    { id: "director", label: "Directors", dbContext: "director", genderFilter: null },
-    { id: "cinematography", label: "Cinematography", dbContext: "cinematography", genderFilter: null },
-    { id: "writer", label: "Writers", dbContext: "writer", genderFilter: null },
-    { id: "actor", label: "Actors", dbContext: "actor", genderFilter: [2, 0] },
-    { id: "actress", label: "Actresses", dbContext: "actor", genderFilter: [1, 3] },
-    { id: "editor", label: "Editors", dbContext: "editor", genderFilter: null },
-    { id: "composer", label: "Composers", dbContext: "composer", genderFilter: null }
+    { id: "director", label: "Directores", dbContext: "director", genderFilter: null },
+    { id: "cinematography", label: "Fotograf\xEDa", dbContext: "cinematography", genderFilter: null },
+    { id: "writer", label: "Guionistas", dbContext: "writer", genderFilter: null },
+    { id: "actor", label: "Actores", dbContext: "actor", genderFilter: [2, 0] },
+    { id: "actress", label: "Actrices", dbContext: "actor", genderFilter: [1, 3] },
+    { id: "editor", label: "Editores", dbContext: "editor", genderFilter: null },
+    { id: "composer", label: "Compositores", dbContext: "composer", genderFilter: null }
   ];
   const activeTabId = Astro2.url.searchParams.get("role") ?? "director";
   const activeTab = TABS.find((t) => t.id === activeTabId) ?? TABS[0];
@@ -63,8 +63,30 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
       }
     }
   }
-  const pageTitle = "Filmmakers \u2014 PRISMA";
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": pageTitle, "description": "Rankings of the most decorated directors, cinematographers, actors, and key creatives in the PRISMA catalog.", "data-astro-cid-z5amknga": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="people-index page-enter" data-astro-cid-z5amknga> <!-- Header --> <section class="people-header" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> <h1 class="people-header__title" data-astro-cid-z5amknga>Filmmakers</h1> <p class="people-header__subtitle" data-astro-cid-z5amknga>Ranked by awards, cultural weight, and prestige</p> </div> </section> <!-- Tab nav --> <nav class="people-tabs" aria-label="Role filter" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> <div class="people-tabs__inner" data-astro-cid-z5amknga> ${TABS.map((tab) => renderTemplate`<a${addAttribute(`/people?role=${tab.id}`, "href")}${addAttribute(`people-tabs__tab ${activeTabId === tab.id ? "people-tabs__tab--active" : ""}`, "class")} data-astro-cid-z5amknga> ${tab.label} </a>`)} </div> </div> </nav> <!-- Ranked list --> <section class="people-rankings" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> ${rankings.length === 0 ? renderTemplate`<p class="people-rankings__empty" data-astro-cid-z5amknga>No rankings available for this category.</p>` : renderTemplate`<ol class="rankings-list"${addAttribute(`${activeTab.label} rankings`, "aria-label")} data-astro-cid-z5amknga> ${rankings.map((person) => {
+  const pageTitle = "Cineastas \u2014 PRISMA";
+  const pageDescription = "Rankings de los directores, cinefot\xF3grafos, actores y creativos m\xE1s reconocidos del cat\xE1logo PRISMA.";
+  const SITE = "https://prisma.film";
+  const peopleBreadcrumbs = [
+    { name: "PRISMA", url: SITE },
+    { name: "Cineastas", url: `${SITE}/people` }
+  ];
+  const peopleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Cineastas \u2014 Rankings de Directores, Actores y Creativos",
+    description: pageDescription,
+    url: `${SITE}/people`,
+    itemListElement: rankings.slice(0, 20).map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Person",
+        name: p.name,
+        url: `${SITE}/people/${p.slug}`
+      }
+    }))
+  };
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": pageTitle, "description": pageDescription, "jsonLd": peopleJsonLd, "breadcrumbs": peopleBreadcrumbs, "data-astro-cid-z5amknga": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="people-index page-enter" data-astro-cid-z5amknga> <!-- Header --> <section class="people-header" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> <h1 class="people-header__title" data-astro-cid-z5amknga>Cineastas</h1> <p class="people-header__subtitle" data-astro-cid-z5amknga>Clasificados por premios, peso cultural y prestigio</p> </div> </section> <!-- Tab nav --> <nav class="people-tabs" aria-label="Filtrar por rol" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> <div class="people-tabs__inner" data-astro-cid-z5amknga> ${TABS.map((tab) => renderTemplate`<a${addAttribute(`/people?role=${tab.id}`, "href")}${addAttribute(`people-tabs__tab ${activeTabId === tab.id ? "people-tabs__tab--active" : ""}`, "class")} data-astro-cid-z5amknga> ${tab.label} </a>`)} </div> </div> </nav> <!-- Ranked list --> <section class="people-rankings" data-astro-cid-z5amknga> <div class="site-container" data-astro-cid-z5amknga> ${rankings.length === 0 ? renderTemplate`<p class="people-rankings__empty" data-astro-cid-z5amknga>No hay rankings disponibles para esta categoría.</p>` : renderTemplate`<ol class="rankings-list"${addAttribute(`${activeTab.label} rankings`, "aria-label")} data-astro-cid-z5amknga> ${rankings.map((person) => {
     const barWidth = Math.max(4, Math.round(person.score / maxScore * 120));
     const photoUrl = person.profilePath ? `${TMDB_BASE}${person.profilePath}` : null;
     return renderTemplate`<li class="rankings-item" data-astro-cid-z5amknga> <span class="rankings-item__rank"${addAttribute(`Rank ${person.rank}`, "aria-label")} data-astro-cid-z5amknga>

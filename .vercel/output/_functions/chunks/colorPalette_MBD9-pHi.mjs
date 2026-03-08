@@ -28,12 +28,12 @@ function isLightColor(colorId) {
 function formatRole(role) {
   const map = {
     director: "Director",
-    cinematography: "Cinematography",
-    actor: "Cast",
-    writer: "Writer",
+    cinematography: "Fotografía",
+    actor: "Reparto",
+    writer: "Guionista",
     editor: "Editor",
-    composer: "Composer",
-    production_design: "Production Design"
+    composer: "Compositor",
+    production_design: "Dirección de Arte"
   };
   return map[role] ?? role;
 }

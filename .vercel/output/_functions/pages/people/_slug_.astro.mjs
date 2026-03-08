@@ -1,8 +1,8 @@
 /* empty css                                     */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute, o as Fragment } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_QHw3iGXw.mjs';
-import { f as formatRole, g as getPaletteEntry } from '../../chunks/colorPalette_CcE_HP33.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { f as formatRole, g as getPaletteEntry } from '../../chunks/colorPalette_MBD9-pHi.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
@@ -90,6 +90,91 @@ async function loadPersonBySlugAsync(slug) {
   return loadPersonFromFilesystem(slug);
 }
 
+const SITE_URL = "https://prisma.film";
+const TMDB_IMAGE = "https://image.tmdb.org/t/p";
+const ROLE_LABELS = {
+  director: "director/a",
+  cinematography: "director/a de fotografía",
+  actor: "actor/actriz",
+  writer: "guionista",
+  editor: "editor/a",
+  composer: "compositor/a",
+  production_design: "director/a de arte"
+};
+function buildProfileUrl(profilePath) {
+  if (!profilePath) return null;
+  return `${TMDB_IMAGE}/w500${profilePath}`;
+}
+function buildDescription(input, primaryRole) {
+  if (input.bio) {
+    return input.bio.length > 155 ? input.bio.slice(0, 152) + "…" : input.bio;
+  }
+  const roleLabel = primaryRole ? ROLE_LABELS[primaryRole] ?? "cineasta" : "cineasta";
+  const filmCount = input.filmography.length;
+  const nat = input.nationality?.length ? ` (${input.nationality.join(", ")})` : "";
+  return `${input.name}${nat}, ${roleLabel} con ${filmCount} película${filmCount !== 1 ? "s" : ""} en el catálogo PRISMA.`;
+}
+function buildJsonLd(input, description, profileUrl) {
+  const personSlug = input.id.replace(/^person_/, "");
+  const personUrl = `${SITE_URL}/people/${personSlug}`;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: input.name,
+    url: personUrl,
+    description
+  };
+  if (profileUrl) {
+    schema.image = profileUrl;
+  }
+  if (input.nationality?.length) {
+    schema.nationality = input.nationality.map((n) => ({
+      "@type": "Country",
+      name: n
+    }));
+  }
+  if (input.birth_year) {
+    schema.birthDate = String(input.birth_year);
+  }
+  if (input.death_year) {
+    schema.deathDate = String(input.death_year);
+  }
+  const sameAs = [];
+  if (input.imdb_id) {
+    sameAs.push(`https://www.imdb.com/name/${input.imdb_id}/`);
+  }
+  if (input.wikidata_id) {
+    sameAs.push(`https://www.wikidata.org/wiki/${input.wikidata_id}`);
+  }
+  if (sameAs.length) {
+    schema.sameAs = sameAs;
+  }
+  const topWorks = input.filmography.filter((e) => e.role === "director").slice(0, 5);
+  if (topWorks.length === 0) {
+    topWorks.push(...input.filmography.slice(0, 5));
+  }
+  if (topWorks.length) {
+    schema.knowsAbout = topWorks.map((e) => ({
+      "@type": "Movie",
+      name: e.work.title,
+      dateCreated: e.work.year ? String(e.work.year) : void 0
+    }));
+  }
+  return schema;
+}
+function buildPersonSeo(input, primaryRole) {
+  const profileUrl = buildProfileUrl(input.profile_path);
+  const description = buildDescription(input, primaryRole);
+  const ogImage = profileUrl ?? `${SITE_URL}/og-default.jpg`;
+  return {
+    title: `${input.name} — PRISMA`,
+    description,
+    ogImage,
+    ogType: "profile",
+    jsonLd: buildJsonLd(input, description, profileUrl)
+  };
+}
+
 const $$Astro = createAstro("https://prisma.film");
 const $$slug = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
@@ -114,8 +199,29 @@ const $$slug = createComponent(async ($$result, $$props, $$slots) => {
   const filmography = [...person.filmography].sort(
     (a, b) => (b.work.year ?? 0) - (a.work.year ?? 0)
   );
-  const pageTitle = `${person.name} \u2014 PRISMA`;
+  `${person.name} \u2014 PRISMA`;
   const nationalities = (person.nationality ?? []).join(", ");
+  const personSeo = buildPersonSeo(
+    {
+      name: person.name,
+      id: "id" in person ? person.id : `person_${slug}`,
+      bio: person.bio ?? null,
+      nationality: person.nationality,
+      birth_year: person.birth_year ?? null,
+      death_year: person.death_year ?? null,
+      profile_path: person.profile_path ?? null,
+      imdb_id: "imdb_id" in person ? person.imdb_id : null,
+      wikidata_id: "wikidata_id" in person ? person.wikidata_id : null,
+      filmography: person.filmography
+    },
+    primaryRole
+  );
+  const SITE = "https://prisma.film";
+  const personBreadcrumbs = [
+    { name: "PRISMA", url: SITE },
+    { name: "Cineastas", url: `${SITE}/people` },
+    { name: person.name, url: `${SITE}/people/${slug}` }
+  ];
   let personRanking = null;
   if (isSupabaseConfigured()) {
     try {
@@ -175,8 +281,8 @@ const $$slug = createComponent(async ($$result, $$props, $$slots) => {
   if (person.profile_path) {
     profileUrl = `${TMDB_BASE}${person.profile_path}`;
   }
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": pageTitle, "data-astro-cid-o2ocmoue": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="person-page page-enter" data-astro-cid-o2ocmoue> <!-- ── Header ── --> <section class="person-header" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <div class="person-header__inner" data-astro-cid-o2ocmoue> <div class="person-header__avatar" aria-hidden="true" data-astro-cid-o2ocmoue> ${profileUrl ? renderTemplate`<img${addAttribute(profileUrl, "src")}${addAttribute(person.name, "alt")} class="person-header__photo" data-astro-cid-o2ocmoue>` : person.name.split(" ").slice(0, 2).map((w) => w[0]?.toUpperCase() ?? "").join("")} </div> <div class="person-header__info" data-astro-cid-o2ocmoue> ${primaryRole && renderTemplate`<div class="person-header__role-label" data-astro-cid-o2ocmoue> <span class="role-badge" data-astro-cid-o2ocmoue>${formatRole(primaryRole)}</span> </div>`} ${personRanking && renderTemplate`<div class="person-ranking-badge" data-astro-cid-o2ocmoue> <span class="person-ranking-badge__rank" data-astro-cid-o2ocmoue>#${personRanking.rank}</span> <a${addAttribute(`/people?role=${personRanking.context}`, "href")} class="person-ranking-badge__role" data-astro-cid-o2ocmoue> ${formatRole(personRanking.context)} </a> <span class="person-ranking-badge__sep" data-astro-cid-o2ocmoue>·</span> <span class="person-ranking-badge__score" data-astro-cid-o2ocmoue>${personRanking.score.toFixed(1)} pts</span> </div>`} <h1 class="person-header__name" data-astro-cid-o2ocmoue>${person.name}</h1> <div class="person-header__meta" data-astro-cid-o2ocmoue> ${person.birth_year && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>
-b. ${person.birth_year}${person.death_year ? ` \u2014 d. ${person.death_year}` : ""} </span>`} ${nationalities && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>${nationalities}</span>`} ${filmography.length > 0 && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>${filmography.length} works</span>`} </div> </div> </div> </div> </section> <!-- ── Biography ── --> ${person.bio && renderTemplate`<section class="person-bio" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> ${person.bio.split("\n\n").map((para) => renderTemplate`<p class="person-bio__para" data-astro-cid-o2ocmoue>${para}</p>`)} </div> </section>`} <!-- ── Awards & Recognition ── --> ${(personWins.length > 0 || personNoms.length > 0) && renderTemplate`<section class="person-awards" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <h2 class="person-awards__heading" data-astro-cid-o2ocmoue>Awards &amp; Recognition</h2> ${personWins.length > 0 && renderTemplate`<div class="person-awards__wins" data-astro-cid-o2ocmoue> ${personWins.map((wa) => {
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": personSeo.title, "description": personSeo.description, "ogImage": personSeo.ogImage, "ogType": personSeo.ogType, "jsonLd": personSeo.jsonLd, "breadcrumbs": personBreadcrumbs, "data-astro-cid-o2ocmoue": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="person-page page-enter" data-astro-cid-o2ocmoue> <!-- ── Header ── --> <section class="person-header" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <div class="person-header__inner" data-astro-cid-o2ocmoue> <div class="person-header__avatar" aria-hidden="true" data-astro-cid-o2ocmoue> ${profileUrl ? renderTemplate`<img${addAttribute(profileUrl, "src")}${addAttribute(person.name, "alt")} class="person-header__photo" data-astro-cid-o2ocmoue>` : person.name.split(" ").slice(0, 2).map((w) => w[0]?.toUpperCase() ?? "").join("")} </div> <div class="person-header__info" data-astro-cid-o2ocmoue> ${primaryRole && renderTemplate`<div class="person-header__role-label" data-astro-cid-o2ocmoue> <span class="role-badge" data-astro-cid-o2ocmoue>${formatRole(primaryRole)}</span> </div>`} ${personRanking && renderTemplate`<div class="person-ranking-badge" data-astro-cid-o2ocmoue> <span class="person-ranking-badge__rank" data-astro-cid-o2ocmoue>#${personRanking.rank}</span> <a${addAttribute(`/people?role=${personRanking.context}`, "href")} class="person-ranking-badge__role" data-astro-cid-o2ocmoue> ${formatRole(personRanking.context)} </a> <span class="person-ranking-badge__sep" data-astro-cid-o2ocmoue>·</span> <span class="person-ranking-badge__score" data-astro-cid-o2ocmoue>${personRanking.score.toFixed(1)} pts</span> </div>`} <h1 class="person-header__name" data-astro-cid-o2ocmoue>${person.name}</h1> <div class="person-header__meta" data-astro-cid-o2ocmoue> ${person.birth_year && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>
+b. ${person.birth_year}${person.death_year ? ` \u2014 d. ${person.death_year}` : ""} </span>`} ${nationalities && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>${nationalities}</span>`} ${filmography.length > 0 && renderTemplate`<span class="person-header__meta-item" data-astro-cid-o2ocmoue>${filmography.length} obras</span>`} </div> </div> </div> </div> </section> <!-- ── Biography ── --> ${person.bio && renderTemplate`<section class="person-bio" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> ${person.bio.split("\n\n").map((para) => renderTemplate`<p class="person-bio__para" data-astro-cid-o2ocmoue>${para}</p>`)} </div> </section>`} <!-- ── Awards & Recognition ── --> ${(personWins.length > 0 || personNoms.length > 0) && renderTemplate`<section class="person-awards" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <h2 class="person-awards__heading" data-astro-cid-o2ocmoue>Premios y Reconocimientos</h2> ${personWins.length > 0 && renderTemplate`<div class="person-awards__wins" data-astro-cid-o2ocmoue> ${personWins.map((wa) => {
     const color = awardTierColor(wa);
     const href = festHref(wa);
     const logoUrl = getFestivalLogoUrl(wa.awards.festivals?.logo_path ?? null);
@@ -189,12 +295,12 @@ b. ${person.birth_year}${person.death_year ? ` \u2014 d. ${person.death_year}` :
     const filmSlug = wa.work_id.replace(/^work_/, "");
     const href = festHref(wa);
     return renderTemplate`<li class="person-nom-row" data-astro-cid-o2ocmoue> <span class="person-nom-row__name" data-astro-cid-o2ocmoue>${wa.awards.name}</span> <span class="person-nom-row__sep" aria-hidden="true" data-astro-cid-o2ocmoue>·</span> ${filmTitle && renderTemplate`${renderComponent($$result2, "Fragment", Fragment, { "data-astro-cid-o2ocmoue": true }, { "default": async ($$result3) => renderTemplate` <a${addAttribute(`/films/${filmSlug}`, "href")} class="person-nom-row__film" data-astro-cid-o2ocmoue>${filmTitle}</a> <span class="person-nom-row__sep" aria-hidden="true" data-astro-cid-o2ocmoue>·</span> ` })}`} ${href ? renderTemplate`<a${addAttribute(href, "href")} class="person-nom-row__fest" data-astro-cid-o2ocmoue>${festName(wa)}</a>` : renderTemplate`<span class="person-nom-row__fest" data-astro-cid-o2ocmoue>${festName(wa)}</span>`} ${wa.year && renderTemplate`<span class="person-nom-row__year" data-astro-cid-o2ocmoue>${wa.year}</span>`} </li>`;
-  })} </ul>`} </div> </section>`} <!-- ── Color signature ── --> ${topColors.length > 0 && renderTemplate`<section class="person-colors" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <div class="person-colors__inner" data-astro-cid-o2ocmoue> <div class="person-colors__header" data-astro-cid-o2ocmoue> <h2 class="person-colors__heading" data-astro-cid-o2ocmoue>Visual Identity</h2> <p class="person-colors__sub" data-astro-cid-o2ocmoue>Colors recurring across their filmography</p> </div> <div class="person-colors__signature" data-astro-cid-o2ocmoue> ${topColors.map(([colorId, count]) => {
+  })} </ul>`} </div> </section>`} <!-- ── Color signature ── --> ${topColors.length > 0 && renderTemplate`<section class="person-colors" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <div class="person-colors__inner" data-astro-cid-o2ocmoue> <div class="person-colors__header" data-astro-cid-o2ocmoue> <h2 class="person-colors__heading" data-astro-cid-o2ocmoue>Identidad Visual</h2> <p class="person-colors__sub" data-astro-cid-o2ocmoue>Colores recurrentes a lo largo de su filmografía</p> </div> <div class="person-colors__signature" data-astro-cid-o2ocmoue> ${topColors.map(([colorId, count]) => {
     const p = getPaletteEntry(colorId);
     if (!p) return null;
     const pct = Math.round(count / filmography.length * 100);
-    return renderTemplate`<a${addAttribute(`/colors/${colorId}`, "href")} class="person-color-item" data-astro-cid-o2ocmoue> <div class="person-color-item__bar"${addAttribute(`background: ${p.hex}; height: ${Math.max(pct * 1.5, 12)}px;`, "style")}${addAttribute(`${count} films`, "title")} data-astro-cid-o2ocmoue></div> <span class="person-color-item__name" data-astro-cid-o2ocmoue>${p.name}</span> <span class="person-color-item__count" data-astro-cid-o2ocmoue>${count}</span> </a>`;
-  })} </div> </div> </div> </section>`} <!-- ── Filmography ── --> ${filmography.length > 0 && renderTemplate`<section class="person-filmography" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <h2 class="person-filmography__heading" data-astro-cid-o2ocmoue>Filmography</h2> <div class="person-filmography__list" data-astro-cid-o2ocmoue> ${filmography.map((entry) => {
+    return renderTemplate`<a${addAttribute(`/colors/${colorId}`, "href")} class="person-color-item" data-astro-cid-o2ocmoue> <div class="person-color-item__bar"${addAttribute(`background: ${p.hex}; height: ${Math.max(pct * 1.5, 12)}px;`, "style")}${addAttribute(`${count} pel\xEDculas`, "title")} data-astro-cid-o2ocmoue></div> <span class="person-color-item__name" data-astro-cid-o2ocmoue>${p.name}</span> <span class="person-color-item__count" data-astro-cid-o2ocmoue>${count}</span> </a>`;
+  })} </div> </div> </div> </section>`} <!-- ── Filmography ── --> ${filmography.length > 0 && renderTemplate`<section class="person-filmography" data-astro-cid-o2ocmoue> <div class="site-container" data-astro-cid-o2ocmoue> <h2 class="person-filmography__heading" data-astro-cid-o2ocmoue>Filmografía</h2> <div class="person-filmography__list" data-astro-cid-o2ocmoue> ${filmography.map((entry) => {
     const filmSlug = entry.work.id.replace(/^work_/, "");
     const colorPalette = entry.color ? getPaletteEntry(entry.color.color_iconico) : null;
     return renderTemplate`<a${addAttribute(`/films/${filmSlug}`, "href")} class="filmography-item" data-astro-cid-o2ocmoue> <div class="filmography-item__color-strip"${addAttribute(colorPalette ? `background: ${colorPalette.hex}` : "background: var(--surface-border)", "style")} data-astro-cid-o2ocmoue></div> <div class="filmography-item__year" data-astro-cid-o2ocmoue> ${entry.work.year ?? "\u2014"} </div> <div class="filmography-item__info" data-astro-cid-o2ocmoue> <span class="filmography-item__title" data-astro-cid-o2ocmoue>${entry.work.title}</span> <span class="role-badge" data-astro-cid-o2ocmoue>${formatRole(entry.role)}</span> </div> ${colorPalette && renderTemplate`<div class="filmography-item__color-name" data-astro-cid-o2ocmoue> ${colorPalette.name} </div>`} </a>`;

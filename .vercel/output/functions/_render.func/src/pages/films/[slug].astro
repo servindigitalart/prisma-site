@@ -14,7 +14,7 @@ import StreamingPlayer from '../../components/film/StreamingPlayer.astro';
 import { loadWorkBySlugAsync } from '../../lib/loaders/loadWork';
 import { createServiceClient, isSupabaseConfigured } from '../../lib/db/client';
 import { createSupabaseServerClient } from '../../lib/supabase/server';
-import { buildFilmSeo } from '../../lib/seo/filmSeo';
+import { buildFilmSeo, buildFilmFaqJsonLd } from '../../lib/seo/filmSeo';
 
 const { slug } = Astro.params;
 
@@ -148,6 +148,14 @@ if (isSupabaseConfigured() && 'work_people' in work) {
 }
 
 const seo = buildFilmSeo(work);
+const faqJsonLd = buildFilmFaqJsonLd(work);
+
+const SITE = 'https://prisma.film';
+const breadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Películas', url: `${SITE}/rankings/films` },
+  { name: `${work.title}${work.year ? ` (${work.year})` : ''}`, url: `${SITE}/films/${slug}` },
+];
 
 // ── Auth + user film state ─────────────────────────────────────────────────
 const user = Astro.locals.user;
@@ -203,7 +211,7 @@ if (isSupabaseConfigured()) {
 }
 ---
 
-<FilmLayout title={seo.title} description={seo.description} ogImage={seo.ogImage} jsonLd={seo.jsonLd}>
+<FilmLayout title={seo.title} description={seo.description} ogImage={seo.ogImage} ogType={seo.ogType} jsonLd={seo.jsonLd} jsonLdExtra={faqJsonLd} breadcrumbs={breadcrumbs}>
   <FilmHero work={work} />
 
   <!-- Film action buttons (rate / seen / watchlist) -->

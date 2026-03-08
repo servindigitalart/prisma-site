@@ -4,32 +4,32 @@ export const prerender = false
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout title="Submit your work — PRISMA" description="Submit your independent film, short, music video or series to PRISMA's curated catalog.">
+<BaseLayout title="Envía tu obra — PRISMA" description="Envía tu película independiente, corto, video musical o serie al catálogo curado de PRISMA.">
   <main class="submit-page">
     <!-- Value proposition -->
     <header class="submit-header">
-      <h1>Submit your work to PRISMA</h1>
+      <h1>Envía tu obra a PRISMA</h1>
       <p class="submit-intro">
-        PRISMA is a curated platform for independent cinema. We accept short films,
-        feature films, music videos, and series from independent filmmakers worldwide.
+        PRISMA es una plataforma curada de cine independiente. Aceptamos cortometrajes,
+        largometrajes, videos musicales y series de cineastas independientes de todo el mundo.
       </p>
 
       <div class="submit-benefits">
-        <h2>What you get</h2>
+        <h2>Qué obtienes</h2>
         <ul>
-          <li><span class="bullet">✦</span> Your work analyzed through PRISMA's color identity system — the same framework applied to Tarkovsky, Bergman, and <em>Parasite</em></li>
-          <li><span class="bullet">✦</span> A permanent page on prisma.film with structured data, Google-indexed</li>
-          <li><span class="bullet">✦</span> Real streaming stats — plays, minutes watched, geographic reach (via Bunny Stream)</li>
-          <li><span class="bullet">✦</span> AES-128 encryption + signed URLs + domain lock — your work is protected</li>
-          <li><span class="bullet">✦</span> No download button. Watermark with your name during encoding</li>
-          <li><span class="bullet">✦</span> If you already have works in our catalog, your submission links to your existing author profile</li>
-          <li><span class="bullet">✦</span> A URL you can put on your CV: <code>prisma.film/films/your-title</code></li>
+          <li><span class="bullet">✦</span> Tu obra analizada con el sistema de identidad cromática de PRISMA — el mismo que se aplica a Tarkovsky, Bergman y <em>Parasite</em></li>
+          <li><span class="bullet">✦</span> Una página permanente en prisma.film con datos estructurados, indexada en Google</li>
+          <li><span class="bullet">✦</span> Estadísticas reales de streaming — reproducciones, minutos vistos, alcance geográfico (vía Bunny Stream)</li>
+          <li><span class="bullet">✦</span> Encriptación AES-128 + URLs firmadas + bloqueo de dominio — tu obra está protegida</li>
+          <li><span class="bullet">✦</span> Sin botón de descarga. Marca de agua con tu nombre durante la codificación</li>
+          <li><span class="bullet">✦</span> Si ya tienes obras en nuestro catálogo, tu envío se vincula a tu perfil de autor existente</li>
+          <li><span class="bullet">✦</span> Una URL para poner en tu CV: <code>prisma.film/films/tu-titulo</code></li>
         </ul>
       </div>
 
       <p class="submit-terms">
-        We review every submission personally. Response within 14 business days.<br />
-        No fees. You keep 100% of your rights.
+        Revisamos cada envío personalmente. Respuesta en 14 días hábiles.<br />
+        Sin costo. Conservas el 100% de tus derechos.
       </p>
     </header>
 
@@ -37,101 +37,101 @@ import BaseLayout from '../layouts/BaseLayout.astro'
     <form class="submit-form" id="submit-form" novalidate>
       <!-- Your work -->
       <fieldset class="form-section">
-        <legend>Your work</legend>
+        <legend>Tu obra</legend>
 
         <div class="form-field">
-          <label for="f-type">Content type</label>
+          <label for="f-type">Tipo de contenido</label>
           <select id="f-type" name="type" required>
-            <option value="">Select…</option>
-            <option value="short">Short film</option>
-            <option value="feature">Feature film</option>
-            <option value="music_video">Music video</option>
-            <option value="series">Series</option>
+            <option value="">Seleccionar…</option>
+            <option value="short">Cortometraje</option>
+            <option value="feature">Largometraje</option>
+            <option value="music_video">Video musical</option>
+            <option value="series">Serie</option>
           </select>
         </div>
 
         <div class="form-field">
-          <label for="f-title">Title <span class="req">*</span></label>
+          <label for="f-title">Título <span class="req">*</span></label>
           <input type="text" id="f-title" name="title" required maxlength="200" />
         </div>
 
         <div class="form-field form-row">
           <div class="form-field">
-            <label for="f-year">Year <span class="req">*</span></label>
+            <label for="f-year">Año <span class="req">*</span></label>
             <input type="number" id="f-year" name="year" required min="1900" max="2030" />
           </div>
           <div class="form-field">
-            <label for="f-runtime" id="f-runtime-label">Runtime in minutes <span class="req">*</span></label>
+            <label for="f-runtime" id="f-runtime-label">Duración en minutos <span class="req">*</span></label>
             <input type="number" id="f-runtime" name="runtime_min" required min="1" max="600" />
           </div>
         </div>
 
         <div class="form-field" id="f-episodes-wrapper" hidden>
-          <label for="f-episodes">Episode count</label>
+          <label for="f-episodes">Número de episodios</label>
           <input type="number" id="f-episodes" name="episode_count" min="1" max="100" />
         </div>
 
         <div class="form-field">
-          <label for="f-synopsis">Synopsis <span class="req">*</span></label>
-          <textarea id="f-synopsis" name="synopsis" required maxlength="500" rows="4" placeholder="Brief synopsis of your work…"></textarea>
+          <label for="f-synopsis">Sinopsis <span class="req">*</span></label>
+          <textarea id="f-synopsis" name="synopsis" required maxlength="500" rows="4" placeholder="Sinopsis breve de tu obra…"></textarea>
           <span class="char-count" id="f-synopsis-count">0/500</span>
         </div>
 
         <div class="form-field">
-          <label for="f-drive">Google Drive link <span class="req">*</span></label>
+          <label for="f-drive">Enlace de Google Drive <span class="req">*</span></label>
           <input type="url" id="f-drive" name="drive_link" required placeholder="https://drive.google.com/…" />
-          <span class="form-helper">Make sure the link is accessible to anyone with the link</span>
+          <span class="form-helper">Asegúrate de que el enlace sea accesible para cualquier persona</span>
         </div>
       </fieldset>
 
       <!-- About you -->
       <fieldset class="form-section">
-        <legend>About you</legend>
+        <legend>Sobre ti</legend>
 
         <div class="form-field">
-          <label for="f-name">Your name <span class="req">*</span></label>
+          <label for="f-name">Tu nombre <span class="req">*</span></label>
           <input type="text" id="f-name" name="filmmaker_name" required maxlength="120" />
         </div>
 
         <div class="form-field">
-          <label for="f-email">Email <span class="req">*</span></label>
+          <label for="f-email">Correo electrónico <span class="req">*</span></label>
           <input type="email" id="f-email" name="filmmaker_email" required maxlength="200" />
         </div>
 
         <div class="form-field">
-          <label for="f-bio">Short bio <span class="form-optional">optional</span></label>
-          <textarea id="f-bio" name="filmmaker_bio" maxlength="300" rows="3" placeholder="A few words about yourself…"></textarea>
+          <label for="f-bio">Biografía breve <span class="form-optional">opcional</span></label>
+          <textarea id="f-bio" name="filmmaker_bio" maxlength="300" rows="3" placeholder="Unas palabras sobre ti…"></textarea>
           <span class="char-count" id="f-bio-count">0/300</span>
         </div>
 
         <div class="form-field">
-          <label for="f-website">Website <span class="form-optional">optional</span></label>
+          <label for="f-website">Sitio web <span class="form-optional">opcional</span></label>
           <input type="url" id="f-website" name="filmmaker_website" placeholder="https://…" />
         </div>
 
         <div class="form-field">
-          <label for="f-social">Instagram or social link <span class="form-optional">optional</span></label>
+          <label for="f-social">Instagram o enlace social <span class="form-optional">opcional</span></label>
           <input type="url" id="f-social" name="filmmaker_social" placeholder="https://instagram.com/…" />
         </div>
       </fieldset>
 
       <!-- Rights -->
       <fieldset class="form-section">
-        <legend>Rights</legend>
+        <legend>Derechos</legend>
 
         <div class="form-check">
           <input type="checkbox" id="f-rights" name="rights_confirmed" required />
-          <label for="f-rights">I own all rights to this work and have the authority to grant PRISMA a non-exclusive streaming license</label>
+          <label for="f-rights">Poseo todos los derechos de esta obra y tengo la autoridad para otorgar a PRISMA una licencia de streaming no exclusiva</label>
         </div>
 
         <div class="form-check">
           <input type="checkbox" id="f-rejection" name="rejection_understood" required />
-          <label for="f-rejection">I understand PRISMA may reject my submission without obligation to provide detailed feedback</label>
+          <label for="f-rejection">Entiendo que PRISMA puede rechazar mi envío sin obligación de dar retroalimentación detallada</label>
         </div>
       </fieldset>
 
       <div class="form-actions">
-        <button type="submit" class="submit-btn" id="submit-btn">Submit your work</button>
+        <button type="submit" class="submit-btn" id="submit-btn">Enviar tu obra</button>
       </div>
 
       <!-- Messages -->
@@ -162,8 +162,8 @@ import BaseLayout from '../layouts/BaseLayout.astro'
     var isSeries = typeSelect.value === 'series';
     if (runtimeLabel) {
       runtimeLabel.innerHTML = isSeries
-        ? 'Runtime per episode <span class="req">*</span>'
-        : 'Runtime in minutes <span class="req">*</span>';
+        ? 'Duración por episodio <span class="req">*</span>'
+        : 'Duración en minutos <span class="req">*</span>';
     }
     if (episodesWrapper) {
       episodesWrapper.hidden = !isSeries;
@@ -192,7 +192,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
     var rejection = document.getElementById('f-rejection');
 
     if (!rights.checked || !rejection.checked) {
-      showError('Please accept both checkboxes under "Rights" before submitting.');
+      showError('Por favor acepta ambas casillas en "Derechos" antes de enviar.');
       return;
     }
 
@@ -214,19 +214,19 @@ import BaseLayout from '../layouts/BaseLayout.astro'
     };
 
     if (!data.title || !data.year || !data.runtime_min || !data.synopsis || !data.drive_link || !data.filmmaker_name || !data.filmmaker_email) {
-      showError('Please fill in all required fields.');
+      showError('Por favor completa todos los campos obligatorios.');
       return;
     }
 
     try {
       new URL(data.drive_link);
     } catch(_) {
-      showError('Please enter a valid URL for the Google Drive link.');
+      showError('Por favor ingresa una URL válida para el enlace de Google Drive.');
       return;
     }
 
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Submitting…';
+    submitBtn.textContent = 'Enviando…';
 
     try {
       var response = await fetch('/api/submit', {
@@ -237,7 +237,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
       var result = await response.json();
 
       if (response.ok && result.success) {
-        formSuccess.innerHTML = '<span class="bullet">✦</span> Your submission has been received.<br>We\'ll review your work and get back to you at <strong>' + escapeHtml(data.filmmaker_email) + '</strong> within 14 business days.';
+        formSuccess.innerHTML = '<span class="bullet">✦</span> Tu envío ha sido recibido.<br>Revisaremos tu obra y te responderemos a <strong>' + escapeHtml(data.filmmaker_email) + '</strong> en un plazo de 14 días hábiles.';
         formSuccess.hidden = false;
         form.reset();
         synopsisCount.textContent = '0/500';
@@ -245,14 +245,14 @@ import BaseLayout from '../layouts/BaseLayout.astro'
         if (episodesWrapper) episodesWrapper.hidden = true;
         formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
       } else {
-        showError(result.error || 'Something went wrong. Please try again.');
+        showError(result.error || 'Algo salió mal. Por favor intenta de nuevo.');
       }
     } catch(err) {
-      showError('Network error. Please check your connection and try again.');
+      showError('Error de red. Por favor verifica tu conexión e intenta de nuevo.');
     }
 
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Submit your work';
+    submitBtn.textContent = 'Enviar tu obra';
   });
 
   function showError(msg) {

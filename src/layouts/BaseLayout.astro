@@ -1,35 +1,51 @@
 ---
 import '../styles/global.css';
 import AuthModal from '../components/auth/AuthModal.astro';
+import { buildBreadcrumbJsonLd, type BreadcrumbItem } from '../lib/seo/breadcrumbs';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
   ogImage?: string;
+  ogType?: string;
   canonicalUrl?: string;
   bodyClass?: string;
-  jsonLd?: string;
+  jsonLd?: string | Record<string, unknown>;
+  jsonLdExtra?: Record<string, unknown>;
+  breadcrumbs?: BreadcrumbItem[];
 }
 
 const {
-  title,
-  description = 'PRISMA — Cinematic visual identity. Every film has a color.',
+  title = 'PRISMA — Cine de Autor a través del Color',
+  description = 'PRISMA — Descubre el cine de autor a través del color. Una base de datos cinematográfica curada con paletas visuales, rankings y análisis editorial.',
   ogImage,
+  ogType = 'website',
   canonicalUrl,
   bodyClass = '',
   jsonLd,
+  jsonLdExtra,
+  breadcrumbs,
 } = Astro.props;
+
+const jsonLdString = jsonLd
+  ? typeof jsonLd === 'string' ? jsonLd : JSON.stringify(jsonLd)
+  : null;
+
+const jsonLdExtraString = jsonLdExtra ? JSON.stringify(jsonLdExtra) : null;
+const breadcrumbJsonLd = breadcrumbs?.length ? JSON.stringify(buildBreadcrumbJsonLd(breadcrumbs)) : null;
 
 const siteUrl = 'https://prisma.film';
 const resolvedCanonical = canonicalUrl ?? `${siteUrl}${Astro.url.pathname}`;
-const resolvedOgImage = ogImage ?? `${siteUrl}/og-default.jpg`;
+const resolvedOgImage = ogImage
+  ? (ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`)
+  : `${siteUrl}/og-default.jpg`;
 
 // Auth state — read from middleware locals (set by session sync)
 const user = Astro.locals.user;
 ---
 
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="es" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,18 +59,27 @@ const user = Astro.locals.user;
     <link rel="canonical" href={resolvedCanonical} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={resolvedOgImage} />
     <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:site_name" content="PRISMA" />
+    <meta property="og:locale" content="es_MX" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={resolvedOgImage} />
 
-    <!-- Structured data -->
-    {jsonLd && <script is:inline type="application/ld+json" set:html={jsonLd} />}
+    <!-- Structured data (JSON-LD) -->
+    {jsonLdString && <script type="application/ld+json" set:html={jsonLdString} />}
+    {jsonLdExtraString && <script type="application/ld+json" set:html={jsonLdExtraString} />}
+    {breadcrumbJsonLd && <script type="application/ld+json" set:html={breadcrumbJsonLd} />}
+
+    <!-- Sitemap -->
+    <link rel="sitemap" href="/sitemap.xml" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -74,7 +99,7 @@ const user = Astro.locals.user;
       <a href="/" class="site-nav-logo">P<span>R</span>ISMA</a>
       <ul class="site-nav-links">
         <li><a href="/rankings/films">Rankings</a></li>
-        <li><a href="/colors">Colors</a></li>
+        <li><a href="/colors">Colores</a></li>
         <li class="site-nav-dropdown">
           <span class="site-nav-trigger">Explorar</span>
           <div class="site-nav-dropdown-menu">
@@ -102,12 +127,21 @@ const user = Astro.locals.user;
               <a href="/abstraccion/muy-estilizado">Muy Estilizado</a>
               <a href="/abstraccion/extremadamente-abstracto">Abstracto</a>
             </div>
+            <div class="site-nav-dropdown-group">
+              <p class="site-nav-dropdown-label">Décadas</p>
+              <a href="/decades/1920s">1920s</a>
+              <a href="/decades/1940s">1940s</a>
+              <a href="/decades/1960s">1960s</a>
+              <a href="/decades/1980s">1980s</a>
+              <a href="/decades/2000s">2000s</a>
+              <a href="/decades/2020s">2020s</a>
+            </div>
           </div>
         </li>
-        <li><a href="/countries">Countries</a></li>
-        <li><a href="/festivals">Festivals</a></li>
-        <li><a href="/people">People</a></li>
-        <li><a href="/submit" class="nav-submit">Submit</a></li>
+        <li><a href="/countries">Países</a></li>
+        <li><a href="/festivals">Festivales</a></li>
+        <li><a href="/people">Cineastas</a></li>
+        <li><a href="/submit" class="nav-submit">Enviar</a></li>
       </ul>
 
       <!-- Auth -->
@@ -115,7 +149,7 @@ const user = Astro.locals.user;
         {user ? (
           <div class="nav-user">
             {user.user_metadata?.avatar_url ? (
-              <a href={`/u/${user.id}`} class="nav-avatar-link" title="My profile">
+              <a href={`/u/${user.id}`} class="nav-avatar-link" title="Mi perfil">
                 <img
                   src={user.user_metadata.avatar_url}
                   alt={user.user_metadata?.full_name ?? 'Profile'}
@@ -124,16 +158,16 @@ const user = Astro.locals.user;
                 />
               </a>
             ) : (
-              <a href={`/u/${user.id}`} class="nav-avatar-link nav-avatar--initials" title="My profile">
+              <a href={`/u/${user.id}`} class="nav-avatar-link nav-avatar--initials" title="Mi perfil">
                 {(user.user_metadata?.full_name ?? user.email ?? '?')[0].toUpperCase()}
               </a>
             )}
             <form action="/auth/signout" method="POST" style="display:inline">
-              <button type="submit" class="nav-signout">Sign out</button>
+              <button type="submit" class="nav-signout">Cerrar sesión</button>
             </form>
           </div>
         ) : (
-          <button class="nav-signin" onclick="window.showAuthModal?.()">Sign in</button>
+          <button class="nav-signin" onclick="window.showAuthModal?.()">Iniciar sesión</button>
         )}
       </div>
     </nav>

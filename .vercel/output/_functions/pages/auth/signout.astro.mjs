@@ -1,4 +1,4 @@
-import { c as createSupabaseServerClient } from '../../chunks/server_DDrZ4Pp_.mjs';
+import { c as createSupabaseServerClient } from '../../chunks/server_Cbvb-X7K.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const prerender = false;

@@ -1,7 +1,7 @@
 /* empty css                                  */
 import { f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute, o as Fragment } from '../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../chunks/BaseLayout_QHw3iGXw.mjs';
+import { $ as $$BaseLayout } from '../chunks/BaseLayout_CKaj1kxH.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../chunks/client_DzNyPYKT.mjs';
 import { a as isoToFlag, i as isoToName } from '../chunks/countries_xwzpexnz.mjs';
 import { g as getFestivalLogoUrl, i as isFestivalLogoLocal } from '../chunks/festivalUtils_CMVWB9Ye.mjs';
@@ -40,12 +40,31 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
     return id.replace(/^festival_/, "");
   }
   const TIER_GROUPS = [
-    { key: "A", label: "Grand International Festivals" },
-    { key: "B", label: "Major Festivals & Awards" },
-    { key: "C", label: "Regional & Specialty Awards" }
+    { key: "A", label: "Grandes Festivales Internacionales" },
+    { key: "B", label: "Festivales y Premios Importantes" },
+    { key: "C", label: "Premios Regionales y Especializados" }
   ];
   const byTier = (tier) => festivals.filter((f) => f.tier === tier);
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": "Festivals & Awards \u2014 PRISMA", "description": "Cinema's most prestigious festivals and awards, from Cannes to the Academy Awards.", "data-astro-cid-vnfb5qxt": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="festivals-page page-enter" data-astro-cid-vnfb5qxt> <!-- Header --> <div class="festivals-header site-container" data-astro-cid-vnfb5qxt> <h1 class="festivals-header__title" data-astro-cid-vnfb5qxt>Festivals & Awards</h1> <p class="festivals-header__desc" data-astro-cid-vnfb5qxt> ${festivals.length} curated festivals · Cinema's most prestigious recognitions
+  const SITE = "https://prisma.film";
+  const festivalsBreadcrumbs = [
+    { name: "PRISMA", url: SITE },
+    { name: "Festivales", url: `${SITE}/festivals` }
+  ];
+  const festivalsJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Festivales y Premios de Cine \u2014 PRISMA",
+    description: `Los ${festivals.length} festivales y premios de cine m\xE1s prestigiosos del mundo. De Cannes a los Premios de la Academia.`,
+    url: `${SITE}/festivals`,
+    numberOfItems: festivals.length,
+    itemListElement: festivals.slice(0, 30).map((f, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: f.name,
+      url: `${SITE}/festivals/${festSlug(f.id)}`
+    }))
+  };
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": "Festivales y Premios \u2014 PRISMA", "description": "Los festivales y premios m\xE1s prestigiosos del cine, de Cannes a los Premios de la Academia.", "jsonLd": festivalsJsonLd, "breadcrumbs": festivalsBreadcrumbs, "data-astro-cid-vnfb5qxt": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="festivals-page page-enter" data-astro-cid-vnfb5qxt> <!-- Header --> <div class="festivals-header site-container" data-astro-cid-vnfb5qxt> <h1 class="festivals-header__title" data-astro-cid-vnfb5qxt>Festivales y Premios</h1> <p class="festivals-header__desc" data-astro-cid-vnfb5qxt> ${festivals.length} festivales curados · Los reconocimientos más prestigiosos del cine
 </p> </div> <!-- Tier groups --> <div class="site-container festivals-body" data-astro-cid-vnfb5qxt> ${TIER_GROUPS.map(({ key, label }) => {
     const group = byTier(key);
     if (!group.length) return null;

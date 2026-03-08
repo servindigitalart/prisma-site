@@ -1,5 +1,5 @@
-import { c as createSupabaseServerClient } from '../../../chunks/server_DDrZ4Pp_.mjs';
-import { P as PRISMA_PALETTE } from '../../../chunks/colorPalette_CcE_HP33.mjs';
+import { c as createSupabaseServerClient } from '../../../chunks/server_Cbvb-X7K.mjs';
+import { P as PRISMA_PALETTE } from '../../../chunks/colorPalette_MBD9-pHi.mjs';
 export { renderers } from '../../../renderers.mjs';
 
 const prerender = false;

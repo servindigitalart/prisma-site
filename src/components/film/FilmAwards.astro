@@ -89,7 +89,7 @@ function festivalHref(wa: AwardRow): string | undefined {
 
 <section class="film-awards">
   <div class="site-container">
-    <h2 class="awards-label">Awards & Recognition</h2>
+    <h2 class="awards-label">Premios y Reconocimientos</h2>
 
     {/* ── Wins ── */}
     {wins.length > 0 && (
@@ -133,7 +133,7 @@ function festivalHref(wa: AwardRow): string | undefined {
     {/* ── Nominations ── */}
     {noms.length > 0 && (
       <div class="noms-block">
-        <h3 class="noms-label">Nominations</h3>
+        <h3 class="noms-label">Nominaciones</h3>
         <ul class="noms-list" role="list">
           {noms.map(wa => {
             const tier = wa.awards.festivals?.tier ?? wa.awards.tier;

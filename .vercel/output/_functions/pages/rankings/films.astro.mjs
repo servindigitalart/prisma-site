@@ -1,8 +1,8 @@
 /* empty css                                     */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, al as renderSlot, m as maybeRenderHead, o as Fragment, h as addAttribute } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_QHw3iGXw.mjs';
-import { g as getPaletteEntry } from '../../chunks/colorPalette_CcE_HP33.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { g as getPaletteEntry } from '../../chunks/colorPalette_MBD9-pHi.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
 import { l as loadAllWorks } from '../../chunks/loadWork_B0uYB5uV.mjs';
 /* empty css                                    */
@@ -12,8 +12,8 @@ const $$Astro$1 = createAstro("https://prisma.film");
 const $$Layout = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Layout;
-  const { title = "PRISMA", description } = Astro2.props;
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": title, "description": description }, { "default": ($$result2) => renderTemplate` ${renderSlot($$result2, $$slots["default"])} ` })}`;
+  const { title = "PRISMA", description, ogImage, ogType, jsonLd, breadcrumbs } = Astro2.props;
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": title, "description": description, "ogImage": ogImage, "ogType": ogType, "jsonLd": jsonLd, "breadcrumbs": breadcrumbs }, { "default": ($$result2) => renderTemplate` ${renderSlot($$result2, $$slots["default"])} ` })}`;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/layouts/Layout.astro", void 0);
 
 const $$Astro = createAstro("https://prisma.film");
@@ -92,6 +92,31 @@ const $$Films = createComponent(async ($$result, $$props, $$slots) => {
   const safePage = Math.min(currentPage, totalPages);
   const offset = (safePage - 1) * PER_PAGE;
   const pageWorks = allRankedWorks.slice(offset, offset + PER_PAGE);
+  const SITE = "https://prisma.film";
+  const rankingsTitle = "Rankings de Pel\xEDculas \u2014 PRISMA | Mejores Pel\xEDculas de Autor";
+  const rankingsDescription = "El ranking PRISMA de las mejores pel\xEDculas de cine de autor, ordenadas por peso cultural, premios internacionales y calificaci\xF3n editorial. Descubre las joyas del cine mundial.";
+  const rankingsBreadcrumbs = [
+    { name: "PRISMA", url: SITE },
+    { name: "Rankings", url: `${SITE}/rankings/films` }
+  ];
+  const rankingsJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: rankingsTitle,
+    description: rankingsDescription,
+    url: `${SITE}/rankings/films`,
+    numberOfItems: totalFilms,
+    itemListElement: pageWorks.slice(0, 20).map((film, i) => ({
+      "@type": "ListItem",
+      position: offset + i + 1,
+      item: {
+        "@type": "Movie",
+        name: film.title,
+        dateCreated: film.year?.toString(),
+        url: `${SITE}/films/${film.slug}`
+      }
+    }))
+  };
   function pageUrl(p) {
     return `/rankings/films${p === 1 ? "" : `?page=${p}`}`;
   }
@@ -104,15 +129,15 @@ const $$Films = createComponent(async ($$result, $$props, $$slots) => {
     pages.push(total);
     return pages;
   }
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Film Rankings \u2014 PRISMA", "data-astro-cid-4e4smigm": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="rankings-page page-enter" data-astro-cid-4e4smigm> <div class="rankings-header site-container" data-astro-cid-4e4smigm> <h1 class="rankings-header__title" data-astro-cid-4e4smigm>Film Rankings</h1> <p class="rankings-header__desc" data-astro-cid-4e4smigm>
-Ranked by prestige score: canon tier (40%), festival recognition (30%),
-        engagement (20%), arthouse distribution (10%).
-</p> <p class="rankings-header__count" data-astro-cid-4e4smigm> ${totalFilms} films &middot; page ${safePage} of ${totalPages} </p> </div> <div class="site-container" data-astro-cid-4e4smigm> ${pageWorks.length === 0 ? renderTemplate`<div class="rankings-empty" data-astro-cid-4e4smigm> <p data-astro-cid-4e4smigm>No rankings available yet. Rankings are computed from ingested works.</p> </div>` : renderTemplate`${renderComponent($$result2, "Fragment", Fragment, { "data-astro-cid-4e4smigm": true }, { "default": async ($$result3) => renderTemplate` <div class="rankings-list" data-astro-cid-4e4smigm> ${pageWorks.map((item) => renderTemplate`<a${addAttribute(`/films/${item.slug}`, "href")} class="ranking-row" data-astro-cid-4e4smigm> <div class="ranking-row__num" data-astro-cid-4e4smigm>#${item.rank}</div> <div class="ranking-row__color-strip"${addAttribute(`background: ${item.colorHex}`, "style")}${addAttribute(item.colorName, "title")} data-astro-cid-4e4smigm></div> <div class="ranking-row__info" data-astro-cid-4e4smigm> <span class="ranking-row__title" data-astro-cid-4e4smigm>${item.title}</span> ${item.year && renderTemplate`<span class="ranking-row__year" data-astro-cid-4e4smigm>${item.year}</span>`} </div> <div class="ranking-row__meta" data-astro-cid-4e4smigm> ${item.colorName && renderTemplate`<span class="ranking-row__color" data-astro-cid-4e4smigm>${item.colorName}</span>`} ${item.tier && renderTemplate`<span${addAttribute(`tier-badge tier-badge--${item.tier}`, "class")} data-astro-cid-4e4smigm>${item.tier}</span>`} ${item.score && renderTemplate`<span class="ranking-row__score" data-astro-cid-4e4smigm>${item.score.toFixed(1)}</span>`} </div> </a>`)} </div> ${totalPages > 1 && renderTemplate`<nav class="pagination" aria-label="Rankings pages" data-astro-cid-4e4smigm> <a${addAttribute(pageUrl(safePage - 1), "href")}${addAttribute(`pagination__btn${safePage === 1 ? " pagination__btn--disabled" : ""}`, "class")}${addAttribute(safePage === 1, "aria-disabled")} data-astro-cid-4e4smigm>
-← Prev
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": rankingsTitle, "description": rankingsDescription, "jsonLd": rankingsJsonLd, "breadcrumbs": rankingsBreadcrumbs, "data-astro-cid-4e4smigm": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="rankings-page page-enter" data-astro-cid-4e4smigm> <div class="rankings-header site-container" data-astro-cid-4e4smigm> <h1 class="rankings-header__title" data-astro-cid-4e4smigm>Rankings de Películas</h1> <p class="rankings-header__desc" data-astro-cid-4e4smigm>
+Clasificadas por puntaje de prestigio: canon (40%), reconocimiento en festivales (30%),
+        engagement (20%), distribución arthouse (10%).
+</p> <p class="rankings-header__count" data-astro-cid-4e4smigm> ${totalFilms} películas &middot; página ${safePage} de ${totalPages} </p> </div> <div class="site-container" data-astro-cid-4e4smigm> ${pageWorks.length === 0 ? renderTemplate`<div class="rankings-empty" data-astro-cid-4e4smigm> <p data-astro-cid-4e4smigm>Aún no hay rankings disponibles. Los rankings se calculan a partir de las obras ingresadas.</p> </div>` : renderTemplate`${renderComponent($$result2, "Fragment", Fragment, { "data-astro-cid-4e4smigm": true }, { "default": async ($$result3) => renderTemplate` <div class="rankings-list" data-astro-cid-4e4smigm> ${pageWorks.map((item) => renderTemplate`<a${addAttribute(`/films/${item.slug}`, "href")} class="ranking-row" data-astro-cid-4e4smigm> <div class="ranking-row__num" data-astro-cid-4e4smigm>#${item.rank}</div> <div class="ranking-row__color-strip"${addAttribute(`background: ${item.colorHex}`, "style")}${addAttribute(item.colorName, "title")} data-astro-cid-4e4smigm></div> <div class="ranking-row__info" data-astro-cid-4e4smigm> <span class="ranking-row__title" data-astro-cid-4e4smigm>${item.title}</span> ${item.year && renderTemplate`<span class="ranking-row__year" data-astro-cid-4e4smigm>${item.year}</span>`} </div> <div class="ranking-row__meta" data-astro-cid-4e4smigm> ${item.colorName && renderTemplate`<span class="ranking-row__color" data-astro-cid-4e4smigm>${item.colorName}</span>`} ${item.tier && renderTemplate`<span${addAttribute(`tier-badge tier-badge--${item.tier}`, "class")} data-astro-cid-4e4smigm>${item.tier}</span>`} ${item.score && renderTemplate`<span class="ranking-row__score" data-astro-cid-4e4smigm>${item.score.toFixed(1)}</span>`} </div> </a>`)} </div> ${totalPages > 1 && renderTemplate`<nav class="pagination" aria-label="Rankings pages" data-astro-cid-4e4smigm> <a${addAttribute(pageUrl(safePage - 1), "href")}${addAttribute(`pagination__btn${safePage === 1 ? " pagination__btn--disabled" : ""}`, "class")}${addAttribute(safePage === 1, "aria-disabled")} data-astro-cid-4e4smigm>
+← Anterior
 </a> <div class="pagination__pages" data-astro-cid-4e4smigm> ${pageWindow(safePage, totalPages).map(
     (p) => p === "\u2026" ? renderTemplate`<span class="pagination__ellipsis" data-astro-cid-4e4smigm>…</span>` : renderTemplate`<a${addAttribute(pageUrl(p), "href")}${addAttribute(`pagination__page${p === safePage ? " pagination__page--active" : ""}`, "class")}${addAttribute(p === safePage ? "page" : void 0, "aria-current")} data-astro-cid-4e4smigm> ${p} </a>`
   )} </div> <a${addAttribute(pageUrl(safePage + 1), "href")}${addAttribute(`pagination__btn${safePage === totalPages ? " pagination__btn--disabled" : ""}`, "class")}${addAttribute(safePage === totalPages, "aria-disabled")} data-astro-cid-4e4smigm>
-Next →
+Siguiente →
 </a> </nav>`}` })}`} </div> </div> ` })} `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/pages/rankings/films.astro", void 0);
 

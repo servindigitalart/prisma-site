@@ -4,15 +4,20 @@
  * Kept for backward compatibility with pages that import it.
  */
 import BaseLayout from './BaseLayout.astro';
+import type { BreadcrumbItem } from '../lib/seo/breadcrumbs';
 
 interface Props {
   title?: string;
   description?: string;
+  ogImage?: string;
+  ogType?: string;
+  jsonLd?: string | Record<string, unknown>;
+  breadcrumbs?: BreadcrumbItem[];
 }
 
-const { title = 'PRISMA', description } = Astro.props;
+const { title = 'PRISMA', description, ogImage, ogType, jsonLd, breadcrumbs } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} ogImage={ogImage} ogType={ogType} jsonLd={jsonLd} breadcrumbs={breadcrumbs}>
   <slot />
 </BaseLayout>

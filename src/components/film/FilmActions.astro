@@ -32,47 +32,47 @@ const effectiveUserId = userId || user?.id || null;
 >
   <!-- Rate -->
   <div class="film-action film-action--rate">
-    <button class="film-action__btn" id="fa-rate-btn" aria-label="Rate this film" aria-expanded="false">
+    <button class="film-action__btn" id="fa-rate-btn" aria-label="Calificar esta película" aria-expanded="false">
       <span class="film-action__icon" aria-hidden="true">★</span>
-      <span class="film-action__label" id="fa-rate-label">Rate</span>
+      <span class="film-action__label" id="fa-rate-label">Calificar</span>
     </button>
     <div class="rating-picker" id="fa-rating-picker" hidden aria-label="Select rating">
       {Array.from({ length: 10 }, (_, i) => i + 1).map(n => (
         <button class="rating-pip" data-value={n} aria-label={`${n} out of 10`}>{n}</button>
       ))}
-      <button class="rating-clear" id="fa-rating-clear" aria-label="Clear rating" title="Clear">✕</button>
+      <button class="rating-clear" id="fa-rating-clear" aria-label="Borrar calificación" title="Borrar">✕</button>
     </div>
   </div>
 
   <!-- Seen -->
   <div class="film-action film-action--seen">
-    <button class="film-action__btn" id="fa-seen-btn" aria-label="Mark as seen" aria-expanded="false">
+    <button class="film-action__btn" id="fa-seen-btn" aria-label="Marcar como vista" aria-expanded="false">
       <span class="film-action__icon" aria-hidden="true">✓</span>
-      <span class="film-action__label">Seen</span>
+      <span class="film-action__label">Vista</span>
     </button>
     <div class="seen-picker" id="fa-seen-picker" hidden>
-      <button class="seen-option" id="fa-seen-today">Just watched</button>
-      <button class="seen-option" id="fa-seen-before">I saw this before</button>
+      <button class="seen-option" id="fa-seen-today">Recién vista</button>
+      <button class="seen-option" id="fa-seen-before">La vi antes</button>
     </div>
   </div>
 
   <!-- Watchlist -->
-  <button class="film-action__btn film-action--watchlist" id="fa-watchlist-btn" aria-label="Add to watchlist">
+  <button class="film-action__btn film-action--watchlist" id="fa-watchlist-btn" aria-label="Agregar a watchlist">
     <span class="film-action__icon" aria-hidden="true" id="fa-watchlist-icon">+</span>
     <span class="film-action__label" id="fa-watchlist-label">Watchlist</span>
   </button>
 
   <!-- Review (visible after rating) -->
   <div class="film-action film-action--review" id="fa-review-wrapper" hidden>
-    <button class="film-action__btn" id="fa-review-btn" aria-label="Write a review">
+    <button class="film-action__btn" id="fa-review-btn" aria-label="Escribir reseña">
       <span class="film-action__icon" aria-hidden="true">✎</span>
-      <span class="film-action__label" id="fa-review-label">Review</span>
+      <span class="film-action__label" id="fa-review-label">Reseña</span>
     </button>
     <div class="review-editor" id="fa-review-editor" hidden>
-      <textarea id="fa-review-textarea" class="review-textarea" maxlength="500" placeholder="Write your review…"></textarea>
+      <textarea id="fa-review-textarea" class="review-textarea" maxlength="500" placeholder="Escribe tu reseña…"></textarea>
       <div class="review-footer">
         <span class="review-charcount" id="fa-review-charcount">0/500</span>
-        <button class="review-submit" id="fa-review-submit">Save review</button>
+        <button class="review-submit" id="fa-review-submit">Guardar reseña</button>
       </div>
     </div>
   </div>
@@ -120,7 +120,7 @@ const effectiveUserId = userId || user?.id || null;
         rateLabel.textContent = currentRating + '/10';
         rateBtn.classList.add('is-active');
       } else {
-        rateLabel.textContent = 'Rate';
+        rateLabel.textContent = 'Calificar';
         rateBtn.classList.remove('is-active');
       }
       ratingPicker.querySelectorAll('.rating-pip').forEach(function(pip) {
@@ -160,7 +160,7 @@ const effectiveUserId = userId || user?.id || null;
             if (inWatchlist) {
               inWatchlist = false;
               updateWatchlistUI();
-              showToast('Removed from Watchlist');
+              showToast('Eliminada de Watchlist');
             }
           }
         } catch(e) {
@@ -202,7 +202,7 @@ const effectiveUserId = userId || user?.id || null;
           if (isSeen && inWatchlist) {
             inWatchlist = false;
             updateWatchlistUI();
-            showToast('Removed from Watchlist');
+            showToast('Eliminada de Watchlist');
           }
         }
       } catch(e) {
@@ -242,7 +242,7 @@ const effectiveUserId = userId || user?.id || null;
     function updateWatchlistUI() {
       wlBtn.classList.toggle('is-active', inWatchlist);
       wlIcon.textContent = inWatchlist ? '✓' : '+';
-      wlLabel.textContent = inWatchlist ? 'In Watchlist' : 'Watchlist';
+      wlLabel.textContent = inWatchlist ? 'En Watchlist' : 'Watchlist';
     }
 
     wlBtn.addEventListener('click', async function() {
@@ -278,7 +278,7 @@ const effectiveUserId = userId || user?.id || null;
       if (!reviewWrapper) return;
       if (currentRating) {
         reviewWrapper.removeAttribute('hidden');
-        if (reviewLabel) reviewLabel.textContent = currentReview ? 'Edit review' : 'Review';
+        if (reviewLabel) reviewLabel.textContent = currentReview ? 'Editar reseña' : 'Reseña';
       } else {
         reviewWrapper.setAttribute('hidden', '');
       }
@@ -304,7 +304,7 @@ const effectiveUserId = userId || user?.id || null;
       reviewSubmit.addEventListener('click', async function() {
         var text = reviewTextarea.value.trim();
         if (!text) return;
-        if (text.length > 500) { showToast('Review too long (max 500)'); return; }
+        if (text.length > 500) { showToast('Reseña demasiado larga (máx 500)'); return; }
         reviewSubmit.disabled = true;
         try {
           var response = await fetch('/api/user/review', {
@@ -315,8 +315,8 @@ const effectiveUserId = userId || user?.id || null;
           if (response.ok) {
             currentReview = text;
             reviewEditor.setAttribute('hidden', '');
-            if (reviewLabel) reviewLabel.textContent = 'Edit review';
-            showToast('Review saved');
+            if (reviewLabel) reviewLabel.textContent = 'Editar reseña';
+            showToast('Reseña guardada');
           }
         } catch(e) {
           console.error('Review error:', e);

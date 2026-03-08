@@ -47,20 +47,42 @@ const countries: CountryEntry[] = Array.from(countMap.entries())
   .sort((a, b) => b.count - a.count);
 
 const totalFilms = Array.from(countMap.values()).reduce((s, c) => s + c, 0);
+
+const SITE = 'https://prisma.film';
+
+const countriesBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Países', url: `${SITE}/countries` },
+];
+
+const countriesJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Países — Cine de Autor por País de Origen',
+  description: `Explora películas de cine de autor por país de origen. ${countries.length} cines nacionales con ${totalFilms} películas en el catálogo PRISMA.`,
+  url: `${SITE}/countries`,
+  numberOfItems: countries.length,
+  itemListElement: countries.slice(0, 30).map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.name,
+    url: `${SITE}/countries/${c.slug}`,
+  })),
+};
 ---
 
-<BaseLayout title="Countries — PRISMA" description="Browse films by country of origin. Every national cinema has a visual identity.">
+<BaseLayout title="Países — PRISMA" description="Explora películas por país de origen. Cada cine nacional tiene una identidad visual." jsonLd={countriesJsonLd} breadcrumbs={countriesBreadcrumbs}>
   <div class="countries-page page-enter">
     <div class="countries-header site-container">
-      <h1 class="countries-header__title">Countries</h1>
+      <h1 class="countries-header__title">Países</h1>
       <p class="countries-header__desc">
-        {countries.length} national cinemas · {totalFilms} film entries
+        {countries.length} cines nacionales · {totalFilms} películas
       </p>
     </div>
 
     <div class="site-container">
       {countries.length === 0 ? (
-        <p class="countries-empty">No country data available yet.</p>
+        <p class="countries-empty">Aún no hay datos de países disponibles.</p>
       ) : (
         <div class="country-grid">
           {countries.map((c) => (
@@ -68,7 +90,7 @@ const totalFilms = Array.from(countMap.values()).reduce((s, c) => s + c, 0);
               <span class="country-card__flag" aria-hidden="true">{c.flag}</span>
               <div class="country-card__info">
                 <span class="country-card__name">{c.name}</span>
-                <span class="country-card__count">{c.count} {c.count === 1 ? 'film' : 'films'}</span>
+                <span class="country-card__count">{c.count} {c.count === 1 ? 'película' : 'películas'}</span>
               </div>
             </a>
           ))}

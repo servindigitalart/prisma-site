@@ -86,11 +86,44 @@ const sorted = [...films].sort((a, b) => {
   return (b.year ?? 0) - (a.year ?? 0);
 });
 
-const pageTitle = `${countryFlag} ${countryName} — PRISMA`;
-const pageDescription = `${films.length} films from ${countryName} in the PRISMA catalog.`;
+const topFilmNames = films.slice(0, 3).map(f => f.title);
+const topFilmList = topFilmNames.length ? ` Incluye ${topFilmNames.join(', ')} y más.` : '';
+
+const pageTitle = `Cine de ${countryName} ${countryFlag} — PRISMA`;
+const pageDescription = `Las mejores películas de ${countryName} según PRISMA. Cine de autor, festivales y directores de ${countryName}.${topFilmList}`.slice(0, 160);
+
+const countryOgImage = films.find(f => f.tmdb_poster_path)?.tmdb_poster_path
+  ? `https://image.tmdb.org/t/p/w780${films.find(f => f.tmdb_poster_path)!.tmdb_poster_path}`
+  : undefined;
+
+const SITE = 'https://prisma.film';
+const countryJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageTitle,
+  description: pageDescription,
+  url: `${SITE}/countries/${slug}`,
+  numberOfItems: films.length,
+  itemListElement: films.slice(0, 10).map((film, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Movie',
+      name: film.title,
+      dateCreated: film.year?.toString(),
+      url: `${SITE}/films/${film.id.replace(/^work_/, '')}`,
+    },
+  })),
+};
+
+const countryBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Países', url: `${SITE}/countries` },
+  { name: countryName, url: `${SITE}/countries/${slug}` },
+];
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<BaseLayout title={pageTitle} description={pageDescription} ogImage={countryOgImage} jsonLd={countryJsonLd} breadcrumbs={countryBreadcrumbs}>
   <div class="country-page page-enter">
 
     <!-- Header -->
@@ -99,9 +132,9 @@ const pageDescription = `${films.length} films from ${countryName} in the PRISMA
         <div class="country-header__inner">
           <div class="country-header__flag" aria-hidden="true">{countryFlag}</div>
           <div class="country-header__info">
-            <div class="country-header__overline">National Cinema</div>
+            <div class="country-header__overline">Cine Nacional</div>
             <h1 class="country-header__name">{countryName}</h1>
-            <p class="country-header__count">{films.length} {films.length === 1 ? 'film' : 'films'} in the catalog</p>
+            <p class="country-header__count">{films.length} {films.length === 1 ? 'película' : 'películas'} en el catálogo</p>
           </div>
         </div>
       </div>
@@ -111,7 +144,7 @@ const pageDescription = `${films.length} films from ${countryName} in the PRISMA
     {top5.length > 0 && (
       <section class="country-posters">
         <div class="site-container">
-          <div class="country-posters__label">Top Films</div>
+          <div class="country-posters__label">Películas Destacadas</div>
           <div class="poster-row">
             {top5.map((film, i) => {
               const filmSlug = film.id.replace(/^work_/, '');

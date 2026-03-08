@@ -1,5 +1,5 @@
 import { c as createServiceClient } from '../../../chunks/client_DzNyPYKT.mjs';
-import { P as PRISMA_PALETTE } from '../../../chunks/colorPalette_CcE_HP33.mjs';
+import { P as PRISMA_PALETTE } from '../../../chunks/colorPalette_MBD9-pHi.mjs';
 export { renderers } from '../../../renderers.mjs';
 
 const POST = async ({ request }) => {

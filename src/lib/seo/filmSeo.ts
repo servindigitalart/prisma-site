@@ -23,7 +23,8 @@ export interface FilmSeoData {
   title: string;
   description: string;
   ogImage: string;
-  jsonLd: string;
+  ogType: string;
+  jsonLd: Record<string, unknown>;
 }
 
 // ─── Image helpers ────────────────────────────────────────────────────────────
@@ -78,7 +79,7 @@ function getColorNarrative(work: WorkFull | FilesystemWork): string | null {
 function buildDescription(work: WorkFull | FilesystemWork): string {
   const year    = work.year ? ` (${work.year})` : '';
   const dirs    = getDirectorNames(work);
-  const dirStr  = dirs.length ? ` Directed by ${dirs.join(', ')}.` : '';
+  const dirStr  = dirs.length ? ` Dirigida por ${dirs.join(', ')}.` : '';
   const synopsis = getSynopsis(work) ?? getColorNarrative(work);
 
   if (synopsis) {
@@ -87,12 +88,12 @@ function buildDescription(work: WorkFull | FilesystemWork): string {
     return trimmed;
   }
 
-  return `${work.title}${year} on PRISMA — cinematic color identity.${dirStr}`;
+  return `${work.title}${year} en PRISMA — identidad visual cinematográfica.${dirStr}`;
 }
 
 // ─── JSON-LD builder ──────────────────────────────────────────────────────────
 
-function buildJsonLd(work: WorkFull | FilesystemWork, posterUrl: string | null): string {
+function buildJsonLd(work: WorkFull | FilesystemWork, posterUrl: string | null): Record<string, unknown> {
   const directors = getDirectorNames(work);
   const filmSlug  = work.id.replace(/^work_/, '');
   const filmUrl   = `${SITE_URL}/films/${filmSlug}`;
@@ -185,7 +186,67 @@ function buildJsonLd(work: WorkFull | FilesystemWork, posterUrl: string | null):
     };
   }
 
-  return JSON.stringify(schema);
+  return schema;
+}
+
+// ─── FAQ JSON-LD builder ──────────────────────────────────────────────────────
+
+export function buildFilmFaqJsonLd(
+  work: WorkFull | FilesystemWork,
+): Record<string, unknown> {
+  const directors = getDirectorNames(work);
+  const synopsis = getSynopsis(work);
+  const questions: Record<string, unknown>[] = [];
+
+  // Q1: Where to watch
+  questions.push({
+    '@type': 'Question',
+    name: `¿Dónde ver ${work.title} online?`,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: `${work.title} está disponible en plataformas de streaming de cine de autor como MUBI y Criterion Channel. Consulta la disponibilidad en tu región. También puedes encontrar su análisis cromático completo en PRISMA.`,
+    },
+  });
+
+  // Q2: Who directed
+  if (directors.length) {
+    questions.push({
+      '@type': 'Question',
+      name: `¿Quién dirigió ${work.title}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `${work.title} fue dirigida por ${directors.join(', ')}${work.year ? ` en ${work.year}` : ''}.`,
+      },
+    });
+  }
+
+  // Q3: What is it about
+  if (synopsis) {
+    questions.push({
+      '@type': 'Question',
+      name: `¿De qué trata ${work.title}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: synopsis.length > 300 ? synopsis.slice(0, 297) + '…' : synopsis,
+      },
+    });
+  }
+
+  // Q4: Awards
+  questions.push({
+    '@type': 'Question',
+    name: `¿Qué premios ganó ${work.title}?`,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: `Consulta el historial completo de premios y nominaciones de ${work.title} en PRISMA, incluyendo festivales internacionales de cine como Cannes, Venecia y Berlín.`,
+    },
+  });
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: questions,
+  };
 }
 
 // ─── Main export ──────────────────────────────────────────────────────────────
@@ -205,6 +266,7 @@ export function buildFilmSeo(work: WorkFull | FilesystemWork): FilmSeoData {
     title: pageTitle,
     description,
     ogImage,
+    ogType: 'video.movie',
     jsonLd: buildJsonLd(work, posterUrl),
   };
 }

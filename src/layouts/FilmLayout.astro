@@ -1,17 +1,21 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import type { BreadcrumbItem } from '../lib/seo/breadcrumbs';
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
-  jsonLd?: string;
+  ogType?: string;
+  jsonLd?: string | Record<string, unknown>;
+  jsonLdExtra?: Record<string, unknown>;
+  breadcrumbs?: BreadcrumbItem[];
 }
 
-const { title, description, ogImage, jsonLd } = Astro.props;
+const { title, description, ogImage, ogType, jsonLd, jsonLdExtra, breadcrumbs } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} ogImage={ogImage} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} ogImage={ogImage} ogType={ogType} jsonLd={jsonLd} jsonLdExtra={jsonLdExtra} breadcrumbs={breadcrumbs}>
   <div class="film-page page-enter">
     <slot />
   </div>

@@ -1,4 +1,4 @@
-import { createServerClient } from '@supabase/ssr';
+import { createServerClient, parseCookieHeader } from '@supabase/ssr';
 
 function createSupabaseServerClient(cookies, request) {
   return createServerClient(
@@ -8,11 +8,10 @@ function createSupabaseServerClient(cookies, request) {
       cookies: {
         getAll() {
           const raw = request?.headers?.get("cookie") ?? cookies._request?.headers?.get("cookie") ?? "";
-          if (!raw) return [];
-          return raw.split(";").map((c) => {
-            const [name, ...rest] = c.trim().split("=");
-            return { name: name.trim(), value: decodeURIComponent(rest.join("=").trim()) };
-          });
+          return parseCookieHeader(raw).map((c) => ({
+            name: c.name,
+            value: c.value ?? ""
+          }));
         },
         setAll(cookiesToSet) {
           cookiesToSet.forEach(({ name, value, options }) => {
@@ -20,8 +19,8 @@ function createSupabaseServerClient(cookies, request) {
               ...options,
               path: "/",
               sameSite: "lax",
-              httpOnly: false,
-              secure: false
+              httpOnly: true,
+              secure: true
             });
           });
         }

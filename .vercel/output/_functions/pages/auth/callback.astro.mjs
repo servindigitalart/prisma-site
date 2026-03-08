@@ -1,18 +1,49 @@
 /* empty css                                     */
-import { f as createComponent, r as renderTemplate, p as renderHead } from '../../chunks/astro/server_DZETslqp.mjs';
+import { e as createAstro, f as createComponent } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
 import 'clsx';
+import { createServerClient, parseCookieHeader } from '@supabase/ssr';
 export { renderers } from '../../renderers.mjs';
 
-var __freeze = Object.freeze;
-var __defProp = Object.defineProperty;
-var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
-var _a;
+const $$Astro = createAstro("https://prisma.film");
 const prerender = false;
-const $$Callback = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate(_a || (_a = __template(["<html> <head><title>Signing in...</title>", "</head> <body> <script>\n(function() {\n  var hash = window.location.hash.substring(1)\n  var params = {}\n  hash.split('&').forEach(function(part) {\n    var eq = part.indexOf('=')\n    if (eq > -1) {\n      params[decodeURIComponent(part.substring(0, eq))] = decodeURIComponent(part.substring(eq + 1))\n    }\n  })\n  \n  var accessToken = params['access_token']\n  var refreshToken = params['refresh_token'] || ''\n  var expiresIn = parseInt(params['expires_in'] || '3600')\n  \n  if (accessToken) {\n    var session = JSON.stringify({\n      access_token: accessToken,\n      refresh_token: refreshToken,\n      expires_in: expiresIn,\n      expires_at: Math.floor(Date.now() / 1000) + expiresIn,\n      token_type: 'bearer'\n    })\n    var expires = new Date(Date.now() + expiresIn * 1000).toUTCString()\n    var cookieName = 'sb-porqyokkphflvqfclvkj-auth-token'\n    document.cookie = cookieName + '=' + encodeURIComponent(session) + '; path=/; expires=' + expires + '; SameSite=Lax'\n    window.location.replace('/')\n  } else {\n    window.location.replace('/auth/error?message=No+token+received')\n  }\n})()\n<\/script> </body> </html>"])), renderHead());
+const $$Callback = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$Callback;
+  const { request, cookies, redirect, url } = Astro2;
+  const supabase = createServerClient(
+    "https://porqyokkphflvqfclvkj.supabase.co",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBvcnF5b2trcGhmbHZxZmNsdmtqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwNDE2MzEsImV4cCI6MjA4NzYxNzYzMX0.q_fDlajLrMQ1Cbg7o_gwDGPhX8Mt7BwhgXapMkY9jN4",
+    {
+      cookies: {
+        getAll() {
+          const parsed = parseCookieHeader(request.headers.get("Cookie") ?? "");
+          return parsed.map((c) => ({ name: c.name, value: c.value ?? "" }));
+        },
+        setAll(cookiesToSet) {
+          cookiesToSet.forEach(({ name, value, options }) => {
+            cookies.set(name, value, {
+              ...options,
+              path: "/",
+              sameSite: "lax",
+              httpOnly: true,
+              secure: true
+            });
+          });
+        }
+      }
+    }
+  );
+  const code = url.searchParams.get("code");
+  if (code) {
+    const { error } = await supabase.auth.exchangeCodeForSession(code);
+    if (error) {
+      console.error("[callback] Code exchange error:", error);
+      return redirect("/auth/error?message=Code+exchange+failed");
+    }
+  }
+  return redirect("/");
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/pages/auth/callback.astro", void 0);
-
 const $$file = "/Users/servinemilio/Documents/REPOS/prisma-site/src/pages/auth/callback.astro";
 const $$url = "/auth/callback";
 

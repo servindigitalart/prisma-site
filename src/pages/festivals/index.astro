@@ -54,25 +54,49 @@ function festSlug(id: string) {
 }
 
 const TIER_GROUPS = [
-  { key: 'A', label: 'Grand International Festivals' },
-  { key: 'B', label: 'Major Festivals & Awards' },
-  { key: 'C', label: 'Regional & Specialty Awards' },
+  { key: 'A', label: 'Grandes Festivales Internacionales' },
+  { key: 'B', label: 'Festivales y Premios Importantes' },
+  { key: 'C', label: 'Premios Regionales y Especializados' },
 ] as const;
 
 const byTier = (tier: string) => festivals.filter(f => f.tier === tier);
+
+const SITE = 'https://prisma.film';
+
+const festivalsBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Festivales', url: `${SITE}/festivals` },
+];
+
+const festivalsJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Festivales y Premios de Cine — PRISMA',
+  description: `Los ${festivals.length} festivales y premios de cine más prestigiosos del mundo. De Cannes a los Premios de la Academia.`,
+  url: `${SITE}/festivals`,
+  numberOfItems: festivals.length,
+  itemListElement: festivals.slice(0, 30).map((f, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: f.name,
+    url: `${SITE}/festivals/${festSlug(f.id)}`,
+  })),
+};
 ---
 
 <BaseLayout
-  title="Festivals & Awards — PRISMA"
-  description="Cinema's most prestigious festivals and awards, from Cannes to the Academy Awards."
+  title="Festivales y Premios — PRISMA"
+  description="Los festivales y premios más prestigiosos del cine, de Cannes a los Premios de la Academia."
+  jsonLd={festivalsJsonLd}
+  breadcrumbs={festivalsBreadcrumbs}
 >
   <div class="festivals-page page-enter">
 
     <!-- Header -->
     <div class="festivals-header site-container">
-      <h1 class="festivals-header__title">Festivals & Awards</h1>
+      <h1 class="festivals-header__title">Festivales y Premios</h1>
       <p class="festivals-header__desc">
-        {festivals.length} curated festivals · Cinema's most prestigious recognitions
+        {festivals.length} festivales curados · Los reconocimientos más prestigiosos del cine
       </p>
     </div>
 

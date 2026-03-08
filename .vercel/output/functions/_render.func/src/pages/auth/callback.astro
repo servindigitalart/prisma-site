@@ -1,41 +1,50 @@
 ---
+/**
+ * src/pages/auth/callback.astro
+ * ─────────────────────────────
+ * Server-side PKCE callback.
+ * Supabase redirects here with ?code=... after Google consent.
+ * We exchange the code for a session, which sets auth cookies via @supabase/ssr.
+ */
 export const prerender = false
----
-<!DOCTYPE html>
-<html>
-<head><title>Signing in...</title></head>
-<body>
-<script is:inline>
-(function() {
-  var hash = window.location.hash.substring(1)
-  var params = {}
-  hash.split('&').forEach(function(part) {
-    var eq = part.indexOf('=')
-    if (eq > -1) {
-      params[decodeURIComponent(part.substring(0, eq))] = decodeURIComponent(part.substring(eq + 1))
-    }
-  })
-  
-  var accessToken = params['access_token']
-  var refreshToken = params['refresh_token'] || ''
-  var expiresIn = parseInt(params['expires_in'] || '3600')
-  
-  if (accessToken) {
-    var session = JSON.stringify({
-      access_token: accessToken,
-      refresh_token: refreshToken,
-      expires_in: expiresIn,
-      expires_at: Math.floor(Date.now() / 1000) + expiresIn,
-      token_type: 'bearer'
-    })
-    var expires = new Date(Date.now() + expiresIn * 1000).toUTCString()
-    var cookieName = 'sb-porqyokkphflvqfclvkj-auth-token'
-    document.cookie = cookieName + '=' + encodeURIComponent(session) + '; path=/; expires=' + expires + '; SameSite=Lax'
-    window.location.replace('/')
-  } else {
-    window.location.replace('/auth/error?message=No+token+received')
+
+import { createServerClient, parseCookieHeader } from '@supabase/ssr'
+
+const { request, cookies, redirect, url } = Astro
+
+const supabase = createServerClient(
+  import.meta.env.PUBLIC_SUPABASE_URL,
+  import.meta.env.PUBLIC_SUPABASE_ANON_KEY,
+  {
+    cookies: {
+      getAll() {
+        const parsed = parseCookieHeader(request.headers.get('Cookie') ?? '')
+        return parsed.map(c => ({ name: c.name, value: c.value ?? '' }))
+      },
+      setAll(cookiesToSet) {
+        cookiesToSet.forEach(({ name, value, options }) => {
+          cookies.set(name, value, {
+            ...options,
+            path: '/',
+            sameSite: 'lax',
+            httpOnly: true,
+            secure: import.meta.env.PROD,
+          })
+        })
+      },
+    },
   }
-})()
-</script>
-</body>
-</html>
+)
+
+const code = url.searchParams.get('code')
+
+if (code) {
+  const { error } = await supabase.auth.exchangeCodeForSession(code)
+  if (error) {
+    console.error('[callback] Code exchange error:', error)
+    return redirect('/auth/error?message=Code+exchange+failed')
+  }
+}
+
+return redirect('/')
+---

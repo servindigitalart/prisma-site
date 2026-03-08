@@ -44,6 +44,13 @@ const colorNarrative: string | null =
   ('color_narrative' in work) ? (work as FilesystemWork).color_narrative ?? null : null;
 
 const hasContent = synopsis || tagline || colorNarrative;
+
+// SEO streaming availability text
+const countryLabel = countries.length > 0
+  ? countries.map(c => isoToName(c)).join(', ')
+  : 'cine internacional';
+const yearStr = work.year ? ` (${work.year})` : '';
+const isStreamable = 'is_streamable' in work && (work as any).is_streamable;
 ---
 
 {hasContent && (
@@ -69,13 +76,13 @@ const hasContent = synopsis || tagline || colorNarrative;
         <div class="film-synopsis__meta">
           {genres.length > 0 && (
             <div class="film-synopsis__meta-row">
-              <span class="film-synopsis__meta-label">Genre</span>
+              <span class="film-synopsis__meta-label">Género</span>
               <span class="film-synopsis__meta-value">{genres.join(', ')}</span>
             </div>
           )}
           {countries.length > 0 && (
             <div class="film-synopsis__meta-row">
-              <span class="film-synopsis__meta-label">Origin</span>
+              <span class="film-synopsis__meta-label">Origen</span>
               <span class="film-synopsis__meta-value film-synopsis__countries">
                 {countries.map((iso2) => (
                   <a href={`/countries/${countryToSlug(iso2)}`} class="film-synopsis__country">
@@ -88,7 +95,7 @@ const hasContent = synopsis || tagline || colorNarrative;
           )}
           {studios.length > 0 && (
             <div class="film-synopsis__meta-row">
-              <span class="film-synopsis__meta-label">Production</span>
+              <span class="film-synopsis__meta-label">Producción</span>
               <span class="film-synopsis__meta-value film-synopsis__studios">
                 {studios.map((s) => (
                   <a href={`/studios/${s.slug}`} class="film-synopsis__studio">
@@ -107,6 +114,14 @@ const hasContent = synopsis || tagline || colorNarrative;
             </div>
           )}
         </div>
+
+        {/* Streaming text — SEO optimized */}
+        <p class="film-synopsis__streaming">
+          {isStreamable
+            ? `${work.title} está disponible para ver online en PRISMA en versión original.`
+            : `${work.title}${yearStr} es una película de ${countryLabel}. Puedes encontrarla en plataformas de streaming de cine de autor.`
+          }
+        </p>
       </div>
     </div>
   </section>
@@ -213,5 +228,13 @@ const hasContent = synopsis || tagline || colorNarrative;
   object-fit: contain;
   opacity: 0.75;
   filter: brightness(1.1);
+}
+
+.film-synopsis__streaming {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  opacity: 0.6;
 }
 </style>

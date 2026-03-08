@@ -38,8 +38,8 @@ interface Section {
 }
 
 const sections: Section[] = [
-  { id: 'technical',    title: 'Technical Details', hasContent: !!(duration || languages.length || studios.length || imdbRating) },
-  { id: 'distribution', title: 'Distribution',      hasContent: !!(isCriterion || isMubi || isSightAndSound) },
+  { id: 'technical',    title: 'Detalles Técnicos', hasContent: !!(duration || languages.length || studios.length || imdbRating) },
+  { id: 'distribution', title: 'Distribución',      hasContent: !!(isCriterion || isMubi || isSightAndSound) },
 ];
 ---
 
@@ -58,19 +58,19 @@ const sections: Section[] = [
               <div class="accordion-facts">
                 {duration && (
                   <div class="accordion-fact">
-                    <span class="accordion-fact__label">Runtime</span>
-                    <span class="accordion-fact__value">{duration} minutes</span>
+                    <span class="accordion-fact__label">Duración</span>
+                    <span class="accordion-fact__value">{duration} minutos</span>
                   </div>
                 )}
                 {languages.length > 0 && (
                   <div class="accordion-fact">
-                    <span class="accordion-fact__label">Languages</span>
+                    <span class="accordion-fact__label">Idiomas</span>
                     <span class="accordion-fact__value">{languages.join(', ')}</span>
                   </div>
                 )}
                 {studios.length > 0 && (
                   <div class="accordion-fact">
-                    <span class="accordion-fact__label">Studios</span>
+                    <span class="accordion-fact__label">Productoras</span>
                     <span class="accordion-fact__value accordion-fact__value--studios">
                       {studios.map((s, i) => (
                         <>

@@ -120,6 +120,34 @@ const safePage = Math.min(currentPage, totalPages);
 const offset = (safePage - 1) * PER_PAGE;
 const pageWorks = allRankedWorks.slice(offset, offset + PER_PAGE);
 
+const SITE = 'https://prisma.film';
+const rankingsTitle = 'Rankings de Películas — PRISMA | Mejores Películas de Autor';
+const rankingsDescription = 'El ranking PRISMA de las mejores películas de cine de autor, ordenadas por peso cultural, premios internacionales y calificación editorial. Descubre las joyas del cine mundial.';
+
+const rankingsBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Rankings', url: `${SITE}/rankings/films` },
+];
+
+const rankingsJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: rankingsTitle,
+  description: rankingsDescription,
+  url: `${SITE}/rankings/films`,
+  numberOfItems: totalFilms,
+  itemListElement: pageWorks.slice(0, 20).map((film, i) => ({
+    '@type': 'ListItem',
+    position: offset + i + 1,
+    item: {
+      '@type': 'Movie',
+      name: film.title,
+      dateCreated: film.year?.toString(),
+      url: `${SITE}/films/${film.slug}`,
+    },
+  })),
+};
+
 function pageUrl(p: number): string {
   return `/rankings/films${p === 1 ? '' : `?page=${p}`}`;
 }
@@ -136,23 +164,23 @@ function pageWindow(current: number, total: number): (number | '…')[] {
 }
 ---
 
-<Layout title="Film Rankings — PRISMA">
+<Layout title={rankingsTitle} description={rankingsDescription} jsonLd={rankingsJsonLd} breadcrumbs={rankingsBreadcrumbs}>
   <div class="rankings-page page-enter">
     <div class="rankings-header site-container">
-      <h1 class="rankings-header__title">Film Rankings</h1>
+      <h1 class="rankings-header__title">Rankings de Películas</h1>
       <p class="rankings-header__desc">
-        Ranked by prestige score: canon tier (40%), festival recognition (30%),
-        engagement (20%), arthouse distribution (10%).
+        Clasificadas por puntaje de prestigio: canon (40%), reconocimiento en festivales (30%),
+        engagement (20%), distribución arthouse (10%).
       </p>
       <p class="rankings-header__count">
-        {totalFilms} films &middot; page {safePage} of {totalPages}
+        {totalFilms} películas &middot; página {safePage} de {totalPages}
       </p>
     </div>
 
     <div class="site-container">
       {pageWorks.length === 0 ? (
         <div class="rankings-empty">
-          <p>No rankings available yet. Rankings are computed from ingested works.</p>
+          <p>Aún no hay rankings disponibles. Los rankings se calculan a partir de las obras ingresadas.</p>
         </div>
       ) : (
         <>
@@ -194,7 +222,7 @@ function pageWindow(current: number, total: number): (number | '…')[] {
                 class={`pagination__btn${safePage === 1 ? ' pagination__btn--disabled' : ''}`}
                 aria-disabled={safePage === 1}
               >
-                ← Prev
+                ← Anterior
               </a>
 
               <div class="pagination__pages">
@@ -218,7 +246,7 @@ function pageWindow(current: number, total: number): (number | '…')[] {
                 class={`pagination__btn${safePage === totalPages ? ' pagination__btn--disabled' : ''}`}
                 aria-disabled={safePage === totalPages}
               >
-                Next →
+                Siguiente →
               </a>
             </nav>
           )}

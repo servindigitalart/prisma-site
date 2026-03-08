@@ -1,9 +1,9 @@
 /* empty css                                     */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_QHw3iGXw.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
-import { g as getPaletteEntry } from '../../chunks/colorPalette_CcE_HP33.mjs';
+import { g as getPaletteEntry } from '../../chunks/colorPalette_MBD9-pHi.mjs';
 import { s as slugToIso, i as isoToName, a as isoToFlag } from '../../chunks/countries_xwzpexnz.mjs';
 import { l as loadAllWorks } from '../../chunks/loadWork_B0uYB5uV.mjs';
 /* empty css                                     */
@@ -60,9 +60,36 @@ const $$slug = createComponent(async ($$result, $$props, $$slots) => {
     if (b.numeric_score != null) return 1;
     return (b.year ?? 0) - (a.year ?? 0);
   });
-  const pageTitle = `${countryFlag} ${countryName} \u2014 PRISMA`;
-  const pageDescription = `${films.length} films from ${countryName} in the PRISMA catalog.`;
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": pageTitle, "description": pageDescription, "data-astro-cid-gsg47nhg": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="country-page page-enter" data-astro-cid-gsg47nhg> <!-- Header --> <section class="country-header" data-astro-cid-gsg47nhg> <div class="site-container" data-astro-cid-gsg47nhg> <div class="country-header__inner" data-astro-cid-gsg47nhg> <div class="country-header__flag" aria-hidden="true" data-astro-cid-gsg47nhg>${countryFlag}</div> <div class="country-header__info" data-astro-cid-gsg47nhg> <div class="country-header__overline" data-astro-cid-gsg47nhg>National Cinema</div> <h1 class="country-header__name" data-astro-cid-gsg47nhg>${countryName}</h1> <p class="country-header__count" data-astro-cid-gsg47nhg>${films.length} ${films.length === 1 ? "film" : "films"} in the catalog</p> </div> </div> </div> </section> <!-- Top 5 poster row --> ${top5.length > 0 && renderTemplate`<section class="country-posters" data-astro-cid-gsg47nhg> <div class="site-container" data-astro-cid-gsg47nhg> <div class="country-posters__label" data-astro-cid-gsg47nhg>Top Films</div> <div class="poster-row" data-astro-cid-gsg47nhg> ${top5.map((film, i) => {
+  const topFilmNames = films.slice(0, 3).map((f) => f.title);
+  const topFilmList = topFilmNames.length ? ` Incluye ${topFilmNames.join(", ")} y m\xE1s.` : "";
+  const pageTitle = `Cine de ${countryName} ${countryFlag} \u2014 PRISMA`;
+  const pageDescription = `Las mejores pel\xEDculas de ${countryName} seg\xFAn PRISMA. Cine de autor, festivales y directores de ${countryName}.${topFilmList}`.slice(0, 160);
+  const countryOgImage = films.find((f) => f.tmdb_poster_path)?.tmdb_poster_path ? `https://image.tmdb.org/t/p/w780${films.find((f) => f.tmdb_poster_path).tmdb_poster_path}` : void 0;
+  const SITE = "https://prisma.film";
+  const countryJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: pageTitle,
+    description: pageDescription,
+    url: `${SITE}/countries/${slug}`,
+    numberOfItems: films.length,
+    itemListElement: films.slice(0, 10).map((film, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Movie",
+        name: film.title,
+        dateCreated: film.year?.toString(),
+        url: `${SITE}/films/${film.id.replace(/^work_/, "")}`
+      }
+    }))
+  };
+  const countryBreadcrumbs = [
+    { name: "PRISMA", url: SITE },
+    { name: "Pa\xEDses", url: `${SITE}/countries` },
+    { name: countryName, url: `${SITE}/countries/${slug}` }
+  ];
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": pageTitle, "description": pageDescription, "ogImage": countryOgImage, "jsonLd": countryJsonLd, "breadcrumbs": countryBreadcrumbs, "data-astro-cid-gsg47nhg": true }, { "default": async ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="country-page page-enter" data-astro-cid-gsg47nhg> <!-- Header --> <section class="country-header" data-astro-cid-gsg47nhg> <div class="site-container" data-astro-cid-gsg47nhg> <div class="country-header__inner" data-astro-cid-gsg47nhg> <div class="country-header__flag" aria-hidden="true" data-astro-cid-gsg47nhg>${countryFlag}</div> <div class="country-header__info" data-astro-cid-gsg47nhg> <div class="country-header__overline" data-astro-cid-gsg47nhg>Cine Nacional</div> <h1 class="country-header__name" data-astro-cid-gsg47nhg>${countryName}</h1> <p class="country-header__count" data-astro-cid-gsg47nhg>${films.length} ${films.length === 1 ? "pel\xEDcula" : "pel\xEDculas"} en el catálogo</p> </div> </div> </div> </section> <!-- Top 5 poster row --> ${top5.length > 0 && renderTemplate`<section class="country-posters" data-astro-cid-gsg47nhg> <div class="site-container" data-astro-cid-gsg47nhg> <div class="country-posters__label" data-astro-cid-gsg47nhg>Películas Destacadas</div> <div class="poster-row" data-astro-cid-gsg47nhg> ${top5.map((film, i) => {
     const filmSlug = film.id.replace(/^work_/, "");
     const palette = film.color_iconico ? getPaletteEntry(film.color_iconico) : null;
     return renderTemplate`<a${addAttribute(`/films/${filmSlug}`, "href")} class="poster-card" data-astro-cid-gsg47nhg> <img${addAttribute(`${TMDB_IMG}${film.tmdb_poster_path}`, "src")}${addAttribute(film.title, "alt")} class="poster-card__img" loading="lazy" decoding="async" data-astro-cid-gsg47nhg> <span class="poster-card__num" data-astro-cid-gsg47nhg>#${i + 1}</span> <div class="poster-card__overlay" data-astro-cid-gsg47nhg> <span class="poster-card__overlay-title" data-astro-cid-gsg47nhg>${film.title}</span> ${film.year && renderTemplate`<span class="poster-card__overlay-year" data-astro-cid-gsg47nhg>${film.year}</span>`} ${palette && renderTemplate`<span class="poster-card__overlay-color"${addAttribute(`color: ${palette.hex}`, "style")} data-astro-cid-gsg47nhg> ${palette.name} </span>`} </div> </a>`;

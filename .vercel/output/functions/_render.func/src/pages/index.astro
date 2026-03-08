@@ -122,11 +122,26 @@ const featuredColors = FEATURED_COLOR_IDS
   .filter(Boolean) as typeof allColors;
 
 const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
+
+const homepageJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'PRISMA',
+  alternateName: 'PRISMA Film',
+  url: 'https://prisma.film',
+  description: 'Cada película tiene un color. PRISMA traza el ADN visual del cine a través de una paleta emocional de 18 colores.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://prisma.film/rankings/films?q={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
 <BaseLayout
-  title="PRISMA — Cinematic Color Identity"
-  description="Every film has a color. PRISMA maps the visual DNA of cinema through an 18-color emotional palette."
+  title="PRISMA — Identidad Cromática del Cine"
+  description="Cada película tiene un color. PRISMA traza el ADN visual del cine a través de una paleta emocional de 18 colores."
+  jsonLd={homepageJsonLd}
 >
   <!-- ─── Hero — Animated Color Strips ───────────────────────────────────────── -->
   <section class="prism-hero" aria-label="PRISMA color spectrum">
@@ -150,16 +165,16 @@ const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
     <!-- Layer 3: text overlay -->
     <div class="prism-text-wrap">
       <div class="prism-text">
-        <p class="prism-eyebrow">Cinematic color intelligence</p>
-        <h1 class="prism-title">Every film<br />has a color.</h1>
+        <p class="prism-eyebrow">Inteligencia cromática cinematográfica</p>
+        <h1 class="prism-title">Cada película<br />tiene un color.</h1>
         <p class="prism-body">
-          PRISMA maps the visual DNA of cinema through an 18-color emotional palette —
-          assigning each film a singular color identity defined by collective memory,
-          cinematographic intent, and cultural resonance.
+          PRISMA traza el ADN visual del cine a través de una paleta emocional de 18 colores —
+          asignando a cada película una identidad cromática singular definida por la memoria colectiva,
+          la intención cinematográfica y la resonancia cultural.
         </p>
         <div class="prism-actions">
-          <a href="/rankings/films" class="prism-cta">Explore rankings</a>
-          <a href="/colors" class="prism-link">Browse the palette →</a>
+          <a href="/rankings/films" class="prism-cta">Explorar rankings</a>
+          <a href="/colors" class="prism-link">Ver la paleta →</a>
         </div>
       </div>
     </div>
@@ -170,8 +185,8 @@ const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
     <section class="home-films">
       <div class="site-container">
         <div class="home-films__header">
-          <h2 class="home-films__heading">Top ranked</h2>
-          <a href="/rankings/films" class="home-films__see-all">See all →</a>
+          <h2 class="home-films__heading">Mejor rankeadas</h2>
+          <a href="/rankings/films" class="home-films__see-all">Ver todas →</a>
         </div>
 
         <div class="home-films__scroll">
@@ -204,8 +219,8 @@ const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
     <section class="home-colors">
       <div class="site-container">
         <div class="home-colors__header">
-          <h2 class="home-colors__heading">Explore the palette</h2>
-          <a href="/colors" class="home-colors__see-all">All 18 colors →</a>
+          <h2 class="home-colors__heading">Explora la paleta</h2>
+          <a href="/colors" class="home-colors__see-all">Los 18 colores →</a>
         </div>
 
         <div class="home-colors__grid">
@@ -240,21 +255,21 @@ const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
     <div class="site-container">
       <div class="home-manifesto__inner">
         <h2 class="home-manifesto__heading">
-          Color is not decoration.<br />It is argument.
+          El color no es decoración.<br />Es argumento.
         </h2>
         <div class="home-manifesto__body">
           <p>
-            The Prisma palette is a deliberate rejection of pixel-counting. Color identity
-            in cinema is determined by what an audience carries away — the bruised red of a
-            final confrontation, the cold blue of an all-night diner, the suffused yellow
-            of a remembered childhood.
+            La paleta Prisma es un rechazo deliberado al conteo de píxeles. La identidad cromática
+            en el cine la determina lo que el público se lleva consigo — el rojo lastimado de una
+            confrontación final, el azul frío de un café nocturno, el amarillo difuso
+            de una infancia recordada.
           </p>
           <p>
-            Our 18-color system maps the emotional register of cinema's visual language.
-            Not what is most frequent on screen, but what is most true.
+            Nuestro sistema de 18 colores traza el registro emocional del lenguaje visual del cine.
+            No lo más frecuente en pantalla, sino lo más verdadero.
           </p>
         </div>
-        <a href="/colors" class="home-manifesto__link">Read the doctrine →</a>
+        <a href="/colors" class="home-manifesto__link">Leer la doctrina →</a>
       </div>
     </div>
   </section>

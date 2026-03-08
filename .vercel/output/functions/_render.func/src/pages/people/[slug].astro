@@ -4,6 +4,7 @@ import { getPaletteEntry, formatRole } from '../../lib/color/colorPalette';
 import { loadPersonBySlugAsync } from '../../lib/loaders/loadPerson';
 import { createServiceClient, isSupabaseConfigured } from '../../lib/db/client';
 import { getFestivalLogoUrl, getFestivalMonogram } from '../../lib/festivalUtils';
+import { buildPersonSeo } from '../../lib/seo/personSeo';
 import type { PersonRole } from '../../lib/db/types';
 
 const { slug } = Astro.params;
@@ -17,7 +18,7 @@ if (!person) {
 }
 
 // Compute role summary
-const roleCounts: Partial<Record<PersonRole, number>> = {};
+const roleCounts: Record<string, number> = {};
 for (const entry of person.filmography) {
   roleCounts[entry.role] = (roleCounts[entry.role] ?? 0) + 1;
 }
@@ -43,6 +44,30 @@ const filmography = [...person.filmography].sort((a, b) =>
 
 const pageTitle = `${person.name} — PRISMA`;
 const nationalities = (person.nationality ?? []).join(', ');
+
+// ── Person SEO ────────────────────────────────────────────────────────────────
+const personSeo = buildPersonSeo(
+  {
+    name: person.name,
+    id: ('id' in person) ? (person as any).id : `person_${slug}`,
+    bio: person.bio ?? null,
+    nationality: person.nationality,
+    birth_year: person.birth_year ?? null,
+    death_year: person.death_year ?? null,
+    profile_path: person.profile_path ?? null,
+    imdb_id: ('imdb_id' in person) ? (person as any).imdb_id : null,
+    wikidata_id: ('wikidata_id' in person) ? (person as any).wikidata_id : null,
+    filmography: person.filmography,
+  },
+  primaryRole,
+);
+
+const SITE = 'https://prisma.film';
+const personBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Cineastas', url: `${SITE}/people` },
+  { name: person.name, url: `${SITE}/people/${slug}` },
+];
 
 // ── Ranking ───────────────────────────────────────────────────────────────────
 type PersonRanking = { rank: number; score: number; context: string };
@@ -151,7 +176,14 @@ if (person.profile_path) {
 }
 ---
 
-<BaseLayout title={pageTitle}>
+<BaseLayout
+  title={personSeo.title}
+  description={personSeo.description}
+  ogImage={personSeo.ogImage}
+  ogType={personSeo.ogType}
+  jsonLd={personSeo.jsonLd}
+  breadcrumbs={personBreadcrumbs}
+>
   <div class="person-page page-enter">
 
     <!-- ── Header ── -->
@@ -197,7 +229,7 @@ if (person.profile_path) {
                 <span class="person-header__meta-item">{nationalities}</span>
               )}
               {filmography.length > 0 && (
-                <span class="person-header__meta-item">{filmography.length} works</span>
+                <span class="person-header__meta-item">{filmography.length} obras</span>
               )}
             </div>
           </div>
@@ -220,7 +252,7 @@ if (person.profile_path) {
     {(personWins.length > 0 || personNoms.length > 0) && (
       <section class="person-awards">
         <div class="site-container">
-          <h2 class="person-awards__heading">Awards &amp; Recognition</h2>
+          <h2 class="person-awards__heading">Premios y Reconocimientos</h2>
 
           {personWins.length > 0 && (
             <div class="person-awards__wins">
@@ -293,8 +325,8 @@ if (person.profile_path) {
         <div class="site-container">
           <div class="person-colors__inner">
             <div class="person-colors__header">
-              <h2 class="person-colors__heading">Visual Identity</h2>
-              <p class="person-colors__sub">Colors recurring across their filmography</p>
+              <h2 class="person-colors__heading">Identidad Visual</h2>
+              <p class="person-colors__sub">Colores recurrentes a lo largo de su filmografía</p>
             </div>
 
             <div class="person-colors__signature">
@@ -307,7 +339,7 @@ if (person.profile_path) {
                     <div
                       class="person-color-item__bar"
                       style={`background: ${p.hex}; height: ${Math.max(pct * 1.5, 12)}px;`}
-                      title={`${count} films`}
+                      title={`${count} películas`}
                     />
                     <span class="person-color-item__name">{p.name}</span>
                     <span class="person-color-item__count">{count}</span>
@@ -324,7 +356,7 @@ if (person.profile_path) {
     {filmography.length > 0 && (
       <section class="person-filmography">
         <div class="site-container">
-          <h2 class="person-filmography__heading">Filmography</h2>
+          <h2 class="person-filmography__heading">Filmografía</h2>
 
           <div class="person-filmography__list">
             {filmography.map((entry) => {

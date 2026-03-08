@@ -5,6 +5,7 @@ import { isoToFlag, isoToName } from '../../lib/countries';
 import { getPaletteEntry } from '../../lib/color/colorPalette';
 import type { PrismaColorId } from '../../lib/db/types';
 import { getFestivalLogoUrl, getFestivalMonogram, isFestivalLogoLocal } from '../../lib/festivalUtils';
+import { buildFestivalSeo } from '../../lib/seo/festivalSeo';
 
 const { slug } = Astro.params;
 if (!slug) return Astro.redirect('/404');
@@ -141,11 +142,35 @@ const countryName = festival.country ? isoToName(festival.country) : '';
 const festLogoUrl = getFestivalLogoUrl(festival.logo_path);
 const festLogoIsLocal = isFestivalLogoLocal(festival.logo_path);
 const festMonogram = getFestivalMonogram(festival.name);
+
+// ── Festival SEO ──────────────────────────────────────────────────────────────
+const festivalSeo = buildFestivalSeo({
+  id: festival.id,
+  name: festival.name,
+  description: festival.description,
+  city: festival.city,
+  country: festival.country,
+  founded_year: festival.founded_year,
+  tier: festival.tier,
+  logo_path: festival.logo_path,
+  website: festival.website,
+});
+
+const SITE = 'https://prisma.film';
+const festBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Festivales', url: `${SITE}/festivals` },
+  { name: festival.name, url: `${SITE}/festivals/${slug}` },
+];
 ---
 
 <BaseLayout
-  title={`${festival.name} — PRISMA`}
-  description={festival.description ?? `${festival.name} — films and awards in the PRISMA catalog.`}
+  title={festivalSeo.title}
+  description={festivalSeo.description}
+  ogImage={festivalSeo.ogImage}
+  ogType={festivalSeo.ogType}
+  jsonLd={festivalSeo.jsonLd}
+  breadcrumbs={festBreadcrumbs}
 >
   <div class="festival-page page-enter">
 
@@ -170,7 +195,7 @@ const festMonogram = getFestivalMonogram(festival.name);
               {festival.founded_year && (
                 <>
                   <span aria-hidden="true">·</span>
-                  <span>est. {festival.founded_year}</span>
+                  <span>fund. {festival.founded_year}</span>
                 </>
               )}
               {festival.tier && (
@@ -191,7 +216,7 @@ const festMonogram = getFestivalMonogram(festival.name);
             <div class="fest-header__links">
               {festival.website && (
                 <a href={festival.website} target="_blank" rel="noopener noreferrer" class="fest-website-link">
-                  Official website ↗
+                  Sitio oficial ↗
                 </a>
               )}
             </div>
@@ -201,11 +226,11 @@ const festMonogram = getFestivalMonogram(festival.name);
         <!-- Stats bar -->
         {rows.length > 0 && (
           <div class="fest-stats">
-            <span class="fest-stat"><strong>{totalWins}</strong> wins in catalog</span>
+            <span class="fest-stat"><strong>{totalWins}</strong> premios en catálogo</span>
             <span class="fest-stat-sep" aria-hidden="true">·</span>
-            <span class="fest-stat"><strong>{totalNoms}</strong> nominations</span>
+            <span class="fest-stat"><strong>{totalNoms}</strong> nominaciones</span>
             <span class="fest-stat-sep" aria-hidden="true">·</span>
-            <span class="fest-stat"><strong>{uniqueFilms.size}</strong> films</span>
+            <span class="fest-stat"><strong>{uniqueFilms.size}</strong> películas</span>
           </div>
         )}
       </div>
@@ -213,7 +238,7 @@ const festMonogram = getFestivalMonogram(festival.name);
 
     {rows.length === 0 ? (
       <div class="site-container fest-empty">
-        <p>No films from this festival in the catalog yet.</p>
+        <p>Aún no hay películas de este festival en el catálogo.</p>
       </div>
     ) : (
       <>
@@ -221,7 +246,7 @@ const festMonogram = getFestivalMonogram(festival.name);
         {topWinners.length > 0 && (
           <section class="fest-posters">
             <div class="site-container">
-              <div class="sect-label">Winners in Catalog</div>
+              <div class="sect-label">Ganadores en el Catálogo</div>
               <div class="poster-row">
                 {topWinners.map((r, i) => {
                   const colorId = getColor(r.works);
@@ -259,7 +284,7 @@ const festMonogram = getFestivalMonogram(festival.name);
         <!-- ── Awards history ── -->
         <section class="fest-history">
           <div class="site-container">
-            <h2 class="sect-label">Awards History</h2>
+            <h2 class="sect-label">Historial de Premios</h2>
             <div class="award-groups">
               {awardGroups.map(group => (
                 <div class="award-group">

@@ -13,12 +13,12 @@ const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
 
 const ROLE_LABELS: Record<string, string> = {
   director:          'Director',
-  cinematography:    'D.P.',
-  writer:            'Writer',
+  cinematography:    'Dir. Fotografía',
+  writer:            'Guionista',
   editor:            'Editor',
-  composer:          'Composer',
+  composer:          'Compositor',
   actor:             'Actor',
-  production_design: 'Prod. Design',
+  production_design: 'Dir. Arte',
 };
 
 type PersonCard = {
@@ -120,7 +120,7 @@ if (filmmakers.length === 0 && crew.length === 0 && cast.length === 0) return;
     {/* ── Key Filmmakers (director, writer — deduplicated per person) ── */}
     {filmmakers.length > 0 && (
       <div class="people-section">
-        <h3 class="people-section__heading">Key Filmmakers</h3>
+        <h3 class="people-section__heading">Cineastas Clave</h3>
         <div class="people-grid people-grid--filmmakers">
           {filmmakers.map((entry) => (
             <div class="person-card">
@@ -148,7 +148,7 @@ if (filmmakers.length === 0 && crew.length === 0 && cast.length === 0) return;
     {/* ── Crew (cinematography, editor, composer) ── */}
     {crew.length > 0 && (
       <div class="people-section">
-        <h3 class="people-section__heading">Crew</h3>
+        <h3 class="people-section__heading">Equipo Técnico</h3>
         <div class="people-grid people-grid--crew">
           {crew.map((person) => (
             <div class="person-card person-card--crew">
@@ -174,7 +174,7 @@ if (filmmakers.length === 0 && crew.length === 0 && cast.length === 0) return;
     {/* ── Cast — always visible, rectangular cards matching Crew style ── */}
     {cast.length > 0 && (
       <div class="people-section">
-        <h3 class="people-section__heading">Cast ({cast.length})</h3>
+        <h3 class="people-section__heading">Reparto ({cast.length})</h3>
         <div class="people-grid people-grid--cast">
           {cast.map((person) => {
             const personFullId = person.slug ? `person_${person.slug}` : '';

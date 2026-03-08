@@ -44,13 +44,16 @@ if ('work_people' in work && Array.isArray(work.work_people)) {
 const heroTextColor = lightText ? '#0A0A0F' : '#F0EEE8';
 const heroSubColor = lightText ? 'rgba(10,10,15,0.6)' : 'rgba(240,238,232,0.5)';
 
+// Compute decade for badge link
+const decade = work.year ? `${Math.floor(work.year / 10) * 10}s` : null;
+
 // Resolve poster path (TMDB or filesystem)
 const TMDB_BASE = 'https://image.tmdb.org/t/p/w500';
 let posterUrl: string | null = null;
 if ('tmdb_poster_path' in work && work.tmdb_poster_path) {
   posterUrl = `${TMDB_BASE}${work.tmdb_poster_path}`;
-} else if ('media' in work && work.media?.poster_path) {
-  posterUrl = `${TMDB_BASE}${(work as FilesystemWork).media.poster_path}`;
+} else if ('media' in work && (work as FilesystemWork).media?.poster_path) {
+  posterUrl = `${TMDB_BASE}${(work as FilesystemWork).media!.poster_path}`;
 }
 ---
 
@@ -90,6 +93,9 @@ if ('tmdb_poster_path' in work && work.tmdb_poster_path) {
             <span class="film-hero__sep">·</span>
             <span class="film-hero__runtime">{work.duration_min} min</span>
           </>
+        )}
+        {decade && (
+          <a href={`/decades/${decade}`} class="film-hero__decade-badge">{decade}</a>
         )}
       </div>
     </div>
@@ -202,6 +208,28 @@ a.film-hero__director--link {
 a.film-hero__director--link:hover { color: var(--hero-text); }
 
 .film-hero__sep { color: var(--hero-sub); opacity: 0.35; }
+
+.film-hero__decade-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--hero-sub);
+  background: color-mix(in srgb, var(--hero-text) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--hero-text) 12%, transparent);
+  border-radius: 100px;
+  padding: 0.2em 0.7em;
+  margin-left: 0.25rem;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+.film-hero__decade-badge:hover {
+  color: var(--hero-text);
+  background: color-mix(in srgb, var(--hero-text) 14%, transparent);
+  border-color: color-mix(in srgb, var(--hero-text) 22%, transparent);
+}
 
 @keyframes heroTitleIn {
   from { opacity: 0; transform: translateY(18px); }

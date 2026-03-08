@@ -5,6 +5,28 @@ import { isLightColor } from '../../lib/color/colorPalette';
 
 const colors = getAllColorProfiles();
 
+const SITE = 'https://prisma.film';
+
+const colorsBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Colores', url: `${SITE}/colors` },
+];
+
+const colorsJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'La Paleta Prisma — Colores del Cine de Autor',
+  description: 'Los 18 colores de la paleta Prisma. Cada película tiene un color que define su identidad visual cinematográfica.',
+  url: `${SITE}/colors`,
+  numberOfItems: colors.length,
+  itemListElement: colors.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.name,
+    url: `${SITE}/colors/${c.id}`,
+  })),
+};
+
 const MONO_MODES = [
   {
     id: 'claroscuro_dramatico',
@@ -25,12 +47,12 @@ const MONO_MODES = [
 ];
 ---
 
-<BaseLayout title="Color Palette — PRISMA" description="The 18 colors of the Prisma palette. Every film has a color.">
+<BaseLayout title="Paleta de Colores — PRISMA" description="Los 18 colores de la paleta Prisma. Cada película tiene un color." jsonLd={colorsJsonLd} breadcrumbs={colorsBreadcrumbs}>
   <div class="colors-page page-enter">
     <div class="colors-page__hero site-container">
-      <h1 class="colors-page__title">The Prisma Palette</h1>
+      <h1 class="colors-page__title">La Paleta Prisma</h1>
       <p class="colors-page__subtitle">
-        Eighteen colors. Each one a distinct emotional register in cinema.
+        Dieciocho colores. Cada uno un registro emocional distinto en el cine.
       </p>
     </div>
 

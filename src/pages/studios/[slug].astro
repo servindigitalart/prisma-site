@@ -150,9 +150,28 @@ const flag = studio.country ? isoToFlag(studio.country) : null;
 const countryName = studio.country ? isoToName(studio.country) : null;
 
 const pageTitle = `${studio.name} — PRISMA`;
+const pageDescription = `${studio.name}${countryName ? ` (${countryName})` : ''}${studio.founded_year ? `, fundado en ${studio.founded_year}` : ''} — ${films.length} película${films.length !== 1 ? 's' : ''} en el catálogo PRISMA.`;
+
+const SITE = 'https://prisma.film';
+
+const studioBreadcrumbs = [
+  { name: 'PRISMA', url: SITE },
+  { name: 'Estudios', url: SITE },
+  { name: studio.name, url: `${SITE}/studios/${slug}` },
+];
+
+const studioJsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: studio.name,
+  url: `${SITE}/studios/${slug}`,
+  ...(logoUrl ? { logo: logoUrl } : {}),
+  ...(countryName ? { location: { '@type': 'Place', name: countryName } } : {}),
+  ...(studio.founded_year ? { foundingDate: String(studio.founded_year) } : {}),
+};
 ---
 
-<BaseLayout title={pageTitle}>
+<BaseLayout title={pageTitle} description={pageDescription} ogImage={logoUrl ?? undefined} jsonLd={studioJsonLd} breadcrumbs={studioBreadcrumbs}>
   <div class="studio-page page-enter">
 
     <!-- ── Header ── -->
@@ -177,11 +196,11 @@ const pageTitle = `${studio.name} — PRISMA`;
                 <span class="studio-header__meta-item">{countryName}</span>
               )}
               {studio.founded_year && (
-                <span class="studio-header__meta-item">Est. {studio.founded_year}</span>
+                <span class="studio-header__meta-item">Fund. {studio.founded_year}</span>
               )}
               {films.length > 0 && (
                 <span class="studio-header__meta-item">
-                  {films.length} {films.length === 1 ? 'film' : 'films'} in catalog
+                  {films.length} {films.length === 1 ? 'película' : 'películas'} en catálogo
                 </span>
               )}
             </div>
@@ -193,7 +212,7 @@ const pageTitle = `${studio.name} — PRISMA`;
     {films.length === 0 ? (
       <section class="studio-empty">
         <div class="site-container">
-          <p class="studio-empty__text">No films in the catalog for this studio yet.</p>
+          <p class="studio-empty__text">Aún no hay películas de este estudio en el catálogo.</p>
         </div>
       </section>
     ) : (
@@ -202,7 +221,7 @@ const pageTitle = `${studio.name} — PRISMA`;
         {topFilms.length > 0 && (
           <section class="studio-posters">
             <div class="site-container">
-              <div class="sect-label">Top Films</div>
+              <div class="sect-label">Películas Destacadas</div>
               <div class="poster-row">
                 {topFilms.map((film, i) => {
                   const filmSlug = film.id.replace(/^work_/, '');

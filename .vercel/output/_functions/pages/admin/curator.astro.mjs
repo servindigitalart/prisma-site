@@ -2,8 +2,8 @@
 import { f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, l as renderScript, h as addAttribute } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
 import { c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_QHw3iGXw.mjs';
-import { P as PRISMA_PALETTE } from '../../chunks/colorPalette_CcE_HP33.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { P as PRISMA_PALETTE } from '../../chunks/colorPalette_MBD9-pHi.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Curator = createComponent(async ($$result, $$props, $$slots) => {

@@ -142,7 +142,7 @@ if (currentUser && currentUser.id !== id) {
   isFollowing = !!followData
 }
 
-const pageTitle = `${profile.display_name || profile.username || 'User'} on PRISMA`
+const pageTitle = `${profile.display_name || profile.username || 'Usuario'} en PRISMA`
 const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${dominantColor ? ` · ${dominantColor.name}` : ''}`
 ---
 
@@ -174,10 +174,10 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
             <p class="profile-bio">{profile.bio}</p>
           )}
           <div class="profile-stats">
-            <span class="profile-stat">{ratingCount} rated</span>
+            <span class="profile-stat">{ratingCount} calificadas</span>
             <span class="profile-stat">{watchlistCount} watchlist</span>
-            <span class="profile-stat" id="follower-count-stat">{followerCount ?? 0} followers</span>
-            <span class="profile-stat">{followingCount ?? 0} following</span>
+            <span class="profile-stat" id="follower-count-stat">{followerCount ?? 0} seguidores</span>
+            <span class="profile-stat">{followingCount ?? 0} siguiendo</span>
           </div>
           
           <div class="profile-actions">
@@ -189,10 +189,10 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
                 data-is-following={isFollowing ? '1' : '0'}
                 data-follower-count={followerCount ?? 0}
               >
-                <span id="follow-btn-text">{isFollowing ? 'Following' : 'Follow'}</span>
+                <span id="follow-btn-text">{isFollowing ? 'Siguiendo' : 'Seguir'}</span>
               </button>
             )}
-            <button class="btn-share" id="btn-share-profile">Share profile</button>
+            <button class="btn-share" id="btn-share-profile">Compartir perfil</button>
           </div>
         </div>
       </header>
@@ -200,10 +200,10 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
       <!-- Cinematic DNA -->
       {dominantColor && (
         <section class="dna-section">
-          <h2 class="dna-title">Cinematic DNA</h2>
+          <h2 class="dna-title">ADN Cinematográfico</h2>
           <div class="dna-grid">
             <div class="dna-item">
-              <div class="dna-label">Dominant Color</div>
+              <div class="dna-label">Color Dominante</div>
               <div class="dna-color">
                 <div class="dna-color__swatch" style={`background: ${dominantColor.hex}`}></div>
                 <span class="dna-color__name">{dominantColor.name}</span>
@@ -244,14 +244,14 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
               })}
             </div>
           ) : (
-            <p class="section-empty">No films in watchlist yet.</p>
+            <p class="section-empty">Aún no hay películas en watchlist.</p>
           )}
         </div>
       </section>
 
       <!-- Ranked (closed by default) -->
       <section class="profile-section" id="section-ranked">
-        <button class="section-toggle">Ranked <span>({ratingCount})</span> ▸</button>
+        <button class="section-toggle">Calificadas <span>({ratingCount})</span> ▸</button>
         <div class="section-content" hidden>
           {ratings && ratings.filter((r: any) => r.rating).length > 0 ? (
             <div class="ranked-list">
@@ -279,14 +279,14 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
               })}
             </div>
           ) : (
-            <p class="section-empty">No ratings yet.</p>
+            <p class="section-empty">Aún no hay calificaciones.</p>
           )}
         </div>
       </section>
 
       <!-- Seen (closed by default) -->
       <section class="profile-section" id="section-seen">
-        <button class="section-toggle">Seen <span>({seenCount})</span> ▸</button>
+        <button class="section-toggle">Vistas <span>({seenCount})</span> ▸</button>
         <div class="section-content" hidden>
           {watches && watches.length > 0 ? (
             <div class="film-grid">
@@ -313,14 +313,14 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
               })}
             </div>
           ) : (
-            <p class="section-empty">No films seen yet.</p>
+            <p class="section-empty">Aún no hay películas vistas.</p>
           )}
         </div>
       </section>
 
       <!-- Reviews (closed by default) -->
       <section class="profile-section" id="section-reviews">
-        <button class="section-toggle">Reviews <span>({reviewCount})</span> ▸</button>
+        <button class="section-toggle">Reseñas <span>({reviewCount})</span> ▸</button>
         <div class="section-content" hidden>
           {ratings && ratings.filter((r: any) => r.review).length > 0 ? (
             <div class="reviews-list">
@@ -350,7 +350,7 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
               })}
             </div>
           ) : (
-            <p class="section-empty">No reviews yet.</p>
+            <p class="section-empty">Aún no hay reseñas.</p>
           )}
         </div>
       </section>
@@ -388,10 +388,10 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
         // Optimistic update
         isFollowing = !isFollowing;
         fCount += isFollowing ? 1 : -1;
-        followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+        followBtnText.textContent = isFollowing ? 'Siguiendo' : 'Seguir';
         followBtn.classList.toggle('is-following', isFollowing);
         var fcStat = document.getElementById('follower-count-stat');
-        if (fcStat) fcStat.textContent = fCount + ' followers';
+        if (fcStat) fcStat.textContent = fCount + ' seguidores';
         
         try {
           var response = await fetch('/api/user/follow', {
@@ -405,19 +405,19 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
             if (data.following !== isFollowing) {
               isFollowing = data.following;
               fCount += isFollowing ? 1 : -1;
-              followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+              followBtnText.textContent = isFollowing ? 'Siguiendo' : 'Seguir';
               followBtn.classList.toggle('is-following', isFollowing);
-              if (fcStat) fcStat.textContent = fCount + ' followers';
+              if (fcStat) fcStat.textContent = fCount + ' seguidores';
             }
           }
         } catch(e) {
           // Revert on error
           isFollowing = !isFollowing;
           fCount += isFollowing ? 1 : -1;
-          followBtnText.textContent = isFollowing ? 'Following' : 'Follow';
+          followBtnText.textContent = isFollowing ? 'Siguiendo' : 'Seguir';
           followBtn.classList.toggle('is-following', isFollowing);
           var fcStat2 = document.getElementById('follower-count-stat');
-          if (fcStat2) fcStat2.textContent = fCount + ' followers';
+          if (fcStat2) fcStat2.textContent = fCount + ' seguidores';
         }
         followBtn.removeAttribute('disabled');
       });
@@ -429,13 +429,13 @@ const pageDescription = `${ratingCount} rated · ${watchlistCount} watchlist${do
       var btn = this;
       try {
         await navigator.clipboard.writeText(url);
-        btn.textContent = '✓ Link copied!';
-        setTimeout(function() { btn.textContent = 'Share profile'; }, 2000);
+        btn.textContent = '✓ ¡Enlace copiado!';
+        setTimeout(function() { btn.textContent = 'Compartir perfil'; }, 2000);
       } catch(e) {
         if (navigator.share) {
-          navigator.share({ title: 'My PRISMA profile', url: url });
+          navigator.share({ title: 'Mi perfil PRISMA', url: url });
         } else {
-          prompt('Copy this link:', url);
+          prompt('Copia este enlace:', url);
         }
       }
     });
