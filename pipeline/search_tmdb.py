@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 TMDB Title Search Utility
 Search for films by title and queue them for ingestion.

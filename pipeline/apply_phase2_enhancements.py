@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 apply_phase2_enhancements.py
 ────────────────────────────
@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 
 load_dotenv('.env.local')
 
-SUPABASE_URL = os.getenv('SUPABASE_URL')
+SUPABASE_URL = os.getenv('SUPABASE_URL') or os.getenv('PUBLIC_SUPABASE_URL')
 SUPABASE_SERVICE_KEY = os.getenv('SUPABASE_SERVICE_KEY')
 
 if not SUPABASE_URL or not SUPABASE_SERVICE_KEY:

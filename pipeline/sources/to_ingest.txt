@@ -1,0 +1,5 @@
+# Manual additions — ad hoc films to ingest
+# Format: TMDB_ID  # Title (Year)
+# Run: python pipeline/queue_manager.py --add-list pipeline/sources/to_ingest.txt --source manual
+
+# Add films here as needed

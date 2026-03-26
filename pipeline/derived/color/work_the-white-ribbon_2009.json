@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-white-ribbon_2009",
+  "processed_at": "2026-03-25T02:09:18.688788+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is shot and presented entirely in black and white.",
+      "Cinematography consistently features high contrast, stark lighting, and deep shadows.",
+      "The white ribbon worn by children provides a recurring visual element that emphasizes the contrast against dark clothing and backgrounds."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-white-ribbon_2009",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-25T02:09:18.686421Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-25T02:09:18.686404Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-white-ribbon_2009",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

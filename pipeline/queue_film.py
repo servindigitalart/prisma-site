@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Film Queue Utility
 Simple wrapper to queue films by TMDB ID or title.

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 migrate_to_db.py
 ────────────────
@@ -793,7 +793,7 @@ def main() -> int:
         print("  ╚══════════════════════════════════════════╝")
 
     # ── Validate environment variables ────────────────────────────────────────
-    supabase_url = os.environ.get("SUPABASE_URL")
+    supabase_url = os.environ.get("SUPABASE_URL") or os.environ.get("PUBLIC_SUPABASE_URL")
     service_key  = os.environ.get("SUPABASE_SERVICE_KEY")
 
     if not supabase_url or not service_key:

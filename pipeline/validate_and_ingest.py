@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 validate_and_ingest.py
 ────────────────────────────────────────────────────────────────────────────────
@@ -96,7 +96,7 @@ def get_supabase_client():
         from supabase import create_client
     except ImportError:
         raise RuntimeError("supabase-py not installed: pip install supabase")
-    url = os.getenv("SUPABASE_URL")
+    url = os.getenv("SUPABASE_URL") or os.getenv("PUBLIC_SUPABASE_URL")
     key = os.getenv("SUPABASE_SERVICE_KEY")
     if not url or not key:
         raise RuntimeError("SUPABASE_URL and SUPABASE_SERVICE_KEY must be set in .env.local")
@@ -539,7 +539,7 @@ def main() -> int:
         return 1
 
     if execute:
-        if not os.getenv("SUPABASE_URL") or not os.getenv("SUPABASE_SERVICE_KEY"):
+        if not (os.getenv("SUPABASE_URL") or os.getenv("PUBLIC_SUPABASE_URL")) or not os.getenv("SUPABASE_SERVICE_KEY"):
             print(
                 "\n  ✗ SUPABASE_URL and SUPABASE_SERVICE_KEY must be set for --execute mode.\n"
                 "    Add them to .env.local or export in shell.\n"

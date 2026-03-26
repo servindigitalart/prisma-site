@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Centralized Prisma color palette registry.
 Single source of truth for valid color IDs and version mapping.

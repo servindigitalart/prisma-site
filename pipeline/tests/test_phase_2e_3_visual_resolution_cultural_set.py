@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Phase 2E → Phase 3 Integration Test — Canonical Cinematic Set
 

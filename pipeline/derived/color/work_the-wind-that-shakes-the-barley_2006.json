@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-wind-that-shakes-the-barley_2006",
+  "processed_at": "2026-03-25T22:15:41.285418+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_lima",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Vast green fields and hills of the Irish countryside serve as the backdrop for numerous outdoor scenes.",
+      "Characters are frequently depicted against lush green natural environments in many key moments.",
+      "The overall naturalistic color grading consistently emphasizes the natural greens of the landscape throughout the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-wind-that-shakes-the-barley_2006",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-25T22:15:41.283604Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-25T22:15:41.283587Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-wind-that-shakes-the-barley_2006",
+    "color_iconico": "verde_lima",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

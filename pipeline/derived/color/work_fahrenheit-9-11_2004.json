@@ -1,0 +1,56 @@
+{
+  "work_id": "work_fahrenheit-9-11_2004",
+  "processed_at": "2026-03-26T00:01:26.797715+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "low",
+    "color_consensus_strength": 0.55,
+    "secondary_colors": [
+      "verde_distopico",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Prevalence of news footage and archival material which often has a desaturated, cool-toned appearance.",
+      "Many scenes are set in urban/political environments (e.g., Washington D.C.) where cooler, muted palettes prevail.",
+      "The overall observational and critical tone of the documentary contributes to a visual 'cool detachment'."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_fahrenheit-9-11_2004",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-26T00:01:26.785699Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-26T00:01:26.785687Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_fahrenheit-9-11_2004",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "verde_distopico",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

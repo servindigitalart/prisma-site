@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Phase 2: Cultural Memory Resolver
 Aligned with color_doctrine.json v1.1
@@ -341,7 +341,7 @@ def _call_gemini_api(prompt: str) -> str:
 
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=full_prompt
+        contents=full_prompt,
     )
 
     if not response.text:

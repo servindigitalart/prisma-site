@@ -1,0 +1,58 @@
+name: PRISMA — Nightly Ingest
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # 08:00 Mexico City (UTC-6)
+    - cron: '0 20 * * *'   # 14:00 Mexico City
+    - cron: '0 2  * * *'   # 20:00 Mexico City
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of films to ingest'
+        default: '100'
+        required: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Show queue status
+        run: python pipeline/ingest_agent.py --status
+        env:
+          TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+      - name: Run ingestion batch
+        run: |
+          BATCH=${{ github.event.inputs.batch_size || '100' }}
+          python pipeline/ingest_agent.py --batch "$BATCH" --execute
+        env:
+          TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
+          GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+      - name: Commit queue updates
+        run: |
+          git config user.name  "PRISMA Bot"
+          git config user.email "bot@prisma.film"
+          git add pipeline/queue/
+          git diff --staged --quiet || git commit -m "chore(queue): batch ingest $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

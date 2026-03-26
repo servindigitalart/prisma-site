@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Batch TMDB Queue Ingestion
 Process all films in the queue and ingest their TMDB data.

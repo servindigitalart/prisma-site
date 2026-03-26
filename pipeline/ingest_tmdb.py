@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 import os, json, sys, requests
 from pathlib import Path
 
@@ -18,7 +18,7 @@ if not API_KEY:
 def fetch(endpoint, params=None):
     params = params or {}
     params["api_key"] = API_KEY
-    r = requests.get(f"{TMDB_API}{endpoint}", params=params, timeout=15)
+    r = requests.get(f"{TMDB_API}{endpoint}", params=params, timeout=30)
     r.raise_for_status()
     return r.json()
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Script to add 3 new colors to color_doctrine.json
 Run from prisma-site root directory.

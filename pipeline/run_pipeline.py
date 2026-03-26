@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 run_pipeline.py
 ───────────────
@@ -195,9 +195,10 @@ def run_for_work(
         from pipeline.phase_2_cultural_memory.schema import CulturalMemoryResult
         cultural_memory = CulturalMemoryResult(
             work_id=work_id,
-            iconic_color="azul_nocturno",  # Neutral fallback, NOT red
-            color_confidence="low",
-            color_consensus_strength=0.0,
+            iconic_color="azul_nocturno",
+            color_rank=0.30,
+            gemini_raw_score=0.30,
+            color_rank_reasoning="Gemini failed — neutral fallback assigned",
             secondary_colors=[],
             visual_rhythm="moderado_balanceado",
             emotional_temperature="neutral_contemplativo",

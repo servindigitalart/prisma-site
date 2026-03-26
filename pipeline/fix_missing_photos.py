@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Fix missing profile photos for people in Supabase by fetching from TMDB.
 Only updates people with NULL profile_path.

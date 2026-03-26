@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 catalog_diagnostic.py
 ─────────────────────
@@ -35,7 +35,7 @@ from supabase import create_client
 
 # ─── Setup ────────────────────────────────────────────────────────────────────
 
-url = os.environ.get("SUPABASE_URL")
+url = os.environ.get("SUPABASE_URL") or os.environ.get("PUBLIC_SUPABASE_URL")
 key = os.environ.get("SUPABASE_SERVICE_KEY")
 
 if not url or not key:

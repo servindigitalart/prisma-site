@@ -1,0 +1,54 @@
+{
+  "work_id": "work_elephant_2003",
+  "processed_at": "2026-03-26T00:01:52.372433+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "blanco_polar",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Long tracking shots through pale, off-white high school hallways and classrooms",
+      "Dominance of light grey, pale blue, and off-white in the production design of the school interiors",
+      "Naturalistic, desaturated color grading that emphasizes cool, neutral tones across the entire film"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_elephant_2003",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-26T00:01:52.368526Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-26T00:01:52.368512Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_elephant_2003",
+    "color_iconico": "blanco_polar",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

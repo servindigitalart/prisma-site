@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Quick test script for palette_registry and identity_resolver.
 """

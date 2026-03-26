@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Test the new numeric scoring system with the 15-film canonical test suite.
 Verifies that:

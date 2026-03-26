@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Canonical Test Suite for Cultural Memory Resolution
 

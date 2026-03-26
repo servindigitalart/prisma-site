@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Canonical identity resolution for people using tmdb_id as canonical key.
 """

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Test the numeric scoring system with peripheral films that should score in 0.50-0.84 range.
 These are films WITH color identity but NOT iconic enough to deserve 0.90+.

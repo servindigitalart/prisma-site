@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Phase 2: Cultural Memory Schema
 Aligned with color_doctrine.json v1.3 — 18 colors

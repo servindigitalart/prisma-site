@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Test script for rosa_pastel color addition (v1.3)
 Tests 5 films that should resolve to rosa_pastel

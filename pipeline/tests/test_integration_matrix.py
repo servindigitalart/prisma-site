@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Quick integration test for Cultural Memory + Phase 3
 

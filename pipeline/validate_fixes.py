@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Validation script for architectural fixes.
 Tests color contract enforcement and people identity resolution.

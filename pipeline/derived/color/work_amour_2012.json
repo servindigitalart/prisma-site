@@ -1,0 +1,55 @@
+{
+  "work_id": "work_amour_2012",
+  "processed_at": "2026-03-25T01:58:21.258657+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "blanco_polar",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The light-colored, often off-white or cream walls of the apartment where most of the film is set.",
+      "The pervasive natural light filtering through windows, creating a bright yet stark atmosphere.",
+      "The subdued, often pale or light-colored clothing worn by the main characters, Anne and Georges.",
+      "The overall desaturated and slightly cool color grading of the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_amour_2012",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-25T01:58:21.255341Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-25T01:58:21.255172Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_amour_2012",
+    "color_iconico": "blanco_polar",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

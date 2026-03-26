@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 import sys, json
 from pathlib import Path
 from slugify import slugify

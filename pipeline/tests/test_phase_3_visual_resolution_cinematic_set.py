@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 """
 Phase 3 Visual Resolution — Cinematic Set Dry-Run
 

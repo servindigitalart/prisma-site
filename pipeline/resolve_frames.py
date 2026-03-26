@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 from pathlib import Path
 
 FRAMES_ROOT = Path.home() / "prisma_automator/data/frames"
