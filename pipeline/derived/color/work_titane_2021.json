@@ -1,0 +1,57 @@
+{
+  "work_id": "work_titane_2021",
+  "processed_at": "2026-03-27T05:47:28.217930+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "titanio_mecanico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.87,
+    "secondary_colors": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Alexia's chrome-plated body parts and metallic spine, a constant visual motif.",
+      "The sleek, metallic Cadillac that is central to the narrative and iconic imagery.",
+      "The industrial settings of the garage, fire station, and hospital, which are dominated by metallic surfaces and grey tones.",
+      "The overall desaturated and cool color grading that enhances the metallic and cold aesthetic of the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_titane_2021",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:47:28.216150Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:47:28.216125Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_titane_2021",
+    "color_iconico": "titanio_mecanico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

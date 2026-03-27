@@ -1,0 +1,56 @@
+{
+  "work_id": "work_mustang_2015",
+  "processed_at": "2026-03-27T05:40:14.300568+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.87,
+    "secondary_colors": [
+      "verde_lima",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The constant visual presence of the sea, which is a strong blue-green teal, especially in scenes of attempted escape and longing.",
+      "The girls' frequently worn light blue dresses and clothing in many key scenes, including promotional materials.",
+      "The cool, naturalistic color grading and lighting that emphasizes blue-green tones in outdoor environments and the overall atmosphere of confinement."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_mustang_2015",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:40:14.298056Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:40:14.298039Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_mustang_2015",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

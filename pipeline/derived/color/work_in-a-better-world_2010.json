@@ -1,0 +1,54 @@
+{
+  "work_id": "work_in-a-better-world_2010",
+  "processed_at": "2026-03-27T05:09:45.539907+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "cian_melancolico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "The vast, dry, dusty landscapes and sun-baked earth of the African refugee camp are consistently amber-toned.",
+      "The buildings and structures in the African scenes are made of natural materials that take on a desaturated, amber-brown hue.",
+      "Characters' clothing in the African segments often consists of light, earth-toned fabrics that are visibly covered in dust, blending with the amber environment."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_in-a-better-world_2010",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:09:45.538331Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:09:45.538316Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_in-a-better-world_2010",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "cian_melancolico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

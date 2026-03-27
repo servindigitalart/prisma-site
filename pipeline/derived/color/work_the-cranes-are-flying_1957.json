@@ -1,0 +1,50 @@
+{
+  "work_id": "work_the-cranes-are-flying_1957",
+  "processed_at": "2026-03-27T04:52:25.968120+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film is entirely shot in black and white",
+      "Uses high contrast and deep shadows in its iconic cinematography (e.g., Boris's death scene, the spiral staircase sequence)",
+      "The visual language relies on expressionistic lighting to convey emotional and dramatic tension"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-cranes-are-flying_1957",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:52:25.966460Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:52:25.966444Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-cranes-are-flying_1957",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

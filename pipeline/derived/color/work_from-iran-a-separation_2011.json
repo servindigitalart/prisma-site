@@ -1,0 +1,56 @@
+{
+  "work_id": "work_from-iran-a-separation_2011",
+  "processed_at": "2026-03-27T05:08:18.103753+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.75,
+    "secondary_colors": [
+      "blanco_polar",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Cool, desaturated blue-grey walls in Nader and Simin's apartment, the courtroom, and hospital scenes.",
+      "Characters' clothing, such as Nader's shirts, Simin's headscarf, and other everyday attire, frequently feature muted blues, greys, and cool beige tones.",
+      "The film's overall naturalistic cinematography and color grading consistently apply a subtle cool tint to most urban and indoor environments."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_from-iran-a-separation_2011",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:08:18.101879Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:08:18.101862Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_from-iran-a-separation_2011",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "blanco_polar",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

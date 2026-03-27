@@ -1,0 +1,56 @@
+{
+  "work_id": "work_black-orpheus_1959",
+  "processed_at": "2026-03-27T04:50:52.272811+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "azul_nocturno",
+      "verde_lima"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Bright, golden sunlight saturating most outdoor scenes, particularly during Carnival.",
+      "Many Carnival costumes and street decorations featuring yellow hues.",
+      "The overall cinematography provides a warm, vibrant, and energetic feel that aligns with 'present-feeling joy'."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_black-orpheus_1959",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:50:52.270934Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:50:52.270917Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_black-orpheus_1959",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

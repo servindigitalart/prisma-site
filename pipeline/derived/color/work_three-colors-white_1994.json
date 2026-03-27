@@ -1,0 +1,55 @@
+{
+  "work_id": "work_three-colors-white_1994",
+  "processed_at": "2026-03-27T05:41:59.566943+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "blanco_polar",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.96,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Extensive snow-covered landscapes in Warsaw, Poland",
+      "Stark, brightly lit, and minimalist interior production design (e.g., courthouse, apartments)",
+      "Overall cool, desaturated color grading emphasizes white and pale tones",
+      "Characters (Karol, Dominique) often wear pale or white costumes"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_three-colors-white_1994",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:41:59.564293Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:41:59.564278Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_three-colors-white_1994",
+    "color_iconico": "blanco_polar",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

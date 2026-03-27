@@ -1,0 +1,1443 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/1ftk6ewQVLdQpHQOA718rxEuuUZ.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 42225,
+    "imdb_id": "tt0076517",
+    "origin_country": [
+      "IT"
+    ],
+    "original_language": "it",
+    "original_title": "Padre padrone",
+    "overview": "The true story of the life of Gavino Ledda, the son of a Sardinian shepherd, and how he managed to escape his harsh, almost barbaric existence by slowly educating himself, despite violent opposition from his brutal father.",
+    "popularity": 1.1425,
+    "poster_path": "/6kGarhZIsbpFNcEHftRzNeuz6Sb.jpg",
+    "production_companies": [
+      {
+        "id": 1583,
+        "logo_path": "/gKP4egMJOi5rksdnplfPV1wa0sd.png",
+        "name": "RAI",
+        "origin_country": "IT"
+      },
+      {
+        "id": 122557,
+        "logo_path": null,
+        "name": "CINEMA S.r.l.",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IT",
+        "name": "Italy"
+      }
+    ],
+    "release_date": "1977-05-20",
+    "revenue": 0,
+    "runtime": 114,
+    "spoken_languages": [
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      },
+      {
+        "english_name": "Latin",
+        "iso_639_1": "la",
+        "name": "Latin"
+      },
+      {
+        "english_name": "Sardinian",
+        "iso_639_1": "sc",
+        "name": ""
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Padre Padrone",
+    "video": false,
+    "vote_average": 6.9,
+    "vote_count": 124
+  },
+  "credits": {
+    "id": 42225,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 27208,
+        "known_for_department": "Acting",
+        "name": "Omero Antonutti",
+        "original_name": "Omero Antonutti",
+        "popularity": 0.3615,
+        "profile_path": "/mW2yOcIASJSSjxtJUukxYlXezNL.jpg",
+        "cast_id": 3,
+        "character": "Padre",
+        "credit_id": "52fe45f5c3a36847f80e4695",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 73977,
+        "known_for_department": "Acting",
+        "name": "Saverio Marconi",
+        "original_name": "Saverio Marconi",
+        "popularity": 0.7457,
+        "profile_path": "/7qC9dlMhknIYjxItdXbKyhZQIBe.jpg",
+        "cast_id": 4,
+        "character": "Gavino",
+        "credit_id": "52fe45f5c3a36847f80e4699",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 225392,
+        "known_for_department": "Acting",
+        "name": "Marcella Michelangeli",
+        "original_name": "Marcella Michelangeli",
+        "popularity": 0.3416,
+        "profile_path": null,
+        "cast_id": 5,
+        "character": "Madre",
+        "credit_id": "52fe45f5c3a36847f80e469d",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1002713,
+        "known_for_department": "Acting",
+        "name": "Fabrizio Forte",
+        "original_name": "Fabrizio Forte",
+        "popularity": 0.3285,
+        "profile_path": null,
+        "cast_id": 6,
+        "character": "Young Gavino",
+        "credit_id": "52fe45f5c3a36847f80e46a1",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1002715,
+        "known_for_department": "Acting",
+        "name": "Marino Cenna",
+        "original_name": "Marino Cenna",
+        "popularity": 1.2564,
+        "profile_path": "/rOJ3Xv2EZatetVhFXkvkYFD3sJx.jpg",
+        "cast_id": 7,
+        "character": "Young shepherd",
+        "credit_id": "52fe45f5c3a36847f80e46a5",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 564787,
+        "known_for_department": "Acting",
+        "name": "Stanko Molnar",
+        "original_name": "Stanko Molnar",
+        "popularity": 0.4158,
+        "profile_path": "/9gujNR5dkkQrjFhagDebFpFxzRN.jpg",
+        "cast_id": 8,
+        "character": "Sebastiano",
+        "credit_id": "52fe45f5c3a36847f80e46a9",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1002718,
+        "known_for_department": "Acting",
+        "name": "Gavino Ledda",
+        "original_name": "Gavino Ledda",
+        "popularity": 1.3367,
+        "profile_path": "/pAhauFLo6dj7aJqhfReb9VMIJIp.jpg",
+        "cast_id": 9,
+        "character": "Himself",
+        "credit_id": "52fe45f6c3a36847f80e46ad",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "cast_id": 10,
+        "character": "Cesare",
+        "credit_id": "52fe45f6c3a36847f80e46b1",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020167,
+        "known_for_department": "Acting",
+        "name": "Pierluigi Alvau",
+        "original_name": "Pierluigi Alvau",
+        "popularity": 0.1606,
+        "profile_path": null,
+        "cast_id": 24,
+        "character": "",
+        "credit_id": "671ad0255be9e8759da71691",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020168,
+        "known_for_department": "Acting",
+        "name": "Giuseppino Angioni",
+        "original_name": "Giuseppino Angioni",
+        "popularity": 0.27,
+        "profile_path": null,
+        "cast_id": 25,
+        "character": "",
+        "credit_id": "671ad02b27bd57d91f627b7b",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020169,
+        "known_for_department": "Acting",
+        "name": "Fabio Angioni",
+        "original_name": "Fabio Angioni",
+        "popularity": 0.3362,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "",
+        "credit_id": "671ad0325be9e8759da716a0",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020170,
+        "known_for_department": "Acting",
+        "name": "Giuseppe Brandino",
+        "original_name": "Giuseppe Brandino",
+        "popularity": 0.1128,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "",
+        "credit_id": "671ad0365be9e8759da716bc",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020171,
+        "known_for_department": "Acting",
+        "name": "Mario Cheri",
+        "original_name": "Mario Cheri",
+        "popularity": 0.3432,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "",
+        "credit_id": "671ad03c427c5c19f025d7be",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020172,
+        "known_for_department": "Acting",
+        "name": "Giuseppe Chessa Perle",
+        "original_name": "Giuseppe Chessa Perle",
+        "popularity": 0.0901,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "",
+        "credit_id": "671ad0405be9e8759da716ca",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020173,
+        "known_for_department": "Acting",
+        "name": "Domenico Deriu",
+        "original_name": "Domenico Deriu",
+        "popularity": 0.0901,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "",
+        "credit_id": "671ad0455be9e8759da716d6",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020174,
+        "known_for_department": "Acting",
+        "name": "Marina D'Onofrio",
+        "original_name": "Marina D'Onofrio",
+        "popularity": 0.179,
+        "profile_path": null,
+        "cast_id": 31,
+        "character": "",
+        "credit_id": "671ad04a5be9e8759da716e2",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020175,
+        "known_for_department": "Acting",
+        "name": "Pietro Paolo Fauli",
+        "original_name": "Pietro Paolo Fauli",
+        "popularity": 0.3918,
+        "profile_path": null,
+        "cast_id": 32,
+        "character": "",
+        "credit_id": "671ad04d27bd57d91f627b92",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020176,
+        "known_for_department": "Acting",
+        "name": "Franca Floris",
+        "original_name": "Franca Floris",
+        "popularity": 0.1178,
+        "profile_path": null,
+        "cast_id": 33,
+        "character": "",
+        "credit_id": "671ad05434c0fabd681c6d06",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020177,
+        "known_for_department": "Acting",
+        "name": "Mario Fulghesu",
+        "original_name": "Mario Fulghesu",
+        "popularity": 0.1403,
+        "profile_path": null,
+        "cast_id": 34,
+        "character": "",
+        "credit_id": "671ad05b427c5c19f025d7d7",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020178,
+        "known_for_department": "Acting",
+        "name": "Antonio Garrucciu",
+        "original_name": "Antonio Garrucciu",
+        "popularity": 0.0475,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "",
+        "credit_id": "671ad06027bd57d91f627bb2",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020179,
+        "known_for_department": "Acting",
+        "name": "Gianni Garruccio",
+        "original_name": "Gianni Garruccio",
+        "popularity": 0.1712,
+        "profile_path": null,
+        "cast_id": 36,
+        "character": "",
+        "credit_id": "671ad06627bd57d91f627bc1",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020180,
+        "known_for_department": "Acting",
+        "name": "Patrizia Giannichedda",
+        "original_name": "Patrizia Giannichedda",
+        "popularity": 0.26,
+        "profile_path": null,
+        "cast_id": 37,
+        "character": "",
+        "credit_id": "671ad07027bd57d91f627bd2",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020181,
+        "known_for_department": "Acting",
+        "name": "Roberto Giannichedda",
+        "original_name": "Roberto Giannichedda",
+        "popularity": 0.1566,
+        "profile_path": null,
+        "cast_id": 38,
+        "character": "",
+        "credit_id": "671ad074427c5c19f025d7eb",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020182,
+        "known_for_department": "Acting",
+        "name": "Vincenzo Giannichedda",
+        "original_name": "Vincenzo Giannichedda",
+        "popularity": 0.0818,
+        "profile_path": null,
+        "cast_id": 39,
+        "character": "",
+        "credit_id": "671ad0795be9e8759da71703",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020183,
+        "known_for_department": "Acting",
+        "name": "Pietro Giordo",
+        "original_name": "Pietro Giordo",
+        "popularity": 0.2135,
+        "profile_path": null,
+        "cast_id": 40,
+        "character": "",
+        "credit_id": "671ad07e5be9e8759da7171c",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020186,
+        "known_for_department": "Acting",
+        "name": "Antonello Gloriani",
+        "original_name": "Antonello Gloriani",
+        "popularity": 0.2924,
+        "profile_path": null,
+        "cast_id": 41,
+        "character": "",
+        "credit_id": "671ad083427c5c19f025d7f9",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020187,
+        "known_for_department": "Acting",
+        "name": "Gavino Loriga",
+        "original_name": "Gavino Loriga",
+        "popularity": 0.1204,
+        "profile_path": null,
+        "cast_id": 42,
+        "character": "",
+        "credit_id": "671ad08827bd57d91f627bee",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020188,
+        "known_for_department": "Acting",
+        "name": "Angelo Marras",
+        "original_name": "Angelo Marras",
+        "popularity": 0.4703,
+        "profile_path": null,
+        "cast_id": 43,
+        "character": "",
+        "credit_id": "671ad08e427c5c19f025d806",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020189,
+        "known_for_department": "Acting",
+        "name": "Costanzo Mela",
+        "original_name": "Costanzo Mela",
+        "popularity": 0.1155,
+        "profile_path": null,
+        "cast_id": 44,
+        "character": "",
+        "credit_id": "671ad092427c5c19f025d815",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020190,
+        "known_for_department": "Acting",
+        "name": "Domenico Morganti",
+        "original_name": "Domenico Morganti",
+        "popularity": 0.1551,
+        "profile_path": null,
+        "cast_id": 45,
+        "character": "",
+        "credit_id": "671ad09b27bd57d91f627bff",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020191,
+        "known_for_department": "Acting",
+        "name": "Luigi Muntoni",
+        "original_name": "Luigi Muntoni",
+        "popularity": 0.1302,
+        "profile_path": null,
+        "cast_id": 46,
+        "character": "",
+        "credit_id": "671ad0a034c0fabd681c6d15",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020192,
+        "known_for_department": "Acting",
+        "name": "Gianfranco Panai",
+        "original_name": "Gianfranco Panai",
+        "popularity": 0.2103,
+        "profile_path": null,
+        "cast_id": 47,
+        "character": "",
+        "credit_id": "671ad0a527bd57d91f627c0c",
+        "order": 31
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020193,
+        "known_for_department": "Acting",
+        "name": "Giuseppina Perantoni",
+        "original_name": "Giuseppina Perantoni",
+        "popularity": 0.3121,
+        "profile_path": null,
+        "cast_id": 48,
+        "character": "",
+        "credit_id": "671ad0ab427c5c19f025d823",
+        "order": 32
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020194,
+        "known_for_department": "Acting",
+        "name": "Cristiana Piazza",
+        "original_name": "Cristiana Piazza",
+        "popularity": 0.0802,
+        "profile_path": null,
+        "cast_id": 49,
+        "character": "",
+        "credit_id": "671ad0b2427c5c19f025d82e",
+        "order": 33
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020196,
+        "known_for_department": "Acting",
+        "name": "Matteo Piu",
+        "original_name": "Matteo Piu",
+        "popularity": 0.224,
+        "profile_path": null,
+        "cast_id": 50,
+        "character": "",
+        "credit_id": "671ad0b727bd57d91f627c1c",
+        "order": 34
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020197,
+        "known_for_department": "Acting",
+        "name": "Maria Immacolata Porcu",
+        "original_name": "Maria Immacolata Porcu",
+        "popularity": 0.2494,
+        "profile_path": null,
+        "cast_id": 51,
+        "character": "",
+        "credit_id": "671ad0bb27bd57d91f627c27",
+        "order": 35
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020198,
+        "known_for_department": "Acting",
+        "name": "Cosimo Rodio",
+        "original_name": "Cosimo Rodio",
+        "popularity": 0.1798,
+        "profile_path": null,
+        "cast_id": 52,
+        "character": "",
+        "credit_id": "671ad0bf5be9e8759da71736",
+        "order": 36
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020199,
+        "known_for_department": "Acting",
+        "name": "Anna Lucia Sanna",
+        "original_name": "Anna Lucia Sanna",
+        "popularity": 0.0214,
+        "profile_path": null,
+        "cast_id": 53,
+        "character": "",
+        "credit_id": "671ad0c327bd57d91f627c35",
+        "order": 37
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020200,
+        "known_for_department": "Acting",
+        "name": "Marco Sanna",
+        "original_name": "Marco Sanna",
+        "popularity": 0.1329,
+        "profile_path": null,
+        "cast_id": 54,
+        "character": "",
+        "credit_id": "671ad0c927bd57d91f627c42",
+        "order": 38
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2509413,
+        "known_for_department": "Acting",
+        "name": "Stefano Satta",
+        "original_name": "Stefano Satta",
+        "popularity": 0.0281,
+        "profile_path": null,
+        "cast_id": 55,
+        "character": "",
+        "credit_id": "671ad0e64542e371fe0a66d8",
+        "order": 39
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020201,
+        "known_for_department": "Acting",
+        "name": "Umberto Spada",
+        "original_name": "Umberto Spada",
+        "popularity": 0.2848,
+        "profile_path": null,
+        "cast_id": 56,
+        "character": "",
+        "credit_id": "671ad0ea4542e371fe0a66e4",
+        "order": 40
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020202,
+        "known_for_department": "Acting",
+        "name": "Mario Spissu",
+        "original_name": "Mario Spissu",
+        "popularity": 0.1791,
+        "profile_path": null,
+        "cast_id": 57,
+        "character": "",
+        "credit_id": "671ad0f0427c5c19f025d850",
+        "order": 41
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020203,
+        "known_for_department": "Acting",
+        "name": "Salvatore Stangoni",
+        "original_name": "Salvatore Stangoni",
+        "popularity": 0.1005,
+        "profile_path": null,
+        "cast_id": 58,
+        "character": "",
+        "credit_id": "671ad0f4427c5c19f025d860",
+        "order": 42
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020204,
+        "known_for_department": "Acting",
+        "name": "Marco Unali",
+        "original_name": "Marco Unali",
+        "popularity": 0.0801,
+        "profile_path": null,
+        "cast_id": 59,
+        "character": "",
+        "credit_id": "671ad0f9427c5c19f025d86b",
+        "order": 43
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24281,
+        "known_for_department": "Directing",
+        "name": "Vittorio Taviani",
+        "original_name": "Vittorio Taviani",
+        "popularity": 0.4101,
+        "profile_path": "/gQb8aZQO8K0GicAS8U8808hcbBd.jpg",
+        "credit_id": "52fe45f5c3a36847f80e4691",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24279,
+        "known_for_department": "Directing",
+        "name": "Paolo Taviani",
+        "original_name": "Paolo Taviani",
+        "popularity": 0.6627,
+        "profile_path": "/y4yxmcbHyaxLxxbf3ykpjqjaGHG.jpg",
+        "credit_id": "52fe45f5c3a36847f80e468b",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24279,
+        "known_for_department": "Directing",
+        "name": "Paolo Taviani",
+        "original_name": "Paolo Taviani",
+        "popularity": 0.6627,
+        "profile_path": "/y4yxmcbHyaxLxxbf3ykpjqjaGHG.jpg",
+        "credit_id": "54bd0ac3c3a3681da000194e",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24281,
+        "known_for_department": "Directing",
+        "name": "Vittorio Taviani",
+        "original_name": "Vittorio Taviani",
+        "popularity": 0.4101,
+        "profile_path": "/gQb8aZQO8K0GicAS8U8808hcbBd.jpg",
+        "credit_id": "54bd0ad2925141363500532a",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2537543,
+        "known_for_department": "Editing",
+        "name": "Rita Triunveri",
+        "original_name": "Rita Triunveri",
+        "popularity": 0.6147,
+        "profile_path": null,
+        "credit_id": "65ad2fa8ad59b500ac8261e5",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39011,
+        "known_for_department": "Sound",
+        "name": "Egisto Macchi",
+        "original_name": "Egisto Macchi",
+        "popularity": 0.7096,
+        "profile_path": "/7LuX3UvtTVqeaeb9JrwB8pAbCKo.jpg",
+        "credit_id": "65ad2f6f3e2ec800ebef4f38",
+        "department": "Sound",
+        "job": "Conductor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1598650,
+        "known_for_department": "Editing",
+        "name": "Andrea Gargano",
+        "original_name": "Andrea Gargano",
+        "popularity": 0.1959,
+        "profile_path": null,
+        "credit_id": "65ad2fb2158c8500ebb8d357",
+        "department": "Editing",
+        "job": "Color Grading"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2499028,
+        "known_for_department": "Production",
+        "name": "Vincenzo Caruso",
+        "original_name": "Vincenzo Caruso",
+        "popularity": 0.4088,
+        "profile_path": null,
+        "credit_id": "65ad2fc167b61300cbd681ef",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3420632,
+        "known_for_department": "Production",
+        "name": "Danilo Martelli",
+        "original_name": "Danilo Martelli",
+        "popularity": 0.1234,
+        "profile_path": null,
+        "credit_id": "65ad2f8b25cd85010a6dd837",
+        "department": "Production",
+        "job": "Production Accountant"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39011,
+        "known_for_department": "Sound",
+        "name": "Egisto Macchi",
+        "original_name": "Egisto Macchi",
+        "popularity": 0.7096,
+        "profile_path": "/7LuX3UvtTVqeaeb9JrwB8pAbCKo.jpg",
+        "credit_id": "65ded4bf8e870201840454d2",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 18333,
+        "known_for_department": "Editing",
+        "name": "Roberto Perpignani",
+        "original_name": "Roberto Perpignani",
+        "popularity": 0.897,
+        "profile_path": "/tNwHnbaTIc9cUfWONfr4cD9IEGC.jpg",
+        "credit_id": "65f554cce039f1017d03a3eb",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 240902,
+        "known_for_department": "Camera",
+        "name": "Mario Masini",
+        "original_name": "Mario Masini",
+        "popularity": 0.5736,
+        "profile_path": "/ipSoYgsoTW579YC36DiB8wWkmVV.jpg",
+        "credit_id": "65f554c03009aa017e10a25a",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 332350,
+        "known_for_department": "Production",
+        "name": "Giuliani G. De Negri",
+        "original_name": "Giuliani G. De Negri",
+        "popularity": 0.361,
+        "profile_path": null,
+        "credit_id": "65fbf0d40bc5290162aedfcc",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1002718,
+        "known_for_department": "Acting",
+        "name": "Gavino Ledda",
+        "original_name": "Gavino Ledda",
+        "popularity": 1.3367,
+        "profile_path": "/pAhauFLo6dj7aJqhfReb9VMIJIp.jpg",
+        "credit_id": "671ad10e27bd57d91f627c5f",
+        "department": "Writing",
+        "job": "Book"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1164327,
+        "known_for_department": "Art",
+        "name": "Gianni Sbarra",
+        "original_name": "Gianni Sbarra",
+        "popularity": 0.5095,
+        "profile_path": null,
+        "credit_id": "671ad120b3d5cbb842f3f6da",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1191310,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Lina Nerli Taviani",
+        "original_name": "Lina Nerli Taviani",
+        "popularity": 0.5966,
+        "profile_path": null,
+        "credit_id": "671ad1274542e371fe0a670f",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1439792,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Gloria Fava",
+        "original_name": "Gloria Fava",
+        "popularity": 0.1214,
+        "profile_path": null,
+        "credit_id": "671ad1316e4210780f78e01f",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020208,
+        "known_for_department": "Directing",
+        "name": "Giampiero Cubeddu",
+        "original_name": "Giampiero Cubeddu",
+        "popularity": 0.0505,
+        "profile_path": null,
+        "credit_id": "671ad13e27bd57d91f627c80",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020209,
+        "known_for_department": "Directing",
+        "name": "Marco De Poli",
+        "original_name": "Marco De Poli",
+        "popularity": 0.0143,
+        "profile_path": null,
+        "credit_id": "671ad144427c5c19f025d8bf",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020210,
+        "known_for_department": "Directing",
+        "name": "Francesco Lizzani",
+        "original_name": "Francesco Lizzani",
+        "popularity": 0.1123,
+        "profile_path": null,
+        "credit_id": "671ad14c2685cb6563c0bf75",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1693890,
+        "known_for_department": "Sound",
+        "name": "Fernando Caso",
+        "original_name": "Fernando Caso",
+        "popularity": 0.3662,
+        "profile_path": null,
+        "credit_id": "671ad15927bd57d91f627caa",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020213,
+        "known_for_department": "Sound",
+        "name": "Pietrantonio Federico",
+        "original_name": "Pietrantonio Federico",
+        "popularity": 0.2199,
+        "profile_path": null,
+        "credit_id": "671ad167427c5c19f025d8d6",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020215,
+        "known_for_department": "Sound",
+        "name": "Giovanni Sardo",
+        "original_name": "Giovanni Sardo",
+        "popularity": 0.1464,
+        "profile_path": null,
+        "credit_id": "671ad1742685cb6563c0bf99",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1625598,
+        "known_for_department": "Sound",
+        "name": "Adriano Taloni",
+        "original_name": "Adriano Taloni",
+        "popularity": 0.5159,
+        "profile_path": null,
+        "credit_id": "671ad17b2685cb6563c0bfa9",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1860639,
+        "known_for_department": "Camera",
+        "name": "Aldo Antonelli",
+        "original_name": "Aldo Antonelli",
+        "popularity": 0.2231,
+        "profile_path": null,
+        "credit_id": "671ad1856e4210780f78e030",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 5020216,
+        "known_for_department": "Camera",
+        "name": "Arnaldo Palone",
+        "original_name": "Arnaldo Palone",
+        "popularity": 0.1685,
+        "profile_path": null,
+        "credit_id": "671ad18f5be9e8759da71773",
+        "department": "Camera",
+        "job": "Key Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1439797,
+        "known_for_department": "Lighting",
+        "name": "Pietro Ras",
+        "original_name": "Pietro Ras",
+        "popularity": 0.1758,
+        "profile_path": null,
+        "credit_id": "671ad1a34542e371fe0a672d",
+        "department": "Lighting",
+        "job": "Gaffer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 42225,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "PADRE PADRONE (1977) - Trailer",
+        "key": "P8z-iv2URAc",
+        "published_at": "2015-12-17T21:35:55.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "584d02f99251411e31007f19"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 42225,
+    "keywords": [
+      {
+        "id": 1450,
+        "name": "shepherd"
+      },
+      {
+        "id": 3020,
+        "name": "sheep"
+      },
+      {
+        "id": 2073,
+        "name": "illiteracy"
+      },
+      {
+        "id": 2299,
+        "name": "abusive father"
+      },
+      {
+        "id": 2777,
+        "name": "accordion"
+      },
+      {
+        "id": 3466,
+        "name": "sardinia, italy"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 169618,
+        "name": "bestiality"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 42225,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 51
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 51
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/704tOH9qi7y7DDl1CmzDCAI0dcQ.jpg",
+            "provider_id": 1756,
+            "provider_name": "filmingo",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=ES",
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=LU",
+        "buy": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 11
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/42225-padre-padrone/watch?locale=US",
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/QAtDmj6XHlkPvw5xAjF08ZQARh.jpg",
+            "provider_id": 1811,
+            "provider_name": "Cohen Media Amazon Channel",
+            "display_priority": 156
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          }
+        ]
+      }
+    }
+  }
+}

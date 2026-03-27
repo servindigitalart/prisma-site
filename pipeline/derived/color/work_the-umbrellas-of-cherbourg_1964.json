@@ -1,0 +1,57 @@
+{
+  "work_id": "work_the-umbrellas-of-cherbourg_1964",
+  "processed_at": "2026-03-27T04:47:32.599675+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rosa_pastel",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.77,
+    "secondary_colors": [
+      "amarillo_ludico",
+      "cian_melancolico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "The interior of the umbrella shop is dominated by pinks and purples.",
+      "Genevi\u00e8ve's wardrobe frequently features pink dresses and coats, in addition to her famous yellow one.",
+      "Many exterior building facades and shopfronts in Cherbourg are painted in various pastel pinks, purples, yellows, and blues, creating a deliberately artificial, 'candy-colored' aesthetic.",
+      "The overall cinematography and production design emphasizes a vibrant yet soft pastel palette, creating a sense of tender, stylized memory."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-umbrellas-of-cherbourg_1964",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:47:32.597010Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:47:32.596989Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-umbrellas-of-cherbourg_1964",
+    "color_iconico": "rosa_pastel",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "amarillo_ludico",
+      "cian_melancolico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

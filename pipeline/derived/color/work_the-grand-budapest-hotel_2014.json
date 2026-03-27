@@ -1,0 +1,55 @@
+{
+  "work_id": "work_the-grand-budapest-hotel_2014",
+  "processed_at": "2026-03-27T05:43:28.810100+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "purpura_onirico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.92,
+    "secondary_colors": [
+      "amarillo_ludico"
+    ],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "The iconic pinkish-purple facade of the Grand Budapest Hotel",
+      "M. Gustave's signature purple uniform worn throughout the film",
+      "Mendl's pastel pink/purple packaging and pastries",
+      "Consistent pastel purple/pink color grading and set design in hotel interiors"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-grand-budapest-hotel_2014",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:43:28.807499Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:43:28.807481Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-grand-budapest-hotel_2014",
+    "color_iconico": "purpura_onirico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "amarillo_ludico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "moderado_balanceado",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

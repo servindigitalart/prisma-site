@@ -1,0 +1,56 @@
+{
+  "work_id": "work_belle-epoque_1992",
+  "processed_at": "2026-03-27T05:32:03.323741+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "amarillo_ludico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "verde_lima",
+      "rosa_pastel"
+    ],
+    "visual_rhythm": "moderado_balanceado",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Consistent warm, golden-yellow color grading throughout the film, emphasizing sunlight.",
+      "Many scenes are set outdoors or in interiors flooded with bright, natural light, creating a pervasive yellow glow.",
+      "Costume design often features light, cheerful colors, including yellows, creams, and reds, contributing to the vibrant, warm palette."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_belle-epoque_1992",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:32:03.321858Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:32:03.321842Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_belle-epoque_1992",
+    "color_iconico": "amarillo_ludico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima",
+      "rosa_pastel"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "moderado_balanceado",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_tsotsi_2005",
+  "processed_at": "2026-03-27T05:17:54.196892+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.85,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The vast majority of exterior shots in the township are saturated with a dusty, amber-gold hue from the sun and color grading.",
+      "The corrugated iron shacks and dusty ground throughout the film contribute to a dominant palette of browns, golds, and muted grays.",
+      "Costumes, while varied, often blend into this desaturated, warm-earth-toned environment."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_tsotsi_2005",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:17:54.195146Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:17:54.195131Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_tsotsi_2005",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

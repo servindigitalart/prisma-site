@@ -1,0 +1,56 @@
+{
+  "work_id": "work_a-fantastic-woman_2017",
+  "processed_at": "2026-03-27T04:59:31.545085+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.76,
+    "secondary_colors": [
+      "rojo_pasional",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Marina's iridescent blue-purple dress in multiple iconic scenes (e.g., the confrontation, the club performance)",
+      "Dominant deep blue lighting and cool tones in numerous night scenes set in the city",
+      "Overall cinematic tone that emphasizes Marina's profound journey through grief and societal rejection"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_a-fantastic-woman_2017",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:59:31.543298Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:59:31.543270Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_a-fantastic-woman_2017",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-counterfeiters_2007",
+  "processed_at": "2026-03-27T05:14:46.419534+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Prisoners' striped uniforms are consistently muted blue-grey.",
+      "The overall color grading of concentration camp scenes is desaturated and cool-toned, with blue-green undertones.",
+      "Production design features drab wooden barracks, stone walls, and industrial forgery equipment, all rendered in muted greys and desaturated blues/greens."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-counterfeiters_2007",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:14:46.414009Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:14:46.413981Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-counterfeiters_2007",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

@@ -1,0 +1,2540 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/c9SvfYLJyai34bafR1AvqD9vAJi.jpg",
+    "belongs_to_collection": null,
+    "budget": 1000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 36,
+        "name": "History"
+      }
+    ],
+    "homepage": "http://www.ida-movie.com/",
+    "id": 209274,
+    "imdb_id": "tt2718492",
+    "origin_country": [
+      "PL"
+    ],
+    "original_language": "pl",
+    "original_title": "Ida",
+    "overview": "In 1960s Poland, young novitiate Anna is on the verge of taking her vows when she discovers a family secret dating back to the years of the German occupation.",
+    "popularity": 2.1392,
+    "poster_path": "/3uoCttE46RGHybiA26cXTvmFqbW.jpg",
+    "production_companies": [
+      {
+        "id": 6477,
+        "logo_path": "/tn6i5FOfcfCrYR3zviZVvYdolwu.png",
+        "name": "Opus Film",
+        "origin_country": "PL"
+      },
+      {
+        "id": 1999,
+        "logo_path": null,
+        "name": "Phoenix Film Investments",
+        "origin_country": "DK"
+      },
+      {
+        "id": 250,
+        "logo_path": "/evWKasiElVQywuKv2dI72P9twz8.png",
+        "name": "CANAL+ Polska",
+        "origin_country": "PL"
+      },
+      {
+        "id": 72683,
+        "logo_path": null,
+        "name": "Phoenix Film Poland",
+        "origin_country": "PL"
+      },
+      {
+        "id": 486,
+        "logo_path": null,
+        "name": "Portobello Pictures",
+        "origin_country": "GB"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "PL",
+        "name": "Poland"
+      },
+      {
+        "iso_3166_1": "DK",
+        "name": "Denmark"
+      }
+    ],
+    "release_date": "2013-10-25",
+    "revenue": 15298355,
+    "runtime": 82,
+    "spoken_languages": [
+      {
+        "english_name": "Polish",
+        "iso_639_1": "pl",
+        "name": "Polski"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Ida",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1056
+  },
+  "credits": {
+    "id": 209274,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1192772,
+        "known_for_department": "Directing",
+        "name": "Agata Trzebuchowska",
+        "original_name": "Agata Trzebuchowska",
+        "popularity": 0.2834,
+        "profile_path": "/2cR8GC5uBdLoWMlTaVyqddLl1WU.jpg",
+        "cast_id": 2,
+        "character": "Anna",
+        "credit_id": "52fe4d60c3a368484e1e5d4d",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 566101,
+        "known_for_department": "Acting",
+        "name": "Agata Kulesza",
+        "original_name": "Agata Kulesza",
+        "popularity": 0.9587,
+        "profile_path": "/qOk64HBbyZeJ4o1k9ScOMOtqOXR.jpg",
+        "cast_id": 3,
+        "character": "Wanda",
+        "credit_id": "52fe4d60c3a368484e1e5d51",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1277198,
+        "known_for_department": "Acting",
+        "name": "Dawid Ogrodnik",
+        "original_name": "Dawid Ogrodnik",
+        "popularity": 0.5133,
+        "profile_path": "/8knKNmMFjc7uqyXXkDEfVKYURqi.jpg",
+        "cast_id": 7,
+        "character": "Lis",
+        "credit_id": "52fe4d60c3a368484e1e5d65",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2831,
+        "known_for_department": "Acting",
+        "name": "Jerzy Trela",
+        "original_name": "Jerzy Trela",
+        "popularity": 0.6003,
+        "profile_path": "/rem3V2py3o6eaaR4KQTvClVKX6n.jpg",
+        "cast_id": 9,
+        "character": "Szymon",
+        "credit_id": "52fe4d60c3a368484e1e5d6d",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1190325,
+        "known_for_department": "Acting",
+        "name": "Adam Szyszkowski",
+        "original_name": "Adam Szyszkowski",
+        "popularity": 0.2876,
+        "profile_path": "/69Cxtibt5Yez07i4igHJbYhbWhB.jpg",
+        "cast_id": 8,
+        "character": "Feliks",
+        "credit_id": "52fe4d60c3a368484e1e5d69",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1537080,
+        "known_for_department": "Acting",
+        "name": "Halina Skoczy\u0144ska",
+        "original_name": "Halina Skoczy\u0144ska",
+        "popularity": 0.9321,
+        "profile_path": "/wKIMR38OJxQ0LHFXK0YhMb1f69.jpg",
+        "cast_id": 45,
+        "character": "Mother Superior",
+        "credit_id": "56ae8bcc9251417e2900a011",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 908548,
+        "known_for_department": "Acting",
+        "name": "Joanna Kulig",
+        "original_name": "Joanna Kulig",
+        "popularity": 2.5512,
+        "profile_path": "/hlRdav6dSvfzyDnSSMooVh9GVxh.jpg",
+        "cast_id": 6,
+        "character": "Singer",
+        "credit_id": "52fe4d60c3a368484e1e5d61",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1501775,
+        "known_for_department": "Acting",
+        "name": "Dorota Kuduk",
+        "original_name": "Dorota Kuduk",
+        "popularity": 0.6132,
+        "profile_path": "/jsuYoyUxe6sg6rfY2ECg1IVwEKn.jpg",
+        "cast_id": 44,
+        "character": "Kaska",
+        "credit_id": "56ae8ba39251417e2900a00c",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1906831,
+        "known_for_department": "Acting",
+        "name": "Natalia \u0141\u0105giewczyk",
+        "original_name": "Natalia \u0141\u0105giewczyk",
+        "popularity": 0.3016,
+        "profile_path": "/jtgPlT0FbF6cGvur37CLqynDwtH.jpg",
+        "cast_id": 53,
+        "character": "Bronia",
+        "credit_id": "63e1563878570e00c9688e5a",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908767,
+        "known_for_department": "Acting",
+        "name": "Afrodyta Weselak",
+        "original_name": "Afrodyta Weselak",
+        "popularity": 0.0722,
+        "profile_path": null,
+        "cast_id": 54,
+        "character": "Marysia",
+        "credit_id": "63e156495907de008e0ac0b2",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1076081,
+        "known_for_department": "Acting",
+        "name": "Mariusz Jakus",
+        "original_name": "Mariusz Jakus",
+        "popularity": 0.6072,
+        "profile_path": "/vyllp0nwRkA5RaxT1XObzuuQzCh.jpg",
+        "cast_id": 55,
+        "character": "Barman",
+        "credit_id": "63e15671e9c0dc00de6b5246",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1138249,
+        "known_for_department": "Acting",
+        "name": "Izabela D\u0105browska",
+        "original_name": "Izabela D\u0105browska",
+        "popularity": 0.6125,
+        "profile_path": "/qshqTUqoOO7BBLqxcD3YHfWDrQ2.jpg",
+        "cast_id": 56,
+        "character": "Waitress",
+        "credit_id": "63e1567a3679a100798e030b",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 136735,
+        "known_for_department": "Acting",
+        "name": "Artur Janusiak",
+        "original_name": "Artur Janusiak",
+        "popularity": 0.4633,
+        "profile_path": "/cevblC5ujNv4iAfz2WU10nKktJV.jpg",
+        "cast_id": 57,
+        "character": "Policeman",
+        "credit_id": "63e15681e9c0dc00bcf1f765",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 127863,
+        "known_for_department": "Acting",
+        "name": "Anna Grzeszczak",
+        "original_name": "Anna Grzeszczak",
+        "popularity": 0.245,
+        "profile_path": "/jnUZS4DRl4T3T1fJ0Am3zv5jXsZ.jpg",
+        "cast_id": 58,
+        "character": "Neighbour",
+        "credit_id": "63e1568eb0460500b41ac4d4",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3908773,
+        "known_for_department": "Acting",
+        "name": "Jan Wojciech Poradowski",
+        "original_name": "Jan Wojciech Poradowski",
+        "popularity": 0.35,
+        "profile_path": null,
+        "cast_id": 59,
+        "character": "Father Andrew",
+        "credit_id": "63e156a1e9c0dc00de6b525d",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908774,
+        "known_for_department": "Acting",
+        "name": "Konstanty Szwemberg",
+        "original_name": "Konstanty Szwemberg",
+        "popularity": 0.1031,
+        "profile_path": null,
+        "cast_id": 60,
+        "character": "Official",
+        "credit_id": "63e156aa5907de00c3b16d56",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1384028,
+        "known_for_department": "Acting",
+        "name": "Pawe\u0142 Burczyk",
+        "original_name": "Pawe\u0142 Burczyk",
+        "popularity": 0.7109,
+        "profile_path": "/rjuzHGhpquT5mWdvCQEoGcUBlUz.jpg",
+        "cast_id": 61,
+        "character": "Prosecutor",
+        "credit_id": "63e156b578570e00c9688e75",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1735043,
+        "known_for_department": "Acting",
+        "name": "Artur Majewski",
+        "original_name": "Artur Majewski",
+        "popularity": 0.2982,
+        "profile_path": null,
+        "cast_id": 62,
+        "character": "Wanda's Lover",
+        "credit_id": "63e156be1f027500c3b74a5d",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908778,
+        "known_for_department": "Acting",
+        "name": "Krzysztof Brzezinski",
+        "original_name": "Krzysztof Brzezinski",
+        "popularity": 0.1326,
+        "profile_path": null,
+        "cast_id": 63,
+        "character": "Pianist",
+        "credit_id": "63e156c9ae2811008c782d71",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908779,
+        "known_for_department": "Acting",
+        "name": "Piotr Sadul",
+        "original_name": "Piotr Sadul",
+        "popularity": 0.0414,
+        "profile_path": null,
+        "cast_id": 64,
+        "character": "Bass Player",
+        "credit_id": "63e156d15907de00c3b16d65",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908780,
+        "known_for_department": "Acting",
+        "name": "Lukasz Jerzykowski",
+        "original_name": "Lukasz Jerzykowski",
+        "popularity": 0.092,
+        "profile_path": null,
+        "cast_id": 65,
+        "character": "Guitarist",
+        "credit_id": "63e156dc78570e00b24c79ba",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3908781,
+        "known_for_department": "Acting",
+        "name": "Artur Mostowy",
+        "original_name": "Artur Mostowy",
+        "popularity": 0.0851,
+        "profile_path": null,
+        "cast_id": 66,
+        "character": "Drummer",
+        "credit_id": "63e156e45907de0086a34d40",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 937309,
+        "known_for_department": "Acting",
+        "name": "Marek Kasprzyk",
+        "original_name": "Marek Kasprzyk",
+        "popularity": 0.1618,
+        "profile_path": "/ilxGSlmeeqvhxsV61NNDQ1CkTu9.jpg",
+        "cast_id": 67,
+        "character": "Man in Bar (uncredited)",
+        "credit_id": "63e156ecae2811008c782d7d",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3421595,
+        "known_for_department": "Acting",
+        "name": "Marek Wyrwicz",
+        "original_name": "Marek Wyrwicz",
+        "popularity": 0.1792,
+        "profile_path": null,
+        "cast_id": 68,
+        "character": "Cyclist (uncredited)",
+        "credit_id": "63e156fd78570e008169b595",
+        "order": 23
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 43553,
+        "known_for_department": "Directing",
+        "name": "Jerzy Skolimowski",
+        "original_name": "Jerzy Skolimowski",
+        "popularity": 0.7428,
+        "profile_path": "/2gAkOxAf9sgr6RtXQeUSPu15kFx.jpg",
+        "credit_id": "625c485bdf86a80051218576",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 64194,
+        "known_for_department": "Directing",
+        "name": "Pawe\u0142 Pawlikowski",
+        "original_name": "Pawe\u0142 Pawlikowski",
+        "popularity": 1.3046,
+        "profile_path": "/vzhGoaJpQrJV8arrz2px7J0yMCF.jpg",
+        "credit_id": "52fe4d60c3a368484e1e5d49",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1398743,
+        "known_for_department": "Production",
+        "name": "Christian Falkenberg Husum",
+        "original_name": "Christian Falkenberg Husum",
+        "popularity": 0.1176,
+        "profile_path": null,
+        "credit_id": "548cc9a792514122ea002a34",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6157,
+        "known_for_department": "Sound",
+        "name": "Kristian Eidnes Andersen",
+        "original_name": "Kristian Eidnes Andersen",
+        "popularity": 0.3465,
+        "profile_path": "/1hyr1THoXrGXuviQ5XQfgL7YSpW.jpg",
+        "credit_id": "548cc9ee92514122ed0029a1",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 960261,
+        "known_for_department": "Camera",
+        "name": "Ryszard Lenczewski",
+        "original_name": "Ryszard Lenczewski",
+        "popularity": 0.3703,
+        "profile_path": null,
+        "credit_id": "548cc742c3a3681d4b00041a",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 979225,
+        "known_for_department": "Production",
+        "name": "Ewa Puszczy\u0144ska",
+        "original_name": "Ewa Puszczy\u0144ska",
+        "popularity": 0.2075,
+        "profile_path": "/4WSFh0zOBUHpr7DZUN9NU4XGmkj.jpg",
+        "credit_id": "548cc985c3a36820be0023e8",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11687,
+        "known_for_department": "Production",
+        "name": "Eric Abraham",
+        "original_name": "Eric Abraham",
+        "popularity": 0.5586,
+        "profile_path": null,
+        "credit_id": "548cc91a92514122ed002990",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1398748,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Aleksandra Staszko",
+        "original_name": "Aleksandra Staszko",
+        "popularity": 0.1367,
+        "profile_path": null,
+        "credit_id": "548ccb44c3a36820c5002c22",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1398749,
+        "known_for_department": "Art",
+        "name": "Marcel S\u0142awi\u0144ski",
+        "original_name": "Marcel S\u0142awi\u0144ski",
+        "popularity": 0.7152,
+        "profile_path": "/evH2jC4HATcK0XyHcicMN9LAGX.jpg",
+        "credit_id": "548ccc1392514122ed0029c6",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 936755,
+        "known_for_department": "Production",
+        "name": "Piotr Dzi\u0119cio\u0142",
+        "original_name": "Piotr Dzi\u0119cio\u0142",
+        "popularity": 0.2023,
+        "profile_path": null,
+        "credit_id": "548cc974c3a3684ea1002436",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1398744,
+        "known_for_department": "Production",
+        "name": "Magdalena Malisz",
+        "original_name": "Magdalena Malisz",
+        "popularity": 0.3297,
+        "profile_path": null,
+        "credit_id": "548cc9d092514122f20027f0",
+        "department": "Production",
+        "job": "Line Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 88206,
+        "known_for_department": "Art",
+        "name": "Katarzyna Soba\u0144ska",
+        "original_name": "Katarzyna Soba\u0144ska",
+        "popularity": 0.9117,
+        "profile_path": "/hIfcPGIq7xmYmUrvby8M3BfEOKO.jpg",
+        "credit_id": "548ccc48c3a36820be00240a",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1501767,
+        "known_for_department": "Camera",
+        "name": "Sylwester Ka\u017amierczak",
+        "original_name": "Sylwester Ka\u017amierczak",
+        "popularity": 0.135,
+        "profile_path": null,
+        "credit_id": "65468c3afd4f8000c7fc201d",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570915,
+        "known_for_department": "Art",
+        "name": "Agata Trojak",
+        "original_name": "Agata Trojak",
+        "popularity": 0.1553,
+        "profile_path": null,
+        "credit_id": "56ae89189251416357002a20",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570925,
+        "known_for_department": "Visual Effects",
+        "name": "Robert Stasz",
+        "original_name": "Robert Stasz",
+        "popularity": 0.1097,
+        "profile_path": null,
+        "credit_id": "56ae8a0e92514164980028a6",
+        "department": "Visual Effects",
+        "job": "Visual Effects Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1553208,
+        "known_for_department": "Sound",
+        "name": "Micha\u0142 Kosterkiewicz",
+        "original_name": "Micha\u0142 Kosterkiewicz",
+        "popularity": 0.2804,
+        "profile_path": "/fgtjIDtUocPDpEvyWMlNJogN6HF.jpg",
+        "credit_id": "56ae8a419251417e1100abad",
+        "department": "Sound",
+        "job": "ADR & Dubbing"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1350222,
+        "known_for_department": "Sound",
+        "name": "Claus Lynge",
+        "original_name": "Claus Lynge",
+        "popularity": 0.4507,
+        "profile_path": null,
+        "credit_id": "56ae8aea9251416357002a4e",
+        "department": "Sound",
+        "job": "Supervising Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1570911,
+        "known_for_department": "Art",
+        "name": "Jagna Dobesz",
+        "original_name": "Jagna Dobesz",
+        "popularity": 0.439,
+        "profile_path": null,
+        "credit_id": "56ae88af9251410dfe000510",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570927,
+        "known_for_department": "Sound",
+        "name": "Michael Dela",
+        "original_name": "Michael Dela",
+        "popularity": 0.9497,
+        "profile_path": null,
+        "credit_id": "56ae8a9dc3a3681c3f00b6f8",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1316933,
+        "known_for_department": "Sound",
+        "name": "Andreas Kongsgaard",
+        "original_name": "Andreas Kongsgaard",
+        "popularity": 0.2928,
+        "profile_path": null,
+        "credit_id": "56ae8ab3c3a3681c5c00aaba",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1553208,
+        "known_for_department": "Sound",
+        "name": "Micha\u0142 Kosterkiewicz",
+        "original_name": "Micha\u0142 Kosterkiewicz",
+        "popularity": 0.2804,
+        "profile_path": "/fgtjIDtUocPDpEvyWMlNJogN6HF.jpg",
+        "credit_id": "56ae8a5fc3a3681c3b00a934",
+        "department": "Editing",
+        "job": "Dialogue Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570914,
+        "known_for_department": "Art",
+        "name": "Patryk Kowalczyk",
+        "original_name": "Patryk Kowalczyk",
+        "popularity": 0.1358,
+        "profile_path": null,
+        "credit_id": "56ae8905c3a3681c5400a7f7",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570926,
+        "known_for_department": "Visual Effects",
+        "name": "Michal Truszkowski",
+        "original_name": "Michal Truszkowski",
+        "popularity": 0.1071,
+        "profile_path": null,
+        "credit_id": "56ae8a25c3a3681c5c00aaa9",
+        "department": "Visual Effects",
+        "job": "Visual Effects Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570929,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Tomasz Sielecki",
+        "original_name": "Tomasz Sielecki",
+        "popularity": 0.2459,
+        "profile_path": null,
+        "credit_id": "56ae8b1b9251410dfe000552",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570917,
+        "known_for_department": "Camera",
+        "name": "Tomasz Nowak",
+        "original_name": "Tomasz Nowak",
+        "popularity": 0.0704,
+        "profile_path": null,
+        "credit_id": "56ae89629251417e29009fd7",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1136769,
+        "known_for_department": "Sound",
+        "name": "Martin Langenbach",
+        "original_name": "Martin Langenbach",
+        "popularity": 0.5666,
+        "profile_path": "/mC9bJc0NvlwWfVG9G6yC4imBpYL.jpg",
+        "credit_id": "56ae8a779251410dfe000541",
+        "department": "Sound",
+        "job": "Foley"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570913,
+        "known_for_department": "Art",
+        "name": "Dorota Borkowska",
+        "original_name": "Dorota Borkowska",
+        "popularity": 0.2637,
+        "profile_path": null,
+        "credit_id": "56ae88f0c3a3681c370098d1",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1350222,
+        "known_for_department": "Sound",
+        "name": "Claus Lynge",
+        "original_name": "Claus Lynge",
+        "popularity": 0.4507,
+        "profile_path": null,
+        "credit_id": "56ae8acd9251410dfe000549",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570928,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Anna Kieszczy\u0144ska",
+        "original_name": "Anna Kieszczy\u0144ska",
+        "popularity": 0.1524,
+        "profile_path": null,
+        "credit_id": "56ae8b09c3a3681c340098cf",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570923,
+        "known_for_department": "Lighting",
+        "name": "Marek Wojtaszewski",
+        "original_name": "Marek Wojtaszewski",
+        "popularity": 0.2298,
+        "profile_path": null,
+        "credit_id": "56ae89d09251416357002a30",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570916,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Agata Wi\u0144ska",
+        "original_name": "Agata Wi\u0144ska",
+        "popularity": 0.0737,
+        "profile_path": null,
+        "credit_id": "56ae89429251410e8f009d6b",
+        "department": "Costume & Make-Up",
+        "job": "Assistant Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1570921,
+        "known_for_department": "Camera",
+        "name": "Liliana Milewska",
+        "original_name": "Liliana Milewska",
+        "popularity": 0.061,
+        "profile_path": null,
+        "credit_id": "56ae89bdc3a3681c370098de",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1421495,
+        "known_for_department": "Editing",
+        "name": "Jaros\u0142aw Kami\u0144ski",
+        "original_name": "Jaros\u0142aw Kami\u0144ski",
+        "popularity": 0.7462,
+        "profile_path": "/mLU6OYaaCMifedalzvKVgVwvXYu.jpg",
+        "credit_id": "56c5b704925141546900053b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 64194,
+        "known_for_department": "Directing",
+        "name": "Pawe\u0142 Pawlikowski",
+        "original_name": "Pawe\u0142 Pawlikowski",
+        "popularity": 1.3046,
+        "profile_path": "/vzhGoaJpQrJV8arrz2px7J0yMCF.jpg",
+        "credit_id": "639743052cefc2008ca7b567",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 515221,
+        "known_for_department": "Writing",
+        "name": "Rebecca Lenkiewicz",
+        "original_name": "Rebecca Lenkiewicz",
+        "popularity": 0.9716,
+        "profile_path": "/G8R8oMtv0ecJkHTS5ywz4ywwFL.jpg",
+        "credit_id": "6397436679b3d400bdf4678f",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4167633,
+        "known_for_department": "Directing",
+        "name": "Grzegorz D\u0119bowski",
+        "original_name": "Grzegorz D\u0119bowski",
+        "popularity": 0.2077,
+        "profile_path": null,
+        "credit_id": "660097261b1f3c017c9ab4d0",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1398746,
+        "known_for_department": "Production",
+        "name": "Alina Trybi\u0142o-Falana",
+        "original_name": "Alina Trybi\u0142o-Falana",
+        "popularity": 0.9223,
+        "profile_path": null,
+        "credit_id": "66157590982f7401325fcb1c",
+        "department": "Production",
+        "job": "Casting Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1609221,
+        "known_for_department": "Camera",
+        "name": "\u0141ukasz \u017bal",
+        "original_name": "\u0141ukasz \u017bal",
+        "popularity": 0.5618,
+        "profile_path": "/72RPhD7FTCMuwSP3rVJzOxJxWEg.jpg",
+        "credit_id": "59a888e1c3a3683ccc01e2d7",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1128,
+        "known_for_department": "Directing",
+        "name": "Agnieszka Holland",
+        "original_name": "Agnieszka Holland",
+        "popularity": 1.4788,
+        "profile_path": "/rfM2l3Z1Vm3ASuiEC50Zpf37jLj.jpg",
+        "credit_id": "6659ebce46f30f137475224e",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1610050,
+        "known_for_department": "Visual Effects",
+        "name": "Rados\u0142aw Rekita",
+        "original_name": "Rados\u0142aw Rekita",
+        "popularity": 1.0063,
+        "profile_path": null,
+        "credit_id": "66f6c1306cedbed01570d623",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2238570,
+        "known_for_department": "Crew",
+        "name": "Maciej A. Maciejewski",
+        "original_name": "Maciej A. Maciejewski",
+        "popularity": 0.3726,
+        "profile_path": "/vdg1ORGrflrutlMxUVJUtUu8jok.jpg",
+        "credit_id": "66f85141140fbf6a1a5f4910",
+        "department": "Crew",
+        "job": "Stunt Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 470,
+        "known_for_department": "Writing",
+        "name": "Lee Hall",
+        "original_name": "Lee Hall",
+        "popularity": 1.3032,
+        "profile_path": "/jf7p4gTmOnbKaWIJ9Hr82tLtAhC.jpg",
+        "credit_id": "68948654c67898a75728a398",
+        "department": "Crew",
+        "job": "Thanks"
+      }
+    ]
+  },
+  "videos": {
+    "id": 209274,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Mark Kermode reviews  Ida (2014) |\u00a0BFI Player",
+        "key": "c4zr5qYvR_o",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2023-11-23T17:00:25.000Z",
+        "id": "656085217dfda600e1729910"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "\"Ida\" Wins Foreign Language Film: 2015 Oscars",
+        "key": "B7aZzjP23zk",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2015-03-09T23:09:59.000Z",
+        "id": "656085942b113d00eba7592e"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Writer/Drirector Pawel Pawlikowski talks about the framing of IDA",
+        "key": "25sV5zhdn1A",
+        "published_at": "2015-02-27T23:21:37.000Z",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Featurette",
+        "official": true,
+        "id": "54f1c225c3a368323e0018e1"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Ida | BAFTA Film not in the English Language Winner 2015 | Backstage Interview",
+        "key": "LcMMCPbKHwY",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2015-02-09T14:18:43.000Z",
+        "id": "65608cda2b113d012d025247"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #2",
+        "key": "d65vJLDd46U",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "656085e02b113d00ca502592"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #1",
+        "key": "zWtGrxhZIQA",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "656085fe24418200ca76549c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #3",
+        "key": "fcqHNzOt47A",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "6560860b244182012daacad7"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #8",
+        "key": "sYHJCsDdXjk",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "656086573679a1097646782f"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #7",
+        "key": "TtyxzCMIZP0",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "65608664244182012daacb07"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #4a",
+        "key": "irYyDNfgNNc",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:57.000Z",
+        "id": "656086f2706e5600e1525a75"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #6",
+        "key": "aHXip8q-MOs",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:56.000Z",
+        "id": "656085ed24418200ad5d7c90"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip #4b",
+        "key": "gCOFf1yVQTQ",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-11-21T10:53:56.000Z",
+        "id": "656086da3679a10979050c3a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "See the acclaimed, exquisite Ida in cinemas or on demand now",
+        "key": "UW817px0tVE",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Teaser",
+        "official": true,
+        "published_at": "2014-09-26T16:25:21.000Z",
+        "id": "656086313679a10979050bdc"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip",
+        "key": "0TFDOUNrMc8",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-09-22T12:25:24.000Z",
+        "id": "656088d5a6c10401382916dd"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer [Subtitled]",
+        "key": "i_vrlpWB4Vo",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2014-04-03T14:19:32.000Z",
+        "id": "5ca84f940e0a264c88f15154"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 209274,
+    "keywords": [
+      {
+        "id": 745,
+        "name": "nun"
+      },
+      {
+        "id": 1960,
+        "name": "mine"
+      },
+      {
+        "id": 6625,
+        "name": "family secrets"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 21747,
+        "name": "poland"
+      },
+      {
+        "id": 165470,
+        "name": "convent (nunnery)"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 209274,
+    "results": {
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 30
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 31
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zlOChFXWhfIqK2QCf6KPxu0nH2D.jpg",
+            "provider_id": 1988,
+            "provider_name": "Brollie",
+            "display_priority": 59
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+            "provider_id": 639,
+            "provider_name": "CineMember",
+            "display_priority": 25
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=BM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=BO",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=CA",
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/i8PzzzOVJfXWLE1v5Up7nGTWWhp.jpg",
+            "provider_id": 205,
+            "provider_name": "Sundance Now Amazon Channel",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/1x0LxXHUibIolT5fxdSamGGMBC3.jpg",
+            "provider_id": 2048,
+            "provider_name": "Sundance Now Apple TV Channel",
+            "display_priority": 104
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/twKkyl31iYVtxfICNkDdrxrJ7KS.jpg",
+            "provider_id": 2115,
+            "provider_name": "Cinu",
+            "display_priority": 49
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 14
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 14
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/aqyyZxc2tQ1gEORXNF2d55GvD5P.jpg",
+            "provider_id": 1724,
+            "provider_name": "AVA CSAL",
+            "display_priority": 37
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=CO",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=CR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/AboEF9vQyH2AAndLimdO043IzLh.jpg",
+            "provider_id": 324,
+            "provider_name": "Cinemas a la Demande",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4LnuoJ2E5nTWCvXnlGFaUNH324v.jpg",
+            "provider_id": 685,
+            "provider_name": "Cine+ OCS Amazon Channel ",
+            "display_priority": 41
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 78
+          },
+          {
+            "logo_path": "/ehLnHewfxeKWCL7PT5K4AzTXIcV.jpg",
+            "provider_id": 1793,
+            "provider_name": "Klassiki",
+            "display_priority": 84
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=GG",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 74
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=HN",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 38
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6FDKQWcR6JfmRKLqezSsvGgRuUY.jpg",
+            "provider_id": 109,
+            "provider_name": "Timvision",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6FDKQWcR6JfmRKLqezSsvGgRuUY.jpg",
+            "provider_id": 109,
+            "provider_name": "Timvision",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=KR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 26
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=LU",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=MX",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=NI",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+            "provider_id": 639,
+            "provider_name": "CineMember",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 9
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=NO",
+        "free": [
+          {
+            "logo_path": "/rTLyVzy9lyPpujUQ026CiRDqQrF.jpg",
+            "provider_id": 560,
+            "provider_name": "Filmoteket",
+            "display_priority": 23
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=NZ",
+        "free": [
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/mKHumLTIy1SmihWSVqN9iPxFnqf.jpg",
+            "provider_id": 448,
+            "provider_name": "Beamafilm",
+            "display_priority": 17
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/yFjeEJFQqalphfmYivOYyatPVEd.jpg",
+            "provider_id": 2101,
+            "provider_name": "CANAL+",
+            "display_priority": 33
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/sgws7qaFHYTEeYhc8RCjZ5D7IlH.jpg",
+            "provider_id": 517,
+            "provider_name": "TriArt Play",
+            "display_priority": 21
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=TC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 15
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=TW",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+            "provider_id": 257,
+            "provider_name": "fuboTV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+            "provider_id": 2383,
+            "provider_name": "Philo",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 59
+          },
+          {
+            "logo_path": "/jxavsObOHN6UqlbuZQ1UpVRVv6X.jpg",
+            "provider_id": 433,
+            "provider_name": "OVID",
+            "display_priority": 83
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 88
+          },
+          {
+            "logo_path": "/3eVIcUeRXji5SBV7gEv4f5U4CqV.jpg",
+            "provider_id": 199,
+            "provider_name": "Fandor Amazon Channel",
+            "display_priority": 91
+          },
+          {
+            "logo_path": "/ehLnHewfxeKWCL7PT5K4AzTXIcV.jpg",
+            "provider_id": 1793,
+            "provider_name": "Klassiki",
+            "display_priority": 153
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 204
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 332,
+            "provider_name": "Fandango at Home Free",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/jpEV1w3CnrpDQ1vRvGQIZF1S6vA.jpg",
+            "provider_id": 1957,
+            "provider_name": "Cineverse",
+            "display_priority": 164
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 351
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+            "provider_id": 212,
+            "provider_name": "Hoopla",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 127
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 130
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/209274-ida/watch?locale=VE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_crouching-tiger-hidden-dragon_2000",
+  "processed_at": "2026-03-27T05:25:55.279877+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_esmeralda",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The extensive and iconic bamboo forest fight sequence, entirely saturated in rich green hues.",
+      "Jen Yu's prominently featured and elegant green costume, which is a key visual element and plot point.",
+      "The overall heightened and refined color grading of natural environments, emphasizing a jewel-like quality in the greens."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_crouching-tiger-hidden-dragon_2000",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:25:55.277904Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:25:55.277886Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_crouching-tiger-hidden-dragon_2000",
+    "color_iconico": "verde_esmeralda",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

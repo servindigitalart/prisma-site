@@ -1,0 +1,2738 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/zl9uqCl5iUSb50sTk2BPzw6bJnU.jpg",
+    "belongs_to_collection": null,
+    "budget": 15000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.netflix.com/title/80240715",
+    "id": 426426,
+    "imdb_id": "tt6155172",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "es",
+    "original_title": "Roma",
+    "overview": "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time.",
+    "popularity": 4.6327,
+    "poster_path": "/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
+    "production_companies": [
+      {
+        "id": 6735,
+        "logo_path": "/pAQW38WU8ychBvYU2aGPTEbynEN.png",
+        "name": "Participant",
+        "origin_country": "US"
+      },
+      {
+        "id": 112612,
+        "logo_path": "/7hBsI9Ix8mvMPhdhb5ts26B83qM.png",
+        "name": "Esperanto Filmoj",
+        "origin_country": "GB"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2018-11-21",
+    "revenue": 1140769,
+    "runtime": 135,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Espa\u00f1ol"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "There are periods in history that scar societies and moments in life that transform us as individuals.",
+    "title": "Roma",
+    "video": false,
+    "vote_average": 7.6,
+    "vote_count": 4093
+  },
+  "credits": {
+    "id": 426426,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1775557,
+        "known_for_department": "Acting",
+        "name": "Yalitza Aparicio",
+        "original_name": "Yalitza Aparicio",
+        "popularity": 0.7403,
+        "profile_path": "/wiZEyqNTNkevCT768bKvvOJvCHb.jpg",
+        "cast_id": 4,
+        "character": "Cleo Guti\u00e9rrez",
+        "credit_id": "58c62ef09251411d62010548",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 78883,
+        "known_for_department": "Acting",
+        "name": "Marina de Tavira",
+        "original_name": "Marina de Tavira",
+        "popularity": 0.6574,
+        "profile_path": "/rGGjW1UnUL1Q4TGlfRL3W5yuyq1.jpg",
+        "cast_id": 2,
+        "character": "Sof\u00eda",
+        "credit_id": "58c62ed69251411d19010b60",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108826,
+        "known_for_department": "Acting",
+        "name": "Diego Cortina Autrey",
+        "original_name": "Diego Cortina Autrey",
+        "popularity": 0.4099,
+        "profile_path": "/sjk18uMlWDEW1SghHtYOckS2Bmm.jpg",
+        "cast_id": 13,
+        "character": "To\u00f1o",
+        "credit_id": "5b7593e70e0a265c25012e5b",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108855,
+        "known_for_department": "Acting",
+        "name": "Carlos Peralta",
+        "original_name": "Carlos Peralta",
+        "popularity": 0.261,
+        "profile_path": "/rCtVtycU3dG8Z3nWhi1XSsEbPN.jpg",
+        "cast_id": 28,
+        "character": "Paco",
+        "credit_id": "5b759578c3a368754e0146d0",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1775556,
+        "known_for_department": "Acting",
+        "name": "Marco Graf",
+        "original_name": "Marco Graf",
+        "popularity": 0.3395,
+        "profile_path": "/na3AUeMwiN027NAb8gr4FfgBJJK.jpg",
+        "cast_id": 3,
+        "character": "Pepe",
+        "credit_id": "58c62ee0c3a368412000f076",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1775558,
+        "known_for_department": "Acting",
+        "name": "Daniela Demesa",
+        "original_name": "Daniela Demesa",
+        "popularity": 0.3939,
+        "profile_path": "/sM27P5vM5SNRJvSJqjdlIfDeYml.jpg",
+        "cast_id": 5,
+        "character": "Sofi",
+        "credit_id": "58c62efac3a368412800ee87",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108829,
+        "known_for_department": "Acting",
+        "name": "Nancy Garc\u00eda Garc\u00eda",
+        "original_name": "Nancy Garc\u00eda Garc\u00eda",
+        "popularity": 0.2017,
+        "profile_path": "/81WXVXpMQEVOHvPVf1JAJ3RQ9tb.jpg",
+        "cast_id": 14,
+        "character": "Adela",
+        "credit_id": "5b759412c3a368754e014533",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1920669,
+        "known_for_department": "Acting",
+        "name": "Ver\u00f3nica Garc\u00eda",
+        "original_name": "Ver\u00f3nica Garc\u00eda",
+        "popularity": 0.827,
+        "profile_path": "/qLR0UneJ0x9EUKQA9QeyJNLoEKU.jpg",
+        "cast_id": 15,
+        "character": "Teresa",
+        "credit_id": "5b759420c3a368754b014a10",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108835,
+        "known_for_department": "Acting",
+        "name": "Fernando Grediaga",
+        "original_name": "Fernando Grediaga",
+        "popularity": 0.1318,
+        "profile_path": "/l4TQuRpoMv0mivsuR8Zr3bOvfho.jpg",
+        "cast_id": 17,
+        "character": "Antonio",
+        "credit_id": "5b759437c3a3687555015d20",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2108836,
+        "known_for_department": "Acting",
+        "name": "Jorge Antonio Guerrero",
+        "original_name": "Jorge Antonio Guerrero",
+        "popularity": 0.3941,
+        "profile_path": "/f99ND0Ku9XwVHtYxuOivkReIfYv.jpg",
+        "cast_id": 18,
+        "character": "Ferm\u00edn",
+        "credit_id": "5b759444c3a368754e014577",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108839,
+        "known_for_department": "Acting",
+        "name": "Jos\u00e9 Manuel Guerrero Mendoza",
+        "original_name": "Jos\u00e9 Manuel Guerrero Mendoza",
+        "popularity": 0.048,
+        "profile_path": null,
+        "cast_id": 19,
+        "character": "Ram\u00f3n",
+        "credit_id": "5b7594510e0a265c2201532c",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108833,
+        "known_for_department": "Acting",
+        "name": "Andy Cort\u00e9s",
+        "original_name": "Andy Cort\u00e9s",
+        "popularity": 0.0866,
+        "profile_path": null,
+        "cast_id": 16,
+        "character": "Ignacio",
+        "credit_id": "5b75942c0e0a265c220152fe",
+        "order": 11
+      },
+      {
+        "adult": true,
+        "gender": 2,
+        "id": 2104810,
+        "known_for_department": "Acting",
+        "name": "Victor Manuel Resendiz Ruiz",
+        "original_name": "Victor Manuel Resendiz Ruiz",
+        "popularity": 0.0,
+        "profile_path": "/vFM7nzUcoofuyyC5rQosuLz4ztD.jpg",
+        "cast_id": 20,
+        "character": "Professor Zovek",
+        "credit_id": "5b75945e0e0a265c270140d8",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108843,
+        "known_for_department": "Acting",
+        "name": "Zarela Lizbeth Chinolla Arellano",
+        "original_name": "Zarela Lizbeth Chinolla Arellano",
+        "popularity": 0.0766,
+        "profile_path": null,
+        "cast_id": 21,
+        "character": "Dr. Velez",
+        "credit_id": "5b75946b9251411d8901190e",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108844,
+        "known_for_department": "Acting",
+        "name": "Jos\u00e9 Luis L\u00f3pez G\u00f3mez",
+        "original_name": "Jos\u00e9 Luis L\u00f3pez G\u00f3mez",
+        "popularity": 0.083,
+        "profile_path": null,
+        "cast_id": 22,
+        "character": "Pediatrician",
+        "credit_id": "5b7594779251411d830121fc",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108846,
+        "known_for_department": "Acting",
+        "name": "Edwin Mendoza Ram\u00edrez",
+        "original_name": "Edwin Mendoza Ram\u00edrez",
+        "popularity": 0.0744,
+        "profile_path": null,
+        "cast_id": 23,
+        "character": "Resident Doctor",
+        "credit_id": "5b75948dc3a36875500132c7",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1701986,
+        "known_for_department": "Acting",
+        "name": "Clementina Guadarrama",
+        "original_name": "Clementina Guadarrama",
+        "popularity": 0.5237,
+        "profile_path": "/9TVeeNQwibt6J2PMCCpkzy1O4jW.jpg",
+        "cast_id": 24,
+        "character": "Benita",
+        "credit_id": "5b7594990e0a264ef5000871",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 589123,
+        "known_for_department": "Acting",
+        "name": "Enoc Lea\u00f1o",
+        "original_name": "Enoc Lea\u00f1o",
+        "popularity": 0.2469,
+        "profile_path": "/ngoBlpmy5UGIo9vs14wbDaPZF3N.jpg",
+        "cast_id": 25,
+        "character": "Politician",
+        "credit_id": "5b7594a89251411da301467b",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108848,
+        "known_for_department": "Acting",
+        "name": "Nicol\u00e1s Per\u00e9z Taylor F\u00e9lix",
+        "original_name": "Nicol\u00e1s Per\u00e9z Taylor F\u00e9lix",
+        "popularity": 0.0738,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "Beto Pardo",
+        "credit_id": "5b7594b50e0a265c27014137",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2108849,
+        "known_for_department": "Acting",
+        "name": "Kjartan Halvorsen",
+        "original_name": "Kjartan Halvorsen",
+        "popularity": 0.0409,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "Ove Larsen",
+        "credit_id": "5b7594c09251411da301469b",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2191327,
+        "known_for_department": "Acting",
+        "name": "Alejandra Herrera",
+        "original_name": "Alejandra Herrera",
+        "popularity": 0.2071,
+        "profile_path": "/hI7nPYC5kq22dXsSVpY0MIu6Qle.jpg",
+        "cast_id": 75,
+        "character": "Student",
+        "credit_id": "681065b0930c895e280fb0b5",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3625825,
+        "known_for_department": "Acting",
+        "name": "Luca De Massis",
+        "original_name": "Luca De Massis",
+        "popularity": 0.2367,
+        "profile_path": "/yNp6WDTcRJWXfYyM7K6cmvssLVb.jpg",
+        "cast_id": 74,
+        "character": "Lucas (uncredited)",
+        "credit_id": "665b5346fda4f1621b592ab2",
+        "order": 21
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2437984,
+        "known_for_department": "Crew",
+        "name": "Savio Adarsh",
+        "original_name": "Savio Adarsh",
+        "popularity": 0.0667,
+        "profile_path": null,
+        "credit_id": "6148cb619450fe00431e5aff",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2123417,
+        "known_for_department": "Visual Effects",
+        "name": "Dave Griffiths",
+        "original_name": "Dave Griffiths",
+        "popularity": 0.3279,
+        "profile_path": null,
+        "credit_id": "6148cb93daf57c008ac14570",
+        "department": "Visual Effects",
+        "job": "Visual Effects Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1915729,
+        "known_for_department": "Visual Effects",
+        "name": "Bryce Nielsen",
+        "original_name": "Bryce Nielsen",
+        "popularity": 0.4236,
+        "profile_path": null,
+        "credit_id": "6148cbb32dffd8002b97acf3",
+        "department": "Visual Effects",
+        "job": "Visual Effects Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11218,
+        "known_for_department": "Directing",
+        "name": "Alfonso Cuar\u00f3n",
+        "original_name": "Alfonso Cuar\u00f3n",
+        "popularity": 2.294,
+        "profile_path": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
+        "credit_id": "582dcaf5925141095a009522",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11218,
+        "known_for_department": "Directing",
+        "name": "Alfonso Cuar\u00f3n",
+        "original_name": "Alfonso Cuar\u00f3n",
+        "popularity": 2.294,
+        "profile_path": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
+        "credit_id": "582dcab9925141094e008a99",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11218,
+        "known_for_department": "Directing",
+        "name": "Alfonso Cuar\u00f3n",
+        "original_name": "Alfonso Cuar\u00f3n",
+        "popularity": 2.294,
+        "profile_path": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
+        "credit_id": "58c62f2b9251411d19010c5b",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11218,
+        "known_for_department": "Directing",
+        "name": "Alfonso Cuar\u00f3n",
+        "original_name": "Alfonso Cuar\u00f3n",
+        "popularity": 2.294,
+        "profile_path": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
+        "credit_id": "58c62febc3a368412800f096",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1775559,
+        "known_for_department": "Editing",
+        "name": "Adam Gough",
+        "original_name": "Adam Gough",
+        "popularity": 0.6244,
+        "profile_path": null,
+        "credit_id": "58c62ff69251411d0d01123b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1473396,
+        "known_for_department": "Production",
+        "name": "Gabriela Rodr\u00edguez",
+        "original_name": "Gabriela Rodr\u00edguez",
+        "popularity": 0.4668,
+        "profile_path": "/hLbJbaGiVz1P70AuF9tu2SRzMVf.jpg",
+        "credit_id": "58c62f439251411d1101070d",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 873486,
+        "known_for_department": "Production",
+        "name": "Nicol\u00e1s Celis",
+        "original_name": "Nicol\u00e1s Celis",
+        "popularity": 0.0856,
+        "profile_path": "/ql4Ev93GkFoneI3UygLB5wMsL78.jpg",
+        "credit_id": "58c62f209251411d150107ed",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1377213,
+        "known_for_department": "Art",
+        "name": "Carlos Benassini",
+        "original_name": "Carlos Benassini",
+        "popularity": 0.4494,
+        "profile_path": null,
+        "credit_id": "5bb41dea9251417815004417",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2140394,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Beatriz Vera",
+        "original_name": "Beatriz Vera",
+        "popularity": 0.1185,
+        "profile_path": null,
+        "credit_id": "5bb41e22925141780e004d7f",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1406671,
+        "known_for_department": "Art",
+        "name": "Oscar Tello",
+        "original_name": "Oscar Tello",
+        "popularity": 0.2415,
+        "profile_path": null,
+        "credit_id": "5bb41df5c3a3687b0b00502b",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1036211,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Anna Terrazas",
+        "original_name": "Anna Terrazas",
+        "popularity": 0.4746,
+        "profile_path": null,
+        "credit_id": "5bb41e1592514178010055ce",
+        "department": "Costume & Make-Up",
+        "job": "Costume Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 16985,
+        "known_for_department": "Art",
+        "name": "Eugenio Caballero",
+        "original_name": "Eugenio Caballero",
+        "popularity": 0.9411,
+        "profile_path": "/r9nXm0OiPjO6w4U6kcKKiwshj8Z.jpg",
+        "credit_id": "5bb41de00e0a261a0f005989",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2140396,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Emma Canchola",
+        "original_name": "Emma Canchola",
+        "popularity": 0.158,
+        "profile_path": null,
+        "credit_id": "5bb41e4dc3a3687afa0059d0",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1486148,
+        "known_for_department": "Camera",
+        "name": "Galo Olivares",
+        "original_name": "Galo Olivares",
+        "popularity": 0.2987,
+        "profile_path": "/ze4dJymc1fnx2Mc4CZW1YZJJeKG.jpg",
+        "credit_id": "5bb41dc50e0a261a0b00544d",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1018096,
+        "known_for_department": "Art",
+        "name": "Barbara Enriquez",
+        "original_name": "Barbara Enriquez",
+        "popularity": 0.6968,
+        "profile_path": null,
+        "credit_id": "5bb41e050e0a261a0b00548e",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2140395,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Atenea T\u00e9llez",
+        "original_name": "Atenea T\u00e9llez",
+        "popularity": 0.1815,
+        "profile_path": null,
+        "credit_id": "5bb41e2ec3a3687afa005993",
+        "department": "Costume & Make-Up",
+        "job": "Hair Department Head"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1197094,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Antonio Garfias",
+        "original_name": "Antonio Garfias",
+        "popularity": 0.0886,
+        "profile_path": null,
+        "credit_id": "5bb41e419251417808005c18",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2023245,
+        "known_for_department": "Visual Effects",
+        "name": "Ezra Waddell",
+        "original_name": "Ezra Waddell",
+        "popularity": 0.2524,
+        "profile_path": null,
+        "credit_id": "5bb41ef5c3a3687b0b005184",
+        "department": "Visual Effects",
+        "job": "Animation"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1204111,
+        "known_for_department": "Sound",
+        "name": "Natalia Moguel",
+        "original_name": "Natalia Moguel",
+        "popularity": 0.1495,
+        "profile_path": null,
+        "credit_id": "5bb41f14c3a3687aed005bab",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1857524,
+        "known_for_department": "Crew",
+        "name": "Carlos A. Morales",
+        "original_name": "Carlos A. Morales",
+        "popularity": 0.0795,
+        "profile_path": null,
+        "credit_id": "5bb41f620e0a261a220067e0",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1341734,
+        "known_for_department": "Sound",
+        "name": "Steve Browell",
+        "original_name": "Steve Browell",
+        "popularity": 0.3753,
+        "profile_path": null,
+        "credit_id": "5bb41e81c3a3687b0b00510a",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39454,
+        "known_for_department": "Production",
+        "name": "David Linde",
+        "original_name": "David Linde",
+        "popularity": 0.7317,
+        "profile_path": "/rJDQIKdEbkshFOIHELgIzabfc8f.jpg",
+        "credit_id": "5bb41f540e0a261a220067cc",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12533,
+        "known_for_department": "Sound",
+        "name": "Jos\u00e9 Antonio Garc\u00eda",
+        "original_name": "Jos\u00e9 Antonio Garc\u00eda",
+        "popularity": 0.6731,
+        "profile_path": "/oQxqTCMWHQ9sMzop1DRr0yxON9y.jpg",
+        "credit_id": "5bb41e900e0a261a080054fb",
+        "department": "Sound",
+        "job": "Sound"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1520393,
+        "known_for_department": "Sound",
+        "name": "Ernesto Mu\u00f1oz",
+        "original_name": "Ernesto Mu\u00f1oz",
+        "popularity": 0.1955,
+        "profile_path": null,
+        "credit_id": "5bb41e9d9251417817005458",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1857228,
+        "known_for_department": "Crew",
+        "name": "Alex V\u00e1zquez",
+        "original_name": "Alex V\u00e1zquez",
+        "popularity": 0.1522,
+        "profile_path": null,
+        "credit_id": "5bb41ec70e0a261a2200671f",
+        "department": "Visual Effects",
+        "job": "Special Effects Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2140398,
+        "known_for_department": "Sound",
+        "name": "Liliana Villase\u00f1or",
+        "original_name": "Liliana Villase\u00f1or",
+        "popularity": 0.3892,
+        "profile_path": null,
+        "credit_id": "5bb41ea9c3a3687b10004ff0",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2140399,
+        "known_for_department": "Camera",
+        "name": "Carlos Somonte",
+        "original_name": "Carlos Somonte",
+        "popularity": 0.1396,
+        "profile_path": null,
+        "credit_id": "5bb41ee1c3a3687b0b005175",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1052537,
+        "known_for_department": "Sound",
+        "name": "Lynn Fainchtein",
+        "original_name": "Lynn Fainchtein",
+        "popularity": 0.537,
+        "profile_path": null,
+        "credit_id": "5bb41f050e0a261a110056c2",
+        "department": "Sound",
+        "job": "Music Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2140401,
+        "known_for_department": "Production",
+        "name": "Alice Scandellari Burr",
+        "original_name": "Alice Scandellari Burr",
+        "popularity": 0.1556,
+        "profile_path": null,
+        "credit_id": "5bb41f3392514177ff004ee9",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1760138,
+        "known_for_department": "Crew",
+        "name": "Sergio Jara",
+        "original_name": "Sergio Jara",
+        "popularity": 0.3287,
+        "profile_path": null,
+        "credit_id": "5bb41eb8c3a3687afa005a36",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404934,
+        "known_for_department": "Production",
+        "name": "Sandino Saravia",
+        "original_name": "Sandino Saravia",
+        "popularity": 0.4437,
+        "profile_path": null,
+        "credit_id": "5bb41f710e0a261a26005a77",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10684,
+        "known_for_department": "Production",
+        "name": "Jonathan King",
+        "original_name": "Jonathan King",
+        "popularity": 0.6071,
+        "profile_path": "/e9eFffw2iamFUWtYmc3YAcJ45ZN.jpg",
+        "credit_id": "5bb41f46c3a3687b0b0051db",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 31519,
+        "known_for_department": "Production",
+        "name": "Jeff Skoll",
+        "original_name": "Jeff Skoll",
+        "popularity": 0.5872,
+        "profile_path": "/8uzX6fSe5L6LafGVl8RYLlLavtx.jpg",
+        "credit_id": "5bb41f7d0e0a261a0b0056b1",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9619,
+        "known_for_department": "Sound",
+        "name": "Skip Lievsay",
+        "original_name": "Skip Lievsay",
+        "popularity": 0.5437,
+        "profile_path": "/2whUczAYkjZYOytRoaw0iOmCX0K.jpg",
+        "credit_id": "5c1969e80e0a267b030bfad8",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12533,
+        "known_for_department": "Sound",
+        "name": "Jos\u00e9 Antonio Garc\u00eda",
+        "original_name": "Jos\u00e9 Antonio Garc\u00eda",
+        "popularity": 0.6731,
+        "profile_path": "/oQxqTCMWHQ9sMzop1DRr0yxON9y.jpg",
+        "credit_id": "5c1969a8c3a368630d725277",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1277640,
+        "known_for_department": "Sound",
+        "name": "Ruy Garc\u00eda",
+        "original_name": "Ruy Garc\u00eda",
+        "popularity": 0.337,
+        "profile_path": null,
+        "credit_id": "5c1969b4c3a368630d72527d",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1446757,
+        "known_for_department": "Sound",
+        "name": "Enrique Greiner",
+        "original_name": "Enrique Greiner",
+        "popularity": 0.3205,
+        "profile_path": null,
+        "credit_id": "5c1969c492514125f73952ba",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9651,
+        "known_for_department": "Sound",
+        "name": "Craig Berkey",
+        "original_name": "Craig Berkey",
+        "popularity": 0.7145,
+        "profile_path": "/u0A3LVwfw1R3yvCLh2OCQzeP5MG.jpg",
+        "credit_id": "5c1969350e0a267b090bfa6d",
+        "department": "Sound",
+        "job": "Sound Designer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1340345,
+        "known_for_department": "Sound",
+        "name": "Craig Henighan",
+        "original_name": "Craig Henighan",
+        "popularity": 0.5774,
+        "profile_path": null,
+        "credit_id": "5c1969cf92514125fa3953b6",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2197939,
+        "known_for_department": "Sound",
+        "name": "Luis Huesca",
+        "original_name": "Luis Huesca",
+        "popularity": 0.2349,
+        "profile_path": null,
+        "credit_id": "5c1969dc925141260a395103",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 117240,
+        "known_for_department": "Sound",
+        "name": "Andrew Caller",
+        "original_name": "Andrew Caller",
+        "popularity": 0.3156,
+        "profile_path": null,
+        "credit_id": "5c1969529251412607394faf",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1521695,
+        "known_for_department": "Sound",
+        "name": "Eric Dounce",
+        "original_name": "Eric Dounce",
+        "popularity": 0.1413,
+        "profile_path": null,
+        "credit_id": "5c1969960e0a267afb0bfdd3",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1473386,
+        "known_for_department": "Acting",
+        "name": "Liboria Rodr\u00edguez",
+        "original_name": "Liboria Rodr\u00edguez",
+        "popularity": 0.1053,
+        "profile_path": "/7uJ68cTTEq6jUzqzKtXgfovEoG4.jpg",
+        "credit_id": "5d663421b3e6276090fdfbf8",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1910997,
+        "known_for_department": "Camera",
+        "name": "Alejandro Ch\u00e1vez",
+        "original_name": "Alejandro Ch\u00e1vez",
+        "popularity": 0.178,
+        "profile_path": null,
+        "credit_id": "5ef4643981a7fc0034bd3f17",
+        "department": "Camera",
+        "job": "Second Unit Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1910997,
+        "known_for_department": "Camera",
+        "name": "Alejandro Ch\u00e1vez",
+        "original_name": "Alejandro Ch\u00e1vez",
+        "popularity": 0.178,
+        "profile_path": null,
+        "credit_id": "5ef46458bccf1e0035396499",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 11218,
+        "known_for_department": "Directing",
+        "name": "Alfonso Cuar\u00f3n",
+        "original_name": "Alfonso Cuar\u00f3n",
+        "popularity": 2.294,
+        "profile_path": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
+        "credit_id": "5f258faa869e75003558abd5",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2922313,
+        "known_for_department": "Sound",
+        "name": "Sergio D\u00edaz",
+        "original_name": "Sergio D\u00edaz",
+        "popularity": 0.3675,
+        "profile_path": "/q4Fekm29Ggo808tLscNOelZYpOG.jpg",
+        "credit_id": "5ff2633fd34eb3003f511ddf",
+        "department": "Sound",
+        "job": "Supervising Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1901070,
+        "known_for_department": "Visual Effects",
+        "name": "Sheldon Stopsack",
+        "original_name": "Sheldon Stopsack",
+        "popularity": 0.4048,
+        "profile_path": "/2KxreGyI3BvhOxs5uE6IfbRBdVn.jpg",
+        "credit_id": "68e3d05c0ca39497d8617d51",
+        "department": "Visual Effects",
+        "job": "Visual Effects Supervisor"
+      }
+    ]
+  },
+  "videos": {
+    "id": 426426,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Behind the Scene: Alfonso Cuar\u00f3n on ROMA",
+        "key": "Skpr007TF2I",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Behind the Scenes",
+        "official": true,
+        "published_at": "2020-10-02T18:53:06.000Z",
+        "id": "5f899a281443f40038c55e2c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Alfonso Cuar\u00f3n Talks About Roma on the Red Carpet",
+        "key": "8JvJqPLe7y8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2019-02-10T19:52:08.000Z",
+        "id": "65cbd6e86611b40184323557"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "How Alfonso Cuar\u00f3n became ROMA's Oscar-nominated cinematographer",
+        "key": "CGgElWAvzZE",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2019-01-28T17:04:00.000Z",
+        "id": "65cbd686cffeed0185c0a1d6"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "MyROMA Q&A with Writer/Director Alfonso Cuar\u00f3n",
+        "key": "atZ0dx6pUno",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-12-20T20:13:35.000Z",
+        "id": "65cbd66711386c017c514dc2"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "#MyROMA: A message from Alfonso Cuar\u00f3n",
+        "key": "bERffxXI08Q",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-12-14T17:07:33.000Z",
+        "id": "65cbd64ecffeed0164c0081d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Yalitza and Marina Talk About the Power of Women",
+        "key": "p_ycZeWy4bg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-12-13T19:00:01.000Z",
+        "id": "65cbd6768c0a480163b7a2ed"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "6BS27ngZtxg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2018-11-13T14:00:00.000Z",
+        "id": "6300405e839d93008b60c4cd"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Academy Conversations: Roma",
+        "key": "0Y0G7TZtxWo",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-11-07T00:04:02.000Z",
+        "id": "65cbd6c4a06efe0184773b15"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "NYFF56 Press Conference",
+        "key": "_ngzNMD_bvg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-10-09T16:34:21.000Z",
+        "id": "65cbd704f925320163c0743d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "TIFF 2018 Cast and Crew Q&A",
+        "key": "3aB48vodIa0",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-09-12T17:04:56.000Z",
+        "id": "65cbd6d311386c017c514e82"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Teaser",
+        "key": "6UlmQDB3vqQ",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Teaser",
+        "official": true,
+        "published_at": "2018-09-04T20:32:44.000Z",
+        "id": "65cbd81089b561016368fd08"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 426426,
+    "keywords": [
+      {
+        "id": 1547,
+        "name": "mexico city, mexico"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 6071,
+        "name": "middle class"
+      },
+      {
+        "id": 10235,
+        "name": "family relationships"
+      },
+      {
+        "id": 12999,
+        "name": "black and white"
+      },
+      {
+        "id": 13097,
+        "name": "maid"
+      },
+      {
+        "id": 185018,
+        "name": "autobiographical"
+      },
+      {
+        "id": 206713,
+        "name": "master servant relationship"
+      },
+      {
+        "id": 215138,
+        "name": "domestic worker"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 426426,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 49
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=AZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 41
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 93
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 83
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=DK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=EE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 51
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=FR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 56
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 86
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=JM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 24
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 26
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 39
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=NZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=TZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 155
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/426426-roma/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      }
+    }
+  }
+}

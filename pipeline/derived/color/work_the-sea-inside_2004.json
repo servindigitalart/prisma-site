@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-sea-inside_2004",
+  "processed_at": "2026-03-27T05:19:33.833536+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.82,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The constant visual presence of the deep blue sea and sky through Ram\u00f3n's window.",
+      "The blue-dominant color palette of the beach scenes and Ram\u00f3n's 'flying' dream sequences.",
+      "The overall naturalistic cinematography which often emphasizes cool, blue-ish tones in exterior shots and moments of reflection."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-sea-inside_2004",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:19:33.831808Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:19:33.831792Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-sea-inside_2004",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-great-beauty_2013",
+  "processed_at": "2026-03-27T05:06:13.326017+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "purpura_onirico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Consistent warm, golden color grading saturates nearly all day and night scenes in Rome.",
+      "Iconic shots of Jep on Roman rooftops at sunrise/sunset are bathed in deep amber light.",
+      "Opulent interior party scenes and grand apartments are predominantly lit with warm, golden tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-great-beauty_2013",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:06:13.323613Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:06:13.323591Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-great-beauty_2013",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "purpura_onirico"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

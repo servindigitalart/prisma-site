@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-lives-of-others_2006",
+  "processed_at": "2026-03-27T05:16:22.754741+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The institutional grey-blue walls and equipment of the Stasi offices and surveillance rooms",
+      "Wiesler's grey suit consistently taking on cool blue-green tones under the film's lighting",
+      "The overall desaturated, cool color grade applied to all urban exteriors and interior scenes"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-lives-of-others_2006",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:16:22.752801Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:16:22.752785Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-lives-of-others_2006",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}
