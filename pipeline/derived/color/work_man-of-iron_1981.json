@@ -1,0 +1,54 @@
+{
+  "work_id": "work_man-of-iron_1981",
+  "processed_at": "2026-03-27T04:26:58.260106+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.85,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "Overcast skies and cool natural light saturate outdoor scenes at the shipyard.",
+      "Workers' uniforms and everyday clothing are predominantly muted dark blues and grays.",
+      "The industrial production design of the shipyard, with its metal and concrete, blends with the cool, desaturated color grading."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_man-of-iron_1981",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:26:58.256376Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:26:58.256364Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_man-of-iron_1981",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

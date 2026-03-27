@@ -1,0 +1,56 @@
+{
+  "work_id": "work_the-piano_1993",
+  "processed_at": "2026-03-27T04:05:19.834238+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "verde_esmeralda",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.74,
+    "secondary_colors": [
+      "negro_abismo",
+      "cian_melancolico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The dense, dark, lush green of the New Zealand bush dominates a large portion of the exterior shots, especially when the piano is transported.",
+      "Ada's iconic black dress and the dark wood of the piano provide strong visual anchors throughout the film.",
+      "The film's cinematography consistently emphasizes the natural world's dark, muted greens, alongside the cool, grey-blue tones of the ocean and sky."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-piano_1993",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:05:19.826397Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:05:19.826384Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-piano_1993",
+    "color_iconico": "verde_esmeralda",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "negro_abismo",
+      "cian_melancolico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

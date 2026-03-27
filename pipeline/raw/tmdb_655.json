@@ -1,0 +1,3379 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/fWrq3u16gaBJ6nYNWcR3XaOhQPq.jpg",
+    "belongs_to_collection": null,
+    "budget": 1750000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 655,
+    "imdb_id": "tt0087884",
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "en",
+    "original_title": "Paris, Texas",
+    "overview": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
+    "popularity": 5.4767,
+    "poster_path": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
+    "production_companies": [
+      {
+        "id": 45,
+        "logo_path": "/tUkNOAjyTt9D56DUeQfmmAFvwYQ.png",
+        "name": "Road Movies",
+        "origin_country": "DE"
+      },
+      {
+        "id": 6116,
+        "logo_path": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "name": "Argos films",
+        "origin_country": "FR"
+      },
+      {
+        "id": 46,
+        "logo_path": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+        "name": "WDR",
+        "origin_country": "DE"
+      },
+      {
+        "id": 181,
+        "logo_path": "/A8SjepJ332C0YMamdFEMco0nstt.png",
+        "name": "Channel Four Films",
+        "origin_country": "GB"
+      },
+      {
+        "id": 1448,
+        "logo_path": null,
+        "name": "Pro-ject Filmproduktion",
+        "origin_country": "DE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "DE",
+        "name": "Germany"
+      },
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "1984-07-16",
+    "revenue": 2181987,
+    "runtime": 145,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Espa\u00f1ol"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "A place for dreams. A place for heartbreak. A place to pick up the pieces.",
+    "title": "Paris, Texas",
+    "video": false,
+    "vote_average": 8.1,
+    "vote_count": 2173
+  },
+  "credits": {
+    "id": 655,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5048,
+        "known_for_department": "Acting",
+        "name": "Harry Dean Stanton",
+        "original_name": "Harry Dean Stanton",
+        "popularity": 1.9397,
+        "profile_path": "/9zOTpVMwMHNjPFBNoPy9vOBT1NC.jpg",
+        "cast_id": 16,
+        "character": "Travis",
+        "credit_id": "52fe4265c3a36847f801b2af",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2630,
+        "known_for_department": "Acting",
+        "name": "Nastassja Kinski",
+        "original_name": "Nastassja Kinski",
+        "popularity": 2.4945,
+        "profile_path": "/svYrIUXH59Dd9wp9HBpS1ASvRAu.jpg",
+        "cast_id": 17,
+        "character": "Jane",
+        "credit_id": "52fe4265c3a36847f801b2b3",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 923,
+        "known_for_department": "Acting",
+        "name": "Dean Stockwell",
+        "original_name": "Dean Stockwell",
+        "popularity": 2.3343,
+        "profile_path": "/gdHo8LNElMf1XxoRYgi0UUzbJuB.jpg",
+        "cast_id": 18,
+        "character": "Walt",
+        "credit_id": "52fe4265c3a36847f801b2b7",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9892,
+        "known_for_department": "Acting",
+        "name": "Hunter Carson",
+        "original_name": "Hunter Carson",
+        "popularity": 0.9409,
+        "profile_path": "/75DvinRibsEYKDasdBM7iiqJ9L9.jpg",
+        "cast_id": 19,
+        "character": "Hunter",
+        "credit_id": "52fe4265c3a36847f801b2bb",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9893,
+        "known_for_department": "Acting",
+        "name": "Aurore Cl\u00e9ment",
+        "original_name": "Aurore Cl\u00e9ment",
+        "popularity": 1.617,
+        "profile_path": "/9vZxPV8LvY1wp32AIm35CZ7WelG.jpg",
+        "cast_id": 20,
+        "character": "Anne",
+        "credit_id": "52fe4265c3a36847f801b2bf",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9894,
+        "known_for_department": "Acting",
+        "name": "Bernhard Wicki",
+        "original_name": "Bernhard Wicki",
+        "popularity": 0.8225,
+        "profile_path": "/hYXVwdfzbO1g0kEzStkjO8RB9xd.jpg",
+        "cast_id": 21,
+        "character": "Doctor Ulmer",
+        "credit_id": "52fe4265c3a36847f801b2c3",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922446,
+        "known_for_department": "Acting",
+        "name": "Sam Berry",
+        "original_name": "Sam Berry",
+        "popularity": 0.2655,
+        "profile_path": null,
+        "cast_id": 77,
+        "character": "Gas Station Attendant",
+        "credit_id": "5ff28d60fab3fa003a760fac",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1482977,
+        "known_for_department": "Acting",
+        "name": "Claresie Mobley",
+        "original_name": "Claresie Mobley",
+        "popularity": 0.3045,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "Car Rental Clerk",
+        "credit_id": "55919a8fc3a3680800001e09",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 54754,
+        "known_for_department": "Acting",
+        "name": "Viva",
+        "original_name": "Viva",
+        "popularity": 0.9472,
+        "profile_path": "/as8RgWBNvRKF6nTEd1ZcDVius7M.jpg",
+        "cast_id": 32,
+        "character": "Woman on TV",
+        "credit_id": "579956169251412348003d7f",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1245394,
+        "known_for_department": "Acting",
+        "name": "Socorro Valdez",
+        "original_name": "Socorro Valdez",
+        "popularity": 0.2076,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "Carmelita",
+        "credit_id": "55919a76c3a36807fd001ca7",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922447,
+        "known_for_department": "Acting",
+        "name": "Edward Fayton",
+        "original_name": "Edward Fayton",
+        "popularity": 0.1324,
+        "profile_path": null,
+        "cast_id": 78,
+        "character": "Hunter's Friend",
+        "credit_id": "5ff28d82869e75003edc1e75",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922449,
+        "known_for_department": "Acting",
+        "name": "Justin Hogg",
+        "original_name": "Justin Hogg",
+        "popularity": 0.0955,
+        "profile_path": null,
+        "cast_id": 79,
+        "character": "Hunter (Age 3)",
+        "credit_id": "5ff28d9566e469003fc1263a",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 32461,
+        "known_for_department": "Acting",
+        "name": "Tom Farrell",
+        "original_name": "Tom Farrell",
+        "popularity": 0.524,
+        "profile_path": "/6Y81HXnxgolbnzXmjHdMX5By5aT.jpg",
+        "cast_id": 33,
+        "character": "Screaming Man",
+        "credit_id": "57995686c3a368640e008231",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6394,
+        "known_for_department": "Acting",
+        "name": "John Lurie",
+        "original_name": "John Lurie",
+        "popularity": 0.7349,
+        "profile_path": "/ocxaaEEcdtKgQTIkkN55L7K1YGh.jpg",
+        "cast_id": 25,
+        "character": "'Slater'",
+        "credit_id": "52fe4265c3a36847f801b2d9",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1482975,
+        "known_for_department": "Acting",
+        "name": "Jeni Vici",
+        "original_name": "Jeni Vici",
+        "popularity": 0.3234,
+        "profile_path": null,
+        "cast_id": 26,
+        "character": "'Stretch'",
+        "credit_id": "55919a4dc3a3680804001cf6",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1482976,
+        "known_for_department": "Acting",
+        "name": "Sally Norvell",
+        "original_name": "Sally Norvell",
+        "popularity": 0.8608,
+        "profile_path": null,
+        "cast_id": 27,
+        "character": "'Nurse Bibs'",
+        "credit_id": "55919a649251417588001c70",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2548127,
+        "known_for_department": "Acting",
+        "name": "Sharon Menzel",
+        "original_name": "Sharon Menzel",
+        "popularity": 0.3063,
+        "profile_path": null,
+        "cast_id": 80,
+        "character": "Comedienne",
+        "credit_id": "5ff28dd37aecc6003dfdb267",
+        "order": 16
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9891,
+        "known_for_department": "Sound",
+        "name": "Douglas Axtell",
+        "original_name": "Douglas Axtell",
+        "popularity": 0.4754,
+        "profile_path": null,
+        "credit_id": "52fe4265c3a36847f801b2ab",
+        "department": "Sound",
+        "job": "Boom Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2303,
+        "known_for_department": "Directing",
+        "name": "Wim Wenders",
+        "original_name": "Wim Wenders",
+        "popularity": 1.9665,
+        "profile_path": "/AbqrYglSgaMfetQAeqdHaqiPSof.jpg",
+        "credit_id": "52fe4265c3a36847f801b263",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9882,
+        "known_for_department": "Production",
+        "name": "Don Guest",
+        "original_name": "Don Guest",
+        "popularity": 0.5436,
+        "profile_path": null,
+        "credit_id": "52fe4265c3a36847f801b269",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 9886,
+        "known_for_department": "Art",
+        "name": "Kate Altman",
+        "original_name": "Kate Altman",
+        "popularity": 0.1987,
+        "profile_path": null,
+        "credit_id": "52fe4265c3a36847f801b293",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1632,
+        "known_for_department": "Camera",
+        "name": "Robby M\u00fcller",
+        "original_name": "Robby M\u00fcller",
+        "popularity": 0.6281,
+        "profile_path": "/1YeDTwdFQNxM6hDADl0bKfuX7Fx.jpg",
+        "credit_id": "52fe4265c3a36847f801b281",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9884,
+        "known_for_department": "Production",
+        "name": "Chris Sievernich",
+        "original_name": "Chris Sievernich",
+        "popularity": 0.3163,
+        "profile_path": "/6ooUl8VseHvDnvvs6puNTXgPvBv.jpg",
+        "credit_id": "52fe4265c3a36847f801b275",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9880,
+        "known_for_department": "Acting",
+        "name": "Sam Shepard",
+        "original_name": "Sam Shepard",
+        "popularity": 2.5918,
+        "profile_path": "/mVR3Le1rSGIbQmld3Ve42RVFcyI.jpg",
+        "credit_id": "52fe4265c3a36847f801b2cf",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6918,
+        "known_for_department": "Sound",
+        "name": "Ry Cooder",
+        "original_name": "Ry Cooder",
+        "popularity": 0.7926,
+        "profile_path": "/bHxTP9V9s67uveh651EvWl7He77.jpg",
+        "credit_id": "52fe4265c3a36847f801b27b",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2309,
+        "known_for_department": "Editing",
+        "name": "Peter Przygodda",
+        "original_name": "Peter Przygodda",
+        "popularity": 0.3814,
+        "profile_path": null,
+        "credit_id": "52fe4265c3a36847f801b287",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2304,
+        "known_for_department": "Production",
+        "name": "Anatole Dauman",
+        "original_name": "Anatole Dauman",
+        "popularity": 0.7023,
+        "profile_path": "/6OMlQTVM3D2lKiVt6eccx7JIMCP.jpg",
+        "credit_id": "52fe4265c3a36847f801b2c9",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 9887,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Birgitta Bjerke",
+        "original_name": "Birgitta Bjerke",
+        "popularity": 0.5526,
+        "profile_path": null,
+        "credit_id": "52fe4265c3a36847f801b299",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1416675,
+        "known_for_department": "Production",
+        "name": "Craig Busch",
+        "original_name": "Craig Busch",
+        "popularity": 0.3519,
+        "profile_path": null,
+        "credit_id": "6224dc0d7c6de3006649934a",
+        "department": "Art",
+        "job": "Props"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1603109,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Karoly Balazs",
+        "original_name": "Karoly Balazs",
+        "popularity": 0.5507,
+        "profile_path": null,
+        "credit_id": "6224dbc3a24c500041f20c10",
+        "department": "Costume & Make-Up",
+        "job": "Makeup & Hair"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1459943,
+        "known_for_department": "Writing",
+        "name": "Walter Donohue",
+        "original_name": "Walter Donohue",
+        "popularity": 0.4466,
+        "profile_path": null,
+        "credit_id": "6224dce3e323f3006cc641cb",
+        "department": "Writing",
+        "job": "Story Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9885,
+        "known_for_department": "Production",
+        "name": "Gary Chason",
+        "original_name": "Gary Chason",
+        "popularity": 0.4548,
+        "profile_path": null,
+        "credit_id": "619758adbc2cb3002cb79c7e",
+        "department": "Production",
+        "job": "Casting Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9883,
+        "known_for_department": "Production",
+        "name": "Pascale Dauman",
+        "original_name": "Pascale Dauman",
+        "popularity": 0.9466,
+        "profile_path": "/24ahArcafndPhYHwgcXXmIc8TqI.jpg",
+        "credit_id": "55919aa892514123b5000a4d",
+        "department": "Production",
+        "job": "Associate Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 952018,
+        "known_for_department": "Production",
+        "name": "Karen Koch",
+        "original_name": "Karen Koch",
+        "popularity": 0.5719,
+        "profile_path": null,
+        "credit_id": "55919acfc3a3680804001d04",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 8706,
+        "known_for_department": "Art",
+        "name": "Anne Kuljian",
+        "original_name": "Anne Kuljian",
+        "popularity": 0.9222,
+        "profile_path": null,
+        "credit_id": "579a355f925141044400052c",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1404911,
+        "known_for_department": "Directing",
+        "name": "Helen Caldwell",
+        "original_name": "Helen Caldwell",
+        "popularity": 1.0754,
+        "profile_path": null,
+        "credit_id": "579a36ec9251411325003a0c",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 67044,
+        "known_for_department": "Camera",
+        "name": "Martin Sch\u00e4fer",
+        "original_name": "Martin Sch\u00e4fer",
+        "popularity": 1.2804,
+        "profile_path": null,
+        "credit_id": "579a38b99251413f15005ad1",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1657996,
+        "known_for_department": "Camera",
+        "name": "Pim Tjujerman",
+        "original_name": "Pim Tjujerman",
+        "popularity": 0.3797,
+        "profile_path": null,
+        "credit_id": "579a399dc3a368251b00579c",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 106118,
+        "known_for_department": "Camera",
+        "name": "Robert K. Feldmann",
+        "original_name": "Robert K. Feldmann",
+        "popularity": 0.2141,
+        "profile_path": null,
+        "credit_id": "579a3909c3a3680ee3003b5f",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 423441,
+        "known_for_department": "Sound",
+        "name": "Hartmut Eichgr\u00fcn",
+        "original_name": "Hartmut Eichgr\u00fcn",
+        "popularity": 0.2168,
+        "profile_path": null,
+        "credit_id": "579a35bcc3a3680e88003db3",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 14196,
+        "known_for_department": "Camera",
+        "name": "Agn\u00e8s Godard",
+        "original_name": "Agn\u00e8s Godard",
+        "popularity": 0.3406,
+        "profile_path": null,
+        "credit_id": "579a37e49251410444000697",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1315038,
+        "known_for_department": "Production",
+        "name": "Udo Heiland",
+        "original_name": "Udo Heiland",
+        "popularity": 0.2436,
+        "profile_path": null,
+        "credit_id": "579a347d925141044400049b",
+        "department": "Crew",
+        "job": "Post-Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 5272,
+        "known_for_department": "Editing",
+        "name": "Anne Schnee",
+        "original_name": "Anne Schnee",
+        "popularity": 0.2042,
+        "profile_path": null,
+        "credit_id": "579a364692514112fb003930",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9645,
+        "known_for_department": "Camera",
+        "name": "Greg Gardiner",
+        "original_name": "Greg Gardiner",
+        "popularity": 0.3799,
+        "profile_path": "/hWs1ZgyIHgFZwvifHcB97fGdVSt.jpg",
+        "credit_id": "579a37c5c3a3682273005bd9",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9888,
+        "known_for_department": "Directing",
+        "name": "Claire Denis",
+        "original_name": "Claire Denis",
+        "popularity": 2.0721,
+        "profile_path": "/zKR7pmegNQDjWqeWv7JNvHqJ2l5.jpg",
+        "credit_id": "579a34a792514112f5003642",
+        "department": "Directing",
+        "job": "Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 22608,
+        "known_for_department": "Production",
+        "name": "Joachim von Mengershausen",
+        "original_name": "Joachim von Mengershausen",
+        "popularity": 0.1879,
+        "profile_path": null,
+        "credit_id": "579a367e92514112f500376d",
+        "department": "Crew",
+        "job": "Commissioning Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 57985,
+        "known_for_department": "Editing",
+        "name": "Barbara von Weitershausen",
+        "original_name": "Barbara von Weitershausen",
+        "popularity": 0.2614,
+        "profile_path": null,
+        "credit_id": "579a3714c3a3680e88003e84",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15207,
+        "known_for_department": "Writing",
+        "name": "L.M. Kit Carson",
+        "original_name": "L.M. Kit Carson",
+        "popularity": 0.4204,
+        "profile_path": "/edTsci6TubRvSUfK2sUvVmLaYpY.jpg",
+        "credit_id": "59ae5e8d9251410765053c8c",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1416675,
+        "known_for_department": "Production",
+        "name": "Craig Busch",
+        "original_name": "Craig Busch",
+        "popularity": 0.3519,
+        "profile_path": null,
+        "credit_id": "5ff289c855c926003e4057c0",
+        "department": "Art",
+        "job": "Assistant Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1239904,
+        "known_for_department": "Production",
+        "name": "Sheila Possner",
+        "original_name": "Sheila Possner",
+        "popularity": 0.1761,
+        "profile_path": null,
+        "credit_id": "5ff28b06414291004151b035",
+        "department": "Production",
+        "job": "Casting Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922427,
+        "known_for_department": "Art",
+        "name": "Lorrie Brown",
+        "original_name": "Lorrie Brown",
+        "popularity": 0.1105,
+        "profile_path": null,
+        "credit_id": "5ff28973976e48003e6947af",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 9889,
+        "known_for_department": "Directing",
+        "name": "Dominique Auvray",
+        "original_name": "Dominique Auvray",
+        "popularity": 0.9632,
+        "profile_path": "/416llQQqNzdjQPFryrQSG4IITTt.jpg",
+        "credit_id": "5ff289eb1ad93b003c21ff1b",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2303,
+        "known_for_department": "Directing",
+        "name": "Wim Wenders",
+        "original_name": "Wim Wenders",
+        "popularity": 1.9665,
+        "profile_path": "/AbqrYglSgaMfetQAeqdHaqiPSof.jpg",
+        "credit_id": "5ff288fc1a934f003e12ffce",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1823435,
+        "known_for_department": "Production",
+        "name": "James Thompson",
+        "original_name": "James Thompson",
+        "popularity": 0.3099,
+        "profile_path": null,
+        "credit_id": "5ff28b8fc26796003cc10b52",
+        "department": "Production",
+        "job": "Location Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922444,
+        "known_for_department": "Production",
+        "name": "Bonna Newman",
+        "original_name": "Bonna Newman",
+        "popularity": 0.1368,
+        "profile_path": null,
+        "credit_id": "5ff28cdf976e48004069168f",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2582883,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Kimberly Buckley",
+        "original_name": "Kimberly Buckley",
+        "popularity": 0.5927,
+        "profile_path": null,
+        "credit_id": "5ff28996470ead003ffb173b",
+        "department": "Art",
+        "job": "Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1808162,
+        "known_for_department": "Production",
+        "name": "Susan Elkins",
+        "original_name": "Susan Elkins",
+        "popularity": 0.3763,
+        "profile_path": null,
+        "credit_id": "5ff28b62156cc70040f21ece",
+        "department": "Production",
+        "job": "Location Manager"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1941625,
+        "known_for_department": "Directing",
+        "name": "Michael Helfand",
+        "original_name": "Michael Helfand",
+        "popularity": 0.3479,
+        "profile_path": null,
+        "credit_id": "5ff28967869e75003fdb9a55",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1796072,
+        "known_for_department": "Directing",
+        "name": "Scott Kirby",
+        "original_name": "Scott Kirby",
+        "popularity": 0.28,
+        "profile_path": null,
+        "credit_id": "5ff28bfb55c926004140ae0a",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1209225,
+        "known_for_department": "Production",
+        "name": "Barbara Lucey",
+        "original_name": "Barbara Lucey",
+        "popularity": 0.667,
+        "profile_path": null,
+        "credit_id": "5ff28c617aecc6003dfdb091",
+        "department": "Production",
+        "job": "Accountant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1930935,
+        "known_for_department": "Camera",
+        "name": "Arthur Blum",
+        "original_name": "Arthur Blum",
+        "popularity": 0.4369,
+        "profile_path": null,
+        "credit_id": "5ff28a37ca7ec6003fb29908",
+        "department": "Camera",
+        "job": "Best Boy Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 46354,
+        "known_for_department": "Camera",
+        "name": "Dean Lent",
+        "original_name": "Dean Lent",
+        "popularity": 0.3001,
+        "profile_path": null,
+        "credit_id": "5ff28c559affc00040f78a1c",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922437,
+        "known_for_department": "Camera",
+        "name": "Robin Holland",
+        "original_name": "Robin Holland",
+        "popularity": 0.1415,
+        "profile_path": null,
+        "credit_id": "5ff28ac846e75f0041d3a41b",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922443,
+        "known_for_department": "Production",
+        "name": "Ron Mitchell",
+        "original_name": "Ron Mitchell",
+        "popularity": 0.1441,
+        "profile_path": null,
+        "credit_id": "5ff28cc8869e750040dad04d",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1643048,
+        "known_for_department": "Acting",
+        "name": "Patric Kreuzer",
+        "original_name": "Patric Kreuzer",
+        "popularity": 0.3316,
+        "profile_path": null,
+        "credit_id": "5ff28c265507e900410c3395",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9890,
+        "known_for_department": "Sound",
+        "name": "Jean-Paul Mugel",
+        "original_name": "Jean-Paul Mugel",
+        "popularity": 0.3634,
+        "profile_path": "/4MPwCouuem4PjQjKytI1WMYcp0Q.jpg",
+        "credit_id": "5ff28a1d67203d003dca6879",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922438,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Roberta Elkins",
+        "original_name": "Roberta Elkins",
+        "popularity": 0.1242,
+        "profile_path": null,
+        "credit_id": "5ff28b42d34eb3004251a7a1",
+        "department": "Costume & Make-Up",
+        "job": "Wardrobe Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3110,
+        "known_for_department": "Directing",
+        "name": "Allison Anders",
+        "original_name": "Allison Anders",
+        "popularity": 0.7153,
+        "profile_path": "/tP9x5lWT4EofhiGITfnmmfpZShA.jpg",
+        "credit_id": "5ff28bc71ad93b003f21f0c3",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2021253,
+        "known_for_department": "Production",
+        "name": "Dianne Mapp-Cheek",
+        "original_name": "Dianne Mapp-Cheek",
+        "popularity": 0.2634,
+        "profile_path": null,
+        "credit_id": "5ff28c7367203d003fca8503",
+        "department": "Production",
+        "job": "Production Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 106118,
+        "known_for_department": "Camera",
+        "name": "Robert K. Feldmann",
+        "original_name": "Robert K. Feldmann",
+        "popularity": 0.2141,
+        "profile_path": null,
+        "credit_id": "5ff28a4a5507e900400c790b",
+        "department": "Camera",
+        "job": "Key Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2652105,
+        "known_for_department": "Art",
+        "name": "Kevin Galbraith",
+        "original_name": "Kevin Galbraith",
+        "popularity": 0.3452,
+        "profile_path": null,
+        "credit_id": "5ff28a6b1a934f003e130144",
+        "department": "Lighting",
+        "job": "Electrician"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2922436,
+        "known_for_department": "Lighting",
+        "name": "Scott Guthrie",
+        "original_name": "Scott Guthrie",
+        "popularity": 0.4169,
+        "profile_path": null,
+        "credit_id": "5ff28abb1fb94f0041f761ca",
+        "department": "Lighting",
+        "job": "Best Boy Electric"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2922442,
+        "known_for_department": "Crew",
+        "name": "Sherry McBride",
+        "original_name": "Sherry McBride",
+        "popularity": 0.1475,
+        "profile_path": null,
+        "credit_id": "5ff28c7f1d356300410dff3e",
+        "department": "Crew",
+        "job": "Catering"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4937790,
+        "known_for_department": "Crew",
+        "name": "Lynn Brisbin",
+        "original_name": "Lynn Brisbin",
+        "popularity": 0.1546,
+        "profile_path": null,
+        "credit_id": "66e251a826991298c8622675",
+        "department": "Crew",
+        "job": "Driver"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2178116,
+        "known_for_department": "Crew",
+        "name": "Homer Albin",
+        "original_name": "Homer Albin",
+        "popularity": 0.2523,
+        "profile_path": null,
+        "credit_id": "66e251b00000000000950d90",
+        "department": "Crew",
+        "job": "Driver"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1645340,
+        "known_for_department": "Acting",
+        "name": "Al Cantu",
+        "original_name": "Al Cantu",
+        "popularity": 0.2713,
+        "profile_path": null,
+        "credit_id": "66e251db0000000000950da8",
+        "department": "Crew",
+        "job": "Driver"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4937792,
+        "known_for_department": "Crew",
+        "name": "Tom Kelton",
+        "original_name": "Tom Kelton",
+        "popularity": 0.1336,
+        "profile_path": null,
+        "credit_id": "66e251ff791320cd95d43936",
+        "department": "Crew",
+        "job": "Driver"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 74813,
+        "known_for_department": "Crew",
+        "name": "Richard Padgett",
+        "original_name": "Richard Padgett",
+        "popularity": 0.3808,
+        "profile_path": null,
+        "credit_id": "66e2520726991298c86226ac",
+        "department": "Crew",
+        "job": "Driver"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1585170,
+        "known_for_department": "Crew",
+        "name": "B.J. Smith",
+        "original_name": "B.J. Smith",
+        "popularity": 0.305,
+        "profile_path": null,
+        "credit_id": "66e2521026991298c86226af",
+        "department": "Crew",
+        "job": "Driver"
+      }
+    ]
+  },
+  "videos": {
+    "id": 655,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Clip - Memories",
+        "key": "fThQk286c2k",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2024-10-31T00:25:01.000Z",
+        "id": "6722e2b818827a9329f19268"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "In Conversation with Wim Wenders on the 40th Anniversary 4K Restoration",
+        "key": "o0o1ULRKDx8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2024-10-29T21:40:38.000Z",
+        "id": "6722e2c1991edb035c5f8761"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official 4K Restoration Trailer",
+        "key": "Nmvte2r7Z8c",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2024-08-09T17:53:50.000Z",
+        "id": "66b666c694df58ec58d7cb69"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Hand-picked by MUBI",
+        "key": "nf7JnO12_Zg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2023-08-14T19:00:26.000Z",
+        "id": "661ecf1f3c43440149024487"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Hand-picked by MUBI",
+        "key": "t19p-1C8F7M",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2023-03-04T20:00:25.000Z",
+        "id": "661ecf14528b2e017d3f75d3"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Returning to Cinemas 29 July",
+        "key": "ag9F81FtgqA",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "published_at": "2022-07-18T11:39:18.000Z",
+        "id": "62d5aea104b596005413b551"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official UK Rerelease Trailer",
+        "key": "3j8ypqxfiT4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2022-07-06T10:00:59.000Z",
+        "id": "62c6c3b712c604004f133edb"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Video Essay: \"Americana on the Road to Paris, Texas\"",
+        "key": "CooJV3BpPUg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2021-06-12T07:00:06.000Z",
+        "id": "661ecefad75bd6017c31c855"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Mark Kermode reviews Paris, Texas",
+        "key": "J6EK_QBEgeM",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2018-03-09T09:21:15.000Z",
+        "id": "661ecece20af7701643d991d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Sam Mendes on Paris, Texas",
+        "key": "0saAAxY4rn8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-06-19T11:46:51.000Z",
+        "id": "661eced521621b0164f069c3"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Opening Scene",
+        "key": "0YMCWR8jzpU",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-04-30T21:30:22.000Z",
+        "id": "65b0410075110d00cab227c4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer",
+        "key": "9e590FeeGCM",
+        "published_at": "2010-01-13T19:19:06.000Z",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Trailer",
+        "official": true,
+        "id": "533ec655c3a36854480004fb"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 655,
+    "keywords": [
+      {
+        "id": 4580,
+        "name": "van"
+      },
+      {
+        "id": 802,
+        "name": "regret"
+      },
+      {
+        "id": 1453,
+        "name": "amnesia"
+      },
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 3276,
+        "name": "peep show"
+      },
+      {
+        "id": 11436,
+        "name": "redemption"
+      },
+      {
+        "id": 7312,
+        "name": "road trip"
+      },
+      {
+        "id": 10392,
+        "name": "mute"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 15291,
+        "name": "on the road"
+      },
+      {
+        "id": 18034,
+        "name": "desert"
+      },
+      {
+        "id": 18035,
+        "name": "family"
+      },
+      {
+        "id": 160798,
+        "name": "modern-day western"
+      },
+      {
+        "id": 168713,
+        "name": "neo-western"
+      },
+      {
+        "id": 209966,
+        "name": "new german cinema"
+      },
+      {
+        "id": 284115,
+        "name": "fugue state"
+      },
+      {
+        "id": 309029,
+        "name": "psychological drama"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 655,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 23
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 22
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 9
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 13
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/geOzgeKZWpZC3lymAVEHVIk3X0q.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 56
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=AU",
+        "ads": [
+          {
+            "logo_path": "/cR4okiAS0zcXb4ufs3mi4PImXPB.jpg",
+            "provider_id": 132,
+            "provider_name": "SBS On Demand",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 49
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=BR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 20
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/xoFyQOXR3qINRsdnCQyd7jGx8Wo.jpg",
+            "provider_id": 326,
+            "provider_name": "CTV",
+            "display_priority": 43
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+            "provider_id": 230,
+            "provider_name": "Crave",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 81
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 5
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 68
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/l5SFTF3l9l1KSgZJM7foAppUenz.jpg",
+            "provider_id": 622,
+            "provider_name": "UPC TV",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 52
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 54
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/489t5n9o1KhH7voGNQkrXT7vBKV.jpg",
+            "provider_id": 1939,
+            "provider_name": "Lepsi TV",
+            "display_priority": 26
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 109
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 122
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 129
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/eRRc8n7fzQewjh15d2fao45Xxvi.jpg",
+            "provider_id": 443,
+            "provider_name": "Filmstriben",
+            "display_priority": 13
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 32
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=EE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 38
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/tGvAD4O9obFP3DfOrDn8NaRQ6eT.jpg",
+            "provider_id": 1742,
+            "provider_name": "Acontra Plus Amazon Channel",
+            "display_priority": 47
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8vES2nJNwOF57muvqLByDLm6snp.jpg",
+            "provider_id": 1717,
+            "provider_name": "Acontra Plus",
+            "display_priority": 43
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/xm8xr6LDdY5j2gjYf1S3yqaeRbE.jpg",
+            "provider_id": 1875,
+            "provider_name": "Runtime",
+            "display_priority": 53
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/8VhN4PeHU7yfMNoWK0DnwdS1HlS.jpg",
+            "provider_id": 1838,
+            "provider_name": "Tivify",
+            "display_priority": 52
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=FI",
+        "free": [
+          {
+            "logo_path": "/zDWv7ROPCqZXsIKSVFRANOTC1wx.jpg",
+            "provider_id": 539,
+            "provider_name": "Viddla",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 40
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=FR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/zg1uFDzIchkwrwOW6dq7LFxB4n6.jpg",
+            "provider_id": 1737,
+            "provider_name": "INA  madelen Amazon Channel",
+            "display_priority": 51
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/erGoVIuKJ0PYOJ8dh62o4YhwaJK.jpg",
+            "provider_id": 224,
+            "provider_name": "BFI Player",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 31
+          },
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 78
+          },
+          {
+            "logo_path": "/kohVS01u3sP5IkqsSaAKdBit6aP.jpg",
+            "provider_id": 2041,
+            "provider_name": "BFI Player Apple TV Channel",
+            "display_priority": 97
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4SJW6thrCvN6ya2hO6naksfRZDF.jpg",
+            "provider_id": 287,
+            "provider_name": "BFI Player Amazon Channel",
+            "display_priority": 30
+          },
+          {
+            "logo_path": "/kSONYxM7a0mESEjCaqaozVTdByB.jpg",
+            "provider_id": 1745,
+            "provider_name": "Curzon Amazon Channel",
+            "display_priority": 74
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 27
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 43
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=IE",
+        "flatrate": [
+          {
+            "logo_path": "/5zNYQG7TVVAEWbnhrcnKsEGk8xR.jpg",
+            "provider_id": 2537,
+            "provider_name": "IFI@Home",
+            "display_priority": 16
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/5zNYQG7TVVAEWbnhrcnKsEGk8xR.jpg",
+            "provider_id": 2537,
+            "provider_name": "IFI@Home",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pXQhPQmlIYsIZD4urWs8Ul8PhA6.jpg",
+            "provider_id": 189,
+            "provider_name": "Curzon Home Cinema",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 60
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kE6XgnYwfeGXDx80YmP3bxvsl8J.jpg",
+            "provider_id": 2149,
+            "provider_name": "CG TV STREAMING",
+            "display_priority": 43
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 5
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 18
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 57
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 70
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 60
+          },
+          {
+            "logo_path": "/a4IDLKjvP5gvq7tNlg2Xw5YyEkI.jpg",
+            "provider_id": 201,
+            "provider_name": "MUBI Amazon Channel",
+            "display_priority": 62
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/3ZigBD8WTEPcEHAvMWiJGUsv5u4.jpg",
+            "provider_id": 578,
+            "provider_name": "Strim",
+            "display_priority": 27
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 33
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 39
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 58
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 37
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 14
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 29
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 34
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/w1V9hzBaRlkpISBWhCv676kI8Mp.jpg",
+            "provider_id": 496,
+            "provider_name": "Cineasterna",
+            "display_priority": 22
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/auWzottqpExOHUlJwDZ4DvdHGoL.jpg",
+            "provider_id": 423,
+            "provider_name": "Blockbuster",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 33
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 31
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/c8ryDZroFQtuyRVPBwXq5PLpTWV.jpg",
+            "provider_id": 1904,
+            "provider_name": "TV+",
+            "display_priority": 9
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 11
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+            "provider_id": 258,
+            "provider_name": "Criterion Channel",
+            "display_priority": 40
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/y9jFndski0fRO4MHh3yg5PIL9ZI.jpg",
+            "provider_id": 439,
+            "provider_name": "Shout! Factory TV",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+            "provider_id": 73,
+            "provider_name": "Tubi TV",
+            "display_priority": 351
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
+            "provider_id": 191,
+            "provider_name": "Kanopy",
+            "display_priority": 34
+          },
+          {
+            "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 127
+          },
+          {
+            "logo_path": "/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
+            "provider_id": 2077,
+            "provider_name": "Plex Channel",
+            "display_priority": 130
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 32
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/655-paris-texas/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/x570VpH2C9EKDf1riP83rYc5dnL.jpg",
+            "provider_id": 11,
+            "provider_name": "MUBI",
+            "display_priority": 30
+          }
+        ]
+      }
+    }
+  }
+}

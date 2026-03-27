@@ -1,0 +1,1283 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/mgJFiLulYzHxorIWNQyU5Wp4KHU.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 11447,
+    "imdb_id": "tt0208990",
+    "origin_country": [
+      "FR",
+      "IT"
+    ],
+    "original_language": "it",
+    "original_title": "La stanza del figlio",
+    "overview": "A psychoanalyst and his family go through profound emotional trauma when their son dies in a scuba diving accident.",
+    "popularity": 1.297,
+    "poster_path": "/e9s1Hvw9TcVZspbkq2V8Bmvhky1.jpg",
+    "production_companies": [
+      {
+        "id": 9364,
+        "logo_path": "/4AuJw54SSgKZifQBl2OsaOVWt9I.png",
+        "name": "Sacher Film",
+        "origin_country": "IT"
+      },
+      {
+        "id": 208,
+        "logo_path": "/bxQYlRhQu6nbohBEL0SWz8xIAGy.png",
+        "name": "Bac Films",
+        "origin_country": "FR"
+      },
+      {
+        "id": 694,
+        "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "name": "StudioCanal",
+        "origin_country": "FR"
+      },
+      {
+        "id": 155990,
+        "logo_path": "/py9VaywwK6KVi94YwrxSKVg1gkh.png",
+        "name": "RAI Cinema",
+        "origin_country": "IT"
+      },
+      {
+        "id": 15139,
+        "logo_path": "/pDMWjx8DQZ7joB5Yd5lieixKUAp.png",
+        "name": "Tele+",
+        "origin_country": "IT"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IT",
+        "name": "Italy"
+      },
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      }
+    ],
+    "release_date": "2001-03-09",
+    "revenue": 11767402,
+    "runtime": 99,
+    "spoken_languages": [
+      {
+        "english_name": "Latin",
+        "iso_639_1": "la",
+        "name": "Latin"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Son's Room",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 546
+  },
+  "credits": {
+    "id": 11447,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "cast_id": 1,
+        "character": "Giovanni",
+        "credit_id": "52fe44419251416c7502e465",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 56654,
+        "known_for_department": "Acting",
+        "name": "Laura Morante",
+        "original_name": "Laura Morante",
+        "popularity": 0.7624,
+        "profile_path": "/dHPaab9C8how2C8tj3TseePEa7k.jpg",
+        "cast_id": 2,
+        "character": "Paola",
+        "credit_id": "52fe44419251416c7502e469",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 69489,
+        "known_for_department": "Acting",
+        "name": "Jasmine Trinca",
+        "original_name": "Jasmine Trinca",
+        "popularity": 1.447,
+        "profile_path": "/idxRGFkuTwxKZZNtDBTY84UzAPd.jpg",
+        "cast_id": 3,
+        "character": "Irene",
+        "credit_id": "52fe44419251416c7502e46d",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69490,
+        "known_for_department": "Acting",
+        "name": "Giuseppe Sanfelice",
+        "original_name": "Giuseppe Sanfelice",
+        "popularity": 0.3176,
+        "profile_path": "/wpNlNFZGg7djMexELaOMnyr2yaG.jpg",
+        "cast_id": 4,
+        "character": "Andrea",
+        "credit_id": "52fe44419251416c7502e471",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 108900,
+        "known_for_department": "Acting",
+        "name": "Silvio Orlando",
+        "original_name": "Silvio Orlando",
+        "popularity": 0.6285,
+        "profile_path": "/5mPRxBR3yqjHnbHXIKINgAAHDeH.jpg",
+        "cast_id": 31,
+        "character": "Oscar - a Patient",
+        "credit_id": "5bd1d311c3a3682f7d00ee96",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 65571,
+        "known_for_department": "Acting",
+        "name": "Stefano Accorsi",
+        "original_name": "Stefano Accorsi",
+        "popularity": 1.2077,
+        "profile_path": "/v0juBdStV3KECZL1nEL7AkbWQ0j.jpg",
+        "cast_id": 34,
+        "character": "Tommaso - a Patient",
+        "credit_id": "5bd1e38d0e0a26618100f428",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 93728,
+        "known_for_department": "Acting",
+        "name": "Claudia Della Seta",
+        "original_name": "Claudia Della Seta",
+        "popularity": 0.272,
+        "profile_path": "/xIwuSCTFxJIoBn7EDpESdL8CjkO.jpg",
+        "cast_id": 33,
+        "character": "Raffaella - a Patient",
+        "credit_id": "5bd1e371c3a3682f7900f373",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1176228,
+        "known_for_department": "Acting",
+        "name": "Eleonora Danco",
+        "original_name": "Eleonora Danco",
+        "popularity": 0.8374,
+        "profile_path": "/CEJB6QAbz3ez2WTdbBKCZdthE4.jpg",
+        "cast_id": 32,
+        "character": "a Patient",
+        "credit_id": "5bd1da7cc3a3682f6600e007",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1125149,
+        "known_for_department": "Acting",
+        "name": "Sofia Vigliar",
+        "original_name": "Sofia Vigliar",
+        "popularity": 0.8993,
+        "profile_path": "/vj27LQhBmkNbR5nvK14HOCFqfLY.jpg",
+        "cast_id": 20,
+        "character": "Arianna",
+        "credit_id": "52fe44419251416c7502e4c9",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14149,
+        "known_for_department": "Acting",
+        "name": "Renato Scarpa",
+        "original_name": "Renato Scarpa",
+        "popularity": 0.7709,
+        "profile_path": "/wVWEERHioQVxnB4jFeDDZIzdSPX.jpg",
+        "cast_id": 21,
+        "character": "Headmaster",
+        "credit_id": "52fe44419251416c7502e4cd",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 115609,
+        "known_for_department": "Acting",
+        "name": "Roberto Nobile",
+        "original_name": "Roberto Nobile",
+        "popularity": 0.9555,
+        "profile_path": "/9Y5xZqeFbZ6qshJ0WS6e6U6VBxP.jpg",
+        "cast_id": 22,
+        "character": "Priest",
+        "credit_id": "52fe44419251416c7502e4d1",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 92094,
+        "known_for_department": "Acting",
+        "name": "Paolo De Vita",
+        "original_name": "Paolo De Vita",
+        "popularity": 0.5762,
+        "profile_path": "/cNMP0Dkl8WMZBbtcXJzIf4pk8D7.jpg",
+        "cast_id": 23,
+        "character": "Luciano's Father",
+        "credit_id": "52fe44419251416c7502e4d5",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 133217,
+        "known_for_department": "Acting",
+        "name": "Roberto De Francesco",
+        "original_name": "Roberto De Francesco",
+        "popularity": 0.5328,
+        "profile_path": "/uJD4tphYchfj5gBmVEBHmu3NKmq.jpg",
+        "cast_id": 24,
+        "character": "Record Store Clerk",
+        "credit_id": "52fe44419251416c7502e4d9",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 76339,
+        "known_for_department": "Acting",
+        "name": "Claudio Santamaria",
+        "original_name": "Claudio Santamaria",
+        "popularity": 0.6734,
+        "profile_path": "/5dTilyM0dEMAV9a8kQbD2X4ehQU.jpg",
+        "cast_id": 25,
+        "character": "Dive Shop Clerk",
+        "credit_id": "52fe44419251416c7502e4dd",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93722,
+        "known_for_department": "Acting",
+        "name": "Antonio Petrocelli",
+        "original_name": "Antonio Petrocelli",
+        "popularity": 0.6736,
+        "profile_path": "/iqYdxG48zrWbVJO05H1yb43467u.jpg",
+        "cast_id": 26,
+        "character": "Enrico",
+        "credit_id": "52fe44419251416c7502e4e1",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 93729,
+        "known_for_department": "Acting",
+        "name": "Lorenzo Alessandri",
+        "original_name": "Lorenzo Alessandri",
+        "popularity": 0.1578,
+        "profile_path": "/j2OvRD2QMdGr1xSYz2dmgn9DaCc.jpg",
+        "cast_id": 27,
+        "character": "Filippo's Father",
+        "credit_id": "52fe44419251416c7502e4e5",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125150,
+        "known_for_department": "Acting",
+        "name": "Alessandro Infusini",
+        "original_name": "Alessandro Infusini",
+        "popularity": 0.1112,
+        "profile_path": null,
+        "cast_id": 28,
+        "character": "Matteo",
+        "credit_id": "52fe44419251416c7502e4e9",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 108905,
+        "known_for_department": "Acting",
+        "name": "Silvia Bonucci",
+        "original_name": "Silvia Bonucci",
+        "popularity": 1.1939,
+        "profile_path": null,
+        "cast_id": 29,
+        "character": "Carla",
+        "credit_id": "52fe44419251416c7502e4ed",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125151,
+        "known_for_department": "Acting",
+        "name": "Marcello Bernacchini",
+        "original_name": "Marcello Bernacchini",
+        "popularity": 0.0688,
+        "profile_path": null,
+        "cast_id": 30,
+        "character": "Luciano",
+        "credit_id": "52fe44419251416c7502e4f1",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 67175,
+        "known_for_department": "Acting",
+        "name": "Luisa De Santis",
+        "original_name": "Luisa De Santis",
+        "popularity": 0.2867,
+        "profile_path": "/AknPQ6HXj7QWQorcuV8V22Z0y4x.jpg",
+        "cast_id": 35,
+        "character": "a Patient",
+        "credit_id": "67a5c79b4d536cb93266dc29",
+        "order": 19
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "credit_id": "52fe44419251416c7502e483",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24287,
+        "known_for_department": "Camera",
+        "name": "Giuseppe Lanci",
+        "original_name": "Giuseppe Lanci",
+        "popularity": 0.4131,
+        "profile_path": "/vNlwTBDtfrVFlQ9v22AwDEcn0i4.jpg",
+        "credit_id": "52fe44419251416c7502e495",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "credit_id": "52fe44419251416c7502e4bf",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "credit_id": "52fe44419251416c7502e477",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 52424,
+        "known_for_department": "Editing",
+        "name": "Esmeralda Calabria",
+        "original_name": "Esmeralda Calabria",
+        "popularity": 0.1186,
+        "profile_path": "/5lhgMAt9AJbpff931qAkv5qSOC.jpg",
+        "credit_id": "52fe44419251416c7502e49b",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9245,
+        "known_for_department": "Sound",
+        "name": "Nicola Piovani",
+        "original_name": "Nicola Piovani",
+        "popularity": 0.9517,
+        "profile_path": "/56tRfEIn4RBPhjJ7JOGCOtTZApU.jpg",
+        "credit_id": "52fe44419251416c7502e48f",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125147,
+        "known_for_department": "Production",
+        "name": "Vincenzo Galluzzo",
+        "original_name": "Vincenzo Galluzzo",
+        "popularity": 0.2577,
+        "profile_path": null,
+        "credit_id": "52fe44419251416c7502e4b3",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69492,
+        "known_for_department": "Production",
+        "name": "Angelo Barbagallo",
+        "original_name": "Angelo Barbagallo",
+        "popularity": 0.4308,
+        "profile_path": "/gabEAlNXvupXuZicSv7yBtaI2pH.jpg",
+        "credit_id": "52fe44419251416c7502e489",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 67168,
+        "known_for_department": "Writing",
+        "name": "Heidrun Schleef",
+        "original_name": "Heidrun Schleef",
+        "popularity": 0.5782,
+        "profile_path": null,
+        "credit_id": "52fe44419251416c7502e4a1",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69488,
+        "known_for_department": "Directing",
+        "name": "Nanni Moretti",
+        "original_name": "Nanni Moretti",
+        "popularity": 0.8865,
+        "profile_path": "/zbZr2fbJp1xCX0xG77yUOPpWtHJ.jpg",
+        "credit_id": "52fe44419251416c7502e4a7",
+        "department": "Writing",
+        "job": "Story"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125148,
+        "known_for_department": "Production",
+        "name": "Lorenzo Luccarini",
+        "original_name": "Lorenzo Luccarini",
+        "popularity": 0.147,
+        "profile_path": null,
+        "credit_id": "52fe44419251416c7502e4b9",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1125146,
+        "known_for_department": "Production",
+        "name": "Federico Fabrizio",
+        "original_name": "Federico Fabrizio",
+        "popularity": 0.2524,
+        "profile_path": null,
+        "credit_id": "52fe44419251416c7502e4ad",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 69491,
+        "known_for_department": "Writing",
+        "name": "Linda Ferri",
+        "original_name": "Linda Ferri",
+        "popularity": 0.6018,
+        "profile_path": "/eCxghYrO7pgIStmcc3mIPbuYohY.jpg",
+        "credit_id": "52fe44419251416c7502e47d",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 56279,
+        "known_for_department": "Art",
+        "name": "Giancarlo Basili",
+        "original_name": "Giancarlo Basili",
+        "popularity": 0.478,
+        "profile_path": "/llDKUhhfFDozm8raxg780sZ9dZH.jpg",
+        "credit_id": "52fe44419251416c7502e4c5",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 27715,
+        "known_for_department": "Production",
+        "name": "Jean Labadie",
+        "original_name": "Jean Labadie",
+        "popularity": 0.7068,
+        "profile_path": "/fYl6B8h9SHRuQNXi8ayGi9aWaYG.jpg",
+        "credit_id": "699b74961578baeb74fc2ae3",
+        "department": "Production",
+        "job": "Co-Producer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1987771,
+        "known_for_department": "Sound",
+        "name": "Alessandro Zanon",
+        "original_name": "Alessandro Zanon",
+        "popularity": 0.7733,
+        "profile_path": null,
+        "credit_id": "699b74f961f9b2684f80f011",
+        "department": "Sound",
+        "job": "Production Sound Mixer"
+      }
+    ]
+  },
+  "videos": {
+    "id": 11447,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer: La Habitaci\u00f3n del Hijo",
+        "key": "9WZQ5641lFs",
+        "published_at": "2012-07-19T04:04:50.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "id": "533ec66fc3a3685448001f45"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 11447,
+    "keywords": [
+      {
+        "id": 4327,
+        "name": "stroke of fate"
+      },
+      {
+        "id": 269,
+        "name": "diving"
+      },
+      {
+        "id": 2726,
+        "name": "therapist"
+      },
+      {
+        "id": 5809,
+        "name": "marriage crisis"
+      },
+      {
+        "id": 1647,
+        "name": "sadness"
+      },
+      {
+        "id": 2783,
+        "name": "family's daily life"
+      },
+      {
+        "id": 2833,
+        "name": "psychoanalysis"
+      },
+      {
+        "id": 1189,
+        "name": "profession"
+      },
+      {
+        "id": 6921,
+        "name": "jogging"
+      },
+      {
+        "id": 6397,
+        "name": "calamity"
+      },
+      {
+        "id": 4855,
+        "name": "harmony"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 11447,
+    "results": {
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=AT",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/geOzgeKZWpZC3lymAVEHVIk3X0q.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 56
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=AU",
+        "ads": [
+          {
+            "logo_path": "/cR4okiAS0zcXb4ufs3mi4PImXPB.jpg",
+            "provider_id": 132,
+            "provider_name": "SBS On Demand",
+            "display_priority": 20
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/acANFKCTLQuvDPjJAb5SnmzJaT6.jpg",
+            "provider_id": 311,
+            "provider_name": "Be TV Go",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 15
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=CH",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=DE",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9MABvFilVMUAV86vLUgBgeM5LQQ.jpg",
+            "provider_id": 533,
+            "provider_name": "Amazon Arthaus Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/as1NArQkfAnptYQP3VS03GOJPdm.jpg",
+            "provider_id": 2038,
+            "provider_name": "Arthaus+ Apple TV channel",
+            "display_priority": 109
+          },
+          {
+            "logo_path": "/inTlUMvnQrtCee5fnO4J45SuIwH.jpg",
+            "provider_id": 2137,
+            "provider_name": "Arthaus+",
+            "display_priority": 122
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 96
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 80
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 96
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 104
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 108
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4LnuoJ2E5nTWCvXnlGFaUNH324v.jpg",
+            "provider_id": 685,
+            "provider_name": "Cine+ OCS Amazon Channel ",
+            "display_priority": 41
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=GB",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/59TxOAYcoFaufd6CWm465oPchD.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=IT",
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg",
+            "provider_id": 337,
+            "provider_name": "Disney Plus",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/kAZkQcIxMxTmlwdgSB05fqtymp0.jpg",
+            "provider_id": 29,
+            "provider_name": "Sky Go",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/g0E9h3JAeIwmdvxlT73jiEuxdNj.jpg",
+            "provider_id": 39,
+            "provider_name": "Now TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/lsxzHToxAjuhTCtJYUrd17dSbDO.jpg",
+            "provider_id": 2680,
+            "provider_name": "Anni Duemila Amazon Channel",
+            "display_priority": 97
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 5
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 5
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=LU",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg",
+            "provider_id": 337,
+            "provider_name": "Disney Plus",
+            "display_priority": 2
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/11447-la-stanza-del-figlio/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          }
+        ]
+      }
+    }
+  }
+}

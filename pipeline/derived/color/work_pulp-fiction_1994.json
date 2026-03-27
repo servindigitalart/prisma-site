@@ -1,0 +1,54 @@
+{
+  "work_id": "work_pulp-fiction_1994",
+  "processed_at": "2026-03-27T04:03:02.404110+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "low",
+    "color_consensus_strength": 0.58,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Warm, slightly desaturated golden lighting in Jack Rabbit Slim's diner",
+      "Similar amber tones in the diner during the opening/closing robbery sequence",
+      "General warm, muted palette in various interior apartment scenes"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_pulp-fiction_1994",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:03:02.398531Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:03:02.398514Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_pulp-fiction_1994",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

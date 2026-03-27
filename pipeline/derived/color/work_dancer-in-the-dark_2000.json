@@ -1,0 +1,55 @@
+{
+  "work_id": "work_dancer-in-the-dark_2000",
+  "processed_at": "2026-03-27T03:40:46.469047+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.78,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The 'I've Seen It All' musical sequence where the train and surrounding landscape are bathed in intense, pure blue light.",
+      "Selma's iconic blue dress and the blue color grading of the 'Cvalda' factory musical number.",
+      "The stark visual contrast between the muted, desaturated reality scenes and the hyper-saturated, vibrant colors of the musical fantasies.",
+      "The use of multiple, fixed digital cameras for the musical numbers, creating a highly artificial and color-rich aesthetic."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_dancer-in-the-dark_2000",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T03:40:46.466502Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T03:40:46.466476Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_dancer-in-the-dark_2000",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

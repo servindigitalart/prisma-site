@@ -1,0 +1,54 @@
+{
+  "work_id": "work_eternity-and-a-day_1998",
+  "processed_at": "2026-03-27T03:48:43.075425+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "titanio_mecanico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The vast, often turbulent, sea depicted in deep blue-grey tones.",
+      "The pervasive cool, blue-ish color grading applied to all outdoor and indoor environments.",
+      "Extensive night and twilight scenes, often foggy or rainy, are saturated with deep, desaturated blue light."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_eternity-and-a-day_1998",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T03:48:43.071660Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T03:48:43.071449Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_eternity-and-a-day_1998",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "titanio_mecanico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

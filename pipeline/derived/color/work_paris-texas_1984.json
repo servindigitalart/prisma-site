@@ -1,0 +1,54 @@
+{
+  "work_id": "work_paris-texas_1984",
+  "processed_at": "2026-03-27T04:22:16.057461+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The vast, sun-drenched, arid desert landscapes in the opening and throughout Travis's journey",
+      "The overall warm, desaturated, dusty color grading that permeates many interior and exterior scenes",
+      "The faded, sun-baked appearance of roadside motels, gas stations, and barren architecture"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_paris-texas_1984",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:22:16.052880Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:22:16.052861Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_paris-texas_1984",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

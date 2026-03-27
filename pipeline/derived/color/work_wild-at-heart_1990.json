@@ -1,0 +1,56 @@
+{
+  "work_id": "work_wild-at-heart_1990",
+  "processed_at": "2026-03-27T04:12:53.165133+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.81,
+    "secondary_colors": [
+      "ambar_desertico",
+      "naranja_apocaliptico"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Lula's constant red lipstick and nails as a signature visual element",
+      "Frequent depiction of blood and intense, passionate exchanges",
+      "The iconic fiery car crash sequence and other fire motifs (e.g., 'Fire Walk With Me')"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_wild-at-heart_1990",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:12:53.160159Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:12:53.160147Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_wild-at-heart_1990",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "naranja_apocaliptico"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

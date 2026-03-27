@@ -354,7 +354,7 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
     awards_searched = True  # We attempted enrichment — it's searched even if 0 results
 
     # Score existence
-    scores_res = db.from_("ranking_scores").select("id").eq("entity_id", work_id).limit(1).execute()
+    scores_res = db.from_("ranking_scores").select("context, score").eq("context", work_id).limit(1).execute()
     scores_updated = bool(scores_res.data)
 
     CHECKS: list[tuple[str, Any, bool]] = [

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_pelle-the-conqueror_1987",
+  "processed_at": "2026-03-27T04:16:03.003108+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "ambar_desertico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The pervasive muted blue-green and slate gray-blue of the sea and sky in numerous outdoor scenes.",
+      "The cool, desaturated color grading that permeates the natural light and landscapes.",
+      "Costume design featuring practical, desaturated blue-gray fabrics in addition to earthy tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_pelle-the-conqueror_1987",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:16:02.998464Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:16:02.998449Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_pelle-the-conqueror_1987",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "ambar_desertico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

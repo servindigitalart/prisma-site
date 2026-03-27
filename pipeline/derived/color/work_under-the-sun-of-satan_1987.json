@@ -1,0 +1,55 @@
+{
+  "work_id": "work_under-the-sun-of-satan_1987",
+  "processed_at": "2026-03-27T04:17:39.275691+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "low",
+    "color_consensus_strength": 0.58,
+    "secondary_colors": [
+      "negro_abismo"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Overcast skies and bleak, damp natural landscapes dominate many exterior scenes.",
+      "Muted, desaturated color grading gives an overall cool, slightly blue-green tint.",
+      "Sparse, naturalistic interior lighting reinforces the muted palette.",
+      "The pervasive visual of G\u00e9rard Depardieu's black clerical robes against pale or grey-green backgrounds."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_under-the-sun-of-satan_1987",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T04:17:39.270468Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T04:17:39.270457Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_under-the-sun-of-satan_1987",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "negro_abismo"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}
