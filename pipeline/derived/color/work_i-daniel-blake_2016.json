@@ -1,0 +1,50 @@
+{
+  "work_id": "work_i-daniel-blake_2016",
+  "processed_at": "2026-03-27T05:54:32.820366+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.77,
+    "secondary_colors": [],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Overcast, often rainy, skies saturating exterior shots with blue-grey hues.",
+      "Muted blue and grey tones in characters' everyday clothing (denim, jackets).",
+      "Clinical and utilitarian production design of benefit offices and public spaces, often featuring desaturated blues and greys."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_i-daniel-blake_2016",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-03-27T05:54:32.818508Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-03-27T05:54:32.818492Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_i-daniel-blake_2016",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}
