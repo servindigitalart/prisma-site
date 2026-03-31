@@ -353,8 +353,8 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
     awards_res = db.from_("work_awards").select("id").eq("work_id", work_id).limit(1).execute()
     awards_searched = True  # We attempted enrichment — it's searched even if 0 results
 
-    # Score existence
-    scores_res = db.from_("ranking_scores").select("context, score").eq("context", work_id).limit(1).execute()
+    # Score existence — filter by entity_id (not context)
+    scores_res = db.from_("ranking_scores").select("entity_id, score").eq("entity_id", work_id).limit(1).execute()
     scores_updated = bool(scores_res.data)
 
     CHECKS: list[tuple[str, Any, bool]] = [
@@ -374,7 +374,7 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
         ("people.director_has_bio",   bool(director_data.get("bio")),                       False),
         ("work_awards.searched",      awards_searched,                                      False),
         ("ranking_scores.updated",    scores_updated,                                       False),
-        ("works.numeric_score",       bool(work and work.get("numeric_score")),             False),
+        ("works.numeric_score",       bool(ca and ca.get("numeric_score")),                 False),
     ]
 
     passed   = 0
@@ -728,9 +728,6 @@ def process_film(
             result["checks_passed"] = passed
             result["checks_total"]  = total
             result["warnings"]      = warnings
-            critical_failed = any(
-                not db_get_work(db, work_id) or not db_get_work(db, work_id).get("title")
-            ) if passed < 10 else False
             icon = "✓" if passed >= 10 else "⚠"
             step(12, "VERIFY", icon, f"{passed}/{total} checks passed")
             result["steps"]["VERIFY"] = "ok" if passed >= 10 else "warning"
@@ -747,6 +744,15 @@ def process_film(
                 result["status"] = "failed"
                 result["error"]  = f"VERIFY: only {passed}/10 critical checks passed"
                 return result
+
+            # Auto-publish if all 15 checks pass
+            if passed >= 15:
+                try:
+                    db.from_("works").update({"is_published": True}).eq("id", work_id).execute()
+                    print(f"    ✓ Auto-published: {work_id} (15/15 checks passed)")
+                    result["auto_published"] = True
+                except Exception as e:
+                    print(f"    ⚠ Auto-publish failed: {e}")
         except Exception as e:
             step(12, "VERIFY", "⚠", f"verification error: {e}")
             result["steps"]["VERIFY"] = "warning"
