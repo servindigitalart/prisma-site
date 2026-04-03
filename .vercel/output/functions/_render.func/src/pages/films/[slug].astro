@@ -6,6 +6,7 @@ import FilmDimensionTags from '../../components/film/FilmDimensionTags.astro';
 import FilmSynopsis from '../../components/film/FilmSynopsis.astro';
 import FilmPeople from '../../components/film/FilmPeople.astro';
 import FilmMetaAccordion from '../../components/film/FilmMetaAccordion.astro';
+import FilmBackdrops from '../../components/film/FilmBackdrops.astro';
 import FilmAwards from '../../components/film/FilmAwards.astro';
 import FilmRankBadge from '../../components/film/FilmRankBadge.astro';
 import FilmActions from '../../components/film/FilmActions.astro';
@@ -258,6 +259,7 @@ if (isSupabaseConfigured()) {
     <FilmColorBlock work={work} />
     <FilmDimensionTags work={work} />
     <FilmSynopsis work={work} />
+    <FilmBackdrops work={work} />
     <FilmPeople work={work} castAwardHighlights={castAwardHighlights} />
     <FilmReviews reviews={filmReviews} />
     <FilmAwards work={work} />

@@ -52,6 +52,7 @@ const user = Astro.locals.user;
     <meta name="generator" content={Astro.generator} />
     
     <!-- Supabase config for client-side auth -->
+    <meta name="supabase-url"      content={import.meta.env.PUBLIC_SUPABASE_URL} />
     <meta name="supabase-anon-key" content={import.meta.env.PUBLIC_SUPABASE_ANON_KEY} />
 
     <title>{title}</title>
@@ -82,6 +83,7 @@ const user = Astro.locals.user;
     <link rel="sitemap" href="/sitemap.xml" />
 
     <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/brand/isotipo.png" sizes="32x32" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Fonts: DM Serif Display + Inter -->
@@ -96,45 +98,62 @@ const user = Astro.locals.user;
   <body class={bodyClass}>
     <!-- Site navigation -->
     <nav class="site-nav">
-      <a href="/" class="site-nav-logo">P<span>R</span>ISMA</a>
+      <a href="/" class="site-nav-logo" aria-label="PRISMA — inicio">
+        <span class="site-nav-logo-text">PRISMA</span>
+      </a>
       <ul class="site-nav-links">
         <li><a href="/rankings/films">Rankings</a></li>
         <li><a href="/colors">Colores</a></li>
-        <li class="site-nav-dropdown">
-          <span class="site-nav-trigger">Explorar</span>
+        <li class="site-nav-dropdown" id="nav-explorar">
+          <a href="/explorar" class="site-nav-trigger">Explorar</a>
           <div class="site-nav-dropdown-menu">
-            <div class="site-nav-dropdown-group">
-              <p class="site-nav-dropdown-label">Ritmo Visual</p>
-              <a href="/ritmo/dinamico-frenetico">Frenético</a>
-              <a href="/ritmo/dinamico-energico">Energético</a>
-              <a href="/ritmo/moderado-balanceado">Balanceado</a>
-              <a href="/ritmo/lento-contemplativo">Contemplativo</a>
-              <a href="/ritmo/estatico-ritualistico">Ritualístico</a>
+            <div class="site-nav-dropdown-menu-inner">
+              <div class="site-nav-dropdown-group">
+                <p class="site-nav-dropdown-label">Ritmo Visual</p>
+                <a href="/ritmo/dinamico-frenetico">Frenético</a>
+                <a href="/ritmo/dinamico-energico">Cinético</a>
+                <a href="/ritmo/moderado-balanceado">Narrativo</a>
+                <a href="/ritmo/lento-contemplativo">Contemplativo</a>
+                <a href="/ritmo/estatico-ritualistico">Ritual</a>
+              </div>
+              <div class="site-nav-dropdown-group">
+                <p class="site-nav-dropdown-label">Temperatura</p>
+                <a href="/temperatura/calido-apasionado">Ardiente</a>
+                <a href="/temperatura/calido-nostalgico">Nostálgico</a>
+                <a href="/temperatura/neutral-contemplativo">Ecuánime</a>
+                <a href="/temperatura/frio-melancolico">Melancólico</a>
+                <a href="/temperatura/frio-perturbador">Perturbador</a>
+                <a href="/temperatura/frio-alienado">Alienante</a>
+              </div>
+              <div class="site-nav-dropdown-group">
+                <p class="site-nav-dropdown-label">Abstracción</p>
+                <a href="/abstraccion/extremadamente-realista">Documental</a>
+                <a href="/abstraccion/realista-con-estilizacion">Realista</a>
+                <a href="/abstraccion/estilizado">Estilizado</a>
+                <a href="/abstraccion/muy-estilizado">Expresionista</a>
+                <a href="/abstraccion/extremadamente-abstracto">Surrealista</a>
+              </div>
             </div>
-            <div class="site-nav-dropdown-group">
-              <p class="site-nav-dropdown-label">Temperatura</p>
-              <a href="/temperatura/calido-apasionado">Apasionado</a>
-              <a href="/temperatura/calido-nostalgico">Nostálgico</a>
-              <a href="/temperatura/neutral-contemplativo">Contemplativo</a>
-              <a href="/temperatura/frio-melancolico">Melancólico</a>
-              <a href="/temperatura/frio-perturbador">Perturbador</a>
-            </div>
-            <div class="site-nav-dropdown-group">
-              <p class="site-nav-dropdown-label">Abstracción</p>
-              <a href="/abstraccion/extremadamente-realista">Realista</a>
-              <a href="/abstraccion/realista-con-estilizacion">Estilizado</a>
-              <a href="/abstraccion/estilizado">Expresivo</a>
-              <a href="/abstraccion/muy-estilizado">Muy Estilizado</a>
-              <a href="/abstraccion/extremadamente-abstracto">Abstracto</a>
-            </div>
-            <div class="site-nav-dropdown-group">
-              <p class="site-nav-dropdown-label">Décadas</p>
-              <a href="/decades/1920s">1920s</a>
-              <a href="/decades/1940s">1940s</a>
-              <a href="/decades/1960s">1960s</a>
-              <a href="/decades/1980s">1980s</a>
-              <a href="/decades/2000s">2000s</a>
-              <a href="/decades/2020s">2020s</a>
+          </div>
+        </li>
+        <li class="site-nav-dropdown" id="nav-decades">
+          <a href="/decades" class="site-nav-trigger">Décadas</a>
+          <div class="site-nav-dropdown-menu">
+            <div class="site-nav-dropdown-menu-inner site-nav-dropdown-menu-inner--decades">
+              <a href="/decades" class="decades-all">Todas las décadas →</a>
+              <div class="decades-grid">
+                <a href="/decades/1920s">1920s</a>
+                <a href="/decades/1930s">1930s</a>
+                <a href="/decades/1940s">1940s</a>
+                <a href="/decades/1950s">1950s</a>
+                <a href="/decades/1960s">1960s</a>
+                <a href="/decades/1970s">1970s</a>
+                <a href="/decades/1980s">1980s</a>
+                <a href="/decades/1990s">1990s</a>
+                <a href="/decades/2000s">2000s</a>
+                <a href="/decades/2010s">2010s</a>
+                <a href="/decades/2020s">2020s</a>
+              </div>
             </div>
           </div>
         </li>
@@ -178,6 +197,56 @@ const user = Astro.locals.user;
     <!-- Page content -->
     <slot />
     
+    <!-- Design system: nav scroll state + scroll-reveal animations -->
+    <script>
+      // Nav scroll: add .scrolled class when page is scrolled past 40px
+      const nav = document.querySelector('.site-nav');
+      if (nav) {
+        const updateNav = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+        window.addEventListener('scroll', updateNav, { passive: true });
+        updateNav();
+      }
+
+      // Dropdown: JS-driven hover with bridge gap to prevent flicker
+      function initDropdown(id: string) {
+        const dropdown = document.getElementById(id);
+        if (!dropdown) return;
+        let closeTimer: ReturnType<typeof setTimeout> | null = null;
+        dropdown.addEventListener('mouseenter', () => {
+          if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+          dropdown.classList.add('is-open');
+        });
+        dropdown.addEventListener('mouseleave', () => {
+          closeTimer = setTimeout(() => {
+            dropdown.classList.remove('is-open');
+          }, 120);
+        });
+      }
+      initDropdown('nav-explorar');
+      initDropdown('nav-decades');
+
+      // Scroll reveal: activate .reveal elements via IntersectionObserver
+      if (typeof IntersectionObserver !== 'undefined') {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const el = entry.target as HTMLElement;
+              const delay = el.dataset.delay;
+              if (delay) el.style.setProperty('--reveal-delay', `${delay}ms`);
+              el.classList.add('is-visible');
+              observer.unobserve(el);
+            });
+          },
+          { rootMargin: '0px 0px -60px 0px', threshold: 0.08 }
+        );
+        document.querySelectorAll<HTMLElement>('.reveal').forEach((el) => observer.observe(el));
+      } else {
+        // Fallback: show everything
+        document.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible'));
+      }
+    </script>
+
     <!-- Client-side handlers -->
     <script is:inline>
       console.log('[BaseLayout] Client script loaded');
@@ -280,5 +349,54 @@ const user = Astro.locals.user;
 .nav-submit:hover {
   color: var(--text-primary) !important;
   border-color: rgba(212, 201, 168, 0.4);
+}
+
+/* ── Decades dropdown layout ── */
+.site-nav-dropdown-menu-inner--decades {
+  grid-template-columns: 1fr !important;
+  min-width: 260px !important;
+  gap: 0.75rem !important;
+}
+
+.decades-all {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-accent) !important;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  transition: color 120ms ease;
+}
+.decades-all:hover { color: var(--text-primary) !important; }
+
+.decades-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+}
+
+.decades-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem !important;
+  font-weight: 500;
+  color: var(--text-secondary) !important;
+  padding: 0.4rem 0.25rem !important;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
+  transition: all var(--dur-fast);
+  text-align: center;
+}
+.decades-grid a:hover {
+  color: var(--text-primary) !important;
+  background: rgba(255,255,255,0.06);
+}
+
+/* Make site-nav-trigger work as a link */
+a.site-nav-trigger {
+  text-decoration: none;
 }
 </style>

@@ -1,0 +1,377 @@
+{
+  "url": "https://www.lecinemaclub.com/",
+  "site_name": "Le Cin\u00e9ma Club",
+  "design_style": {
+    "primary_style": "Editorial design with a minimalist approach.",
+    "secondary_style": "Influenced by magazine layouts with a focus on typography.",
+    "visual_density": "sparse",
+    "whitespace_usage": "generous",
+    "typography_prominence": "subtle",
+    "color_contrast": "high-contrast",
+    "layout_complexity": "moderate",
+    "mood": "Intellectual, sophisticated, and slightly mysterious.",
+    "design_era": "2024 contemporary editorial."
+  },
+  "animation_strategy": {
+    "overall_approach": "Likely minimal or non-existent based on the screenshot, emphasizing static content presentation.",
+    "detected_techniques": [
+      "css-keyframe-animations",
+      "3d-webgl",
+      "marquee-ticker"
+    ],
+    "detected_libraries": [],
+    "scroll_behavior": "standard",
+    "entrance_animations": [
+      "none-detected"
+    ],
+    "hover_interactions": [
+      "shadow-elevation",
+      "transform-transition"
+    ],
+    "transition_style": "balanced",
+    "motion_intensity": "dramatic"
+  },
+  "imagery_strategy": {
+    "primary_approach": "Focused on high-quality, potentially stills from films, used to illustrate and complement the text.",
+    "image_types": [
+      "hero-photography",
+      "svg-icons",
+      "video-content"
+    ],
+    "hero_imagery": "gradient-background",
+    "background_treatment": "video-background",
+    "icon_style": "inline-svg-icons",
+    "media_density": "balanced",
+    "visual_effects": [
+      "gradient-backgrounds",
+      "clip-path-masking"
+    ]
+  },
+  "layout_rhythm": {
+    "hero_type": "video-hero",
+    "section_sequence": [
+      "hero",
+      "content",
+      "footer",
+      "video-section"
+    ],
+    "spacing_rhythm": "dramatic-variation",
+    "content_width_pattern": "full-width-sections",
+    "section_count": 5,
+    "vertical_rhythm": "generous-breathing",
+    "page_flow_narrative": "Starts with the film title and director, then transitions to watch and share call to actions, followed by textual description with images, and ends with credits and social media links."
+  },
+  "premium_signals": {
+    "detected_patterns": [
+      "alternating-section-backgrounds",
+      "full-width-sections",
+      "gradient-design",
+      "clip-path-shapes",
+      "generous-whitespace",
+      "dark-theme",
+      "Editorial-serif-headings",
+      "Generous-whitespace",
+      "High-contrast-typography",
+      "Minimalist-design",
+      "Black-and-white-color-scheme"
+    ],
+    "navigation_pattern": "standard",
+    "typography_pattern": "standard",
+    "card_patterns": [
+      "rounded-cards"
+    ],
+    "cta_style": "standard",
+    "footer_style": "minimal-social",
+    "special_effects": [
+      "clip-path-shapes"
+    ],
+    "premium_score": 56
+  },
+  "executive_summary": "This website design adopts a minimalist editorial approach, focusing on high-contrast typography and generous whitespace to create a sophisticated and intellectual mood. The use of film stills as imagery and a strict black and white color scheme enhance the narrative. The layout mimics a magazine page, providing a clear and structured reading experience. Designers should study the balance between text and imagery, as well as the effective use of typography to guide the user's eye.",
+  "inspiration_takeaways": [
+    "Prioritize high-contrast typography for readability and impact.",
+    "Use generous whitespace to create a sense of sophistication and allow content to breathe.",
+    "Employ a minimalist color scheme to keep focus on the content.",
+    "Select imagery that directly relates to the subject matter and enhances the narrative.",
+    "Structure content in a clear, magazine-like fashion with distinct sections."
+  ],
+  "replication_notes": "To replicate this aesthetic, begin with a black and white color palette. Use a serif typeface for headings (e.g., Playfair Display, Lora) and a clean sans-serif for body text (e.g., Inter, Roboto). Maintain generous whitespace around all elements, with large padding values (80-120px) for sections. The layout should follow a clear editorial structure, mimicking a magazine page. Ensure high contrast for optimal readability. Use high-quality imagery relevant to the content. Emphasize typography as a primary design element.",
+  "section_screenshots": [
+    {
+      "name": "hero.png",
+      "type": "hero",
+      "index": 0,
+      "width": 1440,
+      "height": 3131
+    }
+  ],
+  "animation_timeline": {
+    "pattern": "simultaneous",
+    "total_animated_elements": 18,
+    "elements_with_delay": 7,
+    "timing_groups": [
+      {
+        "delay_ms": 0.0,
+        "count": 11,
+        "elements": [
+          "div#watch",
+          "div#share",
+          "div#player_top",
+          "div#plyr.plyr.plyr--full-ui",
+          "button#plyr__play_pause.plyr__control",
+          "div.plyr__controls",
+          "button.plyr__control",
+          "input"
+        ]
+      },
+      {
+        "delay_ms": 100.0,
+        "count": 7,
+        "elements": [
+          "span.label--pressed.plyr__tooltip",
+          "span.label--not-pressed.plyr__tooltip",
+          "span.label--pressed.plyr__tooltip",
+          "span.label--not-pressed.plyr__tooltip",
+          "span.plyr__tooltip",
+          "span.label--pressed.plyr__tooltip",
+          "span.label--not-pressed.plyr__tooltip"
+        ]
+      }
+    ],
+    "stagger_sequences": [],
+    "min_delay_ms": 100.0,
+    "max_delay_ms": 100.0,
+    "avg_delay_ms": 100.0
+  },
+  "navigation_style": {
+    "style": "transparent-static",
+    "behavior": "static",
+    "is_fixed": false,
+    "is_transparent": true,
+    "has_backdrop_blur": false,
+    "has_shadow": false,
+    "has_logo": false,
+    "link_count": 2,
+    "height_px": 27,
+    "background_color": "rgba(0, 0, 0, 0)",
+    "backdrop_filter": "",
+    "box_shadow": "",
+    "z_index": "auto"
+  },
+  "visual_density": {
+    "density_score": 28,
+    "density_label": "moderate-sparse",
+    "whitespace_ratio": 0.74,
+    "elements_per_viewport": 1.8,
+    "avg_section_height_px": 1918.0,
+    "content_width_pct": 99.0,
+    "section_count": 5,
+    "total_page_height_px": 9591.0
+  },
+  "design_notes_md": "# \ud83c\udfa8 Design Notes \u2014 Le Cin\u00e9ma Club\n\n> **URL:** https://www.lecinemaclub.com/  \n> **Style:** Editorial design with a minimalist approach.  \n> **Premium Score:** 56/100 (\ud83d\udc4d Above Average)\n\n## Quick Profile\n\n| Trait | Value |\n|---|---|\n| Mood | Intellectual, sophisticated, and slightly mysterious. |\n| Era | 2024 contemporary editorial. |\n| Contrast | high-contrast |\n| Whitespace | generous |\n| Complexity | moderate |\n| Density | moderate-sparse (28/100) |\n| Whitespace Ratio | 0.74 |\n\n## Typography & Colour\n\n- **Typography prominence:** subtle\n- **Typography pattern:** standard\n- **Colour contrast:** high-contrast\n- \ud83c\udf11 **Dark theme** detected\n- \ud83c\udf08 **Gradient accents** used\n\n## Layout & Rhythm\n\n- **Hero type:** video-hero\n- **Section count:** 5\n- **Spacing rhythm:** dramatic-variation\n- **Content width:** full-width-sections\n- **Vertical rhythm:** generous-breathing\n\n**Section flow:** `hero \u2192 content \u2192 footer \u2192 video-section`\n\n> Starts with the film title and director, then transitions to watch and share call to actions, followed by textual description with images, and ends with credits and social media links.\n\n### Captured Sections\n\n- `hero.png` \u2014 *hero* (1440\u00d73131)\n\n## Navigation\n\n- **Pattern (basic):** standard\n- **Style:** transparent-static\n- **Behaviour:** static\n- **Fixed:** no\n- **Backdrop blur:** no\n- **Shadow:** no\n- **Links:** 2\n- **Logo:** no\n\n## Animation & Motion\n\n- **Approach:** Likely minimal or non-existent based on the screenshot, emphasizing static content presentation.\n- **Intensity:** dramatic\n- **Transition style:** balanced\n- **Techniques:** css-keyframe-animations, 3d-webgl, marquee-ticker\n\n### Timing Pattern: **simultaneous**\n\n- Animated elements: 18\n- Elements with delay: 7\n\n## \ud83d\udcdc Scroll Behavior\n\n- **Frames captured:** 16\n- **Page height:** 3,315px\n- **Viewport height:** 900px\n- **Scroll GIF size:** 883.2 KB\n- **Preview:** `motion/scroll/page-scroll-preview.gif`\n\n### High-Animation Zones\n\n- `section` (0px \u2013 3131px)\n- `header` (3131px \u2013 3205px)\n- `main` (3240px \u2013 6460px)\n- `article` (6460px \u2013 9591px)\n\n## \ud83c\udfac Motion Capture\n\n- **Animation groups detected:** 1\n- **Techniques:** fade\n- **Types:** keyframe\n\n### Animation Groups\n\n- \u25cf **keyframe-fade** \u2014 keyframe / `fade` (trigger: page-load)\n  - Selectors: `div`\n\n## \ud83d\uddb1 Interaction Capture\n\n- **Interactive elements detected:** 1\n- **Element types:** nav-link\n- **Interaction types:** hover\n\n### Targets\n\n- \u25cf **nav-link-hover** \u2014 Navigation link hover (2 links) (hover)\n\n## Imagery\n\n- **Primary approach:** Focused on high-quality, potentially stills from films, used to illustrate and complement the text.\n- **Hero:** gradient-background\n- **Background:** video-background\n- **Icons:** inline-svg-icons\n- **Density:** balanced\n- **Effects:** gradient-backgrounds, clip-path-masking\n\n## \ud83d\uddbc Media Intelligence\n\n- **Hero media:** text-only\n- **Media density:** balanced-rich\n- **Images detected:** 2\n- **Videos detected:** 2\n- **SVGs detected:** 7\n- **Icon system:** inline-svg\n\n### Image Roles\n\n- `content`: 2\n\n### Video Usage\n\n- **section-background-video** (autoplay, loop, muted)\n- **embed** \u2014 vimeo embed\n\n## Premium Patterns\n\n- alternating-section-backgrounds\n- full-width-sections\n- gradient-design\n- clip-path-shapes\n- generous-whitespace\n- dark-theme\n- Editorial-serif-headings\n- Generous-whitespace\n- High-contrast-typography\n- Minimalist-design\n- Black-and-white-color-scheme\n\n**Card styles:** rounded-cards\n**Special effects:** clip-path-shapes\n\n**CTA style:** standard\n**Footer style:** minimal-social\n\n## Key Takeaways\n\n1. Prioritize high-contrast typography for readability and impact.\n2. Use generous whitespace to create a sense of sophistication and allow content to breathe.\n3. Employ a minimalist color scheme to keep focus on the content.\n4. Select imagery that directly relates to the subject matter and enhances the narrative.\n5. Structure content in a clear, magazine-like fashion with distinct sections.\n\n---\n\n*Generated by UX Analyzer \u2014 Design Intelligence Engine*",
+  "media_report": {
+    "images": [
+      {
+        "role": "content",
+        "src": "https://www.lecinemaclub.com/wp-content/uploads/2026/03/HQ26-DM18786V_Diego_Marcon_La_Gola__2023_Still_3_canonical-1200x902.jpeg",
+        "parent_section": "article",
+        "alt": "",
+        "natural_width": 1200,
+        "natural_height": 902,
+        "rendered_width": 506,
+        "rendered_height": 380,
+        "aspect_ratio": "4:3",
+        "object_fit": "fill",
+        "is_background_image": false,
+        "loading": "auto",
+        "autoplay": null,
+        "loop": null,
+        "muted": null,
+        "poster": null,
+        "width": null,
+        "height": null,
+        "embed_platform": null,
+        "embed_id": null,
+        "embed_url": null
+      },
+      {
+        "role": "content",
+        "src": "https://www.lecinemaclub.com/wp-content/uploads/2026/03/HQ26-DM18786V_Diego_Marcon_La_Gola__2023_Still_2_canonical-1200x902.jpeg",
+        "parent_section": "article",
+        "alt": "",
+        "natural_width": 1200,
+        "natural_height": 902,
+        "rendered_width": 506,
+        "rendered_height": 380,
+        "aspect_ratio": "4:3",
+        "object_fit": "fill",
+        "is_background_image": false,
+        "loading": "auto",
+        "autoplay": null,
+        "loop": null,
+        "muted": null,
+        "poster": null,
+        "width": null,
+        "height": null,
+        "embed_platform": null,
+        "embed_id": null,
+        "embed_url": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "section-background-video",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/1176684183/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&signature=5c11f952d16a0ecfd32be4b2b9fa739969dd9436a0e891154702fe84f4f2206f",
+        "parent_section": "article",
+        "alt": null,
+        "natural_width": null,
+        "natural_height": null,
+        "rendered_width": null,
+        "rendered_height": null,
+        "aspect_ratio": null,
+        "object_fit": null,
+        "is_background_image": false,
+        "loading": null,
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "poster": "",
+        "width": 1290,
+        "height": 645,
+        "embed_platform": "",
+        "embed_id": "",
+        "embed_url": ""
+      },
+      {
+        "role": "embed",
+        "src": "",
+        "parent_section": "body",
+        "alt": null,
+        "natural_width": null,
+        "natural_height": null,
+        "rendered_width": null,
+        "rendered_height": null,
+        "aspect_ratio": null,
+        "object_fit": null,
+        "is_background_image": false,
+        "loading": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "poster": "",
+        "width": 0,
+        "height": 0,
+        "embed_platform": "vimeo",
+        "embed_id": "1176295822",
+        "embed_url": "https://player.vimeo.com/video/1176295822?loop=false&autoplay=false&muted=false&gesture=media&playsinline=false&byline=false&portrait=false&title=false&speed=true&transparent=false"
+      }
+    ],
+    "svg_summary": {
+      "total_svgs": 7,
+      "icon_system": "inline-svg",
+      "detected_library": "unknown"
+    },
+    "hero_media_type": "text-only",
+    "total_images": 2,
+    "total_videos": 2,
+    "total_svgs": 7,
+    "media_density_label": "balanced-rich"
+  },
+  "scroll_capture": {
+    "frame_count": 16,
+    "page_height_px": 3315,
+    "viewport_height_px": 900,
+    "has_pinned_sections": false,
+    "pinned_sections": [],
+    "high_animation_zones": [
+      {
+        "section": "section",
+        "y_start": 0,
+        "y_end": 3131
+      },
+      {
+        "section": "header",
+        "y_start": 3131,
+        "y_end": 3205
+      },
+      {
+        "section": "main",
+        "y_start": 3240,
+        "y_end": 6460
+      },
+      {
+        "section": "article",
+        "y_start": 6460,
+        "y_end": 9591
+      }
+    ],
+    "capture_time_ms": 14159,
+    "gif_size_bytes": 904404
+  },
+  "motion_capture": {
+    "animation_groups": [
+      {
+        "id": "keyframe-fade",
+        "type": "keyframe",
+        "technique": "fade",
+        "trigger": "page-load",
+        "selectors": [
+          "div"
+        ],
+        "section_index": 0,
+        "priority": 2
+      }
+    ],
+    "recorded_gifs": [
+      {
+        "group_id": "keyframe-fade",
+        "gif_size_bytes": 0,
+        "frame_count": 15
+      }
+    ],
+    "total_gifs": 0,
+    "total_frames": 15,
+    "total_gif_bytes": 0,
+    "techniques_detected": [
+      "fade"
+    ],
+    "animation_types": [
+      "keyframe"
+    ],
+    "capture_time_ms": 6080
+  },
+  "interaction_capture": {
+    "targets": [
+      {
+        "id": "nav-link-hover",
+        "type": "nav-link",
+        "selector": "nav a",
+        "interactions": [
+          "hover"
+        ],
+        "section_index": 0,
+        "priority": 2,
+        "description": "Navigation link hover (2 links)"
+      }
+    ],
+    "recorded_gifs": [
+      {
+        "target_id": "nav-link-hover",
+        "interaction": "hover",
+        "gif_size_bytes": 0,
+        "frame_count": 10
+      }
+    ],
+    "total_gifs": 0,
+    "total_frames": 10,
+    "total_gif_bytes": 0,
+    "element_types": [
+      "nav-link"
+    ],
+    "interaction_types": [
+      "hover"
+    ],
+    "capture_time_ms": 35042
+  },
+  "animation_stack": null
+}

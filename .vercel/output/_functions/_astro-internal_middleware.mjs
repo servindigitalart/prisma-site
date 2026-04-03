@@ -7,13 +7,18 @@ import './chunks/astro/server_DZETslqp.mjs';
 import 'clsx';
 
 const onRequest$1 = defineMiddleware(async (context, next) => {
+  if (context.isPrerendered) {
+    context.locals.user = null;
+    return next();
+  }
   const supabase = createServerClient(
     "https://porqyokkphflvqfclvkj.supabase.co",
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBvcnF5b2trcGhmbHZxZmNsdmtqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwNDE2MzEsImV4cCI6MjA4NzYxNzYzMX0.q_fDlajLrMQ1Cbg7o_gwDGPhX8Mt7BwhgXapMkY9jN4",
     {
       cookies: {
         getAll() {
-          const cookies = parseCookieHeader(context.request.headers.get("Cookie") ?? "");
+          const raw = context.request.headers.get("Cookie") ?? "";
+          const cookies = parseCookieHeader(raw);
           return cookies.map((cookie) => ({
             name: cookie.name,
             value: cookie.value ?? ""

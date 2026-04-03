@@ -1,12 +1,12 @@
 /* empty css                                     */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, al as renderSlot, h as addAttribute, o as Fragment } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_BW8MRUf7.mjs';
 /* empty css                                     */
 import { g as getPaletteEntry, i as isLightColor } from '../../chunks/colorPalette_MBD9-pHi.mjs';
 import 'clsx';
 import { g as getColorProfile } from '../../chunks/colors_QF5cQfB_.mjs';
-import { R as RHYTHM_LABELS, r as rhythmSlug, T as TEMPERATURE_LABELS, t as temperatureSlug, A as ABSTRACTION_LABELS, b as abstractionSlug } from '../../chunks/filmDimensions_C2QdeXZj.mjs';
+import { R as RHYTHM_LABELS, r as rhythmSlug, T as TEMPERATURE_LABELS, t as temperatureSlug, A as ABSTRACTION_LABELS, d as abstractionSlug } from '../../chunks/filmDimensions_C2f_ccB7.mjs';
 import { i as isoToName, a as isoToFlag, c as countryToSlug } from '../../chunks/countries_xwzpexnz.mjs';
 import { g as getFestivalLogoUrl, i as isFestivalLogoLocal, a as getFestivalMonogram } from '../../chunks/festivalUtils_CMVWB9Ye.mjs';
 import { a as getBunnyEmbedUrlSigned } from '../../chunks/bunny_oG5cOVSx.mjs';
@@ -14,19 +14,40 @@ import { a as loadWorkBySlugAsync } from '../../chunks/loadWork_B0uYB5uV.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
 export { renderers } from '../../renderers.mjs';
 
-const $$Astro$c = createAstro("https://prisma.film");
+const $$Astro$d = createAstro("https://prisma.film");
 const $$FilmLayout = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$c, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$d, $$props, $$slots);
   Astro2.self = $$FilmLayout;
   const { title, description, ogImage, ogType, jsonLd, jsonLdExtra, breadcrumbs } = Astro2.props;
   return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "title": title, "description": description, "ogImage": ogImage, "ogType": ogType, "jsonLd": jsonLd, "jsonLdExtra": jsonLdExtra, "breadcrumbs": breadcrumbs, "data-astro-cid-h3sban4e": true }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="film-page page-enter" data-astro-cid-h3sban4e> ${renderSlot($$result2, $$slots["default"])} </div> ` })} `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/layouts/FilmLayout.astro", void 0);
 
-const $$Astro$b = createAstro("https://prisma.film");
-const $$FilmHero = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$b, $$props, $$slots);
+const $$Astro$c = createAstro("https://prisma.film");
+const $$FilmHero = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$c, $$props, $$slots);
   Astro2.self = $$FilmHero;
   const { work } = Astro2.props;
+  const tmdbId = "tmdb_id" in work && work.tmdb_id ? work.tmdb_id : null;
+  const TMDB_API_KEY = "2ffbaff6288d7216beeca2bbea207176";
+  const TMDB_BACKDROP = "https://image.tmdb.org/t/p/w1280";
+  const TMDB_THUMB = "https://image.tmdb.org/t/p/w780";
+  let backdrops = [];
+  if (tmdbId && TMDB_API_KEY) {
+    try {
+      const res = await fetch(
+        `https://api.themoviedb.org/3/movie/${tmdbId}/images?api_key=${TMDB_API_KEY}&include_image_language=null,en`
+      );
+      if (res.ok) {
+        const json = await res.json();
+        backdrops = (json.backdrops ?? []).sort((a, b) => b.vote_average - a.vote_average).slice(0, 6).map((b) => ({
+          src: `${TMDB_BACKDROP}${b.file_path}`,
+          thumb: `${TMDB_THUMB}${b.file_path}`,
+          alt: work.title
+        }));
+      }
+    } catch {
+    }
+  }
   const colorId = "color_assignments" in work && work.color_assignments?.color_iconico ? work.color_assignments.color_iconico : "prisma_palette" in work && work.prisma_palette?.primary ? work.prisma_palette.primary : "azul_nocturno";
   const palette = getPaletteEntry(colorId);
   const hex = palette?.hex ?? "#1B2A41";
@@ -56,12 +77,12 @@ const $$FilmHero = createComponent(($$result, $$props, $$slots) => {
   } else if ("media" in work && work.media?.poster_path) {
     posterUrl = `${TMDB_BASE}${work.media.poster_path}`;
   }
-  return renderTemplate`${maybeRenderHead()}<section class="film-hero"${addAttribute(`--hero-color: ${hex}; --hero-text: ${heroTextColor}; --hero-sub: ${heroSubColor};`, "style")} data-astro-cid-wg6y7s32> <div class="film-hero__wash" data-astro-cid-wg6y7s32></div> <div class="film-hero__inner site-container" data-astro-cid-wg6y7s32> ${posterUrl && renderTemplate`<div class="film-hero__poster" data-astro-cid-wg6y7s32> <img${addAttribute(posterUrl, "src")}${addAttribute(`${work.title} poster`, "alt")} loading="eager" data-astro-cid-wg6y7s32> </div>`} <div class="film-hero__content" data-astro-cid-wg6y7s32> ${colorName && renderTemplate`<div class="film-hero__color-chip" data-astro-cid-wg6y7s32> <span class="film-hero__color-dot"${addAttribute(`background:${hex}`, "style")} data-astro-cid-wg6y7s32></span> <a${addAttribute(`/colors/${colorId}`, "href")} class="film-hero__color-label" data-astro-cid-wg6y7s32>${colorName}</a> </div>`} <h1 class="film-hero__title" data-astro-cid-wg6y7s32>${work.title}</h1> <div class="film-hero__meta" data-astro-cid-wg6y7s32> ${directorName && (directorSlug ? renderTemplate`<a${addAttribute(`/people/${directorSlug}`, "href")} class="film-hero__director film-hero__director--link" data-astro-cid-wg6y7s32>${directorName}</a>` : renderTemplate`<span class="film-hero__director" data-astro-cid-wg6y7s32>${directorName}</span>`)} ${directorName && work.year && renderTemplate`<span class="film-hero__sep" data-astro-cid-wg6y7s32>·</span>`} ${work.year && renderTemplate`<span class="film-hero__year" data-astro-cid-wg6y7s32>${work.year}</span>`} ${"duration_min" in work && work.duration_min && renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "data-astro-cid-wg6y7s32": true }, { "default": ($$result2) => renderTemplate` <span class="film-hero__sep" data-astro-cid-wg6y7s32>·</span> <span class="film-hero__runtime" data-astro-cid-wg6y7s32>${work.duration_min} min</span> ` })}`} ${decade && renderTemplate`<a${addAttribute(`/decades/${decade}`, "href")} class="film-hero__decade-badge" data-astro-cid-wg6y7s32>${decade}</a>`} </div> </div> </div> </section> `;
+  return renderTemplate`${maybeRenderHead()}<section class="film-hero"${addAttribute(`--hero-color: ${hex}; --hero-text: ${heroTextColor}; --hero-sub: ${heroSubColor};`, "style")} data-astro-cid-wg6y7s32> <div class="film-hero__wash" data-astro-cid-wg6y7s32></div>  ${backdrops.length > 0 && renderTemplate`<div class="film-hero__backdrop-mosaic" aria-hidden="true" data-astro-cid-wg6y7s32> ${backdrops.slice(0, 4).map((b) => renderTemplate`<img${addAttribute(b.thumb, "src")} alt="" loading="eager" decoding="async" data-astro-cid-wg6y7s32>`)} </div>`} <div class="film-hero__inner site-container" data-astro-cid-wg6y7s32> ${posterUrl && renderTemplate`<div class="film-hero__poster" data-astro-cid-wg6y7s32> <img${addAttribute(posterUrl, "src")}${addAttribute(`${work.title} poster`, "alt")} loading="eager" data-astro-cid-wg6y7s32> </div>`} <div class="film-hero__content" data-astro-cid-wg6y7s32> ${colorName && renderTemplate`<div class="film-hero__color-chip" data-astro-cid-wg6y7s32> <span class="film-hero__color-dot"${addAttribute(`background:${hex}`, "style")} data-astro-cid-wg6y7s32></span> <a${addAttribute(`/colors/${colorId}`, "href")} class="film-hero__color-label" data-astro-cid-wg6y7s32>${colorName}</a> </div>`} <h1 class="film-hero__title" data-astro-cid-wg6y7s32>${work.title}</h1> <div class="film-hero__meta" data-astro-cid-wg6y7s32> ${directorName && (directorSlug ? renderTemplate`<a${addAttribute(`/people/${directorSlug}`, "href")} class="film-hero__director film-hero__director--link" data-astro-cid-wg6y7s32>${directorName}</a>` : renderTemplate`<span class="film-hero__director" data-astro-cid-wg6y7s32>${directorName}</span>`)} ${directorName && work.year && renderTemplate`<span class="film-hero__sep" data-astro-cid-wg6y7s32>·</span>`} ${work.year && renderTemplate`<span class="film-hero__year" data-astro-cid-wg6y7s32>${work.year}</span>`} ${"duration_min" in work && work.duration_min && renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "data-astro-cid-wg6y7s32": true }, { "default": async ($$result2) => renderTemplate` <span class="film-hero__sep" data-astro-cid-wg6y7s32>·</span> <span class="film-hero__runtime" data-astro-cid-wg6y7s32>${work.duration_min} min</span> ` })}`} ${decade && renderTemplate`<a${addAttribute(`/decades/${decade}`, "href")} class="film-hero__decade-badge" data-astro-cid-wg6y7s32>${decade}</a>`} </div> </div> </div> </section> `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmHero.astro", void 0);
 
-const $$Astro$a = createAstro("https://prisma.film");
+const $$Astro$b = createAstro("https://prisma.film");
 const $$FilmColorBlock = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$b, $$props, $$slots);
   Astro2.self = $$FilmColorBlock;
   const { work } = Astro2.props;
   const colorId = "color_assignments" in work && work.color_assignments?.color_iconico ? work.color_assignments.color_iconico : "prisma_palette" in work && work.prisma_palette?.primary ? work.prisma_palette.primary : "azul_nocturno";
@@ -76,9 +97,9 @@ const $$FilmColorBlock = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<section class="film-color-block" data-astro-cid-2n3uilas> <div class="site-container" data-astro-cid-2n3uilas> <div class="film-color-block__layout" data-astro-cid-2n3uilas> <div class="film-color-block__swatch-col" data-astro-cid-2n3uilas> <div class="film-color-block__swatch"${addAttribute(`background: ${palette?.hex ?? "#1B2A41"}`, "style")} role="img"${addAttribute(`${palette?.name ?? colorId} color swatch`, "aria-label")} data-astro-cid-2n3uilas> <div${addAttribute(`film-color-block__swatch-label${lightBg ? " film-color-block__swatch-label--dark" : ""}`, "class")} data-astro-cid-2n3uilas> <span class="film-color-block__swatch-hex" data-astro-cid-2n3uilas>${palette?.hex}</span> </div> </div> ${secondaryPalettes.length > 0 && renderTemplate`<div class="film-color-block__secondary" data-astro-cid-2n3uilas> <span class="film-color-block__secondary-label" data-astro-cid-2n3uilas>Secondary palette</span> <div class="film-color-block__secondary-swatches" data-astro-cid-2n3uilas> ${secondaryPalettes.map((p) => renderTemplate`<a${addAttribute(`/colors/${p.id}`, "href")}${addAttribute(p.name, "title")} class="film-color-block__secondary-dot"${addAttribute(`background: ${p.hex}`, "style")} data-astro-cid-2n3uilas></a>`)} </div> </div>`} </div> <div class="film-color-block__info" data-astro-cid-2n3uilas> <div class="film-color-block__overline" data-astro-cid-2n3uilas>Identidad Cromática Prisma</div> <h2 class="film-color-block__color-name" data-astro-cid-2n3uilas> <a${addAttribute(`/colors/${colorId}`, "href")} data-astro-cid-2n3uilas>${palette?.name ?? colorId}</a> </h2> ${contextNote && renderTemplate`<p class="film-color-block__context" data-astro-cid-2n3uilas>${contextNote}</p>`} ${cinematographicNote && renderTemplate`<p class="film-color-block__notes" data-astro-cid-2n3uilas>${cinematographicNote}</p>`} ${doctrine && doctrine.moods.length > 0 && renderTemplate`<div class="film-color-block__moods" data-astro-cid-2n3uilas> ${doctrine.moods.map((mood) => renderTemplate`<span class="film-color-block__mood-tag" data-astro-cid-2n3uilas>${mood}</span>`)} </div>`} </div> </div> </div> </section> `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmColorBlock.astro", void 0);
 
-const $$Astro$9 = createAstro("https://prisma.film");
+const $$Astro$a = createAstro("https://prisma.film");
 const $$FilmDimensionTags = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
   Astro2.self = $$FilmDimensionTags;
   const { work } = Astro2.props;
   let rhythm = null;
@@ -99,9 +120,9 @@ const $$FilmDimensionTags = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${hasDimensions && renderTemplate`${maybeRenderHead()}<div class="film-dimensions" data-astro-cid-ds5ynflv><div class="site-container" data-astro-cid-ds5ynflv><div class="film-dimensions__inner" data-astro-cid-ds5ynflv>${rhythm && renderTemplate`<a${addAttribute(`/ritmo/${rhythmSlug(rhythm)}`, "href")} class="dim-tag dim-tag--rhythm" title="Ritmo visual" data-astro-cid-ds5ynflv><span class="dim-tag__label" data-astro-cid-ds5ynflv>Ritmo</span><span class="dim-tag__value" data-astro-cid-ds5ynflv>${RHYTHM_LABELS[rhythm]}</span></a>`}${temperature && renderTemplate`<a${addAttribute(`/temperatura/${temperatureSlug(temperature)}`, "href")} class="dim-tag dim-tag--temperature" title="Temperatura emocional" data-astro-cid-ds5ynflv><span class="dim-tag__label" data-astro-cid-ds5ynflv>Temperatura</span><span class="dim-tag__value" data-astro-cid-ds5ynflv>${TEMPERATURE_LABELS[temperature]}</span></a>`}${abstraction && renderTemplate`<a${addAttribute(`/abstraccion/${abstractionSlug(abstraction)}`, "href")} class="dim-tag dim-tag--abstraction" title="Abstracción visual" data-astro-cid-ds5ynflv><span class="dim-tag__label" data-astro-cid-ds5ynflv>Imagen</span><span class="dim-tag__value" data-astro-cid-ds5ynflv>${ABSTRACTION_LABELS[abstraction]}</span></a>`}</div></div></div>`}`;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmDimensionTags.astro", void 0);
 
-const $$Astro$8 = createAstro("https://prisma.film");
+const $$Astro$9 = createAstro("https://prisma.film");
 const $$FilmSynopsis = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$FilmSynopsis;
   const { work } = Astro2.props;
   const synopsis = "synopsis" in work ? work.synopsis : null;
@@ -133,9 +154,9 @@ const $$FilmSynopsis = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${hasContent && renderTemplate`${maybeRenderHead()}<section class="film-synopsis" data-astro-cid-mqlkldg4><div class="site-container" data-astro-cid-mqlkldg4><div class="film-synopsis__inner" data-astro-cid-mqlkldg4>${tagline && renderTemplate`<p class="film-synopsis__tagline" data-astro-cid-mqlkldg4>"${tagline}"</p>`}${synopsis && renderTemplate`<div class="film-synopsis__body" data-astro-cid-mqlkldg4><p data-astro-cid-mqlkldg4>${synopsis}</p></div>`}${!synopsis && colorNarrative && renderTemplate`<div class="film-synopsis__body film-synopsis__body--narrative" data-astro-cid-mqlkldg4><p data-astro-cid-mqlkldg4>${colorNarrative}</p></div>`}<div class="film-synopsis__meta" data-astro-cid-mqlkldg4>${genres.length > 0 && renderTemplate`<div class="film-synopsis__meta-row" data-astro-cid-mqlkldg4><span class="film-synopsis__meta-label" data-astro-cid-mqlkldg4>Género</span><span class="film-synopsis__meta-value" data-astro-cid-mqlkldg4>${genres.join(", ")}</span></div>`}${countries.length > 0 && renderTemplate`<div class="film-synopsis__meta-row" data-astro-cid-mqlkldg4><span class="film-synopsis__meta-label" data-astro-cid-mqlkldg4>Origen</span><span class="film-synopsis__meta-value film-synopsis__countries" data-astro-cid-mqlkldg4>${countries.map((iso2) => renderTemplate`<a${addAttribute(`/countries/${countryToSlug(iso2)}`, "href")} class="film-synopsis__country" data-astro-cid-mqlkldg4><span aria-hidden="true" data-astro-cid-mqlkldg4>${isoToFlag(iso2)}</span><span data-astro-cid-mqlkldg4>${isoToName(iso2)}</span></a>`)}</span></div>`}${studios.length > 0 && renderTemplate`<div class="film-synopsis__meta-row" data-astro-cid-mqlkldg4><span class="film-synopsis__meta-label" data-astro-cid-mqlkldg4>Producción</span><span class="film-synopsis__meta-value film-synopsis__studios" data-astro-cid-mqlkldg4>${studios.map((s) => renderTemplate`<a${addAttribute(`/studios/${s.slug}`, "href")} class="film-synopsis__studio" data-astro-cid-mqlkldg4>${s.logoPath && renderTemplate`<img${addAttribute(`${TMDB_LOGO}${s.logoPath}`, "src")} alt="" class="film-synopsis__studio-logo" loading="lazy" data-astro-cid-mqlkldg4>`}${s.name}</a>`)}</span></div>`}</div><p class="film-synopsis__streaming" data-astro-cid-mqlkldg4>${isStreamable ? `${work.title} est\xE1 disponible para ver online en PRISMA en versi\xF3n original.` : `${work.title}${yearStr} es una pel\xEDcula de ${countryLabel}. Puedes encontrarla en plataformas de streaming de cine de autor.`}</p></div></div></section>`}`;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmSynopsis.astro", void 0);
 
-const $$Astro$7 = createAstro("https://prisma.film");
+const $$Astro$8 = createAstro("https://prisma.film");
 const $$FilmPeople = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$FilmPeople;
   const { work, castAwardHighlights = {} } = Astro2.props;
   const TMDB_IMG = "https://image.tmdb.org/t/p/w185";
@@ -218,9 +239,9 @@ const $$FilmPeople = createComponent(($$result, $$props, $$slots) => {
   })} </div> </div>`} </div> </section> `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmPeople.astro", void 0);
 
-const $$Astro$6 = createAstro("https://prisma.film");
+const $$Astro$7 = createAstro("https://prisma.film");
 const $$FilmMetaAccordion = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$FilmMetaAccordion;
   const { work } = Astro2.props;
   const isCriterion = "criterion_title" in work ? work.criterion_title : false;
@@ -249,6 +270,38 @@ const $$FilmMetaAccordion = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<section class="film-meta-accordion" data-astro-cid-pbstxzw3> <div class="site-container" data-astro-cid-pbstxzw3> <div class="film-meta-accordion__sections" data-astro-cid-pbstxzw3> ${sections.filter((s) => s.hasContent).map((section) => renderTemplate`<details class="accordion-item" name="film-meta" data-astro-cid-pbstxzw3> <summary class="accordion-item__header" data-astro-cid-pbstxzw3> <span class="accordion-item__title" data-astro-cid-pbstxzw3>${section.title}</span> <span class="accordion-item__icon" aria-hidden="true" data-astro-cid-pbstxzw3>+</span> </summary> <div class="accordion-item__body" data-astro-cid-pbstxzw3> ${section.id === "technical" && renderTemplate`<div class="accordion-facts" data-astro-cid-pbstxzw3> ${duration && renderTemplate`<div class="accordion-fact" data-astro-cid-pbstxzw3> <span class="accordion-fact__label" data-astro-cid-pbstxzw3>Duración</span> <span class="accordion-fact__value" data-astro-cid-pbstxzw3>${duration} minutos</span> </div>`} ${languages.length > 0 && renderTemplate`<div class="accordion-fact" data-astro-cid-pbstxzw3> <span class="accordion-fact__label" data-astro-cid-pbstxzw3>Idiomas</span> <span class="accordion-fact__value" data-astro-cid-pbstxzw3>${languages.join(", ")}</span> </div>`} ${studios.length > 0 && renderTemplate`<div class="accordion-fact" data-astro-cid-pbstxzw3> <span class="accordion-fact__label" data-astro-cid-pbstxzw3>Productoras</span> <span class="accordion-fact__value accordion-fact__value--studios" data-astro-cid-pbstxzw3> ${studios.map((s, i) => renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "data-astro-cid-pbstxzw3": true }, { "default": ($$result2) => renderTemplate` <a${addAttribute(`/studios/${s.slug}`, "href")} class="accordion-studio-link" data-astro-cid-pbstxzw3>${s.name}</a> ${i < studios.length - 1 && renderTemplate`<span class="accordion-fact__sep" data-astro-cid-pbstxzw3>, </span>`}` })}`)} </span> </div>`} ${imdbRating && renderTemplate`<div class="accordion-fact" data-astro-cid-pbstxzw3> <span class="accordion-fact__label" data-astro-cid-pbstxzw3>IMDb Rating</span> <span class="accordion-fact__value" data-astro-cid-pbstxzw3>${imdbRating.toFixed(1)}</span> </div>`} </div>`} ${section.id === "distribution" && renderTemplate`<div class="accordion-dist" data-astro-cid-pbstxzw3> ${isCriterion && renderTemplate`<span class="dist-badge dist-badge--criterion" data-astro-cid-pbstxzw3>Criterion Collection</span>`} ${isMubi && renderTemplate`<span class="dist-badge dist-badge--mubi" data-astro-cid-pbstxzw3>MUBI</span>`} ${isSightAndSound && renderTemplate`<span class="dist-badge dist-badge--s-and-s" data-astro-cid-pbstxzw3>Sight &amp; Sound</span>`} </div>`} </div> </details>`)} </div> </div> </section> `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmMetaAccordion.astro", void 0);
 
+const $$Astro$6 = createAstro("https://prisma.film");
+const $$FilmBackdrops = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
+  Astro2.self = $$FilmBackdrops;
+  const { work } = Astro2.props;
+  const tmdbId = "tmdb_id" in work && work.tmdb_id ? work.tmdb_id : null;
+  const TMDB_API_KEY = "2ffbaff6288d7216beeca2bbea207176";
+  const TMDB_W1280 = "https://image.tmdb.org/t/p/w1280";
+  const TMDB_W780 = "https://image.tmdb.org/t/p/w780";
+  let backdrops = [];
+  if (tmdbId && TMDB_API_KEY) {
+    try {
+      const res = await fetch(
+        `https://api.themoviedb.org/3/movie/${tmdbId}/images?api_key=${TMDB_API_KEY}&include_image_language=null,en`
+      );
+      if (res.ok) {
+        const json = await res.json();
+        backdrops = (json.backdrops ?? []).sort((a, b) => b.vote_average - a.vote_average).slice(0, 9).map((b) => ({
+          full: `${TMDB_W1280}${b.file_path}`,
+          thumb: `${TMDB_W780}${b.file_path}`
+        }));
+      }
+    } catch {
+    }
+  }
+  return renderTemplate`${backdrops.length > 0 && renderTemplate`${maybeRenderHead()}<section class="film-backdrops" data-astro-cid-b3g7c2jm><div class="site-container" data-astro-cid-b3g7c2jm><p class="film-backdrops__label" data-astro-cid-b3g7c2jm>Fotografías</p><div class="film-backdrops__grid" data-astro-cid-b3g7c2jm>${backdrops.map((b) => renderTemplate`<a${addAttribute(b.full, "href")} target="_blank" rel="noopener noreferrer" class="film-backdrops__item" data-astro-cid-b3g7c2jm><img${addAttribute(b.thumb, "src")} alt="" loading="lazy" decoding="async" data-astro-cid-b3g7c2jm></a>`)}</div></div></section>`}`;
+}, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmBackdrops.astro", void 0);
+
+var __freeze$2 = Object.freeze;
+var __defProp$2 = Object.defineProperty;
+var __template$2 = (cooked, raw) => __freeze$2(__defProp$2(cooked, "raw", { value: __freeze$2(cooked.slice()) }));
+var _a$2;
 const $$Astro$5 = createAstro("https://prisma.film");
 const $$FilmAwards = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
@@ -257,65 +310,51 @@ const $$FilmAwards = createComponent(($$result, $$props, $$slots) => {
   if (!("work_awards" in work) || !Array.isArray(work.work_awards) || work.work_awards.length === 0) {
     return;
   }
-  const castMembers = "work_people" in work && Array.isArray(work.work_people) ? work.work_people.filter((wp) => wp.role === "actor").sort((a, b) => (a.billing_order ?? 999) - (b.billing_order ?? 999)).map((wp) => ({ name: wp.people.name, billing_order: wp.billing_order })) : [];
-  const ACTING_PATTERNS = [
-    "best actor",
-    "best actress",
-    "best supporting actor",
-    "best supporting actress",
-    "best performance",
-    "volpi cup",
-    "best male",
-    "best female",
-    "best lead"
-  ];
-  function inferActingActor(awardName) {
-    const lower = awardName.toLowerCase();
-    if (!ACTING_PATTERNS.some((p) => lower.includes(p))) return null;
-    return castMembers[0]?.name ?? null;
-  }
   const allAwards = work.work_awards;
-  const TIER_ORDER = { A: 0, B: 1, C: 2, D: 3 };
-  function sortFn(a, b) {
-    const ta = TIER_ORDER[a.awards?.festivals?.tier ?? a.awards?.tier ?? "C"] ?? 3;
-    const tb = TIER_ORDER[b.awards?.festivals?.tier ?? b.awards?.tier ?? "C"] ?? 3;
-    if (ta !== tb) return ta - tb;
-    return (b.year ?? 0) - (a.year ?? 0);
+  const groupMap = /* @__PURE__ */ new Map();
+  for (const wa of allAwards) {
+    const key = wa.award_id;
+    if (!groupMap.has(key)) {
+      groupMap.set(key, {
+        award_id: key,
+        name: wa.awards.name,
+        organization: wa.awards.organization,
+        tier: wa.awards.festivals?.tier ?? wa.awards.tier ?? null,
+        festivals: wa.awards.festivals ?? null,
+        wins: [],
+        noms: []
+      });
+    }
+    const grp = groupMap.get(key);
+    if (wa.result === "win") grp.wins.push(wa);
+    else grp.noms.push(wa);
   }
-  const wins = [...allAwards.filter((wa) => wa.result === "win")].sort(sortFn);
-  const noms = [...allAwards.filter((wa) => wa.result === "nomination")].sort(sortFn);
+  const TIER_ORDER = { A: 0, B: 1, C: 2, D: 3 };
+  const groups = [...groupMap.values()].sort((a, b) => {
+    const aHasWin = a.wins.length > 0 ? 0 : 1;
+    const bHasWin = b.wins.length > 0 ? 0 : 1;
+    if (aHasWin !== bHasWin) return aHasWin - bHasWin;
+    const ta = TIER_ORDER[a.tier ?? "C"] ?? 3;
+    const tb = TIER_ORDER[b.tier ?? "C"] ?? 3;
+    return ta - tb;
+  });
   const TIER_COLOR = {
     A: "#C98A2E",
     B: "rgba(255,255,255,0.3)",
     C: "rgba(255,255,255,0.15)",
     D: "rgba(255,255,255,0.08)"
   };
-  function tierColor(wa) {
-    const t = wa.awards.festivals?.tier ?? wa.awards.tier ?? "";
-    return TIER_COLOR[t] ?? TIER_COLOR["C"];
+  function accentColor(tier) {
+    return TIER_COLOR[tier ?? "C"] ?? TIER_COLOR["C"];
   }
-  function festivalName(wa) {
-    return wa.awards.festivals?.name ?? wa.awards.organization;
-  }
-  function festivalHref(wa) {
-    const fid = wa.awards.festivals?.id;
-    return fid ? `/festivals/${fid.replace(/^festival_/, "")}` : void 0;
-  }
-  return renderTemplate`${maybeRenderHead()}<section class="film-awards" data-astro-cid-vp5wcrti> <div class="site-container" data-astro-cid-vp5wcrti> <h2 class="awards-label" data-astro-cid-vp5wcrti>Premios y Reconocimientos</h2>  ${wins.length > 0 && renderTemplate`<div class="wins-grid" data-astro-cid-vp5wcrti> ${wins.map((wa) => {
-    const color = tierColor(wa);
-    const tier = wa.awards.festivals?.tier ?? wa.awards.tier;
-    const href = festivalHref(wa);
-    const actor = inferActingActor(wa.awards.name);
-    return renderTemplate`<a${addAttribute(href, "href")} class="award-card"${addAttribute(`--tc: ${color}`, "style")}${addAttribute(`${wa.awards.name} \u2014 ${festivalName(wa)} ${wa.year ?? ""}`, "aria-label")} data-astro-cid-vp5wcrti> ${(() => {
-      const logoUrl = getFestivalLogoUrl(wa.awards.festivals?.logo_path ?? null);
-      const isLocal = isFestivalLogoLocal(wa.awards.festivals?.logo_path ?? null);
-      const monogram = getFestivalMonogram(festivalName(wa));
-      return logoUrl ? renderTemplate`<img${addAttribute(logoUrl, "src")} alt=""${addAttribute(`award-fest-logo${isLocal ? " festival-logo--local" : ""}`, "class")} loading="lazy" data-astro-cid-vp5wcrti>` : renderTemplate`<span class="award-monogram" aria-hidden="true"${addAttribute(`background: color-mix(in srgb, ${tierColor(wa)} 15%, transparent)`, "style")} data-astro-cid-vp5wcrti>${monogram}</span>`;
-    })()} <div class="award-body" data-astro-cid-vp5wcrti> <span class="award-name" data-astro-cid-vp5wcrti>${wa.awards.name}</span> <span class="award-meta" data-astro-cid-vp5wcrti> ${actor && renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "data-astro-cid-vp5wcrti": true }, { "default": ($$result2) => renderTemplate`${actor} &middot; ` })}`} ${festivalName(wa)}${wa.year && renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "data-astro-cid-vp5wcrti": true }, { "default": ($$result2) => renderTemplate` &middot; ${wa.year}` })}`} </span> </div> ${tier && renderTemplate`<span class="award-tier-badge"${addAttribute(`color: ${color}`, "style")} data-astro-cid-vp5wcrti>[${tier}]</span>`} </a>`;
-  })} </div>`}  ${noms.length > 0 && renderTemplate`<div class="noms-block" data-astro-cid-vp5wcrti> <h3 class="noms-label" data-astro-cid-vp5wcrti>Nominaciones</h3> <ul class="noms-list" role="list" data-astro-cid-vp5wcrti> ${noms.map((wa) => {
-    const tier = wa.awards.festivals?.tier ?? wa.awards.tier;
-    return renderTemplate`<li class="nom-row" data-astro-cid-vp5wcrti> <span class="nom-name" data-astro-cid-vp5wcrti>${wa.awards.name}</span> <span class="nom-sep" aria-hidden="true" data-astro-cid-vp5wcrti>&middot;</span> <span class="nom-festival" data-astro-cid-vp5wcrti>${festivalName(wa)}</span> ${wa.year && renderTemplate`<span class="nom-year" data-astro-cid-vp5wcrti>${wa.year}</span>`} ${tier && renderTemplate`<span class="nom-tier" data-astro-cid-vp5wcrti>[${tier}]</span>`} </li>`;
-  })} </ul> </div>`} </div> </section> `;
+  return renderTemplate(_a$2 || (_a$2 = __template$2(["", '<section class="film-awards" data-astro-cid-vp5wcrti> <div class="site-container" data-astro-cid-vp5wcrti> <h2 class="awards-label" data-astro-cid-vp5wcrti>Premios y Reconocimientos</h2> <div class="awards-groups" data-astro-cid-vp5wcrti> ', " </div> </div> </section> <script>\n(function () {\n  document.querySelectorAll('[data-award-toggle]').forEach(function (btn) {\n    btn.addEventListener('click', function () {\n      var expanded = btn.getAttribute('aria-expanded') === 'true';\n      var targetId = btn.getAttribute('aria-controls');\n      var panel    = targetId ? document.getElementById(targetId) : null;\n      if (!panel) return;\n      btn.setAttribute('aria-expanded', String(!expanded));\n      if (expanded) {\n        panel.hidden = true;\n        btn.classList.remove('is-open');\n      } else {\n        panel.hidden = false;\n        btn.classList.add('is-open');\n      }\n    });\n  });\n})();\n<\/script> "])), maybeRenderHead(), groups.map((grp, gi) => {
+    const color = accentColor(grp.tier);
+    const logoUrl = getFestivalLogoUrl(grp.festivals?.logo_path ?? null);
+    const isLocal = isFestivalLogoLocal(grp.festivals?.logo_path ?? null);
+    const mono = getFestivalMonogram(grp.festivals?.name ?? grp.organization);
+    const groupId = `award-group-${gi}`;
+    return renderTemplate`<div class="award-group"${addAttribute(`--gc: ${color}`, "style")} data-astro-cid-vp5wcrti> <button class="award-group__header" type="button" aria-expanded="false"${addAttribute(groupId, "aria-controls")} data-award-toggle data-astro-cid-vp5wcrti> <span class="award-group__logo-wrap" data-astro-cid-vp5wcrti> ${logoUrl ? renderTemplate`<img${addAttribute(logoUrl, "src")} alt=""${addAttribute(`award-group__logo${isLocal ? " festival-logo--local" : ""}`, "class")} loading="lazy" data-astro-cid-vp5wcrti>` : renderTemplate`<span class="award-group__mono"${addAttribute(`background: color-mix(in srgb, ${color} 15%, transparent)`, "style")} data-astro-cid-vp5wcrti>${mono}</span>`} </span> <span class="award-group__info" data-astro-cid-vp5wcrti> <span class="award-group__name" data-astro-cid-vp5wcrti>${grp.name}</span> <span class="award-group__org" data-astro-cid-vp5wcrti>${grp.festivals?.name ?? grp.organization}</span> </span> <span class="award-group__badges" data-astro-cid-vp5wcrti> ${grp.wins.length > 0 && renderTemplate`<span class="badge badge--win" data-astro-cid-vp5wcrti>✓ ${grp.wins.length} ${grp.wins.length === 1 ? "Premio" : "Premios"}</span>`} ${grp.noms.length > 0 && renderTemplate`<span class="badge badge--nom" data-astro-cid-vp5wcrti>${grp.noms.length} Nom.</span>`} </span> <span class="award-group__chevron" aria-hidden="true" data-astro-cid-vp5wcrti>›</span> </button> <div class="award-group__rows"${addAttribute(groupId, "id")} hidden data-astro-cid-vp5wcrti> ${grp.wins.map((wa) => renderTemplate`<div class="award-row award-row--win" data-astro-cid-vp5wcrti> <span class="award-row__result award-row__result--win" data-astro-cid-vp5wcrti>Premio</span> ${wa.year && renderTemplate`<span class="award-row__year" data-astro-cid-vp5wcrti>${wa.year}</span>`} ${wa.category && renderTemplate`<span class="award-row__cat" data-astro-cid-vp5wcrti>${wa.category}</span>`} </div>`)} ${grp.noms.map((wa) => renderTemplate`<div class="award-row award-row--nom" data-astro-cid-vp5wcrti> <span class="award-row__result award-row__result--nom" data-astro-cid-vp5wcrti>Nom.</span> ${wa.year && renderTemplate`<span class="award-row__year" data-astro-cid-vp5wcrti>${wa.year}</span>`} ${wa.category && renderTemplate`<span class="award-row__cat" data-astro-cid-vp5wcrti>${wa.category}</span>`} </div>`)} </div> </div>`;
+  }));
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/components/film/FilmAwards.astro", void 0);
 
 const $$Astro$4 = createAstro("https://prisma.film");
@@ -969,7 +1008,7 @@ const $$slug = createComponent(async ($$result, $$props, $$slots) => {
     } catch {
     }
   }
-  return renderTemplate`${renderComponent($$result, "FilmLayout", $$FilmLayout, { "title": seo.title, "description": seo.description, "ogImage": seo.ogImage, "ogType": seo.ogType, "jsonLd": seo.jsonLd, "jsonLdExtra": faqJsonLd, "breadcrumbs": breadcrumbs, "data-astro-cid-ujmyk5wk": true }, { "default": async ($$result2) => renderTemplate` ${renderComponent($$result2, "FilmHero", $$FilmHero, { "work": work, "data-astro-cid-ujmyk5wk": true })}  ${maybeRenderHead()}<div class="film-actions-bar" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "FilmActions", $$FilmActions, { "workId": `work_${slug}`, "userId": user?.id ?? null, "initialRating": initialRating, "initialSeen": initialSeen, "initialWatchlist": initialWatchlist, "initialReview": initialReview, "data-astro-cid-ujmyk5wk": true })} </div> </div> ${"is_streamable" in work && work.is_streamable && work.bunny_video_id && renderTemplate`<div class="film-streaming" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "StreamingPlayer", $$StreamingPlayer, { "workId": `work_${slug}`, "bunnyVideoId": work.bunny_video_id, "title": work.title, "data-astro-cid-ujmyk5wk": true })} </div> </div>`}<div class="film-body" data-astro-cid-ujmyk5wk> <!-- Rank badge (shown if we have ranking data) --> ${rankScore && renderTemplate`<div class="film-body__rank" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "FilmRankBadge", $$FilmRankBadge, { "rank": rankScore.rank, "score": rankScore.score, "tier": colorTier, "data-astro-cid-ujmyk5wk": true })} </div> </div>`} ${renderComponent($$result2, "FilmColorBlock", $$FilmColorBlock, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmDimensionTags", $$FilmDimensionTags, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmSynopsis", $$FilmSynopsis, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmPeople", $$FilmPeople, { "work": work, "castAwardHighlights": castAwardHighlights, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmReviews", $$FilmReviews, { "reviews": filmReviews, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmAwards", $$FilmAwards, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmMetaAccordion", $$FilmMetaAccordion, { "work": work, "data-astro-cid-ujmyk5wk": true })} </div> ` })} `;
+  return renderTemplate`${renderComponent($$result, "FilmLayout", $$FilmLayout, { "title": seo.title, "description": seo.description, "ogImage": seo.ogImage, "ogType": seo.ogType, "jsonLd": seo.jsonLd, "jsonLdExtra": faqJsonLd, "breadcrumbs": breadcrumbs, "data-astro-cid-ujmyk5wk": true }, { "default": async ($$result2) => renderTemplate` ${renderComponent($$result2, "FilmHero", $$FilmHero, { "work": work, "data-astro-cid-ujmyk5wk": true })}  ${maybeRenderHead()}<div class="film-actions-bar" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "FilmActions", $$FilmActions, { "workId": `work_${slug}`, "userId": user?.id ?? null, "initialRating": initialRating, "initialSeen": initialSeen, "initialWatchlist": initialWatchlist, "initialReview": initialReview, "data-astro-cid-ujmyk5wk": true })} </div> </div> ${"is_streamable" in work && work.is_streamable && work.bunny_video_id && renderTemplate`<div class="film-streaming" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "StreamingPlayer", $$StreamingPlayer, { "workId": `work_${slug}`, "bunnyVideoId": work.bunny_video_id, "title": work.title, "data-astro-cid-ujmyk5wk": true })} </div> </div>`}<div class="film-body" data-astro-cid-ujmyk5wk> <!-- Rank badge (shown if we have ranking data) --> ${rankScore && renderTemplate`<div class="film-body__rank" data-astro-cid-ujmyk5wk> <div class="site-container" data-astro-cid-ujmyk5wk> ${renderComponent($$result2, "FilmRankBadge", $$FilmRankBadge, { "rank": rankScore.rank, "score": rankScore.score, "tier": colorTier, "data-astro-cid-ujmyk5wk": true })} </div> </div>`} ${renderComponent($$result2, "FilmColorBlock", $$FilmColorBlock, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmDimensionTags", $$FilmDimensionTags, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmSynopsis", $$FilmSynopsis, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmBackdrops", $$FilmBackdrops, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmPeople", $$FilmPeople, { "work": work, "castAwardHighlights": castAwardHighlights, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmReviews", $$FilmReviews, { "reviews": filmReviews, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmAwards", $$FilmAwards, { "work": work, "data-astro-cid-ujmyk5wk": true })} ${renderComponent($$result2, "FilmMetaAccordion", $$FilmMetaAccordion, { "work": work, "data-astro-cid-ujmyk5wk": true })} </div> ` })} `;
 }, "/Users/servinemilio/Documents/REPOS/prisma-site/src/pages/films/[slug].astro", void 0);
 
 const $$file = "/Users/servinemilio/Documents/REPOS/prisma-site/src/pages/films/[slug].astro";

@@ -1,0 +1,316 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { isSupabaseConfigured, createServiceClient } from '../../lib/db/client';
+import {
+  RHYTHM_LABELS, RHYTHM_DESCRIPTIONS,
+  TEMPERATURE_LABELS, TEMPERATURE_DESCRIPTIONS,
+  ABSTRACTION_LABELS, ABSTRACTION_DESCRIPTIONS,
+  rhythmSlug, temperatureSlug, abstractionSlug,
+  type VisualRhythm, type EmotionalTemperature, type VisualAbstraction,
+} from '../../lib/film/filmDimensions';
+
+export const prerender = true;
+
+// ─── Film counts per dimension value ─────────────────────────────────────────
+type CountMap = Record<string, number>;
+
+const rhythmCounts: CountMap = {};
+const temperatureCounts: CountMap = {};
+const abstractionCounts: CountMap = {};
+
+if (isSupabaseConfigured()) {
+  try {
+    const db = createServiceClient();
+    const { data } = await db
+      .from('works')
+      .select('visual_rhythm, emotional_temperature, visual_abstraction')
+      .eq('is_published', true);
+
+    for (const row of (data ?? []) as { visual_rhythm: string | null; emotional_temperature: string | null; visual_abstraction: string | null }[]) {
+      if (row.visual_rhythm) rhythmCounts[row.visual_rhythm] = (rhythmCounts[row.visual_rhythm] ?? 0) + 1;
+      if (row.emotional_temperature) temperatureCounts[row.emotional_temperature] = (temperatureCounts[row.emotional_temperature] ?? 0) + 1;
+      if (row.visual_abstraction) abstractionCounts[row.visual_abstraction] = (abstractionCounts[row.visual_abstraction] ?? 0) + 1;
+    }
+  } catch {
+    // graceful degradation — show labels without counts
+  }
+}
+
+const breadcrumbs = [
+  { name: 'PRISMA', url: 'https://prisma.film' },
+  { name: 'Explorar', url: 'https://prisma.film/explorar' },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Explorar el Cine — PRISMA',
+  description: 'Tres dimensiones para descubrir películas de una forma diferente: ritmo visual, temperatura emocional y abstracción visual.',
+  url: 'https://prisma.film/explorar',
+};
+
+const rhythmKeys = Object.keys(RHYTHM_LABELS) as VisualRhythm[];
+const temperatureKeys = Object.keys(TEMPERATURE_LABELS) as EmotionalTemperature[];
+const abstractionKeys = Object.keys(ABSTRACTION_LABELS) as VisualAbstraction[];
+---
+
+<BaseLayout
+  title="Explorar el Cine — PRISMA"
+  description="Tres dimensiones para descubrir películas de una forma diferente: ritmo visual, temperatura emocional y abstracción visual."
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <div class="explorar-page">
+    <header class="explorar-hero">
+      <div class="site-container">
+        <p class="explorar-hero__eyebrow">Sistema de clasificación visual</p>
+        <h1 class="explorar-hero__title">Explorar el Cine</h1>
+        <p class="explorar-hero__sub">
+          Tres dimensiones para descubrir películas de una forma diferente
+        </p>
+      </div>
+    </header>
+
+    <section class="explorar-dimensions">
+      <div class="site-container">
+        <div class="explorar-cards">
+
+          <!-- Ritmo Visual -->
+          <div class="explorar-card">
+            <div class="explorar-card__header">
+              <span class="explorar-card__num">01</span>
+              <div>
+                <h2 class="explorar-card__title">Ritmo Visual</h2>
+                <p class="explorar-card__desc">La energía y el pulso de la imagen en movimiento</p>
+              </div>
+            </div>
+            <div class="explorar-card__pills">
+              {rhythmKeys.map(key => {
+                const count = rhythmCounts[key] ?? 0;
+                return (
+                  <a href={`/ritmo/${rhythmSlug(key)}`} class="explorar-pill">
+                    <span class="explorar-pill__label">{RHYTHM_LABELS[key]}</span>
+                    <span class="explorar-pill__desc">{RHYTHM_DESCRIPTIONS[key]}</span>
+                    {count > 0 && <span class="explorar-pill__count">{count}</span>}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+
+          <!-- Temperatura Emocional -->
+          <div class="explorar-card">
+            <div class="explorar-card__header">
+              <span class="explorar-card__num">02</span>
+              <div>
+                <h2 class="explorar-card__title">Temperatura Emocional</h2>
+                <p class="explorar-card__desc">El registro afectivo que cada película construye</p>
+              </div>
+            </div>
+            <div class="explorar-card__pills">
+              {temperatureKeys.map(key => {
+                const count = temperatureCounts[key] ?? 0;
+                return (
+                  <a href={`/temperatura/${temperatureSlug(key)}`} class="explorar-pill">
+                    <span class="explorar-pill__label">{TEMPERATURE_LABELS[key]}</span>
+                    <span class="explorar-pill__desc">{TEMPERATURE_DESCRIPTIONS[key]}</span>
+                    {count > 0 && <span class="explorar-pill__count">{count}</span>}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+
+          <!-- Abstracción Visual -->
+          <div class="explorar-card">
+            <div class="explorar-card__header">
+              <span class="explorar-card__num">03</span>
+              <div>
+                <h2 class="explorar-card__title">Abstracción Visual</h2>
+                <p class="explorar-card__desc">Del documento puro al sueño cinematográfico</p>
+              </div>
+            </div>
+            <div class="explorar-card__pills">
+              {abstractionKeys.map(key => {
+                const count = abstractionCounts[key] ?? 0;
+                return (
+                  <a href={`/abstraccion/${abstractionSlug(key)}`} class="explorar-pill">
+                    <span class="explorar-pill__label">{ABSTRACTION_LABELS[key]}</span>
+                    <span class="explorar-pill__desc">{ABSTRACTION_DESCRIPTIONS[key]}</span>
+                    {count > 0 && <span class="explorar-pill__count">{count}</span>}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+.explorar-page {
+  min-height: 100vh;
+  background: var(--surface-bg);
+}
+
+.explorar-hero {
+  padding: 8rem 0 4rem;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.explorar-hero__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 1.25rem;
+}
+
+.explorar-hero__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.05;
+  margin: 0 0 1rem;
+}
+
+.explorar-hero__sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 48ch;
+}
+
+.explorar-dimensions {
+  padding: 4rem 0 8rem;
+}
+
+.explorar-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.explorar-card {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--surface-border);
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.explorar-card:last-child {
+  border-bottom: none;
+}
+
+.explorar-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  position: sticky;
+  top: 5rem;
+}
+
+.explorar-card__num {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.explorar-card__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.explorar-card__desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.explorar-card__pills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.explorar-pill {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--surface-border);
+  border-left: 3px solid var(--surface-border-strong);
+  border-radius: 4px;
+  background: var(--surface-card);
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.explorar-pill:hover {
+  border-color: var(--surface-border-strong);
+  border-left-color: var(--text-accent);
+  background: rgba(255,255,255,0.03);
+}
+
+.explorar-pill__label {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex-shrink: 0;
+  min-width: 110px;
+}
+
+.explorar-pill__desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  flex: 1;
+}
+
+.explorar-pill__count {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .explorar-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .explorar-card__header {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .explorar-pill {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .explorar-pill__label {
+    min-width: auto;
+  }
+}
+</style>

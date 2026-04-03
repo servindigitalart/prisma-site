@@ -169,11 +169,101 @@ function awardTierColor(wa: PersonAwardRow): string {
 }
 
 // ── Profile photo ─────────────────────────────────────────────────────────────
-const TMDB_BASE = 'https://image.tmdb.org/t/p/w185';
+const TMDB_BASE   = 'https://image.tmdb.org/t/p/w185';
+const TMDB_POSTER = 'https://image.tmdb.org/t/p/w92';
+const TMDB_W780   = 'https://image.tmdb.org/t/p/w780';
 let profileUrl: string | null = null;
 if (person.profile_path) {
   profileUrl = `${TMDB_BASE}${person.profile_path}`;
 }
+
+// ── Extra person photos from TMDB ─────────────────────────────────────────────
+const personTmdbId = ('tmdb_id' in person) ? (person as any).tmdb_id as number | null : null;
+const TMDB_API_KEY = import.meta.env.TMDB_API_KEY;
+
+type PhotoEntry = { src: string; thumb: string };
+let personPhotos: PhotoEntry[] = [];
+
+if (personTmdbId && TMDB_API_KEY) {
+  try {
+    const res = await fetch(
+      `https://api.themoviedb.org/3/person/${personTmdbId}/images?api_key=${TMDB_API_KEY}`
+    );
+    if (res.ok) {
+      const json = await res.json() as { profiles?: Array<{ file_path: string; vote_average: number }> };
+      personPhotos = (json.profiles ?? [])
+        .sort((a, b) => b.vote_average - a.vote_average)
+        .slice(0, 8)
+        .map(p => ({
+          src:   `${TMDB_W780}${p.file_path}`,
+          thumb: `${TMDB_BASE}${p.file_path}`,
+        }));
+    }
+  } catch {
+    // silently skip
+  }
+}
+// ── Bio truncation ────────────────────────────────────────────────────────────
+const fullBio = person.bio ?? null;
+let shortBio: string | null = null;
+if (fullBio) {
+  const sentences = fullBio.split(/(?<=\. )/).filter(Boolean);
+  shortBio = sentences.slice(0, 2).join(' ').trim();
+  if (shortBio === fullBio.trim()) shortBio = null; // no need for toggle
+}
+
+// ── Editorial subtitle ────────────────────────────────────────────────────────
+const topRole = primaryRole ? formatRole(primaryRole) : null;
+const activeYears = filmography.length > 0
+  ? (() => {
+      const years = filmography.map(e => e.work.year).filter(Boolean) as number[];
+      if (!years.length) return null;
+      const min = Math.min(...years);
+      const max = Math.max(...years);
+      return min === max ? String(min) : `${min}–${max}`;
+    })()
+  : null;
+
+const editorialSubtitle = [
+  topRole,
+  nationalities || null,
+  activeYears,
+].filter(Boolean).join(' · ');
+
+// ── Awards grouped by film ────────────────────────────────────────────────────
+type AwardFilmGroup = {
+  work_id: string;
+  filmTitle: string;
+  filmSlug: string;
+  posterPath: string | null;
+  wins: typeof personWins;
+  noms: typeof personNoms;
+};
+
+const awardGroups: AwardFilmGroup[] = (() => {
+  const allAwardRows = [...personWins, ...personNoms];
+  const grouped = new Map<string, AwardFilmGroup>();
+  for (const wa of allAwardRows) {
+    if (!grouped.has(wa.work_id)) {
+      const filmEntry = filmography.find(e => e.work.id === wa.work_id);
+      grouped.set(wa.work_id, {
+        work_id: wa.work_id,
+        filmTitle: workTitleMap.get(wa.work_id) ?? wa.work_id,
+        filmSlug: wa.work_id.replace(/^work_/, ''),
+        posterPath: (filmEntry?.work as any)?.tmdb_poster_path ?? null,
+        wins: [],
+        noms: [],
+      });
+    }
+    const g = grouped.get(wa.work_id)!;
+    if (wa.result === 'win') g.wins.push(wa);
+    else g.noms.push(wa);
+  }
+  // Sort: most wins first, then nominations
+  return Array.from(grouped.values()).sort(
+    (a, b) => b.wins.length - a.wins.length || b.noms.length - a.noms.length
+  );
+})();
 ---
 
 <BaseLayout
@@ -237,84 +327,108 @@ if (person.profile_path) {
       </div>
     </section>
 
-    <!-- ── Biography ── -->
-    {person.bio && (
-      <section class="person-bio">
+    <!-- ── Person photo strip ── -->
+    {personPhotos.length > 0 && (
+      <section class="person-photos">
         <div class="site-container">
-          {person.bio.split('\n\n').map(para => (
-            <p class="person-bio__para">{para}</p>
-          ))}
+          <div class="person-photos__strip">
+            {personPhotos.map((photo) => (
+              <a
+                class="person-photos__thumb"
+                href={photo.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Ver foto de ${person.name}`}
+              >
+                <img src={photo.thumb} alt={person.name} loading="lazy" decoding="async" />
+              </a>
+            ))}
+          </div>
         </div>
       </section>
     )}
 
-    <!-- ── Awards & Recognition ── -->
-    {(personWins.length > 0 || personNoms.length > 0) && (
+    <!-- ── Biography ── -->
+    {fullBio && (
+      <section class="person-bio">
+        <div class="site-container">
+          {editorialSubtitle && (
+            <p class="person-bio__subtitle">{editorialSubtitle}</p>
+          )}
+          <p class="person-bio__para" id="bio-short">{shortBio ?? fullBio}</p>
+          {shortBio && (
+            <>
+              <div class="person-bio__full" id="bio-full" hidden>
+                {fullBio.split('\n\n').map(para => (
+                  <p class="person-bio__para">{para}</p>
+                ))}
+              </div>
+              <button class="person-bio__toggle" id="bio-toggle" type="button">Leer más</button>
+            </>
+          )}
+        </div>
+      </section>
+    )}
+
+    <!-- ── Awards grouped by film ── -->
+    {awardGroups.length > 0 && (
       <section class="person-awards">
         <div class="site-container">
           <h2 class="person-awards__heading">Premios y Reconocimientos</h2>
-
-          {personWins.length > 0 && (
-            <div class="person-awards__wins">
-              {personWins.map(wa => {
-                const color  = awardTierColor(wa);
-                const href   = festHref(wa);
-                const logoUrl = getFestivalLogoUrl(wa.awards.festivals?.logo_path ?? null);
-                const monogram = getFestivalMonogram(festName(wa));
-                const filmTitle = workTitleMap.get(wa.work_id);
-                const filmSlug  = wa.work_id.replace(/^work_/, '');
-                return (
-                  <div class="person-award-card" style={`--tc: ${color}`}>
-                    {logoUrl
-                      ? <img src={logoUrl} alt="" class="person-award-card__logo" loading="lazy" />
-                      : <span class="person-award-card__monogram" aria-hidden="true" style={`background: color-mix(in srgb, ${color} 15%, transparent)`}>{monogram}</span>
-                    }
-                    <div class="person-award-card__body">
-                      <span class="person-award-card__name">{wa.awards.name}</span>
-                      <span class="person-award-card__meta">
-                        {filmTitle && (
-                          <a href={`/films/${filmSlug}`} class="person-award-card__film">{filmTitle}</a>
-                        )}
-                        {filmTitle && <span aria-hidden="true"> · </span>}
-                        {href
-                          ? <a href={href} class="person-award-card__fest">{festName(wa)}</a>
-                          : <span>{festName(wa)}</span>
-                        }
-                        {wa.year && <span> · {wa.year}</span>}
-                      </span>
-                    </div>
+          <div class="award-groups">
+            {awardGroups.map((group, gi) => (
+              <div class="award-group">
+                <button
+                  class="award-group__header"
+                  type="button"
+                  aria-expanded="false"
+                  data-group={gi}
+                >
+                  {group.posterPath && (
+                    <img
+                      src={`${TMDB_POSTER}${group.posterPath}`}
+                      alt=""
+                      class="award-group__poster"
+                      loading="lazy"
+                    />
+                  )}
+                  <div class="award-group__film-info">
+                    <span class="award-group__film-title">{group.filmTitle}</span>
+                    <span class="award-group__counts">
+                      {group.wins.length > 0 && `${group.wins.length} premio${group.wins.length > 1 ? 's' : ''}`}
+                      {group.wins.length > 0 && group.noms.length > 0 && ' · '}
+                      {group.noms.length > 0 && `${group.noms.length} nominación${group.noms.length > 1 ? 'es' : ''}`}
+                    </span>
                   </div>
-                );
-              })}
-            </div>
-          )}
-
-          {personWins.length === 0 && personNoms.length > 0 && (
-            <ul class="person-noms-list" role="list">
-              {personNoms.slice(0, 3).map(wa => {
-                const filmTitle = workTitleMap.get(wa.work_id);
-                const filmSlug  = wa.work_id.replace(/^work_/, '');
-                const href = festHref(wa);
-                return (
-                  <li class="person-nom-row">
-                    <span class="person-nom-row__name">{wa.awards.name}</span>
-                    <span class="person-nom-row__sep" aria-hidden="true">·</span>
-                    {filmTitle && (
-                      <>
-                        <a href={`/films/${filmSlug}`} class="person-nom-row__film">{filmTitle}</a>
-                        <span class="person-nom-row__sep" aria-hidden="true">·</span>
-                      </>
-                    )}
-                    {href
-                      ? <a href={href} class="person-nom-row__fest">{festName(wa)}</a>
-                      : <span class="person-nom-row__fest">{festName(wa)}</span>
-                    }
-                    {wa.year && <span class="person-nom-row__year">{wa.year}</span>}
-                  </li>
-                );
-              })}
-            </ul>
-          )}
+                  <span class="award-group__chevron" aria-hidden="true">›</span>
+                </button>
+                <ul class="award-group__list" hidden>
+                  {[...group.wins, ...group.noms].map(wa => {
+                    const isWin = wa.result === 'win';
+                    const color = awardTierColor(wa);
+                    const href  = festHref(wa);
+                    return (
+                      <li class="award-group__item" style={`--tc: ${color}`}>
+                        <span class={`award-group__badge award-group__badge--${isWin ? 'win' : 'nom'}`}>
+                          {isWin ? 'WIN' : 'NOM'}
+                        </span>
+                        <div class="award-group__item-body">
+                          <span class="award-group__item-name">{wa.awards.name}</span>
+                          <span class="award-group__item-meta">
+                            {href
+                              ? <a href={href} class="award-group__item-fest">{festName(wa)}</a>
+                              : <span>{festName(wa)}</span>
+                            }
+                            {wa.year && ` · ${wa.year}`}
+                          </span>
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     )}
@@ -507,16 +621,46 @@ if (person.profile_path) {
   border-bottom: 1px solid var(--surface-border);
 }
 
+.person-bio__subtitle {
+  font-size: 0.72rem;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  max-width: 65ch;
+}
+
 .person-bio__para {
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1.0625rem;
+  line-height: 1.75;
   color: var(--text-secondary);
-  max-width: 680px;
+  max-width: 65ch;
   margin-bottom: 1.25em;
 }
-.person-bio__para:last-child { margin-bottom: 0; }
+.person-bio__para:last-of-type { margin-bottom: 0; }
 
-/* ── Awards ── */
+.person-bio__full {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  margin-top: 1.25em;
+}
+
+.person-bio__toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  color: #C98A2E;
+  cursor: pointer;
+  transition: opacity 160ms ease;
+}
+.person-bio__toggle:hover { opacity: 0.75; }
+
+/* ── Awards grouped by film ── */
 .person-awards {
   padding: 3rem 0;
   border-bottom: 1px solid var(--surface-border);
@@ -534,108 +678,137 @@ if (person.profile_path) {
   border-bottom: 1px solid var(--surface-border);
 }
 
-.person-awards__wins {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.625rem;
+.award-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.person-award-card {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.875rem 1rem;
-  background: var(--surface-card);
+.award-group {
   border: 1px solid var(--surface-border);
-  border-left: 3px solid var(--tc, var(--surface-border-strong));
   border-radius: 4px;
+  overflow: hidden;
 }
 
-.person-award-card__logo {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  flex-shrink: 0;
-  filter: invert(1) brightness(1.8);
-  opacity: 0.85;
-}
-
-.person-award-card__monogram {
-  width: 28px;
-  height: 28px;
+.award-group__header {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  font-weight: 700;
-  color: #C98A2E;
+  gap: 0.875rem;
+  padding: 0.75rem 1rem;
+  background: var(--surface-card);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 160ms ease;
+}
+.award-group__header:hover { background: var(--surface-elevated); }
+.award-group__header[aria-expanded="true"] { border-bottom: 1px solid var(--surface-border); }
+
+.award-group__poster {
+  width: 32px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 2px;
   flex-shrink: 0;
 }
 
-.person-award-card__body {
+.award-group__film-info {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  min-width: 0;
-  flex: 1;
 }
 
-.person-award-card__name {
+.award-group__film-title {
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.person-award-card__meta {
-  font-size: 0.72rem;
+.award-group__counts {
+  font-size: 0.68rem;
   color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.award-group__chevron {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: transform 220ms ease;
+  line-height: 1;
+}
+.award-group__header[aria-expanded="true"] .award-group__chevron {
+  transform: rotate(90deg);
+}
+
+.award-group__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: var(--surface-bg);
+}
+
+.award-group__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem;
+  border-bottom: 1px solid var(--surface-border);
+  border-left: 3px solid var(--tc, var(--surface-border));
+}
+.award-group__item:last-child { border-bottom: none; }
+
+.award-group__badge {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.award-group__badge--win {
+  background: color-mix(in srgb, #C98A2E 18%, transparent);
+  color: #C98A2E;
+}
+.award-group__badge--nom {
+  background: color-mix(in srgb, var(--text-muted) 12%, transparent);
+  color: var(--text-muted);
+}
+
+.award-group__item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.award-group__item-name {
+  font-size: 0.825rem;
+  color: var(--text-secondary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.person-award-card__film {
-  color: var(--text-secondary);
-  text-decoration: none;
-  transition: color 120ms ease;
+.award-group__item-meta {
+  font-size: 0.68rem;
+  color: var(--text-muted);
 }
-.person-award-card__film:hover { color: var(--text-primary); }
 
-.person-award-card__fest {
+.award-group__item-fest {
   color: var(--text-muted);
   text-decoration: none;
   transition: color 120ms ease;
 }
-.person-award-card__fest:hover { color: var(--text-secondary); }
-
-/* Nominations list (shown only if no wins) */
-.person-noms-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.person-nom-row {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid var(--surface-border);
-  font-size: 0.825rem;
-}
-
-.person-nom-row__name { color: var(--text-secondary); }
-.person-nom-row__sep  { color: var(--text-muted); font-size: 0.7rem; }
-.person-nom-row__film { color: var(--text-secondary); text-decoration: none; }
-.person-nom-row__film:hover { color: var(--text-primary); }
-.person-nom-row__fest { color: var(--text-muted); text-decoration: none; }
-.person-nom-row__year { font-size: 0.72rem; color: var(--text-muted); margin-left: auto; }
+.award-group__item-fest:hover { color: var(--text-secondary); }
 
 /* ── Color signature ── */
 .person-colors {
@@ -783,6 +956,44 @@ if (person.profile_path) {
   .person-awards__wins { grid-template-columns: 1fr; }
 }
 
+/* ── Photo strip ── */
+.person-photos {
+  padding: 1rem 0 0;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.person-photos__strip {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 1rem;
+}
+.person-photos__strip::-webkit-scrollbar { display: none; }
+
+.person-photos__thumb {
+  flex-shrink: 0;
+  height: 160px;
+  aspect-ratio: 2 / 3;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--surface-card);
+  display: block;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.person-photos__thumb:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+.person-photos__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 /* ── Empty state ── */
 .person-empty {
   padding: 4rem 0;
@@ -795,3 +1006,33 @@ if (person.profile_path) {
   font-style: italic;
 }
 </style>
+
+<script is:inline>
+(function () {
+  // Bio toggle
+  var toggle = document.getElementById('bio-toggle');
+  var bioShort = document.getElementById('bio-short');
+  var bioFull = document.getElementById('bio-full');
+  if (toggle && bioFull) {
+    toggle.addEventListener('click', function () {
+      var expanded = !bioFull.hidden;
+      bioFull.hidden = expanded;
+      if (bioShort) bioShort.style.display = expanded ? '' : 'none';
+      toggle.textContent = expanded ? 'Leer más' : 'Leer menos';
+    });
+  }
+
+  // Award group collapsible
+  document.querySelectorAll('.award-group__header').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var group = btn.closest('.award-group');
+      if (!group) return;
+      var list = group.querySelector('.award-group__list');
+      if (!list) return;
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+      list.hidden = open;
+    });
+  });
+})();
+</script>

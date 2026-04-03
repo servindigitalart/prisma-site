@@ -1,7 +1,7 @@
 /* empty css                                     */
 import { e as createAstro, f as createComponent, k as renderComponent, r as renderTemplate, h as addAttribute, m as maybeRenderHead } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_BW8MRUf7.mjs';
 import { c as createSupabaseServerClient } from '../../chunks/server_Cbvb-X7K.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
 import { P as PRISMA_PALETTE } from '../../chunks/colorPalette_MBD9-pHi.mjs';

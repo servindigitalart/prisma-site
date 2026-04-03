@@ -91,6 +91,7 @@ export interface Person {
   tmdb_id: number | null;
   wikidata_id: string | null;
   profile_path: string | null;
+  gender: number | null;
   updated_at: string;
 }
 

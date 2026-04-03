@@ -1,6 +1,6 @@
 import { renderers } from './renderers.mjs';
 import { c as createExports, s as serverEntrypointModule } from './chunks/_@astrojs-ssr-adapter_Di8k0pxs.mjs';
-import { manifest } from './manifest_Bu9ZMq77.mjs';
+import { manifest } from './manifest_oQ1VnXST.mjs';
 
 const serverIslandMap = new Map();;
 
@@ -35,21 +35,23 @@ const _page27 = () => import('./pages/colors.astro.mjs');
 const _page28 = () => import('./pages/countries/_slug_.astro.mjs');
 const _page29 = () => import('./pages/countries.astro.mjs');
 const _page30 = () => import('./pages/decades/_decade_.astro.mjs');
-const _page31 = () => import('./pages/festivals/_slug_.astro.mjs');
-const _page32 = () => import('./pages/festivals.astro.mjs');
-const _page33 = () => import('./pages/ficha/_token_.astro.mjs');
-const _page34 = () => import('./pages/films/_slug_.astro.mjs');
-const _page35 = () => import('./pages/people/_slug_.astro.mjs');
-const _page36 = () => import('./pages/people.astro.mjs');
-const _page37 = () => import('./pages/rankings/films.astro.mjs');
-const _page38 = () => import('./pages/ritmo/_slug_.astro.mjs');
-const _page39 = () => import('./pages/share/_work_id_.astro.mjs');
-const _page40 = () => import('./pages/sitemap.xml.astro.mjs');
-const _page41 = () => import('./pages/studios/_slug_.astro.mjs');
-const _page42 = () => import('./pages/submit.astro.mjs');
-const _page43 = () => import('./pages/temperatura/_slug_.astro.mjs');
-const _page44 = () => import('./pages/u/_id_.astro.mjs');
-const _page45 = () => import('./pages/index.astro.mjs');
+const _page31 = () => import('./pages/decades.astro.mjs');
+const _page32 = () => import('./pages/explorar.astro.mjs');
+const _page33 = () => import('./pages/festivals/_slug_.astro.mjs');
+const _page34 = () => import('./pages/festivals.astro.mjs');
+const _page35 = () => import('./pages/ficha/_token_.astro.mjs');
+const _page36 = () => import('./pages/films/_slug_.astro.mjs');
+const _page37 = () => import('./pages/people/_slug_.astro.mjs');
+const _page38 = () => import('./pages/people.astro.mjs');
+const _page39 = () => import('./pages/rankings/films.astro.mjs');
+const _page40 = () => import('./pages/ritmo/_slug_.astro.mjs');
+const _page41 = () => import('./pages/share/_work_id_.astro.mjs');
+const _page42 = () => import('./pages/sitemap.xml.astro.mjs');
+const _page43 = () => import('./pages/studios/_slug_.astro.mjs');
+const _page44 = () => import('./pages/submit.astro.mjs');
+const _page45 = () => import('./pages/temperatura/_slug_.astro.mjs');
+const _page46 = () => import('./pages/u/_id_.astro.mjs');
+const _page47 = () => import('./pages/index.astro.mjs');
 const pageMap = new Map([
     ["node_modules/astro/dist/assets/endpoint/generic.js", _page0],
     ["src/pages/abstraccion/[slug].astro", _page1],
@@ -82,21 +84,23 @@ const pageMap = new Map([
     ["src/pages/countries/[slug].astro", _page28],
     ["src/pages/countries/index.astro", _page29],
     ["src/pages/decades/[decade].astro", _page30],
-    ["src/pages/festivals/[slug].astro", _page31],
-    ["src/pages/festivals/index.astro", _page32],
-    ["src/pages/ficha/[token].astro", _page33],
-    ["src/pages/films/[slug].astro", _page34],
-    ["src/pages/people/[slug].astro", _page35],
-    ["src/pages/people/index.astro", _page36],
-    ["src/pages/rankings/films.astro", _page37],
-    ["src/pages/ritmo/[slug].astro", _page38],
-    ["src/pages/share/[work_id].astro", _page39],
-    ["src/pages/sitemap.xml.ts", _page40],
-    ["src/pages/studios/[slug].astro", _page41],
-    ["src/pages/submit.astro", _page42],
-    ["src/pages/temperatura/[slug].astro", _page43],
-    ["src/pages/u/[id].astro", _page44],
-    ["src/pages/index.astro", _page45]
+    ["src/pages/decades/index.astro", _page31],
+    ["src/pages/explorar/index.astro", _page32],
+    ["src/pages/festivals/[slug].astro", _page33],
+    ["src/pages/festivals/index.astro", _page34],
+    ["src/pages/ficha/[token].astro", _page35],
+    ["src/pages/films/[slug].astro", _page36],
+    ["src/pages/people/[slug].astro", _page37],
+    ["src/pages/people/index.astro", _page38],
+    ["src/pages/rankings/films.astro", _page39],
+    ["src/pages/ritmo/[slug].astro", _page40],
+    ["src/pages/share/[work_id].astro", _page41],
+    ["src/pages/sitemap.xml.ts", _page42],
+    ["src/pages/studios/[slug].astro", _page43],
+    ["src/pages/submit.astro", _page44],
+    ["src/pages/temperatura/[slug].astro", _page45],
+    ["src/pages/u/[id].astro", _page46],
+    ["src/pages/index.astro", _page47]
 ]);
 
 const _manifest = Object.assign(manifest, {
@@ -107,7 +111,7 @@ const _manifest = Object.assign(manifest, {
     middleware: () => import('./_astro-internal_middleware.mjs')
 });
 const _args = {
-    "middlewareSecret": "be603182-4003-45a5-8a7b-6afabb416ac3",
+    "middlewareSecret": "83756560-00e3-4d77-9d22-e16a1159d8f3",
     "skewProtection": false
 };
 const _exports = createExports(_manifest, _args);

@@ -1,7 +1,7 @@
 /* empty css                                  */
 import { f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute } from '../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../chunks/BaseLayout_CKaj1kxH.mjs';
+import { $ as $$BaseLayout } from '../chunks/BaseLayout_BW8MRUf7.mjs';
 import { i as isSupabaseConfigured, c as createServiceClient } from '../chunks/client_DzNyPYKT.mjs';
 import { c as countryToSlug, a as isoToFlag, i as isoToName } from '../chunks/countries_xwzpexnz.mjs';
 import { l as loadAllWorks } from '../chunks/loadWork_B0uYB5uV.mjs';

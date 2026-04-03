@@ -1,7 +1,7 @@
 /* empty css                                        */
 import { e as createAstro, f as createComponent, r as renderTemplate, n as defineScriptVars, k as renderComponent, m as maybeRenderHead, h as addAttribute, o as Fragment } from '../../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
-import { $ as $$BaseLayout } from '../../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { $ as $$BaseLayout } from '../../../chunks/BaseLayout_BW8MRUf7.mjs';
 import { r as requireAdmin } from '../../../chunks/admin_DmZOtt0Z.mjs';
 import { c as createServiceClient } from '../../../chunks/client_DzNyPYKT.mjs';
 /* empty css                                      */

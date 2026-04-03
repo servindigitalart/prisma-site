@@ -491,6 +491,7 @@ export type Database = {
           bio: string | null
           birth_year: number | null
           death_year: number | null
+          gender: number | null
           id: string
           name: string
           nationality: string[] | null
@@ -504,6 +505,7 @@ export type Database = {
           bio?: string | null
           birth_year?: number | null
           death_year?: number | null
+          gender?: number | null
           id: string
           name: string
           nationality?: string[] | null
@@ -517,6 +519,7 @@ export type Database = {
           bio?: string | null
           birth_year?: number | null
           death_year?: number | null
+          gender?: number | null
           id?: string
           name?: string
           nationality?: string[] | null

@@ -1,0 +1,194 @@
+/**
+ * design-system/tokens.css
+ * ────────────────────────
+ * PRISMA Design Tokens — Single source of truth for all CSS custom properties.
+ *
+ * Reference citations:
+ *   BG-VOID   → a24films.com visual-density.json: bg observed ~#0a0a0a, density 20/100
+ *   BG-SCALE  → colorsxstudios.com: "dark theme + generous whitespace", whitespace_ratio 0.848
+ *   SERIF     → lwlies.co + a24films.com premium-patterns: "editorial-serif-headings"
+ *   SANS      → mubi.com + a24films.com: "clean-modern", Swiss design influence
+ *   MOTION    → lecinemaclub.com: "dramatic intensity, balanced transition, simultaneous timing"
+ *   COLOR-INJ → colorsxstudios.com premium-patterns: "gradient-design, clip-path-shapes"
+ *   SPACING   → a24films.com visual-density.json: avg_section_height 2457px, whitespace 0.806
+ *   CARDS     → a24films.com premium-patterns: "elevated-shadow, rounded-cards"
+ */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   1. BACKGROUND SCALE
+   Source: a24films.com visual-density.json (bg #0a0a0a inferred from dark-theme
+   density score 20, whitespace 0.806); colorsxstudios.com whitespace_ratio 0.848
+   "minimal dark editorial" — pure void as ground, never grey-washed
+   ───────────────────────────────────────────────────────────────────────────── */
+:root {
+  --bg-void:      #0A0A0F;   /* absolute ground — A24 + ColorsxStudios bg base */
+  --bg-base:      #0D0D0F;   /* page body — 1 step above void */
+  --bg-raised:    #111114;   /* cards, panels — subtle lift */
+  --bg-elevated:  #1A1A20;   /* modals, dropdowns — clearly above base */
+  --bg-overlay:   #242430;   /* hover states, selected items */
+
+  /* Backward-compatible aliases (used in existing components) */
+  --surface-bg:              var(--bg-base);
+  --surface-elevated:        var(--bg-raised);
+  --surface-card:            var(--bg-elevated);
+  --surface-border:          rgba(255, 255, 255, 0.07);
+  --surface-border-strong:   rgba(255, 255, 255, 0.14);
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   2. TEXT SCALE
+   Source: lecinemaclub.com premium-patterns: "High-contrast-typography"
+   a24films.com: "high-contrast color palette — black/white primary"
+   ───────────────────────────────────────────────────────────────────────────── */
+  --text-primary:    #F0EEE8;   /* warm near-white — not pure #fff (too cold) */
+  --text-secondary:  #A8A49C;   /* body/secondary — stepped down */
+  --text-muted:      #6B6860;   /* metadata, labels */
+  --text-ghost:      #3A3832;   /* disabled, placeholder */
+  --text-accent:     #D4C9A8;   /* warm parchment — editorial highlights */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   3. PRISMA DYNAMIC COLOR VARIABLES
+   Source: colorsxstudios.com premium-patterns: "gradient-design, clip-path-shapes"
+   — color is injected at runtime via activatePrismaColor() in color-system.ts
+   These are the primary mechanism by which film identity bleeds into the UI.
+   ───────────────────────────────────────────────────────────────────────────── */
+  --prisma-color:        #1B2A41;   /* default: azul_nocturno — overridden per film */
+  --prisma-color-mid:    color-mix(in srgb, var(--prisma-color) 55%, #0D0D0F);
+  --prisma-color-dim:    color-mix(in srgb, var(--prisma-color) 25%, #0D0D0F);
+  --prisma-color-ghost:  color-mix(in srgb, var(--prisma-color) 10%, transparent);
+  --prisma-color-glow:   color-mix(in srgb, var(--prisma-color) 35%, transparent);
+  --prisma-color-border: color-mix(in srgb, var(--prisma-color) 30%, transparent);
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   4. ALL 18 PRISMA ICONIC COLORS
+   Source: src/lib/color/colorPalette.ts — exact slugs and hex values preserved
+   ───────────────────────────────────────────────────────────────────────────── */
+  --color-rojo-pasional:         #8E1B1B;
+  --color-naranja-apocaliptico:  #C4471D;
+  --color-ambar-desertico:       #C98A2E;
+  --color-amarillo-ludico:       #F2C94C;
+  --color-verde-lima:            #7BC96F;
+  --color-verde-esmeralda:       #1F7A5C;
+  --color-verde-distopico:       #2F4F3E;
+  --color-cian-melancolico:      #4A7C8C;
+  --color-azul-nocturno:         #1B2A41;
+  --color-violeta-cinetico:      #5B3FA4;
+  --color-purpura-onirico:       #7A3E6D;
+  --color-magenta-pop:           #D63384;
+  --color-blanco-polar:          #E8EEF2;
+  --color-negro-abismo:          #0A0A0F;
+  --color-titanio-mecanico:      #8A9199;
+  --color-rosa-pastel:           #F4A7B9;
+  --color-claroscuro-dramatico:  #1A1A1A;
+  --color-monocromatico-intimo:  #4A4A4A;
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   5. TYPOGRAPHY
+   Source: lwlies.co + a24films.com: "editorial-serif-headings" (both cite serif)
+   a24films.com premium-summary: "Playfair Display or similar classic serif"
+   mubi.com premium-summary: "Swiss design influence" → clean geometric sans
+   Existing site already uses DM Serif Display + Inter — confirmed correct.
+   ───────────────────────────────────────────────────────────────────────────── */
+  --font-serif:   'DM Serif Display', 'Georgia', 'Times New Roman', serif;
+  --font-sans:    'Inter', 'system-ui', '-apple-system', sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Type scale — modular scale 1.25 (Major Third) */
+  --text-xs:    0.64rem;   /*  ~10px */
+  --text-sm:    0.75rem;   /*  ~12px */
+  --text-base:  0.875rem;  /*  ~14px */
+  --text-md:    1rem;      /*  ~16px */
+  --text-lg:    1.25rem;   /*  ~20px */
+  --text-xl:    1.563rem;  /*  ~25px */
+  --text-2xl:   1.953rem;  /*  ~31px */
+  --text-3xl:   2.441rem;  /*  ~39px */
+  --text-4xl:   3.052rem;  /*  ~49px */
+  --text-display: clamp(3rem, 8vw, 6rem);   /* film titles, monumental numbers */
+  --text-hero:    clamp(2.5rem, 6.5vw, 5.25rem);
+
+  /* Letter spacing */
+  --tracking-tight:  -0.02em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.06em;
+  --tracking-wider:   0.12em;
+  --tracking-widest:  0.18em;
+
+  /* Font weights */
+  --weight-light:   300;
+  --weight-normal:  400;
+  --weight-medium:  500;
+  --weight-semi:    600;
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   6. SPACING SCALE
+   Source: a24films.com visual-density.json: avg_section_height 2457px,
+   content_width_pct 61.9, whitespace_ratio 0.806 — demands a generous scale
+   ───────────────────────────────────────────────────────────────────────────── */
+  --space-1:   0.25rem;   /*  4px */
+  --space-2:   0.5rem;    /*  8px */
+  --space-3:   0.75rem;   /* 12px */
+  --space-4:   1rem;      /* 16px */
+  --space-5:   1.5rem;    /* 24px */
+  --space-6:   2rem;      /* 32px */
+  --space-7:   2.5rem;    /* 40px */
+  --space-8:   3rem;      /* 48px */
+  --space-10:  4rem;      /* 64px */
+  --space-12:  5rem;      /* 80px */
+  --space-16:  7rem;      /* 112px */
+  --space-20:  9rem;      /* 144px */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   7. GRID SYSTEM
+   Source: a24films.com: content_width_pct 61.9, mixed-widths
+   ColorsxStudios: full-width-sections
+   ───────────────────────────────────────────────────────────────────────────── */
+  --grid-max:       1280px;
+  --grid-content:    860px;
+  --grid-narrow:     640px;
+  --grid-gutter:       2rem;
+  --grid-gutter-sm:    1rem;
+  --grid-cols:         12;
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   8. ANIMATION EASINGS & DURATIONS
+   Source: lecinemaclub.com design-notes: "dramatic intensity, balanced transition,
+   simultaneous timing, css-keyframe-animations"
+   a24films.com: "scroll-reveal, dramatic intensity, simultaneous" 5 delayed elements
+   ColorsxStudios: "css-keyframe-animations, dramatic intensity"
+   ───────────────────────────────────────────────────────────────────────────── */
+  --ease-editorial:  cubic-bezier(0.25, 0.46, 0.45, 0.94);  /* LeCC "balanced transition" */
+  --ease-out-expo:   cubic-bezier(0.16, 1, 0.3, 1);          /* dramatic entrances */
+  --ease-in-out:     cubic-bezier(0.4, 0, 0.2, 1);           /* standard UI transitions */
+  --ease-spring:     cubic-bezier(0.34, 1.56, 0.64, 1);      /* playful reveal */
+
+  --dur-instant:   80ms;    /* micro interactions */
+  --dur-fast:     160ms;    /* hover states — A24 transform-transition */
+  --dur-base:     280ms;    /* standard transitions */
+  --dur-slow:     480ms;    /* page enters, large reveals */
+  --dur-crawl:    700ms;    /* cinematic entrance — LeCC "dramatic" */
+
+  /* Backward-compatible aliases */
+  --duration-fast:  var(--dur-fast);
+  --duration-base:  var(--dur-base);
+  --duration-slow:  var(--dur-slow);
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   9. BORDERS & SHADOWS
+   Source: a24films.com premium-patterns: "elevated-shadow, rounded-cards, glassmorphism"
+   ColorsxStudios premium-patterns: "glassmorphism, blur-backdrop"
+   ───────────────────────────────────────────────────────────────────────────── */
+  --radius-sm:   3px;
+  --radius-md:   6px;
+  --radius-lg:   10px;
+  --radius-xl:   16px;
+  --radius-pill: 100px;
+
+  --shadow-card:   0 2px 12px rgba(0, 0, 0, 0.35);
+  --shadow-raised: 0 6px 24px rgba(0, 0, 0, 0.45);
+  --shadow-modal:  0 16px 48px rgba(0, 0, 0, 0.65);
+  --shadow-glow:   0 0 40px var(--prisma-color-glow);  /* color-injected ambient glow */
+
+  /* Glassmorphism — A24 + ColorsxStudios "glassmorphism" pattern */
+  --glass-bg:     rgba(13, 13, 15, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur:   12px;
+}

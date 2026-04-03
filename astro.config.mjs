@@ -56,8 +56,8 @@ export default defineConfig({
     // Allow images from TMDB CDN and Supabase Storage
     domains: [
       "image.tmdb.org",
-      // Supabase Storage domain (replaced by your project ID at setup)
-      // e.g. "abcdefghijklmnop.supabase.co"
+      "porqyokkphflvqfclvkj.supabase.co",
+      "lh3.googleusercontent.com",
     ],
     // Vercel image optimization handles remote images via the adapter
     // Set fallback service for local dev

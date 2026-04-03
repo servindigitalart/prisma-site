@@ -1,0 +1,181 @@
+{
+  "url": "https://www.criterion.com/",
+  "site_name": "Just a moment...",
+  "design_style": {
+    "primary_style": "Minimal security verification page",
+    "secondary_style": "N/A",
+    "visual_density": "balanced",
+    "whitespace_usage": "tight",
+    "typography_prominence": "balanced",
+    "color_contrast": "medium",
+    "layout_complexity": "simple",
+    "mood": "Neutral, functional",
+    "design_era": "Contemporary, 2020s"
+  },
+  "animation_strategy": {
+    "overall_approach": "Simple loading animation",
+    "detected_techniques": [
+      "css-keyframe-animations"
+    ],
+    "detected_libraries": [],
+    "scroll_behavior": "standard",
+    "entrance_animations": [
+      "none-detected"
+    ],
+    "hover_interactions": [
+      "standard-transitions"
+    ],
+    "transition_style": "cinematic",
+    "motion_intensity": "subtle"
+  },
+  "imagery_strategy": {
+    "primary_approach": "Logo-centric",
+    "image_types": [
+      "product-renders"
+    ],
+    "hero_imagery": "text-only",
+    "background_treatment": "image-backgrounds",
+    "icon_style": "font-awesome",
+    "media_density": "text-dominant",
+    "visual_effects": [
+      "glow-shadows"
+    ]
+  },
+  "layout_rhythm": {
+    "hero_type": "full-screen-text",
+    "section_sequence": [
+      "gallery",
+      "hero",
+      "features",
+      "cta",
+      "stats"
+    ],
+    "spacing_rhythm": "insufficient-data",
+    "content_width_pattern": "unknown",
+    "section_count": 0,
+    "vertical_rhythm": "unknown",
+    "page_flow_narrative": "Presents website address, a verification message, and a loading indicator."
+  },
+  "premium_signals": {
+    "detected_patterns": [
+      "editorial-serif-headings",
+      "dark-theme",
+      "section-dividers"
+    ],
+    "navigation_pattern": "standard",
+    "typography_pattern": "clean-modern",
+    "card_patterns": [
+      "elevated-shadow"
+    ],
+    "cta_style": "standard",
+    "footer_style": "minimal-or-none",
+    "special_effects": [],
+    "premium_score": 45
+  },
+  "executive_summary": "The design is a minimal security verification page. Its simplicity, clear messaging, and use of loading animation contribute to its functionality. This is a utilitarian design prioritizing information and user experience. The brand is clearly represented by including the logo.",
+  "inspiration_takeaways": [
+    "Clear and concise messaging",
+    "Simple loading indicator",
+    "Minimalist design",
+    "Focus on function over aesthetics",
+    "Use of brand logo"
+  ],
+  "replication_notes": "To replicate this design, use a clean sans-serif typeface for the heading and body text. Keep the color palette minimal, with dark text on a white background. Use a simple loading animation that indicates progress. Ensure the layout is well-spaced and easy to read.",
+  "section_screenshots": null,
+  "animation_timeline": {
+    "pattern": "none",
+    "total_animated_elements": 4,
+    "elements_with_delay": 0,
+    "timing_groups": [
+      {
+        "delay_ms": 0,
+        "count": 4,
+        "elements": [
+          "div",
+          "div",
+          "div",
+          "div"
+        ]
+      }
+    ],
+    "stagger_sequences": [],
+    "min_delay_ms": 0.0,
+    "max_delay_ms": 0.0,
+    "avg_delay_ms": 0.0
+  },
+  "navigation_style": {
+    "style": "transparent-static",
+    "behavior": "static",
+    "is_fixed": false,
+    "is_transparent": true,
+    "has_backdrop_blur": false,
+    "has_shadow": false,
+    "has_logo": false,
+    "link_count": 0,
+    "height_px": 0,
+    "background_color": "",
+    "backdrop_filter": "",
+    "box_shadow": "",
+    "z_index": "auto"
+  },
+  "visual_density": {
+    "density_score": 50,
+    "density_label": "balanced",
+    "whitespace_ratio": 0.5,
+    "elements_per_viewport": 0.0,
+    "avg_section_height_px": 0.0,
+    "content_width_pct": 100.0,
+    "section_count": 0,
+    "total_page_height_px": 0.0
+  },
+  "design_notes_md": "# \ud83c\udfa8 Design Notes \u2014 Just a moment...\n\n> **URL:** https://www.criterion.com/  \n> **Style:** Minimal security verification page  \n> **Premium Score:** 45/100 (Standard)\n\n## Quick Profile\n\n| Trait | Value |\n|---|---|\n| Mood | Neutral, functional |\n| Era | Contemporary, 2020s |\n| Contrast | medium |\n| Whitespace | tight |\n| Complexity | simple |\n| Density | balanced (50/100) |\n| Whitespace Ratio | 0.5 |\n\n## Typography & Colour\n\n- **Typography prominence:** balanced\n- **Typography pattern:** clean-modern\n- **Colour contrast:** medium\n- \ud83c\udf11 **Dark theme** detected\n\n## Layout & Rhythm\n\n- **Hero type:** full-screen-text\n- **Section count:** 0\n- **Spacing rhythm:** insufficient-data\n- **Content width:** unknown\n- **Vertical rhythm:** unknown\n\n**Section flow:** `gallery \u2192 hero \u2192 features \u2192 cta \u2192 stats`\n\n> Presents website address, a verification message, and a loading indicator.\n\n## Navigation\n\n- **Pattern (basic):** standard\n- **Style:** transparent-static\n- **Behaviour:** static\n- **Fixed:** no\n- **Backdrop blur:** no\n- **Shadow:** no\n- **Links:** 0\n- **Logo:** no\n\n## Animation & Motion\n\n- **Approach:** Simple loading animation\n- **Intensity:** subtle\n- **Transition style:** cinematic\n- **Techniques:** css-keyframe-animations\n\n### Timing Pattern: **none**\n\n- Animated elements: 4\n- Elements with delay: 0\n\n## \ud83c\udfac Motion Capture\n\n- **Animation groups detected:** 1\n- **Techniques:** lds-ring\n- **Types:** keyframe\n\n### Animation Groups\n\n- \u25cf **keyframe-lds-ring** \u2014 keyframe / `lds-ring` (trigger: page-load)\n  - Selectors: `div`\n\n## Imagery\n\n- **Primary approach:** Logo-centric\n- **Hero:** text-only\n- **Background:** image-backgrounds\n- **Icons:** font-awesome\n- **Density:** text-dominant\n- **Effects:** glow-shadows\n\n## \ud83d\uddbc Media Intelligence\n\n- **Hero media:** text-only\n- **Media density:** unknown\n- **Images detected:** 0\n- **Videos detected:** 0\n- **SVGs detected:** 0\n- **Icon library:** Font Awesome\n\n## Premium Patterns\n\n- editorial-serif-headings\n- dark-theme\n- section-dividers\n\n**Card styles:** elevated-shadow\n\n**CTA style:** standard\n**Footer style:** minimal-or-none\n\n## Key Takeaways\n\n1. Clear and concise messaging\n2. Simple loading indicator\n3. Minimalist design\n4. Focus on function over aesthetics\n5. Use of brand logo\n\n---\n\n*Generated by UX Analyzer \u2014 Design Intelligence Engine*",
+  "media_report": {
+    "images": [],
+    "videos": [],
+    "svg_summary": {
+      "total_svgs": 0,
+      "icon_system": "none",
+      "detected_library": "Font Awesome"
+    },
+    "hero_media_type": "text-only",
+    "total_images": 0,
+    "total_videos": 0,
+    "total_svgs": 0,
+    "media_density_label": "unknown"
+  },
+  "scroll_capture": null,
+  "motion_capture": {
+    "animation_groups": [
+      {
+        "id": "keyframe-lds-ring",
+        "type": "keyframe",
+        "technique": "lds-ring",
+        "trigger": "page-load",
+        "selectors": [
+          "div"
+        ],
+        "section_index": 0,
+        "priority": 2
+      }
+    ],
+    "recorded_gifs": [
+      {
+        "group_id": "keyframe-lds-ring",
+        "gif_size_bytes": 0,
+        "frame_count": 15
+      }
+    ],
+    "total_gifs": 0,
+    "total_frames": 15,
+    "total_gif_bytes": 0,
+    "techniques_detected": [
+      "lds-ring"
+    ],
+    "animation_types": [
+      "keyframe"
+    ],
+    "capture_time_ms": 5873
+  },
+  "interaction_capture": null,
+  "animation_stack": null
+}

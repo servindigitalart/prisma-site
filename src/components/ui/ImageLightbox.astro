@@ -1,0 +1,178 @@
+---
+interface Props {
+  images: Array<{ src: string; alt?: string }>;
+  id?: string;
+}
+const { images, id = 'lightbox' } = Astro.props;
+---
+
+{images.length > 0 && (
+  <div
+    class="lightbox-overlay"
+    id={id}
+    role="dialog"
+    aria-modal="true"
+    aria-label="Vista de imagen"
+    hidden
+  >
+    <button class="lightbox-close" aria-label="Cerrar" data-lightbox-close>✕</button>
+    <button class="lightbox-prev" aria-label="Anterior" data-lightbox-prev>‹</button>
+    <button class="lightbox-next" aria-label="Siguiente" data-lightbox-next>›</button>
+    <div class="lightbox-img-wrap">
+      <img class="lightbox-img" src="" alt="" id={`${id}-img`} />
+    </div>
+    <div class="lightbox-counter" id={`${id}-counter`}></div>
+  </div>
+)}
+
+<script is:inline define:vars={{ images, id }}>
+(function () {
+  var overlay = document.getElementById(id);
+  if (!overlay) return;
+
+  var img = document.getElementById(id + '-img');
+  var counter = document.getElementById(id + '-counter');
+  var current = 0;
+
+  function open(index) {
+    current = index;
+    show();
+    overlay.hidden = false;
+    overlay.focus();
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  function show() {
+    var entry = images[current];
+    if (img) { img.src = entry.src; img.alt = entry.alt || ''; }
+    if (counter) counter.textContent = (current + 1) + ' / ' + images.length;
+    overlay.querySelector('[data-lightbox-prev]').disabled = (current === 0);
+    overlay.querySelector('[data-lightbox-next]').disabled = (current >= images.length - 1);
+  }
+
+  overlay.querySelector('[data-lightbox-close]').addEventListener('click', close);
+  overlay.querySelector('[data-lightbox-prev]').addEventListener('click', function () {
+    if (current > 0) { current--; show(); }
+  });
+  overlay.querySelector('[data-lightbox-next]').addEventListener('click', function () {
+    if (current < images.length - 1) { current++; show(); }
+  });
+
+  // Click outside image closes
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) close();
+  });
+
+  // Keyboard
+  document.addEventListener('keydown', function (e) {
+    if (overlay.hidden) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft' && current > 0) { current--; show(); }
+    if (e.key === 'ArrowRight' && current < images.length - 1) { current++; show(); }
+  });
+
+  // Expose open function on the overlay element
+  overlay._lightboxOpen = open;
+})();
+</script>
+
+<style>
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: lb-fade-in 200ms ease both;
+}
+
+@keyframes lb-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.lightbox-img-wrap {
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 3px;
+  display: block;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 50%;
+  color: #F0EEE8;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+  z-index: 2;
+}
+.lightbox-close:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 3px;
+  color: #F0EEE8;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+  z-index: 2;
+  line-height: 1;
+}
+.lightbox-prev { left: 1.25rem; }
+.lightbox-next { right: 1.25rem; }
+.lightbox-prev:hover,
+.lightbox-next:hover { background: rgba(255,255,255,0.2); color: #fff; }
+.lightbox-prev:disabled,
+.lightbox-next:disabled { opacity: 0.25; cursor: not-allowed; }
+
+.lightbox-counter {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  color: rgba(240,238,232,0.5);
+  letter-spacing: 0.08em;
+}
+</style>

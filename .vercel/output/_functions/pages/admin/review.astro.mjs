@@ -2,7 +2,7 @@
 import { f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute } from '../../chunks/astro/server_DZETslqp.mjs';
 import 'piccolore';
 import { c as createServiceClient } from '../../chunks/client_DzNyPYKT.mjs';
-import { $ as $$BaseLayout } from '../../chunks/BaseLayout_CKaj1kxH.mjs';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_BW8MRUf7.mjs';
 /* empty css                                     */
 export { renderers } from '../../renderers.mjs';
 

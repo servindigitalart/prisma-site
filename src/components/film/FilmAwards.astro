@@ -9,30 +9,8 @@ interface Props {
 
 const { work } = Astro.props;
 
-// Only renders for Supabase-backed works that have work_awards rows
 if (!('work_awards' in work) || !Array.isArray(work.work_awards) || work.work_awards.length === 0) {
   return;
-}
-
-// ── Acting award inference ─────────────────────────────────────────────────
-// Cast sorted by billing_order (top-billed first) — approximation until person_id is populated
-type CastEntry = { name: string; billing_order: number | null };
-const castMembers: CastEntry[] =
-  'work_people' in work && Array.isArray((work as any).work_people)
-    ? (work as any).work_people
-        .filter((wp: any) => wp.role === 'actor')
-        .sort((a: any, b: any) => (a.billing_order ?? 999) - (b.billing_order ?? 999))
-        .map((wp: any) => ({ name: wp.people.name, billing_order: wp.billing_order }))
-    : [];
-
-const ACTING_PATTERNS = [
-  'best actor', 'best actress', 'best supporting actor', 'best supporting actress',
-  'best performance', 'volpi cup', 'best male', 'best female', 'best lead',
-];
-function inferActingActor(awardName: string): string | null {
-  const lower = awardName.toLowerCase();
-  if (!ACTING_PATTERNS.some(p => lower.includes(p))) return null;
-  return castMembers[0]?.name ?? null;
 }
 
 type AwardRow = {
@@ -53,17 +31,47 @@ type AwardRow = {
 
 const allAwards = work.work_awards as AwardRow[];
 
-const TIER_ORDER: Record<string, number> = { A: 0, B: 1, C: 2, D: 3 };
+// ── Group by award_id ────────────────────────────────────────────────────────
+type AwardGroup = {
+  award_id: string;
+  name: string;
+  organization: string;
+  tier: string | null;
+  festivals: FestivalMini | null;
+  wins: AwardRow[];
+  noms: AwardRow[];
+};
 
-function sortFn(a: AwardRow, b: AwardRow) {
-  const ta = TIER_ORDER[a.awards?.festivals?.tier ?? a.awards?.tier ?? 'C'] ?? 3;
-  const tb = TIER_ORDER[b.awards?.festivals?.tier ?? b.awards?.tier ?? 'C'] ?? 3;
-  if (ta !== tb) return ta - tb;
-  return (b.year ?? 0) - (a.year ?? 0);
+const groupMap = new Map<string, AwardGroup>();
+
+for (const wa of allAwards) {
+  const key = wa.award_id;
+  if (!groupMap.has(key)) {
+    groupMap.set(key, {
+      award_id: key,
+      name: wa.awards.name,
+      organization: wa.awards.organization,
+      tier: wa.awards.festivals?.tier ?? wa.awards.tier ?? null,
+      festivals: wa.awards.festivals ?? null,
+      wins: [],
+      noms: [],
+    });
+  }
+  const grp = groupMap.get(key)!;
+  if (wa.result === 'win') grp.wins.push(wa);
+  else grp.noms.push(wa);
 }
 
-const wins = [...allAwards.filter(wa => wa.result === 'win')].sort(sortFn);
-const noms = [...allAwards.filter(wa => wa.result === 'nomination')].sort(sortFn);
+// Sort: groups with wins first, then by tier
+const TIER_ORDER: Record<string, number> = { A: 0, B: 1, C: 2, D: 3 };
+const groups = [...groupMap.values()].sort((a, b) => {
+  const aHasWin = a.wins.length > 0 ? 0 : 1;
+  const bHasWin = b.wins.length > 0 ? 0 : 1;
+  if (aHasWin !== bHasWin) return aHasWin - bHasWin;
+  const ta = TIER_ORDER[a.tier ?? 'C'] ?? 3;
+  const tb = TIER_ORDER[b.tier ?? 'C'] ?? 3;
+  return ta - tb;
+});
 
 const TIER_COLOR: Record<string, string> = {
   A: '#C98A2E',
@@ -72,18 +80,8 @@ const TIER_COLOR: Record<string, string> = {
   D: 'rgba(255,255,255,0.08)',
 };
 
-function tierColor(wa: AwardRow): string {
-  const t = wa.awards.festivals?.tier ?? wa.awards.tier ?? '';
-  return TIER_COLOR[t] ?? TIER_COLOR['C'];
-}
-
-function festivalName(wa: AwardRow): string {
-  return wa.awards.festivals?.name ?? wa.awards.organization;
-}
-
-function festivalHref(wa: AwardRow): string | undefined {
-  const fid = wa.awards.festivals?.id;
-  return fid ? `/festivals/${fid.replace(/^festival_/, '')}` : undefined;
+function accentColor(tier: string | null): string {
+  return TIER_COLOR[tier ?? 'C'] ?? TIER_COLOR['C'];
 }
 ---
 
@@ -91,75 +89,94 @@ function festivalHref(wa: AwardRow): string | undefined {
   <div class="site-container">
     <h2 class="awards-label">Premios y Reconocimientos</h2>
 
-    {/* ── Wins ── */}
-    {wins.length > 0 && (
-      <div class="wins-grid">
-        {wins.map(wa => {
-          const color  = tierColor(wa);
-          const tier   = wa.awards.festivals?.tier ?? wa.awards.tier;
-          const href   = festivalHref(wa);
-          const actor  = inferActingActor(wa.awards.name);
-          return (
-            <a
-              href={href}
-              class="award-card"
-              style={`--tc: ${color}`}
-              aria-label={`${wa.awards.name} — ${festivalName(wa)} ${wa.year ?? ''}`}
+    <div class="awards-groups">
+      {groups.map((grp, gi) => {
+        const color   = accentColor(grp.tier);
+        const logoUrl = getFestivalLogoUrl(grp.festivals?.logo_path ?? null);
+        const isLocal = isFestivalLogoLocal(grp.festivals?.logo_path ?? null);
+        const mono    = getFestivalMonogram(grp.festivals?.name ?? grp.organization);
+        const groupId = `award-group-${gi}`;
+
+        return (
+          <div class="award-group" style={`--gc: ${color}`}>
+            <button
+              class="award-group__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls={groupId}
+              data-award-toggle
             >
-              {(() => {
-                const logoUrl = getFestivalLogoUrl(wa.awards.festivals?.logo_path ?? null);
-                const isLocal = isFestivalLogoLocal(wa.awards.festivals?.logo_path ?? null);
-                const monogram = getFestivalMonogram(festivalName(wa));
-                return logoUrl
-                  ? <img src={logoUrl} alt="" class={`award-fest-logo${isLocal ? ' festival-logo--local' : ''}`} loading="lazy" />
-                  : <span class="award-monogram" aria-hidden="true" style={`background: color-mix(in srgb, ${tierColor(wa)} 15%, transparent)`}>{monogram}</span>;
-              })()}
-              <div class="award-body">
-                <span class="award-name">{wa.awards.name}</span>
-                <span class="award-meta">
-                  {actor && <>{actor} &middot; </>}
-                  {festivalName(wa)}{wa.year && <> &middot; {wa.year}</>}
-                </span>
-              </div>
-              {tier && (
-                <span class="award-tier-badge" style={`color: ${color}`}>[{tier}]</span>
-              )}
-            </a>
-          );
-        })}
-      </div>
-    )}
+              <span class="award-group__logo-wrap">
+                {logoUrl
+                  ? <img src={logoUrl} alt="" class={`award-group__logo${isLocal ? ' festival-logo--local' : ''}`} loading="lazy" />
+                  : <span class="award-group__mono" style={`background: color-mix(in srgb, ${color} 15%, transparent)`}>{mono}</span>
+                }
+              </span>
 
-    {/* ── Nominations ── */}
-    {noms.length > 0 && (
-      <div class="noms-block">
-        <h3 class="noms-label">Nominaciones</h3>
-        <ul class="noms-list" role="list">
-          {noms.map(wa => {
-            const tier = wa.awards.festivals?.tier ?? wa.awards.tier;
-            return (
-              <li class="nom-row">
-                <span class="nom-name">{wa.awards.name}</span>
-                <span class="nom-sep" aria-hidden="true">&middot;</span>
-                <span class="nom-festival">{festivalName(wa)}</span>
-                {wa.year && <span class="nom-year">{wa.year}</span>}
-                {tier && <span class="nom-tier">[{tier}]</span>}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    )}
+              <span class="award-group__info">
+                <span class="award-group__name">{grp.name}</span>
+                <span class="award-group__org">{grp.festivals?.name ?? grp.organization}</span>
+              </span>
 
+              <span class="award-group__badges">
+                {grp.wins.length > 0 && (
+                  <span class="badge badge--win">✓ {grp.wins.length} {grp.wins.length === 1 ? 'Premio' : 'Premios'}</span>
+                )}
+                {grp.noms.length > 0 && (
+                  <span class="badge badge--nom">{grp.noms.length} Nom.</span>
+                )}
+              </span>
+
+              <span class="award-group__chevron" aria-hidden="true">›</span>
+            </button>
+
+            <div class="award-group__rows" id={groupId} hidden>
+              {grp.wins.map(wa => (
+                <div class="award-row award-row--win">
+                  <span class="award-row__result award-row__result--win">Premio</span>
+                  {wa.year && <span class="award-row__year">{wa.year}</span>}
+                  {wa.category && <span class="award-row__cat">{wa.category}</span>}
+                </div>
+              ))}
+              {grp.noms.map(wa => (
+                <div class="award-row award-row--nom">
+                  <span class="award-row__result award-row__result--nom">Nom.</span>
+                  {wa.year && <span class="award-row__year">{wa.year}</span>}
+                  {wa.category && <span class="award-row__cat">{wa.category}</span>}
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
   </div>
 </section>
 
-<style>
-.film-awards {
-  padding: 4rem 0 0;
-}
+<script is:inline>
+(function () {
+  document.querySelectorAll('[data-award-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      var targetId = btn.getAttribute('aria-controls');
+      var panel    = targetId ? document.getElementById(targetId) : null;
+      if (!panel) return;
+      btn.setAttribute('aria-expanded', String(!expanded));
+      if (expanded) {
+        panel.hidden = true;
+        btn.classList.remove('is-open');
+      } else {
+        panel.hidden = false;
+        btn.classList.add('is-open');
+      }
+    });
+  });
+})();
+</script>
 
-/* ── Section headings ── */
+<style>
+.film-awards { padding: 4rem 0 0; }
+
 .awards-label {
   font-family: var(--font-sans);
   font-size: 0.68rem;
@@ -167,158 +184,87 @@ function festivalHref(wa: AwardRow): string | undefined {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--surface-border);
 }
 
-.noms-label {
-  font-family: var(--font-sans);
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin: 0 0 0.875rem;
+.awards-groups { display: flex; flex-direction: column; gap: 0.375rem; }
+
+.award-group {
+  border: 1px solid var(--surface-border);
+  border-left: 3px solid var(--gc, var(--surface-border-strong));
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--surface-card);
 }
 
-/* ── Win cards grid ── */
-.wins-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 0.625rem;
-}
-
-.award-card {
+.award-group__header {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.875rem 1rem;
-  background: var(--surface-card);
-  border: 1px solid var(--surface-border);
-  border-left: 3px solid var(--tc, var(--surface-border-strong));
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background var(--duration-fast) ease;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--dur-fast) ease;
 }
-.award-card:hover { background: var(--surface-elevated); }
+.award-group__header:hover,
+.award-group__header.is-open { background: rgba(255,255,255,0.03); }
 
-/* non-link cards (no festival href) */
-.award-card:not([href]) { cursor: default; }
+.award-group__logo-wrap { flex-shrink: 0; }
+.award-group__logo { width: 28px; height: 28px; object-fit: contain; border-radius: 2px; display: block; }
+.festival-logo--local { filter: invert(1) brightness(2); opacity: 0.9; }
 
-/* ── Festival logo / monogram ── */
-.award-fest-logo {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  flex-shrink: 0;
-  border-radius: 2px;
-}
-
-.festival-logo--local {
-  filter: invert(1) brightness(2);
-  opacity: 0.9;
+.award-group__mono {
+  display: flex; align-items: center; justify-content: center;
+  width: 24px; height: 24px; border-radius: 3px;
+  font-family: var(--font-mono); font-size: 0.55rem; font-weight: 700;
+  color: #C98A2E; letter-spacing: 0.02em;
 }
 
-.award-monogram {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  font-weight: 700;
-  color: #C98A2E;
-  letter-spacing: 0.02em;
-  flex-shrink: 0;
-}
+.award-group__info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.125rem; }
+.award-group__name { font-size: 0.875rem; font-weight: 600; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.award-group__org  { font-size: 0.7rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-.award-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.175rem;
-  min-width: 0;
-  flex: 1;
-}
+.award-group__badges { display: flex; gap: 0.375rem; flex-shrink: 0; }
 
-.award-name {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.badge {
+  display: inline-flex; align-items: center;
+  padding: 0.2rem 0.5rem; border-radius: 3px;
+  font-size: 0.62rem; font-weight: 600; letter-spacing: 0.04em; white-space: nowrap;
 }
+.badge--win { background: rgba(201,138,46,0.15); color: #C98A2E; border: 1px solid rgba(201,138,46,0.3); }
+.badge--nom { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid var(--surface-border); }
 
-.award-meta {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.award-group__chevron {
+  font-size: 1rem; color: var(--text-muted);
+  transition: transform 180ms ease; flex-shrink: 0; line-height: 1;
 }
+.award-group__header.is-open .award-group__chevron { transform: rotate(90deg); }
 
-.award-tier-badge {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  font-weight: 700;
-  flex-shrink: 0;
-  opacity: 0.9;
-}
+.award-group__rows { border-top: 1px solid var(--surface-border); }
 
-/* ── Nominations list ── */
-.noms-block {
-  margin-top: 2.5rem;
+.award-row {
+  display: flex; align-items: baseline; gap: 0.625rem;
+  padding: 0.45rem 1rem; border-bottom: 1px solid var(--surface-border); flex-wrap: wrap;
 }
+.award-row:last-child { border-bottom: none; }
 
-.noms-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.award-row__result {
+  font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; flex-shrink: 0; padding: 0.15rem 0.4rem; border-radius: 2px;
 }
+.award-row__result--win { background: rgba(201,138,46,0.15); color: #C98A2E; }
+.award-row__result--nom { background: rgba(255,255,255,0.05); color: var(--text-muted); }
 
-.nom-row {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid var(--surface-border);
-  flex-wrap: wrap;
-}
-.nom-row:last-child { border-bottom: none; }
-
-.nom-name {
-  font-size: 0.825rem;
-  color: var(--text-secondary);
-}
-
-.nom-sep {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-}
-
-.nom-festival {
-  font-size: 0.775rem;
-  color: var(--text-muted);
-}
-
-.nom-year {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-left: auto;
-}
-
-.nom-tier {
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  color: var(--text-muted);
-  opacity: 0.65;
-}
+.award-row__year { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); flex-shrink: 0; }
+.award-row__cat  { font-size: 0.8rem; color: var(--text-secondary); flex: 1; min-width: 0; }
 
 @media (max-width: 600px) {
-  .wins-grid { grid-template-columns: 1fr; }
-  .nom-year  { margin-left: 0; }
+  .award-group__header { gap: 0.5rem; padding: 0.625rem 0.75rem; }
+  .award-row { padding-left: 0.75rem; }
 }
 </style>

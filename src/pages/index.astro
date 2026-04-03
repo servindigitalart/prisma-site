@@ -74,7 +74,7 @@ if (isSupabaseConfigured()) {
 let topFilms: Array<{
   id: string; title: string; year: number | null; slug: string;
   colorId: string | null; colorHex: string; colorName: string;
-  rank: number | null; score?: number | null;
+  rank: number | null; score?: number | null; posterPath: string | null;
 }> = [];
 
 if (isSupabaseConfigured()) {
@@ -82,35 +82,38 @@ if (isSupabaseConfigured()) {
     const db = createServiceClient();
     const { data } = await db
       .from('ranking_scores')
-      .select(`rank, score, works!inner(id, title, year, is_published, color_assignments(color_iconico, tier))`)
+      .select(`rank, score, works!inner(id, title, year, is_published, tmdb_poster_path, color_assignments(color_iconico, tier))`)
       .eq('entity_type', 'work')
       .eq('context', 'global')
       .order('score', { ascending: false })
-      .limit(5);
+      .limit(20);
 
     for (const row of (data ?? []) as unknown[]) {
       const r = row as {
         rank: number | null; score: number | null;
-        works: { id: string; title: string; year: number | null; color_assignments: Array<{ color_iconico: string | null }> | null };
+        works: { id: string; title: string; year: number | null; tmdb_poster_path: string | null; color_assignments: Array<{ color_iconico: string | null }> | null };
       };
       const colorId = r.works.color_assignments?.[0]?.color_iconico ?? null;
       const p = colorId ? getPaletteEntry(colorId) : null;
       topFilms.push({ id: r.works.id, title: r.works.title, year: r.works.year,
         slug: r.works.id.replace(/^work_/, ''), colorId,
-        colorHex: p?.hex ?? '#1B2A41', colorName: p?.name ?? '', rank: r.rank, score: r.score });
+        colorHex: p?.hex ?? '#1B2A41', colorName: p?.name ?? '', rank: r.rank, score: r.score,
+        posterPath: r.works.tmdb_poster_path });
     }
     topFilms.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    topFilms = topFilms.slice(0, 20);
   } catch { /* fall through */ }
 }
 
 if (topFilms.length === 0) {
   const works = loadAllWorks();
   works.sort((a, b) => ((b as any).tmdb_rating ?? 0) - ((a as any).tmdb_rating ?? 0));
-  topFilms = works.slice(0, 5).map((w) => {
+  topFilms = works.slice(0, 20).map((w) => {
     const colorId = w.prisma_palette?.primary ?? null;
     const p = colorId ? getPaletteEntry(colorId) : null;
     return { id: w.id, title: w.title, year: w.year ?? null, slug: w.slug, colorId,
-      colorHex: p?.hex ?? '#1B2A41', colorName: p?.name ?? '', rank: null };
+      colorHex: p?.hex ?? '#1B2A41', colorName: p?.name ?? '', rank: null,
+      posterPath: w.media?.poster_path ?? null };
   });
 }
 
@@ -121,7 +124,29 @@ const featuredColors = FEATURED_COLOR_IDS
   .map((id) => allColors.find((c) => c.id === id))
   .filter(Boolean) as typeof allColors;
 
-const TMDB_IMG = 'https://image.tmdb.org/t/p/w185';
+// ─── Chromatic palette for "Descubre por Color" section ──────────────────────
+const CHROMATIC_IDS = allColors
+  .filter(c => c.id !== 'claroscuro_dramatico' && c.id !== 'monocromatico_intimo')
+  .map(c => c.id);
+
+// Film count per color (from existing colorStrips data which already has posters)
+const colorFilmCounts: Record<string, number> = {};
+if (isSupabaseConfigured()) {
+  try {
+    const db2 = createServiceClient();
+    const { data: countData } = await db2
+      .from('color_assignments')
+      .select('color_iconico')
+      .in('color_iconico', CHROMATIC_IDS)
+      .eq('review_status', 'approved');
+    for (const row of (countData ?? []) as any[]) {
+      const id: string = row.color_iconico;
+      colorFilmCounts[id] = (colorFilmCounts[id] ?? 0) + 1;
+    }
+  } catch { /* skip */ }
+}
+
+const TMDB_IMG = 'https://image.tmdb.org/t/p/w342';
 
 const homepageJsonLd = {
   '@context': 'https://schema.org',
@@ -145,17 +170,20 @@ const homepageJsonLd = {
 >
   <!-- ─── Hero — Animated Color Strips ───────────────────────────────────────── -->
   <section class="prism-hero" aria-label="PRISMA color spectrum">
-    <!-- Layer 1: color strips -->
+    <!-- Layer 1: color strips (each links to its color page) -->
     <div class="prism-strips" id="prism-strips">
       {colorStrips.map((strip, i) => (
-        <div
+        <a
           class="prism-strip"
-          style={`background: ${strip.hex}; animation-delay: ${i * 80}ms;`}
+          href={`/colors/${strip.id.replace(/_/g, '-')}`}
+          style={`background: ${strip.hex}; --strip-delay: ${i * 70}ms;`}
           data-color-id={strip.id}
+          data-color-name={strip.name}
           data-hex={strip.hex}
           data-posters={JSON.stringify(strip.posters)}
-          aria-hidden="true"
-        />
+          aria-label={`${strip.name} — ver color`}
+        >
+        </a>
       ))}
     </div>
 
@@ -165,14 +193,14 @@ const homepageJsonLd = {
     <!-- Layer 3: text overlay -->
     <div class="prism-text-wrap">
       <div class="prism-text">
-        <p class="prism-eyebrow">Inteligencia cromática cinematográfica</p>
-        <h1 class="prism-title">Cada película<br />tiene un color.</h1>
-        <p class="prism-body">
+        <p class="prism-eyebrow reveal">Inteligencia cromática cinematográfica</p>
+        <h1 class="prism-title reveal" data-delay="100">Cada película<br />tiene un color.</h1>
+        <p class="prism-body reveal" data-delay="220">
           PRISMA traza el ADN visual del cine a través de una paleta emocional de 18 colores —
           asignando a cada película una identidad cromática singular definida por la memoria colectiva,
           la intención cinematográfica y la resonancia cultural.
         </p>
-        <div class="prism-actions">
+        <div class="prism-actions reveal" data-delay="340">
           <a href="/rankings/films" class="prism-cta">Explorar rankings</a>
           <a href="/colors" class="prism-link">Ver la paleta →</a>
         </div>
@@ -180,33 +208,32 @@ const homepageJsonLd = {
     </div>
   </section>
 
-  <!-- ─── Top films showcase ─────────────────────────────────────────────────── -->
+  <!-- ─── Top films showcase — poster grid ────────────────────────────────── -->
   {topFilms.length > 0 && (
     <section class="home-films">
       <div class="site-container">
-        <div class="home-films__header">
+        <div class="home-films__header reveal">
           <h2 class="home-films__heading">Mejor rankeadas</h2>
           <a href="/rankings/films" class="home-films__see-all">Ver todas →</a>
         </div>
 
-        <div class="home-films__scroll">
-          {topFilms.map((film) => {
-            const cardColorHex = film.colorHex || '#1A1A1F';
+        <div class="home-films__grid">
+          {topFilms.map((film, i) => {
+            const initial = film.title.charAt(0).toUpperCase();
             return (
-            <a href={`/films/${film.slug}`} class="home-film-card" style={`--fc: ${cardColorHex};`}>
-              <div class="home-film-card__color-wash" />
-              <div class="home-film-card__content">
-                {film.rank && <span class="home-film-card__rank">#{film.rank}</span>}
-                <h3 class="home-film-card__title">{film.title}</h3>
-                {film.year && <span class="home-film-card__year">{film.year}</span>}
-                {film.colorName && (
-                  <div class="home-film-card__color">
-                    <span class="home-film-card__color-dot" style={`background: ${cardColorHex}`} />
-                    <span class="home-film-card__color-name">{film.colorName}</span>
+              <a href={`/films/${film.slug}`} class="home-film-pcard reveal" data-delay={String(Math.min(i * 40, 320))}>
+                <div class="home-film-pcard__img-wrap">
+                  {film.posterPath
+                    ? <img src={`${TMDB_IMG}${film.posterPath}`} alt={film.title} loading="lazy" decoding="async" />
+                    : <div class="home-film-pcard__placeholder"><span>{initial}</span></div>
+                  }
+                  <div class="home-film-pcard__color-bar" style={`background: ${film.colorHex};`} />
+                  <div class="home-film-pcard__overlay">
+                    <span class="home-film-pcard__title">{film.title}</span>
+                    {film.year && <span class="home-film-pcard__year">{film.year}</span>}
                   </div>
-                )}
-              </div>
-            </a>
+                </div>
+              </a>
             );
           })}
         </div>
@@ -214,11 +241,39 @@ const homepageJsonLd = {
     </section>
   )}
 
+  <!-- ─── Descubre por Color — full chromatic palette swatches ───────────── -->
+  <section class="home-discover">
+    <div class="site-container">
+      <div class="home-discover__header reveal">
+        <h2 class="home-discover__heading">Descubre por Color</h2>
+        <a href="/colors" class="home-discover__see-all">Ver los 18 colores →</a>
+      </div>
+      <div class="home-discover__grid">
+        {allColors.filter(c => c.id !== 'claroscuro_dramatico' && c.id !== 'monocromatico_intimo').map((color, i) => {
+          const count = colorFilmCounts[color.id] ?? 0;
+          const light = isLightColor(color.id);
+          return (
+            <a
+              href={`/colors/${color.id}`}
+              class="discover-swatch reveal"
+              data-delay={String(Math.min(i * 35, 300))}
+              style={`--sw: ${color.hex}; --sw-t: ${light ? '#0A0A0F' : '#F0EEE8'};`}
+            >
+              <div class="discover-swatch__bg" />
+              <span class="discover-swatch__name">{color.name}</span>
+              {count > 0 && <span class="discover-swatch__count">{count} films</span>}
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
   <!-- ─── Featured colors ────────────────────────────────────────────────────── -->
   {featuredColors.length > 0 && (
     <section class="home-colors">
       <div class="site-container">
-        <div class="home-colors__header">
+        <div class="home-colors__header reveal">
           <h2 class="home-colors__heading">Explora la paleta</h2>
           <a href="/colors" class="home-colors__see-all">Los 18 colores →</a>
         </div>
@@ -254,7 +309,8 @@ const homepageJsonLd = {
   <section class="home-manifesto">
     <div class="site-container">
       <div class="home-manifesto__inner">
-        <h2 class="home-manifesto__heading">
+        <p class="home-manifesto__eyebrow reveal">Manifiesto</p>
+        <h2 class="home-manifesto__heading reveal" data-delay="80">
           El color no es decoración.<br />Es argumento.
         </h2>
         <div class="home-manifesto__body">
@@ -279,8 +335,8 @@ const homepageJsonLd = {
 /* ─── Hero — Color Strips ───────────────────────────────────────────────────── */
 .prism-hero {
   position: relative;
-  height: 65vh;
-  min-height: 480px;
+  height: 85vh;
+  min-height: 600px;
   overflow: hidden;
 }
 
@@ -296,10 +352,15 @@ const homepageJsonLd = {
   flex: 1;
   min-width: 0;
   cursor: pointer;
-  transition: flex 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+  text-decoration: none;
+  position: relative;
+  overflow: visible;
+  transition: flex 400ms cubic-bezier(0.16, 1, 0.3, 1),
               filter 200ms ease;
-  animation: strip-breathe 4s ease-in-out infinite alternate;
-  will-change: flex, filter;
+  animation: strip-entry 0.8s cubic-bezier(0.16, 1, 0.3, 1) both,
+             strip-breathe 4s ease-in-out 0.8s infinite alternate;
+  animation-delay: var(--strip-delay, 0ms), calc(var(--strip-delay, 0ms) + 0.8s);
+  will-change: flex, filter, transform;
 }
 
 /* Hover: expand hovered, compress siblings, dim siblings */
@@ -312,17 +373,19 @@ const homepageJsonLd = {
   filter: brightness(1.05);
 }
 
+/* Strip entry animation */
+@keyframes strip-entry {
+  from { transform: scaleY(0.6); opacity: 0; }
+  to   { transform: scaleY(1);   opacity: 1; }
+}
+
 /* Breathing keyframes — GPU-only via filter */
 @keyframes strip-breathe {
   from { filter: brightness(0.88); }
   to   { filter: brightness(1.0); }
 }
-/* Preserve breathing baseline when not in hover state */
-.prism-strips:not(:hover) .prism-strip {
-  animation: strip-breathe 4s ease-in-out infinite alternate;
-}
 
-/* Poster cards injected by JS */
+/* Poster cards injected by JS — each links to its film page */
 .prism-poster {
   position: absolute;
   bottom: 0;
@@ -332,11 +395,15 @@ const homepageJsonLd = {
   max-width: 110px;
   border-radius: 3px;
   overflow: hidden;
-  text-decoration: none;
   opacity: 0;
-  transition: opacity 220ms ease, transform 220ms ease;
+  transition: opacity 220ms ease, transform 220ms ease, box-shadow 220ms ease;
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   z-index: 10;
+  display: block;
+  text-decoration: none;
+}
+.prism-poster--visible {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.65);
 }
 .prism-poster--visible {
   opacity: 1;
@@ -348,21 +415,6 @@ const homepageJsonLd = {
   aspect-ratio: 2 / 3;
   object-fit: cover;
 }
-.prism-poster__label {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.4rem 0.35rem 0.35rem;
-  font-size: 0.55rem;
-  color: #F0EEE8;
-  line-height: 1.2;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 /* Layer 2: vignette for text */
 .prism-vignette {
   position: absolute;
@@ -406,12 +458,13 @@ const homepageJsonLd = {
 
 .prism-title {
   font-family: var(--font-serif);
-  font-size: clamp(2.75rem, 7vw, 5.5rem);
+  font-size: clamp(3.25rem, 9vw, 7rem);
   font-weight: 400;
-  line-height: 1.04;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
   color: #F0EEE8;
-  margin-bottom: 1.5rem;
-  text-shadow: 0 2px 16px rgba(0,0,0,0.55);
+  margin-bottom: 1.75rem;
+  text-shadow: 0 2px 24px rgba(0,0,0,0.65);
 }
 
 .prism-body {
@@ -466,7 +519,7 @@ const homepageJsonLd = {
   .prism-strip {
     flex: none;
     height: 48px;
-    animation: none;
+    animation: none !important;
     filter: brightness(0.92);
   }
   .prism-strips:hover .prism-strip,
@@ -481,15 +534,15 @@ const homepageJsonLd = {
     padding: 3.5rem 1.5rem 3rem;
   }
   .prism-eyebrow { color: var(--text-muted); text-shadow: none; }
-  .prism-title { color: var(--text-primary); text-shadow: none; font-size: 2.5rem; }
+  .prism-title { color: var(--text-primary); text-shadow: none; font-size: 3rem; }
   .prism-body { color: var(--text-secondary); text-shadow: none; }
   .prism-cta { background: var(--text-primary); color: var(--surface-bg); }
   .prism-link { color: var(--text-muted); text-shadow: none; }
 }
 
-/* ─── Top films ─────────────────────────────────────────────────────────────── */
+/* ─── Top films — poster grid ───────────────────────────────────────────────── */
 .home-films {
-  padding: 5rem 0;
+  padding: var(--space-16) 0;
   border-top: 1px solid var(--surface-border);
 }
 
@@ -497,14 +550,15 @@ const homepageJsonLd = {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .home-films__heading {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: 400;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 .home-films__see-all {
@@ -514,90 +568,193 @@ const homepageJsonLd = {
 }
 .home-films__see-all:hover { color: var(--text-secondary); }
 
-.home-films__scroll {
+.home-films__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1px;
-  border: 1px solid var(--surface-border);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.875rem;
+}
+
+@media (min-width: 560px)  { .home-films__grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px)  { .home-films__grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1024px) { .home-films__grid { grid-template-columns: repeat(5, 1fr); } }
+
+.home-film-pcard {
+  display: block;
+  text-decoration: none;
+  transition: transform 200ms ease;
+}
+.home-film-pcard:hover { transform: scale(1.03); }
+
+.home-film-pcard__img-wrap {
+  position: relative;
+  aspect-ratio: 2 / 3;
   border-radius: 4px;
   overflow: hidden;
-}
-
-@media (min-width: 768px) {
-  .home-films__scroll { grid-template-columns: repeat(5, 1fr); }
-}
-
-.home-film-card {
-  position: relative;
-  padding: 1.5rem 1.25rem;
-  text-decoration: none;
-  overflow: hidden;
   background: var(--surface-card);
-  min-height: 200px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+  transition: box-shadow 200ms ease;
+}
+.home-film-pcard:hover .home-film-pcard__img-wrap { box-shadow: 0 8px 28px rgba(0,0,0,0.55); }
+
+.home-film-pcard__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.home-film-pcard__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-elevated);
+}
+.home-film-pcard__placeholder span {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--text-muted);
+  opacity: 0.35;
+}
+
+.home-film-pcard__color-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+}
+
+.home-film-pcard__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.25) 45%, transparent 70%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  transition: background 160ms ease;
+  padding: 0.625rem 0.75rem 0.75rem;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 200ms ease, transform 200ms ease;
 }
-.home-film-card:hover { background: var(--surface-elevated); }
+.home-film-pcard:hover .home-film-pcard__overlay { opacity: 1; transform: translateY(0); }
 
-.home-film-card__color-wash {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: var(--fc);
-}
-
-.home-film-card__content {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
+.home-film-pcard__title {
+  font-size: 0.75rem;
+  color: #F0EEE8;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.home-film-card__rank {
+.home-film-pcard__year {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--text-muted);
+  font-size: 0.62rem;
+  color: rgba(240,238,232,0.6);
+  margin-top: 0.2rem;
 }
 
-.home-film-card__title {
+/* ─── Descubre por Color ─────────────────────────────────────────────────────── */
+.home-discover {
+  padding: var(--space-16) 0;
+  border-top: 1px solid var(--surface-border);
+}
+
+.home-discover__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.home-discover__heading {
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: 400;
-  color: var(--text-secondary);
-  line-height: 1.25;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.home-discover__see-all {
+  font-size: 0.78rem;
+  color: var(--text-muted);
   transition: color 160ms ease;
 }
-.home-film-card:hover .home-film-card__title { color: var(--text-primary); }
+.home-discover__see-all:hover { color: var(--text-secondary); }
 
-.home-film-card__year {
-  font-size: 0.72rem;
-  color: var(--text-muted);
+.home-discover__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
 }
 
-.home-film-card__color {
+@media (min-width: 768px) {
+  .home-discover__grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
+
+.discover-swatch {
+  position: relative;
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.25rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 110px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  will-change: transform;
+}
+.discover-swatch:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
-.home-film-card__color-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  flex-shrink: 0;
+.discover-swatch__bg {
+  position: absolute;
+  inset: 0;
+  background: var(--sw);
+  transition: filter 220ms ease;
 }
+.discover-swatch:hover .discover-swatch__bg { filter: brightness(1.1); }
 
-.home-film-card__color-name {
+.discover-swatch__name {
+  position: relative;
+  z-index: 1;
   font-size: 0.62rem;
-  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--sw-t);
+  padding: 0 0.5rem 0.4rem;
+  line-height: 1.25;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, transparent 100%);
+  padding-top: 1.5rem;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 200ms ease, transform 200ms ease;
 }
+.discover-swatch:hover .discover-swatch__name {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.discover-swatch__count {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--sw-t);
+  opacity: 0;
+  padding: 0 0.5rem 0.5rem;
+  transition: opacity 200ms ease 60ms;
+}
+.discover-swatch:hover .discover-swatch__count { opacity: 0.65; }
 
 /* ─── Featured colors ───────────────────────────────────────────────────────── */
 .home-colors {
-  padding: 5rem 0;
+  padding: var(--space-16) 0;
   border-top: 1px solid var(--surface-border);
 }
 
@@ -610,9 +767,10 @@ const homepageJsonLd = {
 
 .home-colors__heading {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: 400;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 .home-colors__see-all {
@@ -701,19 +859,29 @@ const homepageJsonLd = {
 
 /* ─── Manifesto ──────────────────────────────────────────────────────────────── */
 .home-manifesto {
-  padding: 6rem 0 8rem;
+  padding: 8rem 0 12rem;
   border-top: 1px solid var(--surface-border);
 }
 
 .home-manifesto__inner { max-width: var(--content-max-width); }
 
+.home-manifesto__eyebrow {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semi);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+}
+
 .home-manifesto__heading {
   font-family: var(--font-serif);
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
   font-weight: 400;
   color: var(--text-primary);
-  line-height: 1.2;
-  margin-bottom: 2rem;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 3rem;
 }
 
 .home-manifesto__body {
@@ -741,13 +909,6 @@ const homepageJsonLd = {
 (function () {
   var TMDB = 'https://image.tmdb.org/t/p/w185';
 
-  function hexToRgba(hex, alpha) {
-    var r = parseInt(hex.slice(1, 3), 16);
-    var g = parseInt(hex.slice(3, 5), 16);
-    var b = parseInt(hex.slice(5, 7), 16);
-    return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
-  }
-
   // Skip on mobile
   if (window.matchMedia('(max-width: 640px)').matches) return;
 
@@ -756,7 +917,6 @@ const homepageJsonLd = {
   strips.forEach(function (strip) {
     var posters = [];
     try { posters = JSON.parse(strip.dataset.posters || '[]'); } catch (_) {}
-    var hex = strip.dataset.hex || '#888';
     var injected = [];
     var leaveTimer = null;
 
@@ -765,14 +925,15 @@ const homepageJsonLd = {
       if (injected.length > 0 || posters.length === 0) return;
 
       var n = posters.length;
-      var positions = n === 1 ? ['bottom'] : n === 2 ? ['30%', '70%'] : ['18%', '50%', '82%'];
+      var positions = n === 1 ? ['50%'] : n === 2 ? ['30%', '70%'] : ['18%', '50%', '82%'];
 
       posters.forEach(function (poster, i) {
         var a = document.createElement('a');
-        a.href = '/films/' + poster.slug;
         a.className = 'prism-poster';
+        a.href = '/films/' + poster.slug;
         a.style.left = positions[i];
         a.style.transform = 'translateX(-50%) translateY(8px)';
+        a.setAttribute('title', poster.title);
 
         var img = document.createElement('img');
         img.src = TMDB + poster.path;
@@ -780,13 +941,7 @@ const homepageJsonLd = {
         img.loading = 'lazy';
         img.decoding = 'async';
 
-        var label = document.createElement('span');
-        label.className = 'prism-poster__label';
-        label.textContent = poster.title;
-        label.style.background = hexToRgba(hex, 0.85);
-
         a.appendChild(img);
-        a.appendChild(label);
         strip.appendChild(a);
         injected.push(a);
 

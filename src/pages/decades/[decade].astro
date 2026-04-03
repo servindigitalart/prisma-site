@@ -5,6 +5,8 @@ import { getPaletteEntry } from '../../lib/color/colorPalette';
 import { loadAllWorks } from '../../lib/loaders/loadWork';
 import type { PrismaColorId } from '../../lib/db/types';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const decades = ['1920s','1930s','1940s','1950s','1960s','1970s','1980s','1990s','2000s','2010s','2020s'];
   return decades.map(decade => ({ params: { decade } }));
@@ -185,32 +187,40 @@ const decadeBreadcrumbs = [
       </section>
     )}
 
-    <!-- Film list -->
+    <!-- Film poster grid -->
     <section class="decade-films">
       <div class="site-container">
-        <div class="decade-films__list">
-          {sorted.map((film) => {
+        <div class="decade-films__header">
+          <h2 class="decade-films__heading">Catálogo completo</h2>
+          <span class="decade-films__count" id="films-count">{sorted.length} películas</span>
+        </div>
+        <div class="decade-films__grid" id="films-grid">
+          {sorted.map((film, i) => {
             const filmSlug = film.id.replace(/^work_/, '');
-            const palette = film.color_iconico ? getPaletteEntry(film.color_iconico) : null;
+            const initial = film.title.charAt(0).toUpperCase();
             return (
-              <a href={`/films/${filmSlug}`} class="decade-film-row">
-                <div
-                  class="decade-film-row__strip"
-                  style={palette ? `background: ${palette.hex}` : 'background: var(--surface-border)'}
-                />
-                <div class="decade-film-row__year">
-                  {film.year ?? '—'}
+              <a href={`/films/${filmSlug}`} class="film-pcard" data-idx={i}>
+                <div class="film-pcard__img-wrap">
+                  {film.tmdb_poster_path
+                    ? <img src={`${TMDB_IMG}${film.tmdb_poster_path}`} alt={film.title} loading="lazy" decoding="async" />
+                    : <div class="film-pcard__placeholder"><span>{initial}</span></div>
+                  }
                 </div>
-                <div class="decade-film-row__info">
-                  <span class="decade-film-row__title">{film.title}</span>
-                  {palette && (
-                    <span class="decade-film-row__color">{palette.name}</span>
-                  )}
+                <div class="film-pcard__info">
+                  <span class="film-pcard__title">{film.title}</span>
+                  {film.year && <span class="film-pcard__year">{film.year}</span>}
                 </div>
               </a>
             );
           })}
         </div>
+        {sorted.length > 40 && (
+          <div class="films-pagination" id="films-pagination">
+            <button class="films-pagination__btn" id="films-prev" disabled>← Anterior</button>
+            <span class="films-pagination__info" id="films-page-info">1 / {Math.ceil(sorted.length / 40)}</span>
+            <button class="films-pagination__btn" id="films-next">Siguiente →</button>
+          </div>
+        )}
       </div>
     </section>
 
@@ -221,6 +231,37 @@ const decadeBreadcrumbs = [
     )}
   </div>
 </BaseLayout>
+
+<script is:inline>
+(function () {
+  var PAGE_SIZE = 40;
+  var currentPage = 0;
+  var cards = Array.from(document.querySelectorAll('.film-pcard'));
+  var totalPages = Math.ceil(cards.length / PAGE_SIZE);
+  if (totalPages <= 1) return;
+
+  function showPage(page) {
+    currentPage = page;
+    cards.forEach(function (card, i) {
+      card.style.display = (i >= page * PAGE_SIZE && i < (page + 1) * PAGE_SIZE) ? '' : 'none';
+    });
+    var prev = document.getElementById('films-prev');
+    var next = document.getElementById('films-next');
+    var info = document.getElementById('films-page-info');
+    if (prev) prev.disabled = (page === 0);
+    if (next) next.disabled = (page >= totalPages - 1);
+    if (info) info.textContent = (page + 1) + ' / ' + totalPages;
+  }
+
+  // Hide pages 2+
+  showPage(0);
+
+  var prevBtn = document.getElementById('films-prev');
+  var nextBtn = document.getElementById('films-next');
+  if (prevBtn) prevBtn.addEventListener('click', function () { if (currentPage > 0) { showPage(currentPage - 1); window.scrollTo({ top: document.getElementById('films-grid').offsetTop - 80, behavior: 'smooth' }); } });
+  if (nextBtn) nextBtn.addEventListener('click', function () { if (currentPage < totalPages - 1) { showPage(currentPage + 1); window.scrollTo({ top: document.getElementById('films-grid').offsetTop - 80, behavior: 'smooth' }); } });
+})();
+</script>
 
 <style>
 /* ── Header ── */
@@ -350,61 +391,133 @@ const decadeBreadcrumbs = [
   font-weight: 500;
 }
 
-/* ── Film List ── */
+/* ── Film Poster Grid ── */
 .decade-films {
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 5rem;
 }
 
-.decade-films__list {
+.decade-films__header {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
 }
 
-.decade-film-row {
+.decade-films__heading {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.decade-films__count {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.decade-films__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.film-pcard {
+  display: block;
+  text-decoration: none;
+  transition: transform 200ms ease;
+}
+.film-pcard:hover { transform: scale(1.03); }
+
+.film-pcard__img-wrap {
+  aspect-ratio: 2 / 3;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--surface-card);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: box-shadow 200ms ease;
+}
+.film-pcard:hover .film-pcard__img-wrap { box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
+
+.film-pcard__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.film-pcard__placeholder {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 0.75rem 0;
-  text-decoration: none;
-  border-bottom: 1px solid var(--surface-border);
-  transition: background var(--duration-fast) var(--ease-editorial);
+  justify-content: center;
+  background: var(--surface-elevated);
 }
-.decade-film-row:hover {
-  background: rgba(255,255,255,0.02);
-}
-
-.decade-film-row__strip {
-  width: 4px;
-  height: 28px;
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-
-.decade-film-row__year {
-  font-size: 0.8rem;
+.film-pcard__placeholder span {
+  font-family: var(--font-serif);
+  font-size: 2rem;
   color: var(--text-muted);
-  width: 3rem;
-  flex-shrink: 0;
-  font-variant-numeric: tabular-nums;
+  opacity: 0.4;
 }
 
-.decade-film-row__info {
+.film-pcard__info {
+  padding: 0.45rem 0 0;
   display: flex;
   flex-direction: column;
-  gap: 0.125rem;
-  min-width: 0;
+  gap: 0.15rem;
 }
 
-.decade-film-row__title {
-  font-size: 0.9rem;
-  color: var(--text-primary);
-  white-space: nowrap;
+.film-pcard__title {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  transition: color 160ms ease;
+}
+.film-pcard:hover .film-pcard__title { color: var(--text-primary); }
+
+.film-pcard__year {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
 }
 
-.decade-film-row__color {
-  font-size: 0.7rem;
+/* ── Pagination ── */
+.films-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--surface-border);
+}
+
+.films-pagination__btn {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: 3px;
+  padding: 0.4rem 0.875rem;
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.films-pagination__btn:hover:not(:disabled) {
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
+.films-pagination__btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.films-pagination__info {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
@@ -412,5 +525,12 @@ const decadeBreadcrumbs = [
   padding: 4rem 0;
   text-align: center;
   color: var(--text-muted);
+}
+
+@media (max-width: 480px) {
+  .decade-films__grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.625rem;
+  }
 }
 </style>

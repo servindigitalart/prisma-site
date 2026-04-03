@@ -47,54 +47,74 @@ const MONO_MODES = [
 ];
 ---
 
-<BaseLayout title="Paleta de Colores — PRISMA" description="Los 18 colores de la paleta Prisma. Cada película tiene un color." jsonLd={colorsJsonLd} breadcrumbs={colorsBreadcrumbs}>
+<BaseLayout
+  title="Paleta de Colores — PRISMA"
+  description="Los 18 colores de la paleta Prisma. Cada película tiene un color."
+  jsonLd={colorsJsonLd}
+  breadcrumbs={colorsBreadcrumbs}
+>
   <div class="colors-page page-enter">
-    <div class="colors-page__hero site-container">
-      <h1 class="colors-page__title">La Paleta Prisma</h1>
-      <p class="colors-page__subtitle">
-        Dieciocho colores. Cada uno un registro emocional distinto en el cine.
-      </p>
+
+    <!-- Hero -->
+    <div class="colors-hero site-container">
+      <div class="colors-hero__inner">
+        <p class="colors-hero__eyebrow reveal">Identidad cromática</p>
+        <h1 class="colors-hero__title reveal" data-delay="80">La Paleta Prisma</h1>
+        <p class="colors-hero__subtitle reveal" data-delay="160">
+          Dieciocho colores. Cada uno un registro emocional distinto en el cine de autor.
+        </p>
+      </div>
     </div>
 
-    <div class="colors-page__grid site-container">
-      {colors.map((color) => {
+    <!-- Color grid — chromatic spectrum (16 colors, mono excluded — shown separately below) -->
+    <div class="colors-grid site-container">
+      {colors.filter(c => c.id !== 'claroscuro_dramatico' && c.id !== 'monocromatico_intimo').map((color, i) => {
         const light = isLightColor(color.id);
+        const swatchTextColor = light ? 'rgba(10,10,15,0.55)' : 'rgba(240,238,232,0.5)';
         return (
           <a
             href={`/colors/${color.id}`}
-            class="color-entry"
-            style={`--c: ${color.hex}; --ct: ${light ? '#0A0A0F' : '#F0EEE8'}; --cs: ${light ? 'rgba(10,10,15,0.5)' : 'rgba(240,238,232,0.45)'};`}
+            class="color-card reveal"
+            data-delay={String(Math.min(i * 40, 400))}
+            style={`--c: ${color.hex}; --ct: ${light ? '#0A0A0F' : '#F0EEE8'}; --cs: ${swatchTextColor};`}
           >
-            <div class="color-entry__swatch" />
-            <div class="color-entry__info">
-              <span class="color-entry__name">{color.name}</span>
-              <span class="color-entry__hex">{color.hex}</span>
-              <span class="color-entry__context">
-                {color.cultural_context.length > 55
-                  ? color.cultural_context.substring(0, 55) + '...'
+            <!-- Full-color swatch block on top -->
+            <div class="color-card__swatch">
+              <span class="color-card__swatch-hex">{color.hex}</span>
+            </div>
+
+            <!-- Info -->
+            <div class="color-card__body">
+              <span class="color-card__name">{color.name}</span>
+              <span class="color-card__context">
+                {color.cultural_context.length > 72
+                  ? color.cultural_context.substring(0, 72) + '…'
                   : color.cultural_context}
               </span>
             </div>
+
+            <!-- Color accent line at the bottom on hover -->
+            <div class="color-card__accent" />
           </a>
         );
       })}
     </div>
 
-    <!-- Monochromatic Modes — separate row, achromatic treatment -->
+    <!-- Monochromatic modes -->
     <div class="mono-section site-container">
-      <div class="mono-section__header">
-        <span class="mono-section__label">Monochromatic Modes</span>
-        <span class="mono-section__note">B&W and greyscale — achromatic registers</span>
-      </div>
+      <div class="section-label reveal">Modos Monocromáticos</div>
+
       <div class="mono-grid">
         {MONO_MODES.map((mono) => (
-          <a href={`/colors/${mono.slug}`} class="color-entry color-entry--mono">
-            <div class="color-entry__swatch color-entry__swatch--gradient" style={`background: ${mono.gradient}`} />
-            <div class="color-entry__info">
-              <span class="color-entry__name">{mono.name}</span>
-              <span class="color-entry__hex mono-badge">B&W MODE</span>
-              <span class="color-entry__context">{mono.context}</span>
+          <a href={`/colors/${mono.slug}`} class="color-card color-card--mono" style={`--c: ${mono.hex};`}>
+            <div class="color-card__swatch color-card__swatch--gradient" style={`background: ${mono.gradient};`}>
+              <span class="color-card__swatch-hex" style="color: rgba(240,238,232,0.45)">B&W MODE</span>
             </div>
+            <div class="color-card__body">
+              <span class="color-card__name">{mono.name}</span>
+              <span class="color-card__context">{mono.context}</span>
+            </div>
+            <div class="color-card__accent" />
           </a>
         ))}
       </div>
@@ -105,152 +125,190 @@ const MONO_MODES = [
 
 <style>
 .colors-page {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
+  padding-top: var(--space-16);
+  padding-bottom: var(--space-16);
 }
 
-.colors-page__hero {
-  margin-bottom: 4rem;
+/* ─── Hero ─────────────────────────────────────────────────────────────────── */
+.colors-hero {
+  margin-bottom: var(--space-12);
 }
 
-.colors-page__title {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 400;
-  color: var(--text-primary);
-  margin-bottom: 0.875rem;
+.colors-hero__inner {
+  max-width: 50ch;
 }
 
-.colors-page__subtitle {
-  font-size: 1rem;
-  color: var(--text-muted);
-  max-width: 48ch;
-  line-height: 1.65;
-}
-
-.colors-page__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1px;
-  border: 1px solid var(--surface-border);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.color-entry {
-  display: flex;
-  align-items: stretch;
-  background: var(--surface-card);
-  transition: background 160ms ease;
-  text-decoration: none;
-}
-
-.color-entry:hover {
-  background: var(--surface-elevated);
-}
-
-.color-entry__swatch {
-  width: 4px;
-  background: var(--c);
-  flex-shrink: 0;
-}
-
-.color-entry__info {
-  padding: 1.25rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.color-entry__name {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  transition: color 160ms ease;
-}
-.color-entry:hover .color-entry__name { color: var(--text-primary); }
-
-.color-entry__hex {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--text-muted);
-  letter-spacing: 0.08em;
-}
-
-.color-entry__context {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  line-height: 1.5;
-  margin-top: 0.125rem;
-}
-
-/* ── Monochromatic modes ── */
-.mono-section {
-  margin-top: 2rem;
-}
-
-.mono-section__header {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 1px;
-  padding: 0.75rem 1rem;
-  background: var(--surface-card);
-  border: 1px solid var(--surface-border);
-  border-radius: 4px 4px 0 0;
-  border-bottom: none;
-}
-
-.mono-section__label {
+.colors-hero__eyebrow {
   font-family: var(--font-sans);
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semi);
+  letter-spacing: var(--tracking-widest);
   text-transform: uppercase;
   color: var(--text-muted);
+  margin-bottom: var(--space-4);
 }
 
-.mono-section__note {
-  font-size: 0.7rem;
+.colors-hero__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-5);
+}
+
+.colors-hero__subtitle {
+  font-size: 1rem;
   color: var(--text-muted);
-  opacity: 0.6;
-  font-style: italic;
+  max-width: 44ch;
+  line-height: 1.7;
+}
+
+/* ─── Color card grid ───────────────────────────────────────────────────────── */
+.colors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-5);
+  margin-bottom: var(--space-12);
+}
+
+.color-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-raised);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  text-decoration: none;
+  transition:
+    transform var(--dur-base) var(--ease-editorial),
+    box-shadow var(--dur-base) var(--ease-editorial),
+    border-color var(--dur-base) var(--ease-editorial),
+    background var(--dur-base) var(--ease-editorial);
+  position: relative;
+  will-change: transform;
+}
+
+.color-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.4), 0 0 0 1px color-mix(in srgb, var(--c) 30%, transparent);
+  border-color: color-mix(in srgb, var(--c) 25%, var(--surface-border));
+  background: color-mix(in srgb, var(--c) 7%, var(--bg-raised));
+}
+
+/* The actual color swatch — tall block at top */
+.color-card__swatch {
+  height: 96px;
+  background: var(--c);
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.625rem 0.875rem;
+  transition: height var(--dur-base) var(--ease-editorial);
+}
+
+.color-card:hover .color-card__swatch {
+  height: 112px;
+}
+
+.color-card__swatch-hex {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--cs, rgba(240,238,232,0.45));
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.color-card__swatch--gradient {
+  background: var(--gradient, #1A1A1A);
+}
+
+/* Body — title + context */
+.color-card__body {
+  padding: var(--space-4) var(--space-5) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  flex: 1;
+}
+
+.color-card__name {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.2;
+  transition: color var(--dur-fast) var(--ease-editorial);
+}
+
+.color-card:hover .color-card__name {
+  color: var(--text-primary);
+}
+
+.color-card__context {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  line-height: 1.55;
+  opacity: 0.8;
+  transition: opacity var(--dur-fast) var(--ease-editorial);
+}
+
+.color-card:hover .color-card__context {
+  opacity: 1;
+}
+
+/* Bottom accent: slides in on hover */
+.color-card__accent {
+  height: 2px;
+  background: var(--c);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-base) var(--ease-editorial);
+}
+
+.color-card:hover .color-card__accent {
+  transform: scaleX(1);
+}
+
+/* Mono variant */
+.color-card--mono {
+  opacity: 0.88;
+}
+
+.color-card--mono:hover {
+  opacity: 1;
+}
+
+/* ─── Mono section ──────────────────────────────────────────────────────────── */
+.mono-section {
+  padding-top: var(--space-6);
+}
+
+.mono-section .section-label {
+  margin-bottom: var(--space-6);
 }
 
 .mono-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  border: 1px solid var(--surface-border);
-  border-radius: 0 0 4px 4px;
-  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-5);
 }
 
-.color-entry--mono {
-  background: var(--surface-card);
-  opacity: 0.9;
-}
-.color-entry--mono:hover {
-  opacity: 1;
-  background: var(--surface-elevated);
-}
+/* ─── Mobile ─────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .colors-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
 
-.color-entry__swatch--gradient {
-  width: 6px; /* slightly wider to show the gradient */
-  flex-shrink: 0;
-}
+  .color-card__swatch { height: 72px; }
+  .color-card:hover .color-card__swatch { height: 80px; }
 
-.mono-badge {
-  font-size: 0.6rem;
-  letter-spacing: 0.12em;
-  color: var(--text-muted);
-  opacity: 0.65;
-  text-transform: uppercase;
-  font-family: var(--font-mono);
-}
+  .color-card__body { padding: var(--space-3); }
+  .color-card__context { display: none; }
 
-@media (max-width: 600px) {
   .mono-grid { grid-template-columns: 1fr; }
-  .mono-section__note { display: none; }
 }
 </style>

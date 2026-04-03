@@ -132,10 +132,6 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^/decades/([^/]+?)/?$",
-			"dest": "_render"
-		},
-		{
 			"src": "^/festivals/([^/]+?)/?$",
 			"dest": "_render"
 		},
@@ -200,7 +196,9 @@
 			3840
 		],
 		"domains": [
-			"image.tmdb.org"
+			"image.tmdb.org",
+			"porqyokkphflvqfclvkj.supabase.co",
+			"lh3.googleusercontent.com"
 		],
 		"remotePatterns": []
 	}
