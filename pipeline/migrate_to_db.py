@@ -263,6 +263,7 @@ def transform_person(data: dict[str, Any]) -> dict[str, Any] | None:
         "tmdb_id":      data.get("ids", {}).get("tmdb"),
         "wikidata_id":  data.get("ids", {}).get("wikidata"),
         "profile_path": data.get("profile_path"),
+        "gender":       data.get("gender"),   # TMDB: 0=unknown, 1=female, 2=male
     }
 
 

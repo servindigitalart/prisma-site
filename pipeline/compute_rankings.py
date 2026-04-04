@@ -42,6 +42,27 @@ load_dotenv(".env.local")
 from supabase import create_client
 from ranking_matrix import get_award_weight, FESTIVAL_TIER_MULTIPLIERS
 
+
+# ─── Pagination helper ────────────────────────────────────────────────────────
+
+def fetch_all(query, page_size: int = 1000) -> list:
+    """
+    Fetch ALL rows from a Supabase query, bypassing the default 1000-row limit.
+    Paginates with .range(offset, offset+page_size-1) until an empty page.
+    Pass the query builder BEFORE calling .execute(), e.g.:
+        fetch_all(db.table('work_people').select('person_id, work_id, role'))
+    """
+    rows: list = []
+    offset = 0
+    while True:
+        result = query.range(offset, offset + page_size - 1).execute()
+        batch = result.data or []
+        rows.extend(batch)
+        if len(batch) < page_size:
+            break
+        offset += page_size
+    return rows
+
 # ─── Config ───────────────────────────────────────────────────────────────────
 
 WIN_MULTIPLIER     = 1.0
@@ -121,13 +142,13 @@ def compute_work_scores(db, dry_run: bool) -> list[dict]:
     ).execute()
     works = {w["id"]: w for w in works_r.data}
 
-    awards_r = db.table("work_awards").select(
-        "work_id, award_id, result, awards(tier)"
-    ).execute()
+    awards_data = fetch_all(
+        db.table("work_awards").select("work_id, award_id, result, awards(tier)")
+    )
 
     # Award prestige per work: sum of weighted contributions
     work_prestige: dict[str, float] = defaultdict(float)
-    for row in awards_r.data:
+    for row in awards_data:
         tier = (row.get("awards") or {}).get("tier", "C")
         result_mult = WIN_MULTIPLIER if row["result"] == "win" else NOM_MULTIPLIER
         # Use director weight as film-level prestige proxy
@@ -199,26 +220,30 @@ def compute_person_scores(db, dry_run: bool, top_n: int = 10) -> list[dict]:
     """
     print("👤 Computing person scores...")
 
-    wp_r = db.table("work_people").select("person_id, work_id, role").execute()
+    # ── Paginated fetches (tables exceed Supabase 1000-row default limit) ──
+    wp_data = fetch_all(db.table("work_people").select("person_id, work_id, role"))
+    print(f"   Loaded {len(wp_data):,} work_people rows")
 
     # person_id → role → [work_ids]
     person_works: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
-    for row in wp_r.data:
+    for row in wp_data:
         person_works[row["person_id"]][row["role"]].append(row["work_id"])
 
-    awards_r = db.table("work_awards").select(
-        "work_id, award_id, result, awards(tier)"
-    ).execute()
+    # work_awards is small (664 rows) but paginate for safety
+    awards_data = fetch_all(
+        db.table("work_awards").select("work_id, award_id, result, awards(tier)")
+    )
 
     # work_id → [award rows]
     work_awards: dict[str, list[dict]] = defaultdict(list)
-    for row in awards_r.data:
+    for row in awards_data:
         work_awards[row["work_id"]].append(row)
 
-    # FIX 2: Load gender for all people so we can split actor → actor/actress
-    people_r = db.table("people").select("id, name, gender").execute()
-    person_gender: dict[str, int] = {p["id"]: (p.get("gender") or 0) for p in people_r.data}
-    person_names:  dict[str, str] = {p["id"]: p["name"] for p in people_r.data}
+    # Load ALL people (4289 rows — exceeds 1000-row limit without pagination)
+    people_data = fetch_all(db.table("people").select("id, name, gender"))
+    print(f"   Loaded {len(people_data):,} people rows")
+    person_gender: dict[str, int] = {p["id"]: (p.get("gender") or 0) for p in people_data}
+    person_names:  dict[str, str] = {p["id"]: p["name"] for p in people_data}
 
     scores: list[dict] = []
 

@@ -293,11 +293,13 @@ def enrich_people_for_work(db, work_id: str, dry_run: bool) -> tuple[int, int]:
     if not person_ids:
         return 0, 0
 
-    # Fetch those people who are missing bio or profile_path
-    people_res = db.from_("people").select("id,tmdb_id,bio,profile_path").in_("id", person_ids).execute()
+    # Fetch those people who are missing bio, profile_path, or gender
+    people_res = db.from_("people").select("id,tmdb_id,bio,profile_path,gender").in_("id", person_ids).execute()
     targets = [
         p for p in (people_res.data or [])
-        if p.get("tmdb_id") and (not p.get("bio") or not p.get("profile_path"))
+        if p.get("tmdb_id") and (
+            not p.get("bio") or not p.get("profile_path") or p.get("gender") is None
+        )
     ]
 
     if not targets or dry_run:
@@ -320,6 +322,10 @@ def enrich_people_for_work(db, work_id: str, dry_run: bool) -> tuple[int, int]:
             if not person.get("profile_path") and data.get("profile_path"):
                 updates["profile_path"] = data["profile_path"]
                 photos_added += 1
+
+            # Always save gender if it's missing (TMDB: 0=unknown, 1=female, 2=male)
+            if person.get("gender") is None and data.get("gender") is not None:
+                updates["gender"] = data["gender"]
 
             if updates:
                 db.from_("people").update(updates).eq("id", person_id).execute()
