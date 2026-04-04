@@ -111,6 +111,7 @@ const user = Astro.locals.user;
 
       <ul class="site-nav-links">
         <li><a href="/rankings/films">Rankings</a></li>
+        <li><a href="/editorial">Editorial</a></li>
         <li><a href="/colors">Colores</a></li>
         <li class="site-nav-dropdown" id="nav-explorar">
           <a href="/explorar" class="site-nav-trigger">Explorar</a>
@@ -228,6 +229,9 @@ const user = Astro.locals.user;
 
         <!-- Rankings -->
         <a href="/rankings/films" class="nav-mobile-item">Rankings</a>
+
+        <!-- Editorial -->
+        <a href="/editorial" class="nav-mobile-item">Editorial</a>
 
         <!-- Colores -->
         <a href="/colors" class="nav-mobile-item">Colores</a>
@@ -348,9 +352,9 @@ const user = Astro.locals.user;
           <span class="nav-bottom-bar__icon">🎨</span>
           <span>Colores</span>
         </a>
-        <a href="/countries" class="nav-bottom-bar__item">
-          <span class="nav-bottom-bar__icon">🌍</span>
-          <span>Países</span>
+        <a href="/editorial" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">✦</span>
+          <span>Editorial</span>
         </a>
         {user ? (
           <a href={`/u/${user.id}`} class="nav-bottom-bar__item">
@@ -375,6 +379,7 @@ const user = Astro.locals.user;
       <div class="nav-mobile-overlay__inner">
 
         <a href="/rankings/films" class="nav-mobile-item">Rankings</a>
+        <a href="/editorial" class="nav-mobile-item">Editorial</a>
         <a href="/colors" class="nav-mobile-item">Colores</a>
 
         <!-- Explorar accordion -->
@@ -486,9 +491,9 @@ const user = Astro.locals.user;
           <span class="nav-bottom-bar__icon">🎨</span>
           <span>Colores</span>
         </a>
-        <a href="/countries" class="nav-bottom-bar__item">
-          <span class="nav-bottom-bar__icon">🌍</span>
-          <span>Países</span>
+        <a href="/editorial" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">✦</span>
+          <span>Editorial</span>
         </a>
         {user
           ? <a href={`/u/${user.id}`} class="nav-bottom-bar__item"><span class="nav-bottom-bar__icon">👤</span><span>Cuenta</span></a>

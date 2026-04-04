@@ -1,0 +1,536 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getArticleBySlug, getRelatedArticles } from '../../lib/db/editorial';
+import { buildArticleJsonLd, buildArticleBreadcrumbs } from '../../lib/seo/editorial';
+import { getPaletteEntry } from '../../lib/color/colorPalette';
+
+const { slug } = Astro.params;
+if (!slug) return Astro.redirect('/editorial');
+
+const article = await getArticleBySlug(slug);
+if (!article) return Astro.redirect('/editorial');
+
+const related = await getRelatedArticles(article, 3);
+const jsonLd  = buildArticleJsonLd(article);
+const breadcrumbs = buildArticleBreadcrumbs(article);
+
+const colorSlug  = article.color_slug || 'azul_nocturno';
+const prismaColor = getPaletteEntry(colorSlug as any);
+
+const CATEGORY_LABELS: Record<string, string> = {
+  editorial:  'Editorial',
+  laboratory: 'Laboratorio',
+  fastfood:   'Radar',
+};
+const VOICE_LABELS: Record<string, string> = {
+  editorial: 'PRISMA Editorial',
+  radar:     'PRISMA Radar',
+  focus:     'PRISMA Focus',
+};
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('es-MX', {
+    year: 'numeric', month: 'long', day: 'numeric',
+  });
+}
+---
+
+<BaseLayout
+  title={article.meta_title || `${article.title} — PRISMA`}
+  description={article.meta_desc || article.excerpt}
+  ogImage={article.og_image || article.cover_image}
+  ogType="article"
+  canonicalUrl={`https://prisma.film/editorial/${article.slug}`}
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+
+  <!-- Inject article's PRISMA color -->
+  <script define:vars={{ colorHex: prismaColor?.hex ?? '#1B2A41' }}>
+    document.documentElement.style.setProperty('--prisma-color', colorHex);
+    document.documentElement.style.setProperty('--prisma-color-ghost', colorHex + '14');
+    document.documentElement.style.setProperty('--prisma-color-border', colorHex + '40');
+  </script>
+
+  <!-- Reading progress bar -->
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ── Article hero ─────────────────────────────────────────────── -->
+    <header class="art-hero">
+      {article.cover_image && (
+        <div class="art-hero__img">
+          <img src={article.cover_image} alt={article.title} loading="eager" />
+        </div>
+      )}
+      <div class="art-hero__overlay"></div>
+      <div class="art-hero__ambient"></div>
+
+      <div class="art-hero__content">
+        <div class="art-header">
+          <div class="art-header__eyebrow">
+            <span>{CATEGORY_LABELS[article.category] ?? article.category}</span>
+            {article.film_title && (
+              <><span class="art-header__sep">·</span><span>{article.film_title}</span></>
+            )}
+          </div>
+          <h1 class="art-header__title">{article.title}</h1>
+          {article.subtitle && (
+            <p class="art-header__subtitle">{article.subtitle}</p>
+          )}
+          <div class="art-header__meta">
+            <span>{VOICE_LABELS[article.voice ?? 'editorial']}</span>
+            <span class="art-header__sep">·</span>
+            <span>{formatDate(article.published_at)}</span>
+            {article.reading_time && (
+              <><span class="art-header__sep">·</span>
+              <span>{article.reading_time} min de lectura</span></>
+            )}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Article body + sidebar ───────────────────────────────────── -->
+    <div class="art-layout">
+
+      <!-- Main body -->
+      <article>
+        <div class="art-body" id="art-body" set:html={article.body_html} />
+
+        {article.tags?.length > 0 && (
+          <div class="art-tags">
+            {article.tags.map(tag => (
+              <span class="art-tag">#{tag}</span>
+            ))}
+          </div>
+        )}
+      </article>
+
+      <!-- Sidebar -->
+      <aside class="art-sidebar">
+
+        {article.film_title && (
+          <div class="sidebar-card">
+            <p class="sidebar-card__label">Sobre la película</p>
+            <h3 class="sidebar-film__title">{article.film_title}</h3>
+            <div class="sidebar-film__meta">
+              {article.film_year && <p>{article.film_year}</p>}
+              {article.director   && <p>Dir. {article.director}</p>}
+            </div>
+            {article.film_slug && (
+              <a href={`/films/${article.film_slug}`} class="sidebar-film__link">
+                Ver en PRISMA →
+              </a>
+            )}
+          </div>
+        )}
+
+        <div class="sidebar-card">
+          <p class="sidebar-card__label">Compartir</p>
+          <div class="share-btns">
+            <a
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://prisma.film/editorial/${article.slug}`)}`}
+              target="_blank" rel="noopener" class="share-btn"
+            >X / Twitter</a>
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://prisma.film/editorial/${article.slug}`)}`}
+              target="_blank" rel="noopener" class="share-btn"
+            >Facebook</a>
+          </div>
+          <button class="share-btn share-btn--full" id="copy-link-btn">
+            Copiar enlace
+          </button>
+        </div>
+
+      </aside>
+    </div>
+
+    <!-- ── Related articles ──────────────────────────────────────────── -->
+    {related.length > 0 && (
+      <section class="related-section">
+        <div class="related-inner">
+          <h2 class="related-title">También en PRISMA</h2>
+          <div class="related-grid">
+            {related.map(rel => (
+              <a href={`/editorial/${rel.slug}`} class="art-card-sm">
+                <div class="art-card-sm__img">
+                  {rel.cover_image
+                    ? <img src={rel.cover_image} alt={rel.title} loading="lazy" />
+                    : <div class="art-card-sm__img-placeholder" />
+                  }
+                </div>
+                <div class="art-card-sm__body">
+                  <p class="art-card-sm__cat">
+                    {CATEGORY_LABELS[rel.category] ?? rel.category}
+                  </p>
+                  <h3 class="art-card-sm__title">{rel.title}</h3>
+                  <p class="art-card-sm__excerpt">{rel.excerpt}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+  </main>
+
+  <script>
+    // Reading progress bar
+    const bar     = document.getElementById('reading-progress');
+    const artBody = document.getElementById('art-body');
+    if (bar && artBody) {
+      window.addEventListener('scroll', () => {
+        const rect   = artBody.getBoundingClientRect();
+        const progress = Math.min(Math.max(-rect.top / artBody.offsetHeight, 0), 1);
+        bar.style.width = `${progress * 100}%`;
+      }, { passive: true });
+    }
+
+    // Copy link
+    document.getElementById('copy-link-btn')?.addEventListener('click', async () => {
+      const btn = document.getElementById('copy-link-btn') as HTMLButtonElement | null;
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (btn) { btn.textContent = '✓ Copiado'; setTimeout(() => { btn.textContent = 'Copiar enlace'; }, 2000); }
+      } catch {}
+    });
+  </script>
+
+</BaseLayout>
+
+<style>
+/* ── Reading progress ───────────────────────────────────────────────── */
+.reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 0%;
+  height: 3px;
+  background: var(--prisma-color, #1B2A41);
+  z-index: 1000;
+  transition: width 80ms linear;
+}
+
+/* ── Hero ───────────────────────────────────────────────────────────── */
+.art-hero {
+  position: relative;
+  min-height: 480px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.art-hero__img {
+  position: absolute;
+  inset: 0;
+}
+.art-hero__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.art-hero__overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(10,10,15,0.25) 0%, rgba(10,10,15,0.96) 100%);
+}
+.art-hero__ambient {
+  position: absolute; inset: 0;
+  background: linear-gradient(155deg, var(--prisma-color-ghost, rgba(27,42,65,0.08)) 0%, transparent 60%);
+}
+.art-hero__content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem 3rem;
+  width: 100%;
+}
+
+/* ── Article header ─────────────────────────────────────────────────── */
+.art-header { max-width: 800px; }
+.art-header__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #1B2A41);
+  margin-bottom: 1.25rem;
+}
+.art-header__sep { opacity: 0.35; }
+.art-header__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem;
+}
+.art-header__subtitle {
+  font-family: var(--font-serif, serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+}
+.art-header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--text-muted, #6B6560);
+}
+
+/* ── Article layout ─────────────────────────────────────────────────── */
+.art-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 3rem;
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .art-layout { grid-template-columns: 1fr; }
+  .art-sidebar { order: -1; }
+}
+@media (max-width: 640px) {
+  .art-layout { padding: 2rem 1.25rem; }
+  .art-hero__content { padding: 4rem 1.25rem 2.5rem; }
+}
+
+/* ── Article body ───────────────────────────────────────────────────── */
+.art-body {
+  max-width: 680px;
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary, #A09A8E);
+}
+.art-body :global(h2) {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  margin: 2.5rem 0 1rem;
+  line-height: 1.2;
+}
+.art-body :global(h3) {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  margin: 2rem 0 0.75rem;
+}
+.art-body :global(p) { margin-bottom: 1.25rem; }
+.art-body :global(blockquote) {
+  border-left: 3px solid var(--prisma-color, #1B2A41);
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background: var(--bg-raised, #121218);
+  border-radius: 0 8px 8px 0;
+}
+.art-body :global(blockquote p) {
+  font-family: var(--font-serif, serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--text-primary, #F0EEE8);
+  margin: 0;
+}
+.art-body :global(strong) { color: var(--text-primary, #F0EEE8); font-weight: 600; }
+.art-body :global(a) {
+  color: var(--prisma-color, #1B2A41);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.art-body :global(img) {
+  width: 100%;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* ── Tags ───────────────────────────────────────────────────────────── */
+.art-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+.art-tag {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--text-muted, #6B6560);
+  background: var(--bg-elevated, #1a1a22);
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 100px;
+  padding: 0.3rem 0.75rem;
+}
+
+/* ── Sidebar ────────────────────────────────────────────────────────── */
+.art-sidebar {
+  position: sticky;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.sidebar-card {
+  background: var(--bg-raised, #121218);
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.sidebar-card__label {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #1B2A41);
+  margin: 0 0 1rem;
+}
+.sidebar-film__title {
+  font-family: var(--font-serif, serif);
+  font-size: 1.15rem;
+  color: var(--text-primary, #F0EEE8);
+  margin: 0 0 0.5rem;
+}
+.sidebar-film__meta {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.85rem;
+  color: var(--text-muted, #6B6560);
+  line-height: 1.6;
+}
+.sidebar-film__meta p { margin: 0; }
+.sidebar-film__link {
+  display: inline-block;
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--prisma-color, #1B2A41);
+  text-decoration: none;
+  margin-top: 1rem;
+  border-bottom: 1px solid var(--prisma-color-border, rgba(27,42,65,0.25));
+  padding-bottom: 2px;
+  transition: border-color 120ms ease;
+}
+.sidebar-film__link:hover { border-color: var(--prisma-color, #1B2A41); }
+
+.share-btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.share-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6B6560);
+  background: var(--bg-elevated, #1a1a22);
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 6px;
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 120ms ease, border-color 120ms ease;
+}
+.share-btn:hover { color: var(--text-primary, #F0EEE8); border-color: rgba(255,255,255,0.2); }
+.share-btn--full { width: 100%; }
+
+/* ── Related articles ───────────────────────────────────────────────── */
+.related-section {
+  border-top: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+.related-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+.related-title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  margin: 0 0 2rem;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 860px) { .related-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } }
+
+.art-card-sm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-raised, #121218);
+  text-decoration: none;
+  transition: border-color 200ms ease, transform 200ms ease;
+}
+.art-card-sm:hover {
+  border-color: rgba(255,255,255,0.14);
+  transform: translateY(-2px);
+}
+.art-card-sm__img {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.art-card-sm__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.art-card-sm__img-placeholder {
+  width: 100%; height: 100%; min-height: 130px;
+  background: var(--bg-elevated, #1a1a22);
+}
+.art-card-sm__body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.art-card-sm__cat {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #1B2A41);
+  margin: 0;
+}
+.art-card-sm__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1.3;
+  margin: 0;
+}
+.art-card-sm__excerpt {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.8rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>

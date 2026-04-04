@@ -1,0 +1,251 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getPublishedArticles } from '../../../lib/db/editorial';
+
+export async function getStaticPaths() {
+  return [
+    { params: { category: 'editorial'  } },
+    { params: { category: 'laboratory' } },
+    { params: { category: 'fastfood'   } },
+  ];
+}
+
+const { category } = Astro.params;
+const articles = await getPublishedArticles({ category, limit: 40 });
+
+const LABELS: Record<string, { title: string; description: string }> = {
+  editorial: {
+    title: 'Editorial',
+    description: 'Análisis profundo y crítica cinematográfica. La voz curatorial de PRISMA sobre el cine de autor.',
+  },
+  laboratory: {
+    title: 'Laboratorio',
+    description: 'Análisis técnico: cinematografía, dirección de arte, montaje. PRISMA Focus disecciona el lenguaje visual.',
+  },
+  fastfood: {
+    title: 'Radar',
+    description: 'Noticias, anuncios y movimientos del cine independiente. PRISMA Radar en tiempo real.',
+  },
+};
+
+const label = LABELS[category] ?? { title: category, description: '' };
+
+const CATEGORY_LABELS: Record<string, string> = {
+  editorial: 'Editorial', laboratory: 'Laboratorio', fastfood: 'Radar',
+};
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('es-MX', {
+    year: 'numeric', month: 'long', day: 'numeric',
+  });
+}
+---
+
+<BaseLayout
+  title={`${label.title} — PRISMA Editorial`}
+  description={label.description}
+  canonicalUrl={`https://prisma.film/editorial/category/${category}`}
+  breadcrumbs={[
+    { name: 'PRISMA',    url: 'https://prisma.film' },
+    { name: 'Editorial', url: 'https://prisma.film/editorial' },
+    { name: label.title, url: `https://prisma.film/editorial/category/${category}` },
+  ]}
+>
+  <main class="cat-main">
+    <div class="cat-container">
+
+      <!-- Back + heading -->
+      <div class="cat-header">
+        <a href="/editorial" class="cat-back">← Volver a Editorial</a>
+        <h1 class="cat-title">{label.title}</h1>
+        <p class="cat-desc">{label.description}</p>
+      </div>
+
+      <!-- Tabs (highlight active) -->
+      <nav class="cat-tabs" aria-label="Categorías editoriales">
+        <a href="/editorial"                     class="cat-tab">Todos</a>
+        <a href="/editorial/category/editorial"  class:list={['cat-tab', category === 'editorial'  && 'cat-tab--active']}>Editorial</a>
+        <a href="/editorial/category/laboratory" class:list={['cat-tab', category === 'laboratory' && 'cat-tab--active']}>Laboratorio</a>
+        <a href="/editorial/category/fastfood"   class:list={['cat-tab', category === 'fastfood'   && 'cat-tab--active']}>Radar</a>
+      </nav>
+
+      {articles.length > 0 ? (
+        <div class="cat-grid">
+          {articles.map(article => (
+            <a href={`/editorial/${article.slug}`} class="cat-card">
+              {article.cover_image && (
+                <div class="cat-card__img">
+                  <img src={article.cover_image} alt={article.title} loading="lazy" />
+                </div>
+              )}
+              <div class="cat-card__body">
+                <p class="cat-card__cat">
+                  {CATEGORY_LABELS[article.category] ?? article.category}
+                </p>
+                <h3 class="cat-card__title">{article.title}</h3>
+                <p class="cat-card__excerpt">{article.excerpt}</p>
+                <div class="cat-card__meta">
+                  <span>{formatDate(article.published_at)}</span>
+                  {article.reading_time && (
+                    <><span>·</span><span>{article.reading_time} min</span></>
+                  )}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="cat-empty">
+          <p class="cat-empty__title">Próximamente</p>
+          <p>No hay artículos en esta categoría todavía.</p>
+        </div>
+      )}
+
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+.cat-main { background: var(--bg-void, #0a0a0f); min-height: 80vh; }
+.cat-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem 5rem;
+}
+@media (max-width: 640px) { .cat-container { padding: 3.5rem 1.25rem 4rem; } }
+
+.cat-header { margin-bottom: 2.5rem; }
+.cat-back {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted, #6B6560);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  transition: color 120ms ease;
+}
+.cat-back:hover { color: var(--text-secondary, #A09A8E); }
+.cat-title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1;
+  margin: 0 0 1rem;
+}
+.cat-desc {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 1rem;
+  color: var(--text-secondary, #A09A8E);
+  max-width: 560px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.cat-tabs {
+  display: flex;
+  gap: 0.125rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+.cat-tab {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6B6560);
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  text-decoration: none;
+  transition: color 140ms ease, border-color 140ms ease;
+}
+.cat-tab:hover { color: var(--text-secondary, #A09A8E); }
+.cat-tab--active {
+  color: var(--prisma-color, #C98A2E);
+  border-bottom-color: var(--prisma-color, #C98A2E);
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.cat-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-raised, #121218);
+  text-decoration: none;
+  transition: border-color 200ms ease, transform 200ms ease;
+}
+.cat-card:hover {
+  border-color: rgba(255,255,255,0.14);
+  transform: translateY(-2px);
+}
+.cat-card__img {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.cat-card__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 480ms ease;
+}
+.cat-card:hover .cat-card__img img { transform: scale(1.04); }
+.cat-card__body { padding: 1.5rem; display: flex; flex-direction: column; gap: 0.625rem; }
+.cat-card__cat {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #C98A2E);
+  margin: 0;
+}
+.cat-card__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1.25;
+  margin: 0;
+}
+.cat-card__excerpt {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.875rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.65;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cat-card__meta {
+  display: flex;
+  gap: 0.5rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  color: var(--text-muted, #6B6560);
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+
+.cat-empty {
+  text-align: center;
+  padding: 5rem 0;
+  color: var(--text-muted, #6B6560);
+  font-family: var(--font-sans, 'Inter', sans-serif);
+}
+.cat-empty__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.75rem;
+  color: var(--text-secondary, #A09A8E);
+  margin-bottom: 0.75rem;
+}
+</style>

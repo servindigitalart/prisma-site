@@ -1,0 +1,454 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArticles, getFeaturedArticle } from '../../lib/db/editorial';
+import { getPaletteEntry } from '../../lib/color/colorPalette';
+
+const articles = await getPublishedArticles({ limit: 24 });
+const featured = await getFeaturedArticle();
+const nonFeatured = articles.filter(a => a.slug !== featured?.slug);
+
+// Current month color for hero ambient
+const MONTHLY_COLORS: Record<number, string> = {
+  1: 'rojo_pasional', 2: 'naranja_apocaliptico', 3: 'ambar_desertico',
+  4: 'amarillo_ludico', 5: 'verde_lima', 6: 'verde_esmeralda',
+  7: 'cian_melancolico', 8: 'azul_nocturno', 9: 'violeta_cinetico',
+  10: 'purpura_onirico', 11: 'magenta_pop', 12: 'ambar_desertico',
+};
+const currentMonth = new Date().getMonth() + 1;
+const monthColorSlug = MONTHLY_COLORS[currentMonth];
+const monthColor = getPaletteEntry(monthColorSlug as any);
+
+const CATEGORY_LABELS: Record<string, string> = {
+  editorial: 'Editorial',
+  laboratory: 'Laboratorio',
+  fastfood: 'Radar',
+};
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('es-MX', {
+    year: 'numeric', month: 'long', day: 'numeric',
+  });
+}
+---
+
+<BaseLayout
+  title="Editorial — PRISMA"
+  description="Análisis, crítica y perspectiva sobre el cine de autor. PRISMA Editorial: donde la imagen cinematográfica se convierte en texto."
+  ogType="website"
+  canonicalUrl="https://prisma.film/editorial"
+  breadcrumbs={[
+    { name: 'PRISMA', url: 'https://prisma.film' },
+    { name: 'Editorial', url: 'https://prisma.film/editorial' },
+  ]}
+>
+
+  <!-- Inject current month color -->
+  <script define:vars={{ colorHex: monthColor?.hex ?? '#C98A2E' }}>
+    document.documentElement.style.setProperty('--prisma-color', colorHex);
+    document.documentElement.style.setProperty('--prisma-color-ghost', colorHex + '14');
+    document.documentElement.style.setProperty('--prisma-color-border', colorHex + '40');
+  </script>
+
+  <main class="ed-main">
+
+    <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+    <section class="ed-hero">
+      <div class="ed-hero__ambient"></div>
+      <div class="ed-container">
+        <p class="ed-hero__eyebrow">PRISMA · Voz Editorial</p>
+        <h1 class="ed-hero__title">Editorial</h1>
+        <div class="ed-hero__rule"></div>
+        <p class="ed-hero__subtitle">
+          Análisis, crítica y perspectiva sobre el cine de autor.
+          Donde la imagen cinematográfica se convierte en texto.
+        </p>
+      </div>
+    </section>
+
+    <div class="ed-container">
+
+      <!-- ── Category tabs ────────────────────────────────────────────── -->
+      <nav class="ed-tabs" aria-label="Categorías editoriales">
+        <a href="/editorial"                          class="ed-tab ed-tab--active">Todos</a>
+        <a href="/editorial/category/editorial"       class="ed-tab">Editorial</a>
+        <a href="/editorial/category/laboratory"      class="ed-tab">Laboratorio</a>
+        <a href="/editorial/category/fastfood"        class="ed-tab">Radar</a>
+      </nav>
+
+      <!-- ── Featured article ─────────────────────────────────────────── -->
+      {featured && (
+        <section class="ed-featured">
+          <a href={`/editorial/${featured.slug}`} class="ed-featured__card">
+            <div class="ed-featured__img">
+              {featured.cover_image
+                ? <img src={featured.cover_image} alt={featured.title} loading="eager" />
+                : <div class="ed-featured__img-placeholder">
+                    <span>DESTACADO</span>
+                  </div>
+              }
+            </div>
+            <div class="ed-featured__body">
+              <p class="ed-featured__eyebrow">
+                ✦ {CATEGORY_LABELS[featured.category] ?? featured.category}
+                {featured.film_title && ` · ${featured.film_title}`}
+              </p>
+              <h2 class="ed-featured__title">{featured.title}</h2>
+              {featured.subtitle && (
+                <p class="ed-featured__subtitle">{featured.subtitle}</p>
+              )}
+              <p class="ed-featured__excerpt">{featured.excerpt}</p>
+              <div class="ed-featured__meta">
+                <span>{formatDate(featured.published_at)}</span>
+                {featured.reading_time && (
+                  <><span>·</span><span>{featured.reading_time} min lectura</span></>
+                )}
+              </div>
+            </div>
+          </a>
+        </section>
+      )}
+
+      <!-- ── Articles grid ────────────────────────────────────────────── -->
+      {nonFeatured.length > 0 ? (
+        <div class="ed-grid">
+          {nonFeatured.map(article => (
+            <a href={`/editorial/${article.slug}`} class="art-card">
+              <div class="art-card__img">
+                {article.cover_image
+                  ? <img src={article.cover_image} alt={article.title} loading="lazy" />
+                  : <div class="art-card__img-placeholder">
+                      <span>{CATEGORY_LABELS[article.category] ?? article.category}</span>
+                    </div>
+                }
+              </div>
+              <div class="art-card__body">
+                <p class="art-card__cat">
+                  {CATEGORY_LABELS[article.category] ?? article.category}
+                </p>
+                <h3 class="art-card__title">{article.title}</h3>
+                <p class="art-card__excerpt">{article.excerpt}</p>
+                <div class="art-card__meta">
+                  <span>{formatDate(article.published_at)}</span>
+                  {article.reading_time && (
+                    <><span>·</span><span>{article.reading_time} min</span></>
+                  )}
+                  {article.film_title && (
+                    <><span>·</span><span>{article.film_title}</span></>
+                  )}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="ed-empty">
+          <p class="ed-empty__title">Próximamente</p>
+          <p>El primer artículo editorial de PRISMA está en camino.</p>
+        </div>
+      )}
+
+      <div class="ed-spacer"></div>
+    </div>
+  </main>
+
+</BaseLayout>
+
+<style>
+/* ── Container ──────────────────────────────────────────────────────── */
+.ed-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+@media (max-width: 640px) { .ed-container { padding: 0 1.25rem; } }
+
+/* ── Hero ───────────────────────────────────────────────────────────── */
+.ed-main { background: var(--bg-void, #0a0a0f); }
+
+.ed-hero {
+  position: relative;
+  padding: 6rem 0 3.5rem;
+  overflow: hidden;
+  border-bottom: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+.ed-hero__ambient {
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 380px;
+  border-radius: 50%;
+  background: var(--prisma-color-ghost, rgba(201,138,46,0.08));
+  filter: blur(90px);
+  pointer-events: none;
+}
+.ed-hero__eyebrow {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #C98A2E);
+  margin-bottom: 1rem;
+}
+.ed-hero__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+}
+.ed-hero__rule {
+  width: 48px;
+  height: 2px;
+  background: var(--prisma-color, #C98A2E);
+  border-radius: 1px;
+  margin-bottom: 1.5rem;
+}
+.ed-hero__subtitle {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--text-secondary, #A09A8E);
+  max-width: 500px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── Category tabs ──────────────────────────────────────────────────── */
+.ed-tabs {
+  display: flex;
+  gap: 0.125rem;
+  margin: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+.ed-tab {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6B6560);
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  text-decoration: none;
+  transition: color 140ms ease, border-color 140ms ease;
+}
+.ed-tab:hover { color: var(--text-secondary, #A09A8E); }
+.ed-tab--active {
+  color: var(--prisma-color, #C98A2E);
+  border-bottom-color: var(--prisma-color, #C98A2E);
+}
+
+/* ── Featured card ──────────────────────────────────────────────────── */
+.ed-featured { margin-bottom: 3rem; }
+.ed-featured__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-raised, #121218);
+  text-decoration: none;
+  transition: border-color 240ms ease;
+}
+.ed-featured__card:hover {
+  border-color: var(--prisma-color-border, rgba(201,138,46,0.25));
+}
+.ed-featured__img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.ed-featured__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+.ed-featured__card:hover .ed-featured__img img { transform: scale(1.03); }
+.ed-featured__img-placeholder {
+  width: 100%; height: 100%;
+  min-height: 280px;
+  background: var(--prisma-color-ghost, rgba(201,138,46,0.08));
+  display: flex; align-items: center; justify-content: center;
+}
+.ed-featured__img-placeholder span {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: var(--text-muted, #6B6560);
+}
+.ed-featured__body {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.ed-featured__eyebrow {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #C98A2E);
+}
+.ed-featured__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: clamp(1.6rem, 2.8vw, 2.5rem);
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1.15;
+  margin: 0;
+}
+.ed-featured__subtitle {
+  font-family: var(--font-serif, serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.5;
+  margin: 0;
+}
+.ed-featured__excerpt {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.9375rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.7;
+  margin: 0;
+}
+.ed-featured__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--text-muted, #6B6560);
+  margin-top: auto;
+}
+
+/* ── Article grid ───────────────────────────────────────────────────── */
+.ed-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* ── Article card ───────────────────────────────────────────────────── */
+.art-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-raised, #121218);
+  text-decoration: none;
+  transition: border-color 200ms ease, transform 200ms ease;
+}
+.art-card:hover {
+  border-color: var(--surface-border-strong, rgba(255,255,255,0.14));
+  transform: translateY(-2px);
+}
+.art-card__img {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.art-card__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 480ms ease;
+}
+.art-card:hover .art-card__img img { transform: scale(1.04); }
+.art-card__img-placeholder {
+  width: 100%; height: 100%; min-height: 160px;
+  background: var(--bg-elevated, #1a1a22);
+  display: flex; align-items: center; justify-content: center;
+}
+.art-card__img-placeholder span {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6B6560);
+}
+.art-card__body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  flex: 1;
+}
+.art-card__cat {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--prisma-color, #C98A2E);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+}
+.art-card__cat::before {
+  content: '';
+  display: inline-block;
+  width: 5px; height: 5px;
+  background: var(--prisma-color, #C98A2E);
+  border-radius: 1px;
+}
+.art-card__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-primary, #F0EEE8);
+  line-height: 1.25;
+  margin: 0;
+}
+.art-card__excerpt {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.875rem;
+  color: var(--text-secondary, #A09A8E);
+  line-height: 1.65;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.art-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  color: var(--text-muted, #6B6560);
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--surface-border, rgba(255,255,255,0.07));
+}
+
+/* ── Empty state ────────────────────────────────────────────────────── */
+.ed-empty {
+  text-align: center;
+  padding: 5rem 0;
+  color: var(--text-muted, #6B6560);
+  font-family: var(--font-sans, 'Inter', sans-serif);
+}
+.ed-empty__title {
+  font-family: var(--font-serif, 'DM Serif Display', serif);
+  font-size: 1.75rem;
+  color: var(--text-secondary, #A09A8E);
+  margin-bottom: 0.75rem;
+}
+.ed-spacer { padding-bottom: 5rem; }
+
+/* ── Responsive ─────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .ed-featured__card { grid-template-columns: 1fr; }
+  .ed-featured__img { aspect-ratio: 16/9; }
+}
+@media (max-width: 640px) {
+  .ed-grid { grid-template-columns: 1fr; }
+  .ed-hero__title { font-size: clamp(2.8rem, 12vw, 4rem); }
+}
+</style>
