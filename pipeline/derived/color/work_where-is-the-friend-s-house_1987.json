@@ -1,0 +1,54 @@
+{
+  "work_id": "work_where-is-the-friend-s-house_1987",
+  "processed_at": "2026-04-04T01:03:54.209824+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.79,
+    "secondary_colors": [
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "extremadamente_realista",
+    "supporting_evidence": [
+      "Dominant colors of the mud-brick houses and walls throughout the village.",
+      "The pervasive dusty, dry earth tones of the winding paths and hillsides where Ahmad travels.",
+      "The natural, slightly desaturated color grading that gives a warm, 'faded memory' quality to the landscapes."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_where-is-the-friend-s-house_1987",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T01:03:54.206531Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T01:03:54.206518Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_where-is-the-friend-s-house_1987",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "extremadamente_realista"
+  }
+}

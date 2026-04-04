@@ -1,0 +1,528 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/wS1sRgSS2kPUyiFfDS8QCP0ZOd2.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 10402,
+        "name": "Music"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "homepage": "",
+    "id": 47310,
+    "imdb_id": "tt0049367",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Invitation to the Dance",
+    "overview": "Three completely different stories are told through dance.",
+    "popularity": 0.6106,
+    "poster_path": "/8DrVPRBKNhfUFpPM3yiu8PWuvbR.jpg",
+    "production_companies": [
+      {
+        "id": 21,
+        "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "name": "Metro-Goldwyn-Mayer",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1956-05-22",
+    "revenue": 0,
+    "runtime": 93,
+    "spoken_languages": [
+      {
+        "english_name": "No Language",
+        "iso_639_1": "xx",
+        "name": "No Language"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Invitation to the Dance",
+    "video": false,
+    "vote_average": 5.9,
+    "vote_count": 25
+  },
+  "credits": {
+    "id": 47310,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13294,
+        "known_for_department": "Acting",
+        "name": "Gene Kelly",
+        "original_name": "Gene Kelly",
+        "popularity": 2.1626,
+        "profile_path": "/g98yyY7oGrkocUxxJgOt82I7z6A.jpg",
+        "cast_id": 8,
+        "character": "Host / Pierrot / The Marine / Sinbad",
+        "credit_id": "52fe472bc3a36847f8126fe5",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 138390,
+        "known_for_department": "Acting",
+        "name": "Igor Youskevitch",
+        "original_name": "Igor Youskevitch",
+        "popularity": 0.0357,
+        "profile_path": "/mibhsYp1iG2PqH7Khkc47S5zUBJ.jpg",
+        "cast_id": 9,
+        "character": "The Lover / The Artist",
+        "credit_id": "52fe472bc3a36847f8126fe9",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 138391,
+        "known_for_department": "Acting",
+        "name": "Claire Sombert",
+        "original_name": "Claire Sombert",
+        "popularity": 0.0387,
+        "profile_path": "/wRTQzpC7PM9WZU0A1TfxmrgSqaw.jpg",
+        "cast_id": 10,
+        "character": "The Loved",
+        "credit_id": "52fe472bc3a36847f8126fed",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 41985,
+        "known_for_department": "Acting",
+        "name": "Tamara Toumanova",
+        "original_name": "Tamara Toumanova",
+        "popularity": 0.534,
+        "profile_path": "/u2XgNwr5wPLkysWPPeqaYkSJPOb.jpg",
+        "cast_id": 11,
+        "character": "The Streetwalker",
+        "credit_id": "52fe472bc3a36847f8126ff1",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 138392,
+        "known_for_department": "Acting",
+        "name": "Diana Adams",
+        "original_name": "Diana Adams",
+        "popularity": 0.0716,
+        "profile_path": "/zgvUGAwl1a8FC7I2qX8DUG21xgb.jpg",
+        "cast_id": 12,
+        "character": "Hat Check Girl",
+        "credit_id": "52fe472bc3a36847f8126ff5",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 138393,
+        "known_for_department": "Acting",
+        "name": "Tommy Rall",
+        "original_name": "Tommy Rall",
+        "popularity": 0.4059,
+        "profile_path": "/oDsa71LAaG06elk45rbq5NfZXz.jpg",
+        "cast_id": 13,
+        "character": "Flashy Boyfriend",
+        "credit_id": "52fe472bc3a36847f8126ff9",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 93731,
+        "known_for_department": "Acting",
+        "name": "Belita",
+        "original_name": "Belita",
+        "popularity": 0.4967,
+        "profile_path": "/2z5nupHvY41GBnMypzvqiQ9zRE0.jpg",
+        "cast_id": 14,
+        "character": "The Femme Fatale",
+        "credit_id": "52fe472bc3a36847f8126ffd",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 138394,
+        "known_for_department": "Directing",
+        "name": "David Paltenghi",
+        "original_name": "David Paltenghi",
+        "popularity": 0.1985,
+        "profile_path": "/m3lQ3CDIqEi5PCpPpz0bNvB7Zg8.jpg",
+        "cast_id": 15,
+        "character": "The Husband",
+        "credit_id": "52fe472bc3a36847f8127001",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 138395,
+        "known_for_department": "Acting",
+        "name": "Daphne Dale",
+        "original_name": "Daphne Dale",
+        "popularity": 0.0434,
+        "profile_path": null,
+        "cast_id": 16,
+        "character": "The Wife",
+        "credit_id": "52fe472bc3a36847f8127005",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 138396,
+        "known_for_department": "Acting",
+        "name": "Claude Bessy",
+        "original_name": "Claude Bessy",
+        "popularity": 0.2514,
+        "profile_path": "/9xnORC3NybeuUhobuhxigwlhOTT.jpg",
+        "cast_id": 17,
+        "character": "The Model",
+        "credit_id": "52fe472bc3a36847f8127009",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 138397,
+        "known_for_department": "Acting",
+        "name": "Irving Davies",
+        "original_name": "Irving Davies",
+        "popularity": 0.121,
+        "profile_path": null,
+        "cast_id": 18,
+        "character": "The Crooner in 'Ring Around the Rosy'",
+        "credit_id": "52fe472bc3a36847f812700d",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 124880,
+        "known_for_department": "Acting",
+        "name": "Carol Haney",
+        "original_name": "Carol Haney",
+        "popularity": 0.2794,
+        "profile_path": "/x6ZHCYZIcQ0tdDQxobvA3qeCICH.jpg",
+        "cast_id": 19,
+        "character": "Scheherazade",
+        "credit_id": "52fe472bc3a36847f8127011",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 138398,
+        "known_for_department": "Acting",
+        "name": "David Kasday",
+        "original_name": "David Kasday",
+        "popularity": 0.1621,
+        "profile_path": null,
+        "cast_id": 20,
+        "character": "The Genie / Little Sailor",
+        "credit_id": "52fe472bc3a36847f8127015",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5805,
+        "known_for_department": "Sound",
+        "name": "Andr\u00e9 Previn",
+        "original_name": "Andr\u00e9 Previn",
+        "popularity": 0.6703,
+        "profile_path": "/eejlWsguIMSXw1arKn4G5e1uhAx.jpg",
+        "cast_id": 21,
+        "character": "Composer at Piano",
+        "credit_id": "52fe472bc3a36847f8127019",
+        "order": 13
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14678,
+        "known_for_department": "Camera",
+        "name": "Joseph Ruttenberg",
+        "original_name": "Joseph Ruttenberg",
+        "popularity": 0.2767,
+        "profile_path": "/uwNXqNOOA6cUgdiALCAX4FIl8aS.jpg",
+        "credit_id": "52fe472bc3a36847f8126fc9",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9055,
+        "known_for_department": "Production",
+        "name": "Arthur Freed",
+        "original_name": "Arthur Freed",
+        "popularity": 0.5043,
+        "profile_path": null,
+        "credit_id": "52fe472bc3a36847f8126fc3",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13294,
+        "known_for_department": "Acting",
+        "name": "Gene Kelly",
+        "original_name": "Gene Kelly",
+        "popularity": 2.1626,
+        "profile_path": "/g98yyY7oGrkocUxxJgOt82I7z6A.jpg",
+        "credit_id": "52fe472bc3a36847f8126fbd",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13294,
+        "known_for_department": "Acting",
+        "name": "Gene Kelly",
+        "original_name": "Gene Kelly",
+        "popularity": 2.1626,
+        "profile_path": "/g98yyY7oGrkocUxxJgOt82I7z6A.jpg",
+        "credit_id": "52fe472bc3a36847f812701f",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10218,
+        "known_for_department": "Editing",
+        "name": "Raymond Poulton",
+        "original_name": "Raymond Poulton",
+        "popularity": 0.2093,
+        "profile_path": null,
+        "credit_id": "52fe472bc3a36847f8126fdb",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 13289,
+        "known_for_department": "Editing",
+        "name": "Adrienne Fazan",
+        "original_name": "Adrienne Fazan",
+        "popularity": 0.1414,
+        "profile_path": null,
+        "credit_id": "52fe472bc3a36847f8126fd5",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10079,
+        "known_for_department": "Camera",
+        "name": "Freddie Young",
+        "original_name": "Freddie Young",
+        "popularity": 0.5798,
+        "profile_path": "/zRQlkuze95cvNOm3MFqxEocvzwg.jpg",
+        "credit_id": "554b216a925141469200164d",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 27937,
+        "known_for_department": "Art",
+        "name": "Alfred Junge",
+        "original_name": "Alfred Junge",
+        "popularity": 0.1687,
+        "profile_path": "/7tEa3sn61RADA9LMSI3poqkiq59.jpg",
+        "credit_id": "554b21d392514104590009b9",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10014,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Charles E. Parker",
+        "original_name": "Charles E. Parker",
+        "popularity": 0.2103,
+        "profile_path": null,
+        "credit_id": "554b2276c3a3685e550015c1",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9062,
+        "known_for_department": "Art",
+        "name": "Cedric Gibbons",
+        "original_name": "Cedric Gibbons",
+        "popularity": 0.7599,
+        "profile_path": "/4490hNfDKQPh0pIn8GBSQ0UARMX.jpg",
+        "credit_id": "554b21b9925141469200165e",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13290,
+        "known_for_department": "Art",
+        "name": "Randall Duell",
+        "original_name": "Randall Duell",
+        "popularity": 0.2579,
+        "profile_path": "/xXXP6lCTtHw9WUa8vc1GHoBHwzf.jpg",
+        "credit_id": "554b21c69251414692001662",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1464504,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Rolf Gerard",
+        "original_name": "Rolf Gerard",
+        "popularity": 0.0,
+        "profile_path": null,
+        "credit_id": "554b22b39251414692001681",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 89538,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Joan Johnstone",
+        "original_name": "Joan Johnstone",
+        "popularity": 0.0873,
+        "profile_path": null,
+        "credit_id": "554b2202c3a3685e5e001537",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 10011,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Elizabeth Haffenden",
+        "original_name": "Elizabeth Haffenden",
+        "popularity": 0.2781,
+        "profile_path": null,
+        "credit_id": "554b228fc3a3685e4e0014d0",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13294,
+        "known_for_department": "Acting",
+        "name": "Gene Kelly",
+        "original_name": "Gene Kelly",
+        "popularity": 2.1626,
+        "profile_path": "/g98yyY7oGrkocUxxJgOt82I7z6A.jpg",
+        "credit_id": "65cc34f34a0b190186ce4b72",
+        "department": "Crew",
+        "job": "Choreographer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1630512,
+        "known_for_department": "Editing",
+        "name": "Robert Watts",
+        "original_name": "Robert Watts",
+        "popularity": 0.1318,
+        "profile_path": null,
+        "credit_id": "59c7f7fc9251415b77061b51",
+        "department": "Editing",
+        "job": "Editor"
+      }
+    ]
+  },
+  "videos": {
+    "id": 47310,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Invitation to the Dance (Original Theatrical Trailer)",
+        "key": "ZCoo3nTdpXk",
+        "published_at": "2011-03-10T18:30:19.000Z",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Trailer",
+        "official": false,
+        "id": "533ec6a6c3a36854480054bd"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 47310,
+    "keywords": [
+      {
+        "id": 1691,
+        "name": "dance"
+      },
+      {
+        "id": 4344,
+        "name": "musical"
+      },
+      {
+        "id": 11321,
+        "name": "animated scene"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 47310,
+    "results": {
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/47310-invitation-to-the-dance/watch?locale=FR",
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          }
+        ]
+      }
+    }
+  }
+}

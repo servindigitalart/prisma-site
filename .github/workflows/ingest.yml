@@ -16,6 +16,8 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -29,6 +31,17 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r pipeline/requirements.txt
+
+      - name: Populate queue from source lists
+        run: |
+          python pipeline/queue_manager.py --add-list pipeline/sources/sight_and_sound_2022.txt --source sight_and_sound_2022
+          python pipeline/queue_manager.py --add-list pipeline/sources/berlin_golden_bear.txt   --source berlin_golden_bear
+          python pipeline/queue_manager.py --add-list pipeline/sources/venice_golden_lion.txt   --source venice_golden_lion
+          python pipeline/queue_manager.py --add-list pipeline/sources/palme_dor_historical.txt --source palme_dor
+          python pipeline/queue_manager.py --add-list pipeline/sources/oscar_international.txt  --source oscar_international
+        env:
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
       - name: Show queue status
         run: python pipeline/ingest_agent.py --status

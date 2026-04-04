@@ -1,0 +1,56 @@
+{
+  "work_id": "work_invitation-to-the-dance_1956",
+  "processed_at": "2026-04-04T01:13:20.807296+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "azul_nocturno",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_apasionado",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Deep blue backdrops used for numerous stage and fantasy dance sequences",
+      "Animated segments (e.g., 'Sinbad') feature prominent deep blue skies and environments",
+      "Technicolor saturation amplifies the visual impact of the deep blue hues throughout the film"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_invitation-to-the-dance_1956",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T01:13:20.801313Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T01:13:20.801297Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_invitation-to-the-dance_1956",
+    "color_iconico": "azul_nocturno",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "rojo_pasional",
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "calido_apasionado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "work_id": "work_ali-fear-eats-the-soul_1974",
+  "processed_at": "2026-04-04T00:42:01.653976+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "cian_melancolico",
+    "color_confidence": "medium",
+    "color_consensus_strength": 0.72,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The blue-green tiled walls of the bar where Ali and Emmi meet and frequent",
+      "Overall cool, desaturated tint in many urban exterior and interior shots",
+      "Emmi's iconic red dress provides a sharp, visually memorable contrast"
+    ]
+  },
+  "external_research": {
+    "work_id": "work_ali-fear-eats-the-soul_1974",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:42:01.642059Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:42:01.642046Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_ali-fear-eats-the-soul_1974",
+    "color_iconico": "cian_melancolico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

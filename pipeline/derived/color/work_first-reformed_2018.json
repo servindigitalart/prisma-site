@@ -1,0 +1,56 @@
+{
+  "work_id": "work_first-reformed_2018",
+  "processed_at": "2026-04-04T01:09:36.982709+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "blanco_polar",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.88,
+    "secondary_colors": [
+      "negro_abismo",
+      "cian_melancolico"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Predominantly white/off-white interior walls of the First Reformed Church and Reverend Toller's rectory.",
+      "Extensive use of snow and stark, white winter landscapes in exterior scenes.",
+      "Overall desaturated, cool color grading that emphasizes pale, cold tones throughout the film."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_first-reformed_2018",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T01:09:36.978457Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T01:09:36.978444Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_first-reformed_2018",
+    "color_iconico": "blanco_polar",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "negro_abismo",
+      "cian_melancolico"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_the-color-of-pomegranates_1969",
+  "processed_at": "2026-04-04T00:58:29.619740+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "rojo_pasional",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "ambar_desertico",
+      "blanco_polar"
+    ],
+    "visual_rhythm": "estatico_ritualistico",
+    "emotional_temperature": "frio_melancolico",
+    "abstraction_level": "muy_estilizado",
+    "supporting_evidence": [
+      "The recurring motif of deep red pomegranates, central to the film's visual identity.",
+      "Costumes of the protagonist, Sayat-Nova, frequently feature rich red or burgundy colors.",
+      "Many key ritualistic and symbolic scenes are visually dominated by large areas of red fabric, blood, or objects, presented in a tableau-like fashion."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-color-of-pomegranates_1969",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:58:29.614664Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:58:29.614650Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-color-of-pomegranates_1969",
+    "color_iconico": "rojo_pasional",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "ambar_desertico",
+      "blanco_polar"
+    ],
+    "temperatura_emocional": "frio_melancolico",
+    "ritmo_visual": "estatico_ritualistico",
+    "grado_abstraccion_visual": "muy_estilizado"
+  }
+}

@@ -4,5 +4,17 @@
     "failed_at": "2026-03-31",
     "source": "palme_dor",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
+  },
+  {
+    "tmdb_id": 992,
+    "failed_at": "2026-04-03",
+    "source": "sight_and_sound_2022",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
+  },
+  {
+    "tmdb_id": 129,
+    "failed_at": "2026-04-03",
+    "source": "sight_and_sound_2022",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
   }
 ]

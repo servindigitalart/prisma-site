@@ -1,0 +1,54 @@
+{
+  "work_id": "work_flowers-of-shanghai_1998",
+  "processed_at": "2026-04-04T00:56:40.106436+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.94,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The film's cinematography consistently uses artificial lighting (mimicking candlelight/oil lamps) to create a warm, golden-amber glow throughout every interior scene.",
+      "Production design features dark, ornate wooden furniture and heavy, richly textured fabrics that absorb and reflect this warm light.",
+      "Iconic long takes frequently showcase characters within these dimly lit, amber-hued rooms, contributing to a sense of historical reflection and faded elegance."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_flowers-of-shanghai_1998",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:56:40.094739Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:56:40.094717Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_flowers-of-shanghai_1998",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

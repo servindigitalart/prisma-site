@@ -1,0 +1,54 @@
+{
+  "work_id": "work_the-discreet-charm-of-the-bourgeoisie_1972",
+  "processed_at": "2026-04-04T00:48:35.663640+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "low",
+    "color_consensus_strength": 0.62,
+    "secondary_colors": [
+      "azul_nocturno"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "neutral_contemplativo",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "Rich wooden paneling and antique furniture dominate interior sets, providing a consistent amber/brown backdrop.",
+      "Many scenes feature warm, indirect lighting that bathes rooms in a golden-brown hue.",
+      "Costumes, especially for female characters, frequently include dresses and blouses in shades of beige, cream, and muted gold."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-discreet-charm-of-the-bourgeoisie_1972",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:48:35.658392Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:48:35.658378Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-discreet-charm-of-the-bourgeoisie_1972",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.4,
+    "colores_secundarios": [
+      "azul_nocturno"
+    ],
+    "temperatura_emocional": "neutral_contemplativo",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

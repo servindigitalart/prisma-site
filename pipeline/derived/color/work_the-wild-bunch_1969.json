@@ -1,0 +1,55 @@
+{
+  "work_id": "work_the-wild-bunch_1969",
+  "processed_at": "2026-04-04T00:44:03.617911+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.9,
+    "secondary_colors": [
+      "rojo_pasional"
+    ],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "estilizado",
+    "supporting_evidence": [
+      "The vast, arid landscapes of the American Southwest and Mexico, depicted with dusty, golden-brown hues.",
+      "The pervasive warm, desaturated color grading that gives the entire film a 'faded' or 'sepia-toned' aesthetic.",
+      "The weathered costumes and wooden structures of the towns, which are predominantly in shades of brown, tan, and faded gold.",
+      "Iconic scenes of the gang riding through dusty terrain and shootouts in sun-drenched environments are dominated by amber tones."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_the-wild-bunch_1969",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:44:03.612290Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:44:03.612266Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_the-wild-bunch_1969",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "rojo_pasional"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "estilizado"
+  }
+}

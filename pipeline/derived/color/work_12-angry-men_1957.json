@@ -1,0 +1,51 @@
+{
+  "work_id": "work_12-angry-men_1957",
+  "processed_at": "2026-04-04T01:15:21.812372+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "claroscuro_dramatico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.98,
+    "secondary_colors": [],
+    "visual_rhythm": "dinamico_energico",
+    "emotional_temperature": "frio_perturbador",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The entire film is shot in black and white, establishing its fundamental visual characteristic.",
+      "The cinematography consistently uses high-contrast lighting to create deep shadows and stark highlights, enhancing dramatic tension.",
+      "Close-up shots on the jurors' faces emphasize their emotional states through the sharp interplay of light and shadow.",
+      "The confined setting of the jury room is rendered with stark visual elements, contributing to the overall dramatic chiaroscuro."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_12-angry-men_1957",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T01:15:21.808572Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T01:15:21.808558Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_12-angry-men_1957",
+    "color_iconico": "claroscuro_dramatico",
+    "color_rank": 0.85,
+    "colores_secundarios": [],
+    "temperatura_emocional": "frio_alienado",
+    "ritmo_visual": "dinamico_energico",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}

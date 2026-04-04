@@ -1,0 +1,6272 @@
+{
+  "movie": {
+    "adult": false,
+    "backdrop_path": "/qr7dUqleMRd0VgollazbmyP9XjI.jpg",
+    "belongs_to_collection": {
+      "id": 422837,
+      "name": "Blade Runner Collection",
+      "poster_path": "/qTcATCpiFDcgY8snQIfS2j0bFP7.jpg",
+      "backdrop_path": "/li3buIx57ph3RX5XlbpMzJPewZ0.jpg"
+    },
+    "budget": 28000000,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "homepage": "http://www.warnerbros.com/blade-runner",
+    "id": 78,
+    "imdb_id": "tt0083658",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Blade Runner",
+    "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+    "popularity": 14.0419,
+    "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+    "production_companies": [
+      {
+        "id": 5798,
+        "logo_path": "/tmuI9BGXgpWLmokhlxpnG3IGNQB.png",
+        "name": "Shaw Brothers",
+        "origin_country": "HK"
+      },
+      {
+        "id": 7965,
+        "logo_path": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
+        "name": "The Ladd Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 174,
+        "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "name": "Warner Bros. Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "HK",
+        "name": "Hong Kong"
+      },
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      }
+    ],
+    "release_date": "1982-06-25",
+    "revenue": 41722424,
+    "runtime": 118,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "Cantonese",
+        "iso_639_1": "cn",
+        "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
+      },
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "\u65e5\u672c\u8a9e"
+      },
+      {
+        "english_name": "Hungarian",
+        "iso_639_1": "hu",
+        "name": "Magyar"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Man has made his match... now it's his problem.",
+    "title": "Blade Runner",
+    "video": false,
+    "vote_average": 7.94,
+    "vote_count": 14831
+  },
+  "credits": {
+    "id": 78,
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3,
+        "known_for_department": "Acting",
+        "name": "Harrison Ford",
+        "original_name": "Harrison Ford",
+        "popularity": 6.5342,
+        "profile_path": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
+        "cast_id": 6,
+        "character": "Deckard",
+        "credit_id": "52fe4214c3a36847f800259f",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 585,
+        "known_for_department": "Acting",
+        "name": "Rutger Hauer",
+        "original_name": "Rutger Hauer",
+        "popularity": 2.3899,
+        "profile_path": "/45kp2fmVWloddrz7LF94MmT4tWf.jpg",
+        "cast_id": 7,
+        "character": "Batty",
+        "credit_id": "52fe4214c3a36847f80025a3",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 586,
+        "known_for_department": "Acting",
+        "name": "Sean Young",
+        "original_name": "Sean Young",
+        "popularity": 2.4785,
+        "profile_path": "/yfJADYt6xYPpg1g7Z7TTW0bcL2s.jpg",
+        "cast_id": 8,
+        "character": "Rachael",
+        "credit_id": "52fe4214c3a36847f80025a7",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 587,
+        "known_for_department": "Acting",
+        "name": "Edward James Olmos",
+        "original_name": "Edward James Olmos",
+        "popularity": 2.4978,
+        "profile_path": "/mXnilUrQBIMLHSQkPjQk99mX70x.jpg",
+        "cast_id": 9,
+        "character": "Gaff",
+        "credit_id": "52fe4214c3a36847f80025ab",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 588,
+        "known_for_department": "Acting",
+        "name": "M. Emmet Walsh",
+        "original_name": "M. Emmet Walsh",
+        "popularity": 1.8447,
+        "profile_path": "/fVWvBxvwyk4aTA9vKZOV9qHRNNk.jpg",
+        "cast_id": 42,
+        "character": "Bryant",
+        "credit_id": "5402bd1bc3a3684360004649",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 589,
+        "known_for_department": "Acting",
+        "name": "Daryl Hannah",
+        "original_name": "Daryl Hannah",
+        "popularity": 2.5377,
+        "profile_path": "/5FllFmoiaru7tjXJ6Orc11OpQcw.jpg",
+        "cast_id": 11,
+        "character": "Pris",
+        "credit_id": "52fe4214c3a36847f80025b3",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 590,
+        "known_for_department": "Acting",
+        "name": "William Sanderson",
+        "original_name": "William Sanderson",
+        "popularity": 1.4003,
+        "profile_path": "/i3JfaavAFq9ayeJ4doUaOGjHMMW.jpg",
+        "cast_id": 12,
+        "character": "Sebastian",
+        "credit_id": "52fe4214c3a36847f80025b7",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 591,
+        "known_for_department": "Acting",
+        "name": "Brion James",
+        "original_name": "Brion James",
+        "popularity": 1.5615,
+        "profile_path": "/qy5jIIsWrNCV1OVRaUiqYNhLLVT.jpg",
+        "cast_id": 13,
+        "character": "Leon",
+        "credit_id": "52fe4214c3a36847f80025bb",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 592,
+        "known_for_department": "Acting",
+        "name": "Joe Turkel",
+        "original_name": "Joe Turkel",
+        "popularity": 0.9659,
+        "profile_path": "/rqpNzjLFCoMrvGSf6SIL5JnWwMT.jpg",
+        "cast_id": 14,
+        "character": "Tyrell",
+        "credit_id": "52fe4214c3a36847f80025bf",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 593,
+        "known_for_department": "Acting",
+        "name": "Joanna Cassidy",
+        "original_name": "Joanna Cassidy",
+        "popularity": 2.0297,
+        "profile_path": "/yzKVigHSkgi3KCRzUDvzgE3YtHU.jpg",
+        "cast_id": 15,
+        "character": "Zhora",
+        "credit_id": "52fe4214c3a36847f80025c3",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 20904,
+        "known_for_department": "Acting",
+        "name": "James Hong",
+        "original_name": "James Hong",
+        "popularity": 2.7373,
+        "profile_path": "/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg",
+        "cast_id": 29,
+        "character": "Chew",
+        "credit_id": "52fe4214c3a36847f8002615",
+        "order": 10
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 58495,
+        "known_for_department": "Acting",
+        "name": "Morgan Paull",
+        "original_name": "Morgan Paull",
+        "popularity": 0.5663,
+        "profile_path": "/y8hQzCz4WEqgD8biDdoBVw8zmNp.jpg",
+        "cast_id": 33,
+        "character": "Holden",
+        "credit_id": "52fe4214c3a36847f8002625",
+        "order": 11
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 53760,
+        "known_for_department": "Acting",
+        "name": "Kevin Thompson",
+        "original_name": "Kevin Thompson",
+        "popularity": 0.5525,
+        "profile_path": "/hhJNd4If3wWmhlKV1MLkDpWA6E5.jpg",
+        "cast_id": 34,
+        "character": "Bear",
+        "credit_id": "52fe4214c3a36847f8002629",
+        "order": 12
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 943481,
+        "known_for_department": "Acting",
+        "name": "John Edward Allen",
+        "original_name": "John Edward Allen",
+        "popularity": 0.105,
+        "profile_path": null,
+        "cast_id": 35,
+        "character": "Kaiser",
+        "credit_id": "52fe4214c3a36847f800262d",
+        "order": 13
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 107074,
+        "known_for_department": "Acting",
+        "name": "Hy Pyke",
+        "original_name": "Hy Pyke",
+        "popularity": 0.5894,
+        "profile_path": "/uuSQqL8n4VkFXdWDq1XkEHDOvou.jpg",
+        "cast_id": 36,
+        "character": "Taffey Lewis",
+        "credit_id": "52fe4214c3a36847f8002631",
+        "order": 14
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 951333,
+        "known_for_department": "Acting",
+        "name": "Kimiko Hiroshige",
+        "original_name": "Kimiko Hiroshige",
+        "popularity": 0.1866,
+        "profile_path": null,
+        "cast_id": 37,
+        "character": "Cambodian Lady",
+        "credit_id": "52fe4214c3a36847f8002635",
+        "order": 15
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1221198,
+        "known_for_department": "Acting",
+        "name": "Bob Okazaki",
+        "original_name": "Bob Okazaki",
+        "popularity": 0.5513,
+        "profile_path": "/qLapAz3PzkwUOREYxsI43Y8Xi4F.jpg",
+        "cast_id": 41,
+        "character": "Sushi Master",
+        "credit_id": "52fe4214c3a36847f8002643",
+        "order": 16
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 949610,
+        "known_for_department": "Acting",
+        "name": "Carolyn DeMirjian",
+        "original_name": "Carolyn DeMirjian",
+        "popularity": 0.2188,
+        "profile_path": "/ifRke3Ct4urlagX33ekt8MJMP2o.jpg",
+        "cast_id": 39,
+        "character": "Saleslady",
+        "credit_id": "52fe4214c3a36847f8002639",
+        "order": 17
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 112965,
+        "known_for_department": "Acting",
+        "name": "Ben Astar",
+        "original_name": "Ben Astar",
+        "popularity": 0.4498,
+        "profile_path": "/wJav95yX8J1tAjPuScD3L3Gq3Tk.jpg",
+        "cast_id": 65,
+        "character": "Abdul Ben Hassan",
+        "credit_id": "59c32a68c3a368146100661f",
+        "order": 18
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1198993,
+        "known_for_department": "Acting",
+        "name": "Dawna Lee Heising",
+        "original_name": "Dawna Lee Heising",
+        "popularity": 0.5339,
+        "profile_path": "/8Ky9a7fx4BhJzdkhbfHA0cOj8Xo.jpg",
+        "cast_id": 68,
+        "character": "Showgirl (uncredited)",
+        "credit_id": "59c9bb7dc3a368031f002581",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 58930,
+        "known_for_department": "Acting",
+        "name": "Alexis Rhee",
+        "original_name": "Alexis Rhee",
+        "popularity": 0.3947,
+        "profile_path": "/ibTzWLoGOCwAwhMAWgrLjLcUlXp.jpg",
+        "cast_id": 77,
+        "character": "Geisha #1 (uncredited)",
+        "credit_id": "59c9bc36c3a3680347002504",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 324200,
+        "known_for_department": "Acting",
+        "name": "Judith Burnett",
+        "original_name": "Judith Burnett",
+        "popularity": 0.2414,
+        "profile_path": "/cSkw5OEUXzRCHgniWA4ARIrE77e.jpg",
+        "cast_id": 66,
+        "character": "Ming-Fa (uncredited)",
+        "credit_id": "59c9bb45c3a36803b70024a9",
+        "order": 21
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1713945,
+        "known_for_department": "Acting",
+        "name": "Leo Gorcey Jr.",
+        "original_name": "Leo Gorcey Jr.",
+        "popularity": 0.1731,
+        "profile_path": "/uCPaZ6sWC4sqkcKAFdaIyxbnbNi.jpg",
+        "cast_id": 67,
+        "character": "Louie - Bartender (uncredited)",
+        "credit_id": "59c9bb60c3a368031f00256a",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1894794,
+        "known_for_department": "Acting",
+        "name": "Sharon Hesky",
+        "original_name": "Sharon Hesky",
+        "popularity": 0.1081,
+        "profile_path": null,
+        "cast_id": 69,
+        "character": "Bar Patron (uncredited)",
+        "credit_id": "59c9bb94c3a36803c70020b3",
+        "order": 23
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1894795,
+        "known_for_department": "Acting",
+        "name": "Kelly Hine",
+        "original_name": "Kelly Hine",
+        "popularity": 0.1595,
+        "profile_path": null,
+        "cast_id": 70,
+        "character": "Showgirl (uncredited)",
+        "credit_id": "59c9bba9c3a36803b7002501",
+        "order": 24
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1510856,
+        "known_for_department": "Acting",
+        "name": "Tom Hutchinson",
+        "original_name": "Tom Hutchinson",
+        "popularity": 0.0446,
+        "profile_path": null,
+        "cast_id": 71,
+        "character": "Bartender (uncredited)",
+        "credit_id": "59c9bbbec3a36803a40024e4",
+        "order": 25
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 943879,
+        "known_for_department": "Acting",
+        "name": "Charles Knapp",
+        "original_name": "Charles Knapp",
+        "popularity": 0.4246,
+        "profile_path": "/pySATu1neWqZ3INnmdcLbGEhBbm.jpg",
+        "cast_id": 72,
+        "character": "Bartender (uncredited)",
+        "credit_id": "59c9bbd4c3a36803b7002519",
+        "order": 26
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1894796,
+        "known_for_department": "Acting",
+        "name": "Rose Mascari",
+        "original_name": "Rose Mascari",
+        "popularity": 0.1497,
+        "profile_path": null,
+        "cast_id": 73,
+        "character": "Bar Patron (uncredited)",
+        "credit_id": "59c9bbe792514124010023b6",
+        "order": 27
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 239493,
+        "known_for_department": "Acting",
+        "name": "Jiro Okazaki",
+        "original_name": "\u5ca1\u5d0e\u4e8c\u6717",
+        "popularity": 1.0541,
+        "profile_path": "/7B8WWT9WK7lmLXeI2lqc6gDcEwb.jpg",
+        "cast_id": 74,
+        "character": "Policeman (uncredited)",
+        "credit_id": "59c9bbfbc3a368031f0025d9",
+        "order": 28
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1701394,
+        "known_for_department": "Crew",
+        "name": "Steve Pope",
+        "original_name": "Steve Pope",
+        "popularity": 0.235,
+        "profile_path": null,
+        "cast_id": 75,
+        "character": "Policeman (uncredited)",
+        "credit_id": "59c9bc0f92514123b9002498",
+        "order": 29
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1894797,
+        "known_for_department": "Acting",
+        "name": "Robert Reiter",
+        "original_name": "Robert Reiter",
+        "popularity": 0.1222,
+        "profile_path": null,
+        "cast_id": 76,
+        "character": "Policeman (uncredited)",
+        "credit_id": "59c9bc20c3a36803b700254d",
+        "order": 30
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 143073,
+        "known_for_department": "Acting",
+        "name": "Doug Benson",
+        "original_name": "Doug Benson",
+        "popularity": 0.7565,
+        "profile_path": "/gOkRMI6opB6EfIo4xTGqzHasgvc.jpg",
+        "cast_id": 175,
+        "character": "Police Officer (uncredited)",
+        "credit_id": "68e1121389b1b9bab0c21cb6",
+        "order": 31
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 595,
+        "known_for_department": "Sound",
+        "name": "Vangelis",
+        "original_name": "Vangelis",
+        "popularity": 0.9883,
+        "profile_path": "/7qSj7Dk0mMytSxSHTsSIi4tmgnu.jpg",
+        "credit_id": "52fe4214c3a36847f80025cf",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 602,
+        "known_for_department": "Art",
+        "name": "Linda DeScenna",
+        "original_name": "Linda DeScenna",
+        "popularity": 0.3438,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f80025f9",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4712,
+        "known_for_department": "Art",
+        "name": "Thomas L. Roysden",
+        "original_name": "Thomas L. Roysden",
+        "popularity": 0.2414,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f8002605",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 596,
+        "known_for_department": "Art",
+        "name": "Lawrence G. Paull",
+        "original_name": "Lawrence G. Paull",
+        "popularity": 0.3103,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f80025d5",
+        "department": "Art",
+        "job": "Production Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 601,
+        "known_for_department": "Art",
+        "name": "David L. Snyder",
+        "original_name": "David L. Snyder",
+        "popularity": 0.5809,
+        "profile_path": "/u6mr5Eaz85CA53BsuLRicdl6gvp.jpg",
+        "credit_id": "52fe4214c3a36847f80025f3",
+        "department": "Art",
+        "job": "Art Direction"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 578,
+        "known_for_department": "Directing",
+        "name": "Ridley Scott",
+        "original_name": "Ridley Scott",
+        "popularity": 3.0577,
+        "profile_path": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg",
+        "credit_id": "52fe4214c3a36847f8002595",
+        "department": "Directing",
+        "job": "Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 605,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Michael Kaplan",
+        "original_name": "Michael Kaplan",
+        "popularity": 0.6287,
+        "profile_path": "/8JScTwoiIVJiLp22uGVqQSiauB0.jpg",
+        "credit_id": "52fe4214c3a36847f800260b",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 581,
+        "known_for_department": "Production",
+        "name": "Michael Deeley",
+        "original_name": "Michael Deeley",
+        "popularity": 0.4338,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f800259b",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 583,
+        "known_for_department": "Acting",
+        "name": "Hampton Fancher",
+        "original_name": "Hampton Fancher",
+        "popularity": 1.2799,
+        "profile_path": "/7Ocd4Xpd0DHA3ZQxPRu5dUCAFjm.jpg",
+        "credit_id": "52fe4214c3a36847f800261b",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 603,
+        "known_for_department": "Art",
+        "name": "Leslie McCarthy-Frankenheimer",
+        "original_name": "Leslie McCarthy-Frankenheimer",
+        "popularity": 0.2204,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f80025ff",
+        "department": "Art",
+        "job": "Set Decoration"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 597,
+        "known_for_department": "Production",
+        "name": "Jane Feinberg",
+        "original_name": "Jane Feinberg",
+        "popularity": 0.6019,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f80025db",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7191,
+        "known_for_department": "Writing",
+        "name": "David Webb Peoples",
+        "original_name": "David Webb Peoples",
+        "popularity": 0.8976,
+        "profile_path": "/pmF9STG9uJZzNnwRuqIqDzKYTXf.jpg",
+        "credit_id": "52fe4214c3a36847f8002621",
+        "department": "Writing",
+        "job": "Screenplay"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 594,
+        "known_for_department": "Camera",
+        "name": "Jordan Cronenweth",
+        "original_name": "Jordan Cronenweth",
+        "popularity": 0.2531,
+        "profile_path": "/kEZFQZKU5mRjDK2zi5ZjXVFgofj.jpg",
+        "credit_id": "52fe4214c3a36847f80025c9",
+        "department": "Camera",
+        "job": "Director of Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 598,
+        "known_for_department": "Production",
+        "name": "Mike Fenton",
+        "original_name": "Mike Fenton",
+        "popularity": 0.7159,
+        "profile_path": "/oIKCBb2w47iZps9neDo2GY29g1y.jpg",
+        "credit_id": "52fe4214c3a36847f80025e1",
+        "department": "Production",
+        "job": "Casting"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 584,
+        "known_for_department": "Writing",
+        "name": "Philip K. Dick",
+        "original_name": "Philip K. Dick",
+        "popularity": 0.9306,
+        "profile_path": "/8J46Z9coRCXApsA5WoTC2CLAaOw.jpg",
+        "credit_id": "52fe4214c3a36847f800263f",
+        "department": "Writing",
+        "job": "Novel"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 600,
+        "known_for_department": "Editing",
+        "name": "Marsha Nakashima",
+        "original_name": "Marsha Nakashima",
+        "popularity": 0.2001,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f80025ed",
+        "department": "Editing",
+        "job": "Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 606,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Charles Knode",
+        "original_name": "Charles Knode",
+        "popularity": 0.4065,
+        "profile_path": null,
+        "credit_id": "52fe4214c3a36847f8002611",
+        "department": "Costume & Make-Up",
+        "job": "Costume Design"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 91782,
+        "known_for_department": "Crew",
+        "name": "Jeannie Epper",
+        "original_name": "Jeannie Epper",
+        "popularity": 0.9645,
+        "profile_path": "/gv0ozvBaYrlzn7H2bJRpEz8lBt9.jpg",
+        "credit_id": "6259f6f6f548361426a85c6b",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1880383,
+        "known_for_department": "Crew",
+        "name": "Janet Brady",
+        "original_name": "Janet Brady",
+        "popularity": 0.653,
+        "profile_path": null,
+        "credit_id": "6505df4545765d00c6d3b789",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3891645,
+        "known_for_department": "Crew",
+        "name": "Diane Carter",
+        "original_name": "Diane Carter",
+        "popularity": 0.1307,
+        "profile_path": null,
+        "credit_id": "6505e46e109dec012d886d5a",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2574816,
+        "known_for_department": "Acting",
+        "name": "Michael Zurich",
+        "original_name": "Michael Zurich",
+        "popularity": 0.1221,
+        "profile_path": null,
+        "credit_id": "6505e5255aadc400c7dd8462",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2550179,
+        "known_for_department": "Crew",
+        "name": "Beth Nufer",
+        "original_name": "Beth Nufer",
+        "popularity": 0.3057,
+        "profile_path": null,
+        "credit_id": "6505e4f5373ac200ff048087",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 18677,
+        "known_for_department": "Acting",
+        "name": "Bobby Porter",
+        "original_name": "Bobby Porter",
+        "popularity": 0.518,
+        "profile_path": null,
+        "credit_id": "6505e4ff394a8700e2259f6e",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2577574,
+        "known_for_department": "Directing",
+        "name": "Ruth A. Redfern",
+        "original_name": "Ruth A. Redfern",
+        "popularity": 0.2958,
+        "profile_path": null,
+        "credit_id": "6505e5133cd12c00ca552a09",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 9311,
+        "known_for_department": "Crew",
+        "name": "Gilbert B. Combs",
+        "original_name": "Gilbert B. Combs",
+        "popularity": 0.75,
+        "profile_path": "/hMcHEaEaoMEtWWwSlZ4hCyEM4kx.jpg",
+        "credit_id": "6505e49cfa27f400caa39c84",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 100799,
+        "known_for_department": "Acting",
+        "name": "George Sawaya",
+        "original_name": "George Sawaya",
+        "popularity": 0.675,
+        "profile_path": null,
+        "credit_id": "6505e5093cd12c010ccfe305",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3103010,
+        "known_for_department": "Crew",
+        "name": "Ann Chatterton",
+        "original_name": "Ann Chatterton",
+        "popularity": 0.1476,
+        "profile_path": null,
+        "credit_id": "6505e4a73cd12c00eb442f3e",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 19754,
+        "known_for_department": "Acting",
+        "name": "Tony Cox",
+        "original_name": "Tony Cox",
+        "popularity": 2.3419,
+        "profile_path": "/sbZS0gxvRsAIgHxIEL8STINpn7u.jpg",
+        "credit_id": "6505e4a3fa27f4014eb10b97",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 161597,
+        "known_for_department": "Crew",
+        "name": "Gary Epper",
+        "original_name": "Gary Epper",
+        "popularity": 0.6484,
+        "profile_path": "/6Jp2FF14bmoLdg4JdGuHyY1lRpW.jpg",
+        "credit_id": "6505e4d245765d00adafcb6c",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1400371,
+        "known_for_department": "Crew",
+        "name": "James M. Halty",
+        "original_name": "James M. Halty",
+        "popularity": 0.347,
+        "profile_path": null,
+        "credit_id": "6505e4db394a8700e2259f5d",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14667,
+        "known_for_department": "Crew",
+        "name": "Mike Washlake",
+        "original_name": "Mike Washlake",
+        "popularity": 0.2381,
+        "profile_path": null,
+        "credit_id": "6505e51e42d8a500c4fb8236",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 16563,
+        "known_for_department": "Crew",
+        "name": "Charles A. Tamburro",
+        "original_name": "Charles A. Tamburro",
+        "popularity": 0.5207,
+        "profile_path": "/iCygZNkwUc2wSEIT58qUpiIkIC.jpg",
+        "credit_id": "6505e529109dec014f40ad9c",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 15358,
+        "known_for_department": "Crew",
+        "name": "Vic Armstrong",
+        "original_name": "Vic Armstrong",
+        "popularity": 0.7883,
+        "profile_path": "/n5QucsPxuYcsvq9Te00lkWhsYUx.jpg",
+        "credit_id": "6505e473394a8700ada6f664",
+        "department": "Crew",
+        "job": "Stunt Double"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1634437,
+        "known_for_department": "Crew",
+        "name": "Ed McDermott II",
+        "original_name": "Ed McDermott II",
+        "popularity": 0.2602,
+        "profile_path": null,
+        "credit_id": "6505e4ea109dec014f40ad8b",
+        "department": "Crew",
+        "job": "Stunt Driver"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1912327,
+        "known_for_department": "Acting",
+        "name": "Jack Tyree",
+        "original_name": "Jack Tyree",
+        "popularity": 0.1805,
+        "profile_path": null,
+        "credit_id": "6505e50e45765d011d4bc5b6",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 4165270,
+        "known_for_department": "Crew",
+        "name": "Rita Egleston",
+        "original_name": "Rita Egleston",
+        "popularity": 0.2202,
+        "profile_path": null,
+        "credit_id": "6505e4bf45765d013b5ecbd5",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1652768,
+        "known_for_department": "Crew",
+        "name": "Karen McLarty",
+        "original_name": "Karen McLarty",
+        "popularity": 0.2723,
+        "profile_path": null,
+        "credit_id": "6505e4e542d8a500fe3a74ab",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 179175,
+        "known_for_department": "Acting",
+        "name": "Lee Pulford",
+        "original_name": "Lee Pulford",
+        "popularity": 0.2341,
+        "profile_path": null,
+        "credit_id": "6505e4fb45765d00adafcb78",
+        "department": "Crew",
+        "job": "Stunt Double"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 191564,
+        "known_for_department": "Acting",
+        "name": "Ray Bickel",
+        "original_name": "Ray Bickel",
+        "popularity": 0.3012,
+        "profile_path": null,
+        "credit_id": "6505e46842d8a5013899f0d5",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 169628,
+        "known_for_department": "Crew",
+        "name": "Jeff Imada",
+        "original_name": "Jeff Imada",
+        "popularity": 0.6327,
+        "profile_path": "/sUNSaNQreSHYaJvKr0SfiBqMPDV.jpg",
+        "credit_id": "6505e4d7394a8700c5bd1c43",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 55244,
+        "known_for_department": "Production",
+        "name": "Saul Kahan",
+        "original_name": "Saul Kahan",
+        "popularity": 0.4059,
+        "profile_path": null,
+        "credit_id": "549e9f289251413132007dfc",
+        "department": "Production",
+        "job": "Publicist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 50237,
+        "known_for_department": "Production",
+        "name": "Alan Collis",
+        "original_name": "Alan Collis",
+        "popularity": 0.2306,
+        "profile_path": null,
+        "credit_id": "549e9c309251413132007db0",
+        "department": "Production",
+        "job": "Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1404758,
+        "known_for_department": "Art",
+        "name": "James F. Orendorff",
+        "original_name": "James F. Orendorff",
+        "popularity": 0.3037,
+        "profile_path": null,
+        "credit_id": "549e9c749251413132007db9",
+        "department": "Art",
+        "job": "Construction Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 60283,
+        "known_for_department": "Art",
+        "name": "Tom Southwell",
+        "original_name": "Tom Southwell",
+        "popularity": 0.2415,
+        "profile_path": null,
+        "credit_id": "549e9cc49251414bb2006445",
+        "department": "Art",
+        "job": "Production Illustrator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 584,
+        "known_for_department": "Writing",
+        "name": "Philip K. Dick",
+        "original_name": "Philip K. Dick",
+        "popularity": 0.9306,
+        "profile_path": "/8J46Z9coRCXApsA5WoTC2CLAaOw.jpg",
+        "credit_id": "549e9f85c3a3685542004c7b",
+        "department": "Crew",
+        "job": "Thanks"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1404760,
+        "known_for_department": "Art",
+        "name": "Mentor Huebner",
+        "original_name": "Mentor Huebner",
+        "popularity": 0.3263,
+        "profile_path": null,
+        "credit_id": "549e9ca7925141312f008836",
+        "department": "Art",
+        "job": "Production Illustrator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 999716,
+        "known_for_department": "Crew",
+        "name": "Gary Combs",
+        "original_name": "Gary Combs",
+        "popularity": 0.4998,
+        "profile_path": "/7cLJ3YVZcDxEZgQCqIxpfMDXDlR.jpg",
+        "credit_id": "549e9e4192514131290084f1",
+        "department": "Crew",
+        "job": "Stunt Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1404767,
+        "known_for_department": "Camera",
+        "name": "Robert C. Thomas",
+        "original_name": "Robert C. Thomas",
+        "popularity": 0.3416,
+        "profile_path": null,
+        "credit_id": "549e9ead9251413123007e5c",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1390535,
+        "known_for_department": "Camera",
+        "name": "Stephen Vaughan",
+        "original_name": "Stephen Vaughan",
+        "popularity": 0.453,
+        "profile_path": null,
+        "credit_id": "549e9ec29251414bb2006482",
+        "department": "Camera",
+        "job": "Still Photographer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404764,
+        "known_for_department": "Sound",
+        "name": "Peter Pennell",
+        "original_name": "Peter Pennell",
+        "popularity": 0.3204,
+        "profile_path": null,
+        "credit_id": "549e9dd59251414e28003562",
+        "department": "Sound",
+        "job": "Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404761,
+        "known_for_department": "Art",
+        "name": "Sherman Labby",
+        "original_name": "Sherman Labby",
+        "popularity": 0.1557,
+        "profile_path": null,
+        "credit_id": "549e9ce79251414bb2006451",
+        "department": "Art",
+        "job": "Production Illustrator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404765,
+        "known_for_department": "Camera",
+        "name": "Albert Bettcher",
+        "original_name": "Albert Bettcher",
+        "popularity": 0.2848,
+        "profile_path": null,
+        "credit_id": "549e9e559251414bb2006477",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1404766,
+        "known_for_department": "Camera",
+        "name": "Dick Colean",
+        "original_name": "Dick Colean",
+        "popularity": 0.2361,
+        "profile_path": null,
+        "credit_id": "549e9e6cc3a368764f003f7b",
+        "department": "Camera",
+        "job": "Camera Operator"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1590,
+        "known_for_department": "Camera",
+        "name": "Steven Poster",
+        "original_name": "Steven Poster",
+        "popularity": 0.3104,
+        "profile_path": "/c3mQt9dTdRguyhygijhRAbiD3ub.jpg",
+        "credit_id": "549e9f089251414e2800357d",
+        "department": "Camera",
+        "job": "Additional Photography"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 473,
+        "known_for_department": "Camera",
+        "name": "Brian Tufano",
+        "original_name": "Brian Tufano",
+        "popularity": 0.3226,
+        "profile_path": "/zosxF95ZTLB2JVO2SokDTZrIXfv.jpg",
+        "credit_id": "549e9edcc3a3682f2300824b",
+        "department": "Camera",
+        "job": "Additional Photography"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404757,
+        "known_for_department": "Art",
+        "name": "Stephen Dane",
+        "original_name": "Stephen Dane",
+        "popularity": 0.152,
+        "profile_path": null,
+        "credit_id": "549e9c4e925141312f008822",
+        "department": "Art",
+        "job": "Assistant Art Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21918,
+        "known_for_department": "Production",
+        "name": "Run Run Shaw",
+        "original_name": "Run Run Shaw",
+        "popularity": 0.7178,
+        "profile_path": "/tBExj3hZqyg5dkI9kFLJY20MLzh.jpg",
+        "credit_id": "62f6691becbde9007d65c8b3",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1100808,
+        "known_for_department": "Sound",
+        "name": "Gordon K. McCallum",
+        "original_name": "Gordon K. McCallum",
+        "popularity": 0.525,
+        "profile_path": null,
+        "credit_id": "5a8983da925141759306536d",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1335808,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Marvin G. Westmore",
+        "original_name": "Marvin G. Westmore",
+        "popularity": 0.1681,
+        "profile_path": null,
+        "credit_id": "5a8982e80e0a2653db06b800",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 12112,
+        "known_for_department": "Visual Effects",
+        "name": "Douglas Trumbull",
+        "original_name": "Douglas Trumbull",
+        "popularity": 0.5406,
+        "profile_path": "/wVDG2FBqenOpVwNUySqhXfBjifr.jpg",
+        "credit_id": "5a8984199251417599062122",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1980734,
+        "known_for_department": "Visual Effects",
+        "name": "David Dryer",
+        "original_name": "David Dryer",
+        "popularity": 0.281,
+        "profile_path": null,
+        "credit_id": "5a898439c3a36862a705f6f4",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 16519,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Michael Westmore",
+        "original_name": "Michael Westmore",
+        "popularity": 0.4658,
+        "profile_path": "/2GjBNS64nYQOiyV3COKqR4Wjlun.jpg",
+        "credit_id": "5a89831ec3a36862070626d6",
+        "department": "Costume & Make-Up",
+        "job": "Prosthetic Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 14765,
+        "known_for_department": "Sound",
+        "name": "Per Hallberg",
+        "original_name": "Per Hallberg",
+        "popularity": 0.5725,
+        "profile_path": null,
+        "credit_id": "5a8983719251410aae063323",
+        "department": "Sound",
+        "job": "Supervising Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1342657,
+        "known_for_department": "Sound",
+        "name": "Jon Title",
+        "original_name": "Jon Title",
+        "popularity": 0.4975,
+        "profile_path": null,
+        "credit_id": "5a898397c3a36862a705f66d",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1647681,
+        "known_for_department": "Visual Effects",
+        "name": "Richard Yuricich",
+        "original_name": "Richard Yuricich",
+        "popularity": 0.2945,
+        "profile_path": null,
+        "credit_id": "5a8984270e0a26535a063b73",
+        "department": "Visual Effects",
+        "job": "Visual Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1435071,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Michael Mills",
+        "original_name": "Michael Mills",
+        "popularity": 0.3057,
+        "profile_path": null,
+        "credit_id": "5a8982ce9251410a89063391",
+        "department": "Costume & Make-Up",
+        "job": "Prosthetic Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1325887,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Bridget O'Neill",
+        "original_name": "Bridget O'Neill",
+        "popularity": 0.2731,
+        "profile_path": null,
+        "credit_id": "5a8983139251410aae0632ce",
+        "department": "Costume & Make-Up",
+        "job": "Makeup Artist"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1980730,
+        "known_for_department": "Sound",
+        "name": "Joel Fein",
+        "original_name": "Joel Fein",
+        "popularity": 0.2768,
+        "profile_path": null,
+        "credit_id": "5a8983bbc3a368637c0643e6",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13166,
+        "known_for_department": "Sound",
+        "name": "Dino DiMuro",
+        "original_name": "Dino DiMuro",
+        "popularity": 0.5718,
+        "profile_path": null,
+        "credit_id": "5a8983669251410a1f062289",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 14764,
+        "known_for_department": "Sound",
+        "name": "Christopher Assells",
+        "original_name": "Christopher Assells",
+        "popularity": 0.5303,
+        "profile_path": null,
+        "credit_id": "5a89833a0e0a2653db06b85b",
+        "department": "Sound",
+        "job": "Sound Effects Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 13059,
+        "known_for_department": "Sound",
+        "name": "Karen Baker Landers",
+        "original_name": "Karen Baker Landers",
+        "popularity": 0.7769,
+        "profile_path": "/docM8dKpQvAPVsHNNWvbs21gbsC.jpg",
+        "credit_id": "5a8983450e0a26535a063ab9",
+        "department": "Sound",
+        "job": "Supervising Sound Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1500862,
+        "known_for_department": "Sound",
+        "name": "Matt Vowles",
+        "original_name": "Matt Vowles",
+        "popularity": 0.271,
+        "profile_path": null,
+        "credit_id": "5a8983a59251410b4d05fa3b",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 16177,
+        "known_for_department": "Sound",
+        "name": "Ron Bartlett",
+        "original_name": "Ron Bartlett",
+        "popularity": 0.493,
+        "profile_path": "/AmFG81joHLkvnh4Io20TdCCBk8P.jpg",
+        "credit_id": "5a8983510e0a26400b066cc2",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 40818,
+        "known_for_department": "Sound",
+        "name": "John Hayward",
+        "original_name": "John Hayward",
+        "popularity": 0.4091,
+        "profile_path": null,
+        "credit_id": "5a8983c6c3a36863e706224e",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1411245,
+        "known_for_department": "Sound",
+        "name": "Nicolas Le Messurier",
+        "original_name": "Nicolas Le Messurier",
+        "popularity": 0.1594,
+        "profile_path": null,
+        "credit_id": "5a8983d00e0a2653db06b8f4",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1980719,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Shirley Padgett",
+        "original_name": "Shirley Padgett",
+        "popularity": 0.1422,
+        "profile_path": null,
+        "credit_id": "5a8982dd9251410aae0632a6",
+        "department": "Costume & Make-Up",
+        "job": "Hairstylist"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1377220,
+        "known_for_department": "Sound",
+        "name": "Doug Hemphill",
+        "original_name": "Doug Hemphill",
+        "popularity": 0.6169,
+        "profile_path": "/jpShbzJgiLoM4iZZcDe3KmoqnG4.jpg",
+        "credit_id": "5a89838192514175990620a1",
+        "department": "Sound",
+        "job": "Sound Re-Recording Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2379068,
+        "known_for_department": "Art",
+        "name": "Bernard Lodge",
+        "original_name": "Bernard Lodge",
+        "popularity": 0.3595,
+        "profile_path": null,
+        "credit_id": "66665268daca43f1b6be6cae",
+        "department": "Crew",
+        "job": "Special Effects"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 91875,
+        "known_for_department": "Sound",
+        "name": "Bud Alper",
+        "original_name": "Bud Alper",
+        "popularity": 0.1877,
+        "profile_path": null,
+        "credit_id": "5ae1e911c3a368769a011df1",
+        "department": "Sound",
+        "job": "Sound Mixer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1404759,
+        "known_for_department": "Art",
+        "name": "Terry E. Lewis",
+        "original_name": "Terry E. Lewis",
+        "popularity": 0.2544,
+        "profile_path": null,
+        "credit_id": "5ae1e94392514124bb0105be",
+        "department": "Art",
+        "job": "Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1341865,
+        "known_for_department": "Directing",
+        "name": "Ana Maria Quintana",
+        "original_name": "Ana Maria Quintana",
+        "popularity": 0.3396,
+        "profile_path": "/kOwMpvilYZUIstFGiPWmjqLcdIx.jpg",
+        "credit_id": "5ae1e9ce92514124be00f72a",
+        "department": "Directing",
+        "job": "Script Supervisor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2030296,
+        "known_for_department": "Sound",
+        "name": "Michael Hopkins",
+        "original_name": "Michael Hopkins",
+        "popularity": 0.2009,
+        "profile_path": null,
+        "credit_id": "5ae1fc0d0e0a262a550132cb",
+        "department": "Sound",
+        "job": "Dialogue Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 122106,
+        "known_for_department": "Crew",
+        "name": "Gary McLarty",
+        "original_name": "Gary McLarty",
+        "popularity": 0.7052,
+        "profile_path": "/4xSAT88lbNV8BJHDOhXiFqpeZiD.jpg",
+        "credit_id": "648d2fe142bf01013bbc6c38",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1805959,
+        "known_for_department": "Crew",
+        "name": "Roy K. Ogata",
+        "original_name": "Roy K. Ogata",
+        "popularity": 0.1283,
+        "profile_path": null,
+        "credit_id": "64906829559d220139bf1201",
+        "department": "Crew",
+        "job": "Stunts"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5056,
+        "known_for_department": "Editing",
+        "name": "Terry Rawlings",
+        "original_name": "Terry Rawlings",
+        "popularity": 0.4598,
+        "profile_path": "/a1CRIJoeT5J6FsRe8bjFVbsH3h5.jpg",
+        "credit_id": "5e92ca56d55e4d001518e987",
+        "department": "Editing",
+        "job": "Supervising Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 70250,
+        "known_for_department": "Directing",
+        "name": "Newt Arnold",
+        "original_name": "Newt Arnold",
+        "popularity": 1.849,
+        "profile_path": null,
+        "credit_id": "5fb932d4d9f4a6003f03779c",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2572015,
+        "known_for_department": "Art",
+        "name": "Laurie Kerr",
+        "original_name": "Laurie Kerr",
+        "popularity": 0.2778,
+        "profile_path": null,
+        "credit_id": "5fb9353d87ae7b003c5122a8",
+        "department": "Art",
+        "job": "Supervising Carpenter"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2081402,
+        "known_for_department": "Art",
+        "name": "David Q. Quick",
+        "original_name": "David Q. Quick",
+        "popularity": 0.3423,
+        "profile_path": null,
+        "credit_id": "5fb93393b6abc4003db687c3",
+        "department": "Art",
+        "job": "Assistant Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864228,
+        "known_for_department": "Visual Effects",
+        "name": "Peter Truckel",
+        "original_name": "Peter Truckel",
+        "popularity": 0.1766,
+        "profile_path": null,
+        "credit_id": "5fb935ad88c659003e098d92",
+        "department": "Visual Effects",
+        "job": "Visual Effects Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1045802,
+        "known_for_department": "Production",
+        "name": "Peter Cornberg",
+        "original_name": "Peter Cornberg",
+        "popularity": 0.139,
+        "profile_path": null,
+        "credit_id": "5fb932bad9f4a60042036a36",
+        "department": "Directing",
+        "job": "First Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1967849,
+        "known_for_department": "Camera",
+        "name": "Cary Griffith",
+        "original_name": "Cary Griffith",
+        "popularity": 0.2395,
+        "profile_path": null,
+        "credit_id": "5fb938297d5504003fe5ea6e",
+        "department": "Camera",
+        "job": "Key Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864247,
+        "known_for_department": "Camera",
+        "name": "George D. Greer",
+        "original_name": "George D. Greer",
+        "popularity": 0.0689,
+        "profile_path": null,
+        "credit_id": "5fb938d11bf266004194164f",
+        "department": "Camera",
+        "job": "Second Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864265,
+        "known_for_department": "Production",
+        "name": "Alan B. Rosin",
+        "original_name": "Alan B. Rosin",
+        "popularity": 0.1168,
+        "profile_path": null,
+        "credit_id": "5fb93c9dbe6d88003c312e16",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864222,
+        "known_for_department": "Art",
+        "name": "James T. Woods",
+        "original_name": "James T. Woods",
+        "popularity": 0.1895,
+        "profile_path": null,
+        "credit_id": "5fb934ba1bf2660041940fc9",
+        "department": "Art",
+        "job": "Paint Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864224,
+        "known_for_department": "Art",
+        "name": "Basil Lombardo",
+        "original_name": "Basil Lombardo",
+        "popularity": 0.1752,
+        "profile_path": null,
+        "credit_id": "5fb934e8d9f4a60040039b9b",
+        "department": "Art",
+        "job": "Standby Painter"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1854964,
+        "known_for_department": "Camera",
+        "name": "Victor A. Shelehov",
+        "original_name": "Victor A. Shelehov",
+        "popularity": 0.1645,
+        "profile_path": null,
+        "credit_id": "5fb937f3a24c5000402f833c",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1892486,
+        "known_for_department": "Art",
+        "name": "Dave Margolin",
+        "original_name": "Dave Margolin",
+        "popularity": 0.2272,
+        "profile_path": null,
+        "credit_id": "5fb934a7519bbb003fefae90",
+        "department": "Art",
+        "job": "Painter"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864257,
+        "known_for_department": "Crew",
+        "name": "Jerry Perenchio",
+        "original_name": "Jerry Perenchio",
+        "popularity": 0.1398,
+        "profile_path": null,
+        "credit_id": "5fb93bc187ae7b003e518dc7",
+        "department": "Crew",
+        "job": "Presenter"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 231258,
+        "known_for_department": "Production",
+        "name": "John W. Rogers",
+        "original_name": "John W. Rogers",
+        "popularity": 0.208,
+        "profile_path": null,
+        "credit_id": "5fb940b43c887d0041a8154d",
+        "department": "Production",
+        "job": "Unit Production Manager"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1459199,
+        "known_for_department": "Art",
+        "name": "Arthur Shippee",
+        "original_name": "Arthur Shippee",
+        "popularity": 0.3203,
+        "profile_path": null,
+        "credit_id": "5fb9341387ae7b003d514fb7",
+        "department": "Art",
+        "job": "Assistant Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2551299,
+        "known_for_department": "Lighting",
+        "name": "Chris Franco",
+        "original_name": "Chris Franco",
+        "popularity": 0.2115,
+        "profile_path": null,
+        "credit_id": "5fb936671bf2660041941300",
+        "department": "Lighting",
+        "job": "Lighting Technician"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1435605,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Winnie D. Brown",
+        "original_name": "Winnie D. Brown",
+        "popularity": 0.3208,
+        "profile_path": null,
+        "credit_id": "5fb9395d7d55040041e58194",
+        "department": "Costume & Make-Up",
+        "job": "Costumer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864268,
+        "known_for_department": "Crew",
+        "name": "Steve Warner",
+        "original_name": "Steve Warner",
+        "popularity": 0.0988,
+        "profile_path": null,
+        "credit_id": "5fb93d46be6d88003d30e6b0",
+        "department": "Crew",
+        "job": "Production Controller"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1621235,
+        "known_for_department": "Crew",
+        "name": "Steve Galich",
+        "original_name": "Steve Galich",
+        "popularity": 0.2348,
+        "profile_path": null,
+        "credit_id": "5fb94021a24c5000412fc2bc",
+        "department": "Crew",
+        "job": "Special Effects Technician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1822901,
+        "known_for_department": "Production",
+        "name": "Morris Chapnick",
+        "original_name": "Morris Chapnick",
+        "popularity": 0.1663,
+        "profile_path": null,
+        "credit_id": "5fb94152519bbb003cefb56b",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1400550,
+        "known_for_department": "Art",
+        "name": "John A. Scott III",
+        "original_name": "John A. Scott III",
+        "popularity": 0.2735,
+        "profile_path": null,
+        "credit_id": "5fb933781bf266003e93ba28",
+        "department": "Art",
+        "job": "Assistant Property Master"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1686509,
+        "known_for_department": "Lighting",
+        "name": "Richard Hart",
+        "original_name": "Richard Hart",
+        "popularity": 0.2526,
+        "profile_path": null,
+        "credit_id": "5fb938beb6abc40040b68b48",
+        "department": "Lighting",
+        "job": "Gaffer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1405723,
+        "known_for_department": "Camera",
+        "name": "Steven H. Smith",
+        "original_name": "Steven H. Smith",
+        "popularity": 0.1676,
+        "profile_path": null,
+        "credit_id": "5fb93728e10f46003f09dc06",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2222930,
+        "known_for_department": "Editing",
+        "name": "Bill Zabala",
+        "original_name": "Bill Zabala",
+        "popularity": 0.1567,
+        "profile_path": null,
+        "credit_id": "5fb93a9fe10f46003e0a0ed4",
+        "department": "Editing",
+        "job": "Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 69946,
+        "known_for_department": "Directing",
+        "name": "Bud Yorkin",
+        "original_name": "Bud Yorkin",
+        "popularity": 0.7193,
+        "profile_path": "/m66f4nyjCb4Zeg4JUoYzpzt4zWL.jpg",
+        "credit_id": "5fb93c50b6abc4003fb69a2f",
+        "department": "Crew",
+        "job": "Presenter"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1463424,
+        "known_for_department": "Crew",
+        "name": "Donald Myers",
+        "original_name": "Donald Myers",
+        "popularity": 0.3269,
+        "profile_path": null,
+        "credit_id": "5fb9405187ae7b003f51a6e0",
+        "department": "Crew",
+        "job": "Special Effects Technician"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2589781,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Bob E. Horn",
+        "original_name": "Bob E. Horn",
+        "popularity": 0.1281,
+        "profile_path": null,
+        "credit_id": "5fb9397887ae7b003d51577b",
+        "department": "Costume & Make-Up",
+        "job": "Costumer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1593977,
+        "known_for_department": "Camera",
+        "name": "Casey Jones",
+        "original_name": "Casey Jones",
+        "popularity": 0.1868,
+        "profile_path": null,
+        "credit_id": "5fb937d7d9f4a600410355fa",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1634367,
+        "known_for_department": "Production",
+        "name": "Linda Hess",
+        "original_name": "Linda Hess",
+        "popularity": 0.1903,
+        "profile_path": null,
+        "credit_id": "5fb93c89b6abc40040b69180",
+        "department": "Production",
+        "job": "Production Assistant"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2864266,
+        "known_for_department": "Production",
+        "name": "Vickie Alper",
+        "original_name": "Vickie Alper",
+        "popularity": 0.134,
+        "profile_path": null,
+        "credit_id": "5fb93cdca24c50003e2f6ac4",
+        "department": "Production",
+        "job": "Production Coordinator"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2300633,
+        "known_for_department": "Camera",
+        "name": "William E. Fitch",
+        "original_name": "William E. Fitch",
+        "popularity": 0.2195,
+        "profile_path": null,
+        "credit_id": "5fb937c55aadc40040fc64b6",
+        "department": "Camera",
+        "job": "Grip"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 21918,
+        "known_for_department": "Production",
+        "name": "Run Run Shaw",
+        "original_name": "Run Run Shaw",
+        "popularity": 0.7178,
+        "profile_path": "/tBExj3hZqyg5dkI9kFLJY20MLzh.jpg",
+        "credit_id": "5fb93bd988055100409cc268",
+        "department": "Crew",
+        "job": "Presenter"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 29771,
+        "known_for_department": "Costume & Make-Up",
+        "name": "James Lapidus",
+        "original_name": "James Lapidus",
+        "popularity": 0.2308,
+        "profile_path": null,
+        "credit_id": "5fb93994b6abc40040b68d2b",
+        "department": "Costume & Make-Up",
+        "job": "Costumer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 21272,
+        "known_for_department": "Editing",
+        "name": "Les Healey",
+        "original_name": "Les Healey",
+        "popularity": 0.2694,
+        "profile_path": null,
+        "credit_id": "5fb93b285aadc4003dfccdf1",
+        "department": "Editing",
+        "job": "First Assistant Editor"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1889231,
+        "known_for_department": "Production",
+        "name": "Katherine Haber",
+        "original_name": "Katherine Haber",
+        "popularity": 0.2422,
+        "profile_path": null,
+        "credit_id": "5fb93e2a87ae7b003f51a348",
+        "department": "Production",
+        "job": "Production Executive"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1237513,
+        "known_for_department": "Directing",
+        "name": "Richard Peter Schroer",
+        "original_name": "Richard Peter Schroer",
+        "popularity": 0.3021,
+        "profile_path": null,
+        "credit_id": "5fb940d45aadc4003dfcd8cd",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 60448,
+        "known_for_department": "Directing",
+        "name": "Donald Hauer",
+        "original_name": "Donald Hauer",
+        "popularity": 0.2036,
+        "profile_path": null,
+        "credit_id": "5fb941822afb25003efe7546",
+        "department": "Directing",
+        "job": "Second Assistant Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1589185,
+        "known_for_department": "Crew",
+        "name": "Richard L. Hill",
+        "original_name": "Richard L. Hill",
+        "popularity": 0.2942,
+        "profile_path": null,
+        "credit_id": "5fb9403ab6abc4003db6a1e3",
+        "department": "Crew",
+        "job": "Special Effects Technician"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1405722,
+        "known_for_department": "Camera",
+        "name": "Michael Genne",
+        "original_name": "Michael Genne",
+        "popularity": 0.3052,
+        "profile_path": null,
+        "credit_id": "5fb936cd3c887d0041a80087",
+        "department": "Camera",
+        "job": "First Assistant Camera"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1319744,
+        "known_for_department": "Costume & Make-Up",
+        "name": "Linda Matthews",
+        "original_name": "Linda Matthews",
+        "popularity": 0.2974,
+        "profile_path": null,
+        "credit_id": "5fb939ace10f46003f09e063",
+        "department": "Costume & Make-Up",
+        "job": "Costumer"
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3457,
+        "known_for_department": "Crew",
+        "name": "Logan Frazee",
+        "original_name": "Logan Frazee",
+        "popularity": 0.2259,
+        "profile_path": null,
+        "credit_id": "5fb9400bd9f4a6004103624f",
+        "department": "Crew",
+        "job": "Special Effects Technician"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1559095,
+        "known_for_department": "Crew",
+        "name": "Greg Curtis",
+        "original_name": "Greg Curtis",
+        "popularity": 0.1532,
+        "profile_path": null,
+        "credit_id": "5fb93f685aadc4003efca896",
+        "department": "Crew",
+        "job": "Special Effects Technician"
+      }
+    ]
+  },
+  "videos": {
+    "id": 78,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Building the Future from Junk - Douglas Trumbull on BLADE RUNNER | TIFF REWIND",
+        "key": "dRemlnv7tzI",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2026-02-19T16:33:16.000Z",
+        "id": "6998972458268c374aba3a7b"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "BLADE RUNNER miniatures (part 2)",
+        "key": "VmQapmpHDsg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Behind the Scenes",
+        "official": false,
+        "published_at": "2025-12-14T17:45:44.000Z",
+        "id": "6940d9e1790e96067aa03f79"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Deckard vs. Roy | Full Tears in the Rain Scene",
+        "key": "saL1s88gR9M",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2025-04-15T14:15:12.000Z",
+        "id": "6800ef4083c6e567c7d98c5f"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Blade Runner (1982) - Part 1,  Eye on the city | Restored Edition",
+        "key": "FUV_pFAJArk",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": false,
+        "published_at": "2025-01-04T12:15:26.000Z",
+        "id": "67e4f593421eb8c331ba3826"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Making of Blade Runner",
+        "key": "9AoiqICo6ZI",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Behind the Scenes",
+        "official": true,
+        "published_at": "2023-06-30T20:16:39.000Z",
+        "id": "64a02d154a52f800af11f277"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "BLADE RUNNER and FIREFOX miniature effects (part 1)",
+        "key": "AZgk4v4147o",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Behind the Scenes",
+        "official": false,
+        "published_at": "2020-05-14T14:51:58.000Z",
+        "id": "6940e166fd37df6c3ecfecb0"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Final Cut Trailer",
+        "key": "qoEyZoOTtss",
+        "site": "YouTube",
+        "size": 2160,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2017-08-11T18:57:14.000Z",
+        "id": "6229af3663aad2006d22026c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Blade Runner-Electric Unicorn fan release- deleted scenes",
+        "key": "RPW7kp0VmWA",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": false,
+        "published_at": "2017-03-19T13:01:35.000Z",
+        "id": "67e4efa92074b0ee56002dfb"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Blade Runner Documentary - From Workprint To Final Cut \u30d6\u30ec\u30fc\u30c9\u30e9\u30f3\u30ca\u30fc",
+        "key": "JP6-NU7218M",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": false,
+        "published_at": "2017-03-02T04:57:38.000Z",
+        "id": "648109bfbf31f200aec67e95"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Rutger Hauer as Roy Batty",
+        "key": "QLJWFKeKJqg",
+        "published_at": "2015-03-31T10:32:33.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "id": "551aa147c3a36824f80017d1"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Harrison Ford as Deckard",
+        "key": "hadlN0IrXq8",
+        "published_at": "2015-03-31T10:32:14.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "id": "551aa15fc3a36823dc001958"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Darryl Hannah as Pris",
+        "key": "yYIgbuTa13g",
+        "published_at": "2015-03-31T10:31:58.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "id": "551aa179925141655d001805"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Sean Young as Rachael",
+        "key": "p6QKpdi2QPA",
+        "published_at": "2015-03-31T10:31:35.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Teaser",
+        "official": true,
+        "id": "551aa19492514164cd001a38"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "The Final Cut BFI Trailer",
+        "key": "W_9rhPDLHWk",
+        "published_at": "2015-03-10T10:59:03.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "5b5407e29251411f7e025cd2"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Michael Deeley on Blade Runner | BFI",
+        "key": "aCFvICF6d4s",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2014-11-14T20:36:15.000Z",
+        "id": "64a02f154a52f800c9944aa5"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Director's Cut Trailer",
+        "key": "6Ilbh612RUc",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2014-08-06T20:05:49.000Z",
+        "id": "64a02fc34a52f80145de1bd7"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Clip",
+        "key": "vUesPl-W3Y8",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2014-07-08T21:16:41.000Z",
+        "id": "64a030b4d5191f011cab5094"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Trailer",
+        "key": "eogpIG53Cis",
+        "published_at": "2014-01-28T03:51:46.000Z",
+        "site": "YouTube",
+        "size": 720,
+        "type": "Trailer",
+        "official": false,
+        "id": "5b5407d20e0a26231a02979d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Darren Bousman on Blade Runner",
+        "key": "cHt0WQjgYvQ",
+        "published_at": "2013-11-20T07:32:39.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": false,
+        "id": "533ec651c3a368544800008d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "On the Edge of Blade Runner",
+        "key": "UyWHJ5o60L0",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Featurette",
+        "official": false,
+        "published_at": "2012-11-12T15:01:13.000Z",
+        "id": "64810970647654012496a0c4"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Tortoise? What's That?",
+        "key": "cIFMwObyst4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-10-16T17:54:35.000Z",
+        "id": "64a02e6c4a52f800e82d6c4a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "I Want More Life, Father",
+        "key": "TNprUC1ncko",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-10-16T17:54:00.000Z",
+        "id": "64a02e7dc390c500caff8fef"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Deckard vs. Pris",
+        "key": "O0NovumgI4E",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-10-16T17:52:03.000Z",
+        "id": "64a02e3a4a52f8012694587a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Benefit or a Hazard",
+        "key": "y5ZxieE1D-A",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-10-16T17:50:49.000Z",
+        "id": "64a02e560cb33500ab9717ed"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Tears in Rain",
+        "key": "jvFYgELj2X0",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": true,
+        "published_at": "2012-10-16T17:49:03.000Z",
+        "id": "64a02e270cb33500e195165d"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Blade Runner | 30th Anniversary Trailer | Warner Bros",
+        "key": "iYhJ7Mf2Oxs",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2012-09-07T02:08:05.000Z",
+        "id": "65f8a0d04d0e8d017c320e36"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Opening Titles",
+        "key": "-fu7jN2_2pE",
+        "published_at": "2012-07-17T13:27:58.000Z",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Clip",
+        "official": false,
+        "id": "58bc9a93925141607b042f91"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Harrison Ford On Blade Runner",
+        "key": "PSIiGE105iA",
+        "published_at": "2010-12-08T23:14:03.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec651c3a368544800008a"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Ridley Scott: Blade Runner Was A Dark Comic Strip",
+        "key": "wniQj3UIj0E",
+        "published_at": "2010-12-07T19:41:42.000Z",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Featurette",
+        "official": true,
+        "id": "533ec651c3a368544800008c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Rutger Hauer on Blade Runner",
+        "key": "IbhFZihpGfY",
+        "published_at": "2008-03-26T03:53:00.000Z",
+        "site": "YouTube",
+        "size": 360,
+        "type": "Featurette",
+        "official": false,
+        "id": "533ec651c3a368544800008b"
+      }
+    ]
+  },
+  "keywords": {
+    "id": 78,
+    "keywords": [
+      {
+        "id": 803,
+        "name": "android"
+      },
+      {
+        "id": 391,
+        "name": "flying car"
+      },
+      {
+        "id": 801,
+        "name": "bounty hunter"
+      },
+      {
+        "id": 310,
+        "name": "artificial intelligence (a.i.)"
+      },
+      {
+        "id": 6017,
+        "name": "genetics"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 4565,
+        "name": "dystopia"
+      },
+      {
+        "id": 9685,
+        "name": "futuristic"
+      },
+      {
+        "id": 10718,
+        "name": "fugitive"
+      },
+      {
+        "id": 12190,
+        "name": "cyberpunk"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 33457,
+        "name": "alcoholic"
+      },
+      {
+        "id": 156189,
+        "name": "origami"
+      },
+      {
+        "id": 163227,
+        "name": "unicorn"
+      },
+      {
+        "id": 178657,
+        "name": "tech noir"
+      },
+      {
+        "id": 202647,
+        "name": "humanity"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 215131,
+        "name": "human clone"
+      },
+      {
+        "id": 220903,
+        "name": "humanoid robot"
+      },
+      {
+        "id": 233512,
+        "name": "blade runner"
+      },
+      {
+        "id": 257783,
+        "name": "2010s"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 325811,
+        "name": "excited"
+      },
+      {
+        "id": 357496,
+        "name": "dystopian sci-fi"
+      }
+    ]
+  },
+  "watch_providers": {
+    "id": 78,
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 24
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 8
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AO",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 2
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 7
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 62
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 152
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 13
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 21
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 93
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=AZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BB",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BE",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 62
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          }
+        ]
+      },
+      "BF": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BF",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 29
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BM",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BO",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/9kcTsX2laYclN4bFiMH3RuhZel2.jpg",
+            "provider_id": 2156,
+            "provider_name": "Telecine Amazon Channel",
+            "display_priority": 56
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 81
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BY",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=BZ",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg",
+            "provider_id": 531,
+            "provider_name": "Paramount Plus",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/hExO4PtimLIYn3kBOrzsejNv7cT.jpg",
+            "provider_id": 582,
+            "provider_name": "Paramount+ Amazon Channel",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/fts6X10Jn4QT0X6ac3udKEn2tJA.jpg",
+            "provider_id": 2303,
+            "provider_name": "Paramount Plus Premium",
+            "display_priority": 121
+          },
+          {
+            "logo_path": "/rl6zez5rCeyelt1I46JRYk6B9Ed.jpg",
+            "provider_id": 2304,
+            "provider_name": "Paramount Plus Basic with Ads",
+            "display_priority": 122
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg",
+            "provider_id": 140,
+            "provider_name": "CosmoGo",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ]
+      },
+      "CD": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CD",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/47klot430ytIqldQUUx2avN45Sr.jpg",
+            "provider_id": 150,
+            "provider_name": "blue TV",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/l5SFTF3l9l1KSgZJM7foAppUenz.jpg",
+            "provider_id": 622,
+            "provider_name": "UPC TV",
+            "display_priority": 31
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CO",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 57
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CY",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=CZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/489t5n9o1KhH7voGNQkrXT7vBKV.jpg",
+            "provider_id": 1939,
+            "provider_name": "Lepsi TV",
+            "display_priority": 26
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 113
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 220
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/nCsFBTEmlCMc5NA4fwPuluTz6AO.jpg",
+            "provider_id": 178,
+            "provider_name": "MagentaTV",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/dKh2TJ9lTWV0UIcDQGMnMyQ8AIN.jpg",
+            "provider_id": 1993,
+            "provider_name": "Videoload",
+            "display_priority": 105
+          },
+          {
+            "logo_path": "/xo4zowa5gbKT4z65ZathH6H4Cdg.jpg",
+            "provider_id": 2209,
+            "provider_name": "Freenet meinVOD",
+            "display_priority": 129
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/cBN4jd4wPq6on0kESiTlevqvlnL.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/nCsFBTEmlCMc5NA4fwPuluTz6AO.jpg",
+            "provider_id": 178,
+            "provider_name": "MagentaTV",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/dKh2TJ9lTWV0UIcDQGMnMyQ8AIN.jpg",
+            "provider_id": 1993,
+            "provider_name": "Videoload",
+            "display_priority": 105
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=DK",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 5
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=EE",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 20
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ES",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jse4MOi92Jgetym7nbXFZZBI6LK.jpg",
+            "provider_id": 2241,
+            "provider_name": "Movistar Plus+",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/f6TRLB3H4jDpFEZ0z2KWSSvu1SB.jpg",
+            "provider_id": 149,
+            "provider_name": "Movistar Plus+ Ficci\u00f3n Total ",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/kO2SWXvDCHAquaUuTJBuZkTBAuU.jpg",
+            "provider_id": 63,
+            "provider_name": "Filmin",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 79
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 87
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 32
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/7QzLA6rsML2rKxhuagWlDl7Zxlm.jpg",
+            "provider_id": 553,
+            "provider_name": "Telia Play",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 53
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 53
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 79
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 81
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 95
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 103
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 107
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 74
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 86
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 106
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/cAUTwxqoI7zc9XtYr1SMtWZEsXg.jpg",
+            "provider_id": 58,
+            "provider_name": "Canal VOD",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+            "provider_id": 310,
+            "provider_name": "LaCinetek",
+            "display_priority": 20
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          },
+          {
+            "logo_path": "/PAaj5bekwbeeoRC1evWg4KJW8p.jpg",
+            "provider_id": 2286,
+            "provider_name": "VIVA by videofutur",
+            "display_priority": 79
+          },
+          {
+            "logo_path": "/rdMFjYYE0uZ55rBdlX149gRF1XQ.jpg",
+            "provider_id": 2307,
+            "provider_name": "Premiere Max",
+            "display_priority": 81
+          },
+          {
+            "logo_path": "/yvui9yFtpWHt0ZrsPelItbuTavI.jpg",
+            "provider_id": 2601,
+            "provider_name": "Path\u00e9 Home",
+            "display_priority": 95
+          },
+          {
+            "logo_path": "/1gtidYfh89iLkGcbhPtr1lvx47W.jpg",
+            "provider_id": 2671,
+            "provider_name": "ARTE Boutique",
+            "display_priority": 103
+          },
+          {
+            "logo_path": "/umwf1XIMl3VHlkeuZYCUrq5FOoY.jpg",
+            "provider_id": 389,
+            "provider_name": "Sooner",
+            "display_priority": 107
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GB",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/kAZkQcIxMxTmlwdgSB05fqtymp0.jpg",
+            "provider_id": 29,
+            "provider_name": "Sky Go",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/6sJLsWk4TZHz1EffmTRSkaDehkh.jpg",
+            "provider_id": 591,
+            "provider_name": "Now TV Cinema",
+            "display_priority": 57
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GG",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 83
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 20
+          }
+        ]
+      },
+      "GY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=GY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=HR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 26
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 26
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IE",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 42
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/kAZkQcIxMxTmlwdgSB05fqtymp0.jpg",
+            "provider_id": 29,
+            "provider_name": "Sky Go",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6sJLsWk4TZHz1EffmTRSkaDehkh.jpg",
+            "provider_id": 591,
+            "provider_name": "Now TV Cinema",
+            "display_priority": 43
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 66
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 73
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 10
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IS",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/g0E9h3JAeIwmdvxlT73jiEuxdNj.jpg",
+            "provider_id": 39,
+            "provider_name": "Now TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 87
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6FDKQWcR6JfmRKLqezSsvGgRuUY.jpg",
+            "provider_id": 109,
+            "provider_name": "Timvision",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/6FDKQWcR6JfmRKLqezSsvGgRuUY.jpg",
+            "provider_id": 109,
+            "provider_name": "Timvision",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 33
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 36
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=JM",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 31
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/a5T7vNaGvoeckYO6rQkHolvyYf4.jpg",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/zA1rTWwNDx96pwkHUuvVWWkdpPa.jpg",
+            "provider_id": 2284,
+            "provider_name": "HBO Max on U-Next",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 71
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9EWAEok40O0HVhV0MYJmlE4LhGy.jpg",
+            "provider_id": 2683,
+            "provider_name": "FOD",
+            "display_priority": 80
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 8
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LI",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LT",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LU",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 6
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 25
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ML",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MW": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MW",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MX",
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 20
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 20
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 70
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MY",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NI",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/nzjqsR28PVVp5GJAlHtbBArNKqN.jpg",
+            "provider_id": 563,
+            "provider_name": "KPN",
+            "display_priority": 29
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Path\u00e9 Thuis",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 34
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/tpfmd22xEapb1aW2gzjSM5104rx.jpg",
+            "provider_id": 431,
+            "provider_name": "TV 2 Play",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/iscLKFDwQlr0BAgVDBcuRapLiwC.jpg",
+            "provider_id": 273,
+            "provider_name": "Neon TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
+            "provider_id": 2285,
+            "provider_name": "JustWatch TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 58
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 58
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/iscLKFDwQlr0BAgVDBcuRapLiwC.jpg",
+            "provider_id": 273,
+            "provider_name": "Neon TV",
+            "display_priority": 4
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 31
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PE",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/21M5CpiOYGOhHj2sVPXqwt6yeTO.jpg",
+            "provider_id": 167,
+            "provider_name": "Claro video",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 0
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jhMNVBV2UocEGepRkr9oFPD7Gpb.jpg",
+            "provider_id": 505,
+            "provider_name": "Player",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/jhMNVBV2UocEGepRkr9oFPD7Gpb.jpg",
+            "provider_id": 505,
+            "provider_name": "Player",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/4OlZobihZLTpizChDitPeH3PmND.jpg",
+            "provider_id": 2669,
+            "provider_name": "Pilot WP",
+            "display_priority": 64
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 27
+          },
+          {
+            "logo_path": "/cNqhhi5UYjAvJv2M69t5cwSn0So.jpg",
+            "provider_id": 40,
+            "provider_name": "CHILI",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 35
+          },
+          {
+            "logo_path": "/4OlZobihZLTpizChDitPeH3PmND.jpg",
+            "provider_id": 2669,
+            "provider_name": "Pilot WP",
+            "display_priority": 64
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+            "provider_id": 1899,
+            "provider_name": "HBO Max",
+            "display_priority": 32
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 43
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 19
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 31
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kC6JTo59Gj6I4vJPyBAYGh0sKAE.jpg",
+            "provider_id": 629,
+            "provider_name": "OSN+",
+            "display_priority": 20
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg",
+            "provider_id": 1825,
+            "provider_name": "HBO Max Amazon Channel",
+            "display_priority": 66
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bnoTnLzz2MAhK3Yc6P9KXe5drIz.jpg",
+            "provider_id": 76,
+            "provider_name": "Viaplay",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TC",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TH",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TR",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/c8ryDZroFQtuyRVPBwXq5PLpTWV.jpg",
+            "provider_id": 1904,
+            "provider_name": "TV+",
+            "display_priority": 9
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TZ": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=TZ",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=UA",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 36
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=VE",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=ZW",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "work_id": "work_spirited-away_2001",
+  "processed_at": "2026-04-04T00:47:55.415818+00:00",
+  "pipeline_version": "2.0",
+  "cultural_memory": {
+    "iconic_color": "ambar_desertico",
+    "color_confidence": "high",
+    "color_consensus_strength": 0.85,
+    "secondary_colors": [
+      "azul_nocturno",
+      "verde_lima"
+    ],
+    "visual_rhythm": "lento_contemplativo",
+    "emotional_temperature": "calido_nostalgico",
+    "abstraction_level": "realista_con_estilizacion",
+    "supporting_evidence": [
+      "The glowing golden lanterns and windows of the Aburaya bathhouse, especially in iconic night shots.",
+      "The warm, amber-toned interior lighting that permeates many scenes within the bathhouse.",
+      "The overall traditional and ancient aesthetic of the spirit world, often conveyed through golden-brown hues in structures and lighting."
+    ]
+  },
+  "external_research": {
+    "work_id": "work_spirited-away_2001",
+    "trigger_reason": "orchestrator",
+    "conducted_at": "2026-04-04T00:47:55.410862Z",
+    "sources": [],
+    "findings": {
+      "cinematographer_context": {},
+      "aesthetic_discourse": {},
+      "cultural_context": {}
+    },
+    "conflicts": [],
+    "uncertainty_flags": [
+      "clientcreationerror"
+    ],
+    "research_quality": "LOW",
+    "promotion_eligible": false,
+    "error": {
+      "type": "ClientCreationError",
+      "message": "Failed to create Gemini client (check SDK installation)",
+      "timestamp": "2026-04-04T00:47:55.410847Z"
+    }
+  },
+  "resolution": {
+    "work_id": "work_spirited-away_2001",
+    "color_iconico": "ambar_desertico",
+    "color_rank": 0.85,
+    "colores_secundarios": [
+      "azul_nocturno",
+      "verde_lima"
+    ],
+    "temperatura_emocional": "calido_nostalgico",
+    "ritmo_visual": "lento_contemplativo",
+    "grado_abstraccion_visual": "realista_con_estilizacion"
+  }
+}
