@@ -1,20 +1,20 @@
 [
   {
-    "tmdb_id": 38360,
-    "failed_at": "2026-03-31",
-    "source": "palme_dor",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
-  },
-  {
     "tmdb_id": 992,
-    "failed_at": "2026-04-03",
+    "failed_at": "2026-04-04",
     "source": "sight_and_sound_2022",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 877, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   },
   {
     "tmdb_id": 129,
-    "failed_at": "2026-04-03",
+    "failed_at": "2026-04-04",
     "source": "sight_and_sound_2022",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/Users/servinemilio/Documents/REPOS/prisma-site/pipeline/migrate_to_db.py\", line 876, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/U"
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 877, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 38360,
+    "failed_at": "2026-04-04",
+    "source": "palme_dor",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 877, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   }
 ]
