@@ -9,13 +9,13 @@ on:
     inputs:
       batch_size:
         description: 'Number of films to ingest'
-        default: '100'
+        default: '75'
         required: false
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 100
     permissions:
       contents: write
     env:
@@ -53,10 +53,11 @@ jobs:
 
       - name: Run ingestion batch
         run: |
-          BATCH=${{ github.event.inputs.batch_size || '100' }}
+          BATCH=${{ github.event.inputs.batch_size || '75' }}
           python pipeline/ingest_agent.py --batch "$BATCH" --execute
 
       - name: Commit queue updates
+        if: always()
         run: |
           git config user.name  "PRISMA Bot"
           git config user.email "bot@prisma.film"
