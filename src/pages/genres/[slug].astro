@@ -4,6 +4,7 @@ export const prerender = false
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { createServiceClient } from '../../lib/db/client'
 import { SLUG_TO_GENRE, getGenreInfo } from '../../lib/genres'
+import FilmSortBar from '../../components/ui/FilmSortBar.astro'
 
 const { slug } = Astro.params
 if (!slug) return Astro.redirect('/genres')
@@ -18,8 +19,17 @@ const db = createServiceClient()
 
 // Page/sort params
 const page = Math.max(1, parseInt(Astro.url.searchParams.get('page') ?? '1'))
-const sort = (Astro.url.searchParams.get('sort') ?? 'year') as 'year' | 'score'
+const sort = (Astro.url.searchParams.get('sort') ?? 'ranking') as 'ranking' | 'year_desc' | 'year_asc' | 'title'
 const PER_PAGE = 40
+
+// Map sort param → Supabase order
+const orderMap = {
+  ranking:   { col: 'tmdb_popularity',  asc: false },
+  year_desc: { col: 'year',            asc: false },
+  year_asc:  { col: 'year',            asc: true  },
+  title:     { col: 'title',           asc: true  },
+} as const
+const { col: orderCol, asc: orderAsc } = orderMap[sort]
 
 // Fetch all matching works (need total count + paginated)
 const { data: allWorks, count: totalCount } = await db
@@ -27,7 +37,7 @@ const { data: allWorks, count: totalCount } = await db
   .select('id, title, year, tmdb_poster_path', { count: 'exact' })
   .eq('is_published', true)
   .contains('genres', [tmdbGenre])
-  .order(sort === 'score' ? 'tmdb_popularity' : 'year', { ascending: false })
+  .order(orderCol, { ascending: orderAsc })
   .range((page - 1) * PER_PAGE, page * PER_PAGE - 1)
 
 const films = (allWorks ?? []).map((w: any) => ({
@@ -67,7 +77,7 @@ const pageUrl = `${SITE}/genres/${slug}`
           <span>{genre.name}</span>
         </nav>
         <div class="genre-hero__body">
-          <span class="genre-hero__emoji" aria-hidden="true">{genre.emoji}</span>
+          <span class="genre-hero__icon" aria-hidden="true" set:html={genre.svg} />
           <div>
             <h1 class="genre-hero__title">{genre.name}</h1>
             {genre.description && (
@@ -77,12 +87,13 @@ const pageUrl = `${SITE}/genres/${slug}`
           </div>
         </div>
 
-        <!-- Sort controls -->
-        <div class="genre-sort">
-          <span class="genre-sort__label">Ordenar por</span>
-          <a href={`?sort=year&page=1`}  class:list={['genre-sort__btn', sort === 'year'  && 'is-active']}>Año</a>
-          <a href={`?sort=score&page=1`} class:list={['genre-sort__btn', sort === 'score' && 'is-active']}>Popularidad</a>
-        </div>
+        <!-- Sort bar -->
+        <FilmSortBar
+          currentSort={sort}
+          totalCount={total}
+          baseUrl={`/genres/${slug}`}
+          extraParams={{ page: '1' }}
+        />
       </div>
     </header>
 
@@ -161,11 +172,17 @@ const pageUrl = `${SITE}/genres/${slug}`
   margin-bottom: 1.5rem;
 }
 
-.genre-hero__emoji {
-  font-size: 3rem;
-  line-height: 1;
+.genre-hero__icon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  color: var(--text-muted);
   flex-shrink: 0;
-  margin-top: 0.25rem;
+  margin-top: 0.375rem;
+}
+.genre-hero__icon svg {
+  width: 100%;
+  height: 100%;
 }
 
 .genre-hero__title {
@@ -192,35 +209,7 @@ const pageUrl = `${SITE}/genres/${slug}`
   letter-spacing: 0.04em;
 }
 
-/* Sort */
-.genre-sort {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.genre-sort__label {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-right: 0.25rem;
-}
-
-.genre-sort__btn {
-  font-size: 0.72rem;
-  font-weight: 500;
-  padding: 0.3rem 0.75rem;
-  border-radius: 4px;
-  border: 1px solid var(--surface-border);
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: all 120ms ease;
-}
-.genre-sort__btn:hover { color: var(--text-secondary); border-color: var(--surface-border-strong); }
-.genre-sort__btn.is-active {
-  color: var(--text-primary);
-  background: var(--surface-card);
-  border-color: var(--surface-border-strong);
-}
+/* Sort — handled by FilmSortBar component */
 
 /* Poster grid */
 .genre-grid-section {

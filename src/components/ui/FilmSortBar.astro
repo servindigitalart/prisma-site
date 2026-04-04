@@ -1,0 +1,117 @@
+---
+/**
+ * FilmSortBar.astro
+ * ─────────────────
+ * Reusable sort bar for listing pages.
+ * Renders a horizontal bar: left = count, right = sort buttons.
+ * Clicking a sort button navigates to ?sort=<value> (preserving other params).
+ *
+ * Props:
+ *   currentSort  – active sort key
+ *   totalCount   – number of films shown
+ *   baseUrl      – current page URL (Astro.url.pathname) for building hrefs
+ *   extraParams  – any extra URL params to preserve (e.g. page=1 reset)
+ */
+
+interface Props {
+  currentSort: 'ranking' | 'year_desc' | 'year_asc' | 'title'
+  totalCount: number
+  baseUrl: string
+  /** Extra static params to always include, e.g. { page: '1' } */
+  extraParams?: Record<string, string>
+}
+
+const { currentSort, totalCount, baseUrl, extraParams = {} } = Astro.props
+
+function buildHref(sort: string) {
+  const params = new URLSearchParams({ ...extraParams, sort })
+  return `${baseUrl}?${params.toString()}`
+}
+
+const OPTIONS = [
+  { key: 'ranking',   label: 'Ranking'        },
+  { key: 'year_desc', label: 'Más recientes'   },
+  { key: 'year_asc',  label: 'Más antiguas'    },
+  { key: 'title',     label: 'A–Z'             },
+] as const
+---
+
+<div class="sort-bar">
+  <span class="sort-bar__count">
+    {totalCount.toLocaleString('es')} {totalCount === 1 ? 'película' : 'películas'}
+  </span>
+  <nav class="sort-bar__options" aria-label="Ordenar películas">
+    {OPTIONS.map(opt => (
+      <a
+        href={buildHref(opt.key)}
+        class:list={['sort-bar__btn', currentSort === opt.key && 'is-active']}
+        aria-current={currentSort === opt.key ? 'true' : undefined}
+      >
+        {opt.label}
+      </a>
+    ))}
+  </nav>
+</div>
+
+<style>
+.sort-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--surface-border);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.sort-bar__count {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.sort-bar__options {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.sort-bar__btn {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.3rem 0.625rem;
+  border-radius: 3px;
+  transition: color 120ms ease, background 120ms ease;
+  white-space: nowrap;
+}
+
+.sort-bar__btn:hover {
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sort-bar__btn.is-active {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(240, 238, 232, 0.4);
+}
+
+@media (max-width: 480px) {
+  .sort-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .sort-bar__btn {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.675rem;
+  }
+}
+</style>

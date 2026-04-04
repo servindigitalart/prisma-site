@@ -50,7 +50,7 @@ const genres = Object.entries(counts)
         <div class="genres-grid">
           {genres.map(genre => (
             <a href={`/genres/${genre.slug}`} class="genre-card">
-              <span class="genre-card__emoji" aria-hidden="true">{genre.emoji}</span>
+              <span class="genre-card__icon" aria-hidden="true" set:html={genre.svg} />
               <h2 class="genre-card__name">{genre.name}</h2>
               <p class="genre-card__count">{genre.count} película{genre.count !== 1 ? 's' : ''}</p>
               {genre.description && (
@@ -132,16 +132,21 @@ const genres = Object.entries(counts)
   z-index: 1;
 }
 
-.genre-card__emoji {
-  font-size: 2rem;
-  line-height: 1;
-  margin-bottom: 0.5rem;
+.genre-card__icon {
   display: block;
-  filter: grayscale(0.15);
-  transition: filter 160ms ease, transform 160ms ease;
+  width: 2rem;
+  height: 2rem;
+  color: var(--text-muted);
+  margin-bottom: 0.625rem;
+  flex-shrink: 0;
+  transition: color 200ms ease, transform 200ms ease;
 }
-.genre-card:hover .genre-card__emoji {
-  filter: grayscale(0);
+.genre-card__icon svg {
+  width: 100%;
+  height: 100%;
+}
+.genre-card:hover .genre-card__icon {
+  color: var(--text-accent, rgba(212,201,168,0.9));
   transform: scale(1.1);
 }
 

@@ -1,13 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { isSupabaseConfigured, createServiceClient } from '../../lib/db/client';
-import { isoToFlag, isoToName, countryToSlug } from '../../lib/countries';
+import { isoToName, countryToSlug } from '../../lib/countries';
 import { loadAllWorks } from '../../lib/loaders/loadWork';
+
+// ISO2 → flagcdn.com code (lowercase). Handles historical codes.
+function isoToFlagCode(iso2: string): string {
+  const MAP: Record<string, string> = {
+    SU: 'ru', YU: 'rs', CS: 'cz', DD: 'de',
+  };
+  return MAP[iso2.toUpperCase()] ?? iso2.toLowerCase();
+}
 
 type CountryEntry = {
   iso2: string;
   name: string;
-  flag: string;
+  flagCode: string;
   slug: string;
   count: number;
 };
@@ -40,7 +48,7 @@ const countries: CountryEntry[] = Array.from(countMap.entries())
   .map(([iso2, count]) => ({
     iso2,
     name: isoToName(iso2),
-    flag: isoToFlag(iso2),
+    flagCode: isoToFlagCode(iso2),
     slug: countryToSlug(iso2),
     count,
   }))
@@ -87,7 +95,16 @@ const countriesJsonLd = {
         <div class="country-grid">
           {countries.map((c) => (
             <a href={`/countries/${c.slug}`} class="country-card">
-              <span class="country-card__flag" aria-hidden="true">{c.flag}</span>
+              <img
+                src={`https://flagcdn.com/w40/${c.flagCode}.png`}
+                srcset={`https://flagcdn.com/w80/${c.flagCode}.png 2x`}
+                alt={`Bandera de ${c.name}`}
+                class="country-card__flag"
+                loading="lazy"
+                decoding="async"
+                width="40"
+                height="27"
+              />
               <div class="country-card__info">
                 <span class="country-card__name">{c.name}</span>
                 <span class="country-card__count">{c.count} {c.count === 1 ? 'película' : 'películas'}</span>
@@ -133,7 +150,7 @@ const countriesJsonLd = {
 
 .country-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1px;
   border: 1px solid var(--surface-border);
   border-radius: 4px;
@@ -155,11 +172,17 @@ const countriesJsonLd = {
 }
 
 .country-card__flag {
-  font-size: 1.5rem;
-  line-height: 1;
+  width: 40px;
+  height: 27px;
+  object-fit: cover;
+  border-radius: 3px;
   flex-shrink: 0;
-  width: 1.75rem;
-  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+.country-card:hover .country-card__flag {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.5);
 }
 
 .country-card__info {
@@ -170,19 +193,22 @@ const countriesJsonLd = {
 }
 
 .country-card__name {
-  font-size: 0.875rem;
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
   color: var(--text-secondary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: color 160ms ease;
+  line-height: 1.2;
 }
 .country-card:hover .country-card__name { color: var(--text-primary); }
 
 .country-card__count {
-  font-size: 0.7rem;
+  font-size: 0.675rem;
   color: var(--text-muted);
   font-family: var(--font-mono);
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 600px) {

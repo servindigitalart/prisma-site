@@ -5,6 +5,7 @@ import { getPaletteEntry } from '../../lib/color/colorPalette';
 import { isoToFlag, isoToName, slugToIso } from '../../lib/countries';
 import { loadAllWorks } from '../../lib/loaders/loadWork';
 import type { PrismaColorId } from '../../lib/db/types';
+import FilmSortBar from '../../components/ui/FilmSortBar.astro';
 
 const { slug } = Astro.params;
 if (!slug) return Astro.redirect('/404');
@@ -71,15 +72,23 @@ if (isSupabaseConfigured()) {
 
 if (films.length === 0) return Astro.redirect('/404');
 
-// Top 5 poster row — films with posters, sorted by score desc
+// ── Sort param ────────────────────────────────────────────────────────────────
+const sort = (Astro.url.searchParams.get('sort') ?? 'ranking') as
+  'ranking' | 'year_desc' | 'year_asc' | 'title'
+
+// Top 5 poster row — always by score desc, independent of sort
 const TMDB_IMG = 'https://image.tmdb.org/t/p/w342';
 const top5 = films
   .filter((f) => f.tmdb_poster_path)
   .sort((a, b) => (b.numeric_score ?? 0) - (a.numeric_score ?? 0))
   .slice(0, 5);
 
-// Film list sorted: scored first (score desc), then unscored (year desc)
+// Film list sorted by chosen param
 const sorted = [...films].sort((a, b) => {
+  if (sort === 'year_desc') return (b.year ?? 0) - (a.year ?? 0);
+  if (sort === 'year_asc')  return (a.year ?? 0) - (b.year ?? 0);
+  if (sort === 'title')     return a.title.localeCompare(b.title);
+  // 'ranking': scored first (score desc), then unscored (year desc)
   if (a.numeric_score != null && b.numeric_score != null) return b.numeric_score - a.numeric_score;
   if (a.numeric_score != null) return -1;
   if (b.numeric_score != null) return 1;
@@ -181,8 +190,12 @@ const countryBreadcrumbs = [
       <div class="site-container">
         <div class="country-films__header">
           <h2 class="country-films__heading">Filmografía</h2>
-          <span class="country-films__count">{sorted.length} películas</span>
         </div>
+        <FilmSortBar
+          currentSort={sort}
+          totalCount={sorted.length}
+          baseUrl={`/countries/${slug}`}
+        />
         <div class="country-films__grid" id="films-grid">
           {sorted.map((film, i) => {
             const filmSlug = film.id.replace(/^work_/, '');
