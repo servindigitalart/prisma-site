@@ -1,0 +1,339 @@
+---
+export const prerender = false
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { createServiceClient } from '../../lib/db/client'
+import { SLUG_TO_GENRE, getGenreInfo } from '../../lib/genres'
+
+const { slug } = Astro.params
+if (!slug) return Astro.redirect('/genres')
+
+const tmdbGenre = SLUG_TO_GENRE[slug]
+if (!tmdbGenre) return Astro.redirect('/genres')
+
+const genre = getGenreInfo(tmdbGenre)
+
+const TMDB_IMG = 'https://image.tmdb.org/t/p/w342'
+const db = createServiceClient()
+
+// Page/sort params
+const page = Math.max(1, parseInt(Astro.url.searchParams.get('page') ?? '1'))
+const sort = (Astro.url.searchParams.get('sort') ?? 'year') as 'year' | 'score'
+const PER_PAGE = 40
+
+// Fetch all matching works (need total count + paginated)
+const { data: allWorks, count: totalCount } = await db
+  .from('works')
+  .select('id, title, year, tmdb_poster_path', { count: 'exact' })
+  .eq('is_published', true)
+  .contains('genres', [tmdbGenre])
+  .order(sort === 'score' ? 'tmdb_popularity' : 'year', { ascending: false })
+  .range((page - 1) * PER_PAGE, page * PER_PAGE - 1)
+
+const films = (allWorks ?? []).map((w: any) => ({
+  id:     w.id,
+  title:  w.title,
+  year:   w.year as number | null,
+  poster: w.tmdb_poster_path ? `${TMDB_IMG}${w.tmdb_poster_path}` : null,
+  slug:   (w.id as string).replace(/^work_/, ''),
+}))
+
+const total       = totalCount ?? 0
+const totalPages  = Math.ceil(total / PER_PAGE)
+const hasPrev     = page > 1
+const hasNext     = page < totalPages
+
+const SITE = 'https://prisma.film'
+const pageUrl = `${SITE}/genres/${slug}`
+---
+
+<BaseLayout
+  title={`${genre.name} — PRISMA`}
+  description={`${genre.description || genre.name} — ${total} película${total !== 1 ? 's' : ''} en el catálogo PRISMA.`}
+  breadcrumbs={[
+    { name: 'PRISMA', url: SITE },
+    { name: 'Géneros', url: `${SITE}/genres` },
+    { name: genre.name, url: pageUrl },
+  ]}
+>
+  <main class="genre-page">
+
+    <!-- Hero -->
+    <header class="genre-hero">
+      <div class="site-container">
+        <nav class="genre-breadcrumb" aria-label="Breadcrumb">
+          <a href="/genres">Géneros</a>
+          <span aria-hidden="true">›</span>
+          <span>{genre.name}</span>
+        </nav>
+        <div class="genre-hero__body">
+          <span class="genre-hero__emoji" aria-hidden="true">{genre.emoji}</span>
+          <div>
+            <h1 class="genre-hero__title">{genre.name}</h1>
+            {genre.description && (
+              <p class="genre-hero__desc">{genre.description}</p>
+            )}
+            <p class="genre-hero__count">{total} película{total !== 1 ? 's' : ''}</p>
+          </div>
+        </div>
+
+        <!-- Sort controls -->
+        <div class="genre-sort">
+          <span class="genre-sort__label">Ordenar por</span>
+          <a href={`?sort=year&page=1`}  class:list={['genre-sort__btn', sort === 'year'  && 'is-active']}>Año</a>
+          <a href={`?sort=score&page=1`} class:list={['genre-sort__btn', sort === 'score' && 'is-active']}>Popularidad</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Poster grid -->
+    <section class="genre-grid-section">
+      <div class="site-container">
+        {films.length === 0 ? (
+          <p class="genre-empty">No hay películas en este género todavía.</p>
+        ) : (
+          <div class="genre-poster-grid">
+            {films.map(film => (
+              <a href={`/films/${film.slug}`} class="genre-poster-card">
+                {film.poster
+                  ? <img src={film.poster} alt={film.title} class="genre-poster-card__img" loading="lazy" decoding="async" />
+                  : <div class="genre-poster-card__placeholder">{film.title[0]}</div>
+                }
+                <div class="genre-poster-card__info">
+                  <span class="genre-poster-card__title">{film.title}</span>
+                  {film.year && <span class="genre-poster-card__year">{film.year}</span>}
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+
+        <!-- Pagination -->
+        {totalPages > 1 && (
+          <div class="genre-pagination">
+            {hasPrev && (
+              <a href={`?sort=${sort}&page=${page - 1}`} class="genre-pag-btn">← Anterior</a>
+            )}
+            <span class="genre-pag-info">Página {page} de {totalPages}</span>
+            {hasNext && (
+              <a href={`?sort=${sort}&page=${page + 1}`} class="genre-pag-btn">Siguiente →</a>
+            )}
+          </div>
+        )}
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<style>
+.genre-page {
+  padding-bottom: 6rem;
+}
+
+/* Breadcrumb */
+.genre-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+.genre-breadcrumb a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 120ms ease;
+}
+.genre-breadcrumb a:hover { color: var(--text-secondary); }
+
+/* Hero */
+.genre-hero {
+  padding-top: 7rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.genre-hero__body {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.genre-hero__emoji {
+  font-size: 3rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.genre-hero__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  line-height: 1.1;
+}
+
+.genre-hero__desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 560px;
+  margin-bottom: 0.5rem;
+}
+
+.genre-hero__count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+/* Sort */
+.genre-sort {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.genre-sort__label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-right: 0.25rem;
+}
+
+.genre-sort__btn {
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--surface-border);
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 120ms ease;
+}
+.genre-sort__btn:hover { color: var(--text-secondary); border-color: var(--surface-border-strong); }
+.genre-sort__btn.is-active {
+  color: var(--text-primary);
+  background: var(--surface-card);
+  border-color: var(--surface-border-strong);
+}
+
+/* Poster grid */
+.genre-grid-section {
+  padding-top: 2.5rem;
+}
+
+.genre-poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.genre-poster-card {
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+.genre-poster-card__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+  background: var(--surface-card);
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+.genre-poster-card:hover .genre-poster-card__img {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.genre-poster-card__placeholder {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 3px;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--text-muted);
+}
+
+.genre-poster-card__info {
+  padding: 0.5rem 0.125rem 0;
+}
+
+.genre-poster-card__title {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  transition: color 120ms ease;
+}
+.genre-poster-card:hover .genre-poster-card__title { color: var(--text-primary); }
+
+.genre-poster-card__year {
+  display: block;
+  font-size: 0.68rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* Pagination */
+.genre-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.genre-pag-btn {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  border: 1px solid var(--surface-border);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 120ms ease;
+}
+.genre-pag-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--surface-border-strong);
+  background: var(--surface-card);
+}
+
+.genre-pag-info {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.genre-empty {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+@media (max-width: 640px) {
+  .genre-hero__body { gap: 0.875rem; }
+  .genre-hero__emoji { font-size: 2rem; }
+  .genre-poster-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 0.625rem; }
+}
+</style>
