@@ -18,6 +18,14 @@ jobs:
     timeout-minutes: 120
     permissions:
       contents: write
+    env:
+      TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
+      TMDB_ACCESS_TOKEN:    ${{ secrets.TMDB_ACCESS_TOKEN }}
+      GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
+      PUBLIC_SUPABASE_URL:  ${{ secrets.PUBLIC_SUPABASE_URL }}
+      SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      GITHUB_TOKEN:         ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
@@ -39,26 +47,14 @@ jobs:
           python pipeline/queue_manager.py --add-list pipeline/sources/venice_golden_lion.txt   --source venice_golden_lion
           python pipeline/queue_manager.py --add-list pipeline/sources/palme_dor_historical.txt --source palme_dor
           python pipeline/queue_manager.py --add-list pipeline/sources/oscar_international.txt  --source oscar_international
-        env:
-          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
       - name: Show queue status
         run: python pipeline/ingest_agent.py --status
-        env:
-          TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
-          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
       - name: Run ingestion batch
         run: |
           BATCH=${{ github.event.inputs.batch_size || '100' }}
           python pipeline/ingest_agent.py --batch "$BATCH" --execute
-        env:
-          TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
-          GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
-          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
       - name: Commit queue updates
         run: |
@@ -67,5 +63,3 @@ jobs:
           git add pipeline/queue/
           git diff --staged --quiet || git commit -m "chore(queue): batch ingest $(date +%Y-%m-%d)"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
