@@ -211,4 +211,23 @@ const sections: Section[] = [
 .dist-badge--criterion { border-color: rgba(212,201,168,0.3); color: var(--text-accent); }
 .dist-badge--mubi      { border-color: rgba(255,255,255,0.12); }
 .dist-badge--s-and-s   { border-color: rgba(255,255,255,0.12); }
+
+@media (max-width: 640px) {
+  /* Larger touch targets for accordion items */
+  .accordion-item__trigger {
+    min-height: 48px;
+    padding: 0.875rem 0;
+    font-size: 0.9375rem;
+  }
+
+  .accordion-facts { gap: 0.875rem; }
+
+  .accordion-fact__label {
+    font-size: 0.7rem;
+  }
+
+  .accordion-fact__value {
+    font-size: 0.9rem;
+  }
+}
 </style>

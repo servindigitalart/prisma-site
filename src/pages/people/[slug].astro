@@ -1005,6 +1005,46 @@ const awardGroups: AwardFilmGroup[] = (() => {
   color: var(--text-muted);
   font-style: italic;
 }
+
+/* ── Mobile ─────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Header: photo centered above name */
+  .person-header__inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+  }
+
+  .person-header__info {
+    align-items: center;
+  }
+
+  .person-header__meta {
+    justify-content: center;
+  }
+
+  /* Photo strip: slightly smaller thumbs but still scrollable */
+  .person-photos__thumb {
+    height: 120px;
+    width: auto;
+  }
+
+  /* Filmography: simplified — show title + year + role badge, no extras */
+  .person-filmography-table td:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+    display: none;
+  }
+
+  .person-filmography-table {
+    font-size: 0.875rem;
+  }
+
+  .person-filmography-table td,
+  .person-filmography-table th {
+    padding: 0.6rem 0.5rem;
+    min-height: 48px;
+  }
+}
 </style>
 
 <script is:inline>

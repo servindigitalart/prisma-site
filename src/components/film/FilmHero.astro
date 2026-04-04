@@ -307,7 +307,36 @@ a.film-hero__director--link:hover { color: var(--hero-text); }
   }
 
   .film-hero__poster {
-    width: clamp(140px, 40vw, 200px);
+    width: clamp(160px, 45vw, 240px);
+  }
+}
+
+@media (max-width: 640px) {
+  /* Hide backdrop mosaic on mobile — saves bandwidth */
+  .film-hero__backdrop-mosaic { display: none; }
+  /* Hide backdrop gallery strip too */
+  .film-gallery { display: none; }
+
+  .film-hero {
+    min-height: auto;
+    padding-bottom: 2.5rem;
+    align-items: flex-start;
+  }
+
+  .film-hero__inner {
+    padding-top: 5rem;
+    gap: 1.25rem;
+  }
+
+  /* Poster full-width on mobile */
+  .film-hero__poster {
+    width: 100%;
+    max-width: none;
+    border-radius: 6px;
+  }
+
+  .film-hero__title {
+    font-size: clamp(1.75rem, 7vw, 2.75rem);
   }
 }
 

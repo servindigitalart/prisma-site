@@ -101,6 +101,14 @@ const user = Astro.locals.user;
       <a href="/" class="site-nav-logo" aria-label="PRISMA — inicio">
         <span class="site-nav-logo-text">PRISMA</span>
       </a>
+
+      <!-- Hamburger (mobile only) -->
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-mobile-overlay">
+        <span class="nav-hamburger__line"></span>
+        <span class="nav-hamburger__line"></span>
+        <span class="nav-hamburger__line"></span>
+      </button>
+
       <ul class="site-nav-links">
         <li><a href="/rankings/films">Rankings</a></li>
         <li><a href="/colors">Colores</a></li>
@@ -163,7 +171,7 @@ const user = Astro.locals.user;
         <li><a href="/submit" class="nav-submit">Enviar</a></li>
       </ul>
 
-      <!-- Auth -->
+      <!-- Auth (desktop) -->
       <div class="site-nav-auth">
         {user ? (
           <div class="nav-user">
@@ -189,9 +197,291 @@ const user = Astro.locals.user;
           <button class="nav-signin" onclick="window.showAuthModal?.()">Iniciar sesión</button>
         )}
       </div>
+
+      <!-- Hamburger button (mobile only) -->
+      <button
+        class="nav-hamburger"
+        id="nav-hamburger"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="nav-mobile-overlay"
+      >
+        <span class="nav-hamburger__line"></span>
+        <span class="nav-hamburger__line"></span>
+        <span class="nav-hamburger__line"></span>
+      </button>
     </nav>
 
-    <!-- Auth modal — rendered once globally; shown via window.showAuthModal() -->
+    <!-- Mobile full-screen overlay menu -->
+    <div class="nav-mobile-overlay" id="nav-mobile-overlay" aria-hidden="true">
+      <div class="nav-mobile-overlay__inner">
+
+        <!-- Rankings -->
+        <a href="/rankings/films" class="nav-mobile-item">Rankings</a>
+
+        <!-- Colores -->
+        <a href="/colors" class="nav-mobile-item">Colores</a>
+
+        <!-- Explorar accordion -->
+        <button class="nav-mobile-accordion-btn" id="mob-acc-explorar" aria-expanded="false">
+          Explorar
+          <span class="nav-mobile-accordion-btn__chevron">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+        <div class="nav-mobile-accordion-content" id="mob-acc-explorar-panel">
+          <div class="nav-mobile-accordion-content__inner">
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Ritmo Visual</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/ritmo/dinamico-frenetico" class="nav-mobile-sublink">Frenético</a>
+                <a href="/ritmo/dinamico-energico" class="nav-mobile-sublink">Cinético</a>
+                <a href="/ritmo/moderado-balanceado" class="nav-mobile-sublink">Narrativo</a>
+                <a href="/ritmo/lento-contemplativo" class="nav-mobile-sublink">Contemplativo</a>
+                <a href="/ritmo/estatico-ritualistico" class="nav-mobile-sublink">Ritual</a>
+              </div>
+            </div>
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Temperatura</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/temperatura/calido-apasionado" class="nav-mobile-sublink">Ardiente</a>
+                <a href="/temperatura/calido-nostalgico" class="nav-mobile-sublink">Nostálgico</a>
+                <a href="/temperatura/neutral-contemplativo" class="nav-mobile-sublink">Ecuánime</a>
+                <a href="/temperatura/frio-melancolico" class="nav-mobile-sublink">Melancólico</a>
+                <a href="/temperatura/frio-perturbador" class="nav-mobile-sublink">Perturbador</a>
+                <a href="/temperatura/frio-alienado" class="nav-mobile-sublink">Alienante</a>
+              </div>
+            </div>
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Abstracción</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/abstraccion/extremadamente-realista" class="nav-mobile-sublink">Documental</a>
+                <a href="/abstraccion/realista-con-estilizacion" class="nav-mobile-sublink">Realista</a>
+                <a href="/abstraccion/estilizado" class="nav-mobile-sublink">Estilizado</a>
+                <a href="/abstraccion/muy-estilizado" class="nav-mobile-sublink">Expresionista</a>
+                <a href="/abstraccion/extremadamente-abstracto" class="nav-mobile-sublink">Surrealista</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Décadas accordion -->
+        <button class="nav-mobile-accordion-btn" id="mob-acc-decades" aria-expanded="false">
+          Décadas
+          <span class="nav-mobile-accordion-btn__chevron">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+        <div class="nav-mobile-accordion-content" id="mob-acc-decades-panel">
+          <div class="nav-mobile-accordion-content__inner">
+            <div class="nav-mobile-decades-grid">
+              <a href="/decades/1920s">1920s</a>
+              <a href="/decades/1930s">1930s</a>
+              <a href="/decades/1940s">1940s</a>
+              <a href="/decades/1950s">1950s</a>
+              <a href="/decades/1960s">1960s</a>
+              <a href="/decades/1970s">1970s</a>
+              <a href="/decades/1980s">1980s</a>
+              <a href="/decades/1990s">1990s</a>
+              <a href="/decades/2000s">2000s</a>
+              <a href="/decades/2010s">2010s</a>
+              <a href="/decades/2020s">2020s</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Remaining top-level items -->
+        <a href="/countries"  class="nav-mobile-item">Países</a>
+        <a href="/festivals"  class="nav-mobile-item">Festivales</a>
+        <a href="/people"     class="nav-mobile-item">Cineastas</a>
+        <a href="/submit"     class="nav-mobile-item">Enviar</a>
+
+        <!-- Auth at bottom -->
+        <div class="nav-mobile-auth">
+          {user ? (
+            <div style="display:flex; align-items:center; gap:1rem;">
+              <a href={`/u/${user.id}`} style="color:var(--text-secondary); font-size:0.9rem;">
+                {user.user_metadata?.full_name ?? user.email ?? 'Mi perfil'}
+              </a>
+              <form action="/auth/signout" method="POST" style="display:inline">
+                <button type="submit" class="nav-signout" style="font-size:0.85rem;">Cerrar sesión</button>
+              </form>
+            </div>
+          ) : (
+            <button
+              class="nav-signin"
+              style="width:100%; padding:0.75rem; font-size:0.9rem;"
+              onclick="window.showAuthModal?.(); document.getElementById('nav-mobile-overlay')?.classList.remove('is-open');"
+            >
+              Iniciar sesión
+            </button>
+          )}
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Fixed bottom navigation bar (mobile only) -->
+    <nav class="nav-bottom-bar" aria-label="Navegación principal">
+      <div class="nav-bottom-bar__inner">
+        <a href="/rankings/films" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🎬</span>
+          <span>Películas</span>
+        </a>
+        <a href="/colors" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🎨</span>
+          <span>Colores</span>
+        </a>
+        <a href="/countries" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🌍</span>
+          <span>Países</span>
+        </a>
+        {user ? (
+          <a href={`/u/${user.id}`} class="nav-bottom-bar__item">
+            <span class="nav-bottom-bar__icon">👤</span>
+            <span>Cuenta</span>
+          </a>
+        ) : (
+          <button
+            class="nav-bottom-bar__item"
+            style="background:none; border:none; cursor:pointer; font-family:var(--font-sans);"
+            onclick="window.showAuthModal?.()"
+          >
+            <span class="nav-bottom-bar__icon">👤</span>
+            <span>Cuenta</span>
+          </button>
+        )}
+      </div>
+    </nav>
+
+    <!-- ─── Mobile overlay menu ──────────────────────────────────────────── -->
+    <div class="nav-mobile-overlay" id="nav-mobile-overlay" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+      <div class="nav-mobile-overlay__inner">
+
+        <a href="/rankings/films" class="nav-mobile-item">Rankings</a>
+        <a href="/colors" class="nav-mobile-item">Colores</a>
+
+        <!-- Explorar accordion -->
+        <button class="nav-mobile-accordion-btn" data-accordion="explorar" aria-expanded="false">
+          Explorar
+          <span class="nav-mobile-accordion-btn__chevron">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </button>
+        <div class="nav-mobile-accordion-content" id="accordion-explorar">
+          <div class="nav-mobile-accordion-content__inner">
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Ritmo Visual</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/ritmo/dinamico-frenetico" class="nav-mobile-sublink">Frenético</a>
+                <a href="/ritmo/dinamico-energico" class="nav-mobile-sublink">Cinético</a>
+                <a href="/ritmo/moderado-balanceado" class="nav-mobile-sublink">Narrativo</a>
+                <a href="/ritmo/lento-contemplativo" class="nav-mobile-sublink">Contemplativo</a>
+                <a href="/ritmo/estatico-ritualistico" class="nav-mobile-sublink">Ritual</a>
+              </div>
+            </div>
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Temperatura</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/temperatura/calido-apasionado" class="nav-mobile-sublink">Ardiente</a>
+                <a href="/temperatura/calido-nostalgico" class="nav-mobile-sublink">Nostálgico</a>
+                <a href="/temperatura/neutral-contemplativo" class="nav-mobile-sublink">Ecuánime</a>
+                <a href="/temperatura/frio-melancolico" class="nav-mobile-sublink">Melancólico</a>
+                <a href="/temperatura/frio-perturbador" class="nav-mobile-sublink">Perturbador</a>
+                <a href="/temperatura/frio-alienado" class="nav-mobile-sublink">Alienante</a>
+              </div>
+            </div>
+            <div class="nav-mobile-subgroup">
+              <p class="nav-mobile-subgroup__label">Abstracción</p>
+              <div class="nav-mobile-subgroup__links">
+                <a href="/abstraccion/extremadamente-realista" class="nav-mobile-sublink">Documental</a>
+                <a href="/abstraccion/realista-con-estilizacion" class="nav-mobile-sublink">Realista</a>
+                <a href="/abstraccion/estilizado" class="nav-mobile-sublink">Estilizado</a>
+                <a href="/abstraccion/muy-estilizado" class="nav-mobile-sublink">Expresionista</a>
+                <a href="/abstraccion/extremadamente-abstracto" class="nav-mobile-sublink">Surrealista</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Décadas accordion -->
+        <button class="nav-mobile-accordion-btn" data-accordion="decades" aria-expanded="false">
+          Décadas
+          <span class="nav-mobile-accordion-btn__chevron">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </button>
+        <div class="nav-mobile-accordion-content" id="accordion-decades">
+          <div class="nav-mobile-accordion-content__inner">
+            <div class="nav-mobile-decades-grid">
+              <a href="/decades/1920s">1920s</a>
+              <a href="/decades/1930s">1930s</a>
+              <a href="/decades/1940s">1940s</a>
+              <a href="/decades/1950s">1950s</a>
+              <a href="/decades/1960s">1960s</a>
+              <a href="/decades/1970s">1970s</a>
+              <a href="/decades/1980s">1980s</a>
+              <a href="/decades/1990s">1990s</a>
+              <a href="/decades/2000s">2000s</a>
+              <a href="/decades/2010s">2010s</a>
+              <a href="/decades/2020s">2020s</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="/countries" class="nav-mobile-item">Países</a>
+        <a href="/festivals" class="nav-mobile-item">Festivales</a>
+        <a href="/people" class="nav-mobile-item">Cineastas</a>
+        <a href="/submit" class="nav-mobile-item">Enviar</a>
+
+        <!-- Auth -->
+        <div class="nav-mobile-auth">
+          {user ? (
+            <div style="display:flex; align-items:center; gap:1rem;">
+              <a href={`/u/${user.id}`} style="display:flex; align-items:center; gap:0.75rem; text-decoration:none; color:var(--text-secondary); font-size:0.95rem;">
+                {user.user_metadata?.avatar_url
+                  ? <img src={user.user_metadata.avatar_url} alt="" style="width:36px;height:36px;border-radius:50%;object-fit:cover;" referrerpolicy="no-referrer" />
+                  : <span style="width:36px;height:36px;border-radius:50%;background:var(--surface-card);border:1px solid var(--surface-border);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:600;">{(user.user_metadata?.full_name ?? user.email ?? '?')[0].toUpperCase()}</span>
+                }
+                <span>{user.user_metadata?.full_name ?? user.email}</span>
+              </a>
+              <form action="/auth/signout" method="POST" style="margin-left:auto">
+                <button type="submit" style="background:none;border:1px solid var(--surface-border);border-radius:4px;color:var(--text-muted);font-size:0.8rem;padding:0.5rem 0.875rem;cursor:pointer;">Cerrar sesión</button>
+              </form>
+            </div>
+          ) : (
+            <button class="nav-signin" style="width:100%;padding:0.875rem;font-size:0.9375rem;" onclick="window.closeNavMenu?.(); window.showAuthModal?.()">Iniciar sesión</button>
+          )}
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ─── Bottom nav bar (mobile only) ─────────────────────────────────── -->
+    <nav class="nav-bottom-bar" aria-label="Navegación principal">
+      <div class="nav-bottom-bar__inner">
+        <a href="/rankings/films" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🎬</span>
+          <span>Películas</span>
+        </a>
+        <a href="/colors" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🎨</span>
+          <span>Colores</span>
+        </a>
+        <a href="/countries" class="nav-bottom-bar__item">
+          <span class="nav-bottom-bar__icon">🌍</span>
+          <span>Países</span>
+        </a>
+        {user
+          ? <a href={`/u/${user.id}`} class="nav-bottom-bar__item"><span class="nav-bottom-bar__icon">👤</span><span>Cuenta</span></a>
+          : <button class="nav-bottom-bar__item" style="background:none;border:none;cursor:pointer;" onclick="window.showAuthModal?.()"><span class="nav-bottom-bar__icon">👤</span><span>Cuenta</span></button>
+        }
+      </div>
+    </nav>
     {!user && <AuthModal />}
 
     <!-- Page content -->
@@ -224,6 +514,63 @@ const user = Astro.locals.user;
       }
       initDropdown('nav-explorar');
       initDropdown('nav-decades');
+
+      // ── Mobile menu ──────────────────────────────────────────────────────
+      const hamburger = document.getElementById('nav-hamburger');
+      const overlay   = document.getElementById('nav-mobile-overlay');
+
+      function openNavMenu() {
+        hamburger?.classList.add('is-open');
+        overlay?.classList.add('is-open');
+        hamburger?.setAttribute('aria-expanded', 'true');
+        overlay?.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeNavMenu() {
+        hamburger?.classList.remove('is-open');
+        overlay?.classList.remove('is-open');
+        hamburger?.setAttribute('aria-expanded', 'false');
+        overlay?.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      // Expose for inline onclick in auth buttons
+      (window as any).closeNavMenu = closeNavMenu;
+
+      hamburger?.addEventListener('click', () => {
+        const isOpen = hamburger.classList.contains('is-open');
+        isOpen ? closeNavMenu() : openNavMenu();
+      });
+
+      // Close on tap outside overlay content
+      overlay?.addEventListener('click', (e) => {
+        if (e.target === overlay) closeNavMenu();
+      });
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeNavMenu();
+      });
+
+      // Accordion items
+      document.querySelectorAll<HTMLButtonElement>('.nav-mobile-accordion-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.accordion;
+          const panel = document.getElementById(`accordion-${key}`);
+          const isOpen = btn.classList.contains('is-open');
+          // Close all others
+          document.querySelectorAll('.nav-mobile-accordion-btn').forEach((b) => b.classList.remove('is-open'));
+          document.querySelectorAll('.nav-mobile-accordion-content').forEach((p) => p.classList.remove('is-open'));
+          if (!isOpen) {
+            btn.classList.add('is-open');
+            panel?.classList.add('is-open');
+            btn.setAttribute('aria-expanded', 'true');
+          } else {
+            btn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
 
       // Scroll reveal: activate .reveal elements via IntersectionObserver
       if (typeof IntersectionObserver !== 'undefined') {

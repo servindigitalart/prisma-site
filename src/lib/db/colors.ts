@@ -236,6 +236,18 @@ const EMBEDDED_DOCTRINE: ColorDoctrine = {
       cinematographic_notes:
         "Cold metallic grays of machines, robots, and spacecraft — technology as overwhelming physical presence",
     },
+    {
+      id: "rosa_pastel" as PrismaColorId,
+      hex: "#F4A7B9",
+      name: "Rosa Pastel",
+      moods: ["tenderness", "nostalgia", "femininity", "innocence", "melancholy"],
+      genre_associations: ["arthouse", "romance", "coming_of_age"],
+      cinematographer_signatures: ["Claire Mathon"],
+      reference_examples: ["Portrait of a Lady on Fire", "The Handmaiden"],
+      cultural_context: "Soft, muted, desaturated pink — memory, tenderness, quiet femininity in arthouse cinema.",
+      cinematographic_notes:
+        "Delicate, desaturated pinks evoking emotional intimacy, feminine interiority, and the tender weight of memory",
+    },
     // Monochromatic modes (editorial, not chromatic)
     {
       id: "claroscuro_dramatico" as PrismaColorId,

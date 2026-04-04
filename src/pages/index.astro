@@ -903,6 +903,53 @@ const homepageJsonLd = {
   transition: color 160ms ease;
 }
 .home-manifesto__link:hover { color: var(--text-secondary); }
+
+/* ─── Mobile overrides ───────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Hero strips: make them a bit taller, show 8 to save space */
+  .prism-strips { height: calc(18 * 44px); }
+  .prism-strip  { height: 44px; }
+
+  /* Poster overlay: always visible on mobile (no hover) */
+  .home-film-pcard__overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Manifesto: centered on mobile */
+  .home-manifesto__inner {
+    text-align: center;
+    max-width: none;
+  }
+  .home-manifesto__body p { font-size: 1rem; line-height: 1.7; }
+
+  /* Color swatches: 2 columns, no count shown */
+  .home-discover__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2);
+  }
+
+  /* Section padding tighter on mobile */
+  .home-films,
+  .home-discover,
+  .home-colors,
+  .home-manifesto {
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-10);
+  }
+
+  .home-films__heading,
+  .home-discover__heading,
+  .home-colors__heading,
+  .home-manifesto__heading {
+    font-size: clamp(1.4rem, 5vw, 1.75rem);
+  }
+
+  /* Color blocks: single column */
+  .home-colors__grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 <script is:inline>
