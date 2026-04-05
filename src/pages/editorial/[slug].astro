@@ -10,28 +10,68 @@ if (!slug) return Astro.redirect('/editorial');
 let article = await getArticleBySlug(slug);
 if (!article) return Astro.redirect('/editorial');
 
-// ── Fetch film poster from works table ──────────────────────────────────────
-// works.tmdb_poster_path is a relative TMDB path, e.g. "/nUb3z5...jpg"
-// article.film_slug == the work's slug (used to identify the row)
+// ── Fetch film poster — multi-strategy fallback ─────────────────────────────
+// Strategy 1: works.slug = article.film_slug
+// Strategy 2: works.title ilike article.film_slug (slug-as-title fallback)
+// Strategy 3: films.slug = article.film_slug
 const TMDB_IMG = 'https://image.tmdb.org/t/p/w500';
+const TMDB_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
 let filmPosterUrl: string | null = null;
+let filmBackdropUrl: string | null = null;
 let filmConfirmed = false;
 if (article.film_slug) {
   try {
     const { createServiceClient } = await import('../../lib/db/client');
     const supabase = createServiceClient();
-    // Cast via `any` — generated types are stale and don't include all columns
-    const { data } = await (supabase as any)
+    const db = supabase as any;
+
+    // Strategy 1 — works table, exact slug match
+    let row: any = null;
+    const s1 = await db
       .from('works')
-      .select('id, tmdb_poster_path')
-      .eq('id', `work_${article.film_slug}`)
+      .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path')
+      .eq('slug', article.film_slug)
       .maybeSingle();
-    if (data?.tmdb_poster_path) {
-      filmPosterUrl = `${TMDB_IMG}${data.tmdb_poster_path}`;
+    if (s1.data) {
+      row = s1.data;
+    }
+
+    // Strategy 2 — works table, title ilike slug (handles "mulholland-drive" → "Mulholland Drive")
+    if (!row) {
+      const titleGuess = article.film_slug.replace(/-/g, ' ');
+      const s2 = await db
+        .from('works')
+        .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path')
+        .ilike('title', titleGuess)
+        .limit(1)
+        .maybeSingle();
+      if (s2.data) row = s2.data;
+    }
+
+    // Strategy 3 — films table (legacy / alternate schema)
+    if (!row) {
+      const s3 = await db
+        .from('films')
+        .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path, cover_image')
+        .eq('slug', article.film_slug)
+        .maybeSingle();
+      if (s3.data) row = s3.data;
+    }
+
+    if (row) {
       filmConfirmed = true;
-    } else if (data) {
-      // Row found but no poster
-      filmConfirmed = true;
+      if (row.tmdb_poster_path) {
+        filmPosterUrl = `${TMDB_IMG}${row.tmdb_poster_path}`;
+      }
+      if (row.tmdb_backdrop_path) {
+        filmBackdropUrl = `${TMDB_BACKDROP}${row.tmdb_backdrop_path}`;
+      }
+      // Inject backdrop as cover_image fallback when the article has none
+      if (!article.cover_image && filmBackdropUrl) {
+        article = { ...article, cover_image: filmBackdropUrl };
+      } else if (!article.cover_image && row.cover_image) {
+        article = { ...article, cover_image: row.cover_image };
+      }
     }
   } catch {
     // Continue without poster — non-fatal
@@ -364,7 +404,7 @@ function formatDate(iso: string): string {
   font-family: var(--font-serif, 'DM Serif Display', serif);
   font-size: 1.75rem;
   font-weight: 400;
-  color: var(--text-primary, #F0EEE8);
+  color: var(--text-primary, #F0EEE8) !important;
   margin: 2.5rem 0 1rem;
   line-height: 1.2;
 }
@@ -372,7 +412,7 @@ function formatDate(iso: string): string {
   font-family: var(--font-serif, 'DM Serif Display', serif);
   font-size: 1.35rem;
   font-weight: 400;
-  color: var(--text-primary, #F0EEE8);
+  color: var(--text-primary, #F0EEE8) !important;
   margin: 2rem 0 0.75rem;
 }
 .art-body :global(p) { margin-bottom: 1.25rem; }
