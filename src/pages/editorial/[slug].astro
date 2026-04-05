@@ -10,71 +10,71 @@ if (!slug) return Astro.redirect('/editorial');
 let article = await getArticleBySlug(slug);
 if (!article) return Astro.redirect('/editorial');
 
-// ── Fetch film poster — multi-strategy fallback ─────────────────────────────
-// Strategy 1: works.slug = article.film_slug
-// Strategy 2: works.title ilike article.film_slug (slug-as-title fallback)
-// Strategy 3: films.slug = article.film_slug
-const TMDB_IMG = 'https://image.tmdb.org/t/p/w500';
-const TMDB_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
+// ── Fetch film data from works table ────────────────────────────────────────
+// works PK format: "work_{slug}" — e.g. "work_mulholland-drive"
+// URL pattern: /films/{slug}       — e.g. /films/mulholland-drive
+// Poster: works.tmdb_poster_path   — relative TMDB path e.g. "/nUb3z5...jpg"
+const TMDB_W500  = 'https://image.tmdb.org/t/p/w500';
+const TMDB_W1280 = 'https://image.tmdb.org/t/p/w1280';
+
 let filmPosterUrl: string | null = null;
-let filmBackdropUrl: string | null = null;
+let filmPageSlug:  string | null = null;   // slug for /films/{slug} link
 let filmConfirmed = false;
-if (article.film_slug) {
+
+if (article.film_slug || article.film_title) {
   try {
     const { createServiceClient } = await import('../../lib/db/client');
-    const supabase = createServiceClient();
-    const db = supabase as any;
-
-    // Strategy 1 — works table, exact slug match
+    const db = createServiceClient() as any;
     let row: any = null;
-    const s1 = await db
-      .from('works')
-      .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path')
-      .eq('slug', article.film_slug)
-      .maybeSingle();
-    if (s1.data) {
-      row = s1.data;
+
+    // Strategy 1 — exact PK lookup: id = "work_{film_slug}"
+    if (article.film_slug) {
+      const { data } = await db
+        .from('works')
+        .select('id, title, tmdb_poster_path')
+        .eq('id', `work_${article.film_slug}`)
+        .maybeSingle();
+      if (data) row = data;
     }
 
-    // Strategy 2 — works table, title ilike slug (handles "mulholland-drive" → "Mulholland Drive")
-    if (!row) {
-      const titleGuess = article.film_slug.replace(/-/g, ' ');
-      const s2 = await db
+    // Strategy 2 — title exact match (case-sensitive)
+    if (!row && article.film_title) {
+      const { data } = await db
         .from('works')
-        .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path')
-        .ilike('title', titleGuess)
+        .select('id, title, tmdb_poster_path')
+        .eq('title', article.film_title)
+        .maybeSingle();
+      if (data) row = data;
+    }
+
+    // Strategy 3 — title ilike match (case-insensitive)
+    if (!row && article.film_title) {
+      const { data } = await db
+        .from('works')
+        .select('id, title, tmdb_poster_path')
+        .ilike('title', article.film_title)
         .limit(1)
         .maybeSingle();
-      if (s2.data) row = s2.data;
-    }
-
-    // Strategy 3 — films table (legacy / alternate schema)
-    if (!row) {
-      const s3 = await db
-        .from('films')
-        .select('id, slug, title, tmdb_poster_path, tmdb_backdrop_path, cover_image')
-        .eq('slug', article.film_slug)
-        .maybeSingle();
-      if (s3.data) row = s3.data;
+      if (data) row = data;
     }
 
     if (row) {
       filmConfirmed = true;
+      // Derive slug from id: "work_mulholland-drive" → "mulholland-drive"
+      filmPageSlug = row.id?.replace(/^work_/, '') ?? article.film_slug ?? null;
+
       if (row.tmdb_poster_path) {
-        filmPosterUrl = `${TMDB_IMG}${row.tmdb_poster_path}`;
-      }
-      if (row.tmdb_backdrop_path) {
-        filmBackdropUrl = `${TMDB_BACKDROP}${row.tmdb_backdrop_path}`;
-      }
-      // Inject backdrop as cover_image fallback when the article has none
-      if (!article.cover_image && filmBackdropUrl) {
-        article = { ...article, cover_image: filmBackdropUrl };
-      } else if (!article.cover_image && row.cover_image) {
-        article = { ...article, cover_image: row.cover_image };
+        const p = row.tmdb_poster_path as string;
+        filmPosterUrl = p.startsWith('http') ? p : `${TMDB_W500}${p}`;
+        // Use poster (larger size) as hero if article has no cover
+        if (!article.cover_image) {
+          const heroUrl = p.startsWith('http') ? p : `${TMDB_W1280}${p}`;
+          article = { ...article, cover_image: heroUrl };
+        }
       }
     }
-  } catch {
-    // Continue without poster — non-fatal
+  } catch (e) {
+    console.error('[editorial] film lookup error:', e);
   }
 }
 
@@ -197,8 +197,8 @@ function formatDate(iso: string): string {
               {article.film_year && <p>{article.film_year}</p>}
               {article.director   && <p>Dir. {article.director}</p>}
             </div>
-            {filmConfirmed && article.film_slug && (
-              <a href={`/films/${article.film_slug}`} class="sidebar-film__link">
+            {filmConfirmed && filmPageSlug && (
+              <a href={`/films/${filmPageSlug}`} class="sidebar-film__link">
                 Ver en PRISMA →
               </a>
             )}
