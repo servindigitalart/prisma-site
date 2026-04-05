@@ -142,8 +142,17 @@ function formatDate(iso: string): string {
         </div>
       ) : (
         <div class="ed-empty">
-          <p class="ed-empty__title">Próximamente</p>
-          <p>El primer artículo editorial de PRISMA está en camino.</p>
+          {!featured ? (
+            <>
+              <p class="ed-empty__title">El primer artículo está en camino</p>
+              <p>Vuelve pronto — PRISMA Editorial publica cada semana.</p>
+            </>
+          ) : (
+            <>
+              <p class="ed-empty__title">No hay más artículos en esta categoría</p>
+              <p>Explora las demás categorías o vuelve al <a href="/editorial">inicio editorial</a>.</p>
+            </>
+          )}
         </div>
       )}
 
