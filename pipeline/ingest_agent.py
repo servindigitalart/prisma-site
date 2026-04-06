@@ -152,18 +152,23 @@ def mark_failed(tmdb_id: int, error: str) -> None:
 
 
 def auto_deduplicate() -> int:
-    """Remove from pending any TMDB IDs already in Supabase. Returns count removed."""
-    if not (os.getenv("SUPABASE_URL") or os.getenv("PUBLIC_SUPABASE_URL")) or not os.getenv("SUPABASE_SERVICE_KEY"):
-        return 0
-    try:
-        db = get_db()
-        res = db.from_("works").select("tmdb_id").not_.is_("tmdb_id", "null").execute()
-        db_ids = {r["tmdb_id"] for r in (res.data or []) if r.get("tmdb_id")}
-    except Exception:
+    """
+    Remove from pending any TMDB IDs already recorded in completed.json.
+
+    Previously this checked Supabase directly, which caused 189+ films to be
+    silently dropped from the queue even though they had been migrated locally
+    but never tracked in completed.json.  The authoritative source of truth for
+    "has this film been ingested through the pipeline?" is completed.json, NOT
+    the raw Supabase state.  Use sync_queue_from_db.py to bring completed.json
+    in sync with Supabase first, then rely on this check going forward.
+    """
+    completed = load_queue(COMPLETED_FILE)
+    completed_ids = {c["tmdb_id"] for c in completed if c.get("tmdb_id") is not None}
+    if not completed_ids:
         return 0
     pending = load_queue(PENDING_FILE)
     before  = len(pending)
-    pending = [item for item in pending if item.get("tmdb_id") not in db_ids]
+    pending = [item for item in pending if item.get("tmdb_id") not in completed_ids]
     if before != len(pending):
         save_queue(PENDING_FILE, pending)
     return before - len(pending)

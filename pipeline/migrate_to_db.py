@@ -84,25 +84,31 @@ def _resolve_person_by_tmdb(client: Client, row: dict[str, Any]) -> str:
     """
     SURGICAL FIX #1: Resolve person by tmdb_id to avoid UNIQUE constraint violations.
     Returns canonical person_id from database.
+
+    Critical: when updating an existing person, never include the 'id' field in the
+    UPDATE payload — doing so triggers FK constraint violations on work_people because
+    Postgres sees it as a PK change attempt even when the value is the same.
     """
     tmdb_id = row.get("tmdb_id")
     person_id = row["id"]
-    
+
     if tmdb_id is not None:
         # Query by tmdb_id (canonical key)
         existing = client.table("people").select("id").eq("tmdb_id", tmdb_id).execute()
-        
+
         if existing.data and len(existing.data) > 0:
-            # Person exists - update and return existing person_id
+            # Person exists — update mutable fields only (never the PK)
             person_id = existing.data[0]["id"]
-            client.table("people").update(row).eq("id", person_id).execute()
+            update_payload = {k: v for k, v in row.items() if k != "id"}
+            if update_payload:
+                client.table("people").update(update_payload).eq("id", person_id).execute()
         else:
-            # New person - insert
+            # New person — insert the full row
             client.table("people").insert(row).execute()
     else:
-        # No tmdb_id - upsert by slug
+        # No tmdb_id — upsert by slug (PK); safe since no FK ambiguity
         client.table("people").upsert(row).execute()
-    
+
     return person_id
 
 def _validate_color_id(color_id: str, work_id: str) -> None:
