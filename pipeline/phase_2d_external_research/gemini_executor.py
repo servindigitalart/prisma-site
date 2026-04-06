@@ -79,7 +79,7 @@ def parse_gemini_response(response_text: str) -> Optional[Dict[str, Any]]:
 def execute_external_research(
     research_request: Dict[str, Any],
     gemini_api_key: Optional[str] = None,
-    model: str = "gemini-1.5-pro",
+    model: str = "gemini-2.0-flash",
     timeout: int = 60
 ) -> Dict[str, Any]:
     """

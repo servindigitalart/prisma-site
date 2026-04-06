@@ -2,36 +2,40 @@ name: PRISMA — Nightly Ingest
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # 08:00 Mexico City (UTC-6)
-    - cron: '0 20 * * *'   # 14:00 Mexico City
-    - cron: '0 2  * * *'   # 20:00 Mexico City
+    - cron: '0 */2 * * *'   # Every 2 hours = 12 runs/day
   workflow_dispatch:
     inputs:
-      batch_size:
-        description: 'Number of films to ingest'
-        default: '75'
+      batch:
+        description: 'Films per worker'
         required: false
+        default: '50'
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 100
+    timeout-minutes: 90
     permissions:
       contents: write
+    strategy:
+      matrix:
+        worker: [1, 2, 3]   # 3 parallel workers
+      fail-fast: false       # don't cancel other workers if one fails
+
     env:
-      TMDB_API_KEY:         ${{ secrets.TMDB_API_KEY }}
-      TMDB_ACCESS_TOKEN:    ${{ secrets.TMDB_ACCESS_TOKEN }}
-      GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
-      PUBLIC_SUPABASE_URL:  ${{ secrets.PUBLIC_SUPABASE_URL }}
-      SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PUBLIC_SUPABASE_URL: ${{ secrets.PUBLIC_SUPABASE_URL }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-      GITHUB_TOKEN:         ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      WORKER_ID: ${{ matrix.worker }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -40,27 +44,44 @@ jobs:
       - name: Install dependencies
         run: pip install -r pipeline/requirements.txt
 
-      - name: Populate queue from source lists
+      - name: Regenerate priority list (worker 1 only)
+        if: matrix.worker == 1
+        run: |
+          python pipeline/sources/ingest_priority.py \
+            --limit 500 \
+            --output pipeline/sources/most_awarded_not_in_catalog.txt \
+            2>&1 | tail -5
+
+      - name: Populate queue from source lists (worker 1 only)
+        if: matrix.worker == 1
         run: |
           python pipeline/queue_manager.py --add-list pipeline/sources/sight_and_sound_2022.txt --source sight_and_sound_2022
-          python pipeline/queue_manager.py --add-list pipeline/sources/berlin_golden_bear.txt   --source berlin_golden_bear
-          python pipeline/queue_manager.py --add-list pipeline/sources/venice_golden_lion.txt   --source venice_golden_lion
+          python pipeline/queue_manager.py --add-list pipeline/sources/berlin_golden_bear.txt --source berlin_golden_bear
+          python pipeline/queue_manager.py --add-list pipeline/sources/venice_golden_lion.txt --source venice_golden_lion
           python pipeline/queue_manager.py --add-list pipeline/sources/palme_dor_historical.txt --source palme_dor
-          python pipeline/queue_manager.py --add-list pipeline/sources/oscar_international.txt  --source oscar_international
+          python pipeline/queue_manager.py --add-list pipeline/sources/oscar_international.txt --source oscar_international
+          python pipeline/queue_manager.py --add-list pipeline/sources/most_awarded_not_in_catalog.txt --source most_awarded
+          python pipeline/ingest_agent.py --status
 
-      - name: Show queue status
-        run: python pipeline/ingest_agent.py --status
+      - name: Wait for queue population (workers 2 and 3)
+        if: matrix.worker != 1
+        run: sleep 120
 
       - name: Run ingestion batch
         run: |
-          BATCH=${{ github.event.inputs.batch_size || '75' }}
-          python pipeline/ingest_agent.py --batch "$BATCH" --execute
+          BATCH=${{ github.event.inputs.batch || '50' }}
+          python pipeline/ingest_agent.py \
+            --batch "$BATCH" \
+            --worker "$WORKER_ID" \
+            --execute
+        continue-on-error: true
 
       - name: Commit queue updates
         if: always()
         run: |
-          git config user.name  "PRISMA Bot"
+          git config user.name "PRISMA Bot"
           git config user.email "bot@prisma.film"
+          git pull --rebase origin main || true
           git add pipeline/queue/
-          git diff --staged --quiet || git commit -m "chore(queue): batch ingest $(date +%Y-%m-%d)"
-          git push
+          git diff --staged --quiet || git commit -m "chore(queue): worker-${{ matrix.worker }} ingest $(date +%Y-%m-%d)"
+          git push || true

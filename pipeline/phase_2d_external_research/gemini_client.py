@@ -32,7 +32,7 @@ except ImportError:
     GEMINI_AVAILABLE = False
 
 
-DEFAULT_MODEL = "gemini-1.5-flash"
+DEFAULT_MODEL = "gemini-2.0-flash"
 DEFAULT_TIMEOUT = 60
 MAX_RETRIES = 3
 RETRY_BACKOFF_BASE = 2

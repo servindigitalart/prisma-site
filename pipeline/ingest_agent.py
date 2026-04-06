@@ -108,9 +108,17 @@ def save_queue(file: Path, data: list[dict]) -> None:
     file.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
 
-def take_batch(n: int) -> list[dict]:
-    """Return first N items from pending.json without removing them yet."""
+def take_batch(n: int, worker: int = 1) -> list[dict]:
+    """Return N items from pending.json for a specific worker.
+
+    Workers partition the queue by interleaving:
+      Worker 1 → indices 0, 3, 6, 9 …  (every 3rd starting at 0)
+      Worker 2 → indices 1, 4, 7, 10 … (every 3rd starting at 1)
+      Worker 3 → indices 2, 5, 8, 11 … (every 3rd starting at 2)
+    """
     pending = load_queue(PENDING_FILE)
+    worker_offset = max(worker - 1, 0)
+    pending = pending[worker_offset::3]
     return pending[:n]
 
 
@@ -802,6 +810,10 @@ def main() -> int:
     mode.add_argument("--execute", action="store_true",
                       help="Write files AND migrate to Supabase.")
 
+    parser.add_argument("--worker", type=int, default=1,
+                        help="Worker ID (1, 2, or 3) for parallel processing. "
+                             "Each worker processes every 3rd film starting at its offset.")
+
     args = parser.parse_args()
 
     if args.status:
@@ -834,7 +846,7 @@ def main() -> int:
             removed = auto_deduplicate()
             if removed:
                 print(f"  ↷ Auto-dedup: removed {removed} films already in Supabase from queue\n")
-        items = take_batch(args.batch)
+        items = take_batch(args.batch, worker=args.worker)
         use_queue = True
         if not items:
             print("\n  Queue is empty. Add films with: python pipeline/queue_manager.py --add-list FILE\n")
@@ -846,6 +858,7 @@ def main() -> int:
     print(f"  ══════════════════════════════════════════════")
     print(f"  Films:  {len(items)}")
     print(f"  Mode:   {mode_str}")
+    print(f"  Worker: {args.worker}/3")
     print(f"  ══════════════════════════════════════════════\n")
 
     all_results: list[dict[str, Any]] = []
