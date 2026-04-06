@@ -3,6 +3,17 @@ pipeline/compute_rankings.py
 ──────────────────────────────
 Computes ranking scores for both works and people.
 
+ACCUMULATION PREVENTION:
+  Every run begins by DELETING all existing rows for the entity types
+  being computed (works → entity_type='work', people → entity_type='person').
+  Scores are then recalculated entirely from scratch using all current
+  work_awards and work_people data, then written fresh via upsert.
+
+  This guarantees:
+    - No stale scores survive across award-data expansions
+    - No partial-run ghosts (e.g. from a batch that added new award categories)
+    - Scores always reflect the full current state of the DB
+
 WORK SCORES (context='global'):
   Prestige driven by award wins/nominations weighted by festival tier.
   Secondary factors: IMDb rating, TMDB popularity, Criterion/MUBI presence.
@@ -25,7 +36,7 @@ PERSON SCORES (context=role):
       gender=0 → included in 'actor' leaderboard (unknown)
 
 Usage:
-  python3 pipeline/compute_rankings.py              # full run
+  python3 pipeline/compute_rankings.py              # full run (reset + recompute)
   python3 pipeline/compute_rankings.py --works-only
   python3 pipeline/compute_rankings.py --people-only
   python3 pipeline/compute_rankings.py --dry-run
@@ -62,6 +73,30 @@ def fetch_all(query, page_size: int = 1000) -> list:
             break
         offset += page_size
     return rows
+
+
+# ─── Reset helper ─────────────────────────────────────────────────────────────
+
+def reset_scores(db, entity_types: list[str], dry_run: bool) -> None:
+    """
+    DELETE all existing ranking_scores rows for the given entity_types
+    before recomputing. This is the core accumulation-prevention mechanism.
+
+    Without this, stale scores survive when:
+      - New award categories are added to work_awards (expanding the dataset)
+      - A film's awards are corrected/updated
+      - The scoring formula changes (weights, multipliers, caps)
+
+    Always called at the start of compute_work_scores and compute_person_scores.
+    """
+    for etype in entity_types:
+        if dry_run:
+            r = db.table("ranking_scores").select("entity_id", count="exact") \
+                  .eq("entity_type", etype).execute()
+            print(f"   [DRY RUN] Would delete {r.count} existing '{etype}' rows from ranking_scores")
+        else:
+            db.table("ranking_scores").delete().eq("entity_type", etype).execute()
+            print(f"   🗑  Deleted existing '{etype}' rows from ranking_scores")
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -136,6 +171,9 @@ def compute_work_scores(db, dry_run: bool) -> list[dict]:
           + mubi_bonus     × 0.05
     """
     print("📊 Computing work scores...")
+
+    # ── Step 0: Delete all existing work scores before recomputing ────────────
+    reset_scores(db, ["work"], dry_run)
 
     works_r = db.table("works").select(
         "id, title, tmdb_popularity, imdb_rating, criterion_title, mubi_title"
@@ -220,6 +258,9 @@ def compute_person_scores(db, dry_run: bool, top_n: int = 10) -> list[dict]:
     """
     print("👤 Computing person scores...")
 
+    # ── Step 0: Delete all existing person scores before recomputing ──────────
+    reset_scores(db, ["person"], dry_run)
+
     # ── Paginated fetches (tables exceed Supabase 1000-row default limit) ──
     wp_data = fetch_all(db.table("work_people").select("person_id, work_id, role"))
     print(f"   Loaded {len(wp_data):,} work_people rows")
@@ -229,7 +270,7 @@ def compute_person_scores(db, dry_run: bool, top_n: int = 10) -> list[dict]:
     for row in wp_data:
         person_works[row["person_id"]][row["role"]].append(row["work_id"])
 
-    # work_awards is small (664 rows) but paginate for safety
+    # Paginate work_awards — can be 3000+ rows with full award dataset
     awards_data = fetch_all(
         db.table("work_awards").select("work_id, award_id, result, awards(tier)")
     )
@@ -337,6 +378,12 @@ def main():
 
     db = create_client(os.environ["PUBLIC_SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"])
 
+    print("══════════════════════════════════════════════")
+    print("  PRISMA Rankings — full recompute from scratch")
+    if args.dry_run:
+        print("  MODE: DRY RUN (no DB writes)")
+    print("══════════════════════════════════════════════\n")
+
     if not args.people_only:
         compute_work_scores(db, args.dry_run)
         print()
@@ -345,7 +392,9 @@ def main():
         compute_person_scores(db, args.dry_run, top_n=args.top)
         print()
 
-    print("✅ Rankings complete")
+    print("══════════════════════════════════════════════")
+    print("✅ Rankings complete — scores computed from scratch")
+    print("══════════════════════════════════════════════")
 
 
 if __name__ == "__main__":
