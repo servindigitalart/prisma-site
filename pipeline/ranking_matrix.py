@@ -104,8 +104,20 @@ AWARD_ROLE_WEIGHTS: dict[str, dict[str, float]] = {
     "silver-lion-director": {
         "director": 1.0,
     },
-    "silver-shell": {  # San Sebastián directing awards
+    "silver-bear-jury": {
+        "director": 0.7, "writer": 0.2,
+    },
+    "silver-bear-screenplay": {
+        "writer": 1.0,
+    },
+    "silver-shell-director": {
+        "director": 1.0,
+    },
+    "silver-shell": {  # San Sebastián — catches remaining silver-shell awards
         "director": 0.8,
+    },
+    "silver-leopard": {
+        "director": 0.8, "writer": 0.15,
     },
 
     # ── Cinematography ────────────────────────────────────────────────────────
@@ -165,7 +177,13 @@ AWARD_ROLE_WEIGHTS: dict[str, dict[str, float]] = {
     "best-film-editing": {
         "editor": 1.0,
     },
+    "best-editing": {
+        "editor": 1.0,
+    },
     "best-original-score": {
+        "composer": 1.0,
+    },
+    "best-score": {
         "composer": 1.0,
     },
     "best-sound": {
@@ -185,6 +203,9 @@ AWARD_ROLE_WEIGHTS: dict[str, dict[str, float]] = {
     "best-foreign-language": {
         "director": 0.8, "writer": 0.2,
     },
+    "ibero-american-film": {
+        "director": 0.8, "writer": 0.2,
+    },
 
     # ── FIPRESCI ──────────────────────────────────────────────────────────────
     "fipresci": {
@@ -200,14 +221,23 @@ AWARD_ROLE_WEIGHTS: dict[str, dict[str, float]] = {
     "audience": {
         "director": 0.4, "writer": 0.1,
     },
+    "un-certain-regard": {
+        "director": 0.5, "writer": 0.1,
+    },
     "world-cinema-drama": {
         "director": 0.8, "writer": 0.2,
     },
     "directing-drama": {
         "director": 1.0,
     },
+    "directing-documentary": {
+        "director": 1.0,
+    },
     "grand-jury-doc": {
         "director": 0.9, "writer": 0.2,
+    },
+    "golden-astor": {
+        "director": 0.8, "writer": 0.15,
     },
 
     # ── Tiger Award (Rotterdam) ───────────────────────────────────────────────

@@ -87,6 +87,24 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "festival": "festival_cannes",
         "tier": "A",
     },
+    "award_cannes-best-screenplay": {
+        "qid": "Q1412911",
+        "label": "Best Screenplay (Cannes)",
+        "festival": "festival_cannes",
+        "tier": "A",
+    },
+    "award_cannes-un-certain-regard": {
+        "qid": "Q2306255",
+        "label": "Un Certain Regard Prize",
+        "festival": "festival_cannes",
+        "tier": "B",
+    },
+    "award_cannes-fipresci": {
+        "qid": "Q1377697",
+        "label": "FIPRESCI Prize (Cannes)",
+        "festival": "festival_cannes",
+        "tier": "C",
+    },
     # ── Berlin ──────────────────────────────────────────────────────────────
     "award_berlin-golden-bear": {
         "qid": "Q181699",
@@ -117,6 +135,24 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "label": "Silver Bear Best Actor",
         "festival": "festival_berlin",
         "tier": "A",
+    },
+    "award_berlin-silver-bear-screenplay": {
+        "qid": "Q694585",
+        "label": "Silver Bear Best Screenplay",
+        "festival": "festival_berlin",
+        "tier": "A",
+    },
+    "award_berlin-jury-grand-prix": {
+        "qid": "Q15862511",
+        "label": "Berlin Jury Grand Prix",
+        "festival": "festival_berlin",
+        "tier": "A",
+    },
+    "award_berlin-fipresci": {
+        "qid": "Q1377702",
+        "label": "FIPRESCI Prize (Berlin)",
+        "festival": "festival_berlin",
+        "tier": "C",
     },
     # ── Venice ──────────────────────────────────────────────────────────────
     "award_venice-golden-lion": {
@@ -155,6 +191,12 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "festival": "festival_venice",
         "tier": "A",
     },
+    "award_venice-fipresci": {
+        "qid": "Q1377706",
+        "label": "FIPRESCI Prize (Venice)",
+        "festival": "festival_venice",
+        "tier": "C",
+    },
     # ── BAFTA ────────────────────────────────────────────────────────────────
     "award_bafta-best-film": {
         "qid": "Q637514",
@@ -177,6 +219,42 @@ AWARD_QUERY_MAP: dict[str, dict] = {
     "award_bafta-best-original-screenplay": {
         "qid": "Q1576340",
         "label": "BAFTA Best Original Screenplay",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-actress": {
+        "qid": "Q1135430",
+        "label": "BAFTA Best Actress",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-actor": {
+        "qid": "Q1135428",
+        "label": "BAFTA Best Actor",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-screenplay": {
+        "qid": "Q1135435",
+        "label": "BAFTA Best Screenplay",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-editing": {
+        "qid": "Q1135432",
+        "label": "BAFTA Best Editing",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-score": {
+        "qid": "Q1135436",
+        "label": "BAFTA Best Score",
+        "festival": "festival_bafta",
+        "tier": "A",
+    },
+    "award_bafta-best-intl-film": {
+        "qid": "Q3027434",
+        "label": "BAFTA Best International Film",
         "festival": "festival_bafta",
         "tier": "A",
     },
@@ -205,6 +283,30 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "festival": "festival_cesar",
         "tier": "B",
     },
+    "award_cesar-best-screenplay": {
+        "qid": "Q633836",
+        "label": "César Best Screenplay",
+        "festival": "festival_cesar",
+        "tier": "B",
+    },
+    "award_cesar-best-cinematography": {
+        "qid": "Q633837",
+        "label": "César Best Cinematography",
+        "festival": "festival_cesar",
+        "tier": "B",
+    },
+    "award_cesar-best-editing": {
+        "qid": "Q633838",
+        "label": "César Best Editing",
+        "festival": "festival_cesar",
+        "tier": "B",
+    },
+    "award_cesar-best-score": {
+        "qid": "Q633841",
+        "label": "César Best Score",
+        "festival": "festival_cesar",
+        "tier": "B",
+    },
     # ── Goya ─────────────────────────────────────────────────────────────────
     "award_goya-best-film": {
         "qid": "Q1467554",
@@ -215,6 +317,36 @@ AWARD_QUERY_MAP: dict[str, dict] = {
     "award_goya-best-director": {
         "qid": "Q1571511",
         "label": "Goya Best Director",
+        "festival": "festival_goya",
+        "tier": "B",
+    },
+    "award_goya-best-actress": {
+        "qid": "Q895819",
+        "label": "Goya Best Actress",
+        "festival": "festival_goya",
+        "tier": "B",
+    },
+    "award_goya-best-actor": {
+        "qid": "Q895818",
+        "label": "Goya Best Actor",
+        "festival": "festival_goya",
+        "tier": "B",
+    },
+    "award_goya-best-screenplay": {
+        "qid": "Q895824",
+        "label": "Goya Best Screenplay",
+        "festival": "festival_goya",
+        "tier": "B",
+    },
+    "award_goya-best-cinematography": {
+        "qid": "Q895823",
+        "label": "Goya Best Cinematography",
+        "festival": "festival_goya",
+        "tier": "B",
+    },
+    "award_goya-best-intl-film": {
+        "qid": "Q4892936",
+        "label": "Goya Best International Film",
         "festival": "festival_goya",
         "tier": "B",
     },
@@ -310,6 +442,24 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "festival": "festival_golden-globe",
         "tier": "B",
     },
+    "award_gg-best-actress-drama": {
+        "qid": "Q1053284",
+        "label": "Golden Globe Best Actress (Drama)",
+        "festival": "festival_golden-globe",
+        "tier": "B",
+    },
+    "award_gg-best-actor-drama": {
+        "qid": "Q1053282",
+        "label": "Golden Globe Best Actor (Drama)",
+        "festival": "festival_golden-globe",
+        "tier": "B",
+    },
+    "award_gg-best-screenplay": {
+        "qid": "Q1053292",
+        "label": "Golden Globe Best Screenplay",
+        "festival": "festival_golden-globe",
+        "tier": "B",
+    },
     # ── Sundance ─────────────────────────────────────────────────────────────
     "award_sundance-grand-jury-drama": {
         "qid": "Q1377733",
@@ -326,6 +476,24 @@ AWARD_QUERY_MAP: dict[str, dict] = {
     "award_sundance-directing-drama": {
         "qid": "Q3439490",
         "label": "Sundance Directing Award",
+        "festival": "festival_sundance",
+        "tier": "A",
+    },
+    "award_sundance-grand-jury-documentary": {
+        "qid": "Q7755039",
+        "label": "Sundance Grand Jury Prize (Documentary) — alt",
+        "festival": "festival_sundance",
+        "tier": "A",
+    },
+    "award_sundance-audience-drama": {
+        "qid": "Q15241820",
+        "label": "Sundance Audience Award (Drama)",
+        "festival": "festival_sundance",
+        "tier": "A",
+    },
+    "award_sundance-directing-documentary": {
+        "qid": "Q30587702",
+        "label": "Sundance Directing Award (Documentary)",
         "festival": "festival_sundance",
         "tier": "A",
     },
@@ -348,10 +516,59 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "festival": "festival_san-sebastian",
         "tier": "B",
     },
+    # Canonical san-sebastian- prefix aliases (same QIDs)
+    "award_san-sebastian-golden-shell": {
+        "qid": "Q598703",
+        "label": "Golden Shell (San Sebastián)",
+        "festival": "festival_san-sebastian",
+        "tier": "B",
+    },
+    "award_san-sebastian-silver-shell-director": {
+        "qid": "Q5765050",
+        "label": "Silver Shell Best Director (San Sebastián)",
+        "festival": "festival_san-sebastian",
+        "tier": "B",
+    },
+    "award_san-sebastian-silver-shell-actress": {
+        "qid": "Q5765051",
+        "label": "Silver Shell Best Actress (San Sebastián)",
+        "festival": "festival_san-sebastian",
+        "tier": "B",
+    },
+    "award_san-sebastian-silver-shell-actor": {
+        "qid": "Q5765052",
+        "label": "Silver Shell Best Actor (San Sebastián)",
+        "festival": "festival_san-sebastian",
+        "tier": "B",
+    },
+    "award_san-sebastian-jury-prize": {
+        "qid": "Q5765053",
+        "label": "Jury Prize (San Sebastián)",
+        "festival": "festival_san-sebastian",
+        "tier": "B",
+    },
     # ── Locarno ──────────────────────────────────────────────────────────────
     "award_locarno-golden-leopard": {
         "qid": "Q216366",
         "label": "Golden Leopard",
+        "festival": "festival_locarno",
+        "tier": "B",
+    },
+    "award_locarno-silver-leopard": {
+        "qid": "Q2346071",
+        "label": "Silver Leopard (Locarno)",
+        "festival": "festival_locarno",
+        "tier": "B",
+    },
+    "award_locarno-jury-prize": {
+        "qid": "Q2346070",
+        "label": "Jury Prize (Locarno)",
+        "festival": "festival_locarno",
+        "tier": "B",
+    },
+    "award_locarno-best-director": {
+        "qid": "Q2346069",
+        "label": "Best Director (Locarno)",
         "festival": "festival_locarno",
         "tier": "B",
     },
@@ -367,6 +584,69 @@ AWARD_QUERY_MAP: dict[str, dict] = {
         "label": "Ariel Best Director",
         "festival": "festival_ariel",
         "tier": "B",
+    },
+    "award_ariel-best-actress": {
+        "qid": "Q2887052",
+        "label": "Ariel Best Actress",
+        "festival": "festival_ariel",
+        "tier": "B",
+    },
+    "award_ariel-best-actor": {
+        "qid": "Q2887051",
+        "label": "Ariel Best Actor",
+        "festival": "festival_ariel",
+        "tier": "B",
+    },
+    "award_ariel-best-screenplay": {
+        "qid": "Q2887058",
+        "label": "Ariel Best Screenplay",
+        "festival": "festival_ariel",
+        "tier": "B",
+    },
+    "award_ariel-best-cinematography": {
+        "qid": "Q2887054",
+        "label": "Ariel Best Cinematography",
+        "festival": "festival_ariel",
+        "tier": "B",
+    },
+    # ── Mar del Plata ─────────────────────────────────────────────────────────
+    "award_mar-del-plata-golden-astor": {
+        "qid": "Q4114882",
+        "label": "Golden Astor (Mar del Plata)",
+        "festival": "festival_mar-del-plata",
+        "tier": "B",
+    },
+    "award_mar-del-plata-silver-astor": {
+        "qid": "Q4114883",
+        "label": "Silver Astor (Mar del Plata)",
+        "festival": "festival_mar-del-plata",
+        "tier": "B",
+    },
+    # ── Guadalajara FICG ──────────────────────────────────────────────────────
+    "award_ficg-ibero-american-film": {
+        "qid": "Q5428507",
+        "label": "FICG Best Ibero-American Film",
+        "festival": "festival_guadalajara",
+        "tier": "B",
+    },
+    "award_ficg-mexican-film": {
+        "qid": "Q17040890",
+        "label": "FICG Best Mexican Film",
+        "festival": "festival_guadalajara",
+        "tier": "B",
+    },
+    # ── Toronto (TIFF) ────────────────────────────────────────────────────────
+    "award_toronto-peoples-choice": {
+        "qid": "Q1377681",
+        "label": "TIFF People's Choice Award",
+        "festival": "festival_toronto",
+        "tier": "A",
+    },
+    "award_toronto-platform-prize": {
+        "qid": "Q30587700",
+        "label": "TIFF Platform Prize",
+        "festival": "festival_toronto",
+        "tier": "A",
     },
     # ── FIPRESCI ─────────────────────────────────────────────────────────────
     "award_fipresci-cannes": {
