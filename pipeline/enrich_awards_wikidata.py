@@ -902,38 +902,44 @@ def match_film(
     return works_index.match(film_label, year, film_qid=film_qid, imdb_id=imdb_id)
 
 
-# ─── DB upsert ────────────────────────────────────────────────────────────────
+# ─── DB insert ────────────────────────────────────────────────────────────────
 
-def upsert_award_rows(db, rows: list[dict], dry_run: bool) -> tuple[int, int]:
+def insert_rows(db, rows: list[dict]) -> int:
     """
-    Upsert rows into work_awards. Returns (inserted, skipped).
-    Each row must have: work_id, award_id, year, category, result.
+    Batch-insert rows into work_awards in groups of 50.
+    Assumes duplicate-guarding has already been done via existing_pairs.
+    Returns count of inserted rows.
     """
-    inserted = skipped = 0
-    for row in rows:
-        if dry_run:
-            print(f"    [DRY RUN] would insert: {row['work_id']} | {row['award_id']} | {row['result']} | {row.get('year')}")
-            inserted += 1
-            continue
+    if not rows:
+        return 0
+    inserted = 0
+    # Batch in groups of 50
+    for i in range(0, len(rows), 50):
+        batch = rows[i:i + 50]
         try:
-            # Check for existing row to avoid duplicates
-            existing = (
-                db.table("work_awards")
-                .select("id")
-                .eq("work_id", row["work_id"])
-                .eq("award_id", row["award_id"])
-                .eq("result", row["result"])
-                .execute()
-            )
-            if existing.data:
-                skipped += 1
-                continue
-            db.table("work_awards").insert(row).execute()
-            inserted += 1
-        except Exception as e:
-            print(f"    [DB] Error inserting {row}: {e}", file=sys.stderr)
-            skipped += 1
-    return inserted, skipped
+            db.table("work_awards").insert(batch).execute()
+            inserted += len(batch)
+        except Exception as exc:
+            # Batch failed — try one by one
+            for rec in batch:
+                try:
+                    db.table("work_awards").insert(rec).execute()
+                    inserted += 1
+                except Exception:
+                    pass
+    return inserted
+
+
+def fetch_existing_pairs(db, award_id: str) -> set[tuple]:
+    """
+    Return set of (work_id, award_id) tuples already in work_awards for this award.
+    Also prints first 3 result values as a sanity-check on DB format.
+    """
+    r = db.table("work_awards").select("work_id, award_id, result").eq("award_id", award_id).execute()
+    if r.data:
+        sample = [x["result"] for x in r.data[:3]]
+        print(f"   [DB check] existing result values (first 3): {sample}")
+    return {(x["work_id"], x["award_id"]) for x in r.data}
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -1015,9 +1021,15 @@ def main():
                     continue
             deduped.append(r)
 
+        # ── Fetch existing pairs from DB (guards against duplicates) ──
+        existing_pairs: set[tuple] = set()
+        if not args.dry_run:
+            existing_pairs = fetch_existing_pairs(db, award_id)
+
         # ── Match to works ──
         rows_to_insert = []
         unmatched = []
+        skipped = 0
         for r in deduped:
             work_id = match_film(
                 r["film_label"], r["year"], works_index,
@@ -1025,6 +1037,9 @@ def main():
                 imdb_id=r.get("imdb_id"),
             )
             if work_id:
+                if (work_id, award_id) in existing_pairs:
+                    skipped += 1
+                    continue
                 rows_to_insert.append({
                     "work_id": work_id,
                     "award_id": award_id,
@@ -1050,9 +1065,14 @@ def main():
             if len(unmatched) > 20:
                 print(f"      ... and {len(unmatched)-20} more")
 
-        # ── Upsert ──
-        if rows_to_insert:
-            inserted, skipped = upsert_award_rows(db, rows_to_insert, args.dry_run)
+        # ── Insert (batched, duplicates already filtered by existing_pairs) ──
+        if rows_to_insert or skipped:
+            if args.dry_run:
+                for row in rows_to_insert:
+                    print(f"    [DRY RUN] would insert: {row['work_id']} | {row['award_id']} | {row['result']} | {row.get('year')}")
+                inserted = len(rows_to_insert)
+            else:
+                inserted = insert_rows(db, rows_to_insert)
             total_inserted += inserted
             total_skipped += skipped
             print(f"   ✅ {inserted} inserted, {skipped} already existed, {len(unmatched)} unmatched\n")
