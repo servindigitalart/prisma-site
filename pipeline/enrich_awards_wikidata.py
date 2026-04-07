@@ -83,6 +83,12 @@ AWARD_QUERY_MAP = {
     "sundance-directing-drama":         {"qid": "Q3439490",  "festival": "sundance",     "tier": "C", "label": "Sundance Directing Award — Dramatic"},
     # ── Toronto (verified QIDs) ──────────────────────────────────────────────
     "toronto-peoples-choice":           {"qid": "Q39087364", "festival": "toronto",      "tier": "B", "label": "Toronto People's Choice Award"},
+    # ── Mar del Plata (verified QIDs) ────────────────────────────────────────
+    "mar-del-plata-golden-astor":       {"qid": "Q908557",   "festival": "mar-del-plata","tier": "C", "label": "Mar del Plata Golden Astor"},
+    # ── FICG — Festival Internacional de Cine de Guadalajara ─────────────────
+    "ficg-mayahuel-best-ibero":         {"qid": "Q16572427", "festival": "ficg",         "tier": "C", "label": "FICG Mayahuel Award — Best Ibero-American Film"},
+    # ── FICM — Festival Internacional de Cine de Morelia ─────────────────────
+    "ficm-best-mexican-film":           {"qid": "Q5962681",  "festival": "ficm",         "tier": "C", "label": "FICM Award for Best Mexican Film"},
 }
 
 SPARQL_TEMPLATE = """
@@ -238,7 +244,7 @@ def insert_rows(db, rows):
 def main():
     parser = argparse.ArgumentParser(description="Enrich work_awards from Wikidata")
     parser.add_argument("--festival", "-f", default=None,
-                        help="Festival to run: oscar, cannes, berlin, venice, bafta, sundance, toronto, golden-globe, cesar, goya, ariel, san-sebastian, locarno, ficg, ficm, mar-del-plata")
+                        help="Festival to run: oscar, cannes, berlin, venice, bafta, sundance, toronto, golden-globe, cesar, goya, ariel, san-sebastian, locarno, ficg, ficm, mar-del-plata (omit to run all)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
