@@ -24,18 +24,6 @@
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   },
   {
-    "tmdb_id": 5179,
-    "failed_at": "2026-04-07",
-    "source": "most_awarded",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
-  },
-  {
-    "tmdb_id": 15121,
-    "failed_at": "2026-04-07",
-    "source": "most_awarded",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
-  },
-  {
     "tmdb_id": 891,
     "failed_at": "2026-04-07",
     "source": "most_awarded",
@@ -72,19 +60,7 @@
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   },
   {
-    "tmdb_id": 5279,
-    "failed_at": "2026-04-07",
-    "source": "most_awarded",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
-  },
-  {
     "tmdb_id": 76203,
-    "failed_at": "2026-04-07",
-    "source": "most_awarded",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
-  },
-  {
-    "tmdb_id": 28577,
     "failed_at": "2026-04-07",
     "source": "most_awarded",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
@@ -108,12 +84,6 @@
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   },
   {
-    "tmdb_id": 11257,
-    "failed_at": "2026-04-07",
-    "source": "most_awarded",
-    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
-  },
-  {
     "tmdb_id": 1725,
     "failed_at": "2026-04-07",
     "source": "most_awarded",
@@ -121,6 +91,36 @@
   },
   {
     "tmdb_id": 76025,
+    "failed_at": "2026-04-07",
+    "source": "most_awarded",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 5179,
+    "failed_at": "2026-04-07",
+    "source": "most_awarded",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 15121,
+    "failed_at": "2026-04-07",
+    "source": "most_awarded",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 5279,
+    "failed_at": "2026-04-07",
+    "source": "most_awarded",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 28577,
+    "failed_at": "2026-04-07",
+    "source": "most_awarded",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 11257,
     "failed_at": "2026-04-07",
     "source": "most_awarded",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 883, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
