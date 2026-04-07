@@ -15,72 +15,74 @@ SPARQL_HEADERS = {
     "Accept": "application/sparql-results+json",
 }
 
+RATE_LIMIT_SLEEP = 1.2
+
 AWARD_QUERY_MAP = {
     # ── Oscar (verified QIDs, IDs match awards table) ────────────────────────
-    "oscar-best-picture":               {"qid": "Q102427",   "festival": "oscar"},
-    "oscar-best-director":              {"qid": "Q103360",   "festival": "oscar"},
-    "oscar-best-actress":               {"qid": "Q103618",   "festival": "oscar"},
-    "oscar-best-actor":                 {"qid": "Q103916",   "festival": "oscar"},
-    "oscar-best-intl-film":             {"qid": "Q105304",   "festival": "oscar"},
-    "oscar-best-original-screenplay":   {"qid": "Q41417",    "festival": "oscar"},
-    "oscar-best-adapted-screenplay":    {"qid": "Q107258",   "festival": "oscar"},
-    "oscar-best-cinematography":        {"qid": "Q131520",   "festival": "oscar"},
-    "oscar-best-supporting-actor":      {"qid": "Q106291",   "festival": "oscar"},
-    "oscar-best-supporting-actress":    {"qid": "Q106301",   "festival": "oscar"},
-    "oscar-best-original-score":        {"qid": "Q488651",   "festival": "oscar"},
-    "oscar-best-film-editing":          {"qid": "Q281939",   "festival": "oscar"},
+    "oscar-best-picture":               {"qid": "Q102427",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Picture"},
+    "oscar-best-director":              {"qid": "Q103360",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Director"},
+    "oscar-best-actress":               {"qid": "Q103618",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Actress"},
+    "oscar-best-actor":                 {"qid": "Q103916",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Actor"},
+    "oscar-best-intl-film":             {"qid": "Q105304",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best International Feature Film"},
+    "oscar-best-original-screenplay":   {"qid": "Q41417",    "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Original Screenplay"},
+    "oscar-best-adapted-screenplay":    {"qid": "Q107258",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Adapted Screenplay"},
+    "oscar-best-cinematography":        {"qid": "Q131520",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Cinematography"},
+    "oscar-best-supporting-actor":      {"qid": "Q106291",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Supporting Actor"},
+    "oscar-best-supporting-actress":    {"qid": "Q106301",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Supporting Actress"},
+    "oscar-best-original-score":        {"qid": "Q488651",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Original Score"},
+    "oscar-best-film-editing":          {"qid": "Q281939",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Film Editing"},
     # ── Cannes (verified QIDs) ───────────────────────────────────────────────
-    "cannes-palme-dor":                 {"qid": "Q179808",   "festival": "cannes"},
-    "cannes-grand-prix":                {"qid": "Q695106",   "festival": "cannes"},
-    "cannes-jury-prize":                {"qid": "Q164200",   "festival": "cannes"},
-    "cannes-best-director":             {"qid": "Q1136734",  "festival": "cannes"},
-    "cannes-best-actress":              {"qid": "Q1401748",  "festival": "cannes"},
-    "cannes-best-actor":                {"qid": "Q1400853",  "festival": "cannes"},
-    "cannes-camera-dor":                {"qid": "Q775091",   "festival": "cannes"},
-    "cannes-special-jury":              {"qid": "Q1361014",  "festival": "cannes"},
+    "cannes-palme-dor":                 {"qid": "Q179808",   "festival": "cannes",       "tier": "A", "label": "Palme d'Or"},
+    "cannes-grand-prix":                {"qid": "Q695106",   "festival": "cannes",       "tier": "A", "label": "Cannes Grand Prix"},
+    "cannes-jury-prize":                {"qid": "Q164200",   "festival": "cannes",       "tier": "B", "label": "Cannes Jury Prize"},
+    "cannes-best-director":             {"qid": "Q1136734",  "festival": "cannes",       "tier": "B", "label": "Cannes Best Director Prize"},
+    "cannes-best-actress":              {"qid": "Q1401748",  "festival": "cannes",       "tier": "B", "label": "Cannes Best Actress Prize"},
+    "cannes-best-actor":                {"qid": "Q1400853",  "festival": "cannes",       "tier": "B", "label": "Cannes Best Actor Prize"},
+    "cannes-camera-dor":                {"qid": "Q775091",   "festival": "cannes",       "tier": "B", "label": "Caméra d'Or"},
+    "cannes-special-jury":              {"qid": "Q1361014",  "festival": "cannes",       "tier": "B", "label": "Cannes Special Jury Prize"},
     # ── Berlin (verified QIDs) ───────────────────────────────────────────────
-    "berlin-golden-bear":               {"qid": "Q154590",   "festival": "berlin"},
-    "berlin-silver-bear-director":      {"qid": "Q706031",   "festival": "berlin"},
-    "berlin-silver-bear-actress":       {"qid": "Q376834",   "festival": "berlin"},
-    "berlin-silver-bear-actor":         {"qid": "Q819973",   "festival": "berlin"},
-    "berlin-silver-bear-jury":          {"qid": "Q632291",   "festival": "berlin"},
+    "berlin-golden-bear":               {"qid": "Q154590",   "festival": "berlin",       "tier": "A", "label": "Golden Bear"},
+    "berlin-silver-bear-director":      {"qid": "Q706031",   "festival": "berlin",       "tier": "B", "label": "Silver Bear for Best Director"},
+    "berlin-silver-bear-actress":       {"qid": "Q376834",   "festival": "berlin",       "tier": "B", "label": "Silver Bear for Best Actress"},
+    "berlin-silver-bear-actor":         {"qid": "Q819973",   "festival": "berlin",       "tier": "B", "label": "Silver Bear for Best Actor"},
+    "berlin-silver-bear-jury":          {"qid": "Q632291",   "festival": "berlin",       "tier": "B", "label": "Silver Bear — Jury Grand Prix"},
     # ── Venice (verified QIDs) ───────────────────────────────────────────────
-    "venice-golden-lion":               {"qid": "Q209459",   "festival": "venice"},
-    "venice-special-jury":              {"qid": "Q2996614",  "festival": "venice"},
-    "venice-volpi-cup-actress":         {"qid": "Q2089918",  "festival": "venice"},
-    "venice-volpi-cup-actor":           {"qid": "Q2089923",  "festival": "venice"},
+    "venice-golden-lion":               {"qid": "Q209459",   "festival": "venice",       "tier": "A", "label": "Golden Lion"},
+    "venice-special-jury":              {"qid": "Q2996614",  "festival": "venice",       "tier": "B", "label": "Venice Special Jury Prize"},
+    "venice-volpi-cup-actress":         {"qid": "Q2089918",  "festival": "venice",       "tier": "B", "label": "Volpi Cup for Best Actress"},
+    "venice-volpi-cup-actor":           {"qid": "Q2089923",  "festival": "venice",       "tier": "B", "label": "Volpi Cup for Best Actor"},
     # ── BAFTA (verified QIDs) ────────────────────────────────────────────────
-    "bafta-best-film":                  {"qid": "Q139184",   "festival": "bafta"},
-    "bafta-best-director":              {"qid": "Q787131",   "festival": "bafta"},
-    "bafta-best-cinematography":        {"qid": "Q1576399",  "festival": "bafta"},
-    "bafta-best-original-screenplay":   {"qid": "Q41375",    "festival": "bafta"},
+    "bafta-best-film":                  {"qid": "Q139184",   "festival": "bafta",        "tier": "A", "label": "BAFTA Award for Best Film"},
+    "bafta-best-director":              {"qid": "Q787131",   "festival": "bafta",        "tier": "A", "label": "BAFTA Award for Best Direction"},
+    "bafta-best-cinematography":        {"qid": "Q1576399",  "festival": "bafta",        "tier": "B", "label": "BAFTA Award for Best Cinematography"},
+    "bafta-best-original-screenplay":   {"qid": "Q41375",    "festival": "bafta",        "tier": "B", "label": "BAFTA Award for Best Original Screenplay"},
     # ── Golden Globe (verified QIDs, IDs match awards table gg- prefix) ──────
-    "gg-best-film-drama":               {"qid": "Q1011509",  "festival": "golden-globe"},
-    "gg-best-director":                 {"qid": "Q586356",   "festival": "golden-globe"},
-    "gg-best-intl-film":                {"qid": "Q387380",   "festival": "golden-globe"},
+    "gg-best-film-drama":               {"qid": "Q1011509",  "festival": "golden-globe", "tier": "A", "label": "Golden Globe for Best Motion Picture – Drama"},
+    "gg-best-director":                 {"qid": "Q586356",   "festival": "golden-globe", "tier": "A", "label": "Golden Globe for Best Director"},
+    "gg-best-intl-film":                {"qid": "Q387380",   "festival": "golden-globe", "tier": "B", "label": "Golden Globe for Best Non-English Language Film"},
     # ── César (verified QIDs) ────────────────────────────────────────────────
-    "cesar-best-film":                  {"qid": "Q645595",   "festival": "cesar"},
-    "cesar-best-director":              {"qid": "Q24137",    "festival": "cesar"},
-    "cesar-best-actress":               {"qid": "Q24241",    "festival": "cesar"},
-    "cesar-best-actor":                 {"qid": "Q900494",   "festival": "cesar"},
+    "cesar-best-film":                  {"qid": "Q645595",   "festival": "cesar",        "tier": "B", "label": "César Award for Best Film"},
+    "cesar-best-director":              {"qid": "Q24137",    "festival": "cesar",        "tier": "B", "label": "César Award for Best Director"},
+    "cesar-best-actress":               {"qid": "Q24241",    "festival": "cesar",        "tier": "B", "label": "César Award for Best Actress"},
+    "cesar-best-actor":                 {"qid": "Q900494",   "festival": "cesar",        "tier": "B", "label": "César Award for Best Actor"},
     # ── Goya (verified QIDs) ─────────────────────────────────────────────────
-    "goya-best-film":                   {"qid": "Q1467554",  "festival": "goya"},
-    "goya-best-director":               {"qid": "Q1540553",  "festival": "goya"},
+    "goya-best-film":                   {"qid": "Q1467554",  "festival": "goya",         "tier": "C", "label": "Goya Award for Best Film"},
+    "goya-best-director":               {"qid": "Q1540553",  "festival": "goya",         "tier": "C", "label": "Goya Award for Best Director"},
     # ── Ariel (verified QIDs) ────────────────────────────────────────────────
-    "ariel-best-film":                  {"qid": "Q2108656",  "festival": "ariel"},
-    "ariel-best-director":              {"qid": "Q2887050",  "festival": "ariel"},
+    "ariel-best-film":                  {"qid": "Q2108656",  "festival": "ariel",        "tier": "C", "label": "Ariel Award for Best Picture"},
+    "ariel-best-director":              {"qid": "Q2887050",  "festival": "ariel",        "tier": "C", "label": "Ariel Award for Best Director"},
     # ── San Sebastián (verified QIDs, IDs match awards table sansebastian-) ──
-    "sansebastian-golden-shell":        {"qid": "Q775086",   "festival": "san-sebastian"},
-    "sansebastian-silver-shell-actress":{"qid": "Q610152",   "festival": "san-sebastian"},
-    "sansebastian-silver-shell-actor":  {"qid": "Q610136",   "festival": "san-sebastian"},
+    "sansebastian-golden-shell":        {"qid": "Q775086",   "festival": "san-sebastian","tier": "B", "label": "San Sebastián Golden Shell"},
+    "sansebastian-silver-shell-actress":{"qid": "Q610152",   "festival": "san-sebastian","tier": "C", "label": "San Sebastián Silver Shell for Best Actress"},
+    "sansebastian-silver-shell-actor":  {"qid": "Q610136",   "festival": "san-sebastian","tier": "C", "label": "San Sebastián Silver Shell for Best Actor"},
     # ── Locarno (verified QIDs) ──────────────────────────────────────────────
-    "locarno-golden-leopard":           {"qid": "Q1700510",  "festival": "locarno"},
+    "locarno-golden-leopard":           {"qid": "Q1700510",  "festival": "locarno",      "tier": "B", "label": "Locarno Golden Leopard"},
     # ── Sundance (verified QIDs) ─────────────────────────────────────────────
-    "sundance-grand-jury-drama":        {"qid": "Q1377733",  "festival": "sundance"},
-    "sundance-grand-jury-doc":          {"qid": "Q1377734",  "festival": "sundance"},
-    "sundance-directing-drama":         {"qid": "Q3439490",  "festival": "sundance"},
+    "sundance-grand-jury-drama":        {"qid": "Q1377733",  "festival": "sundance",     "tier": "B", "label": "Sundance Grand Jury Prize — Dramatic"},
+    "sundance-grand-jury-doc":          {"qid": "Q1377734",  "festival": "sundance",     "tier": "B", "label": "Sundance Grand Jury Prize — Documentary"},
+    "sundance-directing-drama":         {"qid": "Q3439490",  "festival": "sundance",     "tier": "C", "label": "Sundance Directing Award — Dramatic"},
     # ── Toronto (verified QIDs) ──────────────────────────────────────────────
-    "toronto-peoples-choice":           {"qid": "Q39087364", "festival": "toronto"},
+    "toronto-peoples-choice":           {"qid": "Q39087364", "festival": "toronto",      "tier": "B", "label": "Toronto People's Choice Award"},
 }
 
 SPARQL_TEMPLATE = """
@@ -142,6 +144,47 @@ def sparql_query(qid):
             print(f"    error: {e}")
             return []
     return []
+
+
+def fetch_award_winners(award_qid: str) -> list[dict]:
+    """Return films that *won* award_qid.
+
+    Each dict has keys: film_qid, film_label, year, director, imdb_id, result.
+    film_qid / film_label / year / director may be None when Wikidata lacks data;
+    imdb_id is always present (rows without one are dropped).
+    result is always "win".
+    """
+    rows = sparql_query(award_qid)
+    return [
+        {
+            "film_qid":    None,
+            "film_label":  r["imdb"],   # best label we have without extra SPARQL
+            "year":        None,
+            "director":    None,
+            "imdb_id":     r["imdb"],
+            "result":      "win",
+        }
+        for r in rows if r["result"] == "win"
+    ]
+
+
+def fetch_award_nominees(award_qid: str) -> list[dict]:
+    """Return films *nominated* for award_qid (result == "nomination").
+
+    Same shape as fetch_award_winners, result is always "nomination".
+    """
+    rows = sparql_query(award_qid)
+    return [
+        {
+            "film_qid":    None,
+            "film_label":  r["imdb"],
+            "year":        None,
+            "director":    None,
+            "imdb_id":     r["imdb"],
+            "result":      "nomination",
+        }
+        for r in rows if r["result"] == "nomination"
+    ]
 
 
 def fetch_catalog(db):

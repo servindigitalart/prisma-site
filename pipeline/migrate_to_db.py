@@ -103,11 +103,28 @@ def _resolve_person_by_tmdb(client: Client, row: dict[str, Any]) -> str:
             if update_payload:
                 client.table("people").update(update_payload).eq("id", person_id).execute()
         else:
-            # New person — insert the full row
-            client.table("people").insert(row).execute()
+            # Potentially new person — but they may already exist under this slug
+            # without a tmdb_id (e.g. seeded manually).  Guard against PK conflict.
+            slug_check = client.table("people").select("id").eq("id", person_id).execute()
+            if slug_check.data and len(slug_check.data) > 0:
+                # Exists by slug only — attach the tmdb_id and update
+                update_payload = {k: v for k, v in row.items() if k != "id"}
+                if update_payload:
+                    client.table("people").update(update_payload).eq("id", person_id).execute()
+            else:
+                client.table("people").insert(row).execute()
     else:
-        # No tmdb_id — upsert by slug (PK); safe since no FK ambiguity
-        client.table("people").upsert(row).execute()
+        # No tmdb_id — match by slug (PK = id).  A plain upsert() without
+        # on_conflict= falls through to INSERT and crashes on duplicate PK,
+        # so we check first and branch explicitly.
+        existing = client.table("people").select("id").eq("id", person_id).execute()
+        if existing.data and len(existing.data) > 0:
+            # Already exists — update mutable fields only (never the PK)
+            update_payload = {k: v for k, v in row.items() if k != "id"}
+            if update_payload:
+                client.table("people").update(update_payload).eq("id", person_id).execute()
+        else:
+            client.table("people").insert(row).execute()
 
     return person_id
 
