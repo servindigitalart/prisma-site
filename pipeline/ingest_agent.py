@@ -63,6 +63,10 @@ RAW_DIR      = PIPELINE_DIR / "raw"
 WORKS_DIR    = PIPELINE_DIR / "normalized" / "works"
 DERIVED_DIR  = PIPELINE_DIR / "derived" / "color"
 
+# Make pipeline/ importable (queue_manager lives there)
+if str(PIPELINE_DIR) not in sys.path:
+    sys.path.insert(0, str(PIPELINE_DIR))
+
 TMDB_API = "https://api.themoviedb.org/3"
 TMDB_IMG = "https://image.tmdb.org/t/p/w185"
 API_KEY  = os.getenv("TMDB_API_KEY")
@@ -109,13 +113,27 @@ def save_queue(file: Path, data: list[dict]) -> None:
 
 
 def take_batch(n: int, worker: int = 1) -> list[dict]:
-    """Return N items from pending.json for a specific worker.
+    """Return N items for this worker, preferring the Supabase candidates table.
 
-    Workers partition the queue by interleaving:
-      Worker 1 → indices 0, 3, 6, 9 …  (every 3rd starting at 0)
-      Worker 2 → indices 1, 4, 7, 10 … (every 3rd starting at 1)
-      Worker 3 → indices 2, 5, 8, 11 … (every 3rd starting at 2)
+    Priority order:
+      1. candidates table (status=pending, ordered by prisma_score DESC)
+      2. pending.json fallback if candidates returns nothing
+
+    Workers partition the result set by interleaving:
+      Worker 1 → rows 0, 3, 6, 9 …  (every 3rd starting at 0)
+      Worker 2 → rows 1, 4, 7, 10 … (every 3rd starting at 1)
+      Worker 3 → rows 2, 5, 8, 11 … (every 3rd starting at 2)
     """
+    # Try candidates table first
+    try:
+        from queue_manager import load_from_candidates  # type: ignore
+        rows = load_from_candidates(limit=n, worker=worker, num_workers=3)
+        if rows:
+            return rows
+    except Exception as e:
+        print(f"  ⚠  candidates table unavailable, falling back to pending.json: {e}")
+
+    # JSON fallback
     pending = load_queue(PENDING_FILE)
     worker_offset = max(worker - 1, 0)
     pending = pending[worker_offset::3]
@@ -123,7 +141,7 @@ def take_batch(n: int, worker: int = 1) -> list[dict]:
 
 
 def mark_completed(tmdb_id: int, work_id: str, report: dict) -> None:
-    """Move from pending to completed.json."""
+    """Move from pending to completed.json and update candidates table."""
     pending = load_queue(PENDING_FILE)
     pending = [p for p in pending if p.get("tmdb_id") != tmdb_id]
     save_queue(PENDING_FILE, pending)
@@ -139,9 +157,16 @@ def mark_completed(tmdb_id: int, work_id: str, report: dict) -> None:
     })
     save_queue(COMPLETED_FILE, completed)
 
+    # Also update candidates table (best-effort, non-fatal)
+    try:
+        from queue_manager import mark_candidate_completed  # type: ignore
+        mark_candidate_completed(tmdb_id, work_id)
+    except Exception:
+        pass
+
 
 def mark_failed(tmdb_id: int, error: str) -> None:
-    """Move from pending to failed.json."""
+    """Move from pending to failed.json and update candidates table."""
     pending = load_queue(PENDING_FILE)
     source  = next((p.get("source", "unknown") for p in pending if p.get("tmdb_id") == tmdb_id), "unknown")
     pending = [p for p in pending if p.get("tmdb_id") != tmdb_id]
@@ -157,6 +182,13 @@ def mark_failed(tmdb_id: int, error: str) -> None:
         "error":     error,
     })
     save_queue(FAILED_FILE, failed)
+
+    # Also update candidates table (best-effort, non-fatal)
+    try:
+        from queue_manager import mark_candidate_failed  # type: ignore
+        mark_candidate_failed(tmdb_id, error)
+    except Exception:
+        pass
 
 
 def auto_deduplicate() -> int:
@@ -197,14 +229,42 @@ def queue_status() -> None:
 
     print("\nQueue Status — PRISMA")
     print("─────────────────────────────")
-    print(f"Pending:  {len(pending):>5} films")
+    print(f"JSON queue:")
+    print(f"  Pending:  {len(pending):>5} films")
     for src, count in sorted(sources.items(), key=lambda x: -x[1]):
-        print(f"  {src:<28} {count}")
-    print(f"\nCompleted:{len(completed):>5} films")
-    print(f"Failed:   {len(failed):>5} films", end="")
+        print(f"    {src:<28} {count}")
+    print(f"  Completed:{len(completed):>5} films")
+    print(f"  Failed:   {len(failed):>5} films", end="")
     if failed:
         print("  (run queue_manager.py --clear-failed to retry)", end="")
     print()
+
+    # Candidates table stats
+    try:
+        from queue_manager import _get_db  # type: ignore
+        db = _get_db()
+        if db:
+            res = db.table("candidates").select("status").execute()
+            from collections import Counter
+            counts = Counter(r["status"] for r in (res.data or []))
+            total = sum(counts.values())
+            print(f"\nCandidates table ({total} total):")
+            for status in ("pending", "completed", "failed", "skipped"):
+                if counts.get(status):
+                    print(f"  {status:<12} {counts[status]:>5}")
+            top = (db.table("candidates")
+                     .select("title, year, prisma_score")
+                     .eq("status", "pending")
+                     .order("prisma_score", desc=True)
+                     .limit(5)
+                     .execute())
+            if top.data:
+                print(f"\n  Top 5 pending by prisma_score:")
+                for x in top.data:
+                    print(f"    {float(x['prisma_score']):7.1f}  {x['title']} ({x['year']})")
+    except Exception as e:
+        print(f"\n  (candidates table unavailable: {e})")
+
     if days:
         print(f"\nEstimated time at 100/day: {days:.1f} days")
     print("─────────────────────────────\n")

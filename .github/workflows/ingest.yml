@@ -52,6 +52,11 @@ jobs:
             --output pipeline/sources/most_awarded_not_in_catalog.txt \
             2>&1 | tail -5
 
+      - name: Populate candidates table from Wikidata (worker 1 only)
+        if: matrix.worker == 1
+        run: |
+          python pipeline/populate_candidates.py --sync-completed 2>&1 | tail -10
+
       - name: Populate queue from source lists (worker 1 only)
         if: matrix.worker == 1
         run: |

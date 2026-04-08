@@ -65,21 +65,116 @@ def completed_tmdb_ids() -> set[int]:
     return {item["tmdb_id"] for item in load_queue(COMPLETED_FILE) if "tmdb_id" in item}
 
 
-# ─── Supabase work lookup ─────────────────────────────────────────────────────
+# ─── Supabase helpers ─────────────────────────────────────────────────────────
 
-def get_db_tmdb_ids() -> set[int]:
-    """Return set of tmdb_ids already in Supabase works table."""
+def _get_db():
+    """Return Supabase client or None if not configured."""
     try:
         from supabase import create_client
         url = os.getenv("SUPABASE_URL") or os.getenv("PUBLIC_SUPABASE_URL")
         key = os.getenv("SUPABASE_SERVICE_KEY")
         if not url or not key:
+            return None
+        return create_client(url, key)
+    except Exception:
+        return None
+
+
+def get_db_tmdb_ids() -> set[int]:
+    """Return set of tmdb_ids already in Supabase works table."""
+    try:
+        db = _get_db()
+        if not db:
             return set()
-        db  = create_client(url, key)
         res = db.from_("works").select("tmdb_id").not_.is_("tmdb_id", "null").execute()
         return {r["tmdb_id"] for r in (res.data or []) if r.get("tmdb_id")}
     except Exception:
         return set()
+
+
+def load_from_candidates(
+    limit: int = 50,
+    worker: int = 1,
+    num_workers: int = 3,
+) -> list[dict]:
+    """Return up to `limit` pending candidates from Supabase, ordered by prisma_score DESC.
+
+    Workers partition the result set by interleaving (same scheme as take_batch):
+      Worker 1 → rows 0, 3, 6 …
+      Worker 2 → rows 1, 4, 7 …
+      Worker 3 → rows 2, 5, 8 …
+
+    Falls back to an empty list on any error (caller should use JSON queue).
+    """
+    try:
+        db = _get_db()
+        if not db:
+            return []
+        # Fetch a generous page so worker partitioning has enough rows
+        fetch_n = limit * num_workers
+        res = (
+            db.table("candidates")
+            .select("tmdb_id, imdb_id, title, year, prisma_score, source")
+            .eq("status", "pending")
+            .order("prisma_score", desc=True)
+            .limit(fetch_n)
+            .execute()
+        )
+        rows = res.data or []
+        # Partition by worker offset
+        offset = max(worker - 1, 0)
+        worker_rows = rows[offset::num_workers]
+        return worker_rows[:limit]
+    except Exception as e:
+        print(f"  ⚠  load_from_candidates error: {e}")
+        return []
+
+
+def mark_candidate_completed(
+    tmdb_id: int,
+    work_id: str,
+    *,
+    dry_run: bool = False,
+) -> None:
+    """Mark a candidate as completed in Supabase candidates table.
+    Falls back silently on error (JSON queue is the authoritative record).
+    """
+    if dry_run:
+        return
+    try:
+        db = _get_db()
+        if not db:
+            return
+        db.table("candidates").update({
+            "status":      "completed",
+            "work_id":     work_id,
+            "ingested_at": "now()",
+        }).eq("tmdb_id", tmdb_id).execute()
+    except Exception as e:
+        print(f"  ⚠  mark_candidate_completed({tmdb_id}): {e}")
+
+
+def mark_candidate_failed(
+    tmdb_id: int,
+    error: str,
+    *,
+    dry_run: bool = False,
+) -> None:
+    """Mark a candidate as failed in Supabase candidates table.
+    Falls back silently on error.
+    """
+    if dry_run:
+        return
+    try:
+        db = _get_db()
+        if not db:
+            return
+        db.table("candidates").update({
+            "status":    "failed",
+            "error_msg": error[:500],
+        }).eq("tmdb_id", tmdb_id).execute()
+    except Exception as e:
+        print(f"  ⚠  mark_candidate_failed({tmdb_id}): {e}")
 
 
 # ─── TMDB helpers ─────────────────────────────────────────────────────────────
