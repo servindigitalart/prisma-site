@@ -101,43 +101,71 @@ def tmdb_from_imdb(imdb_id: str) -> dict | None:
 # ─── Candidate upsert ─────────────────────────────────────────────────────────
 
 def upsert_candidates(db, rows: list[dict], dry_run: bool) -> dict:
-    """Upsert a batch of candidates.  On conflict (tmdb_id) update score if higher."""
-    if not rows or dry_run:
-        return {"upserted": 0, "dry_run": dry_run}
+    """Accumulate award scores across festivals.
 
-    # Fetch existing scores for conflict resolution client-side
-    # (Supabase REST doesn't support UPDATE WHERE prisma_score < excluded.prisma_score)
+    - New film  → INSERT with initial score.
+    - Existing pending film → ADD new points to existing score + merge awards_json.
+    - Existing completed film → skip (already ingested, score irrelevant).
+    """
+    if not rows:
+        return {"inserted": 0, "updated": 0}
+
     tmdb_ids = [r["tmdb_id"] for r in rows]
-    existing_map: dict[int, float] = {}
-    for i in range(0, len(tmdb_ids), 200):
-        chunk = tmdb_ids[i:i+200]
-        ex = db.table("candidates").select("tmdb_id, prisma_score").in_("tmdb_id", chunk).execute()
-        for rec in ex.data or []:
-            existing_map[rec["tmdb_id"]] = float(rec["prisma_score"] or 0)
+
+    # Fetch existing rows (score + counts + awards_json + status)
+    existing: dict[int, dict] = {}
+    for i in range(0, len(tmdb_ids), 50):
+        chunk = tmdb_ids[i:i + 50]
+        res = (
+            db.table("candidates")
+            .select("tmdb_id, prisma_score, award_count, win_count, nom_count, awards_json, status")
+            .in_("tmdb_id", chunk)
+            .execute()
+        )
+        for rec in res.data or []:
+            existing[rec["tmdb_id"]] = rec
 
     to_insert: list[dict] = []
     to_update: list[dict] = []
 
     for row in rows:
         tid = row["tmdb_id"]
-        if tid not in existing_map:
+        if tid not in existing:
             to_insert.append(row)
         else:
-            # Only update if new score is strictly higher
-            if float(row["prisma_score"]) > existing_map[tid]:
-                to_update.append(row)
+            ex = existing[tid]
+            # Skip films already ingested — their score column is historical
+            if ex.get("status") == "completed":
+                continue
+            # Accumulate
+            new_score  = float(ex.get("prisma_score") or 0) + float(row["prisma_score"])
+            new_wins   = int(ex.get("win_count")   or 0) + int(row["win_count"])
+            new_noms   = int(ex.get("nom_count")   or 0) + int(row["nom_count"])
+            new_awards = int(ex.get("award_count") or 0) + int(row["award_count"])
+            merged_json = (ex.get("awards_json") or []) + (row.get("awards_json") or [])
+            to_update.append({
+                "tmdb_id":      tid,
+                "prisma_score": round(new_score, 2),
+                "win_count":    new_wins,
+                "nom_count":    new_noms,
+                "award_count":  new_awards,
+                "awards_json":  merged_json,
+            })
 
     inserted = 0
     updated  = 0
 
+    if dry_run:
+        return {"inserted": len(to_insert), "updated": len(to_update), "dry_run": True}
+
     # Insert new candidates in batches of 50
     for i in range(0, len(to_insert), 50):
-        batch = to_insert[i:i+50]
+        batch = to_insert[i:i + 50]
         try:
             db.table("candidates").insert(batch).execute()
             inserted += len(batch)
         except Exception as e:
-            # Fall back row-by-row
+            # Fall back row-by-row on batch failure
             for rec in batch:
                 try:
                     db.table("candidates").insert(rec).execute()
@@ -145,85 +173,101 @@ def upsert_candidates(db, rows: list[dict], dry_run: bool) -> dict:
                 except Exception as e2:
                     print(f"    ✗ insert failed TMDB {rec.get('tmdb_id')}: {e2}")
 
-    # Update improved scores
-    for rec in to_update:
+    # Update accumulated scores one-by-one (Supabase REST has no batch UPDATE)
+    for upd in to_update:
         try:
-            payload = {
-                "prisma_score": rec["prisma_score"],
-                "award_count":  rec["award_count"],
-                "win_count":    rec["win_count"],
-                "nom_count":    rec["nom_count"],
-                "awards_json":  rec["awards_json"],
-            }
-            db.table("candidates").update(payload).eq("tmdb_id", rec["tmdb_id"]).execute()
+            db.table("candidates").update({
+                "prisma_score": upd["prisma_score"],
+                "win_count":    upd["win_count"],
+                "nom_count":    upd["nom_count"],
+                "award_count":  upd["award_count"],
+                "awards_json":  upd["awards_json"],
+            }).eq("tmdb_id", upd["tmdb_id"]).execute()
             updated += 1
         except Exception as e:
-            print(f"    ✗ update failed TMDB {rec.get('tmdb_id')}: {e}")
+            print(f"    ✗ update failed TMDB {upd['tmdb_id']}: {e}")
 
     return {"inserted": inserted, "updated": updated}
 
 
 # ─── sync-completed ───────────────────────────────────────────────────────────
 
-def sync_completed(db, dry_run: bool) -> int:
-    """Mark candidates as completed where tmdb_id exists in works table."""
-    # Get all tmdb_ids in works
+def sync_completed(db, dry_run: bool) -> dict:
+    """Ensure every tmdb_id in the works table is marked completed in candidates.
+
+    Three cases handled:
+      A. tmdb_id in works but NOT in candidates  → INSERT as completed
+      B. tmdb_id in works AND in candidates with status != 'completed' → UPDATE
+      C. tmdb_id in works AND in candidates already completed → skip
+    """
+    # ── 1. Fetch ALL tmdb_ids + work_ids from works table ────────────────────
     all_works: list[dict] = []
     offset = 0
     while True:
-        batch = (db.table("works")
-                   .select("tmdb_id, id")
-                   .not_.is_("tmdb_id", "null")
-                   .range(offset, offset + 999)
-                   .execute().data or [])
+        batch = (
+            db.table("works")
+            .select("tmdb_id, id")
+            .not_.is_("tmdb_id", "null")
+            .range(offset, offset + 999)
+            .execute()
+            .data or []
+        )
         all_works.extend(batch)
         if len(batch) < 1000:
             break
         offset += 1000
 
-    work_map = {w["tmdb_id"]: w["id"] for w in all_works if w.get("tmdb_id")}
-    print(f"  Works in Supabase: {len(work_map)}")
+    work_map: dict[int, str] = {w["tmdb_id"]: w["id"] for w in all_works if w.get("tmdb_id")}
+    work_ids = list(work_map.keys())
+    print(f"  Works in Supabase:     {len(work_map)}")
+
+    if not work_ids:
+        print("  Nothing to sync.")
+        return {"updated": 0, "inserted": 0}
+
+    # ── 2. Fetch ALL tmdb_ids + status from candidates table ─────────────────
+    existing: dict[int, str] = {}  # tmdb_id → status
+    for i in range(0, len(work_ids), 200):
+        chunk = work_ids[i:i + 200]
+        res = db.table("candidates").select("tmdb_id, status").in_("tmdb_id", chunk).execute()
+        for rec in res.data or []:
+            existing[rec["tmdb_id"]] = rec["status"]
+
+    print(f"  Already in candidates: {len(existing)}")
+
+    # ── 3. Partition into insert / update groups ──────────────────────────────
+    to_insert: list[int] = []  # in works, missing from candidates
+    to_update: list[int] = []  # in candidates but not yet completed
+
+    for tid in work_ids:
+        if tid not in existing:
+            to_insert.append(tid)
+        elif existing[tid] != "completed":
+            to_update.append(tid)
+        # else: already completed — skip
+
+    print(f"  To insert (new):       {len(to_insert)}")
+    print(f"  To update (complete):  {len(to_update)}")
+    print(f"  Already completed:     {len(work_ids) - len(to_insert) - len(to_update)}")
 
     if dry_run:
-        print(f"  [dry-run] Would mark {len(work_map)} candidates as completed")
-        return len(work_map)
+        print("  [dry-run] No changes written.")
+        return {"inserted": len(to_insert), "updated": len(to_update), "dry_run": True}
 
-    updated = 0
-    ids = list(work_map.keys())
-    for i in range(0, len(ids), 200):
-        chunk = ids[i:i+200]
-        try:
-            db.table("candidates").update({
-                "status": "completed",
-                "ingested_at": "now()",
-            }).in_("tmdb_id", chunk).eq("status", "pending").execute()
-            updated += len(chunk)
-        except Exception as e:
-            print(f"    ✗ sync batch error: {e}")
-
-    # Also insert any works NOT yet in candidates at all
-    existing_ids: set[int] = set()
-    for i in range(0, len(ids), 200):
-        chunk = ids[i:i+200]
-        ex = db.table("candidates").select("tmdb_id").in_("tmdb_id", chunk).execute()
-        for rec in ex.data or []:
-            existing_ids.add(rec["tmdb_id"])
-
-    missing = [tid for tid in ids if tid not in existing_ids]
-    print(f"  Works missing from candidates: {len(missing)} — inserting as completed")
+    # ── 4a. INSERT missing rows as completed ──────────────────────────────────
     inserted = 0
-    for i in range(0, len(missing), 50):
-        chunk = missing[i:i+50]
-        rows = []
-        for tid in chunk:
-            work_id = work_map.get(tid, "")
-            rows.append({
-                "tmdb_id":     tid,
-                "title":       work_id,   # best we have without extra API call
-                "status":      "completed",
-                "work_id":     work_id,
+    for i in range(0, len(to_insert), 50):
+        chunk = to_insert[i:i + 50]
+        rows = [
+            {
+                "tmdb_id":      tid,
+                "title":        work_map[tid],   # work_id is the best title proxy we have
+                "status":       "completed",
+                "work_id":      work_map[tid],
                 "prisma_score": 0,
-            })
+            }
+            for tid in chunk
+        ]
         try:
             db.table("candidates").insert(rows).execute()
             inserted += len(rows)
@@ -234,8 +278,35 @@ def sync_completed(db, dry_run: bool) -> int:
                     inserted += 1
                 except Exception:
                     pass
-    print(f"  Inserted {inserted} completed candidates for existing works")
-    return updated
+
+    # ── 4b. UPDATE pending/failed rows → completed ────────────────────────────
+    updated = 0
+    for i in range(0, len(to_update), 200):
+        chunk = to_update[i:i + 200]
+        try:
+            db.table("candidates").update({
+                "status":      "completed",
+                "work_id":     None,   # will be filled by individual update below
+                "ingested_at": "now()",
+            }).in_("tmdb_id", chunk).execute()
+            updated += len(chunk)
+        except Exception as e:
+            print(f"    ✗ bulk update error: {e}")
+            # Fall back one-by-one
+            for tid in chunk:
+                try:
+                    db.table("candidates").update({
+                        "status":      "completed",
+                        "work_id":     work_map.get(tid),
+                        "ingested_at": "now()",
+                    }).eq("tmdb_id", tid).execute()
+                    updated += 1
+                except Exception:
+                    pass
+
+    print(f"  ✓ Inserted {inserted} new completed rows")
+    print(f"  ✓ Updated  {updated} rows → completed")
+    return {"inserted": inserted, "updated": updated}
 
 
 # ─── Festival processing ──────────────────────────────────────────────────────
@@ -367,8 +438,10 @@ def main() -> None:
 
     if args.sync_completed:
         print("Syncing completed films from works table → candidates...")
-        n = sync_completed(db, args.dry_run)
-        print(f"Done. {n} candidates synced.")
+        result = sync_completed(db, args.dry_run)
+        ins = result.get("inserted", 0)
+        upd = result.get("updated", 0)
+        print(f"Done. inserted={ins}  updated={upd}")
         return
 
     scoring_map = get_scoring_map(db)
