@@ -40,6 +40,186 @@ TMDB_RATE_LIMIT_SLEEP = 0.26   # 40 req / 10s → ~3.8/s, stay safe at ~3.8
 SPARQL_SLEEP          = 2.0    # 2s between SPARQL calls
 
 
+# ─── Festival tier weights ────────────────────────────────────────────────────
+# Tier 1 — world peak          : cannes, oscar        → 1.0
+# Tier 2 — great European      : venice, berlin       → 0.9
+# Tier 3 — respected art       : sundance, locarno…   → 0.8
+# Tier 4 — regional important  : cesar, bafta…        → 0.7
+# Tier 5 — Latin American      : ariel, ficg…         → 0.6
+
+FESTIVAL_TIER_WEIGHT: dict[str, float] = {
+    "oscar":          1.0,
+    "cannes":         1.0,
+    "venice":         0.9,
+    "berlin":         0.9,
+    "sundance":       0.8,
+    "san-sebastian":  0.8,
+    "locarno":        0.8,
+    "cesar":          0.7,
+    "goya":           0.7,
+    "bafta":          0.7,
+    "golden-globe":   0.7,
+    "ariel":          0.6,
+    "ficg":           0.6,
+    "ficm":           0.6,
+    "mar-del-plata":  0.6,
+}
+
+DEFAULT_FESTIVAL_WEIGHT:  float = 0.6
+
+# ─── Category multipliers ─────────────────────────────────────────────────────
+# Grand prize / Best Film          → 1.0
+# Best Director                    → 0.8
+# Best Screenplay                  → 0.7
+# Documentary / Animation / Intl   → 0.5
+# Best Actor / Actress             → 0.4
+# Supporting / Cinematography      → 0.3
+# Technical (score, sound…)        → 0.1 / 0.05
+# Legacy duplicate IDs             → 0.0  (skip — already counted elsewhere)
+
+CATEGORY_FILM_MULTIPLIER: dict[str, float] = {
+    # ── Grand prizes / Best Film ───────────────────────────────────────────
+    "oscar-best-picture":             1.0,
+    "oscar-best-intl-film":           1.0,
+    "cannes-palme-dor":               1.0,
+    "cannes-grand-prix":              1.0,
+    "cannes-jury-prize":              1.0,
+    "cannes-special-jury":            1.0,
+    "cannes-un-certain-regard":       1.0,
+    "cannes-camera-dor":              1.0,
+    "berlin-golden-bear":             1.0,
+    "berlin-silver-bear-jury":        1.0,
+    "berlin-grand-jury-prize":        1.0,
+    "venice-golden-lion":             1.0,
+    "venice-grand-jury":              1.0,
+    "venice-special-jury":            1.0,
+    "bafta-best-film":                1.0,
+    "bafta-best-intl-film":           1.0,
+    "locarno-golden-leopard":         1.0,
+    "locarno-special-jury":           1.0,
+    "sansebastian-golden-shell":      1.0,
+    "sundance-grand-jury-drama":      1.0,
+    "sundance-grand-jury-doc":        1.0,
+    "sundance-world-cinema-drama":    1.0,
+    "toronto-peoples-choice":         1.0,
+    "toronto-platform":               1.0,
+    "cesar-best-film":                1.0,
+    "goya-best-film":                 1.0,
+    "ariel-best-film":                1.0,
+    "ficg-best-iberoamerican-film":   1.0,
+    "ficg-best-mexican-film":         1.0,
+    "ficm-best-mexican-film":         1.0,
+    "mar-del-plata-golden-astor":     1.0,
+    "mar-del-plata-silver-astor":     1.0,
+    "gg-best-film-drama":             1.0,
+    "gg-best-intl-film":              1.0,
+    "gg-best-comedy":                 1.0,
+    "rotterdam-tiger":                1.0,
+    "fipresci":                       1.0,
+    "fipresci-cannes":                1.0,
+    "fipresci-berlin":                1.0,
+    "fipresci-venice":                1.0,
+    # ── Direction ─────────────────────────────────────────────────────────
+    "oscar-best-director":            0.8,
+    "cannes-best-director":           0.8,
+    "berlin-silver-bear-director":    0.8,
+    "venice-best-director":           0.8,
+    "venice-silver-lion-director":    0.8,
+    "bafta-best-director":            0.8,
+    "cesar-best-director":            0.8,
+    "goya-best-director":             0.8,
+    "ariel-best-director":            0.8,
+    "locarno-best-director":          0.8,
+    "sansebastian-silver-director":   0.8,
+    "sansebastian-silver-shell-actor": 0.8,
+    "gg-best-director":               0.8,
+    "sundance-directing-drama":       0.8,
+    # ── Screenplay ────────────────────────────────────────────────────────
+    "oscar-best-original-screenplay": 0.7,
+    "oscar-best-adapted-screenplay":  0.7,
+    "cannes-best-screenplay":         0.7,
+    "cesar-best-screenplay":          0.7,
+    "ariel-best-screenplay":          0.7,
+    "bafta-best-original-screenplay": 0.7,
+    "bafta-best-adapted-screenplay":  0.7,
+    # ── Documentary / Animation / International ────────────────────────────
+    "oscar-best-documentary":         0.5,
+    "oscar-best-animated":            0.5,
+    "bafta-best-documentary":         0.5,
+    "bafta-best-animated":            0.5,
+    "ariel-best-documentary":         0.5,
+    "ariel-best-animated":            0.5,
+    "ariel-best-intl-film":           0.5,
+    "cesar-best-animated":            0.5,
+    "goya-best-animated":             0.5,
+    "goya-best-documentary":          0.5,
+    "goya-best-iberoamerican-film":   0.5,
+    "ficm-best-documentary":          0.5,
+    "ficg-best-documentary":          0.5,
+    "ficg-best-iberoamerican-doc":    0.5,
+    "gg-best-animated":               0.5,
+    "cesar-best-intl-film":           0.5,
+    # ── Acting ────────────────────────────────────────────────────────────
+    "oscar-best-actress":             0.4,
+    "oscar-best-actor":               0.4,
+    "cannes-best-actress":            0.4,
+    "cannes-best-actor":              0.4,
+    "venice-best-actress":            0.4,
+    "venice-best-actor":              0.4,
+    "venice-volpi-cup-actress":       0.4,
+    "venice-volpi-cup-actor":         0.4,
+    "berlin-silver-bear-actress":     0.4,
+    "berlin-silver-bear-actor":       0.4,
+    "bafta-best-actress":             0.4,
+    "bafta-best-actor":               0.4,
+    "cesar-best-actress":             0.4,
+    "cesar-best-actor":               0.4,
+    "goya-best-actress":              0.4,
+    "goya-best-actor":                0.4,
+    "ariel-best-actress":             0.4,
+    "ariel-best-actor":               0.4,
+    "sansebastian-silver-actress":    0.4,
+    "sansebastian-silver-actor":      0.4,
+    "sansebastian-silver-shell-actress": 0.4,
+    "gg-best-actress-drama":          0.4,
+    "gg-best-actor-drama":            0.4,
+    # ── Supporting acting ─────────────────────────────────────────────────
+    "oscar-best-supporting-actor":    0.3,
+    "oscar-best-supporting-actress":  0.3,
+    # ── Cinematography ────────────────────────────────────────────────────
+    "oscar-best-cinematography":      0.3,
+    "bafta-best-cinematography":      0.3,
+    "ariel-best-cinematography":      0.3,
+    # ── Technical ─────────────────────────────────────────────────────────
+    "oscar-best-original-score":      0.1,
+    "oscar-best-sound":               0.05,
+    "oscar-best-film-editing":        0.1,
+    "oscar-best-production-design":   0.1,
+    "ariel-best-score":               0.1,
+    "ariel-best-editing":             0.1,
+    "ficm-best-short":                0.1,
+    # ── Legacy duplicate IDs — skip entirely (0.0) ────────────────────────
+    "palme_dor":            0.0,
+    "golden_lion":          0.0,
+    "golden_bear":          0.0,
+    "bafta_film":           0.0,
+    "bafta_cinematography": 0.0,
+    "oscar_picture":        0.0,
+    "oscar_director":       0.0,
+    "oscar_cinematography": 0.0,
+    "oscar_cin_nom":        0.0,
+    "sundance_grand_jury":  0.0,
+    "cannes_best_director": 0.0,
+    "berlin_silver_bear":   0.0,
+    "cannes_grand_prix":    0.0,
+    "venice_silver_lion":   0.0,
+    "tiff_platform":        0.0,
+    "asc_award":            0.0,
+}
+
+DEFAULT_CATEGORY_MULTIPLIER: float = 0.6
+
+
 # ─── Scoring helpers ─────────────────────────────────────────────────────────
 
 def get_scoring_map(db) -> dict[str, int]:
@@ -339,7 +519,20 @@ def populate_festival(festival: str, db, scoring_map: dict, dry_run: bool) -> di
         for rec in results:
             imdb_id = rec["imdb"]
             result  = rec["result"]
-            score_contrib = pts if result == "win" else pts * 0.4
+
+            # ── Tiered scoring ────────────────────────────────────────────
+            clean_key   = award_key  # e.g. "oscar-best-picture"
+            fest_weight = FESTIVAL_TIER_WEIGHT.get(festival, DEFAULT_FESTIVAL_WEIGHT)
+            cat_mult    = CATEGORY_FILM_MULTIPLIER.get(clean_key, DEFAULT_CATEGORY_MULTIPLIER)
+
+            if cat_mult == 0.0:
+                continue  # legacy duplicate ID — skip entirely
+
+            if result == "win":
+                score_contrib = pts * fest_weight * cat_mult
+            else:
+                score_contrib = pts * fest_weight * cat_mult * 0.4
+            # ─────────────────────────────────────────────────────────────
 
             if imdb_id not in film_data:
                 film_data[imdb_id] = {
@@ -355,7 +548,14 @@ def populate_festival(festival: str, db, scoring_map: dict, dry_run: bool) -> di
                 fd["win_count"] += 1
             else:
                 fd["nom_count"] += 1
-            fd["awards"].append({"award_id": full_id, "result": result, "pts": pts})
+            fd["awards"].append({
+                "award_id":  full_id,
+                "result":    result,
+                "pts":       pts,
+                "fest_w":    fest_weight,
+                "cat_mult":  cat_mult,
+                "contrib":   round(score_contrib, 3),
+            })
 
         time.sleep(SPARQL_SLEEP)
 
