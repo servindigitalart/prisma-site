@@ -338,20 +338,40 @@ def upsert_candidates(db, rows: list[dict], dry_run: bool) -> dict:
     if dry_run:
         return {"inserted": len(to_insert), "updated": len(to_update), "dry_run": True}
 
-    # Insert new candidates in batches of 50
+    # Deduplicate to_insert by tmdb_id (within-batch safety)
+    seen_insert: dict[int, dict] = {}
+    for rec in to_insert:
+        tid = rec["tmdb_id"]
+        if tid not in seen_insert:
+            seen_insert[tid] = rec
+        else:
+            # Merge scores if same tmdb_id appears twice in the batch
+            seen_insert[tid]["prisma_score"] = round(
+                float(seen_insert[tid]["prisma_score"]) + float(rec["prisma_score"]), 2
+            )
+            seen_insert[tid]["win_count"]   += rec.get("win_count", 0)
+            seen_insert[tid]["nom_count"]   += rec.get("nom_count", 0)
+            seen_insert[tid]["award_count"] += rec.get("award_count", 0)
+            seen_insert[tid]["awards_json"]  = (
+                (seen_insert[tid].get("awards_json") or []) + (rec.get("awards_json") or [])
+            )
+    to_insert = list(seen_insert.values())
+
+    # Upsert new candidates in batches of 50
+    # Using upsert (not insert) so a race-condition duplicate becomes a no-op
     for i in range(0, len(to_insert), 50):
         batch = to_insert[i:i + 50]
         try:
-            db.table("candidates").insert(batch).execute()
+            db.table("candidates").upsert(batch, on_conflict="tmdb_id").execute()
             inserted += len(batch)
         except Exception as e:
             # Fall back row-by-row on batch failure
             for rec in batch:
                 try:
-                    db.table("candidates").insert(rec).execute()
+                    db.table("candidates").upsert(rec, on_conflict="tmdb_id").execute()
                     inserted += 1
                 except Exception as e2:
-                    print(f"    ✗ insert failed TMDB {rec.get('tmdb_id')}: {e2}")
+                    print(f"    ✗ upsert failed TMDB {rec.get('tmdb_id')}: {e2}")
 
     # Update accumulated scores one-by-one (Supabase REST has no batch UPDATE)
     for upd in to_update:

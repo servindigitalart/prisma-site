@@ -1220,7 +1220,7 @@ def scrape_festival(
             start = checkpoint["last_year"] + 1
             print(f"  Resuming from checkpoint: year {start} (last done: {checkpoint['last_year']})")
         else:
-            start = cfg["start_year"]
+            start = cfg.get("start_year", all_years[0])
 
         years_to_scrape = [y for y in all_years if y >= start]
         if to_year is not None:
