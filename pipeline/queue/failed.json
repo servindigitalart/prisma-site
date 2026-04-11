@@ -418,5 +418,29 @@
     "failed_at": "2026-04-11",
     "source": "unknown",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  "
+  },
+  {
+    "tmdb_id": 1052132,
+    "failed_at": "2026-04-11",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-11 07:02:01 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 106010,
+    "failed_at": "2026-04-11",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-11 07:08:50 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 1258438,
+    "failed_at": "2026-04-11",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-11 07:32:58 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 560352,
+    "failed_at": "2026-04-11",
+    "source": "unknown",
+    "error": "VERIFY: only 9/10 critical checks passed"
   }
 ]
