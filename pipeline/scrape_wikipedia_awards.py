@@ -59,6 +59,21 @@ WIKIPEDIA_HEADERS = {"User-Agent": WIKIPEDIA_UA}
 WIKIPEDIA_SLEEP   = 1.1   # seconds between Wikipedia API calls
 TMDB_SLEEP        = 0.26  # seconds between TMDB calls (≤40 req/10s)
 
+# ─── Short-film exclusion ─────────────────────────────────────────────────────
+# Award IDs for short-film categories — skip entirely so shorts never enter
+# the feature-film candidates table.
+EXCLUDED_AWARD_IDS: frozenset[str] = frozenset({
+    "award_oscar-best-live-action-short",
+    "award_oscar-best-documentary-short",
+    "award_oscar-best-animated-short",
+    "award_oscar-best-short-film",
+    "award_ficm-best-short",
+})
+
+# Minimum runtime (minutes) to be considered a feature film.
+# Films whose TMDB runtime is below this threshold are rejected.
+MIN_FEATURE_RUNTIME = 40
+
 CHECKPOINT_DIR = Path(__file__).parent / "scrape_checkpoints"
 CHECKPOINT_DIR.mkdir(exist_ok=True)
 
@@ -113,7 +128,7 @@ FESTIVAL_PAGES: dict[str, dict] = {
         "pattern":    "{year} Venice Film Festival",
         "awards": {
             "Golden Lion":                  "award_venice-golden-lion",
-            "Silver Lion":                  "award_venice-silver-lion",
+            "Silver Lion":                  "award_venice_silver_lion",
             "Grand Jury Prize":             "award_venice-grand-jury",
             "Best Director":                "award_venice-best-director",
             "Volpi Cup for Best Actress":   "award_venice-volpi-cup-actress",
@@ -904,16 +919,45 @@ _LEADING_ARTICLES = re.compile(
     re.IGNORECASE,
 )
 
+# Runtime cache: tmdb_id → runtime minutes (or 0 if unknown)
+_RUNTIME_CACHE: dict[int, int] = {}
+
+
+def _tmdb_get_runtime(tmdb_id: int) -> int:
+    """
+    Fetch the runtime (minutes) for a TMDB movie ID.
+    Returns 0 if unknown or on error. Caches results to avoid redundant calls.
+    """
+    if tmdb_id in _RUNTIME_CACHE:
+        return _RUNTIME_CACHE[tmdb_id]
+    if not TMDB_KEY:
+        return 0
+    try:
+        r = requests.get(
+            f"{TMDB_API}/movie/{tmdb_id}",
+            params={"api_key": TMDB_KEY},
+            timeout=10,
+        )
+        r.raise_for_status()
+        rt = r.json().get("runtime") or 0
+    except Exception:
+        rt = 0
+    _RUNTIME_CACHE[tmdb_id] = rt
+    time.sleep(TMDB_SLEEP)
+    return rt
+
 
 def tmdb_search_by_title(
     title: str,
     year: int,
     cache: dict,
+    check_runtime: bool = False,
 ) -> Optional[dict]:
     """
     Search TMDB by title and year, with three fallback strategies.
     Returns {tmdb_id, title, original_title, year} or None.
     Uses in-memory cache keyed by (title_lower, year).
+    If check_runtime=True, rejects results with runtime < MIN_FEATURE_RUNTIME.
     """
     if not TMDB_KEY:
         return None
@@ -999,6 +1043,13 @@ def tmdb_search_by_title(
             short = " ".join(words[:3])
             result = _search(short, None, max_year_delta=2)
             time.sleep(TMDB_SLEEP)
+
+    # Runtime guard: reject short films (runtime < MIN_FEATURE_RUNTIME minutes).
+    # We only fetch runtime when we have a candidate to avoid extra API calls.
+    if result and check_runtime:
+        rt = _tmdb_get_runtime(result["tmdb_id"])
+        if rt and rt < MIN_FEATURE_RUNTIME:
+            result = None
 
     cache[cache_key] = result
     return result
@@ -1086,6 +1137,12 @@ def scrape_festival_year(
     seen_award_ids: set[str] = set()  # prevent double-counting when aliases share an award_id
 
     for award_display, award_id in award_map.items():
+        # Skip short-film categories entirely — they are not feature films
+        if award_id in EXCLUDED_AWARD_IDS:
+            continue
+        # Also skip any award whose ID contains 'short' (catches future additions)
+        if "short" in award_id.lower():
+            continue
         entries = parse_award_section(wikitext, award_display)
         if not entries:
             continue
@@ -1139,7 +1196,7 @@ def scrape_festival_year(
 
     for key, fd in film_data.items():
         raw_title = fd["raw_title"]
-        tmdb_info = tmdb_search_by_title(raw_title, year, tmdb_cache)
+        tmdb_info = tmdb_search_by_title(raw_title, year, tmdb_cache, check_runtime=True)
 
         if not tmdb_info:
             skipped += 1

@@ -151,6 +151,7 @@ CATEGORY_FILM_MULTIPLIER: dict[str, float] = {
     "ariel-best-animated":            0.5,
     "ariel-best-intl-film":           0.5,
     "cesar-best-animated":            0.5,
+    "cesar-best-documentary":         0.5,
     "goya-best-animated":             0.5,
     "goya-best-documentary":          0.5,
     "goya-best-iberoamerican-film":   0.5,
@@ -159,6 +160,9 @@ CATEGORY_FILM_MULTIPLIER: dict[str, float] = {
     "ficg-best-iberoamerican-doc":    0.5,
     "gg-best-animated":               0.5,
     "cesar-best-intl-film":           0.5,
+    "venice_silver_lion":             0.8,   # Silver Lion (Grand Jury) — DB uses underscores
+    "sundance-audience-drama":        0.6,
+    "locarno-silver-leopard":         0.8,   # Silver Leopard = jury prize
     # ── Acting ────────────────────────────────────────────────────────────
     "oscar-best-actress":             0.4,
     "oscar-best-actor":               0.4,
@@ -361,31 +365,46 @@ def upsert_candidates(db, rows: list[dict], dry_run: bool) -> dict:
     # Using upsert (not insert) so a race-condition duplicate becomes a no-op
     for i in range(0, len(to_insert), 50):
         batch = to_insert[i:i + 50]
-        try:
-            db.table("candidates").upsert(batch, on_conflict="tmdb_id").execute()
-            inserted += len(batch)
-        except Exception as e:
-            # Fall back row-by-row on batch failure
-            for rec in batch:
-                try:
-                    db.table("candidates").upsert(rec, on_conflict="tmdb_id").execute()
-                    inserted += 1
-                except Exception as e2:
-                    print(f"    ✗ upsert failed TMDB {rec.get('tmdb_id')}: {e2}")
+        for attempt in range(3):
+            try:
+                db.table("candidates").upsert(batch, on_conflict="tmdb_id").execute()
+                inserted += len(batch)
+                break
+            except Exception as e:
+                if attempt < 2:
+                    time.sleep(2 ** attempt * 3)  # 3s, 6s backoff
+                    continue
+                # Final fallback: row-by-row
+                for rec in batch:
+                    for a2 in range(3):
+                        try:
+                            db.table("candidates").upsert(rec, on_conflict="tmdb_id").execute()
+                            inserted += 1
+                            break
+                        except Exception as e2:
+                            if a2 < 2:
+                                time.sleep(2 ** a2 * 3)
+                            else:
+                                print(f"    ✗ upsert failed TMDB {rec.get('tmdb_id')}: {e2}")
 
     # Update accumulated scores one-by-one (Supabase REST has no batch UPDATE)
     for upd in to_update:
-        try:
-            db.table("candidates").update({
-                "prisma_score": upd["prisma_score"],
-                "win_count":    upd["win_count"],
-                "nom_count":    upd["nom_count"],
-                "award_count":  upd["award_count"],
-                "awards_json":  upd["awards_json"],
-            }).eq("tmdb_id", upd["tmdb_id"]).execute()
-            updated += 1
-        except Exception as e:
-            print(f"    ✗ update failed TMDB {upd['tmdb_id']}: {e}")
+        for attempt in range(3):
+            try:
+                db.table("candidates").update({
+                    "prisma_score": upd["prisma_score"],
+                    "win_count":    upd["win_count"],
+                    "nom_count":    upd["nom_count"],
+                    "award_count":  upd["award_count"],
+                    "awards_json":  upd["awards_json"],
+                }).eq("tmdb_id", upd["tmdb_id"]).execute()
+                updated += 1
+                break
+            except Exception as e:
+                if attempt < 2:
+                    time.sleep(2 ** attempt * 3)
+                else:
+                    print(f"    ✗ update failed TMDB {upd['tmdb_id']}: {e}")
 
     return {"inserted": inserted, "updated": updated}
 
