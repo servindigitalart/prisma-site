@@ -32257,5 +32257,126 @@
     "checks_passed": 0,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 88064,
+    "work_id": "work_butterfly-wings_1991",
+    "completed_at": "2026-04-15",
+    "checks_passed": 12,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 1187456,
+    "work_id": "work_la-otra-muerte-de-cap-carlos-andres-perez_2023",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 6619,
+    "work_id": "work_death-in-venice_1971",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 1024690,
+    "work_id": "work_labordeta-un-hombre-sin-mas_2022",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 79048,
+    "work_id": "work_c-est-la-vie_2001",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 14419,
+    "work_id": "work_coluche_2008",
+    "completed_at": "2026-04-15",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 174353,
+    "work_id": "work_michael-h-profession-director_2013",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_bio",
+      "ranking_scores.updated"
+    ]
+  },
+  {
+    "tmdb_id": 372640,
+    "work_id": "work_the-very-private-life-of-mister-sim_2015",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 485166,
+    "work_id": "work_amanda_2018",
+    "completed_at": "2026-04-15",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 756651,
+    "work_id": "work_hold-me-tight_2021",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 79302,
+    "work_id": "work_listening-to-judge-garzon_2011",
+    "completed_at": "2026-04-15",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated"
+    ]
+  },
+  {
+    "tmdb_id": 186753,
+    "work_id": "work_the-color-of-the-clouds_1997",
+    "completed_at": "2026-04-15",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated"
+    ]
+  },
+  {
+    "tmdb_id": 2435,
+    "work_id": "work_solo-mia_2001",
+    "completed_at": "2026-04-15",
+    "checks_passed": 12,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio",
+      "ranking_scores.updated"
+    ]
   }
 ]
