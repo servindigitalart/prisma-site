@@ -2422,5 +2422,59 @@
     "failed_at": "2026-04-14",
     "source": "unknown",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 906351,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-14 22:38:28 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 193028,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 772080,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-14 22:49:41 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 461474,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-14 23:09:19 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 566212,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 365054,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-14 23:24:24 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 38198,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 1363248,
+    "failed_at": "2026-04-14",
+    "source": "unknown",
+    "error": "MIGRATE: timeout after 300s: pipeline/migrate_to_db.py --film work_the-sorcerer-s-apprentice_1996 --execute"
+  },
+  {
+    "tmdb_id": 382589,
+    "failed_at": "2026-04-15",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
   }
 ]
