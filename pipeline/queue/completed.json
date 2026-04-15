@@ -34135,5 +34135,137 @@
     "checks_passed": 0,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 333879,
+    "work_id": "work_the-ambassadors_1975",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 16077,
+    "work_id": "work_my-little-eye_2002",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 9357,
+    "work_id": "work_one-hour-photo_2002",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 11013,
+    "work_id": "work_secretary_2002",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 696241,
+    "work_id": "work_the-valley-of-the-t-rex_2001",
+    "completed_at": "2026-04-15",
+    "checks_passed": 10,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio",
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 606019,
+    "work_id": "work_duplicate-sholay_2002",
+    "completed_at": "2026-04-15",
+    "checks_passed": 12,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 1078814,
+    "work_id": "work_yugantar_2025",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 113,
+    "work_id": "work_spring-summer-fall-winter-and-spring_2003",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 87394,
+    "work_id": "work_dogora-ouvrons-les-yeux_2004",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 16907,
+    "work_id": "work_naruto-the-movie-ninja-clash-in-the-land-of-snow_2004",
+    "completed_at": "2026-04-15",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 59995,
+    "work_id": "work_wild-tigers-i-have-known_2006",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 9567,
+    "work_id": "work_tears-of-the-sun_2003",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 89271,
+    "work_id": "work_the-milky-way_2007",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 104509,
+    "work_id": "work_the-shoe-fairy_2006",
+    "completed_at": "2026-04-15",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
   }
 ]
