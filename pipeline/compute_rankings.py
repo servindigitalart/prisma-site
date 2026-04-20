@@ -47,11 +47,20 @@ import sys
 import argparse
 import os
 from collections import defaultdict
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv(".env.local")
 from supabase import create_client
 from ranking_matrix import get_award_weight, FESTIVAL_TIER_MULTIPLIERS
+
+sys.path.insert(0, str(Path(__file__).parent))
+from populate_candidates import (
+    CATEGORY_FILM_MULTIPLIER,
+    FESTIVAL_TIER_WEIGHT,
+    DEFAULT_CATEGORY_MULTIPLIER,
+    DEFAULT_FESTIVAL_WEIGHT,
+)
 
 
 # ─── Pagination helper ────────────────────────────────────────────────────────
@@ -175,25 +184,49 @@ def compute_work_scores(db, dry_run: bool) -> list[dict]:
     # ── Step 0: Delete all existing work scores before recomputing ────────────
     reset_scores(db, ["work"], dry_run)
 
-    works_r = db.table("works").select(
-        "id, title, tmdb_popularity, imdb_rating, criterion_title, mubi_title"
-    ).execute()
-    works = {w["id"]: w for w in works_r.data}
+    works_list = fetch_all(
+        db.table("works").select(
+            "id, title, tmdb_popularity, imdb_rating, criterion_title, mubi_title"
+        )
+    )
+    works = {w["id"]: w for w in works_list}
 
     awards_data = fetch_all(
-        db.table("work_awards").select("work_id, award_id, result, awards(tier)")
+        db.table("work_awards").select("work_id, award_id, result")
     )
+
+    # Fetch awards table for scoring_points lookup
+    awards_table = fetch_all(
+        db.table("awards").select("id, scoring_points, tier, festival_id")
+    )
+    awards_map = {a["id"]: a for a in awards_table}
 
     # Award prestige per work: sum of weighted contributions
     work_prestige: dict[str, float] = defaultdict(float)
     for row in awards_data:
-        tier = (row.get("awards") or {}).get("tier", "C")
-        result_mult = WIN_MULTIPLIER if row["result"] == "win" else NOM_MULTIPLIER
-        # Use director weight as film-level prestige proxy
-        base = get_award_weight(row["award_id"], "director", tier)
-        if base == 0.0:
-            base = FESTIVAL_TIER_MULTIPLIERS.get(tier, 0.35) * 0.5
-        work_prestige[row["work_id"]] += base * result_mult * 10
+        award_id = row["award_id"]
+        result   = row["result"]
+
+        award = awards_map.get(award_id, {})
+        pts   = award.get("scoring_points") or 0
+        tier  = award.get("tier", "C")
+
+        # Derive festival key from award_id
+        award_key    = award_id.replace("award_", "")
+        festival_key = award_key.split("-")[0] if "-" in award_key else award_key.split("_")[0]
+
+        fest_weight = FESTIVAL_TIER_WEIGHT.get(festival_key, DEFAULT_FESTIVAL_WEIGHT)
+        cat_mult    = CATEGORY_FILM_MULTIPLIER.get(award_key, DEFAULT_CATEGORY_MULTIPLIER)
+
+        if cat_mult == 0.0:
+            continue  # skip legacy duplicates
+
+        if result == "win":
+            contribution = pts * fest_weight * cat_mult
+        else:
+            contribution = pts * fest_weight * cat_mult * 0.4
+
+        work_prestige[row["work_id"]] += contribution
 
     scores = []
     for work_id, w in works.items():
@@ -204,11 +237,11 @@ def compute_work_scores(db, dry_run: bool) -> list[dict]:
         mubi_bonus = 3.0 if w.get("mubi_title") else 0.0
 
         score = (
-            prestige   * 0.50
-            + imdb     * 0.30
-            + popularity * 0.10
-            + crit_bonus * 0.05
-            + mubi_bonus * 0.05
+            prestige                   # e.g. 0–500+ pts from awards
+            + imdb     * 5.0           # 8.5 rating → 42.5 bonus pts
+            + popularity * 2.0         # normalized 0-10 → 0-20 bonus
+            + crit_bonus * 10.0        # Criterion → +10 pts
+            + mubi_bonus * 5.0         # MUBI → +5 pts
         )
         scores.append({
             "entity_id":   work_id,
