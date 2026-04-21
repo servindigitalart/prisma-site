@@ -37453,5 +37453,76 @@
     "checks_passed": 0,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 78241,
+    "work_id": "work_lost-at-war_2007",
+    "completed_at": "2026-04-21",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 80739,
+    "work_id": "work_volaverunt_1999",
+    "completed_at": "2026-04-21",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 38091,
+    "work_id": "work_nobody-knows-anybody_1999",
+    "completed_at": "2026-04-21",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 26718,
+    "work_id": "work_g-men_1935",
+    "completed_at": "2026-04-21",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 32194,
+    "work_id": "work_comrade-x_1940",
+    "completed_at": "2026-04-21",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 48989,
+    "work_id": "work_none-shall-escape_1944",
+    "completed_at": "2026-04-21",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 308848,
+    "work_id": "work_the-18-10-train_1999",
+    "completed_at": "2026-04-21",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 21159,
+    "work_id": "work_the-last-man-on-earth_1964",
+    "completed_at": "2026-04-21",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
   }
 ]
