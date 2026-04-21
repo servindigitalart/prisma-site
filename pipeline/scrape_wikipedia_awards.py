@@ -1281,7 +1281,8 @@ def scrape_festival_year(
     # ── Also insert into work_awards for films already in the catalog ─────────
     wa_inserted = 0
     if tmdb_map is not None and existing_pairs is not None and valid_award_ids is not None:
-        work_awards_to_insert = []
+        # Collect candidates, deduplicating per (work_id, award_id): wins beat nominations
+        pending: dict[tuple[str, str], str] = {}  # (work_id, award_id) → result
         for c in candidates:
             tmdb_id = c.get("tmdb_id")
             if not tmdb_id:
@@ -1297,22 +1298,32 @@ def scrape_festival_year(
                 pair = (work_id, award_id)
                 if pair in existing_pairs:
                     continue
-                work_awards_to_insert.append({
-                    "work_id":  work_id,
-                    "award_id": award_id,
-                    "result":   res,
-                })
-                existing_pairs.add(pair)
+                # Prefer "win" over "nomination" when both appear for same pair
+                if pair not in pending or res == "win":
+                    pending[pair] = res
+
+        work_awards_to_insert = [
+            {"work_id": wid, "award_id": aid, "result": res}
+            for (wid, aid), res in pending.items()
+        ]
+        # Mark all as existing so later years in the same run don't re-insert
+        for wid, aid in pending:
+            existing_pairs.add((wid, aid))
 
         if work_awards_to_insert:
             for i in range(0, len(work_awards_to_insert), 50):
                 batch = work_awards_to_insert[i:i + 50]
                 try:
-                    db.table("work_awards").insert(batch).execute()
+                    db.table("work_awards").upsert(
+                        batch,
+                        on_conflict="work_id,award_id",
+                    ).execute()
                 except Exception as e:
                     for rec in batch:
                         try:
-                            db.table("work_awards").insert(rec).execute()
+                            db.table("work_awards").upsert(
+                                rec, on_conflict="work_id,award_id"
+                            ).execute()
                         except Exception:
                             pass
             wa_inserted = len(work_awards_to_insert)
