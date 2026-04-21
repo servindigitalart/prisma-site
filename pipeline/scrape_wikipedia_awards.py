@@ -1294,6 +1294,47 @@ def scrape_festival_year(
                 if pair not in pending or res == "win":
                     pending[pair] = res
 
+        # ── Guard 1: max 3 awards per (film, festival) per ceremony ──────
+        # Prevents bulk scraper misassignment where a film accumulates many
+        # awards from one festival in a single year.
+        MUTEX_GRAND_PRIZES: dict[str, list[str]] = {
+            "cannes":  ["award_cannes-palme-dor", "award_cannes-grand-prix",
+                        "award_cannes-jury-prize", "award_cannes-special-jury"],
+            "berlin":  ["award_berlin-golden-bear", "award_berlin-grand-jury-prize",
+                        "award_berlin-silver-bear-jury"],
+            "venice":  ["award_venice-golden-lion", "award_venice-grand-jury",
+                        "award_venice-special-jury"],
+        }
+
+        fest_win_count: dict[tuple[str, str], int] = defaultdict(int)  # (work_id, fest) → wins
+        fest_award_count: dict[tuple[str, str], int] = defaultdict(int)  # (work_id, fest) → total
+
+        filtered_pending: dict[tuple[str, str], str] = {}
+        for (wid, aid), res in pending.items():
+            # Derive festival prefix from award_id  e.g. "award_cannes-palme-dor" → "cannes"
+            raw_key = aid.removeprefix("award_")
+            fest = raw_key.split("-")[0]
+
+            # ── Guard 2: mutually exclusive grand-prize wins ───────────────
+            if res == "win" and fest in MUTEX_GRAND_PRIZES:
+                mutex_list = MUTEX_GRAND_PRIZES[fest]
+                if aid in mutex_list:
+                    if fest_win_count[(wid, fest)] >= 1:
+                        # Already have a higher-priority grand prize win → skip
+                        print(f"    ⚠ Skipping mutex conflict {aid} for {wid} (already has grand prize from {fest})")
+                        continue
+                    fest_win_count[(wid, fest)] += 1
+
+            # ── Guard 1: max 3 total awards per film per festival ─────────
+            fest_award_count[(wid, fest)] += 1
+            if fest_award_count[(wid, fest)] > 3:
+                print(f"    ⚠ Skipping extra {aid} for {wid} ({fest_award_count[(wid, fest)]-1} already)")
+                continue
+
+            filtered_pending[(wid, aid)] = res
+
+        pending = filtered_pending
+
         work_awards_to_insert = [
             {"work_id": wid, "award_id": aid, "result": res}
             for (wid, aid), res in pending.items()
