@@ -37343,5 +37343,24 @@
     "checks_passed": 0,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 74269,
+    "work_id": "work_the-brave-archer-3_1981",
+    "completed_at": "2026-04-21",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 1670535,
+    "work_id": "work_how-do-you-live_1960",
+    "completed_at": "2026-04-21",
+    "checks_passed": 11,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
   }
 ]
