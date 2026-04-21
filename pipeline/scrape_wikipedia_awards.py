@@ -1072,6 +1072,45 @@ def save_checkpoint(festival_key: str, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2))
 
 
+# ─── Catalog helpers ──────────────────────────────────────────────────────────
+
+def fetch_catalog(db) -> tuple[dict[int, str], set[tuple[str, str]]]:
+    """
+    Returns:
+      tmdb_map       {tmdb_id (int): work_id (str)}
+      existing_pairs {(work_id, award_id)} — already in work_awards
+    """
+    works: list = []
+    offset = 0
+    while True:
+        batch = (db.table("works").select("id, tmdb_id")
+                 .not_.is_("tmdb_id", "null")
+                 .range(offset, offset + 999).execute().data or [])
+        works.extend(batch)
+        if len(batch) < 1000:
+            break
+        offset += 1000
+
+    tmdb_map: dict[int, str] = {
+        int(r["tmdb_id"]): r["id"]
+        for r in works
+        if r.get("tmdb_id") is not None
+    }
+
+    existing: list = []
+    offset = 0
+    while True:
+        batch = (db.table("work_awards").select("work_id, award_id")
+                 .range(offset, offset + 999).execute().data or [])
+        existing.extend(batch)
+        if len(batch) < 1000:
+            break
+        offset += 1000
+
+    existing_pairs: set[tuple[str, str]] = {(r["work_id"], r["award_id"]) for r in existing}
+    return tmdb_map, existing_pairs
+
+
 # ─── Score computation ────────────────────────────────────────────────────────
 
 def compute_score(
@@ -1101,6 +1140,9 @@ def scrape_festival_year(
     scoring_map: dict,
     dry_run: bool = False,
     tmdb_cache: dict = None,
+    tmdb_map: dict = None,
+    existing_pairs: set = None,
+    valid_award_ids: set = None,
 ) -> dict:
     """
     Scrape one ceremony year for a festival.
@@ -1235,13 +1277,55 @@ def scrape_festival_year(
         }
 
     result = upsert_candidates(db, candidates, dry_run=False)
+
+    # ── Also insert into work_awards for films already in the catalog ─────────
+    wa_inserted = 0
+    if tmdb_map is not None and existing_pairs is not None and valid_award_ids is not None:
+        work_awards_to_insert = []
+        for c in candidates:
+            tmdb_id = c.get("tmdb_id")
+            if not tmdb_id:
+                continue
+            work_id = tmdb_map.get(int(tmdb_id))
+            if not work_id:
+                continue  # not in catalog yet
+            for award_entry in (c.get("awards_json") or []):
+                award_id = award_entry.get("award_id")
+                res      = award_entry.get("result", "win")
+                if not award_id or award_id not in valid_award_ids:
+                    continue
+                pair = (work_id, award_id)
+                if pair in existing_pairs:
+                    continue
+                work_awards_to_insert.append({
+                    "work_id":  work_id,
+                    "award_id": award_id,
+                    "result":   res,
+                })
+                existing_pairs.add(pair)
+
+        if work_awards_to_insert:
+            for i in range(0, len(work_awards_to_insert), 50):
+                batch = work_awards_to_insert[i:i + 50]
+                try:
+                    db.table("work_awards").insert(batch).execute()
+                except Exception as e:
+                    for rec in batch:
+                        try:
+                            db.table("work_awards").insert(rec).execute()
+                        except Exception:
+                            pass
+            wa_inserted = len(work_awards_to_insert)
+            print(f"    work_awards inserted: {wa_inserted}")
+
     return {
-        "found":    found,
-        "resolved": resolved,
-        "inserted": result.get("inserted", 0),
-        "updated":  result.get("updated", 0),
-        "skipped":  skipped,
-        "gap":      False,
+        "found":               found,
+        "resolved":            resolved,
+        "inserted":            result.get("inserted", 0),
+        "updated":             result.get("updated", 0),
+        "skipped":             skipped,
+        "gap":                 False,
+        "work_awards_inserted": wa_inserted,
     }
 
 
@@ -1255,6 +1339,9 @@ def scrape_festival(
     db               = None,
     scoring_map: dict = None,
     dry_run: bool    = False,
+    tmdb_map: dict   = None,
+    existing_pairs: set = None,
+    valid_award_ids: set = None,
 ) -> dict:
     """
     Scrape all (or a range of) years for a festival.
@@ -1300,8 +1387,10 @@ def scrape_festival(
         stats = scrape_festival_year(
             festival_key, year, db, scoring_map,
             dry_run=dry_run, tmdb_cache=tmdb_cache,
+            tmdb_map=tmdb_map, existing_pairs=existing_pairs,
+            valid_award_ids=valid_award_ids,
         )
-        for k in ("found", "resolved", "inserted", "updated", "skipped"):
+        for k in ("found", "resolved", "inserted", "updated", "skipped", "work_awards_inserted"):
             totals[k] += stats.get(k, 0)
         if stats.get("gap"):
             gaps.append(year)
@@ -1344,6 +1433,7 @@ def scrape_festival(
     if not dry_run:
         print(f"  New candidates   : {totals['inserted']:,}")
         print(f"  Scores updated   : {totals['updated']:,}")
+        print(f"  work_awards added: {totals['work_awards_inserted']:,}")
     print(f"  Coverage gaps    : {gap_str}")
 
     return dict(totals)
@@ -1455,6 +1545,14 @@ def main() -> None:
     scoring_map = get_scoring_map(db)
     print(f"Loaded {len(scoring_map)} scoring entries from awards table")
 
+    # Load catalog for work_awards enrichment
+    awards_r = db.table("awards").select("id").execute()
+    valid_award_ids: set[str] = {a["id"] for a in awards_r.data}
+    print(f"Loaded {len(valid_award_ids)} valid award IDs")
+
+    tmdb_map, existing_pairs = fetch_catalog(db)
+    print(f"Catalog: {len(tmdb_map):,} works with tmdb_id, {len(existing_pairs):,} existing work_awards pairs")
+
     if args.all:
         festivals = sorted(FESTIVAL_PAGES.keys())
     elif args.festival:
@@ -1478,6 +1576,9 @@ def main() -> None:
             db=db,
             scoring_map=scoring_map,
             dry_run=args.dry_run,
+            tmdb_map=tmdb_map,
+            existing_pairs=existing_pairs,
+            valid_award_ids=valid_award_ids,
         )
         for k, v in stats.items():
             if isinstance(v, int):
