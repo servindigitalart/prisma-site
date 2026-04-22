@@ -49,7 +49,7 @@ WIKIDATA_AWARD_MAP = {
     # Cannes — both QIDs seen in the wild
     "Q41445":   "award_cannes-palme-dor",  # Palme d'Or (concept item)
     "Q179808":  "award_cannes-palme-dor",  # Palme d'Or (award item — used by most films)
-    "Q695106":  "award_cannes-grand-prix",
+    "Q844804":  "award_cannes-grand-prix",
     "Q844804":  "award_cannes-grand-prix",  # alias QID seen in catalog
     "Q631033":  "award_cannes-jury-prize",
     "Q1136734": "award_cannes-best-director",

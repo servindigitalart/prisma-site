@@ -33,7 +33,7 @@ AWARD_QUERY_MAP = {
     "oscar-best-film-editing":          {"qid": "Q281939",   "festival": "oscar",        "tier": "A", "label": "Academy Award for Best Film Editing"},
     # ── Cannes (verified QIDs) ───────────────────────────────────────────────
     "cannes-palme-dor":                 {"qid": "Q179808",   "festival": "cannes",       "tier": "A", "label": "Palme d'Or"},
-    "cannes-grand-prix":                {"qid": "Q695106",   "festival": "cannes",       "tier": "A", "label": "Cannes Grand Prix"},
+    "cannes-grand-prix":                {"qid": "Q844804",   "festival": "cannes",       "tier": "A", "label": "Cannes Grand Prix"},
     "cannes-jury-prize":                {"qid": "Q164200",   "festival": "cannes",       "tier": "B", "label": "Cannes Jury Prize"},
     "cannes-best-director":             {"qid": "Q1136734",  "festival": "cannes",       "tier": "B", "label": "Cannes Best Director Prize"},
     "cannes-best-actress":              {"qid": "Q1401748",  "festival": "cannes",       "tier": "B", "label": "Cannes Best Actress Prize"},
