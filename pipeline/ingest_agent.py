@@ -1056,42 +1056,96 @@ def main() -> int:
         items = [{"tmdb_id": args.tmdb, "source": "manual"}]
         use_queue = False
     elif args.retry_drafts:
-        # Pull draft works from Supabase (is_published=False).
-        # Uses paginated fetching with a small page size to avoid statement timeouts
-        # on the unindexed is_published column.  Once migration 020 is applied
-        # (CREATE INDEX idx_works_is_published) this will be fast.
+        # Pull draft works ordered by ranking score (highest prestige first).
+        # Strategy: fetch all ranking_scores for works + all draft work IDs,
+        # then intersect and sort — avoids a slow ORDER BY on unindexed columns.
         batch_size = args.batch or 50
         try:
             db = get_db()
-            draft_rows: list[dict] = []
+
+            # 1. Fetch all ranking scores for works (paginated)
+            ranking_rows: list[dict] = []
             offset = 0
-            page_size = 10          # small pages to stay under statement timeout
-            while len(draft_rows) < batch_size:
+            while True:
+                chunk = (
+                    db.from_("ranking_scores")
+                    .select("entity_id, score")
+                    .eq("entity_type", "work")
+                    .eq("context", "global")
+                    .order("score", desc=True)
+                    .range(offset, offset + 999)
+                    .execute()
+                    .data or []
+                )
+                ranking_rows.extend(chunk)
+                if len(chunk) < 1000:
+                    break
+                offset += 1000
+
+            # 2. Fetch all draft work IDs + tmdb_id + title (paginated, small pages)
+            draft_tmdb: dict[str, dict] = {}
+            offset = 0
+            page_size = 10      # small pages to stay under statement timeout
+            while True:
                 chunk = (
                     db.from_("works")
-                    .select("id,tmdb_id,title")
+                    .select("id, tmdb_id, title")
                     .eq("is_published", False)
                     .not_.is_("tmdb_id", "null")
                     .range(offset, offset + page_size - 1)
                     .execute()
                     .data or []
                 )
-                draft_rows.extend(chunk)
+                for row in chunk:
+                    draft_tmdb[row["id"]] = row
                 if len(chunk) < page_size:
-                    break       # no more rows
+                    break
                 offset += page_size
+
+            # 3. Intersect: drafts that have a ranking score, ordered by score DESC
+            draft_rows: list[dict] = []
+            for r in ranking_rows:
+                work_id = r["entity_id"]
+                if work_id in draft_tmdb:
+                    draft_rows.append({
+                        "tmdb_id": int(draft_tmdb[work_id]["tmdb_id"]),
+                        "title":   draft_tmdb[work_id].get("title", ""),
+                        "work_id": work_id,
+                        "score":   r["score"],
+                    })
+                if len(draft_rows) >= batch_size:
+                    break
+
+            # 4. Append drafts with no ranking score at the end (score=0)
+            ranked_ids = {r["entity_id"] for r in ranking_rows}
+            for work_id, row in draft_tmdb.items():
+                if work_id not in ranked_ids and len(draft_rows) < batch_size:
+                    draft_rows.append({
+                        "tmdb_id": int(row["tmdb_id"]),
+                        "title":   row.get("title", ""),
+                        "work_id": work_id,
+                        "score":   0,
+                    })
+
             draft_rows = draft_rows[:batch_size]
+
         except Exception as e:
             print(f"\n  ✗ Could not fetch draft works: {e}\n")
             print(f"  Tip: apply migrations/020_index_works_is_published.sql in Supabase to fix slow queries.\n")
             return 1
+
         if not draft_rows:
             print("\n  No draft works found in Supabase (all published or no tmdb_id).\n")
             return 0
-        items = [{"tmdb_id": int(r["tmdb_id"]), "work_id": r["id"], "source": "draft_retry",
-                  "title": r.get("title", "")} for r in draft_rows]
+
+        print(f"\n  ↷ Retry-drafts mode: {len(draft_tmdb)} total drafts, processing top {len(draft_rows)} by ranking score")
+        if draft_rows:
+            top3 = [(r["title"], r["score"]) for r in draft_rows[:3]]
+            print(f"  Top 3 by score: {top3}")
+
+        items = [{"tmdb_id": r["tmdb_id"], "work_id": r["work_id"],
+                  "source": "draft_retry", "title": r["title"]} for r in draft_rows]
         use_queue = False
-        print(f"\n  ↷ Retry-drafts mode: {len(items)} draft works loaded from Supabase")
     else:
         # Auto-deduplicate before every batch
         if execute:
