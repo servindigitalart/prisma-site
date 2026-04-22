@@ -223,3 +223,36 @@ jobs:
 
       - name: Recompute rankings
         run: python pipeline/compute_rankings.py 2>&1 | tail -10
+
+  retry_drafts:
+    runs-on: ubuntu-latest
+    needs: recompute
+    if: always()
+    timeout-minutes: 120
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PUBLIC_SUPABASE_URL: ${{ secrets.PUBLIC_SUPABASE_URL }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Retry draft works — publish pipeline (steps 9-13)
+        run: |
+          python pipeline/ingest_agent.py \
+            --retry-drafts \
+            --batch 100 \
+            --execute \
+            2>&1 | tail -30

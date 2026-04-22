@@ -418,8 +418,16 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
     Critical failures (first 10) block READY status; last 5 are warnings only.
     """
     work  = db_get_work(db, work_id)
-    ca    = db_get_color_assignment(db, work_id)
-    wp    = db_get_work_people(db, work_id)
+    ca    = None
+    wp    = []
+    try:
+        ca = db_get_color_assignment(db, work_id)
+    except Exception:
+        pass
+    try:
+        wp = db_get_work_people(db, work_id)
+    except Exception:
+        pass
 
     # Director info
     director_person_id = next((p["person_id"] for p in wp if p.get("role") == "director"), None)
@@ -433,8 +441,12 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
     awards_searched = True  # We attempted enrichment — it's searched even if 0 results
 
     # Score existence — filter by entity_id (not context)
-    scores_res = db.from_("ranking_scores").select("entity_id, score").eq("entity_id", work_id).limit(1).execute()
-    scores_updated = bool(scores_res.data)
+    scores_updated = False
+    try:
+        scores_res = db.from_("ranking_scores").select("entity_id, score").eq("entity_id", work_id).limit(1).execute()
+        scores_updated = bool(scores_res.data)
+    except Exception:
+        scores_updated = False  # non-critical — treat as warning only
 
     CHECKS: list[tuple[str, Any, bool]] = [
         # (label, value, is_critical)
@@ -470,6 +482,134 @@ def run_verification(db, work_id: str) -> tuple[int, int, list[str]]:
     return passed, len(CHECKS), warnings
 
 
+# ─── Draft retry: run steps 8-13 on an existing draft work ───────────────────
+
+def _publish_draft(
+    work_id: str,
+    result: dict[str, Any],
+    dry_run: bool,
+    execute: bool,
+) -> dict[str, Any]:
+    """
+    Run steps 9–13 (ENRICH → VERIFY → PUBLISH) for a work that already
+    exists in Supabase as a draft (is_published=False).
+
+    Steps 1–8 are skipped entirely:
+      - 1-7: raw data was already fetched and processed on the original run
+      - 8 (MIGRATE): data is already in Supabase — re-running migrate would
+        fail because the local normalized JSON files only exist on the CI runner
+        that first ingested this work.  We go straight to enrichment + publish.
+    """
+    result.setdefault("steps", {})
+    result.setdefault("migrated", False)
+    result.setdefault("checks_passed", 0)
+    result.setdefault("checks_total", 15)
+
+    # Mark steps 1-8 as skipped (data already in Supabase)
+    for label in ("CONFIRM", "INGEST", "DETAILS", "CREDITS", "TMDB ENRICH",
+                  "GEMINI", "PRE-MIGRATE CHECK", "MIGRATE"):
+        result["steps"].setdefault(label, "skipped_draft_retry")
+
+    step(8, "MIGRATE", "↷", f"already in Supabase as draft — skipping re-migrate")
+
+    # ── Step 9: ENRICH PEOPLE ─────────────────────────────────────────────────
+    if dry_run:
+        step(9, "ENRICH PEOPLE", "[DRY RUN]", "would fetch bios/photos for new people")
+        result["steps"]["ENRICH PEOPLE"] = "dry_run"
+    elif execute:
+        try:
+            db = get_db()
+            bios, photos = enrich_people_for_work(db, work_id, dry_run=False)
+            step(9, "ENRICH PEOPLE", "✓", f"+{bios} bios, +{photos} photos")
+            result["steps"]["ENRICH PEOPLE"] = "ok"
+        except Exception as e:
+            step(9, "ENRICH PEOPLE", "⚠", f"non-fatal: {e}")
+            result["steps"]["ENRICH PEOPLE"] = "warning"
+    else:
+        step(9, "ENRICH PEOPLE", "[DRY RUN]", "no DB connection (not --execute)")
+        result["steps"]["ENRICH PEOPLE"] = "dry_run"
+
+    # ── Step 10: ENRICH AWARDS ────────────────────────────────────────────────
+    if dry_run:
+        step(10, "ENRICH AWARDS", "[DRY RUN]", f"would run Wikidata SPARQL for {work_id}")
+        result["steps"]["ENRICH AWARDS"] = "dry_run"
+    elif execute:
+        ok, out = run_script(["pipeline/enrich_work_awards.py", "--work", work_id], timeout=120)
+        if ok:
+            award_line = next((l for l in out.splitlines() if "award" in l.lower()), "")
+            step(10, "ENRICH AWARDS", "✓", award_line.strip() or work_id)
+            result["steps"]["ENRICH AWARDS"] = "ok"
+        else:
+            step(10, "ENRICH AWARDS", "⚠", f"non-fatal: {out[:80]}")
+            result["steps"]["ENRICH AWARDS"] = "warning"
+        time.sleep(1.2)
+    else:
+        step(10, "ENRICH AWARDS", "[DRY RUN]", "no DB connection (not --execute)")
+        result["steps"]["ENRICH AWARDS"] = "dry_run"
+
+    # ── Step 11: RECOMPUTE SCORES ─────────────────────────────────────────────
+    if dry_run:
+        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "would run recompute_film_scores + person_rankings")
+        result["steps"]["RECOMPUTE SCORES"] = "dry_run"
+    elif execute:
+        ok1, _ = run_script(["pipeline/recompute_film_scores.py"], timeout=300)
+        ok2, _ = run_script(["pipeline/compute_person_rankings.py"], timeout=300)
+        if ok1 and ok2:
+            step(11, "RECOMPUTE SCORES", "✓", "film scores + person rankings updated")
+            result["steps"]["RECOMPUTE SCORES"] = "ok"
+        else:
+            step(11, "RECOMPUTE SCORES", "⚠", "partial: check recompute logs")
+            result["steps"]["RECOMPUTE SCORES"] = "warning"
+    else:
+        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "no DB connection (not --execute)")
+        result["steps"]["RECOMPUTE SCORES"] = "dry_run"
+
+    # ── Step 12: VERIFY ───────────────────────────────────────────────────────
+    if dry_run:
+        step(12, "VERIFY", "[DRY RUN]", "15-point checklist skipped in dry run")
+        result["steps"]["VERIFY"] = "dry_run"
+        result["checks_passed"] = 0
+        result["checks_total"]  = 15
+    elif execute:
+        print(f"  Step 12/{TOTAL_STEPS}  {'VERIFY':<{STEP_WIDTH}}  running 15-point checklist…")
+        try:
+            db = get_db()
+            passed, total, warnings = run_verification(db, work_id)
+            result["checks_passed"] = passed
+            result["checks_total"]  = total
+            result["warnings"]      = warnings
+            icon = "✓" if passed >= 10 else "⚠"
+            step(12, "VERIFY", icon, f"{passed}/{total} checks passed")
+            result["steps"]["VERIFY"] = "ok" if passed >= 10 else "warning"
+
+            if passed < 10:
+                print(f"    ✗ Critical checks failed — draft stays unpublished")
+                result["status"] = "failed"
+                result["error"]  = f"VERIFY: only {passed}/10 critical checks passed"
+                return result
+
+            if passed >= 15:
+                try:
+                    db.from_("works").update({"is_published": True}).eq("id", work_id).execute()
+                    print(f"    ✓ Auto-published: {work_id} (15/15 checks passed)")
+                    result["auto_published"] = True
+                except Exception as e:
+                    print(f"    ⚠ Auto-publish failed: {e}")
+        except Exception as e:
+            step(12, "VERIFY", "⚠", f"verification error: {e}")
+            result["steps"]["VERIFY"] = "warning"
+    else:
+        step(12, "VERIFY", "[DRY RUN]", "no DB connection (not --execute)")
+        result["steps"]["VERIFY"] = "dry_run"
+
+    # ── Step 13: REPORT ───────────────────────────────────────────────────────
+    passed_str = f"{result['checks_passed']}/{result['checks_total']} checks" if execute else "dry run"
+    step(13, "REPORT", "✓", f"{work_id} — {passed_str} [draft retry]")
+    result["steps"]["REPORT"] = "ok"
+    result["status"] = "ok"
+    return result
+
+
 # ─── Core: process one film ───────────────────────────────────────────────────
 
 def process_film(
@@ -499,17 +639,28 @@ def process_film(
         result["steps"]["CONFIRM"] = "ok"
         result["tmdb_title"] = title
         result["tmdb_year"]  = year
-        # Per-film duplicate check — skip immediately if already in Supabase
+        # Per-film duplicate check — skip published works, retry drafts
         if execute:
             try:
                 _db = get_db()
-                _existing = _db.from_("works").select("id").eq("tmdb_id", tmdb_id).execute()
+                _existing = _db.from_("works").select("id,is_published").eq("tmdb_id", tmdb_id).execute()
                 if _existing.data:
-                    existing_id = _existing.data[0]["id"]
-                    step(1, "CONFIRM", "↷", f"already in Supabase as {existing_id} — skipping")
-                    result["status"]  = "skipped"
-                    result["work_id"] = existing_id
-                    return result
+                    existing_id  = _existing.data[0]["id"]
+                    is_published = _existing.data[0].get("is_published", False)
+                    if is_published:
+                        step(1, "CONFIRM", "↷", f"already published as {existing_id} — skipping")
+                        result["status"]  = "skipped"
+                        result["reason"]  = "already published"
+                        result["work_id"] = existing_id
+                        return result
+                    else:
+                        # Draft exists — skip data-fetch steps, go straight to publish pipeline
+                        step(1, "CONFIRM", "↷", f"draft found ({existing_id}) — retrying publish pipeline")
+                        result["work_id"]       = existing_id
+                        result["is_draft_retry"] = True
+                        result["steps"]["CONFIRM"] = "ok"
+                        # Jump directly to step 8 (MIGRATE already done)
+                        return _publish_draft(existing_id, result, dry_run=dry_run, execute=execute)
             except Exception:
                 pass  # Can't check Supabase — proceed normally
     except Exception as e:
@@ -857,12 +1008,16 @@ def main() -> int:
     )
 
     source = parser.add_mutually_exclusive_group()
-    source.add_argument("--batch", "-b", type=int, metavar="N",
-                        help="Take N films from pending queue and process them.")
     source.add_argument("--tmdb", "-t", type=int, metavar="ID",
                         help="Process a single TMDB ID (not from queue).")
+    source.add_argument("--retry-drafts", action="store_true",
+                        help="Pull works WHERE is_published=False and retry the publish pipeline.")
     source.add_argument("--status", action="store_true",
                         help="Show queue status and exit.")
+
+    # --batch works as queue size for normal runs AND as limit for --retry-drafts
+    parser.add_argument("--batch", "-b", type=int, metavar="N",
+                        help="Number of films to process (queue batch size, or draft limit).")
 
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--dry-run", action="store_true", default=True,
@@ -880,7 +1035,7 @@ def main() -> int:
         queue_status()
         return 0
 
-    if not args.batch and not args.tmdb:
+    if not args.batch and not args.tmdb and not args.retry_drafts:
         parser.print_help()
         return 1
 
@@ -900,6 +1055,43 @@ def main() -> int:
     if args.tmdb:
         items = [{"tmdb_id": args.tmdb, "source": "manual"}]
         use_queue = False
+    elif args.retry_drafts:
+        # Pull draft works from Supabase (is_published=False).
+        # Uses paginated fetching with a small page size to avoid statement timeouts
+        # on the unindexed is_published column.  Once migration 020 is applied
+        # (CREATE INDEX idx_works_is_published) this will be fast.
+        batch_size = args.batch or 50
+        try:
+            db = get_db()
+            draft_rows: list[dict] = []
+            offset = 0
+            page_size = 10          # small pages to stay under statement timeout
+            while len(draft_rows) < batch_size:
+                chunk = (
+                    db.from_("works")
+                    .select("id,tmdb_id,title")
+                    .eq("is_published", False)
+                    .not_.is_("tmdb_id", "null")
+                    .range(offset, offset + page_size - 1)
+                    .execute()
+                    .data or []
+                )
+                draft_rows.extend(chunk)
+                if len(chunk) < page_size:
+                    break       # no more rows
+                offset += page_size
+            draft_rows = draft_rows[:batch_size]
+        except Exception as e:
+            print(f"\n  ✗ Could not fetch draft works: {e}\n")
+            print(f"  Tip: apply migrations/020_index_works_is_published.sql in Supabase to fix slow queries.\n")
+            return 1
+        if not draft_rows:
+            print("\n  No draft works found in Supabase (all published or no tmdb_id).\n")
+            return 0
+        items = [{"tmdb_id": int(r["tmdb_id"]), "work_id": r["id"], "source": "draft_retry",
+                  "title": r.get("title", "")} for r in draft_rows]
+        use_queue = False
+        print(f"\n  ↷ Retry-drafts mode: {len(items)} draft works loaded from Supabase")
     else:
         # Auto-deduplicate before every batch
         if execute:
@@ -917,7 +1109,7 @@ def main() -> int:
     print(f"  PRISMA Ingestion Agent")
     print(f"  ══════════════════════════════════════════════")
     print(f"  Films:  {len(items)}")
-    print(f"  Mode:   {mode_str}")
+    print(f"  Mode:   {mode_str}{'  [retry-drafts]' if args.retry_drafts else ''}")
     print(f"  Worker: {args.worker}/3")
     print(f"  ══════════════════════════════════════════════\n")
 
@@ -1006,6 +1198,8 @@ def main() -> int:
         print(f"\n  This was a dry run — no files written, no DB changes.")
         if args.tmdb:
             print(f"  To execute: python pipeline/ingest_agent.py --tmdb {args.tmdb} --execute")
+        elif args.retry_drafts:
+            print(f"  To execute: python pipeline/ingest_agent.py --retry-drafts --batch {args.batch or 50} --execute")
         else:
             print(f"  To execute: python pipeline/ingest_agent.py --batch {args.batch} --execute")
 
