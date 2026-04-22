@@ -38661,5 +38661,32 @@
     "checks_passed": 0,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 1455378,
+    "work_id": "work_night-on-earth_",
+    "completed_at": "2026-04-22",
+    "checks_passed": 11,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_bio",
+      "ranking_scores.updated"
+    ]
+  },
+  {
+    "tmdb_id": 264523,
+    "work_id": "work_manuela-jankovic-s-war_2014",
+    "completed_at": "2026-04-22",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 11667,
+    "work_id": "work_street-fighter_1994",
+    "completed_at": "2026-04-22",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
   }
 ]

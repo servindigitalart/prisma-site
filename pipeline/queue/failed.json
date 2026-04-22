@@ -2574,12 +2574,6 @@
     "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-15 20:10:24 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
   },
   {
-    "tmdb_id": 313882,
-    "failed_at": "2026-04-15",
-    "source": "unknown",
-    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-15 20:11:54 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
-  },
-  {
     "tmdb_id": 520171,
     "failed_at": "2026-04-15",
     "source": "unknown",
@@ -3577,6 +3571,60 @@
   },
   {
     "tmdb_id": 438662,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 16328,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 20:48:42 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 1658297,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 20:50:13 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 313882,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 20:55:24 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 55934,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 20325,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
+  },
+  {
+    "tmdb_id": 1187143,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 21:01:53 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 1305672,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 21:09:51 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 417968,
+    "failed_at": "2026-04-22",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  "
+  },
+  {
+    "tmdb_id": 1169002,
     "failed_at": "2026-04-22",
     "source": "unknown",
     "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 900, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/ru"
