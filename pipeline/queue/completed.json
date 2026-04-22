@@ -37540,5 +37540,122 @@
     "checks_passed": 15,
     "checks_total": 15,
     "warnings": []
+  },
+  {
+    "tmdb_id": 981985,
+    "work_id": "work_beginning_2021",
+    "completed_at": "2026-04-22",
+    "checks_passed": 11,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 349571,
+    "work_id": "work_kyeong-a-s-private-life_1983",
+    "completed_at": "2026-04-22",
+    "checks_passed": 12,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_photo",
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 24984,
+    "work_id": "work_the-cat_1971",
+    "completed_at": "2026-04-22",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 795530,
+    "work_id": "work_language-lessons_2021",
+    "completed_at": "2026-04-22",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 6690,
+    "work_id": "work_to-take-a-wife_2004",
+    "completed_at": "2026-04-22",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 37232,
+    "work_id": "work_travellers-and-magicians_2003",
+    "completed_at": "2026-04-22",
+    "checks_passed": 0,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 9391,
+    "work_id": "work_enduring-love_2004",
+    "completed_at": "2026-04-22",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated"
+    ]
+  },
+  {
+    "tmdb_id": 48933,
+    "work_id": "work_to-sleep-next-to-her_2004",
+    "completed_at": "2026-04-22",
+    "checks_passed": 12,
+    "checks_total": 15,
+    "warnings": [
+      "people.director_has_bio"
+    ]
+  },
+  {
+    "tmdb_id": 204203,
+    "work_id": "work_the-boy-and-the-bridge_1959",
+    "completed_at": "2026-04-22",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 57966,
+    "work_id": "work_blow-to-the-heart_1982",
+    "completed_at": "2026-04-22",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 186551,
+    "work_id": "work_the-eyes-the-mouth_1982",
+    "completed_at": "2026-04-22",
+    "checks_passed": 14,
+    "checks_total": 15,
+    "warnings": []
+  },
+  {
+    "tmdb_id": 265283,
+    "work_id": "work_the-sovereign_1937",
+    "completed_at": "2026-04-22",
+    "checks_passed": 13,
+    "checks_total": 15,
+    "warnings": [
+      "ranking_scores.updated",
+      "works.numeric_score"
+    ]
+  },
+  {
+    "tmdb_id": 116690,
+    "work_id": "work_the-ballad-of-narayama_1958",
+    "completed_at": "2026-04-22",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "warnings": []
   }
 ]
