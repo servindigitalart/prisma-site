@@ -905,6 +905,49 @@ def process_film(
             step(8, "MIGRATE", "⚠", f"slug mismatch corrected: {old_id} → {work_id}")
             work_json_path = actual_path
             derived_file = DERIVED_DIR / f"{work_id}.json"
+        elif (RAW_DIR / f"tmdb_{tmdb_id}.json").exists():
+            # Normalized file missing but raw JSON exists — this happens when a
+            # previous CI run created the normalized file but never committed it
+            # (e.g. migrate failed after normalize).  Re-run steps 3-5 from raw.
+            step(8, "MIGRATE", "⚠", f"normalized file missing — re-normalizing from raw tmdb_{tmdb_id}.json")
+            renorm_ok = True
+            for script, label in [
+                (["pipeline/normalize_tmdb_work.py",   str(tmdb_id)], "NORMALIZE WORK"),
+                (["pipeline/normalize_tmdb_people.py", str(tmdb_id)], "NORMALIZE PEOPLE"),
+                (["pipeline/normalize_tmdb_studios.py",str(tmdb_id)], "NORMALIZE STUDIOS"),
+            ]:
+                ok, out = run_script(script)
+                if not ok:
+                    step(8, "MIGRATE", "✗", f"re-{label} failed: {out[:120]}")
+                    result["steps"]["MIGRATE"] = "failed"
+                    result["status"] = "failed"
+                    result["error"]  = f"MIGRATE re-normalize ({label}): {out[:300]}"
+                    return result
+                print(f"    ↺ re-{label}: ok")
+
+            # After re-normalizing, resolve the actual work_id from the output file
+            for p in WORKS_DIR.glob("*.json"):
+                try:
+                    d = json.loads(p.read_text())
+                    if d.get("ids", {}).get("tmdb") == tmdb_id:
+                        actual_path = p
+                        break
+                except Exception:
+                    continue
+            if actual_path:
+                if actual_path.stem != work_id:
+                    old_id  = work_id
+                    work_id = actual_path.stem
+                    result["work_id"] = work_id
+                    print(f"    ↺ work_id updated: {old_id} → {work_id}")
+                work_json_path = actual_path
+                derived_file   = DERIVED_DIR / f"{work_id}.json"
+            else:
+                step(8, "MIGRATE", "✗", "re-normalize ran but output file still not found")
+                result["steps"]["MIGRATE"] = "failed"
+                result["status"] = "failed"
+                result["error"]  = "MIGRATE: re-normalize succeeded but work file still missing"
+                return result
         elif execute:
             # File truly missing — if work is already a draft in Supabase, skip
             # re-migrate and go straight to enrich/publish steps.
