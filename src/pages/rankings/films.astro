@@ -25,21 +25,43 @@ let allRankedWorks: RankedFilm[] = [];
 if (isSupabaseConfigured()) {
   const db = createServiceClient();
 
-  // Fetch all ranking scores (no artificial limit)
-  const { data: rankings } = await db
-    .from('ranking_scores')
-    .select('entity_id, score, rank')
-    .eq('entity_type', 'work')
-    .eq('context', 'global')
-    .order('rank', { ascending: true })
-    .limit(1000);
+  // Fetch all ranking scores — paginate to get beyond Supabase's default row cap
+  let rankings: Array<{ entity_id: string; score: number; rank: number | null }> = [];
+  {
+    let offset = 0;
+    while (true) {
+      const { data: chunk } = await db
+        .from('ranking_scores')
+        .select('entity_id, score, rank')
+        .eq('entity_type', 'work')
+        .eq('context', 'global')
+        .order('rank', { ascending: true })
+        .range(offset, offset + 999);
+      if (!chunk || chunk.length === 0) break;
+      rankings = rankings.concat(chunk);
+      if (chunk.length < 1000) break;
+      offset += 1000;
+    }
+  }
 
-  // Fetch ALL published works
-  const { data: allWorks, error } = await db
-    .from('works')
-    .select('id, title, year, color_assignments(color_iconico, tier, numeric_score)')
-    .eq('is_published', true)
-    .limit(1000);
+  // Fetch ALL published works — paginate to get beyond Supabase's default row cap
+  let allWorks: any[] = [];
+  let error: unknown = null;
+  {
+    let offset = 0;
+    while (true) {
+      const { data: chunk, error: chunkError } = await db
+        .from('works')
+        .select('id, title, year, color_assignments(color_iconico, tier, numeric_score)')
+        .eq('is_published', true)
+        .range(offset, offset + 999);
+      if (chunkError) { error = chunkError; break; }
+      if (!chunk || chunk.length === 0) break;
+      allWorks = allWorks.concat(chunk);
+      if (chunk.length < 1000) break;
+      offset += 1000;
+    }
+  }
 
   if (error) console.error('[rankings/films] Error fetching works:', error);
 
