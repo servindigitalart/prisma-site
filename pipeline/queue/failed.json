@@ -172,5 +172,131 @@
     "failed_at": "2026-04-22",
     "source": "unknown",
     "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-22 23:58:16 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkp"
+  },
+  {
+    "tmdb_id": 1069527,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "VERIFY: only 5/10 critical checks passed"
+  },
+  {
+    "tmdb_id": 1326364,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "VERIFY: only 6/10 critical checks passed"
+  },
+  {
+    "tmdb_id": 1523496,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:52:03 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_waiting-for-woody-allen_1998\n\n  HTTP Request: "
+  },
+  {
+    "tmdb_id": 1616984,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:53:07 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_twas-the-night-before-christmas_2000\n\n  HTTP R"
+  },
+  {
+    "tmdb_id": 203950,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:54:00 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_sin-remitente_1995\n\n  HTTP Request: GET https:"
+  },
+  {
+    "tmdb_id": 667700,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:57:13 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_a-man-and-a-woman_\n\n  HTTP Request: POST https"
+  },
+  {
+    "tmdb_id": 662174,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:58:05 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_untitled-jordan-vogt-roberts-michael-b-jordan-"
+  },
+  {
+    "tmdb_id": 1102464,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:58:33 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_untitled-jordan-peele-film_\n\n  HTTP Request: P"
+  },
+  {
+    "tmdb_id": 1579059,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 01:59:06 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_cinderella_2001\n\n  HTTP Request: GET https://p"
+  },
+  {
+    "tmdb_id": 150262,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Traceback (most recent call last):\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 903, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/work/prisma-site/prisma-site/pipeline/migrate_to_db.py\", line 870, in main\n    migrate_single_work(clie"
+  },
+  {
+    "tmdb_id": 1487449,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:00:50 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_untitled-lynne-ramsay-vampire-film_\n\n  HTTP Re"
+  },
+  {
+    "tmdb_id": 1444108,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:01:44 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_short-cuts-femmes-au-bord-de-la-crise-de-nerf-"
+  },
+  {
+    "tmdb_id": 50186,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:02:24 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_the-gypsy-camp-vanishes-into-the-blue_1976\n\n  "
+  },
+  {
+    "tmdb_id": 1661332,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:03:14 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_untitled-adam-mckay-michael-shanks-mystery-sci"
+  },
+  {
+    "tmdb_id": 1398333,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:04:07 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_cade-meu-rango_2012\n\n  HTTP Request: GET https"
+  },
+  {
+    "tmdb_id": 1550284,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:04:47 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_cher_\n\n  HTTP Request: POST https://porqyokkph"
+  },
+  {
+    "tmdb_id": 560505,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:07:05 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_thunderhawk-5-new-machine-thunderhawk_1988\n\n  "
+  },
+  {
+    "tmdb_id": 1515109,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:08:01 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_1973-os-campeoes-do-povo_2025\n\n  HTTP Request:"
+  },
+  {
+    "tmdb_id": 1120908,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:09:31 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_the-british-woman-on-death-row_2012\n\n  HTTP Re"
+  },
+  {
+    "tmdb_id": 1358482,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:10:13 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_off-season_\n\n  HTTP Request: POST https://porq"
+  },
+  {
+    "tmdb_id": 1537379,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 02:11:01 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_a-long-and-happy-life_\n\n  HTTP Request: POST h"
   }
 ]
