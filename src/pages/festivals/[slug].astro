@@ -39,21 +39,31 @@ const festival = festRow as unknown as {
   logo_path: string | null;
 };
 
-// ── 2. All work_awards for this festival ──────────────────────────────────────
-const { data: waData } = await db
-  .from('work_awards')
-  .select(`
-    id,
-    result,
-    year,
-    work_id,
-    award_id,
-    awards!inner(id, name, scoring_points, is_grand_prize, festival_id),
-    works(id, title, year, tmdb_poster_path, color_assignments(color_iconico))
-  `)
-  .eq('awards.festival_id', festivalId)
-  .order('year', { ascending: false })
-  .limit(1000);
+// ── 2. All work_awards for this festival (paginated — no limit cap) ───────────
+const waData: any[] = [];
+{
+  let _offset = 0;
+  while (true) {
+    const { data: chunk } = await db
+      .from('work_awards')
+      .select(`
+        id,
+        result,
+        year,
+        work_id,
+        award_id,
+        awards!inner(id, name, scoring_points, is_grand_prize, festival_id),
+        works(id, title, year, tmdb_poster_path, color_assignments(color_iconico))
+      `)
+      .eq('awards.festival_id', festivalId)
+      .order('year', { ascending: false })
+      .range(_offset, _offset + 999);
+    if (!chunk || chunk.length === 0) break;
+    waData.push(...chunk);
+    if (chunk.length < 1000) break;
+    _offset += 1000;
+  }
+}
 
 type AwardRow = {
   id: number;
