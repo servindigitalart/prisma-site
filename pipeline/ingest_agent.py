@@ -24,8 +24,8 @@ Steps per film:
     7.  PRE-MIGRATE CHECK — verify derived color JSON
     8.  MIGRATE           — migrate_to_db.py --film {work_id} (draft)
     9.  ENRICH PEOPLE     — bio + photo for new people in this film
-    10. ENRICH AWARDS     — Wikidata SPARQL for this work_id
-    11. RECOMPUTE SCORES  — recompute_film_scores.py + compute_person_rankings.py
+    10. ENRICH AWARDS     — check work_awards table; Wikidata fallback for new films only
+    11. RECOMPUTE SCORES  — compute_rankings.py (canonical formula: award_prestige × tier × multiplier)
     12. VERIFY            — 15-point exhaustive checklist
     13. REPORT            — move to completed/failed queue
 
@@ -530,35 +530,55 @@ def _publish_draft(
         result["steps"]["ENRICH PEOPLE"] = "dry_run"
 
     # ── Step 10: ENRICH AWARDS ────────────────────────────────────────────────
+    # If the work already has curated award data in work_awards, skip Wikidata.
+    # Only fall back to Wikidata enrichment for genuinely new films.
     if dry_run:
-        step(10, "ENRICH AWARDS", "[DRY RUN]", f"would run Wikidata SPARQL for {work_id}")
+        step(10, "ENRICH AWARDS", "[DRY RUN]", f"would check work_awards then run Wikidata if empty")
         result["steps"]["ENRICH AWARDS"] = "dry_run"
     elif execute:
-        ok, out = run_script(["pipeline/enrich_work_awards.py", "--work", work_id], timeout=120)
-        if ok:
-            award_line = next((l for l in out.splitlines() if "award" in l.lower()), "")
-            step(10, "ENRICH AWARDS", "✓", award_line.strip() or work_id)
+        try:
+            _db = get_db()
+            existing_awards = _db.from_("work_awards") \
+                .select("award_id", count="exact") \
+                .eq("work_id", work_id) \
+                .execute()
+            award_count = existing_awards.count or 0
+        except Exception as _e:
+            award_count = -1  # can't check — treat as unknown, run enrichment
+
+        if award_count > 0:
+            step(10, "ENRICH AWARDS", "✓", f"already in DB: {award_count} entries — skipping Wikidata")
             result["steps"]["ENRICH AWARDS"] = "ok"
         else:
-            step(10, "ENRICH AWARDS", "⚠", f"non-fatal: {out[:80]}")
-            result["steps"]["ENRICH AWARDS"] = "warning"
-        time.sleep(1.2)
+            # No existing awards (or couldn't check) — run Wikidata enrichment
+            ok, out = run_script(["pipeline/enrich_work_awards.py", "--work", work_id], timeout=120)
+            if ok:
+                award_line = next((l for l in out.splitlines() if "award" in l.lower()), "")
+                step(10, "ENRICH AWARDS", "✓", award_line.strip() or work_id)
+                result["steps"]["ENRICH AWARDS"] = "ok"
+            else:
+                step(10, "ENRICH AWARDS", "⚠", f"non-fatal: {out[:80]}")
+                result["steps"]["ENRICH AWARDS"] = "warning"
+            time.sleep(1.2)  # Respect Wikidata rate limit
     else:
         step(10, "ENRICH AWARDS", "[DRY RUN]", "no DB connection (not --execute)")
         result["steps"]["ENRICH AWARDS"] = "dry_run"
 
     # ── Step 11: RECOMPUTE SCORES ─────────────────────────────────────────────
+    # Use compute_rankings.py (canonical formula: award_prestige × festival_tier ×
+    # category_multiplier + imdb/popularity/criterion/mubi bonuses) rather than the
+    # older recompute_film_scores.py which uses a different weighted formula.
     if dry_run:
-        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "would run recompute_film_scores + person_rankings")
+        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "would run compute_rankings.py --works-only + person scores")
         result["steps"]["RECOMPUTE SCORES"] = "dry_run"
     elif execute:
-        ok1, _ = run_script(["pipeline/recompute_film_scores.py"], timeout=300)
-        ok2, _ = run_script(["pipeline/compute_person_rankings.py"], timeout=300)
+        ok1, _ = run_script(["pipeline/compute_rankings.py", "--works-only"], timeout=300)
+        ok2, _ = run_script(["pipeline/compute_rankings.py", "--people-only"], timeout=300)
         if ok1 and ok2:
-            step(11, "RECOMPUTE SCORES", "✓", "film scores + person rankings updated")
+            step(11, "RECOMPUTE SCORES", "✓", "work + person ranking scores updated")
             result["steps"]["RECOMPUTE SCORES"] = "ok"
         else:
-            step(11, "RECOMPUTE SCORES", "⚠", "partial: check recompute logs")
+            step(11, "RECOMPUTE SCORES", "⚠", "partial: check compute_rankings logs")
             result["steps"]["RECOMPUTE SCORES"] = "warning"
     else:
         step(11, "RECOMPUTE SCORES", "[DRY RUN]", "no DB connection (not --execute)")
@@ -861,6 +881,57 @@ def process_film(
             return result
 
     # ── Step 8: MIGRATE ───────────────────────────────────────────────────────
+    # Guard: confirm the normalized work JSON was actually written before
+    # calling migrate_to_db.py (which will hard-fail with exit 1 if it's absent).
+    work_json_path = WORKS_DIR / f"{work_id}.json"
+    if not dry_run and not work_json_path.exists():
+        # File missing despite steps 3-6 "succeeding" — most likely a slug
+        # mismatch between normalize_tmdb_work.py output and the work_id we
+        # captured from its stdout.  Scan for the real filename by tmdb_id.
+        actual_path: Path | None = None
+        for p in WORKS_DIR.glob("*.json"):
+            try:
+                d = json.loads(p.read_text())
+                if d.get("ids", {}).get("tmdb") == tmdb_id:
+                    actual_path = p
+                    break
+            except Exception:
+                continue
+        if actual_path:
+            # Slug mismatch — correct work_id for all downstream steps
+            old_id = work_id
+            work_id = actual_path.stem
+            result["work_id"] = work_id
+            step(8, "MIGRATE", "⚠", f"slug mismatch corrected: {old_id} → {work_id}")
+            work_json_path = actual_path
+            derived_file = DERIVED_DIR / f"{work_id}.json"
+        elif execute:
+            # File truly missing — if work is already a draft in Supabase, skip
+            # re-migrate and go straight to enrich/publish steps.
+            try:
+                _db = get_db()
+                _existing = _db.from_("works").select("id,is_published").eq("tmdb_id", tmdb_id).execute()
+                if _existing.data:
+                    existing_id  = _existing.data[0]["id"]
+                    is_published = _existing.data[0].get("is_published", False)
+                    if is_published:
+                        step(8, "MIGRATE", "↷", f"already published as {existing_id} — skipping")
+                        result["status"]  = "skipped"
+                        result["reason"]  = "already published"
+                        result["work_id"] = existing_id
+                        return result
+                    else:
+                        step(8, "MIGRATE", "↷", f"draft in Supabase ({existing_id}), local JSON missing — routing to publish pipeline")
+                        result["work_id"] = existing_id
+                        return _publish_draft(existing_id, result, dry_run=dry_run, execute=execute)
+            except Exception as _chk_err:
+                pass  # Can't check Supabase — fall through to hard fail
+            step(8, "MIGRATE", "✗", f"work JSON not found: {work_json_path}")
+            result["steps"]["MIGRATE"] = "failed"
+            result["status"] = "failed"
+            result["error"]  = f"MIGRATE: work JSON missing — {work_json_path}"
+            return result
+
     migrate_args = ["pipeline/migrate_to_db.py", "--film", work_id]
     if execute:
         migrate_args.append("--execute")
@@ -871,10 +942,13 @@ def process_film(
     else:
         ok, out = run_script(migrate_args)
         if not ok:
-            step(8, "MIGRATE", "✗", out[:120])
+            # Print the full migrate output so the real error is visible in CI logs
+            for line in out.splitlines():
+                print(f"    │ {line}")
+            step(8, "MIGRATE", "✗", out.splitlines()[-1] if out.splitlines() else "exit 1")
             result["steps"]["MIGRATE"] = "failed"
             result["status"] = "failed"
-            result["error"]  = f"MIGRATE: {out[:200]}"
+            result["error"]  = f"MIGRATE: {out[:500]}"
             return result
         if execute:
             result["migrated"] = True
@@ -910,35 +984,55 @@ def process_film(
         result["steps"]["ENRICH PEOPLE"] = "dry_run"
 
     # ── Step 10: ENRICH AWARDS ────────────────────────────────────────────────
+    # If the work already has curated award data in work_awards, skip Wikidata.
+    # Only fall back to Wikidata enrichment for genuinely new films.
     if dry_run:
-        step(10, "ENRICH AWARDS", "[DRY RUN]", f"would run Wikidata SPARQL for {work_id}")
+        step(10, "ENRICH AWARDS", "[DRY RUN]", "would check work_awards then run Wikidata if empty")
         result["steps"]["ENRICH AWARDS"] = "dry_run"
     elif execute:
-        ok, out = run_script(["pipeline/enrich_work_awards.py", "--work", work_id], timeout=120)
-        if ok:
-            award_line = next((l for l in out.splitlines() if "award" in l.lower()), "")
-            step(10, "ENRICH AWARDS", "✓", award_line.strip() or work_id)
+        try:
+            _db = get_db()
+            existing_awards = _db.from_("work_awards") \
+                .select("award_id", count="exact") \
+                .eq("work_id", work_id) \
+                .execute()
+            award_count = existing_awards.count or 0
+        except Exception as _e:
+            award_count = -1  # can't check — treat as unknown, run enrichment
+
+        if award_count > 0:
+            step(10, "ENRICH AWARDS", "✓", f"already in DB: {award_count} entries — skipping Wikidata")
             result["steps"]["ENRICH AWARDS"] = "ok"
         else:
-            step(10, "ENRICH AWARDS", "⚠", f"non-fatal: {out[:80]}")
-            result["steps"]["ENRICH AWARDS"] = "warning"
-        time.sleep(1.2)  # Respect Wikidata rate limit
+            # No existing awards (or couldn't check) — run Wikidata enrichment
+            ok, out = run_script(["pipeline/enrich_work_awards.py", "--work", work_id], timeout=120)
+            if ok:
+                award_line = next((l for l in out.splitlines() if "award" in l.lower()), "")
+                step(10, "ENRICH AWARDS", "✓", award_line.strip() or work_id)
+                result["steps"]["ENRICH AWARDS"] = "ok"
+            else:
+                step(10, "ENRICH AWARDS", "⚠", f"non-fatal: {out[:80]}")
+                result["steps"]["ENRICH AWARDS"] = "warning"
+            time.sleep(1.2)  # Respect Wikidata rate limit
     else:
         step(10, "ENRICH AWARDS", "[DRY RUN]", "no DB connection (not --execute)")
         result["steps"]["ENRICH AWARDS"] = "dry_run"
 
     # ── Step 11: RECOMPUTE SCORES ─────────────────────────────────────────────
+    # Use compute_rankings.py (canonical formula: award_prestige × festival_tier ×
+    # category_multiplier + imdb/popularity/criterion/mubi bonuses) rather than the
+    # older recompute_film_scores.py which uses a different weighted formula.
     if dry_run:
-        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "would run recompute_film_scores + person_rankings")
+        step(11, "RECOMPUTE SCORES", "[DRY RUN]", "would run compute_rankings.py --works-only + person scores")
         result["steps"]["RECOMPUTE SCORES"] = "dry_run"
     elif execute:
-        ok1, _ = run_script(["pipeline/recompute_film_scores.py"], timeout=300)
-        ok2, _ = run_script(["pipeline/compute_person_rankings.py"], timeout=300)
+        ok1, _ = run_script(["pipeline/compute_rankings.py", "--works-only"], timeout=300)
+        ok2, _ = run_script(["pipeline/compute_rankings.py", "--people-only"], timeout=300)
         if ok1 and ok2:
-            step(11, "RECOMPUTE SCORES", "✓", "film scores + person rankings updated")
+            step(11, "RECOMPUTE SCORES", "✓", "work + person ranking scores updated")
             result["steps"]["RECOMPUTE SCORES"] = "ok"
         else:
-            step(11, "RECOMPUTE SCORES", "⚠", "partial: check recompute logs")
+            step(11, "RECOMPUTE SCORES", "⚠", "partial: check compute_rankings logs")
             result["steps"]["RECOMPUTE SCORES"] = "warning"
     else:
         step(11, "RECOMPUTE SCORES", "[DRY RUN]", "no DB connection (not --execute)")
