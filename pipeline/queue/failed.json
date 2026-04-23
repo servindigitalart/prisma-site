@@ -934,5 +934,17 @@
     "failed_at": "2026-04-23",
     "source": "unknown",
     "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 20:48:16 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_saudade-e-de-quem-fica_\n\n  HTTP Request: POST "
+  },
+  {
+    "tmdb_id": 788804,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "VERIFY: only 8/10 critical checks passed"
+  },
+  {
+    "tmdb_id": 976475,
+    "failed_at": "2026-04-23",
+    "source": "unknown",
+    "error": "MIGRATE: exit 1: Running color ID validation...\n  ✅ Color IDs are clean.\n\n  Starting migration — 2026-04-23 22:36:00 UTC\n  Source: /home/runner/work/prisma-site/prisma-site/pipeline\n  Target: https://porqyokkphflvqfclvkj.supabase.co...\n\n  Mode: single-work upsert → work_crazy-poison_1989\n\n  HTTP Request: GET https:/"
   }
 ]
