@@ -704,7 +704,10 @@ def migrate_single_work(
     # Load work file
     work_path = WORKS_DIR / f"{work_id}.json"
     if not work_path.exists():
-        log.error(f"  ✗ Work file not found: {work_path}")
+        # Print to stdout (not just logger) so ingest_agent.py captures it in `out`
+        msg = f"Work file not found: {work_path}"
+        print(f"  ✗ {msg}", flush=True)
+        log.error(f"  ✗ {msg}")
         report.error(work_id, "File not found")
         return False
 
