@@ -43,17 +43,26 @@ const colorStrips: StripEntry[] = COLOR_STRIP_ORDER.map((id) => {
 if (isSupabaseConfigured()) {
   try {
     const db = createServiceClient();
-    const { data } = await db
-      .from('color_assignments')
-      .select(`color_iconico, works!inner(id, title, tmdb_poster_path, is_published)`)
-      .in('color_iconico', COLOR_STRIP_ORDER)
-      .eq('works.is_published', true)
-      .not('works.tmdb_poster_path', 'is', null)
-      .order('color_rank', { ascending: false })
-      .limit(500);
-
     const countPerColor: Record<string, number> = {};
-    for (const row of (data ?? []) as any[]) {
+    const allStripData: any[] = [];
+    let _stripOffset = 0;
+    while (true) {
+      const { data } = await db
+        .from('color_assignments')
+        .select(`color_iconico, works!inner(id, title, tmdb_poster_path, is_published)`)
+        .in('color_iconico', COLOR_STRIP_ORDER as any)
+        .eq('works.is_published', true)
+        .not('works.tmdb_poster_path', 'is', null)
+        .order('color_rank', { ascending: false })
+        .range(_stripOffset, _stripOffset + 999);
+      if (!data || data.length === 0) break;
+      allStripData.push(...data);
+      // Stop early if every color already has 3+ posters
+      const colorsDone = COLOR_STRIP_ORDER.filter(c => (countPerColor[c] ?? 0) >= 3).length;
+      if (colorsDone >= COLOR_STRIP_ORDER.length || data.length < 1000) break;
+      _stripOffset += 1000;
+    }
+    for (const row of allStripData as any[]) {
       const colorId: string = row.color_iconico;
       const work = row.works as { id: string; title: string; tmdb_poster_path: string | null } | null;
       if (!work?.tmdb_poster_path) continue;

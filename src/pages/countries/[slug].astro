@@ -27,23 +27,30 @@ let films: FilmEntry[] = [];
 
 if (isSupabaseConfigured()) {
   const db = createServiceClient();
-  const { data, error } = await db
-    .from('works')
-    .select(`
-      id,
-      title,
-      year,
-      tmdb_poster_path,
-      color_assignments(color_iconico, numeric_score)
-    `)
-    .contains('countries', [iso2])
-    .eq('is_published', true)
-    .order('year', { ascending: false })
-    .limit(500);
+  const allData: any[] = [];
+  let offset = 0;
+  while (true) {
+    const { data, error } = await db
+      .from('works')
+      .select(`
+        id,
+        title,
+        year,
+        tmdb_poster_path,
+        color_assignments(color_iconico, numeric_score)
+      `)
+      .contains('countries', [iso2])
+      .eq('is_published', true)
+      .order('year', { ascending: false })
+      .range(offset, offset + 999);
+    if (error) { console.error('[countries/slug] Error:', error); break; }
+    if (!data || data.length === 0) break;
+    allData.push(...data);
+    if (data.length < 1000) break;
+    offset += 1000;
+  }
 
-  if (error) console.error('[countries/slug] Error:', error);
-
-  for (const row of (data ?? []) as any[]) {
+  for (const row of allData as any[]) {
     const ca = Array.isArray(row.color_assignments)
       ? row.color_assignments[0]
       : row.color_assignments;

@@ -21,10 +21,20 @@ let festivals: FestivalEntry[] = [];
 if (isSupabaseConfigured()) {
   const db = createServiceClient();
 
-  const [{ data: festData }, { data: waData }] = await Promise.all([
-    (db as any).from('festivals').select('id, name, city, country, founded_year, tier, logo_path').order('tier').order('name'),
-    db.from('work_awards').select('result, work_id, awards!inner(festival_id)').limit(5000),
-  ]);
+  const { data: festData } = await (db as any).from('festivals').select('id, name, city, country, founded_year, tier, logo_path').order('tier').order('name');
+
+  const waData: any[] = [];
+  let _waOffset = 0;
+  while (true) {
+    const { data: chunk } = await db
+      .from('work_awards')
+      .select('result, work_id, awards!inner(festival_id)')
+      .range(_waOffset, _waOffset + 999);
+    if (!chunk || chunk.length === 0) break;
+    waData.push(...chunk);
+    if (chunk.length < 1000) break;
+    _waOffset += 1000;
+  }
 
   // Build per-festival film+win counts
   const countMap = new Map<string, { films: Set<string>; wins: number }>();

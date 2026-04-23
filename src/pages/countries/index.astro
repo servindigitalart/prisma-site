@@ -24,16 +24,21 @@ const countMap: Map<string, number> = new Map();
 
 if (isSupabaseConfigured()) {
   const db = createServiceClient();
-  const { data } = await db
-    .from('works')
-    .select('countries')
-    .eq('is_published', true)
-    .limit(2000);
-
-  for (const row of (data ?? []) as { countries: string[] }[]) {
-    for (const iso2 of (row.countries ?? [])) {
-      countMap.set(iso2, (countMap.get(iso2) ?? 0) + 1);
+  let offset = 0;
+  while (true) {
+    const { data } = await db
+      .from('works')
+      .select('countries')
+      .eq('is_published', true)
+      .range(offset, offset + 999);
+    if (!data || data.length === 0) break;
+    for (const row of data as { countries: string[] }[]) {
+      for (const iso2 of (row.countries ?? [])) {
+        countMap.set(iso2, (countMap.get(iso2) ?? 0) + 1);
+      }
     }
+    if (data.length < 1000) break;
+    offset += 1000;
   }
 } else {
   const works = loadAllWorks();
