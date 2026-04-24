@@ -1,8 +1,8 @@
 name: PRISMA — Nightly Ingest
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'   # Every 2 hours = 12 runs/day
+  # schedule:
+  #   - cron: '0 */2 * * *'   # Every 2 hours = 12 runs/day  [PAUSED]
   workflow_dispatch:
     inputs:
       batch:
