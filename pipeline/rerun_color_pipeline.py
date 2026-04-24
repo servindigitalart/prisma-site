@@ -31,10 +31,13 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import subprocess
 import sys
 import time
 from collections import Counter
 from pathlib import Path
+
+import requests
 
 # ─── Env + path setup ─────────────────────────────────────────────────────────
 
@@ -61,6 +64,89 @@ FALLBACK_AI_CONFIDENCE = 0.8
 
 # Rate-limit between Gemini calls (seconds)
 GEMINI_RATE_LIMIT = 3
+
+# TMDB
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
+RAW_DIR      = PIPELINE_DIR / "raw"
+
+
+# ─── TMDB fetch + normalize ───────────────────────────────────────────────────
+
+def fetch_and_normalize(work_id: str, tmdb_id: int, verbose: bool = False) -> bool:
+    """
+    Fetch raw movie data from TMDB and run normalize_tmdb_work.py.
+    Returns True if the normalized work JSON exists afterwards.
+
+    The raw file is cached at pipeline/raw/tmdb_{tmdb_id}.json so subsequent
+    re-runs skip the network call.
+    """
+    raw_path  = RAW_DIR / f"tmdb_{tmdb_id}.json"
+    norm_path = WORKS_DIR / f"{work_id}.json"
+
+    # ── 1. Fetch raw from TMDB (unless already cached) ────────────────────────
+    # Replicates ingest_tmdb.py's exact format:
+    #   {"movie": {...}, "credits": {...}, "videos": {...}, "keywords": {...}, "watch_providers": {...}}
+    if not raw_path.exists():
+        if not TMDB_API_KEY:
+            print(f"    ✗ TMDB_API_KEY not set — cannot fetch raw data")
+            return False
+
+        def _tmdb_get(endpoint: str) -> dict:
+            r = requests.get(
+                f"https://api.themoviedb.org/3{endpoint}",
+                params={"api_key": TMDB_API_KEY},
+                timeout=15,
+            )
+            r.raise_for_status()
+            return r.json()
+
+        try:
+            data = {
+                "movie":           _tmdb_get(f"/movie/{tmdb_id}"),
+                "credits":         _tmdb_get(f"/movie/{tmdb_id}/credits"),
+                "videos":          _tmdb_get(f"/movie/{tmdb_id}/videos"),
+                "keywords":        _tmdb_get(f"/movie/{tmdb_id}/keywords"),
+                "watch_providers": _tmdb_get(f"/movie/{tmdb_id}/watch/providers"),
+            }
+        except requests.RequestException as e:
+            print(f"    ✗ TMDB request failed: {e}")
+            return False
+        raw_path.parent.mkdir(parents=True, exist_ok=True)
+        raw_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+        print(f"    ↓ Fetched raw data → {raw_path.name}")
+    else:
+        print(f"    ↷ Raw cache hit: {raw_path.name}")
+
+    # ── 2. Normalize ──────────────────────────────────────────────────────────
+    result = subprocess.run(
+        [sys.executable, "pipeline/normalize_tmdb_work.py", str(tmdb_id)],
+        capture_output=True,
+        text=True,
+        timeout=60,
+        cwd=str(BASE_DIR),
+    )
+    if result.returncode != 0:
+        err = (result.stderr.strip() or result.stdout.strip())[:300]
+        print(f"    ✗ normalize_tmdb_work.py failed: {err}")
+        if verbose:
+            print(result.stdout[-500:] if result.stdout else "")
+        return False
+
+    if not norm_path.exists():
+        # Output might have a different slug — scan for it
+        for p in WORKS_DIR.glob("*.json"):
+            try:
+                d = json.loads(p.read_text())
+                if d.get("ids", {}).get("tmdb") == tmdb_id:
+                    print(f"    ↺ Normalized file found at different slug: {p.name}")
+                    return True
+            except Exception:
+                continue
+        print(f"    ✗ normalize ran OK but {norm_path.name} still missing")
+        return False
+
+    print(f"    ✓ Normalized → {norm_path.name}")
+    return True
 
 
 # ─── Supabase helpers ─────────────────────────────────────────────────────────
@@ -136,13 +222,13 @@ def fetch_fallback_works(db, limit: int | None) -> list[dict]:
     # 4. Attach ranking score and published work metadata
     work_ids = [r["work_id"] for r in ca_rows]
 
-    # Fetch work titles/years in batches of 100
+    # Fetch work titles/years/tmdb_ids in batches of 100
     work_meta: dict[str, dict] = {}
     for i in range(0, len(work_ids), 100):
         batch_ids = work_ids[i : i + 100]
         rows = (
             db.table("works")
-            .select("id, title, year, is_published")
+            .select("id, title, year, is_published, tmdb_id")
             .in_("id", batch_ids)
             .execute()
         ).data
@@ -152,15 +238,16 @@ def fetch_fallback_works(db, limit: int | None) -> list[dict]:
     # Build final list
     result = []
     for row in ca_rows:
-        wid = row["work_id"]
+        wid  = row["work_id"]
         meta = work_meta.get(wid, {})
         result.append({
             "work_id":        wid,
             "title":          meta.get("title", wid),
             "year":           meta.get("year", "?"),
-            "published":     meta.get("is_published", False),
+            "published":      meta.get("is_published", False),
             "current_color":  row["color_iconico"],
             "ranking_score":  score_map.get(wid, 0.0),
+            "tmdb_id":        meta.get("tmdb_id"),
         })
 
     return result
@@ -200,6 +287,7 @@ def run_for_work(
     work_id: str,
     title: str,
     year,
+    tmdb_id: int | None,
     dry_run: bool,
     verbose: bool,
 ) -> tuple[str | None, str | None]:
@@ -209,11 +297,34 @@ def run_for_work(
     Returns:
         (old_color, new_color) — new_color is None on failure.
     """
-    # Load normalized JSON (required for Cultural Memory call)
+    # Load normalized JSON — fetch + normalize from TMDB if missing
     work_path = WORKS_DIR / f"{work_id}.json"
     if not work_path.exists():
-        print(f"    ✗ Normalized JSON not found: {work_path}")
-        return None, None
+        if tmdb_id:
+            print(f"    ⚠ Normalized JSON missing — fetching from TMDB (id={tmdb_id})…")
+            if dry_run:
+                print(f"    [DRY RUN] would fetch tmdb_{tmdb_id} and normalize")
+                return None, None
+            ok = fetch_and_normalize(work_id, tmdb_id, verbose=verbose)
+            if not ok:
+                print(f"    ✗ Could not normalize {work_id} from TMDB")
+                return None, None
+            # After normalization the slug might differ — re-scan
+            if not work_path.exists():
+                for p in WORKS_DIR.glob("*.json"):
+                    try:
+                        d = json.loads(p.read_text())
+                        if d.get("ids", {}).get("tmdb") == tmdb_id:
+                            work_path = p
+                            break
+                    except Exception:
+                        continue
+            if not work_path.exists():
+                print(f"    ✗ Normalized JSON still not found after fetch: {work_path}")
+                return None, None
+        else:
+            print(f"    ✗ Normalized JSON not found and no tmdb_id available: {work_path}")
+            return None, None
 
     work = json.loads(work_path.read_text())
     old_color: str | None = None
@@ -355,7 +466,7 @@ def main() -> int:
         # Single-work mode: fetch metadata from Supabase
         rows = (
             db.table("works")
-            .select("id, title, year")
+            .select("id, title, year, tmdb_id")
             .eq("id", args.work_id)
             .execute()
         ).data
@@ -377,6 +488,7 @@ def main() -> int:
             "published":     True,
             "current_color": current_color,
             "ranking_score": 0.0,
+            "tmdb_id":       w.get("tmdb_id"),
         }]
     else:
         works = fetch_fallback_works(db, limit=args.limit)
@@ -398,15 +510,18 @@ def main() -> int:
         year    = entry["year"]
         current = entry["current_color"]
         score   = entry["ranking_score"]
+        tmdb_id = entry.get("tmdb_id")
 
         print(f"  [{i}/{len(works)}] {work_id}")
-        print(f"    {title} ({year})  |  current={current}  |  score={score:.3f}")
+        print(f"    {title} ({year})  |  current={current}  |  score={score:.3f}"
+              + (f"  |  tmdb={tmdb_id}" if tmdb_id else ""))
 
         old_color, new_color = run_for_work(
             db=db,
             work_id=work_id,
             title=title,
             year=year,
+            tmdb_id=tmdb_id,
             dry_run=args.dry_run,
             verbose=args.verbose,
         )
